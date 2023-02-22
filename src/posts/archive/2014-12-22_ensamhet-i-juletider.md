@@ -1,7 +1,6 @@
 ---
 id: 599bf6b7328ea00019b8d528
 title: "Ensamhet i juletider"
-feature_image: /assets/images/2014/12/Gustav-Lindqvist_2014-12-06_0095_s.jpg
 description: "För de flesta så är julen (och nyår) en tid för gemenskap, familj och vänner. Att titta på film, umgås och att bara vara tillsammans. En…"
 date: 2014-12-22
 tags: vinter

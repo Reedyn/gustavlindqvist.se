@@ -10,12 +10,14 @@ module.exports = {
                 .substring(0, this.page.outputPath.lastIndexOf('/')) // Remove document from path
                 .replace(/^\//, ''); // remove first slash
             // If the image is absolute path or external
-
-            const folderPath = documentPath
+            console.log('documentPath:',documentPath);
+            console.log('src:',src);
+            const folderPath = './src/' + documentPath
                 .substring(0, documentPath.lastIndexOf('/') + 1) // Remove document from path
                 .replace(/^\//, ''); // remove first slash
             // If the image is absolute path or external
 
+            console.log('folderPath:',folderPath);
             if (src.startsWith('assets') || src.startsWith('http')) {
 
             } else { // Otherwise assume the file is relative to the document folder
