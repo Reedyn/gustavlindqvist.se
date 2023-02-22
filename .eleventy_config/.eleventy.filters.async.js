@@ -1,4 +1,4 @@
-const Image = require('@11ty/eleventy-img');
+const EleventyImage = require('@11ty/eleventy-img');
 
 module.exports = {
     featuredImageFilter: (src, sizes, style, postData, callback) => {
@@ -22,9 +22,6 @@ module.exports = {
         const folderPath = documentPath
             .substring(0, documentPath.lastIndexOf("/") + 1) // Remove document from path
             .replace(/^\//, ''); // remove first slash
-
-        console.log('src:',src)
-        console.log('folderPath:',folderPath)
         // If the image is absolute path or external
         if (src.startsWith('http')) {
 
@@ -40,7 +37,7 @@ module.exports = {
             outputDir: outputPath,
             urlPath: postData.url
         };
-        Image(src, options).then((metadata) => {
+        EleventyImage(src, options).then((metadata) => {
             let format = '';
             for (const key in metadata) {
                 format = key;
