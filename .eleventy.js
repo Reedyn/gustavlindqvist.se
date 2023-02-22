@@ -9,7 +9,6 @@ const markdown = require('./.eleventy_config/.eleventy.markdown.js');
 const filters = require('./.eleventy_config/.eleventy.filters.js');
 const asyncFilters = require('./.eleventy_config/.eleventy.filters.async.js');
 const shortcodes = require('./.eleventy_config/.eleventy.shortcodes.js');
-const asyncShortcodes = require('./.eleventy_config/.eleventy.shortcodes.async.js');
 const collections = require('./.eleventy_config/.eleventy.collections.js');
 
 const CONTENT_GLOBS = {
@@ -58,11 +57,6 @@ module.exports = function (eleventyConfig) {
     // Shortcodes
     Object.keys(shortcodes).forEach((shortcodeName) => {
         eleventyConfig.addShortcode(shortcodeName, shortcodes[shortcodeName])
-    });
-
-    // Asynchronous shortcodes
-    Object.keys(asyncShortcodes).forEach((shortcodeName) => {
-        eleventyConfig.addNunjucksAsyncShortcode(shortcodeName, asyncShortcodes[shortcodeName])
     });
 
     // Collections
