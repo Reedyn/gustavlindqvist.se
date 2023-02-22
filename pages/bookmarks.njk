@@ -1,0 +1,41 @@
+---
+title: "Bokmärken"
+layout: base.njk
+templateClass: post-template
+type: page
+description: "Artiklar, böcker, filmer och annat som jag tycker är extra bra, intressant eller kul; i ordningen som <em>jag</em> läste/upptäckte dem (senast överst)."
+permalink: /bokmarken/
+eleventyComputed:
+    meta:
+        author:
+            name: "{{ metadata.author.name }}"
+    published: "{{ date }}"
+    modified: "{% if updateDate %}{{ updateDate | iso8601 }}{% endif %}"
+---
+<article class="page">
+    <header id="page-header" class="page-header">
+        <div class="page-metadata">
+            <h1 class="page-title">{{ title }}</h1>
+            <p class="description">{{ description | renderUsingMarkdown | safe }}</p>
+        </div>
+    </header>
+    <section aria-label="Lista över bokmärken" class="page-content wrapper Cards" id="page-content">
+        {% for bookmark in bookmarks | reverse %}
+        {%- set computedDate = bookmark.date | dateFromString -%}
+        <article aria-labelledby="{{ bookmark.url | hashString }}" class="Card bookmark -align-bottom{% if bookmark.feature_image %} -featured-image{% endif %}{% if bookmark.type %} -{{ bookmark.type }}{% endif %}" style="{% if bookmark.feature_image %} background-image: url({{ bookmark.feature_image }});{% endif %}{% if bookmark.color %} --color__background__contrast__widget: {{ bookmark.color }};{% endif %}">
+            {% if (bookmark.tags.length) %}<span class="Card__content__extra -top-left">
+                {% if (bookmark.tags) %}<span class="tags">
+                    {%- for tag in bookmark.tags -%}
+                        <span class="tag">{{ tag }}</span>
+                    {%- endfor -%}
+                    </span>{% endif %}
+                </span>{% endif %}
+            {% if bookmark.type %} <span class="Card__content__extra -top-right"><svg class="icon" role="presentation" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/{{ bookmark.type }}.svg#{{ bookmark.type }}"></use></svg></span>{% endif %}
+            <div class="Card__content">
+                <h2 class="Card__title"><a id="{{ bookmark.url | hashString }}" class="Card__title-link" href="{{ bookmark.url }}">{{ bookmark.title }}</a></h2>
+                <p class="description">{{ bookmark.description }}</p>
+            </div>
+        </article>
+        {% endfor %}
+    </section>
+</article>

@@ -1,0 +1,9 @@
+<article role="complementary" id="read-more" aria-labelledby="next-post__title" class="next-post hidden@print">
+    <section class="next-post__metadata">
+        {% set seriesTitle = tagMetadata[series].title or series %}
+        <p id="read-more__text" class="read-more-text">~ Läs nästa inlägg i {{ seriesTitle }} ~</p>
+        <a id="next-post__title" class="next-post__title" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+        {% if nextPost.data.page.date %}<p class="next-post__date"><time datetime="{{ nextPost.data.page.date | fullISODate }}" title="{{ nextPost.data.page.date | shortISODate }}">{{ nextPost.data.page.date | readableLongDate }}</time></p>{% endif %}
+    </section>
+    {{ nextPostOptimizedFeaturedImage | safe }}
+</article>

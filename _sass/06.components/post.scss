@@ -1,0 +1,11 @@
+.post {
+    overflow: hidden;
+    width: 100%;
+}
+
+.canonical {
+    color: var(--color__text-alt);
+    &:before {
+        content: "Länk: ";
+    }
+}

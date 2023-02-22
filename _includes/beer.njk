@@ -1,0 +1,247 @@
+---
+layout: base.njk
+templateClass: post-template
+type: page
+eleventyComputed:
+    page_title: "{{ title }} / Gustavs hembryggeri"
+    meta:
+        author:
+            name: "{{ metadata.author.name }}"
+        published: "{{ date | isoString }}"
+        modified: "{% if updateDate %}{{ updateDate | isoString }}{% endif %}"
+---
+<style>
+    td:first-child {
+        font-weight: 500;
+        width: 1%;
+        padding-right: 1em;
+    }
+
+    .post-title img {
+        max-width: 30rem;
+    }
+
+    .post-header .post-title {
+        font-size: calc(3.2rem + 1.5vw)
+    }
+
+    .post-header .post-date {
+        display: none;
+    }
+
+    table {
+        margin-top: 1.5rem;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+</style>
+{% set breadcrumbs = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, { includeSelf: true }) %}
+{% set recipe = recipeId | getRecipe(brewfather.recipes) %}
+{% set batches = recipeId | getBatchesWithRecipeId(brewfather.batches) %}
+<article class="post">
+    <header id="post-header" class="post-header{% if feature_image %} -feature-image{% endif %}"
+            style="{% if feature_image %}background-image: url({{ feature_image }});{% endif %}{% if feature_image_position %} background-position: {{ feature_image_position }};{% endif %}">
+        <section class="post-metadata">
+            <h1 class="post-title" aria-label="{{ title }}" data-slugged-title="{{ title | slug }}">
+                {% if label %}
+                    <svg class="beer-label" role="presentation" aria-hidden="true" viewBox="{{ label_viewbox }}">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" href="{{ label }}"></use></svg>
+                {% else %}{{ title }}{% endif %}</h1>
+        </section>
+    </header>
+    <section class="post-content content" id="post-content" aria-label="Sidans innehåll">
+        {% include 'partials/breadcrumbs.njk' %}
+        {{ content | safe }}
+        <p>
+            <span class="small secondary">Öltypsdefinition <sup><a href="https://styles.shbf.se/main.php?SnapshotName=2020" target="_blank">[{{ recipe.style.styleGuide }}]</a></sup><span class="sr-only">:</span></span><br>
+            <span class="large">{{ recipe.style.name }} <span class="secondary normal">({{ recipe.style.categoryNumber }}{{ recipe.style.styleLetter }}. {{ recipe.style.category }})</span></span>
+        </p>
+        <div id="beer-statistics" class="beer-statistics">
+            <ul class="beer-statistics__list">
+                <li class="beer-statistics__list-item">
+                    <span class="beer-statistics__list-item__label">% ALC.</span>
+                    <span class="beer-statistics__list-item__value">{{ recipe.abv }}%</span>
+                </li>
+                <li class="beer-statistics__list-item">
+                    <span class="beer-statistics__list-item__label">IBU</span>
+                    <span class="beer-statistics__list-item__value">{{ recipe.ibu }}</span>
+                </li>
+                <li class="beer-statistics__list-item">
+                    <span class="beer-statistics__list-item__label">Relativ beska (RBR)</span>
+                    <span class="beer-statistics__list-item__value">{{ recipe.rbRatio }}</span>
+                </li>
+                <li class="beer-statistics__list-item">
+                    <span class="beer-statistics__list-item__label">Kolsyresättning</span>
+                    <span class="beer-statistics__list-item__value">{{ recipe.carbonation }} C0² vol.</span>
+                </li>
+                <li class="beer-statistics__list-item">
+                    <span class="beer-statistics__list-item__label">OG</span>
+                    <span class="beer-statistics__list-item__value">{{ recipe.og | trailingZeros(5) }}</span>
+                </li>
+                <li class="beer-statistics__list-item">
+                    <span class="beer-statistics__list-item__label">FG</span>
+                    <span class="beer-statistics__list-item__value">{{ recipe.fg | trailingZeros(5) }}</span>
+                </li>
+            </ul>
+        </div>
+        <div id="beer-ingredients" class="beer-ingredients" aria-labelledby="ingredienser">
+            <h2 id="ingredienser"><a class="header-anchor" href="#ingredienser">Ingredienser</a> <span class="secondary">({{ recipe.batchSize }} liter)</span></h2>
+            <span class="beer-ingredients__label" title="{{ recipe.color }} EBC"><svg class="icon -large" role="presentation" style="color: {{ recipe.colorHEX }}" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/malt.svg#malt"></use></svg> <span class="uppercase semibold">Extraktgivare</span> <span class="secondary">({{ recipe.fermentablesTotalAmount }} kg)</span></span>
+            <ul class="beer-ingredients__list">
+                {% for fermentable in recipe.fermentables %}
+                <li class="beer-ingredients__list-item">
+                    <span class="beer-ingredients__list-item__left secondary">{{ fermentable.amount }} kg</span>
+                    <span class="beer-ingredients__list-item__middle"><span class="secondary">{{ fermentable.supplier }}</span> <span class="semibold">{{ fermentable.name }}</span></span>
+                    <span class="beer-ingredients__list-item__right secondary">{{ fermentable.percentage }}%<span class="sr-only"> av totala mängden.</span></span>
+                    <span class="beer-ingredients__list-item__bottom secondary"><svg class="icon -large" style="color: {{ fermentable.colorHEX }}" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/{{ fermentable.type.code }}.svg#{{ fermentable.type.code }}"></use></svg>{{ fermentable.type.label }} ({{ fermentable.color }} EBC)</span>
+                </li>
+                {% endfor %}
+            </ul>
+            <span class="beer-ingredients__label"><svg class="icon -hops -large" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/hops.svg#hops"></use></svg> <span class="uppercase semibold">Humle</span> <span class="secondary">({{ recipe.hopsTotalAmount }} g)</span></span>
+            <ul class="beer-ingredients__list">
+            {% for hop in recipe.hops %}
+                <li class="beer-ingredients__list-item">
+                    <span class="beer-ingredients__list-item__left secondary">{{ hop.amount }} g</span>
+                    <span class="beer-ingredients__list-item__middle"><span class="semibold">{{ hop.name }}</span> <span class="secondary">({{ hop.alpha }}%)</span></span>
+                    <span class="beer-ingredients__list-item__right">{{ hop.use }}</span>
+                    <span class="beer-ingredients__list-item__bottom-right secondary">{{ hop.time }} {{ hop.timeunit }}</span>
+                    <span class="beer-ingredients__list-item__bottom secondary">{{ hop.ibu }} IBU</span>
+                </li>
+            {% endfor %}
+            </ul>
+            <span class="beer-ingredients__label"><svg class="icon -yeast -large" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/e-flask.svg#e-flask"></use></svg> <span class="uppercase semibold">Jäst</span></span>
+            <ul class="beer-ingredients__list">
+            {% for yeast in recipe.yeasts %}
+                <li class="beer-ingredients__list-item">
+                    <span class="beer-ingredients__list-item__left secondary">{{ yeast.amount }} {{ yeast.unit }}</span>
+                    <span class="beer-ingredients__list-item__right">{{ yeast.form }}</span>
+                    <span class="beer-ingredients__list-item__middle"><span class="secondary">{{ yeast.laboratory}}</span> <span class="semibold">{{ yeast.productId }}</span></span>
+                    <span class="beer-ingredients__list-item__bottom secondary">{{ yeast.name }}</span>
+                </li>
+            {% endfor %}
+            </ul>
+            <span class="beer-ingredients__label"><svg class="icon -miscs -large" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/additives.svg#icon"></use></svg> <span class="uppercase semibold">Tillsatser</span></span>
+            <ul class="beer-ingredients__list">
+            {% for additive in recipe.miscs %}
+                <li class="beer-ingredients__list-item">
+                    <span class="beer-ingredients__list-item__left secondary">{{ additive.amount }} {{ additive.unit }}</span>
+                    <span class="beer-ingredients__list-item__middle"><span class="semibold">{{ additive.name }}</span></span>
+                    <span class="beer-ingredients__list-item__bottom secondary">{{ additive.type }}</span>
+                    {% if additive.time %}
+                        <span class="beer-ingredients__list-item__bottom-right secondary">{{ additive.time }} min</span>
+                        <span class="beer-ingredients__list-item__right">{{ additive.use }}</span>
+                    {% else %}
+                        <span class="beer-ingredients__list-item__right">{{ additive.use }}</span>
+                    {% endif %}
+                </li>
+            {% endfor %}
+            </ul>
+        </div>
+        <aside id="batches" class="batches" aria-labelledby="satser">
+            <h2 id="satser"><a class="header-anchor" href="#satser">Bryggda satser</a></h2>
+            {% for batch in batches %}
+                <h3 id="{{ batch.brewDate | shortISODate }}"><a class="header-anchor" href="#{{ batch.brewDate | shortISODate }}">{{ batch.brewDate | shortISODate }}</a> <span class="batches__status">{{ batch.status.label }}</span></h3>
+                {% if batch.status.code === "planned" %}
+                    <ul class="beer-statistics__list">
+                        {% if batch.recipe.batchSize %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">Volym <span class="secondary">(satsstorlek)</span></span>
+                            <span class="beer-statistics__list-item__value">{{ batch.recipe.batchSize }} liter</span>
+                            </li>{% endif %}
+                    </ul>
+                {% elseif batch.status.code === "brewing" %}
+                    <ul class="beer-statistics__list">
+                        {% if batch.recipe.batchSize %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">Volym <span class="secondary">(satsstorlek)</span></span>
+                            <span class="beer-statistics__list-item__value">{{ batch.recipe.batchSize }} liter</span>
+                            </li>{% endif %}
+                    </ul>
+                {% elseif batch.status.code === "fermenting" %}
+                    <ul class="beer-statistics__list">
+                        {% if batch.measuredBatchSize %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">Volym <span class="secondary">(i jästank)</span></span>
+                            <span class="beer-statistics__list-item__value">{{ batch.measuredBatchSize }} liter</span>
+                            </li>{% elseif batch.recipe.batchSize %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">Volym <span class="secondary">(satsstorlek)</span></span>
+                            <span class="beer-statistics__list-item__value">{{ batch.recipe.batchSize }} liter</span>
+                            </li>{% endif %}
+                        {% if batch.recipe.ibu %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">IBU</span>
+                            <span class="beer-statistics__list-item__value">{{ batch.recipe.ibu }}</span>
+                            </li>{% endif %}
+                        {% if batch.last_reading %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">Temperatur ({{ batch.last_reading.temp.time | readableDate }})</span>
+                            <span class="beer-statistics__list-item__value">{{ batch.last_reading.temp.value }}ºC</span>
+                            </li>{% endif %}
+                        {% if batch.measuredOg %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">OG</span>
+                            <span class="beer-statistics__list-item__value">{{ batch.measuredOg | trailingZeros(5) }}</span>
+                            </li>{% endif %}
+                        {% if batch.last_reading %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">SG ({{ batch.last_reading.sg.time | readableDate }})</span>
+                            <span class="beer-statistics__list-item__value">{{ batch.last_reading.sg.value | trailingZeros(5) }}</span>
+                            </li>{% endif %}
+                        {% if  batch.estimatedFg %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">FG <span class="secondary">(beräknad)</span></span>
+                            <span class="beer-statistics__list-item__value">{{ batch.estimatedFg | trailingZeros(5) }}</span>
+                            </li>{% endif %}
+                    </ul>
+                {% elseif batch.status.code === "conditioning" %}
+                    <ul class="beer-statistics__list">
+                        {% if batch.measuredBottlingSize %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">Volym ({{ batch.measuredBottlingSize | volumeToBottles }} flaskor)</span>
+                            <span class="beer-statistics__list-item__value">{{ batch.measuredBottlingSize }} liter</span>
+                            </li>{% endif %}
+                        {% if batch.recipe.ibu %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">IBU</span>
+                            <span class="beer-statistics__list-item__value">{{ batch.recipe.ibu }}</span>
+                            </li>{% endif %}
+                        {% if batch.recipe.carbonation %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">Kolsyresättning</span>
+                            <span class="beer-statistics__list-item__value">{{ batch.recipe.carbonation }} C0² vol.</span>
+                            </li>{% endif %}
+                        {% if batch.measuredAbv %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">% ALC.</span>
+                            <span class="beer-statistics__list-item__value">{{ batch.measuredAbv }}%</span>
+                            </li>{% endif %}
+                        {% if batch.measuredOg %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">OG</span>
+                            <span class="beer-statistics__list-item__value">{{ batch.measuredOg | trailingZeros(5) }}</span>
+                            </li>{% endif %}
+                        {% if batch.measuredFg %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">FG</span>
+                            <span class="beer-statistics__list-item__value">{{ batch.measuredFg | trailingZeros(5) }}</span>
+                            </li>{% endif %}
+                    </ul>
+                {% elseif batch.status.code === "completed" %}
+                    <ul class="beer-statistics__list">
+                        {% if batch.measuredBottlingSize %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">Volym ({{ batch.measuredBottlingSize | volumeToBottles }} flaskor)</span>
+                            <span class="beer-statistics__list-item__value">{{ batch.measuredBottlingSize }} liter</span>
+                            </li>{% endif %}
+                        {% if batch.recipe.ibu %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">IBU</span>
+                            <span class="beer-statistics__list-item__value">{{ batch.recipe.ibu }}</span>
+                            </li>{% endif %}
+                        {% if batch.recipe.carbonation %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">Kolsyresättning</span>
+                            <span class="beer-statistics__list-item__value">{{ batch.recipe.carbonation }} C0² vol.</span>
+                            </li>{% endif %}
+                        {% if batch.measuredAbv %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">% ALC.</span>
+                            <span class="beer-statistics__list-item__value">{{ batch.measuredAbv }}%</span>
+                            </li>{% endif %}
+                        {% if batch.measuredOg %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">OG</span>
+                            <span class="beer-statistics__list-item__value">{{ batch.measuredOg | trailingZeros(5) }}</span>
+                            </li>{% endif %}
+                        {% if batch.measuredFg %}<li class="beer-statistics__list-item">
+                            <span class="beer-statistics__list-item__label">FG</span>
+                            <span class="beer-statistics__list-item__value">{{ batch.measuredFg | trailingZeros(5) }}</span>
+                            </li>{% endif %}
+                    </ul>
+                {% endif %}
+            {% endfor %}
+        </aside>
+    </section>
+</article>

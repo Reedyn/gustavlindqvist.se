@@ -1,0 +1,12 @@
+name: Build 11ty on schedule (Netlify)
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Trigger build on Netlify
+        run: curl -X POST ${{ secrets.NETLIFY_BUILD_HOOK }}

@@ -1,0 +1,7 @@
+Sitemap: https://gustavlindqvist.se/sitemap.xml
+
+User-agent: *
+Disallow: /onskelista
+Disallow: /spark
+Disallow: /cykling/planeringsverktyg
+Disallow: /mtb/planeringsverktyg

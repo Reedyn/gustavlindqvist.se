@@ -1,0 +1,14 @@
+.site-header__navigation {
+    flex: 1;
+    text-align: right;
+    ul {
+        margin: 0;
+        li {
+            display: inline-block;
+            margin-left: var(--margin__small);
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+}

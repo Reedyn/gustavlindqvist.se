@@ -1,0 +1,35 @@
+.beers {
+    display: grid;
+    margin-top: var(--margin__medium);
+    margin-bottom: var(--margin__medium);
+    grid-auto-flow: dense;
+    grid-gap: var(--margin__medium);
+    grid-template-columns: 1fr;
+
+    @include respond-to(small) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.beer {
+    margin: auto;
+    padding: var(--padding__medium);
+
+    a {
+        &:hover, &:focus {
+            .beer-label {
+                filter: drop-shadow(0 0 1rem var(--color__link));
+            }
+        }
+    }
+
+
+    .beer-title {
+        margin: 0;
+    }
+
+    .beer-label {
+        width: 100%;
+        transition: .25s all ease;
+    }
+}

@@ -1,0 +1,18 @@
+{% if rssfeeds[series] and rssfeeds[series].length %}
+<aside class="Syndicated-content hidden@print" aria-labelledby="andra-bloggar">
+    <h2 class="Syndicated-content__title separator-heading" id="andra-bloggar"><span>Annat att läsa om {{ series }}</span></h2>
+    <ul class="post-list">
+        {% for feedItem in rssfeeds[series] %}
+            {% if loop.index0 < 5 %}
+            <li class="post-list__item">
+                <a class="post-title post-link" href="{{ feedItem.link }}" target="_blank" rel="noopener" title="Öppnas i ny flik.">{{ feedItem.title }}</a>
+                <p class="post-date">
+                    <time class="timeago" firstletterupper datetime="{{ feedItem.publicationDate | shortISODate }}T00:00:00.000+01:00" title="{{ feedItem.publicationDate | shortISODate }}">{{ feedItem.publicationDate  | readableDate }}</time> via
+                    <a href="{{ feedItem.blogLink }}">{{ feedItem.blogName }}</a>
+                </p>
+            </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</aside>
+{% endif %}

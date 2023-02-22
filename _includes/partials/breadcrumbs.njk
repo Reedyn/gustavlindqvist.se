@@ -1,0 +1,7 @@
+{% if breadcrumbs %}<nav aria-label="Breadcrumb" class="Breadcrumbs"><ol>
+    {%- for navItem in breadcrumbs -%}
+    <li>
+        <a href="{{ navItem.url }}">{{ navItem.title }}</a>
+    </li>
+    {% endfor %}
+</ol></nav>{% endif %}

@@ -1,0 +1,58 @@
+---
+title: "Kartdemo"
+description: "Kartdemo"
+date: 2019-10-17
+permalink: false
+---
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""/>
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+<figure class="map -wide">
+    <div id="map"></div>
+</figure>
+<style>
+#map { height: 50vh; }
+</style>
+<script>
+    let map = {};
+const initializeMap = () => {
+    const map = L.map('map').setView([57.7803, 14.1682], 14);
+    let streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/256/{z}/{x}/{y}?access_token={accessToken}', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+        maxZoom: 18,
+        id: 'mapbox/streets-v11',
+        tileSize: 256,
+        accessToken: 'pk.eyJ1IjoiZ3VzdGF2bGluZHF2aXN0IiwiYSI6ImNsMXA2NndlNDBicnczanA5dzBwYmdzMXgifQ.XsDdLJp61FL_3tiMTnehWA'
+    }).addTo(map);
+    let cyclosm = L.tileLayer('https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        maxZoom: 18,
+        id: 'cyclosm'
+    }).addTo(map);
+    let osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        maxZoom: 18,
+        id: 'osm'
+    }).addTo(map);
+    let outdoors = L.tileLayer('https://tile.thunderforest.com/outdoors/{z}/{x}/{y}.png?apikey=f3015188d6f544c8a4d28e77e6866d55', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="http://www.thunderforest.com/maps/outdoors/">Thunderforest</a>',
+        maxZoom: 18,
+        id: 'outdoors'
+    }).addTo(map);
+
+    var baseMaps = {
+        "CyclOSM": cyclosm,
+        "Thunderforest Outdoors": outdoors,
+        "OpenStreetMap": osm,
+        "Mapbox Streets": streets
+    };
+
+    L.control.layers(baseMaps).addTo(map);
+};
+window.addEventListener('load', initializeMap);
+</script>
+
+

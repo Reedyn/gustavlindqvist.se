@@ -1,0 +1,61 @@
+html {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 62.5% // Set 1 rem = 10 px as default
+}
+
+body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 100%;
+    min-height: 100%;
+    background: var(--color__background);
+    color: var(--color__text);
+    font-size: var(--font__size);
+    font-family: var(--font__sans-serif);
+    font-weight: 500;
+    line-height: 1.8;
+
+    main {
+        flex: 1;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+p,
+ul,
+ol,
+blockquote,
+br,
+button,
+canvas,
+caption,
+col,
+colgroup,
+dd,
+dl,
+dt,
+embed,
+fieldset,
+figcaption,
+figure,
+img,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+
+

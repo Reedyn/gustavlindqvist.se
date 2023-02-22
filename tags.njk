@@ -1,0 +1,55 @@
+---
+layout: base.njk
+pagination:
+    data: collections
+    size: 1
+    alias: tag
+    filter:
+        - all
+        - beer
+        - page
+        - post
+        - posts
+        - postsByYear
+        - tagsBySize
+permalink: /{{ tag | slug }}/
+templateClass: tag-template
+---
+{% set tagData = tagMetadata[tag] %}
+{% set title = tagData.title %}
+<article class="tag">
+    <header id="tag-header" class="tag-header{% if tagData.feature_image %} -feature-image{% endif %}" style="{% if tagData.feature_image %}background-image: url({{ tagData.feature_image }});{% endif %}">
+        <section class="tag-metadata">
+            <h1 class="tag-title">{{ (title or tag) | firstLetterUpper }}</h1>
+            {% if tagData.date %}<p class="tag-date"><time>{{ tagData.date }}</time></p>{% endif %}
+            {% if tagData.type === 'subject' %}<p><svg class="icon icon--feed" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/rss.svg#rss"></use></svg> <a href="/{{ tag | slug }}/feed.xml">Flöde för {{ title or tag }}</a></p>{% endif %}
+            {% if tagData.description %}{{ tagData.description | renderUsingMarkdown | safe }}{% endif %}
+        </section>
+    </header>
+    <section class="tag-content content" id="tag-content">
+        {% set taglist = collections[ tag ] %}
+        {% if tagData.original_order %}
+        <ul class="post-list">
+            {% for post in taglist %}
+            <li class="post-list__item">
+                <h3 class="post-title"><a class="post-link" href="{{ post.url | url}}">{{ post.data.title }}</a></h3>
+                {% if post.data.page.date %}<p class="post-date"><time datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | shortISODate }}">{{ post.data.page.date | readableLongDate }}</time></p>{% endif %}
+                </li>{% endfor %}
+        </ul>
+        {% else %}
+        {% set postsByYear = taglist | groupByYear %}
+        {% for year, yearPosts in postsByYear %}
+        <h2>{{ year }}</h2>
+        <ul class="post-list">
+            {% for post in yearPosts | reverse %}
+                <li class="post-list__item">
+                    <a class="post-title post-link" href="{{ post.url }}">{{ post.data.title }}</a>
+                    {% if post.data.page.date %}<p class="post-date"><time datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | shortISODate }}">{{ post.data.page.date  | readableDate }}</time></p>{% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+        {% endif %}
+    </section>
+</article>
+

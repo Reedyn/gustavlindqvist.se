@@ -1,0 +1,39 @@
+ul {
+    padding-inline-start: 1.5em;
+    list-style: disc;
+    ul {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-inline-start: 1em;
+    }
+}
+
+ol {
+    padding-inline-start: 1.5em;
+    list-style: decimal;
+    ol {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-inline-start: 1em;
+    }
+
+    li {
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.contains-task-list {
+    list-style: none;
+}
+
+.no-style {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.task-list-item-checkbox {
+    margin-left: -1.6em; // Move the checkbox to the left to match other lists indentation.
+    vertical-align: baseline;
+}

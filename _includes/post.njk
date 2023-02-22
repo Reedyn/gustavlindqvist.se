@@ -1,0 +1,43 @@
+---
+layout: base.njk
+templateClass: post-template
+type: post
+eleventyComputed:
+    meta:
+        author:
+            name: "{{ metadata.author.name }}"
+    published: "{{ date | isoString }}"
+    modified: "{% if updateDate %}{{ updateDate | isoString }}{% endif %}"
+---
+{%- set canonicalURL = metadata.url + page.url -%}
+{%- set postInteractions = webmentions | interactionsForPage(comments, canonicalURL) -%}
+{% if feature_image %}
+    {%- set optimizedFeaturedImage = feature_image | featuredImageFilter("100vw", "post-header__image", page) %}
+{% else %}
+    {%- set optimizedFeaturedImage = "" %}
+{% endif %}
+{% if series %}
+{%- set nextPost = collections[series] | removePostsNotInSeries(series) | getNextCollectionItem(page) %}
+    {% if nextPost and nextPost.data.feature_image %}
+        {%- set nextPostOptimizedFeaturedImage = nextPost.data.feature_image | featuredImageFilter("100vw", "next-post__image", nextPost.data.page) %}
+    {% endif %}
+{% endif %}
+<article class="post">
+    <header id="post-header" class="post-header{% if feature_image %} -feature-image{% endif %}">
+        <div class="post-metadata">
+            <h1 class="post-title">{{ title }}</h1>
+            {% if page.date %}<p class="post-date"><time datetime="{{ page.date | fullISODate }}" title="{{ page.date | shortISODate }}">{{ page.date | readableLongDate }}</time></p>{% endif %}
+            {% if tags %} <p class="tags"><span class="sr-only">Taggar: </span>
+                {%- for tag in tags -%}{% if (tag !== 'posts') and (tag !== 'page') %}<span class="tag"><a href="/{{ tag | slug}}/">{{ tag }}</a><span class="sr-only">, </span></span>{% endif %}{%- endfor -%}
+            </p>{% endif %}
+        </div>
+        {{ optimizedFeaturedImage | safe }}
+    </header>
+    <section class="post-content content" id="post-content" aria-label="Inläggets innehåll">
+        {{ content | safe }}
+        {% include "partials/comments.njk" %}
+        {% if not (nextPost and series) %}{% include "partials/syndicated-content.njk" %}{% endif %}
+    </section>
+</article>
+{% if series and nextPost %}{% include "partials/next-post-in-series.njk" %}{% endif %}
+

@@ -1,0 +1,43 @@
+---
+pagination:
+    data: collections
+    size: 1
+    alias: tag
+    filter:
+        - all
+        - beer
+        - page
+        - post
+        - postsByYear
+        - tagsBySize
+permalink: /{{ tag | slug }}/feed.xml
+"eleventyExcludeFromCollections": true
+---{% set tagData = tagMetadata[tag] %}{% set title = tagData.title %}{% set feedTitle = tagData.feedTitle %}{% set taglist = collections[ tag ] %}<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/assets/stylesheets/feeds.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>{% if feedTitle %}{{ feedTitle }}{% else %}{{ metadata.title }} – {{ ( title | firstLetterUpper or tag | firstLetterUpper) }}{% endif %}</title>
+    {% if subtitle %}<subtitle>{{ tagData.description }}</subtitle>{% endif %}
+    <link href="{{ metadata.url }}/{{ tag | slug }}/feed.xml" rel="self"/>
+    <link href="{{ metadata.url }}/{{ tag | slug }}/"/>
+    <updated>{{ taglist | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+    <id>{{ metadata.url }}/{{ tag | slug }}/</id>
+    <author>
+        <name>{{ metadata.author.name }} {{ metadata.author.surname }}</name>
+        <email>{{ metadata.author.email }}</email>
+    </author>
+    {%- for post in taglist | reverse -%}
+    {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+    {% if post.data.feature_image %}
+    {%- set optimizedFeaturedImage = post.data.feature_image | featuredImageFilter("100vw", "", post.data.page)%}
+    {% endif %}
+    <entry>
+        <title>{{ post.data.title }}</title>
+        <link href="{{ absolutePostUrl }}"/>
+        <updated>{{ post.date | dateToRfc3339 }}</updated>
+        <id>{{ absolutePostUrl }}</id>
+        <content type="html">
+            {% if post.data.feature_image %}{{ optimizedFeaturedImage | htmlToAbsoluteUrls(absolutePostUrl) | utf8_xml }}{% endif %}{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | utf8_xml }}
+        </content>
+    </entry>
+    {%- endfor %}
+</feed>

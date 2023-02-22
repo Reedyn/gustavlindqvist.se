@@ -1,0 +1,108 @@
+.beer-statistics {
+    &__list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-auto-flow: dense;
+        grid-gap: var(--margin__small);
+        grid-template-columns: 1fr 1fr;
+        max-width: 30em;
+
+        @include respond-to(tiny) {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+
+    &__list-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        &__label {
+            font-size: var(--font__size-base);
+            color: var(--color__text-alt);
+        }
+        &__value {
+            font-size: var(--font__size__heading-4);
+        }
+    }
+}
+
+.beer-ingredients {
+    &__label {
+        display: block;
+        margin-block-start: var(--margin__medium);
+        margin-block-end: var(--margin__small);
+        .icon {
+            margin-left: -0.2em;
+        }
+    }
+
+    &__list {
+        list-style: none;
+        max-width: 25em;
+        margin: 0;
+        padding: 0;
+
+        &-item {
+            display: grid;
+            grid-template-columns: 3.8em 1fr auto;
+            grid-gap: 0 0.5rem;
+            grid-template-rows: auto;
+            grid-template-areas:
+                "left middle right"
+                "left bottom bottom-right";
+            margin-bottom: 0.5em;
+
+
+
+            &__left {
+                grid-area: left;
+            }
+            &__middle {
+                grid-area: middle;
+
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+            &__right {
+                grid-area: right;
+                text-align: right;
+            }
+            &__bottom-left {
+                grid-area: bottom-left;
+                font-size: var(--font__size-base);
+            }
+            &__bottom {
+                grid-area: bottom;
+                font-size: var(--font__size-base);
+            }
+            &__bottom-right {
+                grid-area: bottom-right;
+                font-size: var(--font__size-base);
+                text-align: right;
+            }
+        }
+    }
+}
+
+.icon {
+    &.fermentable {
+
+    }
+}
+
+.batches {
+    &__status {
+        font-size: var(--font__size);
+        display: inline-block;
+        vertical-align: middle;
+        background: var(--color__background__widget);
+        bottom: 0.1em;
+        position: relative;
+        padding: 0.3em;
+    }
+
+}

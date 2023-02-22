@@ -1,0 +1,105 @@
+.post-header {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: var(--padding__large);
+    padding-bottom: var(--padding__medium);
+    background-position: center;
+    background-size: cover;
+    color: var(--color__text);
+
+    a {
+        color: var(--color__text);
+    }
+
+
+
+    .post-title {
+        margin-bottom: var(--margin__small);
+        font-weight: 900;
+
+        svg {
+            width: 90%;
+            max-width: 60rem;
+            padding-bottom: var(--padding__small);
+        }
+    }
+
+    .post-date {
+        margin-top: var(--margin__small);
+    }
+
+    .tags {
+        margin-top: var(--margin__small);
+        .tag {
+            display: inline-block;
+            color: inherit;
+            margin-right: .4em;
+
+            &:before {
+                content: "#";
+            }
+        }
+    }
+
+    .post-metadata {
+        position: relative;
+        z-index: 10;
+        width: 100%;
+        max-width: var(--max-width__content);
+        padding: 0 var(--padding__medium);
+
+        :first-child {
+            margin-top: 0;
+        }
+
+        :last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &:not(.-feature-image){
+        .post-title {
+            //noinspection CssInvalidPropertyValue
+            @supports ((background-clip: text) and (background: linear-gradient(120deg, var(--color__link__visited) 0%, var(--color__link) 37.5%, var(--color__link__visited) 100%))) {
+                background: linear-gradient(120deg, var(--color__link__visited) 0%, var(--color__link) 37.5%, var(--color__link__visited) 100%);
+                background-clip: text;
+                color: transparent;
+            }
+        }
+    }
+
+    &.-feature-image {
+        min-height: 50vmin;
+        max-height: 80vh;
+        color: var(--color__text__contrast);
+        position: relative;
+        background-color: black;
+
+        a {
+            color: var(--color__text__contrast);
+        }
+
+        .post-header__image {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            margin: 0;
+            opacity: .5;
+
+            img {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+
+}

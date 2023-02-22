@@ -1,0 +1,34 @@
+---
+title: Blogg
+layout: base.njk
+templateClass: blog-template
+permalink: "/blogg/"
+eleventyNavigation:
+    key: blogg
+    title: Blogg
+---
+<article class="page">
+    <header id="page-header" class="page-header">
+        <div class="page-metadata">
+            <h1 class="page-title">{{ title }}</h1>
+            <p class="description"><svg class="icon icon--feed" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/rss.svg#rss"></use></svg> <a href="/feed.xml">Flöde för bloggen</a></p>
+        </div>
+    </header>
+    <section class="feed content">
+        <aside aria-label="Ämnen jag skriver om">
+            <p class="tags">
+                Jag skriver om: {% for tag, count in collections.tagsBySize %}{% if (tag !== 'posts') and (tag !== 'page') %}{% set tagUrl %}/{{ tag | slug }}/{% endset %}{% set tagData = tagMetadata[tag] %}{% if tagData.type === 'subject' %}<span class="tag"><a id="{{ tagUrl | hashString}}" href="{{ tagUrl | url }}">{{ tag }}</a><sup>({{ count }}<span class="sr-only"> inlägg</span>)</sup></span>{% if loop.last %}{% else %}, {% endif %}{% endif %}{% endif %}{% endfor %}
+            </p>
+        </aside>
+        {% set postsByYear = collections.posts | groupByYear %}
+        {% for year, yearPosts in postsByYear %}
+        <h2>{{ year }}</h2>
+        <ul class="post-list">
+            {% for post in yearPosts | reverse %}<li class="post-list__item">
+                <a id="{{ post.url | hashString}}" class="post-title post-link" href="{{ post.url }}">{{ post.data.title }}</a>
+                {% if post.data.page.date %}<p class="post-date"><span class="sr-only">Publicerat </span><time datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | shortISODate }}">{{ post.data.page.date  | readableDate }}</time></p>{% endif %}
+            </li>{% endfor %}
+        </ul>
+        {% endfor %}
+    </section>
+</article>
