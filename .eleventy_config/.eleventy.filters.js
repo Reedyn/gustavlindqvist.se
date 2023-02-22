@@ -306,9 +306,7 @@ module.exports = {
             src="${lowsrc.url}"
             width="${lowsrc.width}"
             height="${lowsrc.height}"
-            alt=""
-            loading="lazy"
-            decoding="async">
+            alt="">
         </picture></figure>`;
     }
 };
