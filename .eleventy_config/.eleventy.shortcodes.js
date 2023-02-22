@@ -169,7 +169,7 @@ module.exports = {
     },
     image: async function (src, style, alt, caption = undefined) {
         if (typeof this.page.outputPath !== 'undefined' && typeof this.page.outputPath.lastIndexOf !== 'undefined') {
-            const sizes = '100vw';
+            let sizes = '100vw';
             const documentPath = this.page.filePathStem;
             const outputPath = this.page.outputPath
                 .substring(0, this.page.outputPath.lastIndexOf('/')) // Remove document from path
@@ -204,6 +204,7 @@ module.exports = {
             let highsrc = metadata[format][metadata[format].length - 1];
             let captionElement = (typeof caption !== 'undefined') ? `<figcaption>${markdown.render(caption)}</figcaption>` : '';
             let inlineStyling = (style === '-inline') ? ` style="flex: ${highsrc.width / highsrc.height}"` : '';
+            sizes = (style === '-inline') ? `${(highsrc.width / highsrc.height) * 30}w` : sizes;
             return `<figure class="image ${style}"${inlineStyling}>
                    <picture>
             ${Object.values(metadata).map(imageFormat => {
