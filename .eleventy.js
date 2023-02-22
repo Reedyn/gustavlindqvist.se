@@ -13,10 +13,8 @@ const asyncShortcodes = require('./.eleventy.shortcodes.async.js');
 const collections = require('./.eleventy.collections.js');
 
 const CONTENT_GLOBS = {
-    posts: 'src/posts/**/*.md',
-    drafts: 'src/drafts/**/*.md',
-    notes: 'src/notes/*.md',
-    media: '*.jpg|*.png|*.gif|*.mp4|*.webp|*.webm'
+    posts: 'src/posts/**/*.md|pages/**/*.md',
+    assets: '*.png|*.jpg|*.jpeg|*.gif|*.webp|*.gpx|*.fit'
 }
 
 module.exports = function (eleventyConfig) {
@@ -40,8 +38,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginNavigation);
     eleventyConfig.addPlugin(pluginPageAssets, {
         mode: 'directory',
-        postsMatching: 'src/posts/**/*.md|pages/**/*.md',
-        assetsMatching: '*.png|*.jpg|*.jpeg|*.gif|*.webp|*.gpx|*.fit',
+        postsMatching: CONTENT_GLOBS.posts,
+        assetsMatching: CONTENT_GLOBS.assets,
         recursive: false,
         hashAssets: false
     });
