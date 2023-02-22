@@ -1,0 +1,41 @@
+---
+title: "Blogroll"
+layout: base.njk
+templateClass: post-template
+type: page
+description: "Här är lite bloggar, poddar och andra kanaler som jag följer, i slumpmässig ordning."
+permalink: /blogroll/
+date: 2021-12-09
+eleventyComputed:
+    meta:
+        author:
+            name: "{{ metadata.author.name }}"
+    published: "{{ date }}"
+    modified: "{% if updateDate %}{{ updateDate | iso8601 }}{% endif %}"
+---
+<article class="page">
+    <header id="page-header" class="page-header">
+        <section class="page-metadata">
+            <h1 class="page-title">{{ title }}</h1>
+            <p>{{ description }}</p>
+        </section>
+    </header>
+    <section class="page-content wrapper Cards" id="page-content">
+        {%- for channel in blogroll | shuffle -%}
+        <article class="Card channel -align-bottom{% if channel.feature_image %} -featured-image{% endif %}{% if channel.type %} -{{ channel.type }}{% endif %}" style="{% if channel.feature_image %} background-image: url({{ channel.feature_image }});{% endif %}{% if channel.color %} --color__background__contrast__widget: {{ channel.color }};{% endif %}">
+            {% if (channel.tags.length) %}<span class="Card__content__extra -top-left">
+                {% if (channel.tags) %}<span class="tags">
+                    {%- for tag in channel.tags -%}
+                    <span class="tag">{{ tag }}</span>
+                    {%- endfor -%}
+                    </span>{% endif %}
+                </span>{% endif %}
+            {% if channel.type %} <span class="Card__content__extra -top-right"><svg class="icon icon--twitter" role="presentation" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/{{ channel.type }}.svg#{{ channel.type }}"></use></svg></span>{% endif %}
+            <section class="Card__content">
+                <h2 class="Card__title"><a class="Card__title-link" href="{{ channel.url }}">{{ channel.title }}</a></h2>
+                <p class="description">{{ channel.description }}</p>
+            </section>
+        </article>
+        {%- endfor -%}
+    </section>
+</article>

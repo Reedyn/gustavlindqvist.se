@@ -1,0 +1,4 @@
+{
+  "draft": true,
+  "permalink": "/utkast/{{ page.date | dateFolder}}/{{ title | slug }}/index.html"
+}

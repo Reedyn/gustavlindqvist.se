@@ -1,0 +1,52 @@
+.site-header {
+    background-color: var(--color__background);
+}
+
+.site-header__content {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    max-width: var(--max-width__base);
+    height: var(--header__height);
+    max-height: var(--header__height);
+    flex-direction: row;
+    padding-right: var(--padding__medium);
+    padding-left: var(--padding__medium);
+    margin: auto;
+    color: var(--color__text-alt);
+    font-size: var(--header__font-scale);
+    line-height: var(--header__height);
+
+    .site__title {
+        font-size: inherit;
+        line-height: inherit;
+        letter-spacing: inherit;
+        margin: 0;
+    }
+
+    .site__image {
+        width: calc(var(--header__height) * .5);
+        margin: 0;
+        margin-right: 0.75em;
+        vertical-align: middle;
+        border-radius: 50%;
+    }
+
+    a {
+        color: var(--color__text);
+        font-weight: 500;
+        &:visited {
+            color: var(--color__text);
+        }
+    }
+
+    .site__description {
+        display: none;
+        font-family: var(--font__serif);
+        font-style: italic;
+
+        @include respond-to(small) {
+            display: inline;
+        }
+    }
+}

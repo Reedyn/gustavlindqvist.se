@@ -1,0 +1,34 @@
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: sub;
+    display: inline-block;
+    bottom: 0.1rem;
+    position: relative;
+
+    &.-large {
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+    }
+
+    &.-strava {
+        color: #e34a00;
+    }
+
+    &.-gaming {
+        color: #B172FD;
+    }
+
+    &.-fermentables {
+        color: #ffca5a;
+    }
+
+    &.-hops {
+        color: #6f9a4b;
+    }
+
+    &.-yeast {
+        color: #e2b693;
+    }
+}

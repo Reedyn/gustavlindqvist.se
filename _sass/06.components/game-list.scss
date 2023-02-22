@@ -1,0 +1,23 @@
+ol.game-list {
+    list-style: disc;
+}
+
+.game-list__item {
+    margin-bottom: var(--margin__small);
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    .game-title {
+        margin: 0;
+        font-size: var(--font__size__heading-4);
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .game-metadata {
+        color: var(--color__text__contrast__alt);
+    }
+}

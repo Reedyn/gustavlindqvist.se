@@ -1,0 +1,43 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font__sans-serif);
+    line-height: 1.2;
+    a {
+        border: 0;
+    }
+}
+
+h1 {
+    font-size: var(--font__size__heading-1);
+    letter-spacing: -.2rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: var(--font__size__heading-2);
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: var(--font__size__heading-3);
+}
+
+h4 {
+    font-weight: 500;
+    font-size: var(--font__size__heading-4);
+}
+
+h5 {
+    font-weight: 700;
+}
+
+h6 {
+    font-size: 80%;
+    font-weight: 700;
+    text-transform: uppercase;
+}

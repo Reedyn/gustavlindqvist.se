@@ -1,0 +1,11 @@
+select {
+    font-size: var(--font__size);
+    padding: .4rem .4rem;
+    line-height: 2;
+    border: 1px solid var(--color__background__widget);
+    background: var(--color__background);
+    color: var(--color__text);
+    font-weight: 500;
+    font-family: var(--font__sans-serif);
+    border-radius: 3px;
+}

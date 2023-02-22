@@ -1,0 +1,15 @@
+---
+id: 60fe5c11e92f1700489a00f7
+title: "Gustavs hembryggeri"
+feature_image: /assets/images/feature/Gustav-Lindqvist_2022-09-10_05987.jpg
+thumbnail_image: "/assets/images/og_brewery.jpg"
+description: "Mitt lilla hembryggeri med fokus på lager och belgisk ale."
+date: 2021-07-26
+permalink: /hembryggeri/
+layout: "brewery.njk"
+eleventyNavigation:
+    key: hembryggeri
+    title: Hembryggeri
+---
+
+

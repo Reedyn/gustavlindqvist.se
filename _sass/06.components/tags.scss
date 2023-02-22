@@ -1,0 +1,8 @@
+.tags {
+    color: var(--color__text-alt);
+    .tag {
+        &:before {
+            content: "#";
+        }
+    }
+}

@@ -1,0 +1,143 @@
+@media print {
+
+    .hidden\@print {
+        display: none !important;
+    }
+
+    .kg-bookmark-thumbnail {
+        display: none !important;
+    }
+
+    a, p, span, ul, ol, li, h1, h2, h3, h4, h5, h6 {
+        color: black !important;
+    }
+
+    main.main {
+        background: white !important;
+    }
+
+
+
+    .header {
+        background: white !important;
+        color: black !important;
+
+        &:after {
+            display: none !important;
+        }
+
+        .header__top {
+            display: none !important;
+        }
+
+        .hero {
+            height: auto !important;
+        }
+
+        .hero-content {
+            max-width: 100% !important;
+            width: 100% !important;
+        }
+
+        .post__read-time, .post__tags {
+            display: none !important;
+        }
+    }
+
+    .content {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0 !important;
+        padding-top: var(--margin__medium);
+    }
+
+    .content > * {
+        color: black !important;
+        background: white !important;
+        margin-top: var(--margin__medium);
+        margin-bottom: var(--margin__small);
+    }
+
+    .content pre {
+        background: white !important;
+        color: black !important;
+        border: 1px solid black;
+
+        code {
+            color: black !important;
+        }
+    }
+
+    .post-header {
+        min-height: 0 !important;
+        background: white !important;
+        padding: 0 !important;
+        margin-bottom: 1em !important;
+
+        &.-feature-image:after {
+            display: none;
+        }
+
+        .post-metadata {
+            padding: 0;
+            max-width: none !important;
+        }
+    }
+
+    .separator-heading {
+        font-size: var(--font__size__heading-2);
+        text-align: left;
+        text-transform: initial;
+        span {
+            padding: 0;
+        }
+        &:after {
+            display: none;
+        }
+    }
+
+    .tags {
+        .tag {
+            &:before {
+                content: ',';
+                margin-right: 0.2em;
+                margin-left: -0.2em;
+            }
+            &:first-of-type:before {
+                display: none;
+            }
+        }
+    }
+
+    .-collapsed {
+        max-height: none !important;
+        &:after {
+            display: none !important;
+        }
+    }
+
+    // Style buttons with outline instead of background (to save ink)
+    a.Button {
+        border: 1px solid black !important;
+        background: none !important;
+        position: initial !important;
+    }
+
+    // Hide buttons that don't link anywhere
+    .Button:not(a) {
+        display: none !important;
+    }
+
+    // Suffix the URL of links after the link text
+    a[href^='http'], a[href^='/'] {
+        color: #006bf1 !important;
+        text-decoration: underline !important;
+        &:after {
+            content: ' ['attr(href)']';
+            font-size: 85%;
+            vertical-align: super;
+        }
+    }
+}
+
+

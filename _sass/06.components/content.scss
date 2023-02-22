@@ -1,0 +1,23 @@
+.content {
+    width: 100%;
+    max-width: var(--max-width__content);
+    padding: var(--padding__medium);
+    margin-right: auto;
+    margin-left: auto;
+
+    @include respond-to(small) {
+        padding-bottom: var(--padding__large);
+    }
+
+    > * {
+        width: 100%;
+    }
+
+    > :first-child {
+        margin-top: 0;
+    }
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}

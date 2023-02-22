@@ -1,0 +1,20 @@
+.post-list {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.post-list__item {
+    margin-bottom: var(--margin__medium);
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    .post-title {
+        margin: 0;
+        font-size: var(--font__size__heading-4);
+    }
+
+    p {
+        margin: 0;
+    }
+}

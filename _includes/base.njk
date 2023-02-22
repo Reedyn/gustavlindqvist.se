@@ -1,0 +1,146 @@
+---
+type: page
+meta:
+    language: sv_SE
+eleventyComputed:
+    meta:
+        site:
+            name: "{{ metadata.title }}"
+            description: "{{ metadata.description }}"
+            url: "{{ metadata.url }}"
+        title: "{{ title or metadata.title }}"
+        description: "{{ description or metadata.description }}"
+        image:
+            src: "{% if thumbnail_image %}{{ thumbnail_image | parseImagePath(page.url) }}{% elseif feature_image %}{{ feature_image | parseImagePath(page.url) }}{% else %}{{ metadata.url }}/assets/images/website_feature.png{% endif %}"
+---
+{% if thumbnail_image %}
+    {%- set optimizedThumbnailImage =  metadata.url + thumbnail_image -%}
+{% elseif feature_image %}
+    {%- set optimizedThumbnailImage =  metadata.url + feature_image -%}
+{% else %}
+    {%- set optimizedThumbnailImage =  metadata.url + '/assets/images/website_feature.png' -%}
+{% endif %}
+<!doctype html>
+<html lang="sv" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>
+        {% if page_title %}{{ page_title }}{% elseif title %}{{ title }} / {{ metadata.title }}{% elseif tagMetadata[ tag ].title %}{{ tagMetadata[ tag ].title | firstLetterUpper }} / {{ metadata.title }}{% else %}{{ metadata.title }} / {{ metadata.description }}{% endif %}
+    </title>
+    <meta name="description" content="{{ description or metadata.description }}">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/stylesheets/gustavlindqvist.min.css?{% checksum './assets/stylesheets/gustavlindqvist.min.css' %}">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="/assets/javascript/instantpage-5.1.0.js" type="module" defer></script>
+    <script src="/assets/javascript/dayjs.min.js"></script>
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <link rel="webmention" href="https://webmention.io/gustavlindqvist.se/webmention" />
+    <link rel="pingback" href="https://webmention.io/gustavlindqvist.se/xmlrpc" />
+
+    <meta property="og:title" content="{{ title or metadata.title }}">
+    <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
+    <meta property="og:description" content="{{ description or metadata.description }}">
+    <meta property="og:image" content="{{ optimizedThumbnailImage }}">
+    <meta property="og:type" content="{% if type === 'post' %}article{% else %}website{% endif %}">
+
+    <link href="https://twitter.com/lindqvistus" rel="me">
+    <link href="https://twitter.com/reedyn" rel="me">
+    <link href="https://facebook.com/reedyn" rel="me">
+    <link href="https://github.com/Reedyn" rel="me">
+    <link href="https://jkpg.rocks/@gustav" rel="me">
+    <link href="https://mastodon.beer/@gustav" rel="me">
+    <link href="https://mstdn.games/@reedyn" rel="me">
+    <link href="https://github.com/Reedyn" rel="me">
+    <link href="mailto:hej@gustavlindqvist.se" rel="me">
+
+    <link rel="canonical" href="{{ metadata.url }}{{ page.url }}">
+
+    <meta name="generator" content="{{ eleventy.generator }}">
+
+    <link rel="alternate" type="application/atom+xml" title="Gustav Lindqvist" href="/feed.xml"/>
+    <link rel="alternate" type="application/atom+xml" title="Gustav Lindqvist – Friluftsliv" href="/friluftsliv/feed.xml"/>
+    <link rel="alternate" type="application/atom+xml" title="Gustav Lindqvist – Fotografering" href="/fotografering/feed.xml"/>
+    <link rel="alternate" type="application/atom+xml" title="Gustav Lindqvist – Cykling" href="/cykling/feed.xml"/>
+    <link rel="alternate" type="application/atom+xml" title="Gustav Lindqvist – Löpning" href="/lopning/feed.xml"/>
+    <link rel="alternate" type="application/atom+xml" title="Gustav Lindqvist – Kartor" href="/kartor/feed.xml"/>
+    <link rel="alternate" type="application/atom+xml" title="Gustav Lindqvist – Resor" href="/kartor/feed.xml"/>
+    <link rel="alternate" type="application/atom+xml" title="Gustav Lindqvist – Ölbryggning" href="/olbryggning/feed.xml"/>
+
+    {% jsonLdScript meta, type, tags %}
+
+    {% if color %}<style>:root { --color__background__post: {{ color }};}</style>{% endif %}
+    <script>
+        (function () {
+            let theme = localStorage.getItem('theme');
+            if (theme) {
+                document.documentElement.setAttribute('data-theme', theme);
+            }
+        })();
+    </script>
+    <script defer data-domain="gustavlindqvist.se" src="https://plausible.gustavlindqvist.se/js/plausible.js"></script>
+</head>
+<body class="{{ templateClass }}">
+    <header class="site-header hidden@print" aria-label="Sidhuvud">
+        <div class="site-header__content">
+            {% if templateClass === 'home-template' %}<h1 class="site__title"><a href="{{ metadata.url }}"><img src="/assets/images/blog-profilepic.jpg" class="site__image" alt="Selfie på Gustav Lindqvist" width="30" height="30">{{metadata.title}}</a></h1><span class="site__description">&nbsp;/ {{metadata.description}}</span>{% else %}<span class="site__title"><a href="{{ metadata.url }}"><img src="/assets/images/blog-profilepic.jpg" class="site__image" alt="Selfie på Gustav Lindqvist" width="30" height="30">{{metadata.title}}</a></span>{% endif %}
+            {% include 'partials/navigation.njk' %}
+        </div>
+    </header>
+    <main class="main" aria-label="Innehåll">
+        {{content | safe }}
+    </main>
+    <footer class="site-footer hidden@print" aria-label="Sidfot">
+        {% include 'partials/footer.njk' %}
+    </footer>
+    <script>
+        let theme = localStorage.getItem('theme');
+        if (theme) {
+            document.querySelector('#theme-chooser').value = theme;
+        } else {
+            document.querySelector('#theme-chooser').value = "auto";
+        }
+
+        document.querySelector('#theme-chooser').addEventListener('change', (event) => {
+            const selectedTheme = event.target.value;
+
+            if(selectedTheme === 'auto') {
+                localStorage.removeItem('theme');
+                document.documentElement.removeAttribute('data-theme');
+            } else {
+                localStorage.setItem('theme', event.target.value);
+                document.documentElement.setAttribute('data-theme', event.target.value);
+            }
+        });
+
+        document.querySelector('#theme-chooser-container').classList.remove('hidden');
+
+        dayjs.extend(dayjs_plugin_relativeTime);
+        dayjs.locale('sv');
+        [...document.querySelectorAll('.timeago')].forEach((element) => {
+            if (typeof element.attributes.datetime !== 'undefined') {
+                let newString = dayjs().to(element.attributes.datetime.value);
+
+                if (typeof element.attributes.prefix === 'undefined') {
+                    newString = newString.replace('för ','');
+                }
+                if (typeof element.attributes.firstletterupper !== 'undefined') {
+                    newString = newString.charAt(0).toUpperCase() + newString.slice(1)
+                }
+
+                element.innerText = newString;
+            }
+        });
+    </script>
+</body>
+</html>

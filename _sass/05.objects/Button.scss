@@ -1,0 +1,21 @@
+.Button {
+    display: inline-block;
+    background: var(--color__link);
+    color: var(--color__background);
+    padding: .5em 0.8em;
+    line-height: 1.5;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+
+    &:visited {
+        color: var(--color__background);
+    }
+
+    &:hover, &:focus {
+        text-decoration: underline;
+    }
+}

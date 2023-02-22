@@ -1,0 +1,10 @@
+.kg-card.kg-width-full {
+    img {
+        position: relative;
+        width: 100vw; /* Or whatever max width is */
+        margin-left: calc(50% - 50vw); /* 50vw equals half the width */
+        margin-right: calc(50% - 50vw);
+        max-width: none;
+    }
+
+}

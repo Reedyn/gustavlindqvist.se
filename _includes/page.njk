@@ -1,0 +1,29 @@
+---
+layout: base.njk
+templateClass: page-template
+type: page
+eleventyComputed:
+    meta:
+        author:
+            name: "{{ metadata.author.name }}"
+    published: "{{ date | isoString }}"
+    modified: "{% if updateDate %}{{ updateDate | isoString }}{% endif %}"
+---
+{%- set canonicalURL = metadata.url + page.url -%}
+{%- set postInteractions = webmentions | interactionsForPage(comments, canonicalURL) -%}
+{% if feature_image %}
+    {%- set optimizedFeaturedImage = feature_image | featuredImageFilter("100vw", "page-header__image", page) %}
+{% else %}
+    {%- set optimizedFeaturedImage = "" %}
+{% endif %}
+<article class="page">
+    <header id="page-header" class="page-header{% if feature_image %} -feature-image{% endif %}">
+        <div class="page-metadata">
+            <h1 class="page-title">{{ title }}</h1>
+        </div>
+        {{ optimizedFeaturedImage | safe }}
+    </header>
+    <section class="page-content content" id="page-content" aria-label="Sidans innehåll">
+        {{ content | safe }}
+    </section>
+</article>

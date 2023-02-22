@@ -1,0 +1,24 @@
+.header-anchor {
+    position: relative;
+    color: var(--color__text);
+
+    &:visited {
+        color: var(--color__text);
+    }
+
+    &:before {
+        position: absolute;
+        left: -.8em;
+        display: none;
+        content: "#";
+    }
+
+    &:focus,
+    &:hover {
+        color: var(--color__link);
+
+        &:before {
+            display: block;
+        }
+    }
+}

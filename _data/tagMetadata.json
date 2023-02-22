@@ -1,0 +1,263 @@
+{
+    "11ty": {
+        "title": "11ty",
+        "type": "subject"
+    },
+    "amsterdam": {
+        "title": "Amsterdam",
+        "type": "location"
+    },
+    "beijing": {
+        "title": "Beijing",
+        "type": "location"
+    },
+    "berlin": {
+        "title": "Berlin",
+        "type": "location"
+    },
+    "blekinge-skärgård": {
+        "title": "Blekinge skärgård",
+        "type": "location"
+    },
+    "borgafjäll": {
+        "title": "Borgafjäll",
+        "type": "location"
+    },
+    "cykling": {
+        "title": "cykling",
+        "feedTitle": "Gustav är ute och cyklar",
+        "description": "Jag är ute och cyklar (oftast i skogen).",
+        "type": "subject"
+    },
+    "design": {
+        "title": "design",
+        "type": "subject"
+    },
+    "fäboliden": {
+        "title": "Fäboliden",
+        "type": "location"
+    },
+    "fotografering": {
+        "title": "fotografering",
+        "feedTitle": "Gustavs fotoblogg",
+        "type": "subject"
+    },
+    "frankrike": {
+        "title": "Frankrike",
+        "type": "location"
+    },
+    "friluftsliv": {
+        "title": "friluftsliv",
+        "feedTitle": "Gustavs friluftsblogg",
+        "type": "subject"
+    },
+    "gaming": {
+        "title": "gaming",
+        "feedTitle": "Gustav spelar spel",
+        "type": "subject"
+    },
+    "geocaching": {
+        "title": "geocaching",
+        "type": "subject"
+    },
+    "ghost": {
+        "title": "Ghost",
+        "type": "subject"
+    },
+    "göteborg": {
+        "title": "Göteborg",
+        "type": "location"
+    },
+    "hassafallsleden": {
+        "title": "Hassafallsleden",
+        "type": "hiking_trail"
+    },
+    "hong-kong": {
+        "title": "Hong Kong",
+        "type": "location"
+    },
+    "höst": {
+        "title": "höst",
+        "type": "season"
+    },
+    "indieweb": {
+        "title": "IndieWeb",
+        "type": "subject"
+    },
+    "internet": {
+        "title": "Internet",
+        "type": "subject"
+    },
+    "italien": {
+        "title": "Italien",
+        "type": "location"
+    },
+    "jkpg": {
+        "title": "Jönköping",
+        "type": "location"
+    },
+    "john-bauerleden": {
+        "title": "John Bauerleden",
+        "type": "hiking_trail"
+    },
+    "kartor": {
+        "title": "kartor",
+        "type": "subject"
+    },
+    "kina": {
+        "title": "Kina",
+        "type": "location"
+    },
+    "kinaresan": {
+        "title": "Kinaresan",
+        "feature_image": "/content/images/2018/07/_OLY0005-Pano-1.jpg",
+        "date": "2014",
+        "original_order": true,
+        "description": "Min resa till Kina på våren 2014 och andra året av mina högskolestudier.",
+        "type": "trip"
+    },
+    "kullaberg": {
+        "title": "Kullaberg",
+        "type": "location"
+    },
+    "kåseberga": {
+        "title": "Kåseberga",
+        "type": "location"
+    },
+    "lego": {
+        "title": "LEGO™",
+        "type": "subject"
+    },
+    "linz": {
+        "title": "Linz",
+        "type": "location"
+    },
+    "löpning": {
+        "title": "löpning",
+        "feedTitle": "Gustav springer vilse i skogen",
+        "description": "Jag är och springer vilse i skogen.",
+        "type": "subject"
+    },
+    "mtb": {
+        "title": "stigcykling",
+        "feedTitle": "Gustav är ute och cyklar (i skogen)",
+        "description": "Jag är ute och cyklar (i skogen).",
+        "type": "subject"
+    },
+    "nederländerna": {
+        "title": "Nederländerna",
+        "type": "location"
+    },
+    "nice": {
+        "title": "Nice",
+        "type": "location"
+    },
+    "ningbo": {
+        "title": "Ningbo",
+        "type": "location"
+    },
+    "orientering": {
+        "title": "orientering",
+        "type": "subject"
+    },
+    "österrike": {
+        "title": "Österrike",
+        "type": "location"
+    },
+    "tjeckien": {
+        "title": "Tjeckien",
+        "type": "location"
+    },
+    "prag": {
+        "title": "Prag",
+        "type": "location"
+    },
+    "paris": {
+        "title": "Paris",
+        "type": "location"
+    },
+    "politik": {
+        "title": "politik",
+        "type": "subject"
+    },
+    "resor": {
+        "title": "resor",
+        "feedTitle": "Gustavs reseblogg",
+        "description": "Mina resor världen över.",
+        "type": "subject"
+    },
+    "segling": {
+        "title": "segling",
+        "type": "subject"
+    },
+    "shanghai": {
+        "title": "Shanghai",
+        "type": "location"
+    },
+    "skåneleden": {
+        "title": "Skåneleden",
+        "type": "hiking_trail"
+    },
+    "sommar": {
+        "title": "sommar",
+        "type": "season"
+    },
+    "södra-vätterleden": {
+        "title": "Södra Vätterleden",
+        "type": "hiking_trail"
+    },
+    "tågluffen": {
+        "title": "tågluffen",
+        "type": "trip",
+        "feature_image": "/content/images/2019/07/20190723_070322-2-1.jpg",
+        "date": "2019",
+        "original_order": true,
+        "description": "Vår tågluff genom Europa under 2019 som gick genom länderna Tyskland, Österrike, Italien, Frankrike och Nederländerna."
+    },
+    "träning": {
+        "title": "träning",
+        "type": "subject"
+    },
+    "trelleborg": {
+        "title": "Trelleborg",
+        "type": "location"
+    },
+    "tyskland": {
+        "title": "Tyskland",
+        "type": "location"
+    },
+    "ux": {
+        "title": "User Experience",
+        "type": "subject"
+    },
+    "vår": {
+        "title": "vår",
+        "type": "season"
+    },
+    "venedig": {
+        "title": "Venedig",
+        "type": "location"
+    },
+    "vetenskap": {
+        "title": "vetenskap",
+        "type": "subject"
+    },
+    "vinter": {
+        "title": "vinter",
+        "type": "season"
+    },
+    "västanåleden": {
+        "title": "Västanåleden",
+        "type": "hiking_trail"
+    },
+    "webdev": {
+        "title": "webbutveckling",
+        "type": "subject"
+    },
+    "ölbryggning": {
+        "title": "ölbryggning",
+        "feedTitle": "Gustavs hembryggeri",
+        "type": "subject"
+    }
+
+}
