@@ -169,7 +169,8 @@ module.exports = {
     },
     image: async function (src, style, alt, caption = undefined) {
         if (typeof this.page.outputPath !== 'undefined' && typeof this.page.outputPath.lastIndexOf !== 'undefined') {
-            let sizes = '100vw';
+            let sizes = '75vw';
+            sizes = (style === '-full') ? '100vw' : sizes;
             const documentPath = this.page.filePathStem;
             const outputPath = this.page.outputPath
                 .substring(0, this.page.outputPath.lastIndexOf('/')) // Remove document from path
