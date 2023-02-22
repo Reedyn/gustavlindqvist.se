@@ -12,6 +12,13 @@ const shortcodes = require('./.eleventy.shortcodes.js');
 const asyncShortcodes = require('./.eleventy.shortcodes.async.js');
 const collections = require('./.eleventy.collections.js');
 
+const CONTENT_GLOBS = {
+    posts: 'src/posts/**/*.md',
+    drafts: 'src/drafts/**/*.md',
+    notes: 'src/notes/*.md',
+    media: '*.jpg|*.png|*.gif|*.mp4|*.webp|*.webm'
+}
+
 module.exports = function (eleventyConfig) {
     const ELEVENTY_ENVIRONMENT = (typeof process.env.ELEVENTY_ENV !== 'undefined') ? process.env.ELEVENTY_ENV : 'production';
     console.log('Building with', ELEVENTY_ENVIRONMENT, 'environment.');
@@ -33,7 +40,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginNavigation);
     eleventyConfig.addPlugin(pluginPageAssets, {
         mode: 'directory',
-        postsMatching: 'posts/**/*.md|pages/**/*.md',
+        postsMatching: 'src/posts/**/*.md|pages/**/*.md',
         assetsMatching: '*.png|*.jpg|*.jpeg|*.gif|*.webp|*.gpx|*.fit',
         recursive: false,
         hashAssets: false
@@ -65,12 +72,12 @@ module.exports = function (eleventyConfig) {
         eleventyConfig.addCollection(collectionName, collections[collectionName])
     });
 
-    eleventyConfig.addPassthroughCopy('assets');
-    eleventyConfig.addPassthroughCopy('CNAME');
-    eleventyConfig.addPassthroughCopy('robots.txt');
-    eleventyConfig.addPassthroughCopy({'webfinger.json': '/.well-known/webfinger'});
-    eleventyConfig.addPassthroughCopy({'favicon': '/'});
-    eleventyConfig.addPassthroughCopy('_redirects');
+    eleventyConfig.addPassthroughCopy('src/assets');
+    eleventyConfig.addPassthroughCopy('src/CNAME');
+    eleventyConfig.addPassthroughCopy('src/robots.txt');
+    eleventyConfig.addPassthroughCopy({'src/webfinger.json': '/.well-known/webfinger'});
+    eleventyConfig.addPassthroughCopy({'src/favicon': '/'});
+    eleventyConfig.addPassthroughCopy('src/_redirects');
 
     // Layouts
     eleventyConfig.addLayoutAlias('base', 'base.njk');
@@ -83,6 +90,10 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.setLibrary('md', markdown);
 
     return {
+        dir: {
+            input: 'src',
+            output: '_site'
+        },
         // Control which files Eleventy will process
         // e.g.: *.md, *.njk, *.html, *.liquid
         templateFormats: [
