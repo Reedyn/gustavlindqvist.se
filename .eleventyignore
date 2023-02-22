@@ -1,6 +1,6 @@
 README.md
 .nojekyll
-_sass
+src/_sass
 .git
 .cache
 .github
