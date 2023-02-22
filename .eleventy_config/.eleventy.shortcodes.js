@@ -204,7 +204,7 @@ module.exports = {
             let highsrc = metadata[format][metadata[format].length - 1];
             let captionElement = (typeof caption !== 'undefined') ? `<figcaption>${markdown.render(caption)}</figcaption>` : '';
             let inlineStyling = (style === '-inline') ? ` style="flex: ${highsrc.width / highsrc.height}"` : '';
-            sizes = (style === '-inline') ? `${(highsrc.width / highsrc.height) * 30}w` : sizes;
+            sizes = (style === '-inline') ? `${(highsrc.width / highsrc.height) * 30}vw` : sizes;
             return `<figure class="image ${style}"${inlineStyling}>
                    <picture>
             ${Object.values(metadata).map(imageFormat => {
