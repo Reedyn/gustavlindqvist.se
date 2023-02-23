@@ -54,7 +54,7 @@ module.exports = async function (src, style, alt, caption = undefined) {
             break;
         case '-inline':
             // Approximation of the size in the UI, not perfect since the siblings width isn't taken into account
-            sizes = `(max-width: 40em) 100vw, (max-width: 90rem) ${(highsrc.width / highsrc.height) * 30}vw, ${(highsrc.width / highsrc.height) * 40}rem`;
+            sizes = `(max-width: 40em) 100vw, (max-width: 90rem) ${(highsrc.width / highsrc.height) * 50}vw, ${(highsrc.width / highsrc.height) * 40}rem`;
             break;
         }
         return `<figure class="image ${style}"${inlineStyling}>
