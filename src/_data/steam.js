@@ -41,6 +41,7 @@ module.exports = async () => {
                 games.forEach((game) => {
                     game.url = 'https://store.steampowered.com/app/' + game.appid;
                     game.playtime_pretty = minutesToHoursMinutes(game.playtime_2weeks);
+                    game.playtime_forever_pretty = minutesToHoursMinutes(game.playtime_forever);
                 });
 
                 const filteredGames = games.filter((game) => game.playtime_2weeks > 60);
