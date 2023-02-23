@@ -5,10 +5,10 @@ const pluginPageAssets = require('eleventy-plugin-page-assets');
 const pluginNavigation = require('@11ty/eleventy-navigation');
 const pluginSchema = require('@quasibit/eleventy-plugin-schema');
 
-const markdown = require('./.eleventy_config/.eleventy.markdown.js');
-const filters = require('./.eleventy_config/.eleventy.filters.js');
-const shortcodes = require('./.eleventy_config/.eleventy.shortcodes.js');
-const collections = require('./.eleventy_config/.eleventy.collections.js');
+const markdown = require('./.eleventy_config/markdown');
+const filters = require('./.eleventy_config/filters');
+const shortcodes = require('./.eleventy_config/shortcodes');
+const collections = require('./.eleventy_config/collections');
 
 const CONTENT_GLOBS = {
     posts: 'src/posts/**/*.md|pages/**/*.md',
