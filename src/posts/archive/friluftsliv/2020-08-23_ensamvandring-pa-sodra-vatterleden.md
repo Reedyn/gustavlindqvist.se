@@ -54,7 +54,7 @@ Men nu har jag något för nästa gång jag vandrar här.
 
 Sedan var det nästan helt slut på skogsstigar med några undantag. Leden gick mestadels i väggrenen på bilvägar och skogsvägar. Jag valde då att fortsätta i tempo istället för att stanna och njuta av naturen som jag gjort den föregående sträckan.
 
-<figure class="gallery">
+<figure class="gallery -wide">
 	<figure class="gallery-row">
 		{% image "/assets/images/2020/08/Gustav-Lindqvist_2020-08-22_0430.jpg", "-inline", "En distansmarkör i form av en gammal sten i en skog." %}
 		{% image "/assets/images/2020/08/20200822_150802.jpg", "-inline", "Selfie på Gustav i röd tröja tagen uppifrån. På marken ligger en ryggsäck." %}
@@ -96,7 +96,7 @@ Efter en ganska god natts sömn var det dags för frukost som bestod av varm cho
 
 Efter att ha tagit ner tältet var det dags att gå vidare.
 
-<figure class="embed"><iframe width="612" height="344" src="https://www.youtube.com/embed/8vJyrO9MvhM?feature=oembed&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>
+<figure class="embed -wide"><iframe width="612" height="344" src="https://www.youtube.com/embed/8vJyrO9MvhM?feature=oembed&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>
 
 Egentligen var planen att gå hela vägen tillbaka till Jönköping men mina fötter tyckte annorlunda. Istället var målet att gå ~5 kilometer bort till Norrahammar och sen ta bussen hem därifrån.
 
