@@ -13,7 +13,9 @@ module.exports = async function (src, style, alt, caption = undefined) {
             .replace(/^\//, ''); // remove first slash
         // If the image is absolute path or external
 
-        if (src.startsWith('assets') || src.startsWith('http')) {
+        if (src.startsWith('/assets')) {
+            src = 'src' + src;
+        } else if (src.startsWith('http')) {
             // src = src
         } else { // Otherwise assume the file is relative to the document folder
             src = folderPath + src;
@@ -44,7 +46,7 @@ module.exports = async function (src, style, alt, caption = undefined) {
         let inlineStyling = (style === '-inline') ? ` style="flex: ${highsrc.width / highsrc.height}"` : '';
 
         // Base sizes on the layout changes.
-        let sizes = '(max-width: 80rem) 100vw, 80rem';
+        let sizes = '(max-width: 65em) 100vw, 65em';
         switch (style) {
         case '-full':
             sizes = '100vw';
@@ -54,7 +56,7 @@ module.exports = async function (src, style, alt, caption = undefined) {
             break;
         case '-inline':
             // Approximation of the size in the UI, not perfect since the siblings width isn't taken into account
-            sizes = `(max-width: 40em) 100vw, (max-width: 90rem) ${(highsrc.width / highsrc.height) * 50}vw, ${(highsrc.width / highsrc.height) * 40}rem`;
+            sizes = `(max-width: 40em) 100vw, (max-width: 65em) ${(highsrc.width / highsrc.height) * 40}vw, ${(highsrc.width / highsrc.height) * 40}rem`;
             break;
         }
         return `<figure class="image ${style}"${inlineStyling}>
