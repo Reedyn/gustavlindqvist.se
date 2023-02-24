@@ -14,9 +14,12 @@ Tjoget är en årlig nationell budkavle (stafettorientering) med 20 delsträckor
 Till skillnad från [Tiomila](/2022/05/08/tiomila-2022-i-annaboda-orebro/) som är mer elitinriktad så riktar sig Tjoget istället till den breda massan med både enkla, svåra, korta och långa sträckor. Vissa sträckor är också begränsade till vissa åldrar (under 14 eller över 40) eller för enbart damer.
 
 > Max 9 löpare från klasserna H18–H40 får ingå i laget.
-Minst 5 sträckor skall löpas av damer.
-För att sträcka 3 eller 14 skall räknas som damsträcka, skall alla tre löparna vara damer.
-Om någon löpare på sträcka 14 är från klasserna H18–H40 räknas den som en sådan sträcka.
+> 
+> Minst 5 sträckor skall löpas av damer.
+> 
+> För att sträcka 3 eller 14 skall räknas som damsträcka, skall alla tre löparna vara damer.
+> 
+> Om någon löpare på sträcka 14 är från klasserna H18–H40 räknas den som en sådan sträcka.
 Inga spridningsmetoder förekommer.
 
 {% image "Gustav-Lindqvist_2022-07-03_05081.jpg", "-wide", "En myr med morgondimma.", "Morgondimman över myren som vissa av sträckorna gick över." %}
