@@ -20,7 +20,11 @@ module.exports = async () => {
             });
 
             let feed = await parser.parseString(rawFeed);
-            console.log('[' + '\x1b[95m%s\x1b[0m', 'Goodreads' + '\x1b[0m' + ']:' , feed.items.length , 'books from Gustav\'s bookshelf (' + feed.link + ')');
+            console.log(
+                '[' + '\x1b[95m%s\x1b[0m', 'Goodreads' + '\x1b[0m' + ']:' ,
+                feed.items.length ,
+                'books from Gustav\'s bookshelf (' + feed.link + ')'
+            );
             feed.items.forEach((item) => {
                 item.date = new Date(item.pubDate);
                 item.url = 'https://www.goodreads.com/book/show/' + item.book_id;

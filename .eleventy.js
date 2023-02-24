@@ -13,7 +13,7 @@ const collections = require('./.eleventy_config/collections');
 const CONTENT_GLOBS = {
     posts: 'src/posts/**/*.md|pages/**/*.md',
     assets: '*.png|*.jpg|*.jpeg|*.gif|*.webp|*.gpx|*.fit'
-}
+};
 
 module.exports = function (eleventyConfig) {
     const ELEVENTY_ENVIRONMENT = (typeof process.env.ELEVENTY_ENV !== 'undefined') ? process.env.ELEVENTY_ENV : 'production';
