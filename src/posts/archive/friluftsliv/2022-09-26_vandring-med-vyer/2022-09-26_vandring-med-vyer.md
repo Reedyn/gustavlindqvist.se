@@ -88,7 +88,7 @@ Att ta sig ned för berget gick betydligt mycket snabbare. Först nedför den ga
 
 {% image "Gustav-Lindqvist_2022-09-25_06858-Pano.jpg", "-full", "I förgrunden syns vass och träd som är i fokus och i skuggan. I mitten av bilden syns träbron som går över Sörsjön i solen." %}
 
-Jag följde Sörsjöns kant norrut tills jag kom in på Södra Vätterleden som jag gick några hundra meter på, därefter följde jag Sörsgårdens milspår bort förbi Bengans backe och bort mot Kallebäcksleden
+Jag följde Sörsjöns kant norrut tills jag kom in på Södra Vätterleden som jag gick några hundra meter på, därefter följde jag Sörgårdens milspår bort förbi Bengans backe och bort mot Kallebäcksleden
 
 {% image "Gustav-Lindqvist_2022-09-25_06874-Pano.jpg", "", "En sandig stig med träd i olika åldrar som växer vid sidan. Längst bort i bilden syns höga tallar." %}
 
