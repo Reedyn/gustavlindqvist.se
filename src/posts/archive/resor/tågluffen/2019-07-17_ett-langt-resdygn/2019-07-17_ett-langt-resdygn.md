@@ -44,7 +44,7 @@ Resten av kvällen spenderades med så mycket avslappning som det var möjligt p
 
 Nattåget rullade in på utsatt tid och vi letade upp vår vagn 404 och steg ombord. I vår kupé satt ett gäng tjejer från London som halvsov, de hade troligtvis redan åkt flera timmar och hade mer än nio kvar.
 
-{% image "20190716_210305-1.jpg", "", "Suddig, brusig nattfoto med några ljus som sträcks ut till linjer av rörelseoskärpa.", "Bad Gastein" %}
+{% image "IMG_20190721_094943_294.jpg", "", "Suddig, brusig nattfoto med några ljus som sträcks ut till linjer av rörelseoskärpa.", "Bad Gastein" %}
 
 Sedan följde den jobbigaste natten på denna resan. Nattåg utan liggvagn är inget att rekommendera men vi fick några timmars sömn iallafall, och vi fick se lite av alperna, även om det var mörkt.
 
