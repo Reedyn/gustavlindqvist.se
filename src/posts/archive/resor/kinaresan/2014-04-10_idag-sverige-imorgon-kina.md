@@ -4,7 +4,6 @@ feature_image: /assets/images/2015/05/200710_screenshots_2014-04-10_00001.jpg
 description: "Imorgon är det dags! Klockan 07:05 lämnar vi Jönköping mot Landvetter för att därifrån ta flyget till London och sen vidare mot Shanghai…"
 date: 2014-04-10
 tags: ['gaming', 'resor', 'kinaresan']
-permalink: "/{{ page.date | dateFolder}}/idag-sverige-imorgon-kina/index.html"  
 ---
 
 **Imorgon är det dags! Klockan 07:05 lämnar vi Jönköping mot Landvetter för att därifrån ta flyget till London och sen vidare mot Shanghai och Kina.**

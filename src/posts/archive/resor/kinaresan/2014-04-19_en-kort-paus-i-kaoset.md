@@ -1,6 +1,5 @@
 ---
 title: "En kort paus i kaoset"
-feature_image: /assets/images/2014/Apr/DSC_0085.JPG
 description: "Nu har vi bott i några dagar i Ningbo och det känns faktiskt som att man har landat nu. Maten känns inte ovanligt, man har vant sig vid…"
 date: 2014-04-19
 tags:
@@ -8,7 +7,6 @@ tags:
     - kinaresan
     - kina
     - ningbo
-permalink: "/{{ page.date | dateFolder}}/en-kort-paus-i-kaoset/index.html"  
 ---
 
 _Nu har vi bott i några dagar i Ningbo och det känns faktiskt som att man har landat nu. Maten känns inte ovanligt, man har vant sig vid lukten och man börjar känna sig nästan lite hemma. Det är rätt märkligt med tanke på omständigheterna._ _**Varning, detta kommer vara ett långt inlägg! :)**_
@@ -23,7 +21,7 @@ Det enklaste (i de flesta fall) sättet att ta sig fram i Ningbo är taxi, det �
 
 Tobias, Marcus och Jag skulle dela taxi bort till IKEA, vi gjorde som vi brukar och viftar in en taxi varpå vi visar adressen (skriven på kinesiska i en liten magisk bok vi har) och efter att taxi-chauffören visar en liten _"kom-in"_-rörelse hoppar vi in i taxin och den tar oss till destinationen. Efter kanske en tio minuters åkning började Tobias som satt i framsätet och chauffören försöka så gott det går kommunicera vart vi skulle, chauffören hade nämligen inte koll på var IKEA låg så vi fick efter bästa förmåga och Google Maps förklara vart han skulle köra. En kombination av dålig kommunikation och en ofullständig karta befann vi oss på destinationen. Så här såg det ut.
 
-![IKEA Ningbo](/assets/images/2014/Apr/DSC_0084.JPG)
+{% image "/assets/images/2014/Apr/DSC_0084.JPG", "", "Ett skräpigt område med små butiker och bostäder i dåligt skick." %}
 
 Chauffören var ganska bestämd att detta var rätt destination och ville bli av med oss så vi blev utkörda ur taxin och fick ta oss vidare på egen hand. Området vi befann oss i var hälten förort och hälften byggarbetsplats. Här ska det tilläggas att vi inte hade en ordentlig address till IKEA, den enda vi hade var skriven med kinesiska tecken och således inget vi kan knappa in på våra smartphones som sedan magiskt kunde leda oss framåt. Här var vi utelämnade åt vår egna orienteringsförmågor men främst vår tur.
 
@@ -31,7 +29,7 @@ Efter en liten promenad åt det håll vi trodde att IKEA var såg vi en blå byg
 
 Det var vid denna tidpunkt de andra kom fram till IKEA (utan problem alls) och hade möjligheten att skicka en bild på var de befann sig på kartan. **Nu hade vi en punkt att gå mot! =)** 30 minuters gång senare genom industriområden, över stora vägar, under stora vägar, över en bro var vi _äntligen_ framme vid IKEA, och det var underbart!
 
-![IKEA Ningbo](/assets/images/2014/Apr/DSC_0085.JPG)
+{% image "/assets/images/2014/Apr/DSC_0085.JPG", "-wide", "En bild på entrén på en IKEA-butik. Skyltarna står på engelska och kinesiska." %}
 
 På IKEA passade vi på att äta lite på restaurangen och sedan den sedvanliga rundvandringen (där de andra besökarna var mer intresserade av oss än varorna) och avslutades sedan i IKEA Foods där vi fick tag på diverse svenska matartiklar. Jag som hungrat efter något ordentligt i brödväg köpte 3 stora påsar med skorpor :)
 
@@ -43,6 +41,6 @@ Klockan 17:53 gav vi oss ut på gatorna igen efter taxijakt, och vi var inte ens
 
 Efter så lång tid i regnet och så mycket strul på en och samma dag är det underbart att kunna sätta sig ner och bara åka med, att vi sen höll på att krocka ett antal gånger behöver vi inte gå in i detalj på.
 
-![Taxi](/assets/images/2014/Apr/DSC_0089.JPG)
+{% image "/assets/images/2014/Apr/DSC_0089.JPG", "", "En oskarp bild inifrån en taxi på en väldigt blöt vindruta med stadsljus som lyser i regnet." %}
 
 _Nu ska vi ha en chillkväll efter en varm dusch och bara slappna av med lite skorpor!_

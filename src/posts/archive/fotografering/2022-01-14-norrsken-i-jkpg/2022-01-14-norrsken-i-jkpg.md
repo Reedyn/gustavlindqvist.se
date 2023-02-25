@@ -8,9 +8,9 @@ twitterId: "1482113295280705538"
 series: fotografering
 permalink: "/{{ page.date | dateFolder}}/norrsken-i-jkpg/index.html"
 tags:
-- fotografering
-- jkpg
-- vinter
+  - fotografering
+  - jkpg
+  - vinter
 ---
 
 Det är inte ofta som det är norrsken i Jönköping och när det väl är det så är det ofta molnigt, men ibland blir det tillfälle. Ikväll var ett sådant och var definitivt det häftigaste jag sett i Jönköping.
