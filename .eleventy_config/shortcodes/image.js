@@ -46,7 +46,7 @@ module.exports = async function (src, style, alt, caption = undefined) {
         let inlineStyling = (style === '-inline') ? ` style="flex: ${highsrc.width / highsrc.height}"` : '';
 
         // Base sizes on the layout changes.
-        let sizes = '(max-width: 65em) 100vw, 65em';
+        let sizes = '(max-width: 80rem) 100vw, 80rem';
         switch (style) {
         case '-full':
             sizes = '100vw';
