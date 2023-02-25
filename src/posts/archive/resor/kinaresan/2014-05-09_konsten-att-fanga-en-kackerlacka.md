@@ -7,10 +7,9 @@ tags:
     - kinaresan
     - kina
     - beijing
-permalink: "/{{ page.date | dateFolder}}/konsten-att-fanga-en-kackerlacka/index.html"  
 ---
 
-**Om 10 timmar lämnar vi Beijing mot Hong Kong och varmare klimat.**
+Om 10 timmar lämnar vi Beijing mot Hong Kong och varmare klimat.{.lead}
 
 Idag har vi besökt _Silk Road_ som är ett stort varuhus med alla möjliga saker, allt från märkeskläder till elektronik, och självklart silke. De flesta produkter ska vara _"fake"_ men enligt alla skyltar och liknande ska det vara äkta (samt att prutning var förbjudet fast det gjorde alla ändå).
 

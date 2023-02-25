@@ -10,7 +10,7 @@ tags:
     - ningbo
 ---
 
-**Efter regn kommer solsken sägs det och det är samma sak i Kina. Det har regnat i några dagar nu och först idag blev det fint.**
+Efter regn kommer solsken sägs det och det är samma sak i Kina. Det har regnat i några dagar nu och först idag blev det fint.{.lead}
 
 Eftersom jag inte tagit så mycket bilder på campus gick jag och Tobbe en runda och fotograferade. Med Google's nylanserade kamerapp i högsta hugg tog jag lite [photospheres som kan ses här](https://photos.app.goo.gl/cMUKw6WfxMtHKZT5A); Min plan är att fylla på det albumet med alla photospheres som jag tar.
 
