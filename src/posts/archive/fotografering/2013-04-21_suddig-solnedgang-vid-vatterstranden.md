@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d501
 title: "Suddig solnedgång vid Vätterstranden"
 feature_image: /assets/images/2014/10/_MG_0766_s.jpg
 description: "Jag är nu hemma efter mitt första försök till att få till en solnedgång som timelapse; Detta ska vara något av det besvärligaste man kan…"

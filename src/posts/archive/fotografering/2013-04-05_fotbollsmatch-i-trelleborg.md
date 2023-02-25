@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d500
 title: "Fotbollsmatch i Trelleborg"
 feature_image: /assets/images/2013/9503333163_f2d22d9a71_b.jpg
 description: "Egentligen är jag inte speciellt intresserad av fotboll och egentligen inte att titta på sport i allmänhet (segling är ett undantag). Men…"

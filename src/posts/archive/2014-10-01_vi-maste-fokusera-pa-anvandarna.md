@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d51a
 title: "Vi måste fokusera på användarna"
 description: "Jag tror på öppen källkod och fri mjukvara. Många problem inom teknologin beror på att vi har sluten källkod i till stor del otestad…"
 date: 2014-10-01

@@ -1,5 +1,4 @@
 ---
-id: 5d2b885ff7fb5c003846f15e
 title: "Ganzer Tag in der Hauptstadt"
 feature_image: /assets/images/2019/07/Gustav-Lindqvist_2019-07-13_06333-2.jpg
 description: "Andra dagen i Berlin började med en trevlig frukost på hotellet och sen en promenad bort till DDR-museet som låg precis intill Berliner Dom."

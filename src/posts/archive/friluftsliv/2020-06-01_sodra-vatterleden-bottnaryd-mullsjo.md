@@ -1,5 +1,4 @@
 ---
-id: 5eccba5d25de3f0045faeea1
 title: "Vandring längs Södra Vätterleden (Bottnaryd → Mullsjö)"
 feature_image: /assets/images/2020/05/20200522_112634-1.jpg
 description: "Precis som alla andra svenskar bestämde vi oss för att vandra lite i närområdet under pandemin."

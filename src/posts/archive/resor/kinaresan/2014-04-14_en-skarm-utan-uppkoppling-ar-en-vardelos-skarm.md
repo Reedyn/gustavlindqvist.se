@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d50e
 title: "En skärm utan uppkoppling är en värdelös skärm"
 feature_image: /assets/images/2018/07/_OLY0005-Pano.jpg
 description: "De senaste dagarna har varit en jakt på öppna (och fungerande) Wi-Fi. Det som vi har på hotellet fungerar bara vissa tider på dygnet och de…"

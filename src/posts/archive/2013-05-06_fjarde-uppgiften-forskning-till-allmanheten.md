@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d502
 title: "Fjärde Uppgiften - Forskning till allmänheten"
 description: "Några dagar sedan lanserades Fjärde Uppgiften som är en ny webbplats och tjänst med uppgiften att oberoende av andra organisationer sprida…"
 date: 2013-05-06

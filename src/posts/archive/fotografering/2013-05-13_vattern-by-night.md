@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d503
 title: "Vättern by night"
 feature_image: /assets/images/vattern-by-night/8738080004_4aa25ee3df_b.jpg
 description: "Min första timelapsesekvens på natten (eller sen kväll). Overhead börjar bli ett problem då mot slutet hann kameran knappt spara bilderna…"

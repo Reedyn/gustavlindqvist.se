@@ -1,5 +1,4 @@
 ---
-id: 5b5a4b1f8a126100bf0496ee
 title: Tjärö och Dragsö
 feature_image: "/assets/images/2018/08/Gustav-Lindqvist_2018-07-20_0001-4-Pano-1.jpg"
 description: Tjärö har förändrats rejält genom åren efter att de gjort ett flertal ägarbyten. När jag växte upp besökte vi ofta Tjärö och då var det…

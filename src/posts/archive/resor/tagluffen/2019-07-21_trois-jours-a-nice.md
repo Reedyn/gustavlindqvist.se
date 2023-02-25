@@ -1,5 +1,4 @@
 ---
-id: 5d340fba23fddd00389feed3
 title: "Trois jours à Nice"
 feature_image: /assets/images/2019/07/OI000100.JPG
 description: "Vädret var fint och varmt när vi landade i Nice. Det första vi möttes av efter att vi fått tag på våra väskor var hur smidig…"

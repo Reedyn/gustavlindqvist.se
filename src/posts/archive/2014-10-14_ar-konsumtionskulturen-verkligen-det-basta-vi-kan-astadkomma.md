@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d520
 title: "Är konsumtionskulturen verkligen det bästa vi kan åstadkomma?"
 description: "När vi ska bry oss om miljön köper vi ekologiskt, när vi ska bry oss om arbetsförhållanden köper vi fairtrade och snart kommer vi säkert…"
 date: 2014-10-14

@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d4fd
 title: "Att fotografera stjärnor"
 feature_image: /assets/images/2015/03/15258885827_7a56e6f5d6_b.jpg
 description: "Vinterns kalla väder lämpar sig väldigt väldigt till natt-fotografering, i synnerhet till att fotografera stjärnor. Är man riktigt duktig kan man få till fantastiska bilder…"

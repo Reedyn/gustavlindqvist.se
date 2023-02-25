@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d51b
 title: "Hyperlapse!"
 feature_image: /assets/images/2017/08/486944556_640.jpg
 description: "Något som tidigare har tagit enormt mycket tid och arbete för ett lyckat resultat kommer snart vara tillgängligt för många fler. Precis som…"

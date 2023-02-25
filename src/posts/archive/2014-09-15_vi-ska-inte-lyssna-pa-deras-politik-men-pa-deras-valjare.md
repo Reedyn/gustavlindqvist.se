@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d51d
 title: "Vi ska inte lyssna på deras politik, men på deras väljare"
 description: ""
 date: 2014-09-15

@@ -1,5 +1,4 @@
 ---
-id: 5f0d6da0fa8bc50039a4a19f
 title: "Vandring på John Bauerleden (Siringe → IKHP)"
 feature_image: /assets/images/2020/07/Gustav-Lindqvist_2020-07-13_09692.jpg
 description: "Vi började vandringen i Siringe norr om Skärstad för att därifrån vandra ungefär 4 kilometer genom fina öppna landskap upp mot John…"

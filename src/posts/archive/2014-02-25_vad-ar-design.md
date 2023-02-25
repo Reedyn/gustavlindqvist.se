@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d508
 title: "Vad är design?"
 description: "Följande paragrafer är högst subjektiva, you have been warned :)"
 date: 2014-02-25

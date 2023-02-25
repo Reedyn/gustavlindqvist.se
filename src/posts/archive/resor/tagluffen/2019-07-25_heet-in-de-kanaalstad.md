@@ -1,5 +1,4 @@
 ---
-id: 5d402b0a360605003755d56e
 title: "Heet in de kanaalstad"
 feature_image: /assets/images/2019/07/Gustav-Lindqvist_2019-07-23_07154-1.jpg
 description: "Från Paris åkte vi också snabbtåg, men inte TGV utan den privata aktören Thalys. Det gick också snabbt."

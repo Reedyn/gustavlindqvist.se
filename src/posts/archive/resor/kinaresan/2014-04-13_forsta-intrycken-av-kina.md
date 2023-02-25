@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d50d
 title: "Första intrycken av Kina"
 feature_image: "/assets/images/2014/Apr/_OLY0392-Edit.jpg"
 description: "Nu har vi spenderat första dygnet i Kina och det känns fortfarande surrealistiskt, det känns fortfarande inte som att vi är här. Vi får väl…"

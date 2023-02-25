@@ -1,5 +1,4 @@
 ---
-id: 5b4a6b764a76e700bf6fdd9f
 title: Vandring i Borgafjäll
 feature_image: "/assets/images/2018/12/IMG_20180914_083819797_HDR_2.jpg"
 description: En kort rapport från turen till Borgafjällen i början av hösten.

@@ -1,7 +1,5 @@
 ---
-id: 599bf6b7328ea00019b8d522
 title: "Distraherande teknik"
-feature_image: /assets/images/2014/10/maxresdefault.jpg
 description: "Design är till att lösa problem och tjänster/produkter är till för att användas. Det skapas nya tjänster och produkter varje dag som alla…"
 date: 2014-10-29
 tags:

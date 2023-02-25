@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d527
 title: "Morgonfrost"
 feature_image: /assets/images/2014/11/Gustav-Lindqvist_2014-11-22_0161_s.jpg
 description: "Hösten vill verkligen inte ge upp här i Jönköping. Men nu känns det att vintern är på väg när vi äntligen börjar få lägre temperaturer,…"

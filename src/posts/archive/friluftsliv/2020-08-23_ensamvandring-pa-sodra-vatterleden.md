@@ -1,5 +1,4 @@
 ---
-id: 5f4270a265a95300396ea7da
 title: "Ensamvandring på Södra Vätterleden (Bottnaryd → Norrahammar)"
 feature_image: /assets/images/2020/08/Gustav-Lindqvist_2020-08-22_0380-1.jpg
 description: "I helgen bestämde jag mig för att testa det där med ensamvandring och då valde jag etapp 2 på Södra Vätterleden mellan Bottnaryd och Norrahammar."
@@ -24,7 +23,7 @@ Turen var även första tillfället att testa en stor del av utrustningen, bland
 
 Turen började i högt tempo på lite över 6km i timmen med snabba steg tack vare den lätta packningen. Det gick så snabbt att jag nästan inte hann se snoken som låg mitt på vägen och solade.
 
-{% image "/assets/images/2020/08/Gustav-Lindqvist_2020-08-22_0387.jpg", "", "En svart snok som slingrar sig från en grusig väg in i gräset.", "Snok som låg och njöt av solen på vägen fram till jag kom" %}
+{% image "/assets/images/2020/08/Gustav-Lindqvist_2020-08-22_0387.jpg", "", "En svart snok som slingrar sig från en grusig väg in i gräset.", "Snok som låg och njöt av solen på vägen fram till jag kom förbi" %}
 
 Snoken ringlade sig snabbt åt sidan när jag skrämde den, men inte förrän jag hunnit ta en bild.
 

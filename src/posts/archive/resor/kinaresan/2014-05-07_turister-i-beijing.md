@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d513
 title: "Turister i Beijing"
 feature_image: /assets/images/2018/07/14130555624_030caf62fa_k.jpg
 description: "Äntligen är vi turister igen!"

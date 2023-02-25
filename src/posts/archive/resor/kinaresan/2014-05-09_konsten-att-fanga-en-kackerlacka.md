@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d515
 title: "Konsten att fånga en kackerlacka"
 description: "Om 10 timmar lämnar vi Beijing mot Hong Kong och varmare klimat."
 date: 2014-05-09

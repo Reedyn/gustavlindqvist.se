@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d51c
 title: "Vår tids läskunnighet?"
 description: ""
 date: 2014-09-08

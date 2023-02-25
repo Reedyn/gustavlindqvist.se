@@ -1,5 +1,4 @@
 ---
-id: 5d2b8c75f7fb5c003846f19d
 title: "Prohlídka Prahy"
 feature_image: /assets/images/2019/07/Gustav-Lindqvist_2019-07-14_06398-1.jpg
 description: "Första resan som kändes som tågluff på riktigt. Under de första två timmarna på tågresan mellan Berlin och Prag fick vi sitta på golvet ute…"

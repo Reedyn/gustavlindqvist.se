@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d506
 title: "Framtidens samhälle"
 description: "Följande ordväxling har alltid varit fäst vid på något sätt, det speglar det samhället vi lever i idag och vad som skulle kunna bli."
 date: 2014-02-20

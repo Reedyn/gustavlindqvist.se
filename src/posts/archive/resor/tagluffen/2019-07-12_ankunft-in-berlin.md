@@ -1,5 +1,4 @@
 ---
-id: 5d28e586f7fb5c003846f11d
 title: "Ankunft in Berlin"
 feature_image: /assets/images/2019/07/Gustav-Lindqvist_2019-07-12_06282-1.jpg
 description: "Resan från Rostock till Berlin klaffade perfekt med alla sträckor. Vi kom fram till Rostock drygt en timme före tåget skulle åka från…"

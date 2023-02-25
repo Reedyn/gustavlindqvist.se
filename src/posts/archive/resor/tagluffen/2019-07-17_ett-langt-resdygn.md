@@ -1,5 +1,4 @@
 ---
-id: 5d340b4a23fddd00389fee8d
 title: "Ett långt resdygn"
 feature_image: /assets/images/2019/07/Gustav-Lindqvist_2019-07-16_06511-1.jpg
 description: "Från Prag åkte vi vidare med tåg ner mot Österrike, denna gången med platsbokning. Vilket vi troligtvis inte hade behövt med tanke på hur…"

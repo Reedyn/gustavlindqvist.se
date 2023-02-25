@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d51f
 title: "Vattenstaden Jönköping"
 feature_image: /assets/images/2014/09/Gustav-Lindqvist_2014-09-27_0063.jpg
 description: "När man bor i en stad blir man lätt blind för allt som egentligen gör staden speciell. Visst, många smultronställen hittar man inte som…"

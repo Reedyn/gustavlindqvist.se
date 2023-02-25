@@ -1,5 +1,4 @@
 ---
-id: 5c5295be03e86200c0924ca1
 title: "Analog fotografering"
 feature_image: /assets/images/2019/03/Gustav-Lindqvist.2019-03-23.-untitled-shoot-02394.jpg
 description: "Länge var jag ganska negativt inställd till analog fotografering. Det var besvärligt, bakåtsträvande och dyrt. Sida vid sida med en digital…"

@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d511
 title: "Zhejiang Wanli University"
 feature_image: /assets/images/2014/10/13980846711_bbef934826_h.jpg
 description: "Efter regn kommer solsken sägs det och det är samma sak i Kina. Det har regnat i några dagar nu och först idag blev det fint."
