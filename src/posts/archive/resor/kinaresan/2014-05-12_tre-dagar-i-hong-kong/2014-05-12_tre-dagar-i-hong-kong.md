@@ -80,3 +80,5 @@ Efter en natt på hotellet var sista delen på resan avklarad och det var "bara"
 		{% image "IMG_20140516_223052.jpg", "-inline", "Ett flygplan som står vid gaten." %}
 	</figure>
 </figure>
+
+The end.
