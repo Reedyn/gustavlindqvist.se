@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d50a
 title: "Idag Sverige, imorgon Kina*"
 feature_image: /assets/images/2015/05/200710_screenshots_2014-04-10_00001.jpg
 description: "Imorgon är det dags! Klockan 07:05 lämnar vi Jönköping mot Landvetter för att därifrån ta flyget till London och sen vidare mot Shanghai…"

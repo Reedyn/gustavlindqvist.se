@@ -1,5 +1,4 @@
 ---
-id: 5facf82098a294003998cfac
 title: "En vinter på cykel"
 feature_image: /assets/images/2021/02/20210130_125120-1.jpg
 description: "Nu när våren äntligen är här med varma temperaturer och cykelturer i kortbyxor och t-shirt tänkte jag det kunde vara läge att dumpa alla…"

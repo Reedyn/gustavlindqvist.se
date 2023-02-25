@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d521
 title: "Vintergatan över Dumme mosse"
 feature_image: /assets/images/2014/10/Gustav-Lindqvist_2014-10-04_0091-2-Edit_s.jpg
 description: "Var ute och fotograferade vid Dumme mosse igår natt/kväll. Målet var att komma ut från ljusföroreningarna i Jönköping och få lite fina…"

@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d531
 title: "Vårträning"
 feature_image: /assets/images/2017/03/Gustav-Lindqvist_2017-03-11_3018_s.jpg
 description: "Det är något speciellt med sol och träningslust. Jag har inte haft lust att springa på månader i vintermörkret utan varje gång jag skulle…"

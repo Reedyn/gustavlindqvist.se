@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d52d
 title: "Det är skönt att vara igång igen!"
 feature_image: /assets/images/2016/06/Gustav-Lindqvist_2016-05-29_2.jpg
 description: "Under hösten drog jag på mig en lång förkylning som avbröt min streak för det året. Jag hade sprungit ordentligt och regelbundet under hela…"

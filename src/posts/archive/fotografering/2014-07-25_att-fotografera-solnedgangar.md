@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d519
 title: "Att fotografera solnedgångar"
 feature_image: /assets/images/2014/Jul/_GUS0159-Edit-2.jpg
 description: "Solnedgångar är en av de finaste tiderna man kan fotografera landskap i men det kan också vara något av de mest komplicerade man kan…"

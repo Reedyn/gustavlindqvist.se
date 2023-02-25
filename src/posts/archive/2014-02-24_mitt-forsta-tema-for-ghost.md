@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d507
 title: "Mitt första tema för Ghost"
 description: "Jag har nu officiellt släppt mitt första tema för Ghost =)"
 date: 2014-02-24

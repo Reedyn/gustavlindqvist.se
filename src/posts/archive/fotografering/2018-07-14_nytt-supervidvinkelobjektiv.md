@@ -1,5 +1,4 @@
 ---
-id: 5b49230f4a76e700bf6fdd8e
 title: "Laowa 7.5mm f/2 MFT"
 feature_image: /assets/images/2018/07/Gustav-Lindqvist_2018-07-14_0177.jpg
 description: "En av de största uppoffringarna jag gjorde när jag gick från mitt Canon 450D system till min spegellösa Olympus OM-D E-M5 var mitt Tokina…"

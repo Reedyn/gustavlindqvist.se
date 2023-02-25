@@ -1,5 +1,4 @@
 ---
-id: 5d340f5123fddd00389feecc
 title: "Un giorno a Venezia"
 feature_image: /assets/images/2019/07/Gustav-Lindqvist_2019-07-17_06652-2.jpg
 description: "Hettan i Venedig slog direkt mot en och i de trånga gränderna stannade all värme kvar i luften."

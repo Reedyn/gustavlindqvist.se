@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d518
 title: "Snygga till YouTube-inbäddningar"
 description: "Att bädda in YouTube-filmer i sina bloggar, kampanjer och allt däremellan är något många gör. Det är dock inte många som använder och…"
 date: 2014-06-10

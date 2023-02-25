@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d4ff
 title: "Robots Will Steal Your Job, But That's OK"
 description: "Andreas Cervenka skriver om robotars påverkan på ekonomin och arbetssamhället i Svenska Dagbladet idag."
 date: 2013-03-17

@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d50b
 title: "Landvetter"
 feature_image: /assets/images/2014/Apr/_OLY0477-1.jpg
 description: "Nu är vi på väg!"

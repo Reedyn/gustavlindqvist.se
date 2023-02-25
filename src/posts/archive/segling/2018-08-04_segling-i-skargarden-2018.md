@@ -1,5 +1,4 @@
 ---
-id: 5b5a46cb8a126100bf0496e5
 title: "Segling i skärgården"
 feature_image: /assets/images/2018/07/Gustav-Lindqvist_2018-07-20_0043.jpg
 description: "Den 19:onde startade vi den förmodligen mest vältimade semestern någonsin ner mot Blekinge skärgård under en av landets värsta värmeböljor."

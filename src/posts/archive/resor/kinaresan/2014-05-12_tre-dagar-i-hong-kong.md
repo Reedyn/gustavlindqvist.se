@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d516
 title: "Tre dagar i Hong Kong"
 feature_image: /assets/images/2014/May/P5110739.jpg
 description: "För 3 dagar sedan landade vi i Hong Kong. Som ni kan se om ni följer länken så bröt jag mot elektronikförbudet när vi landade :) Lätt värt…"

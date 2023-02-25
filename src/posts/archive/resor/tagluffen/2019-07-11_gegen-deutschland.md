@@ -1,5 +1,4 @@
 ---
-id: 5d2818bff7fb5c003846f0ce
 title: "Gegen Deutschland"
 feature_image: /assets/images/2019/07/Gustav-Lindqvist_2019-07-12_06246-1.jpg
 description: "So it begins..."

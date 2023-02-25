@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d526
 title: "Sista höstlöven?"
 feature_image: /assets/images/2014/11/Gustav-Lindqvist_2014-11-15_0084_s.jpg
 description: "Nu är det över en månad sedan jag var ute och fotograferade så det var på tiden :) Jag passade på att gå en runda timmen innan solen gick…"

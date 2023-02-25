@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d52f
 title: "Efterbehandlings­tekniker för timelapse­fotografering"
 feature_image: /assets/images/2018/07/lrtimelapse.jpg
 description: "Det som anses av de flesta inom timelapsefotografering som är bland det svåraste att få till och häftigast resultat är s.k. \"Holy Grail\"…"

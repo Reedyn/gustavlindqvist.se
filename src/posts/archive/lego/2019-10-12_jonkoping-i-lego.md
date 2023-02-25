@@ -1,5 +1,4 @@
 ---
-id: 5da195034caa640038249014
 title: "Jönköping i LEGO"
 feature_image: /assets/images/2019/10/Gustav-Lindqvist_2019-10-12_07466.jpg
 description: "Min favoritserie av LEGO-sets är Architecture. En serie där varje set är ett axplock av kända byggnader och platser från en viss stad i…"

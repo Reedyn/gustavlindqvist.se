@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d529
 title: "Vinteraktiviteter"
 feature_image: /assets/images/2015/01/Gustav-Lindqvist_2015-01-11_0026_m-1.jpg
 description: "Det är mycket som hänt nu under vintern. Förra veckan började jag med trail running, lite som orientering utan karta, väldigt kul! I…"

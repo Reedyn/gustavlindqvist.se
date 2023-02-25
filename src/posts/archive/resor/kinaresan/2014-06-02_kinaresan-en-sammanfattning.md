@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d517
 title: "Kinaresan - En sammanfattning"
 feature_image: /assets/images/2018/07/_OLY0005-Pano-3.jpg
 description: "Nu är mitt livs tredje största resa över (långsegling till Medelhavet och ensamresa till USA är före :)"

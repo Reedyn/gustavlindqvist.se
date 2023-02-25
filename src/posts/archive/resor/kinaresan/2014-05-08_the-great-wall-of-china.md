@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d514
 title: "The Great Wall of China"
 feature_image: /assets/images/2014/May/P5080555-Edit.jpg
 description: "Idag har vi varit och besökt den kinesiska muren, vi hade bokat en privat tour som vi tog till ett av de mindre populära men ansett av de…"

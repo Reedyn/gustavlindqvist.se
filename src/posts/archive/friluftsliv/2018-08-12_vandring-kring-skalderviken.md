@@ -1,5 +1,4 @@
 ---
-id: 5b67ea6fd4e18900bf8d0e4e
 title: "Vandring kring Skälderviken"
 feature_image: /assets/images/2018/08/Gustav-Lindqvist_2018-08-02_1079-2.jpg
 description: "Efter att ha pratat om att åka till Kullaberg ett tag tog vi ett ganska spontant beslut om att åka iväg."

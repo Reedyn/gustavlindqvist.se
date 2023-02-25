@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d52a
 title: "Hide a Cache"
 feature_image: /assets/images/2015/02/Gustav-Lindqvist_2015-01-31_0037_m-3.jpg
 description: "Under helgen slängde jag och min pappa ihop en geocache. Vi tog en stock, sågade av ena halvan (som blev ett lock) och borrade ett hål för…"

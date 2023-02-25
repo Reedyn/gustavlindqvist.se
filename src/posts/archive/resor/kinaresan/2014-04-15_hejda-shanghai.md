@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d50f
 title: "Hejdå Shanghai"
 feature_image: /assets/images/2014/Apr/DSC_0081.JPG
 description: "Igår var sista dagen i Shanghai och det var också första dagen för praktiken. Vi fick information från Export Akademien om Kina, både lite…"

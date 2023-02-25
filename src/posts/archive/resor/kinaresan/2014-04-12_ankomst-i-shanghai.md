@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d50c
 title: "Ankomst i Shanghai"
 description: "Flygresan från Landvetter till London beskrivs bäst med följande citat från Olivia som ej flugit tidigare: Oh my god, fan vad häftigt…"
 date: 2014-04-12

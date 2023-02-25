@@ -1,5 +1,4 @@
 ---
-id: 5b5a4b408a126100bf0496f2
 title: "Nattsegling mot Kåseberga"
 feature_image: /assets/images/2018/07/Gustav-Lindqvist_2018-07-23_0511.jpg
 description: "Resan ner blev lugn utan vare sig vågor eller vind. Enda seglet som var hissat var järngenoan (motorn)."

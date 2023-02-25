@@ -1,5 +1,4 @@
 ---
-id: 5b46f6284a76e700bf6fdd84
 title: "Södra Vätterleden (Taberg → Strömsberg)"
 feature_image: /assets/images/2018/07/Gustav-Lindqvist_2018-06-16_2944.jpg
 description: "Nu har Jossan och jag äntligen landat i vilka ryggsäckar vi ville ha och vi gav oss ut på en tur för att testa dem. Vi valde varsin…"

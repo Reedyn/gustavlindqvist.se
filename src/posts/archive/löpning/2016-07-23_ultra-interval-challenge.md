@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d530
 title: "Ultra Interval Challenge"
 feature_image: /assets/images/2016/07/uic.jpg
 description: "Ultra Interval Challenge är event flera gånger per år som går över hela världen där alla springer individuellt (eller i grupp) i sin egen…"

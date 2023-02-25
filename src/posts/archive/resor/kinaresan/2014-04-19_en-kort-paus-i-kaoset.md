@@ -1,5 +1,4 @@
 ---
-id: 599bf6b7328ea00019b8d510
 title: "En kort paus i kaoset"
 feature_image: /assets/images/2014/Apr/DSC_0085.JPG
 description: "Nu har vi bott i några dagar i Ningbo och det känns faktiskt som att man har landat nu. Maten känns inte ovanligt, man har vant sig vid…"
