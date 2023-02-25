@@ -65,7 +65,7 @@ permalink: "/{{ page.date | dateFolder}}/prijezd-do-prahy/index.html"
 <figure class="kg-card kg-image-card kg-width-full"><img src="Gustav-Lindqvist_2019-07-15_06488.jpg" class="kg-image" alt loading="lazy">
 </figure>
 <p>Sedan gick vi ner till det dansande huset som Josefine ville se... Det var inte mycket att hänga i granen.</p>
-<figure class="kg-card kg-image-card"><img src="OI000083.JPG" class="kg-image" alt loading="lazy"></figure>
+<figure class="kg-card kg-image-card"><img src="OI000083.jpg" class="kg-image" alt loading="lazy"></figure>
 <p>Kvällen avslutades med middag på restaurang följt av huvudnumret med ölprovning på Ú Kunštátů, en mysigt ölställe som ligger på en liten innergård.</p>
 <figure class="kg-card kg-image-card kg-card-hascaption"><img src="IMG_20190716_115208_548-2.jpg" class="kg-image" alt loading="lazy"> <figcaption>Foto: <a href="https://josefinenilsson.se">Josefine Nilsson</a></figcaption>
 </figure>

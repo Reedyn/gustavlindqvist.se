@@ -9,11 +9,12 @@ tags:
     - tyskland
     - berlin
     - sommar
-permalink: "/{{ page.date | dateFolder}}/ganzer-tag-in-der-hauptstadt/index.html"  
 ---
 
-<p>Andra dagen i Berlin började med en trevlig frukost på hotellet och sen en promenad bort till DDR-museet som låg precis intill Berliner Dom.</p>
-<figure class="kg-card kg-image-card"><img src="Gustav-Lindqvist_2019-07-13_06295.jpg" class="kg-image" alt loading="lazy"></figure>
+Andra dagen i Berlin började med en trevlig frukost på hotellet och sen en promenad bort till DDR-museet som låg precis intill Berliner Dom.
+
+{% image "Gustav-Lindqvist_2019-07-13_06295.jpg", "", "En gångväg längs med en kanal i Berlin. En bit bort går det en bro över både kanalen och gångvägen där ett tåg kör över." %}
+
 <figure class="kg-card kg-gallery-card kg-width-wide">
     <div class="kg-gallery-container">
         <div class="kg-gallery-row">
@@ -61,7 +62,7 @@ permalink: "/{{ page.date | dateFolder}}/ganzer-tag-in-der-hauptstadt/index.html
                                                height="1080" loading="lazy" alt></div>
             <div class="kg-gallery-image" style="flex: 1.33333 1 0%;"><img src="20190713_201453-2.jpg" width="2000"
                                                height="1500" loading="lazy" alt></div>
-            <div class="kg-gallery-image" style="flex: 1 1 0%;"><img src="OI000035.JPG" width="1536" height="1536"
+            <div class="kg-gallery-image" style="flex: 1 1 0%;"><img src="OI000035.jpg" width="1536" height="1536"
                                                loading="lazy" alt></div>
         </div>
     </div>
