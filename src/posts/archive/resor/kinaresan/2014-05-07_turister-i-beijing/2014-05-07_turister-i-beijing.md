@@ -7,7 +7,6 @@ tags:
     - kinaresan
     - kina
     - beijing
-feature_image: P5080577_L.jpg
 ---
 
 Äntligen är vi turister igen!{.lead}
