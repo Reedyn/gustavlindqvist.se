@@ -8,7 +8,6 @@ tags:
     - kinaresan
     - kina
     - ningbo
-permalink: "/{{ page.date | dateFolder}}/zhejiang-wanli-university/index.html"  
 ---
 
 **Efter regn kommer solsken sägs det och det är samma sak i Kina. Det har regnat i några dagar nu och först idag blev det fint.**

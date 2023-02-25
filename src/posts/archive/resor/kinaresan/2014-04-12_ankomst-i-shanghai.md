@@ -7,7 +7,6 @@ tags:
     - kinaresan
     - kina
     - shanghai
-permalink: "/{{ page.date | dateFolder}}/ankomst-i-shanghai/index.html"  
 ---
 
 Flygresan från Landvetter till London beskrivs bäst med följande citat från Olivia som ej flugit tidigare: _"Oh my god", "fan vad häftigt_ och Linnea som stämde in med:

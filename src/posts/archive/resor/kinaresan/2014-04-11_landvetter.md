@@ -4,7 +4,6 @@ feature_image: /assets/images/2014/Apr/_OLY0477-1.jpg
 description: "Nu är vi på väg!"
 date: 2014-04-11
 tags: ['resor', 'kinaresan']
-permalink: "/{{ page.date | dateFolder}}/landvetter/index.html"  
 ---
 
 **Nu är vi på väg!**

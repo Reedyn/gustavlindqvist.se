@@ -1,6 +1,5 @@
 ---
 title: "En skärm utan uppkoppling är en värdelös skärm"
-feature_image: /assets/images/2018/07/_OLY0005-Pano.jpg
 description: "De senaste dagarna har varit en jakt på öppna (och fungerande) Wi-Fi. Det som vi har på hotellet fungerar bara vissa tider på dygnet och de…"
 date: 2014-04-14
 tags:
@@ -8,7 +7,6 @@ tags:
     - kinaresan
     - kina
     - shanghai
-permalink: "/{{ page.date | dateFolder}}/en-skarm-utan-uppkoppling-ar-en-vardelos-skarm/index.html"  
 ---
 
 De senaste dagarna har varit en jakt på öppna (och fungerande) Wi-Fi. Det som vi har på hotellet fungerar bara vissa tider på dygnet och de andra kan det ta upp emot en halvtimme att ladda en webbsida. För någon som är van vid en stabil 100 Mbits uppkoppling är det lite besvärligt. Det är verkligen som Stefan Hyttfors säger —_"En skärm utan uppkoppling är en värdelös skärm"_.
@@ -19,5 +17,6 @@ Resan till Fake Market var också vårt första användning av Metron vilket var
 
 **Varför har vi inte det i Sverige?!** Att det sen kostade 3 Yuan skadade inte heller =)
 
-<figure class="kg-card kg-image-card kg-width-full"><img src="/assets/images/2018/07/_OLY0005-Pano-1.jpg" class="kg-image" alt loading="lazy"></figure>
-<p>Vi var även och besökte The Bund igen och denna gången hade jag med mig stativet (Det var även mycket mindre dimma!).</p>
+{% image "/assets/images/2018/07/_OLY0005-Pano-1.jpg", "-full", "En bild av Shanghai sett från the Bund." %}
+
+Vi var även och besökte The Bund igen och denna gången hade jag med mig stativet (Det var även mycket mindre dimma!) vilket resulterade i en betydligt bättre bild.

@@ -8,12 +8,11 @@ tags:
     - kinaresan
     - kina
     - shanghai
-permalink: "/{{ page.date | dateFolder}}/forsta-intrycken-av-kina/index.html"  
 ---
 
 **Nu har vi spenderat första dygnet i Kina och det känns fortfarande surrealistiskt, det känns fortfarande inte som att vi är här. Vi får väl se hur lång tid det tar innan det klickar på riktigt!**
 
-Vid ankomst på flygplatsen var vi väldigt nervösa inför gränskontrollen, några av oss hade upplevt USAs gränskontroll och förväntade oss något liknande. SÅ blev det inte, Kina har en av de smidigaste gränskontroll jag varit med om (kan vara för att flygplatsen var tom när vi kom dit, men men).
+Vid ankomst på flygplatsen var vi väldigt nervösa inför gränskontrollen, några av oss hade upplevt USAs gränskontroll och förväntade oss något liknande. Så blev det inte, Kina har en av de smidigaste gränskontroll jag varit med om (kan vara för att flygplatsen var tom när vi kom dit, men men).
 
 Nästa upplevelse var trafiken. Det är inget som är unikt för Kina direkt, flera sydeuropeiska länder har liknande. Bilar som bryter mot allt från rött ljus till heldragna linjer och gångtrafikanter som går rakt ut mot röd gubbe i en heltrafikerad gata. Det blir något nervöst i början men vi har nu vant oss! :)
 
@@ -25,6 +24,6 @@ Stora prisskillnader jämfört med Sverige på vissa varor, att gå på restaura
 
 Häftigast hittills måste ändå vara The Bund som är en utsiktsplats över Shanghais skyline som kan ses i bilden nedan. Jag ska definitivt dit igen och fota mer (Bilden nedan är tagen med hög ISO utan stativ så den kan förbättras betydligt)och då hoppas jag att det är lite mindre dimma så man kan se alla de häftiga byggnaderna.
 
-[![Shanghai Skyline at Night](/assets/images/2014/Apr/_OLY0392-Edit.jpg#large){.-wide}](https://www.flickr.com/photos/gustavlindqvist/13836629113/)
+{% image "/assets/images/2014/Apr/_OLY0392-Edit.jpg", "-wide", "En disig bild av Shanghai sett från the Bund. Det blåa ljuset lyser upp all dimma i ett mjukt blått sken.", "Shanghai Skyline at Night" %}
 
 Nu ska vi snart ut på dag två efter en hotellfrukost som bestod av en liten yoghurt och sockerkaka :)
