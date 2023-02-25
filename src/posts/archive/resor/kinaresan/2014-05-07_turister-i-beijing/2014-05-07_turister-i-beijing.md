@@ -10,7 +10,7 @@ tags:
 feature_image: P5080577_L.jpg
 ---
 
-**Äntligen är vi turister igen!**
+Äntligen är vi turister igen!{.lead}
 
 Efter tre veckors slit är vi färdiga med vårt case som vi gjorde här i Kina och har nu sagt hejdå till Ningbo och tagit tåget till Beijing. Tågresan är nog en av de smidigaste jag någonsin åkt med, det är nog bättre att jämföra med flyg än något annat, incheckning och så var väldigt likt för flygresor men gick mycket snabbare.
 

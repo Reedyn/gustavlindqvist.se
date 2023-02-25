@@ -6,7 +6,7 @@ date: 2014-04-10
 tags: ['gaming', 'resor', 'kinaresan']
 ---
 
-**Imorgon är det dags! Klockan 07:05 lämnar vi Jönköping mot Landvetter för att därifrån ta flyget till London och sen vidare mot Shanghai och Kina.**
+Imorgon är det dags! Klockan 07:05 lämnar vi Jönköping mot Landvetter för att därifrån ta flyget till London och sen vidare mot Shanghai och Kina.{.lead}
 
 Om det är någon som eventuellt skulle vilja följa min resa går det utmärkt att göra det här på bloggen, på [twitter](https://twitter.com/lindqvistus) och på [Instagram](https://instagram.com/gustavlindqvist). Bilder lägger jag upp på min [Flickr](https://flickr.com/photos/gustavlindqvist) men kommer självklart finnas här på bloggen med.
 

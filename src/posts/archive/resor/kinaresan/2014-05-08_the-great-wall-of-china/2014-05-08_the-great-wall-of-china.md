@@ -10,7 +10,7 @@ tags:
     - beijing
 ---
 
-Idag har vi varit och besökt den kinesiska muren, vi hade bokat en privat tour som vi tog till ett av de mindre populära men ansett av de flesta vara en av de finaste delarna av den kinesiska muren, **Mutianyu**.
+Idag har vi varit och besökt den kinesiska muren, vi hade bokat en privat tour som vi tog till ett av de mindre populära men ansett av de flesta vara en av de finaste delarna av den kinesiska muren, **Mutianyu**.{.lead}
 
 För att komma upp till muren åkte vi med en sittlift upp drygt hundra meter _(det fanns möjlighet att gå men vi tyckte att det skulle vara tillräckligt att klättra på muren)_ När vi kom upp belönades vi med utsikten i bilden nedan, inte så dåligt! :)
 

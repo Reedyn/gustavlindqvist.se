@@ -9,7 +9,7 @@ tags:
     - ningbo
 ---
 
-_Nu har vi bott i några dagar i Ningbo och det känns faktiskt som att man har landat nu. Maten känns inte ovanligt, man har vant sig vid lukten och man börjar känna sig nästan lite hemma. Det är rätt märkligt med tanke på omständigheterna._ _**Varning, detta kommer vara ett långt inlägg! :)**_
+Nu har vi bott i några dagar i Ningbo och det känns faktiskt som att man har landat nu. Maten känns inte ovanligt, man har vant sig vid lukten och man börjar känna sig nästan lite hemma. Det är rätt märkligt med tanke på omständigheterna.{.lead}
 
 För tillfället bor vi på Zhejiang Wanli University campus i lägenheter avsedda för internationella, vilket betyder att de är typ dubbelt så stora som de vanliga lägenheterna och det bor hälften så många i dem. Vi har tvättmaskin, kök, kylskåp, mikrovågsugn, dusch och allt sådant (fast typ inget fungerar i just vår lägenhet).
 

@@ -6,7 +6,7 @@ date: 2014-04-11
 tags: ['resor', 'kinaresan']
 ---
 
-**Nu är vi på väg!**
+Nu är vi på väg!{.lead}
 
 I skrivande stund sitter vi på O'Learys med boardingpass i hand och väntar på att boarda. Det börjar kännas på riktigt nu!
 

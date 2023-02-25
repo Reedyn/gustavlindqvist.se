@@ -10,7 +10,7 @@ tags:
     - shanghai
 ---
 
-**Nu har vi spenderat första dygnet i Kina och det känns fortfarande surrealistiskt, det känns fortfarande inte som att vi är här. Vi får väl se hur lång tid det tar innan det klickar på riktigt!**
+Nu har vi spenderat första dygnet i Kina och det känns fortfarande surrealistiskt, det känns fortfarande inte som att vi är här. Vi får väl se hur lång tid det tar innan det klickar på riktigt!{.lead}
 
 Vid ankomst på flygplatsen var vi väldigt nervösa inför gränskontrollen, några av oss hade upplevt USAs gränskontroll och förväntade oss något liknande. Så blev det inte, Kina har en av de smidigaste gränskontroll jag varit med om (kan vara för att flygplatsen var tom när vi kom dit, men men).
 
