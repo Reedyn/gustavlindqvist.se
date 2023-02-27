@@ -144,6 +144,7 @@ module.exports = async () => {
     };
 
     packstack.summer_2022 = await getPack('https://www.packstack.io/pack/209');
+    packstack.summer_2023 = await getPack('https://www.packstack.io/pack/559');
     packstack.bankerydsleden_2022 = await getPack('https://www.packstack.io/pack/257');
 
     return packstack;
