@@ -51,11 +51,11 @@ eleventyComputed:
             <a href="https://openstreetmap.org/">OpenStreetMap</a>.</p>
         <p>Jag gör även mina <a href="/2021/01/25/jakten-pa-den-perfekta-kartan">egna kartor för mina Garmin-enheter</a> och jag hoppas kunna vara en del av att rita orienteringskartor för min klubb Hallby SOK snart.</p>
         <p>Mina senaste redigeringar i OpenStreetMap:</p>
-        <ol class="book-list">
+        <ol class="list">
             {% for edit in openstreetmap.edits %}{% if loop.index0 < 3 %}
-            <li class="book-list__item">
+            <li class="list__item">
                 <a id="{{ edit.id }}" href="{{ edit.resultatmaps }}">{{ edit.comment }}</a>
-                {% if edit.date %}<p class="book-metadata"><time class="timeago" firstletterupper datetime="{{ edit.date | fullISODate }}" title="{{ edit.date | shortISODate }}">{{ edit.date | readableDate }}</time></p>{% endif %}
+                {% if edit.date %}<p class="metadata"><time class="timeago" firstletterupper datetime="{{ edit.date | fullISODate }}" title="{{ edit.date | shortISODate }}">{{ edit.date | readableDate }}</time></p>{% endif %}
             </li>
             {% endif %}{% endfor %}
         </ol>
