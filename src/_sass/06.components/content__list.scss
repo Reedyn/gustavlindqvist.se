@@ -1,14 +1,14 @@
-ol.book-list {
+ol.list {
     list-style: disc;
 }
 
-.book-list__item {
+.list__item {
     margin-bottom: var(--margin__small);
     &:last-child {
         margin-bottom: 0;
     }
 
-    .book-title {
+    .title {
         margin: 0;
         font-size: var(--font__size__heading-4);
     }
@@ -17,7 +17,7 @@ ol.book-list {
         margin: 0;
     }
 
-    .book-metadata {
+    .metadata {
         color: var(--color__text-alt);
     }
 }
