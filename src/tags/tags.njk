@@ -32,7 +32,7 @@ templateClass: tag-template
         <ul class="post-list">
             {% for post in taglist %}
             <li class="post-list__item">
-                <h3 class="post-title"><a class="post-link" href="{{ post.url | url}}">{{ post.data.title }}</a></h3>
+                <h3 class="post-title"><a id="{{ post.url | hashString}}" class="post-link" href="{{ post.url | url}}">{{ post.data.title }}</a></h3>
                 {% if post.data.page.date %}<p class="post-date"><time datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | shortISODate }}">{{ post.data.page.date | readableLongDate }}</time></p>{% endif %}
                 </li>{% endfor %}
         </ul>
