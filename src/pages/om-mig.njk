@@ -70,7 +70,6 @@ eleventyComputed:
                     <img class="icon" src="https://media.steampowered.com/steamcommunity/public/images/apps/{{ game.appid }}/{{ game.img_icon_url }}.jpg" alt="Ikon för spelet {{ game.name }}">
                     <div class="game-list__item-content">
                         <a id="{{ game.appid }}" href="{{ game.url }}">{{ game.name }}</a>
-                        {% if game.playtime_pretty %}<p class="game-metadata"><span class="game-playtime">{{ game.playtime_pretty }}</span></p>{% endif %}
                     </div>
                 </li>
             {% endfor %}
