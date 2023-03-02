@@ -3,7 +3,6 @@ title: "Fjärde Uppgiften - Forskning till allmänheten"
 description: "Några dagar sedan lanserades Fjärde Uppgiften som är en ny webbplats och tjänst med uppgiften att oberoende av andra organisationer sprida…"
 date: 2013-05-06
 tags: vetenskap
-permalink: "/{{ page.date | dateFolder}}/fjarde-uppgiften-forskning-till-allmanheten/index.html"  
 ---
 
 Några dagar sedan lanserades [Fjärde Uppgiften](http://fjardeuppgiften.se/ "Fjärde Uppgiften - Forskning till allmänheten") som är en ny webbplats och tjänst med uppgiften att oberoende av andra organisationer sprida svensk forskning till allmänheten.

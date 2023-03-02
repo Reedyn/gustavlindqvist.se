@@ -7,7 +7,6 @@ tags:
     - geocaching
     - vinter
     - trelleborg
-permalink: "/{{ page.date | dateFolder}}/hide-a-cache/index.html"  
 ---
 
 <p>Under helgen slängde jag och min pappa ihop en geocache. Vi tog en stock, sågade av ena halvan (som blev ett lock) och borrade ett hål för att ha själva cachen i. Tanken var att cachen skulle smälta in fint i omgivning och samtidigt vara något som är lite roligare att hitta än en matlåda eller liknande.</p>

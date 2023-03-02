@@ -3,7 +3,6 @@ title: "Google stänger ner Reader och dödsdömer RSS"
 description: "Google gick tidigare idag ut med att de kommer stänga ner Google Reader som tjänst i början av sommaren."
 date: 2013-03-14
 tags: internet
-permalink: "/{{ page.date | dateFolder}}/google-stanger-ner-reader-och-dodsdomer-rss/index.html"  
 ---
 
 [Google gick tidigare idag ut med att de kommer stänga ner Google Reader](http://googleblog.blogspot.se/2013/03/a-second-spring-of-cleaning.html) som tjänst i början av sommaren.
