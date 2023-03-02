@@ -3,7 +3,6 @@ title: "Ensamhet i juletider"
 description: "För de flesta så är julen (och nyår) en tid för gemenskap, familj och vänner. Att titta på film, umgås och att bara vara tillsammans. En…"
 date: 2014-12-22
 tags: vinter
-permalink: "/{{ page.date | dateFolder}}/ensamhet-i-juletider/index.html"  
 ---
 
 För de flesta så är julen _(och nyår)_ en tid för gemenskap, familj och vänner. Att titta på film, umgås och att bara vara tillsammans. En stänger dörren mot omvärlden för att umgås med de nära. Det är en oerhört stark norm som lägger en oerhörd press på de som inte kan upfylla den som genomsyras av utanförskap och ensamhet. [Detta leder till fler självmord än någon annan tid på året](http://ltarkiv.lakartidningen.se/1999/temp/pda20430.pdf).
