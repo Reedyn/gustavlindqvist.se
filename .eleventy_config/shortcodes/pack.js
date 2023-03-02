@@ -107,7 +107,7 @@ module.exports = {
                         </li>`;
             }
             outputString += `</ul>`;
-            outputString += `<p><a class="Button" href="https://www.packstack.io/pack/${pack.id}">Utrustningslistan ${pack.name} på Packstack</a></p>`;
+            outputString += `<p><a href="https://www.packstack.io/pack/${pack.id}">Utrustningslistan ${pack.name} på Packstack</a></p>`;
             outputString += `</section>`;
             return outputString;
         }
