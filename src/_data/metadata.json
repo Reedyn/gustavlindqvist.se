@@ -3,9 +3,9 @@
   "url": "https://gustavlindqvist.se",
   "language": "sv",
   "locale": "sv",
-  "description": "Fotografering, friluftsliv, kartor m.m.",
+  "description": "fotografering, friluftsliv, kartor & annat",
   "feed": {
-    "subtitle": "Fotografering, friluftsliv, kartor m.m.",
+    "subtitle": "fotografering, friluftsliv, kartor & annat",
     "filename": "feed.xml",
     "path": "/feed.xml",
     "id": "https://gustavlindqvist.se"
