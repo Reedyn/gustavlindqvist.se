@@ -3,7 +3,7 @@
     "title": "All over the map",
     "url": "https://www.nationalgeographic.com/search?q=All%20over%20the%20map&location=srp&type=manual",
     "feed": false,
-    "feature_image": "/content/images/ng_all-over-the-map.webp",
+    "feature_image": "/assets/images/ng_all-over-the-map.webp",
     "description": "National Geographics artikelserie om kartor.",
     "type": "blog",
     "tags": [
@@ -15,7 +15,7 @@
     "url": "https://www.youtube.com/c/MarkBrownGMT",
     "feed": false,
     "description": "Mark Brown bryter ned och analyserar spel och hur de skapas i sin YouTubekanal.",
-    "feature_image": "/content/images/gmtk.jpg",
+    "feature_image": "/assets/images/gmtk.jpg",
     "type": "youtube",
     "tags": [
       "gaming"
@@ -51,7 +51,7 @@
     "url": "https://omeuropa.se/",
     "feed": "https://omeuropa.se/feed",
     "description": "Henrik Brors och Ylva Elvis Nilssons blogg om Europa. Skarpa analyser och fingret på pulsen.",
-    "feature_image": "/content/images/eu-flag.jpg",
+    "feature_image": "/assets/images/eu-flag.jpg",
     "type": "blog",
     "tags": [
       "politik",
@@ -63,7 +63,7 @@
     "url": "https://cyclingjonkoping.com/",
     "feed": "https://cyclingjonkoping.com/feed/",
     "description": "Webbplats och blogg om att cykla i Jönköpingstrakten. Bra tips på stigar och rutter.",
-    "color": "linear-gradient(0deg,rgba(0,62,145,.7),rgba(0,62,145,.7)),url(/content/images/cycling-jonkoping.jpg) no-repeat center",
+    "color": "linear-gradient(0deg,rgba(0,62,145,.7),rgba(0,62,145,.7)),url(/assets/images/cycling-jonkoping.jpg) no-repeat center",
     "type": "blog",
     "tags": [
       "mtb",
@@ -75,7 +75,7 @@
     "url": "https://sverigesradio.se/dystopia",
     "feed": "https://api.sr.se/api/rss/pod/26068",
     "description": "En podd från Sveriges Radio om vad som kan hända om det värsta inträffar.",
-    "feature_image": "/content/images/p3dystopia.jpg",
+    "feature_image": "/assets/images/p3dystopia.jpg",
     "type": "podcast",
     "tags": [
       "samhälle"
@@ -86,7 +86,7 @@
     "url": "https://sverigesradio.se/kansligtlage",
     "feed": "https://api.sr.se/api/rss/pod/22029",
     "description": "En podd från Sveriges Radio om relationer oss människor emellan. Hela arkivet är väl värt att lyssna på!",
-    "feature_image": "/content/images/kansligt-lage.jpg",
+    "feature_image": "/assets/images/kansligt-lage.jpg",
     "type": "podcast",
     "tags": [
       "samhälle",
@@ -98,7 +98,7 @@
     "url": "https://sverigesradio.se/konflikt",
     "feed": "https://api.sr.se/api/rss/pod/3967",
     "description": "Konflikt är en fördjupande podd från Sveriges Radio om världspolitik och svensk vardag.",
-    "feature_image": "/content/images/konflikt.jpg",
+    "feature_image": "/assets/images/konflikt.jpg",
     "type": "podcast",
     "tags": [
       "samhälle",
@@ -119,7 +119,7 @@
     "url": "https://mediepodden.se",
     "feed": "http://mediepodden.libsyn.com/rss",
     "description": "Mediepodden handlar om det nya medielandskapet med allt som det innebär.",
-    "feature_image": "https://images.squarespace-cdn.com/content/v1/523d7509e4b0496cd9c5453f/1547815826584-PZQIM7055HYZZMYKV13C/Mediepodden_bw.jpg?format=500w",
+    "feature_image": "https://images.squarespace-cdn.com/assets/v1/523d7509e4b0496cd9c5453f/1547815826584-PZQIM7055HYZZMYKV13C/Mediepodden_bw.jpg?format=500w",
     "type": "podcast",
     "tags": [
       "samhälle"
@@ -141,7 +141,7 @@
     "url": "https://www.patreon.com/speljuntan",
     "feed": "https://speljuntan.libsyn.com/rss",
     "description": "Speljuntan är en podcast om allt som handlar om spel.",
-    "feature_image": "/content/images/syjuntan.jpg",
+    "feature_image": "/assets/images/syjuntan.jpg",
     "type": "podcast",
     "tags": [
       "gaming"
@@ -175,7 +175,7 @@
     "url": "http://emanuelkarlsten.se/",
     "feed": "http://emanuelkarlsten.se/feed",
     "description": "Journalisten Emanuel Karlstens blogg om det som inte funnit en annan plats och om det andra medier inte skriver om.",
-    "feature_image": "/content/images/emanuel-karlsten.png",
+    "feature_image": "/assets/images/emanuel-karlsten.png",
     "type": "blog",
     "tags": [
       "politik",
