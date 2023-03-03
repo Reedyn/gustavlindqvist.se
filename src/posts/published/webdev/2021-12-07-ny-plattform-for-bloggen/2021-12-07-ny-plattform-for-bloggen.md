@@ -20,7 +20,7 @@ WordPress är (och var) en plattform som fastnat och hindras av val som gjordes 
 
 Plattformen [Ghost] var simpel i sina funktioner och hade med märkspråket [Markdown][Wikipedia - Markdown] i fokus precis lagom mycket funktioner i form av hantering av inlägg och inställningar. Fördelen plattformen hade 2013 var också den totala avsaknaden av historik som gjorde att de kunde tänka helt nytt.
 
-![Skärmdump på redigeringsgränssnittet i Ghost med redigeringsvy till vänster och visningsvy till höger](ghost_markdown-editor.png){width=680 height=468}
+{% image "ghost_markdown-editor.png", "", "Skärmdump på redigeringsgränssnittet i Ghost med redigeringsvy till vänster och visningsvy till höger" %}
 
 Under åren började [Ghost] lägga ett större fokus på bilder med snygg visning för gallerier och bilder av olika storlekar, något som passade mig utmärkt eftersom det mesta innehåll jag själv lägger ut är just bilder. [Jag designade bland annat ett tema för Ghost][Saga] med fokus på bildvisning som den nuvarande designen av webbplatsen är baserad på.
 
@@ -54,21 +54,21 @@ Nackdelen med att inte använda ett CMS är att det inte finns ett enhetligt red
 Lyckligtvis finns det ett stort antal program för att redigera Markdown så detta var inget större problem, nackdelen är att flödet blir olika beroende på vilken plattform jag använder.
 
 
-|Plattform |Program              |
-|----------|---------------------|
-|Windows   |[Ghostwriter] + [git]|
-|Pop!_OS   |[Ghostwriter] + [git]|
-|Android   |[Markor] + [MGit]    |
+|Plattform |Program              		|
+|----------|-------------------------	|
+|Windows   |[Ghostwriter] + [git]		|
+|Pop!_OS   |[Ghostwriter] + [git]		|
+|Android   |[Markor] + [Pocket Git]	|
 
 
-![Skärmdump på redigeringsprogrammet Ghostwriter i Windows](ghostwriter-2021-12-07_173620.png)
+{% image "ghostwriter-2021-12-07_173620.png", "", "Skärmdump på redigeringsprogrammet Ghostwriter i Windows" %}
 
 Största nackdelen som jag inte hittat en lösning på än är hanteringen av bilder, i Ghost fanns ett mycket bra flöde där jag kunde ladda upp en bild i hög upplösning som sedan Ghost automatiskt skapade olika storlekar på och komprimerade för webben. Att hitta en smidig lösning för det blir nästa problem att lösa. För tillfället är därför alla bilder i högsta upplösning.
 
 
 ## WebMentions
 
-En direkt fördel med den ökade kontroll den nya plattformen ger är möjligheten att lägga in funktionalitet som Ghost aldrig hade stöd för, den första sådan jag har lagt till är [WebMentions]. WebMentions är en del av [IndieWeb] som är en rörelse som bygger ett alternativ till webben som idag domineras av [Big Tech](https://en.wikipedia.org/wiki/Big_Tech).
+En direkt fördel med den ökade kontroll den nya plattformen ger är möjligheten att lägga in funktionalitet som Ghost aldrig hade stöd för, den första sådan jag har lagt till är [WebMentions]. WebMentions är en del av [IndieWeb] som är en rörelse som bygger ett alternativ till webben som idag domineras av [Wikipedia - Big Tech].
 
 Indiewebben vill att användarna ska ha kontrollen och där webbplatser kan vara en del av varje persons identitet, på det viset kan man säga att denna webbplats, mitt krypin, är en del av min.
 
@@ -88,6 +88,7 @@ Implementeringen av WebMentions jag använde är [Max Böcks från 2019](https:/
 [Ghost v3]: https://github.com/TryGhost/Ghost/releases/tag/3.0.0 "Ghost version 3"
 [Saga]: https://github.com/Reedyn/Saga
 [Wikipedia - Markdown]: https://sv.wikipedia.org/wiki/Markdown
+[Wikipedia - Big Tech]: https://en.wikipedia.org/wiki/Big_Tech
 [Substack]: https://substack.com
 [Jekyll]: https://jekyllrb.com
 [Hugo]: https://gohugo.io
@@ -100,7 +101,7 @@ Implementeringen av WebMentions jag använde är [Max Böcks från 2019](https:/
 [markdown-it]: https://markdown-it.github.io
 [Ghostwriter]: https://wereturtle.github.io/ghostwriter/
 [Markor]: https://play.google.com/store/apps/details?id=net.gsantner.markor
-[MGit]: https://play.google.com/store/apps/details?id=com.manichord.mgit
+[Pocket Git]: https://play.google.com/store/apps/details?id=com.aor.pocketgit
 [WebMentions]: https://indieweb.org/Webmention
 [IndieWeb]: https://indieweb.org
 [Pingback]: https://en.wikipedia.org/wiki/Pingback

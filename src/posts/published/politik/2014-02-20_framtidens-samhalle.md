@@ -4,7 +4,7 @@ description: "Följande ordväxling har alltid varit fäst vid på något sätt,
 date: 2014-02-20
 ---
 
-Följande [ordväxling](http://wildabundantlife.com/2012/07/no-i-mean-what-do-you-do-for-the-world/) har alltid varit fäst vid på något sätt, det speglar det samhället vi lever i idag och vad som skulle kunna bli.
+Följande [ordväxling](http://wildabundantlife.com/2012/07/no-i-mean-what-do-you-do-for-the-world/) har jag alltid varit fäst vid på något sätt, det speglar det samhället vi lever i idag och vad som skulle kunna bli.
 
 > So..what do you do?
 >
@@ -20,7 +20,7 @@ Jag tror att det finns ett enormt intresse för ett sådant samhälle. Allmänni
 
 **Vi gör saker inte för att tjäna pengar, utan för att vi vill.**
 
-**MIT** _(<3)_ **Carnegie Mellon** och **Bostons universitets** studie visar att ekonomiska incentiv faktiskt ger sämre prestationer vid mer mentalt krävande uppgifter, just för att det blir ett fokus på pengarna istället för att fokusera på uppgiften.
+**MIT Carnegie Mellon** och **Bostons universitets** studie visar att ekonomiska incentiv faktiskt ger sämre prestationer vid mer mentalt krävande uppgifter, just för att det blir ett fokus på pengarna istället för att fokusera på uppgiften.
 
 Vad vi istället bryr oss om är syfte, kontroll (över våra liv/val) och att bli bättre (att bemästra ett område) För mig ger framförallt open-Source-rörelsen (om det kan beskrivas som en rörelse) denna möjligheten.
 
