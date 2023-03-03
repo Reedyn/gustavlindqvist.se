@@ -3,7 +3,6 @@ title: "Det är rätt tid att bli en JavaScript-ninja"
 description: "Idag är det en kul dag för alla utvecklare i JavaScript. Google gick nämligen ut och med att de utvecklar sin egen plattform för att köra…"
 date: 2014-01-29
 tags: webdev
-permalink: "/{{ page.date | dateFolder}}/det-ar-ratt-tid-att-bli-en-javascript-ninja/index.html"  
 ---
 
 Idag är det en kul dag för alla utvecklare i JavaScript. [Google gick nämligen ut och med att de utvecklar sin egen plattform](http://thenextweb.com/google/2014/01/28/google-brings-chrome-apps-android-ios-lets-developers-submit-google-play-apples-app-store/)för att köra HTML, CSS och JavaScript nativt på Android och iOS med sin Chrome Apps plattform baserad på [Apache Cordova](http://cordova.apache.org/). Läs den [officiella dokumentationen](http://developer.chrome.com/apps/about_apps.html) och deras [Codelab](https://docs.google.com/document/d/1vyZ2zln8yJIuRPaaAOrHCPtcF2cE6VKL_2l_TyHiZ70/edit)samt [exempel på GitHub](https://github.com/GoogleChrome/chrome-app-samples) för mer information om projektet.

@@ -6,10 +6,9 @@ tags:
     - webdev
     - design
     - ghost
-permalink: "/{{ page.date | dateFolder}}/mitt-forsta-tema-for-ghost/index.html"  
 ---
 
-**Jag har nu officiellt släppt mitt första tema för Ghost =)**
+Jag har nu officiellt släppt mitt första tema för Ghost =){.lead}
 
 Det är samma tema som används på denna bloggen och har tekniskt sett funnits i några veckor. Det är dock först ikväll som jag släpper [version 1.0](https://github.com/reedyn/Draugur/releases/tag/1.0).
 
@@ -20,7 +19,7 @@ Just för teman är det ganska likt WordPress fast mycket snyggare eftersom det 
 Mitt tema som heter Draugur _(Ghost/Spöke på isländska)_ har stöd för följande:
 
 * Omslagsbild
-* Byggd med SASS
+* Byggd med SCSS
 * Mobile-First responsiv
 * Syntaxmarkering för kod
 * Kommentarer som kan aktiveras enkelt (optimerat för Disqus)

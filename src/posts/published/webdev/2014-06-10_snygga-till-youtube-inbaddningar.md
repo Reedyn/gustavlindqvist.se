@@ -3,7 +3,6 @@ title: "Snygga till YouTube-inbäddningar"
 description: "Att bädda in YouTube-filmer i sina bloggar, kampanjer och allt däremellan är något många gör. Det är dock inte många som använder och…"
 date: 2014-06-10
 tags: webdev
-permalink: "/{{ page.date | dateFolder}}/snygga-till-youtube-inbaddningar/index.html"  
 ---
 
 Att bädda in YouTube-filmer i sina bloggar, kampanjer och allt däremellan är något många gör. Det är dock inte många som använder och förmodligen ännu färre som vet om hur man använder alla inställningar och konfigurationer för att få det till att se så snyggt ut som möjligt.
