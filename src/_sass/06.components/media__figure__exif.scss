@@ -1,0 +1,36 @@
+
+    figure.exif {
+        position: relative;
+
+        &:hover, &:focus {
+            .exif__container {
+                opacity: 1;
+            }
+        }
+    }
+
+    figure.exif:hover .exif__container, figure.exif:focus .exif__container {
+        opacity: 1;
+    }
+
+    .exif {
+        &__container {
+            transform: translateY(calc(-100% - var(--margin__small)));
+            font-size: 75%;
+            position: absolute;
+            left: 0;
+            opacity: 0;
+            color: var(--color__text__contrast);
+            text-shadow: 0 0 2px #000, 0 0 2px #000, 0 0 4px #000, 0 0 3px #000;
+        }
+
+        &__data {
+            display: block;
+        }
+
+        &__data:before {
+            display: inline-block;
+            content: attr(data-type);
+            width: 5.5em;
+        }
+    }

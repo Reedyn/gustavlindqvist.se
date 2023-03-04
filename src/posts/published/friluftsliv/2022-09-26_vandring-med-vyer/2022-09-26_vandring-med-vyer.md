@@ -101,7 +101,7 @@ Kallebäcksleden är nog den tråkigaste sträckan på hela vandringen sedan de 
 Jag traskade på i fart med regnjackan på eftersom det börjat regna så smått.
 
 <figure class="gallery">
-    <figure class="gallery-row">
+    <figure class="gallery-row -no-wrap">
         {% image "20220925_144359.jpg", "-inline", "En selfie på Gustav i en blå jacka, ryggsäck och en kamera fäst på en av bärremmarna invirad i ett regnskydd." %}
         {% image "20220925-WA0020_2.jpg", "-inline", "En väldigt bred sandig stig där skogsmaskiner har kört." %}
     </figure>
