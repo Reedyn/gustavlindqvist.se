@@ -48,10 +48,11 @@ figure {
     }
 
     &.embed {
+        width: 100%;
         iframe {
             aspect-ratio: 16/9;
             height: auto;
-            min-width: 100%;
+            max-width: 100%;
         }
     }
 
