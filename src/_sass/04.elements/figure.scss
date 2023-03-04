@@ -26,7 +26,7 @@ figure {
     }
 
     &.-wide {
-        --card__extra-width: 0;
+        --card__extra-width: 0rem;
         @include respond-to(medium) {
             margin-top: var(--margin__medium);
             margin-bottom: var(--margin__medium);
