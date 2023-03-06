@@ -10,7 +10,7 @@ Min utrustning för sommaren 2023 med en basvikt på {{ packstack.summer_2023.ba
 
 {% packStatistics packstack.summer_2023 %}
 
-Ibland tar jag med min GoPro och analog kamera istället för systemkameran, då blir det runt kilot lättare. Beroende på vart vi ska vandra tillkommer även vandringsstavar på 600g.
+Ibland tar jag med min GoPro och analoga kamera istället för systemkameran, då blir det runt kilot lättare. Beroende på vart vi ska vandra tillkommer även vandringsstavar på 600 gram och ibland en stol på 615 gram.
 
 ## Nytt för 2023
 
