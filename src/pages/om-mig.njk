@@ -65,7 +65,7 @@ eleventyComputed:
             <ol class="book-list">
                 {% for book in goodreads.currently_reading %}
                     <li class="book-list__item">
-                        <img class="book-list__cover" src="{{ book.book_small_image_url }}" alt="Bokomslag för {{ book.title }}">
+                        <img class="book-list__cover" src="{{ book.book_medium_image_url }}" alt="Bokomslag för {{ book.title }}">
                         <div class="book-list__item-content">
                             <h3 class="book-title"><a id="{{ book.book_id }}" href="{{ book.url }}">{{ book.title }}</a></h3>
                             <p>{{ book.author }}</p>

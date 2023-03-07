@@ -11,7 +11,7 @@ module.exports = async () => {
                 'book_description',
                 'author_name',
                 'book_large_image_url',
-                'book_small_image_url',
+                'book_medium_image_url',
                 'user_name',
                 'user_date_added',
                 'user_read_at',
