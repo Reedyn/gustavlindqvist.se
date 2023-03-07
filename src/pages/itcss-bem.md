@@ -8,7 +8,7 @@ permalink: /itcss-bem/
 eleventyExcludeFromCollections: true
 ---
 
-My flavour of IT CSS{class=lead}
+My flavour of IT CSS{.lead}
 
 ## Folder structure
 Number in front of names to get correct alphabetical sorting.

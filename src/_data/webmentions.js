@@ -15,11 +15,13 @@ module.exports = async () => {
             type: "json",
             directory: ".cache",
         });
+
         feed.children.forEach((webmention) => {
             if (!webmention.published && webmention['wm-received']) {
                 webmention.published = webmention['wm-received']
             }
         });
+
         console.log('[' + '\x1b[34m%s\x1b[0m', 'WebMentions' + '\x1b[0m' + ']:', 'loaded', feed.children.length , 'webmentions');
         return feed.children;
     } catch (err) {
