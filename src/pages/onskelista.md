@@ -14,7 +14,3 @@ eleventyExcludeFromCollections: true
 ## Öl
 
 * [ ] [Malt: A Practical Guide from Field to Brewhouse](https://shop.humle.se/litteratur/avancerade-bocker-om-olbryggning/malt-a-practical-guide-from-field-to-brewhouse) (189kr)
-* [ ] [Chimay ölglas](https://barshopen.com/olglas/belgien/chimay-olglas-33-cl/) (89kr)
-* [ ] [La Trappe ölglas](https://barshopen.com/olglas/holland/la-trappe-olglas-25-cl/) (129kr)
-
-## Prylar

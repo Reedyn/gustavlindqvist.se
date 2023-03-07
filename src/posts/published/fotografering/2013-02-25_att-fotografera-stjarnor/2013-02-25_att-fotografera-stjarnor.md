@@ -4,7 +4,6 @@ feature_image: /assets/images/2015/03/15258885827_7a56e6f5d6_b.jpg
 description: "Vinterns kalla väder lämpar sig väldigt väldigt till natt-fotografering, i synnerhet till att fotografera stjärnor. Är man riktigt duktig kan man få till fantastiska bilder…"
 date: 2013-02-25
 tags: ['fotografering', 'jkpg']
-permalink: "/{{ page.date | dateFolder}}/att-fotografera-stjarnor/index.html"  
 ---
 
 **Filmen nedan är en [time-lapse gjord av Alessandro Della Bella](http://helvetiabynight.com/2012/12/20/one-day-on-earth-cold-engadin-time-lapse-night/) under One Day on Earth, 12/12/12.**
