@@ -53,13 +53,11 @@ Nackdelen med att inte använda ett CMS är att det inte finns ett enhetligt red
 
 Lyckligtvis finns det ett stort antal program för att redigera Markdown så detta var inget större problem, nackdelen är att flödet blir olika beroende på vilken plattform jag använder.
 
-
-|Plattform |Program              		|
-|----------|-------------------------	|
-|Windows   |[Ghostwriter] + [git]		|
-|Pop!_OS   |[Ghostwriter] + [git]		|
-|Android   |[Markor] + [Pocket Git]	|
-
+|Plattform | Program              		|
+|----------|---------------------------|
+|Windows   | [Ghostwriter] + [git]		|
+|Pop!_OS   | [Ghostwriter] + [git]		|
+|Android   | [Markor] + [Pocket Git]	|
 
 {% image "ghostwriter-2021-12-07_173620.png", "", "Skärmdump på redigeringsprogrammet Ghostwriter i Windows" %}
 

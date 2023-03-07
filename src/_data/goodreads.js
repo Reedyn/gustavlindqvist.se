@@ -1,5 +1,5 @@
 const Parser = require('rss-parser');
-const fetch = require("@11ty/eleventy-fetch");
+const fetch = require('@11ty/eleventy-fetch');
 
 module.exports = async () => {
     let parser = new Parser({
@@ -8,22 +8,27 @@ module.exports = async () => {
             item: ['book_id', 'book', 'author_name'],
         }
     });
+    feed_url = 'https://www.goodreads.com/review/list_rss/14070425';
 
-    const goodreads_feed = "https://www.goodreads.com/review/list_rss/14070425?shelf=read";
+    const feeds = {
+        'read': 'read',
+        'currently_reading': 'https://www.goodreads.com/review/list_rss/14070425?shelf=currently-reading',
+        'want_to_read': 'https://www.goodreads.com/review/list_rss/14070425?shelf=to_read',
+    };
 
-    const getPosts = async _ => {
+    const getPosts = async (shelf, feed_url) => {
         try {
-            let rawFeed = await fetch(goodreads_feed, {
-                duration: "1d",
-                type: "text",
-                directory: ".cache",
+            let rawFeed = await fetch(feed_url+'?shelf='+shelf, {
+                duration: '1d',
+                type: 'text',
+                directory: '.cache',
             });
 
             let feed = await parser.parseString(rawFeed);
             console.log(
                 '[' + '\x1b[95m%s\x1b[0m', 'Goodreads' + '\x1b[0m' + ']:' ,
                 feed.items.length ,
-                'books from Gustav\'s bookshelf (' + feed.link + ')'
+                `books from the ${shelf} shelf (${feed.link})`
             );
             feed.items.forEach((item) => {
                 item.date = new Date(item.pubDate);
@@ -38,7 +43,9 @@ module.exports = async () => {
     };
 
     return {
-        read_books: await getPosts()
+        read: await getPosts('read',feed_url),
+        currently_reading: await getPosts('currently-reading',feed_url),
+        want_to_read: await getPosts('to-read',feed_url),
     }
 
 };
