@@ -59,10 +59,26 @@ eleventyComputed:
             {% endif %}{% endfor %}
         </ol>
 
+        <h2 id="böcker"><a class="header-anchor" href="#böcker">Böcker</a></h2>
+        {% if goodreads.currently_reading.length %}
+            <p>Jag läser för tillfället:</p>
+            <ol class="book-list">
+                {% for book in goodreads.currently_reading %}
+                    <li class="book-list__item">
+                        <img class="book-list__cover" src="{{ book.book_small_image_url }}" alt="Bokomslag för {{ book.title }}">
+                        <div class="book-list__item-content">
+                            <h3 class="book-title"><a id="{{ book.book_id }}" href="{{ book.url }}">{{ book.title }}</a></h3>
+                            <p>{{ book.author }}</p>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ol>
+        {% endif %}
+
         <h2 id="gaming"><a class="header-anchor" href="#gaming">Spel</a></h2>
         <p>Efter några års uppehåll på grund av en trasig dator har jag det senaste året tagit upp datorspelandet igen. Jag spelar mestadels spel som har några år på nacken som jag missat. </p>
         {% if steam.recently_played_games.length %}
-        <p id="games">Detta spelar jag för tillfället:</p>
+        <p id="games">Jag spelar för tillfället:</p>
         <ol class="game-list">
             {% for game in steam.recently_played_games %}
                 <li class="game-list__item">
