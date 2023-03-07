@@ -18,13 +18,13 @@
 
 # Other redirects
 
-/feed  /feed.xml
+/feed       /feed.xml
 /homebrew   /hembryggeri/
-/rss    /feed.xml
+/rss        /feed.xml
 
 # Synonyms
 
-/om /om-mig/
-/nu /om-mig/
-/now /om-mig/
-/about /om-mig/
+/om     /om-mig/
+/nu     /om-mig/
+/now    /om-mig/
+/about  /om-mig/
