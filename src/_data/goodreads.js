@@ -8,17 +8,12 @@ module.exports = async () => {
             item: ['book_id', 'book', 'author_name'],
         }
     });
-    feed_url = 'https://www.goodreads.com/review/list_rss/14070425';
 
-    const feeds = {
-        'read': 'read',
-        'currently_reading': 'https://www.goodreads.com/review/list_rss/14070425?shelf=currently-reading',
-        'want_to_read': 'https://www.goodreads.com/review/list_rss/14070425?shelf=to_read',
-    };
+    const feed_id = '14070425';
 
-    const getPosts = async (shelf, feed_url) => {
+    const getPosts = async (shelf, feed_id) => {
         try {
-            let rawFeed = await fetch(feed_url+'?shelf='+shelf, {
+            let rawFeed = await fetch(`https://www.goodreads.com/review/list_rss/${feed_id}?shelf=${shelf}`, {
                 duration: '1d',
                 type: 'text',
                 directory: '.cache',
@@ -43,9 +38,9 @@ module.exports = async () => {
     };
 
     return {
-        read: await getPosts('read',feed_url),
-        currently_reading: await getPosts('currently-reading',feed_url),
-        want_to_read: await getPosts('to-read',feed_url),
+        read: await getPosts('read',feed_id),
+        currently_reading: await getPosts('currently-reading',feed_id),
+        want_to_read: await getPosts('to-read',feed_id),
     }
 
 };
