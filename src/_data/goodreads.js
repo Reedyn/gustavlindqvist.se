@@ -52,8 +52,6 @@ module.exports = async () => {
         }
     };
 
-    console.log(await getPosts('currently-reading',feed_id));
-
     return {
         read: await getPosts('read',feed_id),
         currently_reading: await getPosts('currently-reading',feed_id),
