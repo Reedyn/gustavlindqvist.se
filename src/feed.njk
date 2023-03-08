@@ -8,7 +8,7 @@
     <title>{{ metadata.title }}</title>
     <subtitle>{{ metadata.description }}</subtitle>
     <link href="{{ metadata.url }}{{ metadata.feed.path }}" rel="self"/>
-    <link href="{{ metadata.url }}/blogg"/>
+    <link href="{{ metadata.url }}/blogg/"/>
     <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
     <id>{{ metadata.url }}/</id>
     <author>
