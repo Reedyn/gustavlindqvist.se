@@ -40,7 +40,7 @@ module.exports = async function (src, style, alt, caption = undefined) {
         let lowsrc = (metadata[format].length > 1) ? metadata[format][1] : metadata[format][0];
         let highsrc = metadata[format][metadata[format].length - 1];
 
-        let captionElement = (typeof caption !== 'undefined') ? `<figcaption>${markdown.render(caption)}</figcaption>` : '';
+        let captionElement = (typeof caption !== 'undefined') ? `<figcaption><em>${markdown.render(caption)}</em></figcaption>` : '';
 
 
         let inlineStyling = (style === '-inline') ? ` style="flex: ${highsrc.width / highsrc.height}"` : '';
