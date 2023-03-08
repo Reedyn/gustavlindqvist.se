@@ -4,9 +4,7 @@
   "description": "Personal website using Eleventy",
   "main": "eleventy.js",
   "scripts": {
-    "build": "eleventy",
-    "compileCSS": "gulp css",
-    "watchCSS": "gulp serve"
+    "build": "eleventy"
   },
   "author": "Gustav Lindqvist",
   "license": "MIT",
