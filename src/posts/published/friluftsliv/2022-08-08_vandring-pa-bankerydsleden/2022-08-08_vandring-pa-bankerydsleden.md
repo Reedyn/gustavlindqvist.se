@@ -16,7 +16,7 @@ Leden är välskött och har gott om faciliteter som vindskydd, toaletter och gr
 
 <figure class="map -full">
     <iframe style="border:none" src="https://en.frame.mapy.cz/s/gabeporena" width="100%" height="500" frameborder="0" alt="Karta över Bankeryd med Bankerydsleden utmärkt med röd linje."></iframe>
-    <figcaption><a href="https://en.mapy.cz/turisticka?x=14.0721374&y=57.8475668&z=14&l=0">Bankerydsleden på Mapy.cz</a></figcaption>
+    <figcaption><em><a href="https://en.mapy.cz/turisticka?x=14.0721374&y=57.8475668&z=14&l=0">Bankerydsleden på Mapy.cz</a></em></figcaption>
 </figure>
 
 I går passade vi på och gå Bankerydsleden med planen att gå större delen av leden första dagen och övernatta vid vindskyddet på Högamon för att sen gå de sista 5 kilometrarna andra dagen och ta bussen hem tidigt på morgonen.
