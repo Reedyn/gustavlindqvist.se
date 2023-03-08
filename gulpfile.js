@@ -17,7 +17,7 @@ function css() {
     'use strict';
     return src('src/_sass/main.scss')
         .pipe(plumber())
-        .pipe(sourcemaps.init({largeFile: true}))
+        .pipe(sourcemaps.init())
         .pipe(rename({
             basename: 'gustavlindqvist'
         }))
@@ -25,12 +25,9 @@ function css() {
         .pipe(sass())
         .pipe(autoprefixer({grid: true}))
         .pipe(csscomb())
-        .pipe(sourcemaps.write())
         .pipe(dest('src/assets/stylesheets/'))
         .pipe(minifycss())
-        .pipe(rename({
-            extname: '.min.css'
-        }))
+        .pipe(sourcemaps.write('/'))
         .pipe(dest('src/assets/stylesheets/'))
 }
 
