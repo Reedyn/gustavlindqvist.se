@@ -1,7 +1,7 @@
 ---
 title: "Vandringsutrustning"
 page_title: "Vandringsutrustning / Gustav Lindqvist"
-description: "Min nuvarande vandringsutrustning"
+description: "Min vandringsutrustning för sommaren 2023"
 permalink: "/friluftsliv/utrustning/index.html"
 feature_image: Gustav-Lindqvist_2022-08-01_05564-Pano.jpg
 ---
