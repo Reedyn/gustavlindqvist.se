@@ -14,7 +14,7 @@ tags:
 Vädret var fint och varmt när vi landade i Nice. Det första vi möttes av efter att vi fått tag på våra väskor var hur smidig kollektivtrafiken är. Enkelt att köpa biljett (trots att allt var på franska, inga engelska menyer på någon automat i Frankrike inte) och trevliga spårvagnar.
 
 <figure class="gallery -wide">
-	<figure class="gallery-row">
+	<figure class="gallery-row -no-wrap">
 		{% image "20190718_124251-2-3.jpg", "-inline", "En flygplansvinge sett från flygplanet med franska kusten långt under." %}
 		{% image "20190718_133048-01.jpeg", "-inline", "Selfie på Gustav och Josefine som sitter på en buss" %}
 	</figure>
@@ -57,8 +57,9 @@ Sedan gick vi hemåt och såg att de förberedde en seglingstävling för morgon
 
 Tredje och sista dagen i Nice åkte vi bort till Villefranche sur Mer, en publik badstrand 5min bort med tåg där vi började dagen med snorkling. Efter ungefär 4 timmar på stranden hade vi fått ihop 2.5 timmars snorklande och vi kände oss nöjda (kanske inte riktigt Josefine) och begav oss tillbaka till stan för en dusch och eftermiddagens och kvällens äventyr.
 
+
 <figure class="gallery -wide">
-	<figure class="gallery-row">
+	<figure class="gallery-row -no-wrap">
 		{% image "GOPR0288_ALTA-47839978638637440_high.jpg", "-inline", "Selfie på Gustav under vattnet iklädd t-shirt, snorkel och cyclop." %}
 		{% image "GOPR0327_ALTA-47839978638637440_high.jpg", "-inline", "Undervattensbild på fiskar som simmar" %}
 	</figure>
