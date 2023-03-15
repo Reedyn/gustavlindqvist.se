@@ -51,7 +51,10 @@ figure {
         iframe {
             aspect-ratio: 16/9;
             height: auto;
-            width: 100%;
+            max-width: 100%;
+            @include respond-to(large) {
+                max-width: none;
+            }
         }
     }
 
