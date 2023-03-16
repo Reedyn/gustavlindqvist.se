@@ -29,4 +29,4 @@ Senare på kvällen idag besökte vi ett parkområde som heter Beihai Park. Det 
 
 {% image "13943564899_da8b402c17_o.jpg", "", "Beihai Park i Beijing" %}
 
-Imorgon ska vi åka till Kinesiska muren, det ska bli häftigt! :)
+Imorgon ska vi åka till Kinesiska muren, det ska bli häftigt! 😀
