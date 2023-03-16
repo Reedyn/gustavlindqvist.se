@@ -43,11 +43,11 @@ Kvällen avslutade vi med att bryta lite mot upphovsrätten genom att fotografer
 
 Andra dagen tog vi tunnelbanan bort mot kyrkan Sacré-Cœur. Det var även en liten rekognosering över dagen därpå när vi skulle ta samma tunnelbana bort till tågstationen.
 <figure class="gallery -wide">
-	<figure class="gallery-row">
+	<figure class="gallery-row -no-wrap">
 		{% image "Gustav-Lindqvist_2019-07-22_07026.jpg", "-inline", "Kyrkan Sacré-Cœur sett nedifrån med en massa träd i förgrunden " %}
 		{% image "Gustav-Lindqvist_2019-07-22_07030.jpg", "-inline", "Kyrkan Sacré-Cœur sett framifrån med fokus på en kopparstaty." %}
 	</figure>
-	<figure class="gallery-row">
+	<figure class="gallery-row -no-wrap">
 		{% image "Gustav-Lindqvist_2019-07-22_07032.jpg", "-inline", "Kyrkan Sacré-Cœur med fokus på en av de mindre tornen." %}
 		{% image "Gustav-Lindqvist_2019-07-22_07036.jpg", "-inline", "Kyrkan Sacré-Cœur sett från botten av parken intill" %}
 	</figure>
