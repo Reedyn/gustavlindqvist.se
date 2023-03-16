@@ -1,18 +1,19 @@
 let Parser = require('rss-parser');
 let opml = require('opml');
-const fetch = require("@11ty/eleventy-fetch");
+const fetch = require('@11ty/eleventy-fetch');
 
-function fetchWithTimeout(resource, options = {}) {
-    const { timeout = 5000 } = options;
-    return new Promise(async function(resolve, reject) {
+function fetchWithTimeout (resource, options = {}) {
+    const {timeout = 5000} = options;
+    return new Promise(async function (resolve, reject) {
         fetch(resource, {
-            ...options,
+            ...options
         }).then(resolve, reject);
         setTimeout(reject, timeout);
     });
 }
 
 module.exports = async () => {
+    const inoreader = {};
     let parser = new Parser({
         timeout: 10000
     });
@@ -46,7 +47,7 @@ module.exports = async () => {
         {
             'series': 'gaming',
             'url': 'https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/Gaming+%26+Entertainment'
-        },
+        }
     ];
 
 
@@ -55,16 +56,16 @@ module.exports = async () => {
         for (let index = 0; index < opmlSources.length; index++) {
             let opmlSource = opmlSources[index];
             const response = await fetchWithTimeout(opmlSource.url, {
-                duration: "6h",
-                type: "text",
-                directory: ".cache"
+                duration: '6h',
+                type: 'text',
+                directory: '.cache'
             });
             opml.parse(response, function (err, theOutline) {
                 if (!err) {
                     feedList.push({
                         'series': opmlSource.series,
                         'urls': theOutline.opml.body.subs[0].subs
-                    })
+                    });
                 }
             });
         }
@@ -75,10 +76,10 @@ module.exports = async () => {
     feedLists = removeSelf(feedLists);
 
     function sortByDate (a, b) {
-        if ( a.publicationDate > b.publicationDate ){
+        if (a.publicationDate > b.publicationDate) {
             return -1;
         }
-        if ( a.publicationDate < b.publicationDate ){
+        if (a.publicationDate < b.publicationDate) {
             return 1;
         }
         return 0;
@@ -91,9 +92,9 @@ module.exports = async () => {
             filteredFeedList.push({
                 'series': list.series,
                 'urls': list.urls.filter((feed) => {
-                    return feed.xmlUrl.indexOf('gustavlindqvist.se') === -1
+                    return feed.xmlUrl.indexOf('gustavlindqvist.se') === -1;
                 })
-            })
+            });
         });
         return filteredFeedList;
     }
@@ -108,17 +109,17 @@ module.exports = async () => {
             let siteTitle = feeds[index].title;
             try {
                 const rawFeed = await fetchWithTimeout(feedUrl, {
-                    duration: "6h",
-                    type: "text",
-                    directory: ".cache"
+                    duration: '6h',
+                    type: 'text',
+                    directory: '.cache'
                 });
 
                 let feed = await parser.parseString(rawFeed);
-                console.log('[' + '\x1b[35m%s\x1b[0m', 'RSS Feeds' + '\x1b[0m' + ']:' , 'Grabbing' , feed.items.length , 'posts from' , siteTitle + ' (' + feedUrl + ')');
+                console.log('[' + '\x1b[35m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Grabbed', feed.items.length, 'posts from', siteTitle + ' (' + feedUrl + ')');
 
                 feed.items.forEach((item) => {
-                    item.blogName =  siteTitle;
-                    item.blogLink =  siteUrl;
+                    item.blogName = siteTitle;
+                    item.blogLink = siteUrl;
                 });
 
                 const cleanFeed = feed.items.map((feedItem) => {
@@ -129,7 +130,7 @@ module.exports = async () => {
                         blogName: feedItem.blogName,
                         blogLink: feedItem.blogLink,
                         source: new URL(feedItem.link).origin
-                    }
+                    };
                 });
 
                 combinedFeed = combinedFeed.concat(cleanFeed.slice(0, maxPerFeed));
@@ -137,7 +138,7 @@ module.exports = async () => {
 
             } catch (err) {
                 const msg = (typeof err !== 'undefined' && typeof err.message !== 'undefined') ? ': ' + err.message.replace(/[\n\r]/g, '. ') : '';
-                console.log('[' + '\x1b[31m%s\x1b[0m', 'RSS Feeds' + '\x1b[0m' + ']:' , 'Failed to grab posts from' , siteTitle, '(' + feedUrl + ')', msg);
+                console.log('[' + '\x1b[31m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Failed to grab posts from', siteTitle, '(' + feedUrl + ')', msg);
             }
         }
         return combinedFeed.sort(sortByDate);
@@ -147,10 +148,28 @@ module.exports = async () => {
     let allPosts = {};
     for (let index = 0; index < feedLists.length; index++) {
         const feedList = feedLists[index];
-        console.log('[' + '\x1b[35m%s\x1b[0m', 'RSS Feeds' + '\x1b[0m' + ']:' , 'Loaded' , feedList.urls.length , 'feed sources for tag: ' , feedList.series);
+        console.log('[' + '\x1b[35m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Grabbed', feedList.urls.length, 'feed sources for tag: ', feedList.series);
         allPosts[feedList.series] = await getPosts(feedList.urls);
     }
+    inoreader.allPosts = allPosts;
 
-    return allPosts
 
+    const getGoodShit = async () => {
+        const feedURL = 'https://www.inoreader.com/stream/user/1005830534/tag/Good%20shit/view/json';
+        try {
+            const feed = await fetch(feedURL, {
+                duration: "1h",
+                type: "json",
+                directory: ".cache"
+            });
+            console.log('[' + '\x1b[35m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Loaded', feed.items.length, 'posts from good-shit.');
+            return feed.items;
+        } catch (error) {
+            console.log('[' + '\x1b[31m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Failed to grab posts from good-shit', msg);
+            return [];
+        }
+    };
+    inoreader.goodShit = getGoodShit();
+
+    return inoreader;
 };
