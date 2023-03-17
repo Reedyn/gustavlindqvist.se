@@ -19,8 +19,9 @@ Till skillnad från [Tiomila](/2022/05/08/tiomila-2022-i-annaboda-orebro/) som �
 > 
 > För att sträcka 3 eller 14 skall räknas som damsträcka, skall alla tre löparna vara damer.
 > 
-> Om någon löpare på sträcka 14 är från klasserna H18–H40 räknas den som en sådan sträcka.
-Inga spridningsmetoder förekommer.
+> Om någon löpare på sträcka 14 är från klasserna H18–H40 räknas den som en sådan sträcka. 
+> 
+> Inga spridningsmetoder förekommer.
 
 {% image "Gustav-Lindqvist_2022-07-03_05081.jpg", "-wide", "En myr med morgondimma.", "Morgondimman över myren som vissa av sträckorna gick över." %}
 
