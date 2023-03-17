@@ -61,8 +61,12 @@ feedsToShow:
                         {%- for feed in feedsToShow -%}
                             {% set tagData = tagMetadata[feed] %}
                             {% set title = tagData.title %}
-                            <li> <a href="/{{ feed | slug }}/feed.xml">Flöde för {{ title or feed }}</a></li>
+                            <li><a href="/{{ feed | slug }}/feed.xml">Flöde för {{ title or feed }}</a></li>
                         {%- endfor %}
+                    </ul>
+                    <p>Andra flöden:</p>
+                    <ul>
+                        <li><a href="/gustav-tipsar.xml">Flöde för mina tips</a></li>
                     </ul>
                     <h2>Inlägg i flödet</h2>
                     <ul class="post-list">

@@ -1,0 +1,33 @@
+---
+title: "Gustav tipsar"
+layout: base.njk
+templateClass: post-template
+type: page
+description: "Artiklar, böcker, filmer och annat som jag tycker är extra bra, intressant eller kul; i ordningen som <em>jag</em> läste/upptäckte dem (senast överst)."
+permalink: /gustav-tipsar/
+eleventyComputed:
+    meta:
+        author:
+            name: "{{ metadata.author.name }}"
+    published: "{{ date }}"
+    modified: "{% if updateDate %}{{ updateDate | iso8601 }}{% endif %}"
+---
+<article class="page">
+    <header id="page-header" class="page-header">
+        <div class="page-metadata">
+            <h1 class="page-title">{{ title }}</h1>
+            <p><svg class="icon icon--feed" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/rss.svg#rss"></use></svg> <a href="/gustav-tipsar.xml">Flöde för tips</a></p>
+            <p class="description">{{ description | renderUsingMarkdown | safe }}</p>
+        </div>
+    </header>
+    <section aria-label="Lista över innehåll" class="page-content content" id="page-content">
+        <ul class="post-list">
+            {% for post in inoreader.goodShit %}
+            {%- set computedDate = post.date | dateFromString -%}
+            <li class="post-list__item">
+            <h2 class="post-title"><a id="{{ post.url | hashString}}" class="post-link" href="{{ post.url | url}}">{{ post.title }}</a></h2>
+            {% if computedDate %}<p class="post-date"><time datetime="{{ computedDate | fullISODate }}" title="{{ computedDate | shortISODate }}">{{ computedDate | readableLongDate }}</time></p>{% endif %}
+            </li>{% endfor %}
+        </ul>
+    </section>
+</article>
