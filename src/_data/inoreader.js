@@ -163,13 +163,23 @@ module.exports = async () => {
                 directory: ".cache"
             });
             console.log('[' + '\x1b[35m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Loaded', feed.items.length, 'posts from good-shit.');
-            return feed.items;
+            outputPosts = [];
+            feed.items.forEach((post) => {
+                outputPost = {};
+                outputPost.title = post.title.replace(/\.[pdfPDF]+/,'');
+                outputPost.url = post.url;
+                outputPost.date = post.date_published;
+                outputPost.tags = post.tags.filter((tag) => tag !== 'Good shit');
+                outputPosts.push(outputPost);
+            });
+            console.log(outputPosts);
+            return outputPosts;
         } catch (error) {
             console.log('[' + '\x1b[31m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Failed to grab posts from good-shit', msg);
             return [];
         }
     };
-    inoreader.goodShit = getGoodShit();
+    inoreader.goodShit = await getGoodShit();
 
     return inoreader;
 };
