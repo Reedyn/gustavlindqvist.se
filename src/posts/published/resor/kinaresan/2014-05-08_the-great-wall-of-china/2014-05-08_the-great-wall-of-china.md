@@ -21,5 +21,5 @@ Under drygt tre timmar klättrade vi upp till tornet som syns till höger på bi
 När man skulle ner fick man åka med en rutschkana (och man fick inte fotografera, fast det gjorde vi ändå)
 
 <figure class="embed">
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KiydBeuMLvU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KiydBeuMLvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
