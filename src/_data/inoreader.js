@@ -155,27 +155,39 @@ module.exports = async () => {
 
 
     const getGoodShit = async () => {
-        const feedURL = 'https://www.inoreader.com/stream/user/1005830534/tag/Good%20shit/view/json';
+        const feedURL = 'https://www.inoreader.com/stream/user/1005830534/tag/Good%20shit';//view/json';
+
         try {
-            const feed = await fetch(feedURL, {
-                duration: "1h",
-                type: "json",
-                directory: ".cache"
+            const rawFeed = await fetchWithTimeout(feedURL, {
+                duration: '1h',
+                type: 'text',
+                directory: '.cache'
             });
+
+            let feed = await parser.parseString(rawFeed);
+
             console.log('[' + '\x1b[35m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Loaded', feed.items.length, 'posts from good-shit.');
+
             outputPosts = [];
             feed.items.forEach((post) => {
                 outputPost = {};
                 outputPost.title = post.title.replace(/\.[pdfPDF]+/,'');
-                outputPost.url = post.url;
-                outputPost.date = post.date_published;
-                outputPost.tags = post.tags.filter((tag) => tag !== 'Good shit');
+                outputPost.creator = (typeof post.creator !== 'undefined') ?
+                    post.creator :
+                    new URL(post.link).hostname.replace('www.','');
+                outputPost.url = post.link;
+                outputPost.date = post.isoDate;
+                outputPost.tags = (typeof post.tags !== 'undefined') ? post.tags.filter((tag) => tag !== 'Good shit'): [];
+                outputPost.feature_image = `https://opengraph-gustavlindqvist-se.netlify.app/${encodeURIComponent(post.link)}`;
+
                 outputPosts.push(outputPost);
             });
+
             return outputPosts;
-        } catch (error) {
-            console.log('[' + '\x1b[31m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Failed to grab posts from good-shit', msg);
-            return [];
+
+        } catch (err) {
+            const msg = (typeof err !== 'undefined' && typeof err.message !== 'undefined') ? ': ' + err.message.replace(/[\n\r]/g, '. ') : '';
+            console.log('[' + '\x1b[31m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', msg);
         }
     };
     inoreader.goodShit = await getGoodShit();
