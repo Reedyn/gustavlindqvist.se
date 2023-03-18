@@ -1,14 +1,15 @@
 ---
 title: "Att fotografera stjärnor"
-feature_image: /assets/images/2015/03/15258885827_7a56e6f5d6_b.jpg
+feature_image: 15258885827_7a56e6f5d6_b.jpg
 description: "Vinterns kalla väder lämpar sig väldigt väldigt till natt-fotografering, i synnerhet till att fotografera stjärnor. Är man riktigt duktig kan man få till fantastiska bilder…"
 date: 2013-02-25
 tags: ['fotografering', 'jkpg']
+
 ---
 
-**Filmen nedan är en [time-lapse gjord av Alessandro Della Bella](http://helvetiabynight.com/2012/12/20/one-day-on-earth-cold-engadin-time-lapse-night/) under One Day on Earth, 12/12/12.**
+**Filmen nedan är en [time-lapse gjord av Alessandro Della Bella](http://helvetiabynight.com/2012/12/20/one-day-on-earth-cold-engadin-time-lapse-night/) under One Day on Earth, 2012-12-12.**
 
-<figure class="kg-card kg-embed-card">
+<figure class="embed video -wide">
     <iframe src="https://player.vimeo.com/video/55899485?app_id=122963" width="480" height="270" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="One Day on Earth: Cold Engadin Time Lapse Night"></iframe>
 </figure>
 
@@ -26,19 +27,19 @@ I vissa fall är detta något man vill åt och isåfall är det inte särskilt k
 
 Ljusföroreningar är ett av de första och största problemen. Våra städer är så pass upplysta att de lyser upp natt-himmelen enormt mycket och gör att vi inte kan se stjärnorna ordentligt. Du kan glömma att få till riktigt bra bild på till exempel Vintergatan nära en större stad.
 
-![](33026437232_649ee76f21_k.jpg "Vintergatan sett från Dumme Mosse (Ljusförorening från Jönköping till höger i bilden)"){.-full width=2000 height=1125}
+{% image "33026437232_649ee76f21_k.jpg", "-full", "Vintergatan sett från Dumme Mosse (Ljusförorening från Jönköping till höger i bilden)" %}
 
 _Det enda man egentligen kan göra för att motverka ljusföroreningar är att ta sig bort ifrån staden, om inte det är möjligt att försöka hitta "blind-spots" där det är mindre artificiellt ljus._
 
-![](14954866899_572b07f5a6_b.jpg "Rosenlunds bankar"){width=1024 height=768}
+{% image "14954866899_572b07f5a6_b.jpg", "", "Vintergatan sett från Rosenlunds bankar över Huskvarnabergen", "Rosenlunds bankar" %}
 
 Bara en kort bilfärd ut från en stad går det att få betydligt bättre bilder; Som denna bilden från Vista kulle en bit utanför Jönköping.
 
-![](16271000293_e835a1446c_h.jpg "Sfärisk panorama från Vista kulle"){.-full width=1600 height=900}
+{% image "16271000293_e835a1446c_h.jpg", "-full", "En sfärisk panorama över vintergatan sett från Vista kulle projicerad så att marken ser ut som en liten planet i ett hav av stjärnor", "Sfärisk panorama från Vista kulle" %}
 
 Helt utan ljusföroreningar går det att få en helt annan detaljnivå, som denna bilden tagen vid Borgafjäll.
 
-![Vintergatan från Borgafjäll](Gustav-Lindqvist_2018-09-13_0381.jpg){width=2000 height=2667}
+{% image "Gustav-Lindqvist_2018-09-13_0381.jpg", "", "Vintergatan sett över Borgafjäll som tecknar sig som en svart siluette mot stjärnhimlen.", "Vintergatan över Borgafjäll" %}
 
 ## Star Trails
 
