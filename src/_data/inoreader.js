@@ -17,7 +17,8 @@ module.exports = async () => {
     let parser = new Parser({
         timeout: 10000,
         customFields: {
-            item: ['source', 'source:url',{keepArray: true}]
+            item: ['source'],
+            item: ['category',{keepArray: true}]
         }
     });
     const maxPerFeed = 2;
@@ -179,13 +180,11 @@ module.exports = async () => {
                     post.creator :
                     '';
                 post.description = "";
-                console.log(post)
                 outputPost.source = post.source;
                 outputPost.url = post.link;
                 outputPost.date = post.isoDate;
-                outputPost.tags = (typeof post.tags !== 'undefined') ? post.tags.filter((tag) => tag !== 'Good shit'): [];
+                outputPost.tags = (typeof post.categories !== 'undefined') ? post.categories.filter((tag) => tag !== 'Good shit'): [];
                 outputPost.feature_image = `https://opengraph.gustavlindqvist.se/${encodeURIComponent(post.link)}`;
-                console.log(outputPost.creator);
                 outputPosts.push(outputPost);
             });
 
