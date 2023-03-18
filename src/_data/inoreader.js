@@ -187,7 +187,7 @@ module.exports = async () => {
                         .filter((tag) => tag !== 'Good shit')
                         .map((tag) => tag.toLowerCase())
                     : [];
-                outputPost.feature_image = `https://opengraph.gustavlindqvist.se/${encodeURIComponent(post.link)}`;
+                outputPost.feature_image = `https://opengraph.gustavlindqvist.se/${encodeURIComponent(post.link)}/small/webp/`;
                 outputPosts.push(outputPost);
             });
 
