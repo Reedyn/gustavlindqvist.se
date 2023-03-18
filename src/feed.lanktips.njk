@@ -20,7 +20,7 @@
         <title>{{ post.title }}</title>
         <link href="{{ post.url }}"/>
         <updated>{{ post.date }}</updated>
-        <source>{{ post.source }}</source>
+        <dc:creator>{{ post.source }}</dc:creator>
         <id>{{ post.url }}</id>
     </entry>
     {%- endfor %}
