@@ -49,7 +49,7 @@ module.exports = async () => {
         },
         {
             'series': 'gaming',
-            'url': 'https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/Gaming+%26+Entertainment'
+            'url': 'https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/Gaming'
         }
     ];
 
