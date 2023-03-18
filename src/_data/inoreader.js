@@ -2,7 +2,7 @@ let Parser = require('rss-parser');
 let opml = require('opml');
 const fetch = require('@11ty/eleventy-fetch');
 
-function fetchWithTimeout (resource, options = {}) {
+function fetchWithTimeout(resource, options = {}) {
     const {timeout = 5000} = options;
     return new Promise(async function (resolve, reject) {
         fetch(resource, {
@@ -18,7 +18,7 @@ module.exports = async () => {
         timeout: 10000,
         customFields: {
             item: ['source'],
-            item: ['category',{keepArray: true}]
+            item: ['category', {keepArray: true}]
         }
     });
     const maxPerFeed = 2;
@@ -79,7 +79,7 @@ module.exports = async () => {
     let feedLists = await getSourcesFromOPML();
     feedLists = removeSelf(feedLists);
 
-    function sortByDate (a, b) {
+    function sortByDate(a, b) {
         if (a.publicationDate > b.publicationDate) {
             return -1;
         }
@@ -89,7 +89,7 @@ module.exports = async () => {
         return 0;
     }
 
-    function removeSelf (feedList) {
+    function removeSelf(feedList) {
         const filteredFeedList = [];
 
         feedList.forEach((list) => {
@@ -175,7 +175,7 @@ module.exports = async () => {
             outputPosts = [];
             feed.items.forEach((post) => {
                 outputPost = {};
-                outputPost.title = post.title.replace(/\.[pdfPDF]+/,'');
+                outputPost.title = post.title.replace(/\.[pdfPDF]+/, '');
                 outputPost.creator = (typeof post.creator !== 'undefined') ?
                     post.creator :
                     '';
@@ -183,7 +183,11 @@ module.exports = async () => {
                 outputPost.source = post.source;
                 outputPost.url = post.link;
                 outputPost.date = post.isoDate;
-                outputPost.tags = (typeof post.categories !== 'undefined') ? post.categories.filter((tag) => tag !== 'Good shit'): [];
+                outputPost.tags = (typeof post.categories !== 'undefined')
+                    ? post.categories
+                        .filter((tag) => tag !== 'Good shit')
+                        .map((tag) => tag.toLowerCase())
+                    : [];
                 outputPost.feature_image = `https://opengraph.gustavlindqvist.se/${encodeURIComponent(post.link)}`;
                 outputPosts.push(outputPost);
             });
