@@ -33,7 +33,7 @@ eleventyComputed:
                     </span>{% endif %}
                 <div class="Card__content">
                     <h2 class="Card__title"><a id="{{ post.url | hashString }}" class="Card__title-link" href="{{ post.url }}">{{ post.title }}</a></h2>
-                    <p class="creator">{{ post.creator }}</p>
+                    <p class="source">{{ post.source }}</p>
                 </div>
             </article>
             {% endfor %}
