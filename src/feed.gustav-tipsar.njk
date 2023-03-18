@@ -4,7 +4,7 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="/assets/stylesheets/feed.xsl" type="text/xsl"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <title>Gustav tipsar</title>
     <subtitle>Artiklar, böcker, filmer och annat som jag tycker är extra bra, intressant eller kul; i ordningen som jag läste/upptäckte dem (senast överst).</subtitle>
     <link href="{{ metadata.url }}/gustav-tipsar.xml" rel="self"/>
@@ -20,6 +20,7 @@
         <title>{{ post.title }}</title>
         <link href="{{ post.url }}"/>
         <updated>{{ post.date }}</updated>
+        <source>{{ post.source }}</source>
         <id>{{ post.url }}</id>
     </entry>
     {%- endfor %}

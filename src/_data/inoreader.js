@@ -15,7 +15,10 @@ function fetchWithTimeout (resource, options = {}) {
 module.exports = async () => {
     const inoreader = {};
     let parser = new Parser({
-        timeout: 10000
+        timeout: 10000,
+        customFields: {
+            item: ['source', 'source:url',{keepArray: true}]
+        }
     });
     const maxPerFeed = 2;
 
@@ -26,15 +29,15 @@ module.exports = async () => {
         },
         {
             'series': 'löpning',
-            'url': 'https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/L%C3%B6pning+%26+orientering'
+            'url': 'https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/L%C3%B6pning'
         },
         {
             'series': 'cykling',
-            'url': 'https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/Cykling+%26+stadsplanering'
+            'url': 'https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/Cykling'
         },
         {
             'series': 'fotografering',
-            'url': 'https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/Fotografering+%26+astronomi'
+            'url': 'https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/Fotografering'
         },
         {
             'series': 'kartor',
@@ -42,7 +45,7 @@ module.exports = async () => {
         },
         {
             'series': 'ölbryggning',
-            'url': 'https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/%C3%96l+%26+hembryggning'
+            'url': 'https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/%C3%96lbryggning'
         },
         {
             'series': 'gaming',
@@ -174,12 +177,15 @@ module.exports = async () => {
                 outputPost.title = post.title.replace(/\.[pdfPDF]+/,'');
                 outputPost.creator = (typeof post.creator !== 'undefined') ?
                     post.creator :
-                    new URL(post.link).hostname.replace('www.','');
+                    '';
+                post.description = "";
+                console.log(post)
+                outputPost.source = post.source;
                 outputPost.url = post.link;
                 outputPost.date = post.isoDate;
                 outputPost.tags = (typeof post.tags !== 'undefined') ? post.tags.filter((tag) => tag !== 'Good shit'): [];
                 outputPost.feature_image = `https://opengraph-gustavlindqvist-se.netlify.app/${encodeURIComponent(post.link)}`;
-
+                console.log(outputPost.creator);
                 outputPosts.push(outputPost);
             });
 
