@@ -11,7 +11,7 @@ Egentligen är jag inte speciellt intresserad av fotboll och egentligen inte att
 
 <figure class="gallery -wide">
 	<figure class="gallery-row -no-wrap">
-		{% image "9506131166_65d847f8a3_c.jpg", "-inline", "Två fobtollsspelare i närkamp" %}
+		{% image "9506131016_451e42ed0a_c.jpg", "-inline", "Två fotbollsspelare i närkamp" %}
 		{% image "9506131166_65d847f8a3_c.jpg", "-inline", "Tre fotbollsspelare i närkamp. Två av spelarna har blåvita kläder den tredje har grön-vita kläder." %}
 	</figure>
 	<figure class="gallery-row">
