@@ -1,6 +1,6 @@
 ---
 title: "Efterbehandlings­tekniker för timelapse­fotografering"
-feature_image: /assets/images/2018/07/lrtimelapse.jpg
+feature_image: lrtimelapse.jpg
 description: "Det som anses av de flesta inom timelapsefotografering som är bland det svåraste att få till och häftigast resultat är s.k. \"Holy Grail\"…"
 date: 2016-07-04
 tags: ['fotografering']
@@ -17,13 +17,13 @@ Bulbramping är en av de svårare sätten att fotografera på men desto enklare 
 
 Bulbramping ger en jämn förändring av exponeringen vilket gör det mycket enkelt att hantera i efterhand.
 
-![Bulb-ramping with Promote](/assets/images/2016/07/bulb-ramping.jpg#small)
+![Bulb-ramping with Promote](bulb-ramping.jpg)
 
 ## Manuell ramping
 
 Ett alternativ till bulbramp är att hantera kameran manuellt genom att korrigera exponering lite då och då. Detta ger den stora fördelen att kunna möta oförutsedda förändringar i ljuset, det är också väldigt enkelt att hantera i efterbehandling eftersom förändring i exponering sker kontrollerat (se bild nedan)
 
-![Manual ramping i LRTimelapse](/assets/images/2016/07/2015-04-15-13_28_22-LRTimelapse-4-0_Holy_Grail1.jpg#small)
+![Manual ramping i LRTimelapse](2015-04-15-13_28_22-LRTimelapse-4-0_Holy_Grail1.jpg)
 
 Den stora nackdelen med denna tekniken är att den kräver att fotografen har full uppmärksamhet under hela processen, som kan pågå under flera timmar.
 
