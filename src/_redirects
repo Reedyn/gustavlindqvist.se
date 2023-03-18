@@ -13,7 +13,10 @@
 /mtb /cykling/
 /mtb/feed.xml /cykling/feed.xml
 /hembryggeri/vatterns-guld/ /hembryggeri/vatterns-enkla/
-/bokmarken/ /lastips/
+/bokmarken/ /lanktips/
+/lastips/ /lanktips/
+/gustavs-lastips/ /lanktips/
+/gustavs-lastips.xml /lanktips.xml
 
 /2014/06/02/kinaresan-en-sammanfattning/ /kinaresan/
 
