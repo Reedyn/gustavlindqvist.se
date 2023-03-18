@@ -184,7 +184,7 @@ module.exports = async () => {
                 outputPost.url = post.link;
                 outputPost.date = post.isoDate;
                 outputPost.tags = (typeof post.tags !== 'undefined') ? post.tags.filter((tag) => tag !== 'Good shit'): [];
-                outputPost.feature_image = `https://opengraph-gustavlindqvist-se.netlify.app/${encodeURIComponent(post.link)}`;
+                outputPost.feature_image = `https://opengraph.gustavlindqvist.se/${encodeURIComponent(post.link)}`;
                 console.log(outputPost.creator);
                 outputPosts.push(outputPost);
             });
