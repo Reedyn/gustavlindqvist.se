@@ -20,14 +20,22 @@ eleventyComputed:
             <p class="description">{{ description | renderUsingMarkdown | safe }}</p>
         </div>
     </header>
-    <section aria-label="Lista över innehåll" class="page-content content" id="page-content">
-        <ul class="post-list">
+    <section aria-label="Lista över innehåll" class="page-content wrapper Cards" id="page-content">
             {% for post in inoreader.goodShit %}
             {%- set computedDate = post.date | dateFromString -%}
-            <li class="post-list__item">
-            <h2 class="post-title"><a id="{{ post.url | hashString}}" class="post-link" href="{{ post.url | url}}">{{ post.title }}</a></h2>
-            {% if computedDate %}<p class="post-date"><time datetime="{{ computedDate | fullISODate }}" title="{{ computedDate | shortISODate }}">{{ computedDate | readableLongDate }}</time></p>{% endif %}
-            </li>{% endfor %}
-        </ul>
+            <article aria-labelledby="{{ post.url | hashString }}" class="Card bookmark -align-bottom{% if post.feature_image %} -featured-image{% endif %}" style="{% if post.feature_image %} background-image: url({{ post.feature_image }});{% endif %}">
+                {% if (post.tags.length) %}<span class="Card__content__extra -top-left">
+                    {% if (post.tags) %}<span class="tags">
+                        {%- for tag in post.tags -%}
+                            <span class="tag">{{ tag }}</span>
+                        {%- endfor -%}
+                        </span>{% endif %}
+                    </span>{% endif %}
+                <div class="Card__content">
+                    <h2 class="Card__title"><a id="{{ post.url | hashString }}" class="Card__title-link" href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <p class="creator">{{ post.creator }}</p>
+                </div>
+            </article>
+            {% endfor %}
     </section>
 </article>
