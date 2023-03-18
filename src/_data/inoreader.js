@@ -17,8 +17,7 @@ module.exports = async () => {
     let parser = new Parser({
         timeout: 10000,
         customFields: {
-            item: ['source'],
-            item: ['category', {keepArray: true}]
+            item: ['source']
         }
     });
     const maxPerFeed = 2;
