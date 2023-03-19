@@ -10,7 +10,7 @@ permalink: "/{{ page.date | dateFolder}}/ensamvandring-pa-sodra-vatterleden/inde
 
 I helgen bestämde jag mig för att testa det där med ensamvandring och då valde jag etapp 2 på Södra Vätterleden mellan Bottnaryd och Norrahammar.{.lead}
 
-{% image "20200822_083405.jpg", "", "Bild på vandringsutrustning som ligger utspritt på ett golv", "[Utrustningen för turen (Basvikt på strax under 8kg)](https://packstack.io/pack/965/sodra-vatterleden-(bottnaryd-jonkoping))" %}
+{% image "20200822_083405.jpg", "", "Bild på vandringsutrustning som ligger utspritt på ett golv" %}
 
 Turen var även första tillfället att testa en stor del av utrustningen, bland annat vattenfiltret Grayl Geopress, ryggsäcken Gossamer Gear Mariposa 60L och nytt kokkärl.
 
