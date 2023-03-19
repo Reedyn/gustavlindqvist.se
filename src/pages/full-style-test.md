@@ -1,7 +1,6 @@
 ---
 id: 5c1b66bce8811c00bf02ad55
 title: "Full Style Test"
-feature_image: /assets/images/2018/12/14720959296_5f2c34c822_o.jpg
 custom_excerpt: "Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs."
 date: 2018-12-20
 eleventyExcludeFromCollections: true
