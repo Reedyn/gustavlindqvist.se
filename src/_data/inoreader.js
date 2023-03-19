@@ -25,7 +25,7 @@ module.exports = async () => {
     const opmlSources = [
         {
             'series': 'friluftsliv',
-            'url': 'https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/Vandring+%26+friluftsliv'
+            'url': 'https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/Friluftsliv'
         },
         {
             'series': 'löpning',
