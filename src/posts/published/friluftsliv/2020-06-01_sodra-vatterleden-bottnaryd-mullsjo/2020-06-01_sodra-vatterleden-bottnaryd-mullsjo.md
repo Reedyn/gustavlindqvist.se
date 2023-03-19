@@ -1,5 +1,5 @@
 ---
-title: "Vandring längs Södra Vätterleden (Bottnaryd → Mullsjö)"
+title: "Vandring längs Södra Vätterleden (Bottnaryd → Mullsjö)"
 feature_image: 20200522_112634-1.jpg
 description: "Precis som alla andra svenskar bestämde vi oss för att vandra lite i närområdet under pandemin."
 date: 2020-06-01
@@ -10,7 +10,7 @@ permalink: "/{{ page.date | dateFolder}}/sodra-vatterleden-bottnaryd-mullsjo/ind
 
 Precis som alla andra svenskar bestämde vi oss för att vandra lite i närområdet under pandemin.
 
-Vi tog bussen ut till Bottnaryd för att vandra den första etappen av Södra Vätterleden i riktning mot Mullsjö. På papperet precis under 30km långt med ett sovstopp på 17.5km i ett vindskydd.
+Vi tog bussen ut till Bottnaryd för att vandra den första etappen av Södra Vätterleden i riktning mot Mullsjö. På papperet precis under 30km långt med ett sovstopp på 17.5km i ett vindskydd.
 
 Just denna leden var vi ett gäng under studietiden som gick, dock avbröt vi tidigare under andra dagen på grund av dåligt väder. Denna gången gick vi hela + lite extra.
 
