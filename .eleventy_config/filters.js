@@ -63,7 +63,7 @@ module.exports = {
     },
     removePostsNotInSeries: (collection, series) => {
         return collection.filter((post) => {
-            return post.data.series.includes(series);
+            return typeof post.data.series !== 'undefined' && post.data.series.includes(series);
         });
     },
     date: (date, format) => {

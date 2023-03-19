@@ -15,7 +15,7 @@ permalink: "/cykling/planeringsverktyg/index.html"
 
 ### Bårarp
 
-![Bårarp (Göteborgsbacken)](https://api.trafikinfo.trafikverket.se/v2/Images/TrafficFlowCamera_39635870.Jpeg?maxage=15)
+![Bårarp (Göteborgsbacken)](https://api.trafikinfo.trafikverket.se/v2/Images/TrafficFlowCamera_39635870.jpeg)
 
 ### Domsand
 

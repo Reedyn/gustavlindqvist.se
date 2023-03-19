@@ -77,5 +77,14 @@ markdown.renderer.rules.footnote_block_open = () => (
     '<h2 class="separator-heading" id="fotnoter"><span>Fotnoter</span></h2>\n' +
     '<ol class="footnotes-list">\n'
 );
+/*
+markdown.renderer.rules.image = function (tokens, idx, options, env, self) {
+    const token = tokens[idx]
+    let imgSrc = token.attrGet('src')
+    const imgAlt = token.content
+    const imgTitle = token.attrGet('title')
+    // ...
+    return ''
+}*/
 
 module.exports = markdown;
