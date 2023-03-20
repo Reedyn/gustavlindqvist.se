@@ -72,6 +72,10 @@
         "title": "Hassafallsleden",
         "type": "hiking_trail"
     },
+    "holavedsleden": {
+        "title": "Holavedsleden",
+        "type": "hiking_trail"
+    },
     "hong-kong": {
         "title": "Hong Kong",
         "type": "location"
@@ -110,7 +114,6 @@
     },
     "kinaresan": {
         "title": "Kinaresan",
-        "feature_image": "/assets/images/PehfeYVYm_-1500.jpeg",
         "date": "2014",
         "original_order": true,
         "description": "Min resa till Kina på våren 2014 och andra året av mina högskolestudier.",
@@ -209,7 +212,6 @@
     "tågluffen": {
         "title": "tågluffen",
         "type": "trip",
-        "feature_image": "/assets/images/bvo1X0G2JN-1500.jpeg",
         "date": "2019",
         "original_order": true,
         "description": "Vår tågluff genom Europa under 2019 som gick genom länderna Tyskland, Österrike, Italien, Frankrike och Nederländerna."
