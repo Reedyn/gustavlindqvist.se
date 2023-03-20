@@ -24,6 +24,7 @@
             <id>{{ post.source.url }}</id>
         </source>
         <id>{{ post.url }}</id>
+        <content type="html">{{ post.content | utf8_xml}}</content>
     </entry>
     {%- endfor %}
 </feed>

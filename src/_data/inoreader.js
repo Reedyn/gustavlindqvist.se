@@ -182,7 +182,6 @@ module.exports = async () => {
             feed.forEach((post) => {
                 outputPost = {};
                 outputPost.title = post.title.replace(/\.[pdfPDF]+/, '');
-                post.description = "";
                 outputPost.source = {
                     name: post.source['#text'],
                     url: post.source['@url'],
@@ -195,6 +194,7 @@ module.exports = async () => {
                         .map((tag) => tag.toLowerCase())
                     : [];
                 outputPost.feature_image = `https://opengraph.gustavlindqvist.se/${encodeURIComponent(post.link)}/small/webp/`;
+                outputPost.content = `<img src="${outputPost.feature_image}" alt="Featurebild för ${outputPost.title}"><p><a href="${outputPost.url}">${outputPost.title}</a></p>`;
                 outputPosts.push(outputPost);
             });
 
