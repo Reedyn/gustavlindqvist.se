@@ -1,5 +1,6 @@
-let Parser = require('rss-parser');
-let opml = require('opml');
+const Parser = require('rss-parser');
+const { XMLParser } = require("fast-xml-parser");
+const opml = require('opml');
 const fetch = require('@11ty/eleventy-fetch');
 
 function fetchWithTimeout(resource, options = {}) {
@@ -167,23 +168,29 @@ module.exports = async () => {
                 directory: '.cache'
             });
 
-            let feed = await parser.parseString(rawFeed);
+            const xml_parser = new XMLParser({
+                attributeNamePrefix: "@",
+                ignoreAttributes:    false,
+                // processEntities: false
+            });
 
-            console.log('[' + '\x1b[35m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Loaded', feed.items.length, 'posts from good-shit.');
+            let feed = await xml_parser.parse(rawFeed).rss.channel.item;
+
+            console.log('[' + '\x1b[35m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Loaded', feed.length, 'posts from good-shit.');
 
             outputPosts = [];
-            feed.items.forEach((post) => {
+            feed.forEach((post) => {
                 outputPost = {};
                 outputPost.title = post.title.replace(/\.[pdfPDF]+/, '');
-                outputPost.creator = (typeof post.creator !== 'undefined') ?
-                    post.creator :
-                    '';
                 post.description = "";
-                outputPost.source = post.source;
+                outputPost.source = {
+                    name: post.source['#text'],
+                    url: post.source['@url'],
+                };
                 outputPost.url = post.link;
-                outputPost.date = post.isoDate;
-                outputPost.tags = (typeof post.categories !== 'undefined')
-                    ? post.categories
+                outputPost.date = new Date(post.pubDate).toISOString();
+                outputPost.tags = (typeof post.category === 'object')
+                    ? post.category
                         .filter((tag) => tag !== 'Good shit')
                         .map((tag) => tag.toLowerCase())
                     : [];
