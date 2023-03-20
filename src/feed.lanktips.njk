@@ -4,23 +4,25 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="/assets/stylesheets/feed.xsl" type="text/xsl"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<feed xmlns="http://www.w3.org/2005/Atom">
     <title>Gustavs länktips</title>
     <subtitle>Artiklar, böcker, filmer och annat som jag tycker är extra bra, intressant eller kul; i ordningen som jag läste/upptäckte dem (senast överst).</subtitle>
     <link href="{{ metadata.url }}/lanktips.xml" rel="self"/>
     <link href="{{ metadata.url }}/lanktips/"/>
     <updated>{{ inoreader.goodShit[0].date }}</updated>
     <id>{{ metadata.url }}/lanktips.xml</id>
-    <author>
-        <name>{{ metadata.author.name }} {{ metadata.author.surname }}</name>
-        <email>{{ metadata.author.email }}</email>
-    </author>
     {%- for post in inoreader.goodShit -%}
     <entry>
         <title>{{ post.title }}</title>
         <link href="{{ post.url }}"/>
         <updated>{{ post.date }}</updated>
-        <dc:creator>{{ post.source }}</dc:creator>
+        <author>
+            <name>{{ post.source.name }}</name>
+        </author>
+        <source>
+            <title>{{ post.source.name }}</title>
+            <id>{{ post.source.url }}</id>
+        </source>
         <id>{{ post.url }}</id>
     </entry>
     {%- endfor %}

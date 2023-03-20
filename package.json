@@ -39,6 +39,7 @@
     "dotenv": "^16.0.1",
     "eleventy-plugin-page-assets": "github:maxboeck/eleventy-plugin-page-assets",
     "exifr": "^7.1.3",
+    "fast-xml-parser": "^4.1.3",
     "fs": "^0.0.1-security",
     "lodash": "^4.17.21",
     "luxon": "^3.2.1",
