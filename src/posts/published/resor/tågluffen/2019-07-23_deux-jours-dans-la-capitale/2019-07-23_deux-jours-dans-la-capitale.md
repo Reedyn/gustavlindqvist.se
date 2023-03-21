@@ -51,7 +51,7 @@ Andra dagen tog vi tunnelbanan bort mot kyrkan Sacré-Cœur. Det var även en li
 		{% image "Gustav-Lindqvist_2019-07-22_07032.jpg", "-inline", "Kyrkan Sacré-Cœur med fokus på en av de mindre tornen." %}
 		{% image "Gustav-Lindqvist_2019-07-22_07036.jpg", "-inline", "Kyrkan Sacré-Cœur sett från botten av parken intill" %}
 	</figure>
-	<figcaption>Kyrkan Sacré-Cœur</figcaption>
+	<figcaption><p>Kyrkan Sacré-Cœur</p></figcaption>
 </figure>
 
 Därefter gick vi en kort promenad bort till Moulin Rouge som vi fotograferade från vägen.
