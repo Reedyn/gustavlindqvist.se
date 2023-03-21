@@ -13,7 +13,6 @@ eleventyComputed:
         image:
             src: "{% if thumbnail_image %}{{ metadata.url + thumbnail_image | parseImagePath(page.url) }}{% elseif feature_image %}{{ metadata.url + feature_image | parseImagePath(page.url) }}{% else %}{{ metadata.url }}/assets/images/website_feature.png{% endif %}"
 ---
-
 <!doctype html>
 <html lang="sv" class="no-js">
 <head>
