@@ -56,5 +56,3 @@ Denna dagen blev om möjligt ännu varmare så det blev inte så mycket vandring
 
 När vi sen skulle åka därifrån blev kön extremt lång till båten, vi var lite oroliga att vi inte skulle få plats men båten slukade alla passagerare utan problem och vi fick till och med bästa läktarplats för resan tillbaka.
 
-{% image "Gustav-Lindqvist_2018-08-03_1426.jpg", "-full", "En lång kö till en färja" %}
-
