@@ -22,7 +22,7 @@ eleventyComputed:
     </header>
     <section class="page-content content" id="page-content">
         <h2 id="blogroll"><a class="header-anchor" href="#blogroll">Bloggar och video</a></h2>
-        <p><svg class="icon icon--feed" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/rss.svg#rss"></use></svg> <a href="/blogroll.xml">ölj med OPML</a></p>
+        <p><svg class="icon icon--feed" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/rss.svg#rss"></use></svg> <a href="/blogroll.xml">Följ med OPML</a></p>
         {%- for category in inoreader.feeds -%}
         <details>
             <summary>{{ category.title }}<sup>({{ category.feeds | count }}<span class="sr-only"> flöden</span>)</sup></summary>
