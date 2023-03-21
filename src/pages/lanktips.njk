@@ -5,6 +5,7 @@ templateClass: post-template
 type: page
 description: "Artiklar, böcker, filmer och annat som jag tycker är extra bra, intressant eller kul; i ordningen som <em>jag</em> läste/upptäckte dem (senast överst)."
 permalink: /lanktips/
+feed: /lanktips.xml
 eleventyComputed:
     meta:
         author:
@@ -21,7 +22,7 @@ eleventyComputed:
         </div>
     </header>
     <section aria-label="Lista över innehåll" class="page-content wrapper Cards" id="page-content">
-            {% for post in inoreader.goodShit %}
+            {% for post in inoreader.recommendations %}
             {%- set computedDate = post.date | dateFromString -%}
             <article aria-labelledby="{{ post.url | hashString }}" class="Card bookmark -align-bottom{% if post.feature_image %} -featured-image{% endif %}" style="{% if post.feature_image %} background-image: url({{ post.feature_image }});{% endif %}">
                 {% if (post.tags.length) %}<span class="Card__content__extra -top-left">

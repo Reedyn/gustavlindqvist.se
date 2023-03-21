@@ -25,41 +25,99 @@ module.exports = async () => {
 
     const opmlSources = [
         {
+            'title': 'Nyheter, journalism & politik',
+            'folder_name': 'Nyheter%2C+journalism+%26+politik'
+        },
+        {
+            'title': 'Säkerhet & försvar',
+            'folder_name': 'S%C3%A4kerhet+%26+f%C3%B6rsvar'
+        },
+        {
+            'title': 'Friluftsliv',
             'series': 'friluftsliv',
-            'url': 'https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/Friluftsliv'
+            'folder_name': 'Friluftsliv'
         },
         {
+            'title': 'Orientering',
+            'series': 'orientering',
+            'folder_name': 'Orientering'
+        },
+        {
+            'title': 'Löpning',
             'series': 'löpning',
-            'url': 'https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/L%C3%B6pning'
+            'folder_name': 'Löpning'
         },
         {
+            'title': 'Cykling',
             'series': 'cykling',
-            'url': 'https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/Cykling'
+            'folder_name': 'Cykling'
         },
         {
-            'series': 'fotografering',
-            'url': 'https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/Fotografering'
+            'title': 'Stadsplanering',
+            'folder_name': 'Stadsplanering'
         },
         {
+            'title': 'Kartor',
             'series': 'kartor',
-            'url': 'https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/Kartografi'
+            'folder_name': 'Kartor'
         },
         {
-            'series': 'ölbryggning',
-            'url': 'https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/%C3%96lbryggning'
+            'title': 'Fotografering',
+            'series': 'fotografering',
+            'folder_name': 'Fotografering'
         },
         {
+            'title': 'Astronomi',
+            'folder_name': 'Astronomi'
+        },
+        {
+            'title': 'Gaming',
             'series': 'gaming',
-            'url': 'https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/Gaming'
+            'folder_name': 'Gaming'
+        },
+        {
+            'title': 'Ölbryggning',
+            'series': 'ölbryggning',
+            'folder_name': 'Ölbryggning'
+        },
+        {
+            'title': 'Bibliotek',
+            'folder_name': 'Bibliotek'
+        },
+        {
+            'title': 'Forskning',
+            'folder_name': 'Forskning'
+        },
+        {
+            'title': 'Webcomics',
+            'folder_name': 'Webcomics'
+        },
+        {
+            'title': 'Internet',
+            'folder_name': 'Internet'
+        },
+        {
+            'title': 'Webbutveckling',
+            'series': 'webdev',
+            'folder_name': 'WebDev'
+        },
+        {
+            'title': 'Teknologi',
+            'series': 'teknologi',
+            'folder_name': 'Teknologi'
+        },
+        {
+            'title': 'Övrigt',
+            'series': 'övrigt',
+            'folder_name': 'Övrigt'
         }
     ];
-
 
     const getSourcesFromOPML = async function () {
         const feedList = [];
         for (let index = 0; index < opmlSources.length; index++) {
             let opmlSource = opmlSources[index];
-            const response = await fetchWithTimeout(opmlSource.url, {
+            const response = await fetchWithTimeout(`https://www.inoreader.com/reader/subscriptions/export/user/1005830534/label/${opmlSource.folder_name}`, {
                 duration: '6h',
                 type: 'text',
                 directory: '.cache'
@@ -67,17 +125,16 @@ module.exports = async () => {
             opml.parse(response, function (err, theOutline) {
                 if (!err) {
                     feedList.push({
+                        'title': opmlSource.title,
                         'series': opmlSource.series,
-                        'urls': theOutline.opml.body.subs[0].subs
+                        'feeds': theOutline.opml.body.subs[0].subs
                     });
                 }
             });
         }
         return feedList;
     };
-
-    let feedLists = await getSourcesFromOPML();
-    feedLists = removeSelf(feedLists);
+    const feedLists = removeSelf(await getSourcesFromOPML());
 
     function sortByDate(a, b) {
         if (a.publicationDate > b.publicationDate) {
@@ -94,8 +151,9 @@ module.exports = async () => {
 
         feedList.forEach((list) => {
             filteredFeedList.push({
+                'title': list.title,
                 'series': list.series,
-                'urls': list.urls.filter((feed) => {
+                'feeds': list.feeds.filter((feed) => {
                     return feed.xmlUrl.indexOf('gustavlindqvist.se') === -1;
                 })
             });
@@ -103,7 +161,7 @@ module.exports = async () => {
         return filteredFeedList;
     }
 
-    const getPosts = async (feeds) => {
+    const getLatestPostsForSeries = async (feeds) => {
 
         let combinedFeed = [];
 
@@ -149,16 +207,15 @@ module.exports = async () => {
 
     };
 
-    let allPosts = {};
+    let latestPostsForSeries = {};
     for (let index = 0; index < feedLists.length; index++) {
         const feedList = feedLists[index];
-        console.log('[' + '\x1b[35m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Grabbed', feedList.urls.length, 'feed sources for tag: ', feedList.series);
-        allPosts[feedList.series] = await getPosts(feedList.urls);
+        if (feedList.series) {
+            console.log('[' + '\x1b[35m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Grabbed', feedList.feeds.length, 'feed sources for tag: ', feedList.title);
+            latestPostsForSeries[feedList.series] = await getLatestPostsForSeries(feedList.feeds);
+        }
     }
-    inoreader.allPosts = allPosts;
-
-
-    const getGoodShit = async () => {
+    const getRecommendations = async () => {
         const feedURL = 'https://www.inoreader.com/stream/user/1005830534/tag/Good%20shit';//view/json';
 
         try {
@@ -205,7 +262,10 @@ module.exports = async () => {
             console.log('[' + '\x1b[31m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', msg);
         }
     };
-    inoreader.goodShit = await getGoodShit();
+
+    inoreader.feeds = await getSourcesFromOPML();
+    inoreader.latestPostsForSeries = latestPostsForSeries;
+    inoreader.recommendations = await getRecommendations();
 
     return inoreader;
 };
