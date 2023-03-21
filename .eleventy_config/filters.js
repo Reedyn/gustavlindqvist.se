@@ -138,6 +138,7 @@ module.exports = {
         return number.toString().replace(/(?!^)(?=(?:\d{3})+(?:\.|$))/gm, ' ');
     },
     isoString: (date = Date.now()) => new Date(date).toISOString(),
+    count: (arr) => arr.length,
     interactionsForPage,
     featuredImageFilter
 };

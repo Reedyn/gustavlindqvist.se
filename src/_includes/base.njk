@@ -47,8 +47,14 @@ eleventyComputed:
 
     <link rel="webmention" href="https://webmention.io/gustavlindqvist.se/webmention" />
     <link rel="pingback" href="https://webmention.io/gustavlindqvist.se/xmlrpc" />
-
-    <meta property="og:title" content="{{ title or metadata.title }}">
+    <script>
+        const description = {{ description | dump | safe }};
+        const page = {{ page | dump | safe }};
+        const title = {{ title | dump | safe }};
+        const page_title = {{ page_title | dump | safe }};
+        const tagMetadata = {{ tagMetadata[ tag ].title | dump | safe }};
+    </script>
+    <meta property="og:title" content="{% if page_title %}{{ page_title }}{% elseif title %}{{ title }}{% elseif tagMetadata[ tag ].title %}{{ tagMetadata[ tag ].title | firstLetterUpper }}{% else %}{{ metadata.title }}{% endif %}">
     <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
     <meta property="og:description" content="{{ description or metadata.description }}">
     <meta property="og:image" content="{{ optimizedThumbnailImage }}">
@@ -67,7 +73,9 @@ eleventyComputed:
     <link rel="canonical" href="{{ metadata.url }}{{ page.url }}">
 
     <meta name="generator" content="{{ eleventy.generator }}">
-
+    {% if templateClass == 'tag-template' %}
+    <link rel="alternate" type="application/atom+xml" title="Gustav Lindqvist - {{ tagMetadata[ tag ].title | firstLetterUpper }}" href="{{ metadata.url }}{{ page.url }}feed.xml"/>
+    {% else %}
     <link rel="alternate" type="application/atom+xml" title="Gustav Lindqvist" href="/feed.xml"/>
     <link rel="alternate" type="application/atom+xml" title="Gustav Lindqvist – Friluftsliv" href="/friluftsliv/feed.xml"/>
     <link rel="alternate" type="application/atom+xml" title="Gustav Lindqvist – Fotografering" href="/fotografering/feed.xml"/>
@@ -77,7 +85,7 @@ eleventyComputed:
     <link rel="alternate" type="application/atom+xml" title="Gustav Lindqvist – Resor" href="/kartor/feed.xml"/>
     <link rel="alternate" type="application/atom+xml" title="Gustav Lindqvist – Ölbryggning" href="/olbryggning/feed.xml"/>
     <link rel="alternate" type="application/atom+xml" title="Gustav Lindqvist – Länktips" href="/lanktips.xml"/>
-
+    {% endif %}
     {% jsonLdScript meta, type, tags %}
 
     {% if color %}<style>:root { --color__background__post: {{ color }};}</style>{% endif %}

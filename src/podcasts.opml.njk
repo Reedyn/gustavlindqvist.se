@@ -1,0 +1,28 @@
+---
+title: "Podcasts"
+description: "Alla podcasts jag följer."
+permalink: "/podcasts.xml"
+eleventyComputed:
+    published: "{{ date | isoString }}"
+    modified: "{% if updateDate %}{{ updateDate | dateToRfc3339 }}{% endif %}"
+---
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="2.0">
+    <head>
+        <title>{{ title }}</title>
+        <dateCreated>{{ page.date | dateToRfc3339}}</dateCreated>
+        <description>{{ description }}</description>
+        <urlPublic>{{ metadata.url }}{{ permalink }}</urlPublic>
+        <ownerName>{{ metadata.author.name }} {{ metadata.author.surname }}</ownerName>
+        <ownerEmail>{{ metadata.author.email }}</ownerEmail>
+        <ownerId>{{ metadata.url }}/kontakta-mig/</ownerId>
+        <dateModified>{{ modified }}</dateModified>
+    </head>
+    <body>
+    <outline text="Podcasts">
+        {%- for feed in podcasts.feeds -%}
+        <outline type="rss" text="{{ feed.title | utf8_xml }}" xmlUrl="{{ feed.xml_url | utf8_xml }}"/>
+        {%- endfor %}
+    </outline>
+    </body>
+</opml>

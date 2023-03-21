@@ -3,7 +3,7 @@ title: "Blogroll"
 layout: base.njk
 templateClass: post-template
 type: page
-description: "Här är lite bloggar, poddar och andra kanaler som jag följer, i slumpmässig ordning."
+description: "Alla flöden jag följer."
 permalink: /blogroll/
 date: 2021-12-09
 eleventyComputed:
@@ -20,22 +20,32 @@ eleventyComputed:
             <p>{{ description }}</p>
         </section>
     </header>
-    <section class="page-content wrapper Cards" id="page-content">
-        {%- for channel in blogroll | shuffle -%}
-        <article class="Card channel -align-bottom{% if channel.feature_image %} -featured-image{% endif %}{% if channel.type %} -{{ channel.type }}{% endif %}" style="{% if channel.feature_image %} background-image: url({{ channel.feature_image }});{% endif %}{% if channel.color %} --color__background__contrast__widget: {{ channel.color }};{% endif %}">
-            {% if (channel.tags.length) %}<span class="Card__content__extra -top-left">
-                {% if (channel.tags) %}<span class="tags">
-                    {%- for tag in channel.tags -%}
-                    <span class="tag">{{ tag }}</span>
-                    {%- endfor -%}
-                    </span>{% endif %}
-                </span>{% endif %}
-            {% if channel.type %} <span class="Card__content__extra -top-right"><svg class="icon icon--twitter" role="presentation" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/{{ channel.type }}.svg#{{ channel.type }}"></use></svg></span>{% endif %}
-            <section class="Card__content">
-                <h2 class="Card__title"><a class="Card__title-link" href="{{ channel.url }}">{{ channel.title }}</a></h2>
-                <p class="description">{{ channel.description }}</p>
-            </section>
-        </article>
+    <section class="page-content content" id="page-content">
+        <h2 id="blogroll"><a class="header-anchor" href="#blogroll">Bloggar och video</a></h2>
+        <p><svg class="icon icon--feed" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/rss.svg#rss"></use></svg> <a href="/blogroll.xml">ölj med OPML</a></p>
+        {%- for category in inoreader.feeds -%}
+        <details>
+            <summary>{{ category.title }}<sup>({{ category.feeds | count }}<span class="sr-only"> flöden</span>)</sup></summary>
+            <ul>
+            {%- for feed in category.feeds -%}
+                <li>
+                    <a href="{{ feed.htmlUrl }}">{{ feed.title }}</a> <sup>[<a href="{{ feed.xmlUrl }}" title="för {{ feed.title }}">Flöde</a>]</sup>
+                </li>
+            {%- endfor -%}
+            </ul>
+        </details>
         {%- endfor -%}
+        <h2 id="podcasts"><a class="header-anchor" href="#podcasts">Poddar</a></h2>
+        <p><svg class="icon icon--feed" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/rss.svg#rss"></use></svg> <a href="/podcasts.xml">Följ med OPML</a></p>
+        <p>Uppdateras tyvärr inte så ofta eftersom det görs via manuell export från mitt poddprogram.</p>
+        <p>Senast uppdaterad: <time datetime="2023-03-21 10:22">2023-03-21</time></p>
+        <details>
+            <summary>Podcasts<sup>({{ podcasts.feeds | count }})</sup></summary>
+            <ul>
+                {%- for podcast in podcasts.feeds -%}
+                    <li><a href="{{ podcast.xml_url }}">{{ podcast.title }}</a></li>
+                {%- endfor -%}
+            </ul>
+        </details>
     </section>
 </article>

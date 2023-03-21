@@ -1,0 +1,30 @@
+---
+title: "Blogroll"
+description: "Alla bloggar jag följer."
+permalink: "/blogroll.xml"
+eleventyComputed:
+    published: "{{ date | isoString }}"
+    modified: "{% if updateDate %}{{ updateDate | dateToRfc3339 }}{% endif %}"
+---
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="2.0">
+    <head>
+        <title>{{ title }}</title>
+        <dateCreated>{{ page.date | dateToRfc3339}}</dateCreated>
+        <description>{{ description }}</description>
+        <urlPublic>{{ metadata.url }}{{ permalink }}</urlPublic>
+        <ownerName>{{ metadata.author.name }} {{ metadata.author.surname }}</ownerName>
+        <ownerEmail>{{ metadata.author.email }}</ownerEmail>
+        <ownerId>{{ metadata.url }}/kontakta-mig/</ownerId>
+        <dateModified>{{ modified }}</dateModified>
+    </head>
+    <body>
+    {%- for category in inoreader.feeds -%}
+    <outline text="{{ category.title }}">
+        {%- for feed in category.feeds -%}
+        <outline type="rss" text="{{ feed.title | utf8_xml }}" xmlUrl="{{ feed.xmlUrl | utf8_xml }}" htmlUrl="{{ feed.htmlUrl | utf8_xml }}"/>
+        {%- endfor %}
+    </outline>
+    {%- endfor %}
+    </body>
+</opml>
