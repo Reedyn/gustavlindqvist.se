@@ -36,12 +36,11 @@
         margin-top: var(--margin__small);
         .tag {
             display: inline-block;
-            color: inherit;
             margin-right: .4em;
-
-            &:before {
-                content: "#";
-            }
+            color: inherit;
+            background: rgba(128, 128, 128, 0.15);
+            padding: 0 .5em;
+            margin-bottom: .4em;
         }
     }
 
@@ -81,6 +80,12 @@
 
         a {
             color: var(--color__text__contrast);
+        }
+
+        .tags {
+            .tag {
+                background: rgba(128, 128, 128, 0.4);
+            }
         }
 
         .post-header__image {

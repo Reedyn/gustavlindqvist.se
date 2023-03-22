@@ -24,13 +24,15 @@
         "type": "location"
     },
     "cykling": {
-        "title": "cykling",
+        "title": "Cykling",
+        "emoji": "\uD83D\uDEB4",
         "feedTitle": "Gustav är ute och cyklar",
         "description": "Jag är ute och cyklar (oftast i skogen).",
         "type": "subject"
     },
     "design": {
         "title": "design",
+        "emoji": "\uD83D\uDD8C️",
         "type": "subject"
     },
     "fäboliden": {
@@ -39,20 +41,24 @@
     },
     "fotografering": {
         "title": "fotografering",
+        "emoji": "\uD83D\uDCF7",
         "feedTitle": "Gustavs fotoblogg",
         "type": "subject"
     },
     "frankrike": {
         "title": "Frankrike",
+        "emoji": "\uD83C\uDDEB\uD83C\uDDF7",
         "type": "location"
     },
     "friluftsliv": {
         "title": "friluftsliv",
+        "emoji": "\uD83C\uDFD5️",
         "feedTitle": "Gustavs friluftsblogg",
         "type": "subject"
     },
     "gaming": {
         "title": "gaming",
+        "emoji": "\uD83C\uDFAE",
         "feedTitle": "Gustav spelar spel",
         "type": "subject"
     },
@@ -82,6 +88,7 @@
     },
     "höst": {
         "title": "höst",
+        "emoji": "\uD83C\uDF41",
         "type": "season"
     },
     "indieweb": {
@@ -90,10 +97,12 @@
     },
     "internet": {
         "title": "Internet",
+        "emoji": "\uD83C\uDF10",
         "type": "subject"
     },
     "italien": {
         "title": "Italien",
+        "emoji": "\uD83C\uDDEE\uD83C\uDDF9",
         "type": "location"
     },
     "jkpg": {
@@ -106,10 +115,12 @@
     },
     "kartor": {
         "title": "kartor",
+        "emoji": "\uD83D\uDDFA️",
         "type": "subject"
     },
     "kina": {
         "title": "Kina",
+        "emoji": "\uD83C\uDDE8\uD83C\uDDF3",
         "type": "location"
     },
     "kinaresan": {
@@ -137,6 +148,7 @@
     },
     "löpning": {
         "title": "löpning",
+        "emoji": "\uD83C\uDFC3",
         "feedTitle": "Gustav springer vilse i skogen",
         "description": "Jag är och springer vilse i skogen.",
         "type": "subject"
@@ -149,6 +161,7 @@
     },
     "nederländerna": {
         "title": "Nederländerna",
+        "emoji": "\uD83C\uDDF3\uD83C\uDDF1",
         "type": "location"
     },
     "nice": {
@@ -161,14 +174,17 @@
     },
     "orientering": {
         "title": "orientering",
+        "emoji": "\uD83E\uDDED",
         "type": "subject"
     },
     "österrike": {
         "title": "Österrike",
+        "emoji": "\uD83C\uDDE6\uD83C\uDDF9",
         "type": "location"
     },
     "tjeckien": {
         "title": "Tjeckien",
+        "emoji": "\uD83C\uDDE8\uD83C\uDDFF",
         "type": "location"
     },
     "prag": {
@@ -185,12 +201,14 @@
     },
     "resor": {
         "title": "resor",
+        "emoji": "\uD83E\uDDF3",
         "feedTitle": "Gustavs reseblogg",
         "description": "Mina resor världen över.",
         "type": "subject"
     },
     "segling": {
         "title": "segling",
+        "emoji": "⛵",
         "type": "subject"
     },
     "shanghai": {
@@ -203,6 +221,7 @@
     },
     "sommar": {
         "title": "sommar",
+        "emoji": "\uD83C\uDF33",
         "type": "season"
     },
     "södra-vätterleden": {
@@ -211,6 +230,7 @@
     },
     "tågluffen": {
         "title": "tågluffen",
+        "emoji": "\uD83D\uDE83",
         "type": "trip",
         "date": "2019",
         "original_order": true,
@@ -226,6 +246,7 @@
     },
     "tyskland": {
         "title": "Tyskland",
+        "emoji": "\uD83C\uDDE9\uD83C\uDDEA",
         "type": "location"
     },
     "ux": {
@@ -234,6 +255,7 @@
     },
     "vår": {
         "title": "vår",
+        "emoji": "\uD83C\uDF31",
         "type": "season"
     },
     "venedig": {
@@ -242,10 +264,12 @@
     },
     "vetenskap": {
         "title": "vetenskap",
+        "emoji": "\uD83D\uDD2D",
         "type": "subject"
     },
     "vinter": {
         "title": "vinter",
+        "emoji": "⛄",
         "type": "season"
     },
     "västanåleden": {
@@ -258,6 +282,7 @@
     },
     "ölbryggning": {
         "title": "ölbryggning",
+        "emoji": "\uD83C\uDF7A",
         "feedTitle": "Gustavs hembryggeri",
         "type": "subject"
     }
