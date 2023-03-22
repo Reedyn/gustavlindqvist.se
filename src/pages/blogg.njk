@@ -17,7 +17,7 @@ eleventyNavigation:
     <section class="feed content">
         <aside aria-label="Ämnen jag skriver om">
             <p class="tags">
-                Jag skriver om: {% for tag, count in collections.tagsBySize %}{% if (tag !== 'posts') and (tag !== 'page') %}{% set tagUrl %}/{{ tag | slug }}/{% endset %}{% set tagData = tagMetadata[tag] %}{% if tagData.type === 'subject' %}<span class="tag"><a id="{{ tagUrl | hashString}}" href="{{ tagUrl }}">{{ tag }}</a><sup>({{ count }}<span class="sr-only"> inlägg</span>)</sup></span>{% if loop.last %}{% else %}, {% endif %}{% endif %}{% endif %}{% endfor %}
+                {% for tag, count in collections.tagsBySize %}{% if (tag !== 'posts') and (tag !== 'page') %}{% set tagUrl %}/{{ tag | slug }}/{% endset %}{% set tagData = tagMetadata[tag] %}{% if tagData.type === 'subject' %}<span class="tag"><a id="{{ tagUrl | hashString}}" href="{{ tagUrl }}">{% if tagData.emoji %}{{ tagData.emoji }} {% endif %}{% if tagData.title %}{{ tagData.title | firstLetterUppercase }}{% else %}{{ tag | firstLetterUppercase }}{% endif %}</a> ({{ count }}<span class="sr-only"> inlägg</span>)</span>{% endif %}{% endif %}{% endfor %}
             </p>
         </aside>
         {% set postsByYear = collections.posts | groupByYear %}

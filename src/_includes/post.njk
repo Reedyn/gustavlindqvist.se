@@ -27,8 +27,8 @@ eleventyComputed:
         <div class="post-metadata">
             <h1 class="post-title">{{ title }}</h1>
             {% if page.date %}<p class="post-date"><time datetime="{{ page.date | fullISODate }}" title="{{ page.date | shortISODate }}">{{ page.date | readableLongDate }}</time></p>{% endif %}
-            {% if tags %} <p class="tags"><span class="sr-only">Taggar: </span>
-                {%- for tag in tags -%}{% if (tag !== 'posts') and (tag !== 'page') %}<span class="tag"><a href="/{{ tag | slug}}/">{{ tag }}</a><span class="sr-only">, </span></span>{% endif %}{%- endfor -%}
+            {% if tags %} <p class="tags"><span class="sr-only">Ämnen: </span>
+                {%- for tag in tags -%}{% if (tag !== 'posts') and (tag !== 'page') %}{% set tagData = tagMetadata[tag] %}<span class="tag"><a href="/{{ tag | slug}}/">{% if tagData.emoji %}{{ tagData.emoji }} {% endif %}{% if tagData.title %}{{ tagData.title | firstLetterUppercase }}{% else %}{{ tag | firstLetterUppercase }}{% endif %}</a><span class="sr-only">, </span></span>{% endif %}{%- endfor -%}
             </p>{% endif %}
         </div>
         {{ optimizedFeaturedImage | safe }}
