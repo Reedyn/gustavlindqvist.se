@@ -24,11 +24,7 @@ templateClass: home-template
             {% if post.data.page.date %}<p class="Card__metadata"><time firstletterupper class="timeago" datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | shortISODate }}">{{ post.data.page.date | readableDate }}</time></p>{% endif %}
         </div>
         {% if (post.data.tags.length) %}<span class="Card__content__extra -top-left">
-            {% if (post.data.tags) %}<span class="tags"><span class="sr-only">Taggar: </span>
-                {%- for tag in post.data.tags -%}
-                    {% if (tag !== 'posts') and (tag !== 'page') %}
-                        <span class="tag">{{ tag }}</span><span class="sr-only">,</span>
-                    {% endif %}
+            {% if (post.data.tags) %}<span class="tags"><span class="sr-only">Ämnen: </span>{%- for tag in post.data.tags -%}{% set tagData = tagMetadata[tag] %}{% if (tag !== 'posts') and (tag !== 'page') %}<span class="tag">{% if tagData.emoji %}{{ tagData.emoji }} {% endif %}{% if tagData.title %}{{ tagData.title | firstLetterUppercase }}{% else %}{{ tag | firstLetterUppercase }}{% endif %}</span><span class="sr-only">,</span>{% endif %}
                 {%- endfor -%}
                 </span>{% endif %}
             </span>{% endif %}
