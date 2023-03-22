@@ -15,7 +15,7 @@ function minutesToHoursMinutes(num) {
         if (minutes >= 45) {
             hours++;
         }
-        string = hours + ' timmar';
+        string = (hours > 1 ) ? hours + ' timmar': hours + ' timme';
     }
     return string;
 }
@@ -36,7 +36,7 @@ module.exports = async () => {
             });
 
             if (response.response.total_count) {
-                const games = response.response.games;
+                const games = response.response.games.filter((game) => game.playtime_2weeks > 15);
 
                 games.forEach((game) => {
                     game.url = 'https://store.steampowered.com/app/' + game.appid;
