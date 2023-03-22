@@ -174,15 +174,13 @@
 
     .tags {
         .tag {
+            line-height: 1.8;
             display: inline-block;
-            color: var(--color__text__contrast);
-            width: auto;
             margin-right: .4em;
+            color: var(--color__text__contrast);
+            background: rgba(128, 128, 128, 0.4);
+            padding: 0 .5em;
             margin-bottom: .4em;
-
-            &:before {
-                content: "#";
-            }
         }
     }
 
