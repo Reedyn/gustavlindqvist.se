@@ -99,7 +99,7 @@ module.exports = async () => {
         {
             'title': 'Webbutveckling',
             'series': 'webdev',
-            'folder_name': 'WebDev'
+            'folder_name': 'Webbutveckling'
         },
         {
             'title': 'Teknologi',
@@ -248,7 +248,6 @@ module.exports = async () => {
                 outputPost.tags = (typeof post.category === 'object')
                     ? post.category
                         .filter((tag) => tag !== 'Good shit')
-                        .map((tag) => tag.toLowerCase())
                     : [];
                 outputPost.feature_image = `https://opengraph.gustavlindqvist.se/${encodeURIComponent(post.link)}/small/webp/`;
                 outputPost.content = `<img src="${outputPost.feature_image}" alt="Featurebild för ${outputPost.title}"><p><a href="${outputPost.url}">${outputPost.title}</a></p>`;

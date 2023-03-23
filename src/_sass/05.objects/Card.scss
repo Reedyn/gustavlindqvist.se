@@ -25,7 +25,7 @@
     position: relative;
     display: flex;
     overflow: hidden;
-    min-height: 25vh;
+    min-height: 25rem;
     flex-direction: column;
     padding: calc(var(--padding__small) * 1.5);
     background: var(--color__background__contrast__widget);
@@ -173,6 +173,7 @@
     }
 
     .tags {
+
         .tag {
             line-height: 1.8;
             display: inline-block;
