@@ -23,11 +23,6 @@ templateClass: home-template
             <h3 class="Card__title"><a id="{{ post.url | hashString}}" class="Card__title-link" href="{{ post.url }}">{{ post.data.title }}</a></h3>
             {% if post.data.page.date %}<p class="Card__metadata"><time firstletterupper class="timeago" datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | shortISODate }}">{{ post.data.page.date | readableDate }}</time></p>{% endif %}
         </div>
-        {% if (post.data.tags.length) %}<span class="Card__content__extra -top-left">
-            {% if (post.data.tags) %}<span class="tags"><span class="sr-only">Ämnen: </span>{%- for tag in post.data.tags -%}{% set tagData = tagMetadata[tag] %}{% if (tag !== 'posts') and (tag !== 'page') %}<span class="tag">{% if tagData.emoji %}{{ tagData.emoji }} {% endif %}{% if tagData.title %}{{ tagData.title | firstLetterUppercase }}{% else %}{{ tag | firstLetterUppercase }}{% endif %}</span><span class="sr-only">,</span>{% endif %}
-                {%- endfor -%}
-                </span>{% endif %}
-            </span>{% endif %}
         {% if postInteractions.replies.length %}
             <span class="Card__content__extra -top-right">
             {% if postInteractions.replies.length %}<svg class="icon icon--comments" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/comments.svg#comments"></use></svg> {{ postInteractions.replies.length }}<span class="sr-only"> kommentarer.</span>{% endif %}
