@@ -11,7 +11,7 @@
     <link href="{{ metadata.url }}/lanktips/"/>
     <updated>{{ inoreader.goodShit[0].date }}</updated>
     <id>{{ metadata.url }}/lanktips.xml</id>
-    {%- for post in inoreader.goodShit -%}
+    {%- for post in inoreader.recommendations -%}
     <entry>
         <title>{{ post.title }}</title>
         <link href="{{ post.url }}"/>
