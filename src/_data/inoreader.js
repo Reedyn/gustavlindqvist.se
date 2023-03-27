@@ -99,7 +99,7 @@ module.exports = async () => {
         {
             'title': 'Webbutveckling',
             'series': 'webdev',
-            'folder_name': 'WebDev'
+            'folder_name': 'Webbutveckling'
         },
         {
             'title': 'Teknologi',
