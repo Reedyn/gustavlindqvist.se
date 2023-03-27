@@ -6,7 +6,6 @@ series: "friluftsliv"
 date: 2022-09-26 10:37:00 +2
 tags:
   - friluftsliv
-  - fotografering
   - södra-vätterleden
   - hassafallsleden
   - kallebäcksleden
