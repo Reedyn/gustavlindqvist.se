@@ -101,40 +101,49 @@ module.exports = async () => {
             }).flat();
 
             pack.total_weight = all_items.reduce((result, item) => {
-                return result + item.item.weight
+                return result + (item.item.weight * item.quantity)
             }, 0);
 
             pack.worn_weight = all_items.reduce((result, item) => {
                 if (typeof item.worn !== 'undefined' && item.worn) {
-                    return result + item.item.weight
+                    return result + (item.item.weight * item.quantity)
                 }
                 return result;
             }, 0);
 
             pack.base_weight = all_items.reduce((result, item) => {
                 if ((typeof item.worn === 'undefined' || !item.worn) && (typeof item.item.consumable === 'undefined' || !item.item.consumable)) {
-                    return result + item.item.weight
+                    return result + (item.item.weight * item.quantity)
                 }
                 return result;
             }, 0);
 
             pack.consumables_weight = all_items.reduce((result, item) => {
                 if (typeof item.item.consumable !== 'undefined' && item.item.consumable) {
-                    return result + item.item.weight
+                    return result + (item.item.weight * item.quantity)
+                }
+                return result;
+            }, 0);
+
+            pack.big_three = all_items.reduce((result, item) => {
+
+                if (typeof item.item.category.category_id !== 'undefined' && [6,7,4].includes(item.item.category.category_id)) {
+                    console.log(item);
+                    return result + (item.item.weight * item.quantity)
                 }
                 return result;
             }, 0);
 
             categories.forEach((category) => {
                 category.total_weight = category.items.reduce((result, item) => {
-                    return result + item.item.weight
+                    return result + (item.item.weight * item.quantity)
                 }, 0);
             });
 
             pack.name = packData.title;
             pack.id = packData.id;
             pack.contents = categories;
-
+            console.log(pack.big_three);
             console.log('[' + '\x1b[34m%s\x1b[0m', 'Packstack' + '\x1b[0m' + ']:', 'Grabbed pack:', packData.title, '(' + packUrl + ')');
 
             return pack;
@@ -145,6 +154,7 @@ module.exports = async () => {
 
     packstack.summer_2022 = await getPack('https://www.packstack.io/pack/209');
     packstack.summer_2023 = await getPack('https://www.packstack.io/pack/559');
+    packstack.bikepacking_2023 = await getPack('https://www.packstack.io/pack/581');
     packstack.bankerydsleden_2022 = await getPack('https://www.packstack.io/pack/257');
 
     return packstack;
