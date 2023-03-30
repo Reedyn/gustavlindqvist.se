@@ -64,6 +64,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({'src/webfinger.json': '/.well-known/webfinger'});
     eleventyConfig.addPassthroughCopy({'src/favicon': '/'});
     eleventyConfig.addPassthroughCopy('src/_redirects');
+    eleventyConfig.addPassthroughCopy('src/_headers');
 
     // Layouts
     eleventyConfig.addLayoutAlias('base', 'base.njk');
