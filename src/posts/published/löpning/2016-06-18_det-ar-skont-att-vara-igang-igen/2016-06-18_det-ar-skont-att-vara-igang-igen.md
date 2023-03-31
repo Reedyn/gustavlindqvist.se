@@ -10,11 +10,11 @@ Under hösten drog jag på mig en lång förkylning som avbröt min streak för 
 
 Tyvärr kom jag ur det helt och tränade knappt alls under hela vintern.
 
-{% image "chrome_2016-06-18_16-25-37.png", "", "Kilometer per vecka under 2015/2016" %}
+![Kilometer per vecka under 2015/2016](chrome_2016-06-18_16-25-37.png)
 
 Men nu under våren bestämde jag mig för att komma igång igen; Och efter lite påtryckningar från mamma och syster anmälde jag mig till [Spring Trail Österlen](https://www.facebook.com/osterlen.spring.trail/) i april. Då var jag helt otränad bortsett från en testrunda jag sprang veckan innan bara för att kolla om jag klarade längden. Och efter förutsättningarna gick det riktigt bra, jag låg precis på gränsen till mjölksyra under nästan hela loppet. Hade inte kunnat prestera bättre än jag gjorde.
 
-{% image "chrome_2016-06-18_16-30-04.png", "", "Diagram över pulszoner, zon 4 visar 81%" %}
+![Diagram över pulszoner, zon 4 visar 81%](chrome_2016-06-18_16-30-04.png)
 
 Sen var det igång och har sen dess tränat lite mer fokuserat än tidigare, framförallt har jag provat att springa längre sträckor, vilket jag inte gjorde alls förra året. Då var ett långt pass runt 10km och ett normalt pass runt 5-6km vilket gjorde att de längre sträckorna alltid blev tuffa för mig. Att jag tränat med långdistans detta året gav ordentligt resultat på [Vilden X-Trail](https://www.facebook.com/vildenxtrailse).
 
@@ -22,14 +22,14 @@ Förra året sprang jag Halvvilden på 7km men eftersom större delen av loppet 
 
 <figure class="gallery -wide">
 	<figure class="gallery-row">
-		{% image "DSC_0409.jpg", "-inline", "Två löpare som springer nedför en brant stig i en skog" %}
-		{% image "IMG_5556.jpg", "-inline", "Många löpare som vadar i knädjup lera." %}
+		![Två löpare som springer nedför en brant stig i en skog](DSC_0409.jpg){.-inline}
+		![Många löpare som vadar i knädjup lera.](IMG_5556.jpg){.-inline}
 	</figure>
 </figure>
 
 Jag tänker inte påstå att det var ett lätt lopp, men jämfört med förra året gick det betydligt lättare, jag pressade mig inte alls lika hårt och lyckades ändå hålla ett högre tempo trots den längre sträckan och vadande i kärr och träsk.
 
-{% image "Gustav-Lindqvist_2016-05-29_2.jpg", "-full", "Gustav springer uppför en backe med ett stort leende. Benen är helt bruna från lera." %}
+![Gustav springer uppför en backe med ett stort leende. Benen är helt bruna från lera.](Gustav-Lindqvist_2016-05-29_2.jpg){.-full}
 
 Sen gick det snabbt, efter Österlen Spring Trail har jag inte haft en enda vecka där jag sprungit kortare än 20km och de längsta har varit runt 35km/vecka. Nu känns 10km som en relativt kort sträcka, även 15km är en längd som inte är speciellt tufft längre.
 

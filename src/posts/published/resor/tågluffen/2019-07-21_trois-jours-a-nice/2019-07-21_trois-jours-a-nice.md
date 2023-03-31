@@ -15,8 +15,8 @@ Vädret var fint och varmt när vi landade i Nice. Det första vi möttes av eft
 
 <figure class="gallery -wide">
 	<figure class="gallery-row -no-wrap">
-		{% image "20190718_124251-2-3.jpg", "-inline", "En flygplansvinge sett från flygplanet med franska kusten långt under." %}
-		{% image "20190718_133048-01.jpeg", "-inline", "Selfie på Gustav och Josefine som sitter på en buss" %}
+		![En flygplansvinge sett från flygplanet med franska kusten långt under.](20190718_124251-2-3.jpg){.-inline}
+		![Selfie på Gustav och Josefine som sitter på en buss](20190718_133048-01.jpeg){.-inline}
 	</figure>
 </figure>
 
@@ -24,7 +24,7 @@ Väl inne i stan tog vi oss bort till boendet där vi lämnade våra väskor och
 
 Vi hade inget direkt planerat denna dagen så det blev en promenad genom staden, först ner mot Place Massena och stranden och sedan bort till hamnen där det eventuellt kunde finnas en Archambault Grand Surprise (segelbåt) som vi skulle inspektera. Vi såg tyvärr ingen sådan.
 
-{% image "OI000042-1.jpg", "-inline", "En hamn full med båtar i olika storlekar" %}
+![En hamn full med båtar i olika storlekar](OI000042-1.jpg){.-inline}
 
 I närheten av hamnen såg vi att det fanns en Decathlon-butik som vi gav oss bort mot för att införskaffa lite snorklingsutrustning.
 
@@ -34,40 +34,40 @@ Nästa dag började vi med att försöka oss på en fransk frukost med nybakad b
 
 Resten av dagen tillägnades bad, chill och bokläsning och spenderades på en privatstrand/restaurang. Jag lyckades ta mig igenom Lars Wilderängs Midvintermörker. En ganska dålig bok (väldigt MÖP:ig) men ändå tillräckligt bra för att läsa färdigt.
 
-{% image "20190719_110129-1.jpg", "", "Gustav och Josefine som sitter på solstolar under parasoll på en stenig strand" %}
+![Gustav och Josefine som sitter på solstolar under parasoll på en stenig strand](20190719_110129-1.jpg)
 
 Efter stranden gick vi tillbaka och hämtade våra kameror och gick ut och fotograferade kvällen.
 
-{% image "OI000095.jpg", "", "En utsiktsplats i Nice sett långt nedifrån." %}
+![En utsiktsplats i Nice sett långt nedifrån.](OI000095.jpg)
 
 Uppe vid "I Love Nice" skylten var det en fantastisk vy över bukten och staden.
 
 <figure class="gallery -wide">
 	<figure class="gallery-row">
-		{% image "OI000100.jpg", "-inline", "Solnedgång över Nice." %}
-		{% image "OI000101-1.jpg", "-inline", "Stranden i Nice efter solnedgången med stadens ljus i bakgrunden" %}
+		![Solnedgång över Nice.](OI000100.jpg){.-inline}
+		![Stranden i Nice efter solnedgången med stadens ljus i bakgrunden](OI000101-1.jpg){.-inline}
 	</figure>
 </figure>
 
-{% image "OI000043-2.jpg", "-wide", "Flygplatsen i Nice sett från långt avstånd på natten. Bilden är tagen med lång exponering som gör att flygplanen som startar och landar bildar långa sträck i luften" %}
+![Flygplatsen i Nice sett från långt avstånd på natten. Bilden är tagen med lång exponering som gör att flygplanen som startar och landar bildar långa sträck i luften](OI000043-2.jpg){.-wide}
 
 Sedan gick vi hemåt och såg att de förberedde en seglingstävling för morgondagen.
 
-{% image "20190719_215754-1.jpg", "-inline", "Några personer som förbereder segelbåtar sent på kvällen." %}
+![Några personer som förbereder segelbåtar sent på kvällen.](20190719_215754-1.jpg){.-inline}
 
 Tredje och sista dagen i Nice åkte vi bort till Villefranche sur Mer, en publik badstrand 5min bort med tåg där vi började dagen med snorkling. Efter ungefär 4 timmar på stranden hade vi fått ihop 2.5 timmars snorklande och vi kände oss nöjda (kanske inte riktigt Josefine) och begav oss tillbaka till stan för en dusch och eftermiddagens och kvällens äventyr.
 
 
 <figure class="gallery -wide">
 	<figure class="gallery-row -no-wrap">
-		{% image "GOPR0288_ALTA-47839978638637440_high.jpg", "-inline", "Selfie på Gustav under vattnet iklädd t-shirt, snorkel och cyclop." %}
-		{% image "GOPR0327_ALTA-47839978638637440_high.jpg", "-inline", "Undervattensbild på fiskar som simmar" %}
+		![Selfie på Gustav under vattnet iklädd t-shirt, snorkel och cyclop.](GOPR0288_ALTA-47839978638637440_high.jpg){.-inline}
+		![Undervattensbild på fiskar som simmar](GOPR0327_ALTA-47839978638637440_high.jpg){.-inline}
 	</figure>
 </figure>
 
 Först gick vi ner för att kolla på seglingstävlingen med trimaraner av modellen Diam 24.
 
-{% image "OI000050.jpg", "-full", "Seglingstävling utanför Nice" %}
+![Seglingstävling utanför Nice](OI000050.jpg){.-full}
 
 Det blåste friskt och flera av båtarna kom upp i rejäl fart. På grund av banans uppbyggnad och flera starter paralellt på motsatta håll var det lite svårt att förstå vem som ledde. Men det är alltid kul att kolla på segling.
 
@@ -75,5 +75,5 @@ Sedan kände vi oss hungriga och bestämde oss för ytterligare ett besök på C
 
 Sedan avslutade vi dagen med att gå tillbaka till boendet för att packa för resan till Paris.
 
-{% image "OI000103-1.jpg", "-wide", "Segelbåtar som rundar en av bojarna i en tävling utanför Nice" %}
+![Segelbåtar som rundar en av bojarna i en tävling utanför Nice](OI000103-1.jpg){.-wide}
 

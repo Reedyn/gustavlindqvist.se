@@ -14,9 +14,9 @@ Efter regn kommer solsken sägs det och det är samma sak i Kina. Det har regnat
 
 <figure class="gallery -wide">
 	<figure class="gallery-row">
-		{% image "IMG_20140422_151452.jpg", "-inline", "Insidan av en byggnad som består av en lång spiraltrappa med en öppen yta i mitten." %}
-		{% image "IMG_20140423_112038.jpg", "-inline", "En sfärisk panorama projicerad som en liten planet som visar ett torg." %}
-		{% image "IMG_20140421_153336_L.jpg", "-inline", "En gata på campus med byggnader på sidorna och väldigt mycket grönska." %}
+		![Insidan av en byggnad som består av en lång spiraltrappa med en öppen yta i mitten.](IMG_20140422_151452.jpg){.-inline}
+		![En sfärisk panorama projicerad som en liten planet som visar ett torg.](IMG_20140423_112038.jpg){.-inline}
+		![En gata på campus med byggnader på sidorna och väldigt mycket grönska.](IMG_20140421_153336_L.jpg){.-inline}
 	</figure>
 </figure>
 
@@ -24,8 +24,8 @@ Eftersom jag inte tagit så mycket bilder på campus gick jag och Tobbe en runda
 
 Här är det närmsta supermarket där vi kan köpa lite allt möjligt.
 
-{% image "shop.jpg", "-full", "En liten gågata med en affär på campus" %}
+![En liten gågata med en affär på campus](shop.jpg){.-full}
 
 Detta är parken som ligger intill vad jag tror är biblioteket.
 
-{% image "chinasphere.jpg", "-full", "En 360° panorama med ekvirektangulär projektion somvisar en sjö mitt på ett campus i Kina." %}
+![En 360° panorama med ekvirektangulär projektion somvisar en sjö mitt på ett campus i Kina.](chinasphere.jpg){.-full}

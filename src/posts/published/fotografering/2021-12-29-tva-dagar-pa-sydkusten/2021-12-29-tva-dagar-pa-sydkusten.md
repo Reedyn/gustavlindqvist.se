@@ -52,18 +52,18 @@ Senare tjocknade dimman till ordentligt och bitvis gick det inte att se mer än 
 
 En timme senare lyckades solen till sist bränna bort den sista dimman.
 
-{% image "Gustav-Lindqvist_2021-12-26_03976-Pano.jpg", "-full", ""%}
+![](Gustav-Lindqvist_2021-12-26_03976-Pano.jpg){.-full}
 
 När dimman försvann var det även fler som gav sig ut (eller om de varit där hela tiden?).
 
-{% image "Gustav-Lindqvist_2021-12-26_03998-Pano.jpg", "-full", ""%}
+![](Gustav-Lindqvist_2021-12-26_03998-Pano.jpg){.-full}
 
 ## Vindar & vågor
 
 Dagen efter var all dimma som bortlåst, bokstavligen. Det var kraftiga vindar och häftiga vågor.
 
-{% image "Gustav-Lindqvist_2021-12-27_04008-Pano.jpg", "-full", ""%}
+![](Gustav-Lindqvist_2021-12-27_04008-Pano.jpg){.-full}
 
-{% image "Gustav-Lindqvist_2021-12-27_04039.jpg", "-wide", ""%}
+![](Gustav-Lindqvist_2021-12-27_04039.jpg){.-wide}
 
-{% image "Gustav-Lindqvist_2021-12-27_04044-Pano.jpg", "-full", ""%}
+![](Gustav-Lindqvist_2021-12-27_04044-Pano.jpg){.-full}

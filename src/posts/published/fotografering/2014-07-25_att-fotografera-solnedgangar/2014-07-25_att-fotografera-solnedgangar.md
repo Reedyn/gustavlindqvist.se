@@ -48,4 +48,4 @@ _Med denna metod kan jag efterbehandla nästan vilken scen som helst väldigt sn
 
 Slutresultatet ser man nedan, oftast kan man ganska lätt nå samma resultat via tonmappning _([faktiskt så gjorde jag detta för exemplet för att testa](https://www.flickr.com/gp/gustavlindqvist/4zLoDy), den stora skillnaden här är just sämre detaljer på ängen pga att inte bilden där jag täckte solen var med)._ Men en bild som [denna bild på stjärnhimmelen över Jönköping](https://www.flickr.com/photos/gustavlindqvist/8564096273/) där exponeringsskillnaden är extremt stor hade inte varit möjlig med tonmappning.
 
-{% image "_GUS0159-Edit-2.jpg", "-full", "En solnedgång över Färboliden med en stor äng som badar i solljuset och med en blå himmel." %}
+![En solnedgång över Färboliden med en stor äng som badar i solljuset och med en blå himmel.](_GUS0159-Edit-2.jpg){.-full}

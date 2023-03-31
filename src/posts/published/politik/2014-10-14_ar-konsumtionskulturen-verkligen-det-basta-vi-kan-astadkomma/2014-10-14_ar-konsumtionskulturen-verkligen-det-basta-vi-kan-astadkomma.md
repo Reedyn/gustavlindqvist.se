@@ -11,7 +11,7 @@ När vi ska bry oss om miljön köper vi ekologiskt, när vi ska bry oss om arbe
 
 Idag blir vi påverkade ifrån alla håll av reklam och meddelanden om hur vi ska leva, och framförallt vilka produkter och tjänster vi ska köpa för att uppnå de ideal som samma reklam får oss att vilja uppnå.
 
-{% image "ch140323.jpg", "", "Kalle & Hobbe om konsumerism" %}
+![Kalle & Hobbe om konsumerism](ch140323.jpg)
 
 Även om målen är gemensamma i att förbättra miljön, arbetsförhållanden, jämlikhet och mycket mer är metoden _att rösta med plånboken_ lika passiviserande som det de kallar för [clicktivism](http://www.theguardian.com/commentisfree/2010/aug/12/clicktivism-ruining-leftist-activism).
 

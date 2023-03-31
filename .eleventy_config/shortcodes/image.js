@@ -7,12 +7,13 @@ module.exports = async function (src, style, alt, caption = undefined) {
         const outputPath = this.page.outputPath
             .substring(0, this.page.outputPath.lastIndexOf('/')) // Remove document from path
             .replace(/^\//, ''); // remove first slash
+
         // If the image is absolute path or external
         const folderPath = './src/' + documentPath
             .substring(0, documentPath.lastIndexOf('/') + 1) // Remove document from path
             .replace(/^\//, ''); // remove first slash
-        // If the image is absolute path or external
 
+        // If the image is absolute path or external
         if (src.startsWith('/assets')) {
             src = 'src' + src;
         } else if (src.startsWith('http')) {

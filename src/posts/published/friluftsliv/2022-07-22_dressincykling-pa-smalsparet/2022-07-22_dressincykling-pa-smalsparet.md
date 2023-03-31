@@ -17,19 +17,19 @@ Vi utgick från Hultsfred och cyklade söderut mot Målilla strax efter klockan 
 
 En bra grej med att cykla på gamla spår (vare sig det är på räls eller på banvall) är att det är väldigt liten lutning, vi hade som mest runt 2% lutning. Trots detta var det bitvis tungt eftersom en dressincykel väger ganska mycket när den ska komma upp i fart. När den väl är uppe i fart går det som bara den och det behövs knappt trampas.
 
-{% image "GOPR1104_1658419674114.JPG", "-wide", "Smalspår som går genom en skog. På sidan av spåren syns rester och ruiner av gamla byggnader eller infrastruktur." %}
+![Smalspår som går genom en skog. På sidan av spåren syns rester och ruiner av gamla byggnader eller infrastruktur.](GOPR1104_1658419674114.JPG){.-wide}
 
 Första stoppet tog vi strax innan vi cyklat 5km. Där hade de andra cyklisterna (som mestadels kom från Tyskland) redan ockuperat de flesta stolarna under parasollen. Nu slog värmen också till ordentligt, vi hade inte riktigt märkt av den eftersom fartvinden kylde rätt bra så länge vi höll uppe farten. Vi bestämde oss för att snabbt äta upp våra tunnbrödsrullar som fick bli vår frukost och sen cykla vidare mot målet som är Hesjön där vi förhoppningsvis kunde få lite möjlighet att svalka oss.
 
 Efter stoppet bytte vi så att jag fick åka och Josefine fick cykla.
 
-{% image "GOPR1101_1658419674114.JPG", "", "Selfie på Gustav och Josefine som sitter på en dressin" %}
+![Selfie på Gustav och Josefine som sitter på en dressin](GOPR1101_1658419674114.JPG)
 
 De sista kilometrarna fram till sjön gick i nedförsbacke och eftersom cyklarna har så låg rullfriktion fick vi bromsa konstant för att inte åka för snabbt. Det gjorde inte riktigt de andra så vi fick en kö efter oss på spåret.
 
 Efter drygt 10km cykling var vi framme vid Hesjön där spåret går över en vall som delar sjön i två delar som det var väldigt häftigt att cykla på.
 
-{% image "Gustav-Lindqvist_2022-07-21_1658419153523.jpg", "-full", "Flygfoto över Hesjön, Målilla med blå-rött vatten och en vall med räls på som delar sjön i två delar. " %}
+![Flygfoto över Hesjön, Målilla med blå-rött vatten och en vall med räls på som delar sjön i två delar. ](Gustav-Lindqvist_2022-07-21_1658419153523.jpg){.-full}
 
 Så här i efterhand var det kanske lite dåligt planerat att cykla dressin till just Målilla som var det varmaste platsen i Sverige under värmeböljan på 37ºC ([och som även har värmerekordet i Sverige genom tiderna][SMHI: Svenska temperaturrekord]) men det var faktiskt inte så farligt. Vattnet i sjön var varmt men rejält svalkande (Min gissning är runt 25ºC) och dressinen fläktade.
 

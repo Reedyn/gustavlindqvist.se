@@ -12,13 +12,13 @@ Det är mycket som hänt nu under vintern. Förra veckan började jag med trail 
 
 <figure class="gallery -wide">
 	<figure class="gallery-row">
-		{% image "Gustav-Lindqvist_2015-01-11_0026_m-2.jpg", "-inline", "Snö på orangea löv" %}
-		{% image "7d1dd969-ad44-479b-9ee9-1d1131b382d5_l.jpg", "-inline", "En grön plastcylinder" %}
-		{% image "Gustav-Lindqvist_2015-01-11_0063_m.jpg", "-inline", "En motorväg med suddig traffik från rörelsen och lång exponering. Allt utom vägbanan är täckt av snö" %}
+		![Snö på orangea löv](Gustav-Lindqvist_2015-01-11_0026_m-2.jpg){.-inline}
+		![En grön plastcylinder](7d1dd969-ad44-479b-9ee9-1d1131b382d5_l.jpg){.-inline}
+		![En motorväg med suddig traffik från rörelsen och lång exponering. Allt utom vägbanan är täckt av snö](Gustav-Lindqvist_2015-01-11_0063_m.jpg){.-inline}
 	</figure>
 	<figure class="gallery-row">
-		{% image "Gustav-Lindqvist_2015-01-21_0004_m-1.jpg", "-inline", "Josefine sträcker sig efter något på underredet på en bro." %}
-		{% image "10895380_864359270295316_1145434923_n.jpg", "-inline", "Löpningskläder för vinterbruk utlagt på en vit yta." %}
+		![Josefine sträcker sig efter något på underredet på en bro.](Gustav-Lindqvist_2015-01-21_0004_m-1.jpg){.-inline}
+		![Löpningskläder för vinterbruk utlagt på en vit yta.](10895380_864359270295316_1145434923_n.jpg){.-inline}
 	</figure>
 </figure>
 

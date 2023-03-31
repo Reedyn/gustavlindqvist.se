@@ -14,12 +14,12 @@ Hösten vill verkligen inte ge upp här i Jönköping. Men nu känns det att vin
 
 <figure class="gallery -wide">
 	<figure class="gallery-row">
-		{% image "Gustav-Lindqvist_2014-11-22_0161_s.jpg", "-inline", "En blomma i en gräsmatta täckt av frost" %}
-		{% image "Gustav-Lindqvist_2014-11-22_0152_s.jpg", "-inline", "Löv på en gräsmatta täckt av frost" %}
+		![En blomma i en gräsmatta täckt av frost](Gustav-Lindqvist_2014-11-22_0161_s.jpg){.-inline}
+		![Löv på en gräsmatta täckt av frost](Gustav-Lindqvist_2014-11-22_0152_s.jpg){.-inline}
 	</figure>
 	<figure class="gallery-row">
-		{% image "Gustav-Lindqvist_2014-11-22_0173_s.jpg", "-inline", "Ett löv på en gräsmatta täckt av frost" %}
-		{% image "Gustav-Lindqvist_2014-11-22_0179_s.jpg", "-inline", "En växt av sorten Hundkäx avspeglad mot Vätterstranden som bakgrund." %}
+		![Ett löv på en gräsmatta täckt av frost](Gustav-Lindqvist_2014-11-22_0173_s.jpg){.-inline}
+		![En växt av sorten Hundkäx avspeglad mot Vätterstranden som bakgrund.](Gustav-Lindqvist_2014-11-22_0179_s.jpg){.-inline}
 	</figure>
 </figure>
 
@@ -27,11 +27,11 @@ Det skulle nästan kunnat vara en vårdag med vårens första blommor.
 
 <figure class="gallery -wide">
 	<figure class="gallery-row">
-		{% image "Gustav-Lindqvist_2014-11-22_0201_s.jpg", "-inline", "En mur i en park täckt av frost." %}
-		{% image "Gustav-Lindqvist_2014-11-22_0205_s.jpg", "-inline", "En väg i en park täckt av frost." %}
+		![En mur i en park täckt av frost.](Gustav-Lindqvist_2014-11-22_0201_s.jpg){.-inline}
+		![En väg i en park täckt av frost.](Gustav-Lindqvist_2014-11-22_0205_s.jpg){.-inline}
 	</figure>
 	<figure class="gallery-row">
-		{% image "Gustav-Lindqvist_2014-11-22_0196_s.jpg", "-inline", "En bäck med växter och gräs som hänger över täckta av frost" %}
-		{% image "Gustav-Lindqvist_2014-11-22_0185_s.jpg", "-inline", "En brunn i en bäck" %}
+		![En bäck med växter och gräs som hänger över täckta av frost](Gustav-Lindqvist_2014-11-22_0196_s.jpg){.-inline}
+		![En brunn i en bäck](Gustav-Lindqvist_2014-11-22_0185_s.jpg){.-inline}
 	</figure>
 </figure>

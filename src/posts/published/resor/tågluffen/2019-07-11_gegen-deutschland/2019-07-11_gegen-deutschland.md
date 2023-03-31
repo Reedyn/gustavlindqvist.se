@@ -15,12 +15,12 @@ Sex timmars båtfärd framför oss, när solen skiner är det fantastiskt skönt
 
 <figure class="gallery -wide">
 	<figure class="gallery-row">
-		{% image "Gustav-Lindqvist_2019-07-12_06202.jpg", "-inline", "Färjeterminalen i Trelleborg" %}
-		{% image "Gustav-Lindqvist_2019-07-12_06244-Pano.jpg", "-inline", "Møns klint sett från havet" %}
+		![Färjeterminalen i Trelleborg](Gustav-Lindqvist_2019-07-12_06202.jpg){.-inline}
+		![Møns klint sett från havet](Gustav-Lindqvist_2019-07-12_06244-Pano.jpg){.-inline}
 	</figure>
 	<figure class="gallery-row">
-		{% image "Gustav-Lindqvist_2019-07-12_06246.jpg", "-inline", "Bryggan på en färja" %}
-		{% image "Gustav-Lindqvist_2019-07-12_06220.jpg", "-inline", "Toppdäcket på färjan Mecklenburg-Vorpommern" %}
+		![Bryggan på en färja](Gustav-Lindqvist_2019-07-12_06246.jpg){.-inline}
+		![Toppdäcket på färjan Mecklenburg-Vorpommern](Gustav-Lindqvist_2019-07-12_06220.jpg){.-inline}
 	</figure>
 </figure>
 

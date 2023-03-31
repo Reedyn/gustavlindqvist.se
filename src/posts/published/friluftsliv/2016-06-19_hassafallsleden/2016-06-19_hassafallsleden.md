@@ -11,17 +11,17 @@ Det fina vädret till ära tog jag och Marcus en runda på Hassafallsleden och s
 
 <figure class="gallery -wide">
 	<figure class="gallery-row -no-wrap">
-		{% image "Gustav-Lindqvist_2016-06-19_0177.jpg", "-inline", "En person på en stig med mycket rötter i skogen." %}
-		{% image "Gustav-Lindqvist_2016-06-19_0180-1.jpg", "-inline", "En karta över Hassafallsleden" %}
+		![En person på en stig med mycket rötter i skogen.](Gustav-Lindqvist_2016-06-19_0177.jpg){.-inline}
+		![En karta över Hassafallsleden](Gustav-Lindqvist_2016-06-19_0180-1.jpg){.-inline}
 	</figure>
 	<figure class="gallery-row -no-wrap">
-		{% image "Gustav-Lindqvist_2016-06-19_0164-1.jpg", "-inline", "Marcus lutar sig på räcket på en bro i skogen." %}
-		{% image "Gustav-Lindqvist_2016-06-19_0156.jpg", "-inline", "Hassafallet i solsken" %}
+		![Marcus lutar sig på räcket på en bro i skogen.](Gustav-Lindqvist_2016-06-19_0164-1.jpg){.-inline}
+		![Hassafallet i solsken](Gustav-Lindqvist_2016-06-19_0156.jpg){.-inline}
 	</figure>
 </figure>
 
 Trots väldigt lugnt vandringstempo var det väldigt svettigt i solen, så vi tog en paus och njöt lite av utsikten från Varkullen
 
-{% image "Gustav-Lindqvist_2016-06-19_0181-Pano.jpg", "-full", "Utsikt över Jönköping sett från Varkullen" %}
+![Utsikt över Jönköping sett från Varkullen](Gustav-Lindqvist_2016-06-19_0181-Pano.jpg){.-full}
 
 Får se vilken vandringsled det blir härnäst...

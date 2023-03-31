@@ -15,4 +15,4 @@ Min första timelapsesekvens på natten (eller sen kväll). Overhead börjar bli
 
 Mest är jag glad över att jag har fått tillbaka fotointresset trots vår fruktansvärt tråkiga fototeknik-kurs på högskolan. Min bästa bild under kvällen kan man se nedan, blev en mycket intressant blandning av artificiellt ljus från gatlamporna och staden i förgrunden och på molnen till höger (orange) och blått kvällsljus :)
 
-{% image "_MG_0417.jpg", "-full", "Piren i Jönköping en lugn sommarkväll" %}
+![Piren i Jönköping en lugn sommarkväll](_MG_0417.jpg){.-full}

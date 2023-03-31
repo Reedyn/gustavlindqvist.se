@@ -12,4 +12,4 @@ I skrivande stund sitter vi på O'Learys med boardingpass i hand och väntar på
 
 Dagens stora händelse måste vara att Alice lyckades glömma sin mobil på bussen till Landvetter. Efter ett desperat spring efter bussen som körde iväg lyckades hon till sin stora glädje få busschauffören att stanna.
 
-{% image "_OLY0477-1.jpg", "", "Alice är överlycklig efter att ha fått tillbaka sin telefon." %}
+![Alice är överlycklig efter att ha fått tillbaka sin telefon.](_OLY0477-1.jpg)

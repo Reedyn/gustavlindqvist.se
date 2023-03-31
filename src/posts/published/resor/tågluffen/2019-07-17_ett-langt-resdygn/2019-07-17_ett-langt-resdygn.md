@@ -13,42 +13,42 @@ tags:
 
 Från Prag åkte vi vidare med tåg ner mot Österrike, denna gången med platsbokning. Vilket vi troligtvis inte hade behövt med tanke på hur få det var på tåget men det var skönt att veta att vi inte behövde resa oss från platserna.
 
-{% image "20190716_132253.jpg", "", "Josefine tittar ut genom fönstret på ett tåg" %}
+![Josefine tittar ut genom fönstret på ett tåg](20190716_132253.jpg)
 
 Resan gick utan några större problem fram till Linz. Landskapet vi passerade blev mindre och mindre likt Tjeckien och mer likt Österrike ju närmre vi kom.
 
 I Linz skulle vi sen spendera drygt åtta timmar till vårt nattåg vidare mot Venedig avgick.
 
-{% image "Gustav-Lindqvist_2019-07-16_06511.jpg", "", "Båtar på floden Donau i Linz" %}
+![Båtar på floden Donau i Linz](Gustav-Lindqvist_2019-07-16_06511.jpg)
 
 Vi började med att gå ner mot centrum i värmen. Väl framme såg vi att det var smidigt att åka Pöstlingbergbahn upp till Pöstlingberg med fantastisk utsikt över staden, så det gjorde vi.
 
-{% image "Gustav-Lindqvist_2019-07-16_06517-Pano.jpg", "-full", "Utsikt över staden Linz från Pöstlingberg" %}
+![Utsikt över staden Linz från Pöstlingberg](Gustav-Lindqvist_2019-07-16_06517-Pano.jpg){.-full}
 
 <figure class="gallery -wide">
 	<figure class="gallery-row">
-		{% image "Gustav-Lindqvist_2019-07-16_06538.jpg", "-inline", "Utsikt från Pöstlingberg med ett staket i förgrunden." %}
-		{% image "Gustav-Lindqvist_2019-07-16_06526.jpg", "-inline", "Fasaden på en vit kyrka med träd i förgrunden." %}
+		![Utsikt från Pöstlingberg med ett staket i förgrunden.](Gustav-Lindqvist_2019-07-16_06538.jpg){.-inline}
+		![Fasaden på en vit kyrka med träd i förgrunden.](Gustav-Lindqvist_2019-07-16_06526.jpg){.-inline}
 	</figure>
 	<figure class="gallery-row">
-		{% image "Gustav-Lindqvist_2019-07-16_06528.jpg", "-inline", "Tornen på en kyrka sett bakom trädkronorna" %}
-		{% image "Gustav-Lindqvist_2019-07-16_06535.jpg", "-inline", "Vit tegelfasad där skuggan från träd syns" %}
+		![Tornen på en kyrka sett bakom trädkronorna](Gustav-Lindqvist_2019-07-16_06528.jpg){.-inline}
+		![Vit tegelfasad där skuggan från träd syns](Gustav-Lindqvist_2019-07-16_06535.jpg){.-inline}
 	</figure>
 </figure>
 
 Efter 40 minuter på toppen kände vi oss nöjda och åkte ner igen. Med tomma magar bestämde vi oss för att leta upp ett matställe. Det blev en liten restaurang med namnet Wirtshaus Keintzel på en innergård som gjorde Wienerschnitzel.
 
-{% image "20190716_210305-1.jpg", "-inline", "Två par ben utan skor med strumpor." %}
+![Två par ben utan skor med strumpor.](20190716_210305-1.jpg){.-inline}
 
 Resten av kvällen spenderades med så mycket avslappning som det var möjligt på stationen.
 
 Nattåget rullade in på utsatt tid och vi letade upp vår vagn 404 och steg ombord. I vår kupé satt ett gäng tjejer från London som halvsov, de hade troligtvis redan åkt flera timmar och hade mer än nio kvar.
 
-{% image "IMG_20190721_094943_294.jpg", "", "Suddig, brusig nattfoto med några ljus som sträcks ut till linjer av rörelseoskärpa.", "Bad Gastein" %}
+![Suddig, brusig nattfoto med några ljus som sträcks ut till linjer av rörelseoskärpa.](IMG_20190721_094943_294.jpg "Bad Gastein")
 
 Sedan följde den jobbigaste natten på denna resan. Nattåg utan liggvagn är inget att rekommendera men vi fick några timmars sömn iallafall, och vi fick se lite av alperna, även om det var mörkt.
 
-{% image "20190717_071351-2.jpg", "", "Josefine sover på ett tåg med vinodling som sveper förbi utanför fönstret" %}
+![Josefine sover på ett tåg med vinodling som sveper förbi utanför fönstret](20190717_071351-2.jpg)
 
 Tidig morgon rullade vi in i Venedig.
 

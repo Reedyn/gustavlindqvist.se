@@ -13,15 +13,15 @@ tags:
 
 Andra dagen i Berlin började med en trevlig frukost på hotellet och sen en promenad bort till DDR-museet som låg precis intill Berliner Dom.
 
-{% image "Gustav-Lindqvist_2019-07-13_06295.jpg", "", "En gångväg längs med en kanal i Berlin. En bit bort går det en bro över både kanalen och gångvägen där ett tåg kör över." %}
+![En gångväg längs med en kanal i Berlin. En bit bort går det en bro över både kanalen och gångvägen där ett tåg kör över.](Gustav-Lindqvist_2019-07-13_06295.jpg)
 
 <figure class="gallery -wide">
 	<figure class="gallery-row">
-		{% image "Gustav-Lindqvist_2019-07-13_06313.jpg", "-inline", "Ett klocktorn med grönt koppartak" %}
-		{% image "Gustav-Lindqvist_2019-07-13_06317.jpg", "-inline", "Toppen på Berliner Dom" %}
+		![Ett klocktorn med grönt koppartak](Gustav-Lindqvist_2019-07-13_06313.jpg){.-inline}
+		![Toppen på Berliner Dom](Gustav-Lindqvist_2019-07-13_06317.jpg){.-inline}
 	</figure>
 	<figure class="gallery-row">
-		{% image "Gustav-Lindqvist_2019-07-13_06307.jpg", "-inline", "Berliner Dom med kanalen intill." %}
+		![Berliner Dom med kanalen intill.](Gustav-Lindqvist_2019-07-13_06307.jpg){.-inline}
 	</figure>
 </figure>
 
@@ -31,11 +31,11 @@ Därefter blev det ett besök på Decathlon som är en gigantisk sport- och fril
 
 <figure class="gallery -wide">
 	<figure class="gallery-row">
-		{% image "Gustav-Lindqvist_2019-07-13_06333.jpg", " -inline", "Riksdagshuset i Berlin med en EU-flagga." %}
+		![Riksdagshuset i Berlin med en EU-flagga.](Gustav-Lindqvist_2019-07-13_06333.jpg){.-inline}
 	</figure>
 	<figure class="gallery-row">
-		{% image "Gustav-Lindqvist_2019-07-13_06322.jpg", " -inline", "Pelarna på Brandenburger Tor" %}
-		{% image "Gustav-Lindqvist_2019-07-13_06323.jpg", " -inline", "En häststaty på toppen av Brandenburger Tor" %}
+		![Pelarna på Brandenburger Tor](Gustav-Lindqvist_2019-07-13_06322.jpg){.-inline}
+		![En häststaty på toppen av Brandenburger Tor](Gustav-Lindqvist_2019-07-13_06323.jpg){.-inline}
 	</figure>
 </figure>
 
@@ -43,22 +43,22 @@ Sen gick vi bort till Brandenburger Tor och Tiergarten igen, denna gången för 
 
 <figure class="gallery -wide">
 	<figure class="gallery-row">
-		{% image "Gustav-Lindqvist_2019-07-13_06363.jpg", "-inline", "Närbild på tre stenar i Förintelsemonumentet" %}
-		{% image "Gustav-Lindqvist_2019-07-13_06371.jpg", "-inline", "En monokrom överblicksbild på Förintelsemonumentet" %}
+		![Närbild på tre stenar i Förintelsemonumentet](Gustav-Lindqvist_2019-07-13_06363.jpg){.-inline}
+		![En monokrom överblicksbild på Förintelsemonumentet](Gustav-Lindqvist_2019-07-13_06371.jpg){.-inline}
 	</figure>
 </figure>
 
 Minnesmonumentet syftar till att "representera ett förmodligen ordnat system som har förlorat kontakten med mänsklig anledning" och var som ett stort rutnätverk av betongblock.
 
-{% image "20190713_202845-1.jpg", "-full", "Utsikt västerut från Fernsehturm på 203 meters höjd." %}
+![Utsikt västerut från Fernsehturm på 203 meters höjd.](20190713_202845-1.jpg){.-full}
 
 På kvällen blev det ett besök uppe i Fernsehturm 203 meter upp.
 
 <figure class="gallery -wide">
 	<figure class="gallery-row">
-		{% image "IMG_20190713_153152_875.jpg", "-inline", "Fernsehturm sett från avstånd" %}
-		{% image "20190713_201453-2.jpg", "-inline", "Fönster på toppvåningen i Fernsehturm." %}
-		{% image "OI000035.jpg", "-inline", "Toppen av Fernsehturm sett rakt nedifrån." %}
+		![Fernsehturm sett från avstånd](IMG_20190713_153152_875.jpg){.-inline}
+		![Fönster på toppvåningen i Fernsehturm.](20190713_201453-2.jpg){.-inline}
+		![Toppen av Fernsehturm sett rakt nedifrån.](OI000035.jpg){.-inline}
 	</figure>
 </figure>
 
@@ -66,8 +66,8 @@ Dagen avslutade vi sen med en promenad bort till Berlin Wall Memorial.
 
 <figure class="gallery -wide">
 	<figure class="gallery-row">
-		{% image "20190713_212657-2.jpg", "-inline", "En bit av Berlinmuren" %}
-		{% image "20190713_213058-2.jpg", "-inline", "En big övervuxen del av Berlinmuren" %}
+		![En bit av Berlinmuren](20190713_212657-2.jpg){.-inline}
+		![En big övervuxen del av Berlinmuren](20190713_213058-2.jpg){.-inline}
 	</figure>
 </figure>
 

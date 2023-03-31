@@ -17,6 +17,6 @@ Resan till Fake Market var också vårt första användning av Metron vilket var
 
 **Varför har vi inte det i Sverige?!** Att det sen kostade 3 Yuan skadade inte heller =)
 
-{% image "_OLY0005-Pano.jpg", "-full", "En bild av Shanghai sett från the Bund." %}
+![En bild av Shanghai sett från the Bund.](_OLY0005-Pano.jpg){.-full}
 
 Vi var även och besökte The Bund igen och denna gången hade jag med mig stativet (Det var även mycket mindre dimma!) vilket resulterade i en betydligt bättre bild.
