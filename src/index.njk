@@ -18,7 +18,7 @@ templateClass: home-template
     {% endif %}
 
 
-    <article aria-labelledby="{{ post.url | hashString}}" class="Card post -align-bottom{% if optimizedFeaturedImage %} -featured-image{% endif %}" style="{% if post.data.color %} --color__background__contrast__widget: {{ post.data.color }};{% endif %}{% if post.data.feature_image_position %} background-position: {{ post.data.feature_image_position }};{% endif %}">
+    <article aria-labelledby="{{ post.url | hashString}}" class="Card post -align-bottom{% if optimizedFeaturedImage %} -featured-image{% endif %}{% if post.data.feature_image_position %} -featured-image--{{ post.data.feature_image_position }};{% endif %}">
         <div class="Card__content">
             <h3 class="Card__title"><a id="{{ post.url | hashString}}" class="Card__title-link" href="{{ post.url }}">{{ post.data.title }}</a></h3>
             {% if post.data.page.date %}<p class="Card__metadata"><time firstletterupper class="timeago" datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | shortISODate }}">{{ post.data.page.date | readableLongDate }}</time></p>{% endif %}
@@ -35,23 +35,38 @@ templateClass: home-template
 <p>Läs mer i <a href="/blogg/">bloggen</a>.</p>
 <h2 id="annan-lasning">Lästips</h2>
 <section class="Cards series" aria-labelledby="annan-lasning">
-    <article aria-labelledby="{{ "/kinaresan/" | hashString }}" class="Card -align-bottom -featured-image" style="background-image: url(/assets/images/kinaresan.jpg);">
+    <article aria-labelledby="{{ "/kinaresan/" | hashString }}" class="Card -align-bottom -featured-image">
         <div class="Card__content">
             <h3 class="Card__title"><a id="{{ "/kinaresan/" | hashString }}" class="Card__title-link" href="/kinaresan/">Kinaresan</a></h3>
             <p><time>2014</time> · <span>{{ collections['kinaresan'].length }} inlägg</span></p>
         </div>
+        <figure class="image Card__image">
+            <img
+                    src="/assets/images/kinaresan.jpg"
+                    alt="">
+        </figure>
     </article>
-    <article aria-labelledby="{{ "/tagluffen/" | hashString }}" class="Card -align-bottom -featured-image" style="background-image: url(/assets/images/tagluffen.jpg);">
+    <article aria-labelledby="{{ "/tagluffen/" | hashString }}" class="Card -align-bottom -featured-image">
         <div class="Card__content">
             <h3 class="Card__title"><a id="{{ "/tagluffen/" | hashString }}" class="Card__title-link" href="/tagluffen/">Tågluffen</a></h3>
             <p><time>2019</time> · <span>{{ collections['tågluffen'].length }} inlägg</span></p>
         </div>
+        <figure class="image Card__image">
+            <img
+                    src="/assets/images/tagluffen.jpg"
+                    alt="">
+        </figure>
     </article>
-    <article aria-labelledby="{{ "/friluftsliv/" | hashString }}" class="Card -align-bottom -featured-image" style="background-image: url(/assets/images/7eeYS4Yk4c-500.jpeg);">
+    <article aria-labelledby="{{ "/friluftsliv/" | hashString }}" class="Card -align-bottom -featured-image">
         <div class="Card__content">
             <h3 class="Card__title"><a id="{{ "/friluftsliv/" | hashString }}" class="Card__title-link" href="/friluftsliv/">Friluftsliv</a></h3>
             <p><span>{{ collections['friluftsliv'].length }} inlägg</span></p>
         </div>
+        <figure class="image Card__image">
+            <img
+                    src="/assets/images/friluftsliv.jpeg"
+                    alt="">
+        </figure>
     </article>
 </section>
 </div>
