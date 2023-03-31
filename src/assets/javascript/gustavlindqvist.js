@@ -2,8 +2,10 @@ const gustavlindqvist = (() => {
 
     // Add js-class and remove no-js-class from <html>
     const isJS = (() => {
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
+        const htmlElement = document.documentElement;
+
+        htmlElement.classList.remove('no-js');
+        htmlElement.classList.add('js');
     })();
 
     // Set theme to saved value if it exists
@@ -15,14 +17,12 @@ const gustavlindqvist = (() => {
     })();
 
     const createThemeChooser = (() => {
-        let theme = localStorage.getItem('theme');
-        if (theme) {
-            document.querySelector('#theme-chooser').value = theme;
-        } else {
-            document.querySelector('#theme-chooser').value = "auto";
-        }
+        const themeSelector = document.querySelector('#theme-chooser');
+        const themeSelectorContainer = document.querySelector('#theme-chooser-container');
+        const theme = localStorage.getItem('theme');
+        themeSelector.value = (theme) ? theme : 'auto';
 
-        document.querySelector('#theme-chooser').addEventListener('change', (event) => {
+        themeSelector.addEventListener('change', (event) => {
             const selectedTheme = event.target.value;
 
             if(selectedTheme === 'auto') {
@@ -34,7 +34,7 @@ const gustavlindqvist = (() => {
             }
         });
 
-        document.querySelector('#theme-chooser-container').classList.remove('hidden');
+        themeSelectorContainer.classList.remove('hidden');
     })();
 
     const initializeDayJS = (() => {
