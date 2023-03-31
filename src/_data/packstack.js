@@ -143,7 +143,7 @@ module.exports = async () => {
             pack.name = packData.title;
             pack.id = packData.id;
             pack.contents = categories;
-            console.log(pack.big_three);
+
             console.log('[' + '\x1b[34m%s\x1b[0m', 'Packstack' + '\x1b[0m' + ']:', 'Grabbed pack:', packData.title, '(' + packUrl + ')');
 
             return pack;
