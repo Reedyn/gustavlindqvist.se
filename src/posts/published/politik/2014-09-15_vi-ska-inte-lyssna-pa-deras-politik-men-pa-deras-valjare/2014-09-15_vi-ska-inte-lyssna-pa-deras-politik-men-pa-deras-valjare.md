@@ -35,4 +35,4 @@ Det är i denna grupp som otryggheten frodas och som leder till bland annat rasi
 
 Vi måste släppa på den populistiska och moralistiska politik som förs idag, sluta att polarisera samhället och börja lyssna på vad forskarna, vetenskapen och de utsatta har att säga. Se Sverigedemokraternas framgångar som en varningsklocka för att man måste börja ta dessa problem med utanförskap på allvar och inte att man ska ta efter deras politik.
 
-{% image "enfr-geparti.jpg", "", "Enfrågeparti", "Bild av [Jonas Olsson](https://www.facebook.com/jonaso1)" %}
+![Enfrågeparti](enfr-geparti.jpg "Bild av [Jonas Olsson](https://www.facebook.com/jonaso1)")

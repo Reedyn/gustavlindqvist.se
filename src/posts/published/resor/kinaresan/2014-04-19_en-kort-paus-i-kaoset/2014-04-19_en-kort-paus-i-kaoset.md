@@ -13,9 +13,9 @@ Nu har vi bott i några dagar i Ningbo och det känns faktiskt som att man har l
 
 <figure class="gallery -wide">
 	<figure class="gallery-row">
-		{% image "IMG_20140415_175630.jpg", "-inline", "En solnedgång över en basketplan på campusområdet" %}
-		{% image "IMG_20140415_200455.jpg", "-inline", "Ett Starbuckskafé i Ningbo" %}
-		{% image "IMG_20140416_120231.jpg", "-inline", "Bordsnummer 16 på en restaurang" %}
+		![En solnedgång över en basketplan på campusområdet](IMG_20140415_175630.jpg){.-inline}
+		![Ett Starbuckskafé i Ningbo](IMG_20140415_200455.jpg){.-inline}
+		![Bordsnummer 16 på en restaurang](IMG_20140416_120231.jpg){.-inline}
 	</figure>
 </figure>
 
@@ -29,7 +29,7 @@ Det enklaste (i de flesta fall) sättet att ta sig fram i Ningbo är taxi, det �
 
 Tobias, Marcus och Jag skulle dela taxi bort till IKEA, vi gjorde som vi brukar och viftar in en taxi varpå vi visar adressen (skriven på kinesiska i en liten magisk bok vi har) och efter att taxi-chauffören visar en liten _"kom-in"_-rörelse hoppar vi in i taxin och den tar oss till destinationen. Efter kanske en tio minuters åkning började Tobias som satt i framsätet och chauffören försöka så gott det går kommunicera vart vi skulle, chauffören hade nämligen inte koll på var IKEA låg så vi fick efter bästa förmåga och Google Maps förklara vart han skulle köra. En kombination av dålig kommunikation och en ofullständig karta befann vi oss på destinationen. Så här såg det ut.
 
-{% image "DSC_0084.JPG", "", "Ett skräpigt område med små butiker och bostäder i dåligt skick." %}
+![Ett skräpigt område med små butiker och bostäder i dåligt skick.](DSC_0084.JPG)
 
 Chauffören var ganska bestämd att detta var rätt destination och ville bli av med oss så vi blev utkörda ur taxin och fick ta oss vidare på egen hand. Området vi befann oss i var hälten förort och hälften byggarbetsplats. Här ska det tilläggas att vi inte hade en ordentlig address till IKEA, den enda vi hade var skriven med kinesiska tecken och således inget vi kan knappa in på våra smartphones som sedan magiskt kunde leda oss framåt. Här var vi utelämnade åt vår egna orienteringsförmågor men främst vår tur.
 
@@ -37,14 +37,14 @@ Efter en liten promenad åt det håll vi trodde att IKEA var såg vi en blå byg
 
 Det var vid denna tidpunkt de andra kom fram till IKEA (utan problem alls) och hade möjligheten att skicka en bild på var de befann sig på kartan. **Nu hade vi en punkt att gå mot! =)** 30 minuters gång senare genom industriområden, över stora vägar, under stora vägar, över en bro var vi _äntligen_ framme vid IKEA, och det var underbart!
 
-{% image "DSC_0085.JPG", "-wide", "En bild på entrén på en IKEA-butik. Skyltarna står på engelska och kinesiska." %}
+![En bild på entrén på en IKEA-butik. Skyltarna står på engelska och kinesiska.](DSC_0085.JPG){.-wide}
 
 På IKEA passade vi på att äta lite på restaurangen och sedan den sedvanliga rundvandringen (där de andra besökarna var mer intresserade av oss än varorna) och avslutades sedan i IKEA Foods där vi fick tag på diverse svenska matartiklar. Jag som hungrat efter något ordentligt i brödväg köpte 3 stora påsar med skorpor :)
 
 <figure class="gallery -wide">
 	<figure class="gallery-row">
-		{% image "IMG_20140419_142847.jpg", "-inline", "Insidan av en kinesisk IKEA-butik" %}
-		{% image "IMG_20140419_144358.jpg", "-inline", "Svenska skorpor och mjölkchoklad" %}
+		![Insidan av en kinesisk IKEA-butik](IMG_20140419_142847.jpg){.-inline}
+		![Svenska skorpor och mjölkchoklad](IMG_20140419_144358.jpg){.-inline}
 	</figure>
 </figure>
 
@@ -56,6 +56,6 @@ Klockan 17:53 gav vi oss ut på gatorna igen efter taxijakt, och vi var inte ens
 
 Efter så lång tid i regnet och så mycket strul på en och samma dag är det underbart att kunna sätta sig ner och bara åka med, att vi sen höll på att krocka ett antal gånger behöver vi inte gå in i detalj på.
 
-{% image "DSC_0089.JPG", "", "En oskarp bild inifrån en taxi på en väldigt blöt vindruta med stadsljus som lyser i regnet." %}
+![En oskarp bild inifrån en taxi på en väldigt blöt vindruta med stadsljus som lyser i regnet.](DSC_0089.JPG)
 
 _Nu ska vi ha en chillkväll efter en varm dusch och bara slappna av med lite skorpor!_

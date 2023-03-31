@@ -15,7 +15,7 @@ Efter tre veckors slit är vi färdiga med vårt case som vi gjorde här i Kina 
 
 Framme i Beijing tog vi en taxi till hotellet (i en trafik som är myyycket lugnare än Ningbo, men som även gjorde taxiresorna lite dyrare). Hotellet heter King Parkview Hotel och är ett stenkast ifrån Förbjudna Staden vilket underlättade idag :)
 
-{% image "14130555624_7e0b9b90bb_o.jpg", "-wide", "Hall of Supreme Harmony i den Förbjudna staden" %}
+![Hall of Supreme Harmony i den Förbjudna staden](14130555624_7e0b9b90bb_o.jpg){.-wide}
 
 Vi kunde knappast fått bättre väder när vi gick till Förbjudna Staden idag, den enda nackdelen var att det gjorde resten av Beijing också. Men efter en timmes stångande i kön kom vi till slut in, och det var stort! :)
 
@@ -23,10 +23,10 @@ _Alla mina bilder kan ses i [mitt album på Flickr](https://www.flickr.com/photo
 
 Min favoritbyggnad måste vara Hall of Literary Glory i Förbjudna Staden, den används som museum för keramik och har en mysig dunkel belysning som gjorde sig väldigt bra för lite fotografering :)
 
-{% image "13943603087_506c8afb2d_o.jpg", "", "Hall of Literary Glory i den Förbjudna staden" %}
+![Hall of Literary Glory i den Förbjudna staden](13943603087_506c8afb2d_o.jpg)
 
 Senare på kvällen idag besökte vi ett parkområde som heter Beihai Park. Det var knappt något folk och det måste vara det mysigaste stället jag sett hittills!
 
-{% image "13943564899_da8b402c17_o.jpg", "", "Beihai Park i Beijing" %}
+![Beihai Park i Beijing](13943564899_da8b402c17_o.jpg)
 
 Imorgon ska vi åka till Kinesiska muren, det ska bli häftigt! 😀

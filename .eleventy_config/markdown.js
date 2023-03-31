@@ -9,7 +9,7 @@ const markdownItFootnotes = require('markdown-it-footnote');
 const markdownItTables = require('markdown-it-multimd-table');
 const markdownItContainer = require('markdown-it-container');
 const markdownItAttrs = require('markdown-it-attrs');
-const markdownItImageFigures = require('markdown-it-image-figures');
+const markdownIt11tyImages = require('./markdown/image');
 const markdownItAnchorOptions = {
     level: [1, 2, 3, 4],
     slugify: (str) =>
@@ -63,28 +63,14 @@ let markdown = markdownIt({
     })
     .use(markdownItAnchor, markdownItAnchorOptions)
     .use(markdownItContainer, 'scroll-block', scrollBlock)
-    .use(markdownItAttrs)
-    .use(markdownItImageFigures, {
-        lazy: true,
-        async: true,
-        copyAttrs: "class",
-        dataType: true,
-        figcaption: true
-    });
+    .use(markdownItAttrs);
 
 markdown.renderer.rules.footnote_block_open = () => (
     '<section class="footnotes" aria-labelledby="fotnoter">\n' +
     '<h2 class="separator-heading" id="fotnoter"><span>Fotnoter</span></h2>\n' +
     '<ol class="footnotes-list">\n'
 );
-/*
-markdown.renderer.rules.image = function (tokens, idx, options, env, self) {
-    const token = tokens[idx]
-    let imgSrc = token.attrGet('src')
-    const imgAlt = token.content
-    const imgTitle = token.attrGet('title')
-    // ...
-    return ''
-}*/
+
+markdown.renderer.rules.image = markdownIt11tyImages;
 
 module.exports = markdown;

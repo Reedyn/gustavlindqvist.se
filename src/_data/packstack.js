@@ -128,7 +128,6 @@ module.exports = async () => {
             pack.big_three = all_items.reduce((result, item) => {
 
                 if (typeof item.item.category.category_id !== 'undefined' && [6,7,4].includes(item.item.category.category_id)) {
-                    console.log(item);
                     return result + (item.item.weight * item.quantity)
                 }
                 return result;

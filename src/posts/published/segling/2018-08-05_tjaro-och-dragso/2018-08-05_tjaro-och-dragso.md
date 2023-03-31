@@ -19,16 +19,16 @@ Filmen nedan av Chani Johnsson visar hur det nya fina restaurangkomplexet ser ut
 
 På kvällen fick jag många fina möjligheter att prova [mitt nya objektiv](/2018/07/14/nytt-supervidvinkelobjektiv/) när vi gick runt och fotograferade.
 
-{% image "Gustav-Lindqvist_2018-07-20_0116.jpg", "-wide", "Solnedgång över huvudbryggan på Tjärö", "Solnedgång över huvudbryggan på Tjärö" %}
+![Solnedgång över huvudbryggan på Tjärö](Gustav-Lindqvist_2018-07-20_0116.jpg "Solnedgång över huvudbryggan på Tjärö"){.-wide}
 
 På vår runda hittade jag ett riktigt häftigt träd som ljuset föll genom på ett helt magiskt sätt. Trots torkan och att nästan allt gräs var halvdött blev det fantastiska färger.
 
-{% image "Gustav-Lindqvist_2018-07-20_0122.jpg", "-wide", "Ett träd med solen rakt bakom som lyser varmt runt kanterna. Under trädet går det en gammal gärdsgård" %}
+![Ett träd med solen rakt bakom som lyser varmt runt kanterna. Under trädet går det en gammal gärdsgård](Gustav-Lindqvist_2018-07-20_0122.jpg){.-wide}
 
 Det fina vädret passade även perfekt för flygning så jag passade på att lyfta med drönaren och ta lite bilder över skärgården.
 
-{% image "Gustav-Lindqvist_2018-07-20_0001-4-Pano.jpg", "-full", "Flygbild över Tjärö", "Flygbild över Tjärö" %}
+![Flygbild över Tjärö](Gustav-Lindqvist_2018-07-20_0001-4-Pano.jpg "Flygbild över Tjärö"){.-full}
 
 Dagen efter valde vi att gå en bit bort till naturhamnen på Dragsö som ligger runt hörnet. På vägen dit passerade vi en av de många passagerna [där deltagarna i Island Challenge Swimrun simmade mellan öarna](http://islandchallenge.se/). Lyckligtvis kom vi precis efter att de sista hade passerat så vi slapp vänta.
 
-{% image "Gustav-Lindqvist_2018-07-21_0155-Pano-2.jpg", "-full", "En segelbåt som ligger för ankar i en liten vik." %}
+![En segelbåt som ligger för ankar i en liten vik.](Gustav-Lindqvist_2018-07-21_0155-Pano-2.jpg){.-full}

@@ -11,16 +11,16 @@ Egentligen är jag inte speciellt intresserad av fotboll och egentligen inte att
 
 <figure class="gallery -wide">
 	<figure class="gallery-row -no-wrap">
-		{% image "9506131016_451e42ed0a_c.jpg", "-inline", "Två fotbollsspelare i närkamp" %}
-		{% image "9506131166_65d847f8a3_c.jpg", "-inline", "Tre fotbollsspelare i närkamp. Två av spelarna har blåvita kläder den tredje har grön-vita kläder." %}
+		![Två fotbollsspelare i närkamp](9506131016_451e42ed0a_c.jpg){.-inline}
+		![Tre fotbollsspelare i närkamp. Två av spelarna har blåvita kläder den tredje har grön-vita kläder.](9506131166_65d847f8a3_c.jpg){.-inline}
 	</figure>
 	<figure class="gallery-row">
-		{% image "9506131406_206d6cea05_k.jpg", "-inline", "En fotbollsspelare i grön-vita kläder sparkar på bollen så att plasten i konstgräset flyger." %}
+		![En fotbollsspelare i grön-vita kläder sparkar på bollen så att plasten i konstgräset flyger.](9506131406_206d6cea05_k.jpg){.-inline}
 	</figure>
 </figure>
 
 Jag spenderade drygt 30 minuters läsande över vad man ska tänka på när man ska fotografera fotboll och sedan skred jag till verket. För att vara mitt första försök är jag väldigt nöjd, dock har jag ljuset att tacka, solen stod lågt och det var tidigt på förmiddagen utan moln, så ljuset var konstant. Jag hade möjlighet att hålla slutartiden under 1/2000s för det mesta.
 
-{% image "9503333163_94b671f8df_o.jpg", "-wide", "En fotbollsspelare i blåvita kläder som är på väg att sparka på bollen." %}
+![En fotbollsspelare i blåvita kläder som är på väg att sparka på bollen.](9503333163_94b671f8df_o.jpg){.-wide}
 
 Jag fotograferade med solen i ryggen mestadels och höll mig antingen vid kortsidorna eller vid strafflinjen (som jag blivit rekommenderad). Jag gjorde även en liten planering så jag höll mig vid kortsidan den halvlek då TFF (min kusins lag) anföll mot mig; Vilket gav mig möjlighet att fotografera anfallsspelet.

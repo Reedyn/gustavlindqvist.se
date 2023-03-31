@@ -22,8 +22,8 @@ Parker, grönområden och gågator är väldigt välskötta, man ser inte ett pa
 
 <figure class="gallery -wide">
 	<figure class="gallery-row">
-		{% image "DSC_0063_L.jpg", "-inline", "En gågata i Shanghai" %}
-		{% image "_OLY0337_L.jpg", "-inline", "En park sett fårn en hög byggnad i Shanghai" %}
+		![En gågata i Shanghai](DSC_0063_L.jpg){.-inline}
+		![En park sett fårn en hög byggnad i Shanghai](_OLY0337_L.jpg){.-inline}
 	</figure>
 </figure>
 
@@ -31,6 +31,6 @@ Stora prisskillnader jämfört med Sverige på vissa varor, att gå på restaura
 
 Häftigast hittills måste ändå vara The Bund som är en utsiktsplats över Shanghais skyline som kan ses i bilden nedan. Jag ska definitivt dit igen och fota mer (Bilden nedan är tagen med hög ISO utan stativ så den kan förbättras betydligt)och då hoppas jag att det är lite mindre dimma så man kan se alla de häftiga byggnaderna.
 
-{% image "_OLY0392-Edit.jpg", "-wide", "En disig bild av Shanghai sett från the Bund. Det blåa ljuset lyser upp all dimma i ett mjukt blått sken.", "Shanghai Skyline at Night" %}
+![En disig bild av Shanghai sett från the Bund. Det blåa ljuset lyser upp all dimma i ett mjukt blått sken.](_OLY0392-Edit.jpg "Shanghai Skyline at Night"){.-wide}
 
 Nu ska vi snart ut på dag två efter en hotellfrukost som bestod av en liten yoghurt och sockerkaka :)

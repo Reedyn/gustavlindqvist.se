@@ -13,7 +13,7 @@ Igår var sista dagen i Shanghai och det var också första dagen för praktiken
 
 Idag gick förmiddagen åt till att resa med buss till Ningbo där vi ska bo de kommande tre veckorna på Zheijiang Wanli University. På vägen dit körde vi över en av världens längsta broar, bron över [Hangzhoe Bay Bridge](http://en.wikipedia.org/wiki/List_of_longest_bridges_in_the_world). Jag sov dock mestadelen av tiden.
 
-{% image "DSC_0081.JPG", "-wide", "Ett foto taget framåt inifrån en buss. Bussen kör på en bro.", "Världens längsta bro" %}
+![Ett foto taget framåt inifrån en buss. Bussen kör på en bro.](DSC_0081.JPG "Världens längsta bro"){.-wide}
 
 Vid någon gång på eftermiddagen, vid 14:00 lokaltid tror jag var vi framme på campus som var som en liten ministad. Liknande som gatorna i Shanghai var det kliniskt rent överallt, alla grönområden och allt annat är välskött till perfektion. Ganska intressant för just perfektion känns inte riktigt som en av de kinesiskt typiska sakerna, tvärtom.
 

@@ -23,7 +23,7 @@ Efter Ölmstad svängde vi av från bilvägen och ut på lite mindre grusvägar 
 
 I Röttle stannade vi och tittade på vattenfallet.
 
-{% image "Gustav-Lindqvist_2015-07-10_0016_O.jpg", "", "Vattenfallet i Röttle by" %}
+![Vattenfallet i Röttle by](Gustav-Lindqvist_2015-07-10_0016_O.jpg)
 
 ## Gränna och Tegnértornet
 
@@ -33,21 +33,21 @@ Det var svettigt…
 
 Till slut kom vi upp och blev belönade med fantastisk utsikt från tornet (ytterligare 27 meter upp).
 
-{% image "Gustav-Lindqvist_2015-07-10_0040_O.jpg", "-wide", "Utsikt söderut från Tegnértornet", "Söderut" %}
+![Utsikt söderut från Tegnértornet](Gustav-Lindqvist_2015-07-10_0040_O.jpg "Söderut"){.-wide}
 
-{% image "Gustav-Lindqvist_2015-07-10_0045-Edit_O.jpg", "-full", "Utsikt mot nordväst från Tegnértornet. Solen är på väg ner över Visingsö och Vättern.", "Norrut" %}
+![Utsikt mot nordväst från Tegnértornet. Solen är på väg ner över Visingsö och Vättern.](Gustav-Lindqvist_2015-07-10_0045-Edit_O.jpg "Norrut"){.-full}
 
-{% image "Gustav-Lindqvist_2015-07-10_0049_O.jpg", "-wide", "Utsikt söderut från Tegnértornet med fokus på ett ängslandskap i solljus bland skog", "Söderut" %}
+![Utsikt söderut från Tegnértornet med fokus på ett ängslandskap i solljus bland skog](Gustav-Lindqvist_2015-07-10_0049_O.jpg "Söderut"){.-wide}
 
-{% image "Gustav-Lindqvist_2015-07-10_0058_O.jpg", "-full", "Utsikt från Tegnértornet där ett blått tält syns nere på marken.", "Tältplatsen" %}
+![Utsikt från Tegnértornet där ett blått tält syns nere på marken.](Gustav-Lindqvist_2015-07-10_0058_O.jpg "Tältplatsen"){.-full}
 
 Efter lite dokumenterande av utsikten var det dags för lite mat, vi grillade korv med bröd, en klassiker. Sen var det läggdags.
 
-{% image "Gustav-Lindqvist_2015-07-10_0033_O.jpg", "", "Korv och korvbröd på ett grillgaller" %}
+![Korv och korvbröd på ett grillgaller](Gustav-Lindqvist_2015-07-10_0033_O.jpg)
 
 Andra dagen var det bara hem vi skulle, men vi tog en liten omväg via Grännaberget där vi åt glass och njöt av utsikten
 
-{% image "Gustav-Lindqvist_2015-07-11_0066_O.jpg", "-full", "Gränna i sommarskrud sett från Grännaberget", "Gränna" %}
+![Gränna i sommarskrud sett från Grännaberget](Gustav-Lindqvist_2015-07-11_0066_O.jpg "Gränna"){.-full}
 
 Hemåt gick det lite snabbare, troligtvis för att vi bara hade fokus på att komma fram.
 

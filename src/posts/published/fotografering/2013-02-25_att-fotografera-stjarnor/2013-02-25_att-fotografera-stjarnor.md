@@ -27,19 +27,19 @@ I vissa fall är detta något man vill åt och isåfall är det inte särskilt k
 
 Ljusföroreningar är ett av de första och största problemen. Våra städer är så pass upplysta att de lyser upp natt-himmelen enormt mycket och gör att vi inte kan se stjärnorna ordentligt. Du kan glömma att få till riktigt bra bild på till exempel Vintergatan nära en större stad.
 
-{% image "33026437232_649ee76f21_k.jpg", "-full", "Vintergatan sett från Dumme Mosse (Ljusförorening från Jönköping till höger i bilden)" %}
+![Vintergatan sett från Dumme Mosse (Ljusförorening från Jönköping till höger i bilden)](33026437232_649ee76f21_k.jpg){.-full}
 
 _Det enda man egentligen kan göra för att motverka ljusföroreningar är att ta sig bort ifrån staden, om inte det är möjligt att försöka hitta "blind-spots" där det är mindre artificiellt ljus._
 
-{% image "14954866899_572b07f5a6_b.jpg", "", "Vintergatan sett från Rosenlunds bankar över Huskvarnabergen", "Rosenlunds bankar" %}
+![Vintergatan sett från Rosenlunds bankar över Huskvarnabergen](14954866899_572b07f5a6_b.jpg "Rosenlunds bankar")
 
 Bara en kort bilfärd ut från en stad går det att få betydligt bättre bilder; Som denna bilden från Vista kulle en bit utanför Jönköping.
 
-{% image "16271000293_e835a1446c_h.jpg", "-full", "En sfärisk panorama över vintergatan sett från Vista kulle projicerad så att marken ser ut som en liten planet i ett hav av stjärnor", "Sfärisk panorama från Vista kulle" %}
+![En sfärisk panorama över vintergatan sett från Vista kulle projicerad så att marken ser ut som en liten planet i ett hav av stjärnor](16271000293_e835a1446c_h.jpg "Sfärisk panorama från Vista kulle"){.-full}
 
 Helt utan ljusföroreningar går det att få en helt annan detaljnivå, som denna bilden tagen vid Borgafjäll.
 
-{% image "Gustav-Lindqvist_2018-09-13_0381.jpg", "", "Vintergatan sett över Borgafjäll som tecknar sig som en svart siluette mot stjärnhimlen.", "Vintergatan över Borgafjäll" %}
+![Vintergatan sett över Borgafjäll som tecknar sig som en svart siluette mot stjärnhimlen.](Gustav-Lindqvist_2018-09-13_0381.jpg "Vintergatan över Borgafjäll")
 
 ## Star Trails
 

@@ -12,18 +12,18 @@ Nu har Jossan och jag äntligen landat i vilka ryggsäckar vi ville ha och vi ga
 
 Första testet blev runt 19km vandring från Taberg till Strömsbergs naturreservat längs tre etapper av Södra Vätterleden.
 
-{% image "chrome_2018-07-14_18-35-57.png", "-full", "Karta över södra Jönköping. På kartan är en rutt från Taberg till Strömsberg utmarkerad med röd linje" %}
+![Karta över södra Jönköping. På kartan är en rutt från Taberg till Strömsberg utmarkerad med röd linje](chrome_2018-07-14_18-35-57.png){.-full}
 
 Det var trevlig och varierande terräng, allt från mysiga villakvarter på asfalt till öppna fält och genom hagar. Självklart även en hel del fin skog
 
 <figure class="gallery -wide">
 	<figure class="gallery-row">
-		{% image "Gustav-Lindqvist_2018-06-16_2977-1.jpg", "-inline", "Josefine håller upp sin kamera med Jönköping i bakgrunden" %}
-		{% image "Gustav-Lindqvist_2018-06-16_2976-1.jpg", "-inline", "En trollslända på en annan insekt i gräset" %}
+		![Josefine håller upp sin kamera med Jönköping i bakgrunden](Gustav-Lindqvist_2018-06-16_2977-1.jpg){.-inline}
+		![En trollslända på en annan insekt i gräset](Gustav-Lindqvist_2018-06-16_2976-1.jpg){.-inline}
 	</figure>
 	<figure class="gallery-row">
-		{% image "Gustav-Lindqvist_2018-06-16_2973-1.jpg", "-inline", "En groda i två händer" %}
-		{% image "Gustav-Lindqvist_2018-06-16_2948-1.jpg", "-inline", "En person i vandringsutrustning som går på en stig i skogen" %}
+		![En groda i två händer](Gustav-Lindqvist_2018-06-16_2973-1.jpg){.-inline}
+		![En person i vandringsutrustning som går på en stig i skogen](Gustav-Lindqvist_2018-06-16_2948-1.jpg){.-inline}
 	</figure>
 </figure>
 
