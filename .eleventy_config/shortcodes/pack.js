@@ -1,7 +1,7 @@
 module.exports = {
     pack: (pack) => {
         function prettyDigits (number) {
-            return number.toString().replace(/(?!^)(?=(?:\d{3})+(?:\.|$))/gm, ' ');
+            return number.toString().replace(/(?!^)(?=(?:\d{3})+(?:\.|$))/gm, ' ');
         }
 
         if (pack) {
@@ -61,18 +61,17 @@ module.exports = {
                 equipmentString += packList;
                 equipmentString += `</ul>`;
             });
-            equipmentString += '<button id="visa-utrustning" class="Button pack__list-button">Visa all utrustning</button></div>';
+            equipmentString += '<button class="Button pack__list-button pack__list-button__show-inventory">Visa all utrustning</button></div>';
             outputString += equipmentString;
             outputString += `</section>`;
-            outputString += `<script>document.getElementById('visa-utrustning').addEventListener('click', (event) => { let container = document.getElementById('equipment'); container.classList.remove('-collapsed'); container.removeChild(event.target); });</script>`;
-            outputString += `<script>const pack = ${JSON.stringify(pack)};</script>`;
+            outputString += `<script src="/assets/javascript/pack.js" async></script>`;
             return outputString;
         }
         return '';
     },
     packStatistics: (pack) => {
         function prettyDigits (number) {
-            return number.toString().replace(/(?!^)(?=(?:\d{3})+(?:\.|$))/gm, ' ');
+            return number.toString().replace(/(?!^)(?=(?:\d{3})+(?:\.|$))/gm, ' ');
         }
 
         if (pack) {
@@ -149,11 +148,10 @@ module.exports = {
                 equipmentString += packList;
                 equipmentString += `</ul>`;
             });
-            equipmentString += '<button id="visa-utrustning" class="Button pack__list-button hidden@no-js">Visa all utrustning</button></div>';
+            equipmentString += '<button class="Button pack__list-button pack__list-button__show-inventory hidden@no-js">Visa all utrustning</button></div>';
             outputString += equipmentString;
             outputString += `</section>`;
-            outputString += `<script>document.getElementById('visa-utrustning').addEventListener('click', (event) => { let container = document.getElementById('equipment'); container.classList.remove('-collapsed'); container.removeChild(event.target); });</script>`;
-            outputString += `<script>const pack = ${JSON.stringify(pack)};</script>`;
+            outputString += `<script src="/assets/javascript/pack.js" async></script>`;
             return outputString;
         }
         return '';
