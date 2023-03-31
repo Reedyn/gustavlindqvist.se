@@ -1,5 +1,5 @@
 /*
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-  Content-Security-Policy-Report-Only: default-src 'self' *.gustavlindqvist.se gustavlindqvist.se; img-src *;
+  Content-Security-Policy-Report-Only: default-src 'self' *.gustavlindqvist.se gustavlindqvist.se; img-src *; style-src 'unsafe-inline';
   Referrer-Policy: no-referrer
   X-Content-Type-Options: nosniff
