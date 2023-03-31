@@ -8,7 +8,7 @@ permalink: 404.html
 <p class="lead">Sidan hittades inte.</p>
 <p><a href="/">Gå till huvudsidan</a> eller <a href="/kontakta-mig/">kontakta mig</a> om du har frågor.</p>
 <p id="extra-url-info" class="hidden">Sidan kan eventuellt finnas arkiverad i <a class="url-not-found" data-url-prefix="https://web.archive.org/web/">Wayback Machine</a> eller så kan du <a class="url-not-found" data-url-prefix="https://duckduckgo.com/?q=">prova att söka efter sidan i en sökmotor</a>.</p>
-<script src="/assets/javascript/404.js">
+<script src="/assets/javascript/404.js" async>
     [...document.querySelectorAll('.url-not-found')].forEach((element) => {
         element.href = element.getAttribute('data-url-prefix') + window.location.href;
     });
