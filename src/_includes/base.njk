@@ -27,17 +27,16 @@ eleventyComputed:
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="/site.webmanifest">
 
     <script src="/assets/javascript/instantpage-5.1.0.js" type="module" defer></script>
     <script src="/assets/javascript/dayjs.min.js"></script>
-    <script>
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
+    <script src="/assets/javascript/gustavlindqvist.js"></script>
+    <script defer data-domain="gustavlindqvist.se" src="https://plausible.gustavlindqvist.se/js/plausible.js"></script>
 
+
+    <link rel="canonical" href="{{ metadata.url }}{{ page.url }}">
     <link rel="webmention" href="https://webmention.io/gustavlindqvist.se/webmention" />
     <link rel="pingback" href="https://webmention.io/gustavlindqvist.se/xmlrpc" />
 
@@ -47,27 +46,16 @@ eleventyComputed:
     <meta property="og:image" content="{{ meta.image.src }}">
     <meta property="og:type" content="{% if type === 'post' %}article{% else %}website{% endif %}">
 
-    {% include 'partials/identities.njk' %}
-
-    <link rel="canonical" href="{{ metadata.url }}{{ page.url }}">
-
     <meta name="generator" content="{{ eleventy.generator }}">
+
+    {% include 'partials/identities.njk' %}
 
     {% include 'partials/feeds.njk' %}
 
     {% jsonLdScript meta, type, tags %}
 
     {% if color %}<style>:root { --color__background__post: {{ color }};}</style>{% endif %}
-    <script>
-        (function () {
-            let theme = localStorage.getItem('theme');
-            if (theme) {
-                document.documentElement.setAttribute('data-theme', theme);
-            }
-        })();
-    </script>
 
-    <script defer data-domain="gustavlindqvist.se" src="https://plausible.gustavlindqvist.se/js/plausible.js"></script>
 </head>
 <body class="{{ templateClass }}">
     <header class="site-header hidden@print" aria-label="Sidhuvud">
@@ -82,44 +70,5 @@ eleventyComputed:
     <footer class="site-footer hidden@print" aria-label="Sidfot">
         {% include 'partials/footer.njk' %}
     </footer>
-    <script>
-        let theme = localStorage.getItem('theme');
-        if (theme) {
-            document.querySelector('#theme-chooser').value = theme;
-        } else {
-            document.querySelector('#theme-chooser').value = "auto";
-        }
-
-        document.querySelector('#theme-chooser').addEventListener('change', (event) => {
-            const selectedTheme = event.target.value;
-
-            if(selectedTheme === 'auto') {
-                localStorage.removeItem('theme');
-                document.documentElement.removeAttribute('data-theme');
-            } else {
-                localStorage.setItem('theme', event.target.value);
-                document.documentElement.setAttribute('data-theme', event.target.value);
-            }
-        });
-
-        document.querySelector('#theme-chooser-container').classList.remove('hidden');
-
-        dayjs.extend(dayjs_plugin_relativeTime);
-        dayjs.locale('sv');
-        [...document.querySelectorAll('.timeago')].forEach((element) => {
-            if (typeof element.attributes.datetime !== 'undefined') {
-                let newString = dayjs().to(element.attributes.datetime.value);
-
-                if (typeof element.attributes.prefix === 'undefined') {
-                    newString = newString.replace('för ','');
-                }
-                if (typeof element.attributes.firstletterupper !== 'undefined') {
-                    newString = newString.charAt(0).toUpperCase() + newString.slice(1)
-                }
-
-                element.innerText = newString;
-            }
-        });
-    </script>
 </body>
 </html>
