@@ -1,20 +1,20 @@
 const gustavlindqvist = (() => {
 
     // Add js-class and remove no-js-class from <html>
-    const isJS = () => {
+    const isJS = (() => {
         document.documentElement.classList.remove('no-js');
         document.documentElement.classList.add('js');
-    };
+    })();
 
     // Set theme to saved value if it exists
-    const setSavedTheme = () => {
+    const setSavedTheme = (() => {
         let theme = localStorage.getItem('theme');
         if (theme) {
             document.documentElement.setAttribute('data-theme', theme);
         }
-    };
+    })();
 
-    const createThemeChooser = () => {
+    const createThemeChooser = (() => {
         let theme = localStorage.getItem('theme');
         if (theme) {
             document.querySelector('#theme-chooser').value = theme;
@@ -35,9 +35,9 @@ const gustavlindqvist = (() => {
         });
 
         document.querySelector('#theme-chooser-container').classList.remove('hidden');
-    };
+    })();
 
-    const initializeDayJS = () => {
+    const initializeDayJS = (() => {
         dayjs.extend(dayjs_plugin_relativeTime);
         dayjs.locale('sv');
         [...document.querySelectorAll('.timeago')].forEach((element) => {
@@ -54,20 +54,10 @@ const gustavlindqvist = (() => {
                 element.innerText = newString;
             }
         });
-    };
-
-    isJS();
-    setSavedTheme();
-
-    window.addEventListener('DOMContentLoaded', () => {
-        createThemeChooser();
-        initializeDayJS()
-
-
-
-    });
+    })();
 
     return {
+        isJS,
         initializeDayJS,
         setSavedTheme,
         createThemeChooser,
