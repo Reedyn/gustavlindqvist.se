@@ -13,14 +13,13 @@ So it begins...{.lead}
 
 Sex timmars båtfärd framför oss, när solen skiner är det fantastiskt skönt i stolarna uppe på däck, men mindre skönt utan. Beräknad ankomst i Rostock 13:30 där vi sen ska ta oss vidare mot Berlin med tåg.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![Färjeterminalen i Trelleborg](Gustav-Lindqvist_2019-07-12_06202.jpg){.-inline}
-		![Møns klint sett från havet](Gustav-Lindqvist_2019-07-12_06244-Pano.jpg){.-inline}
-	</figure>
-	<figure class="gallery-row">
-		![Bryggan på en färja](Gustav-Lindqvist_2019-07-12_06246.jpg){.-inline}
-		![Toppdäcket på färjan Mecklenburg-Vorpommern](Gustav-Lindqvist_2019-07-12_06220.jpg){.-inline}
-	</figure>
-</figure>
-
+:::: gallery {.-wide}
+::: row
+![Färjeterminalen i Trelleborg](Gustav-Lindqvist_2019-07-12_06202.jpg){.-inline}
+![Møns klint sett från havet](Gustav-Lindqvist_2019-07-12_06244-Pano.jpg){.-inline}
+:::
+::: row
+![Bryggan på en färja](Gustav-Lindqvist_2019-07-12_06246.jpg){.-inline}
+![Toppdäcket på färjan Mecklenburg-Vorpommern](Gustav-Lindqvist_2019-07-12_06220.jpg){.-inline}
+:::
+::::

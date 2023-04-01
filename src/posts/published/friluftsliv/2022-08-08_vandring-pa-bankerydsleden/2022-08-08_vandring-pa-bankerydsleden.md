@@ -99,12 +99,12 @@ Några hundra meter sydost om vindskyddet finns en picknick- och grillplats vid 
 
 Frukosten bestod av tunnbrödsrullar med mjukost, enkelt och gott!
 
-<figure class="gallery">
-    <figure class="gallery-row">
-        ![Ett grått trangiakök med gasbehållare bredvid. Till vänster syns en vit plastmugg med portionspåsar av O'boy framför.](Gustav-Lindqvist_2022-08-02_05690-Pano.jpg){.-inline}
-        ![En vit kopp med varm choklad i.](Gustav-Lindqvist_2022-08-02_05696.jpg){.-inline}
-    </figure>
-</figure>
+:::: gallery
+::: row
+![Ett grått trangiakök med gasbehållare bredvid. Till vänster syns en vit plastmugg med portionspåsar av O'boy framför.](Gustav-Lindqvist_2022-08-02_05690-Pano.jpg){.-inline}
+![En vit kopp med varm choklad i.](Gustav-Lindqvist_2022-08-02_05696.jpg){.-inline}
+:::
+::::
 
 ## Mot Bankeryd
 

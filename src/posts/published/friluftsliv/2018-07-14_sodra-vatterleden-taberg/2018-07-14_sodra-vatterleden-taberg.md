@@ -16,16 +16,16 @@ Första testet blev runt 19km vandring från Taberg till Strömsbergs naturreser
 
 Det var trevlig och varierande terräng, allt från mysiga villakvarter på asfalt till öppna fält och genom hagar. Självklart även en hel del fin skog
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![Josefine håller upp sin kamera med Jönköping i bakgrunden](Gustav-Lindqvist_2018-06-16_2977-1.jpg){.-inline}
-		![En trollslända på en annan insekt i gräset](Gustav-Lindqvist_2018-06-16_2976-1.jpg){.-inline}
-	</figure>
-	<figure class="gallery-row">
-		![En groda i två händer](Gustav-Lindqvist_2018-06-16_2973-1.jpg){.-inline}
-		![En person i vandringsutrustning som går på en stig i skogen](Gustav-Lindqvist_2018-06-16_2948-1.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![Josefine håller upp sin kamera med Jönköping i bakgrunden](Gustav-Lindqvist_2018-06-16_2977-1.jpg){.-inline}
+![En trollslända på en annan insekt i gräset](Gustav-Lindqvist_2018-06-16_2976-1.jpg){.-inline}
+:::
+::: row
+![En groda i två händer](Gustav-Lindqvist_2018-06-16_2973-1.jpg){.-inline}
+![En person i vandringsutrustning som går på en stig i skogen](Gustav-Lindqvist_2018-06-16_2948-1.jpg){.-inline}
+:::
+::::
 
 Bra uppladdning för lite mer vandring när semestern börjar. Jag är även väldigt pepp på att vandra vid Borgafjäll i höst!
 

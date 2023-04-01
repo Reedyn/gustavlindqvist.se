@@ -7,9 +7,9 @@ const markdownItAbbr = require('markdown-it-abbr');
 const markdownItKbd = require('markdown-it-kbd');
 const markdownItFootnotes = require('markdown-it-footnote');
 const markdownItTables = require('markdown-it-multimd-table');
-const markdownItContainer = require('markdown-it-container');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownIt11tyImages = require('./markdown/image');
+const markdownItGallery = require('./markdown/gallery');
 const markdownItAnchorOptions = {
     level: [1, 2, 3, 4],
     slugify: (str) =>
@@ -45,7 +45,9 @@ const scrollBlock = {
 let markdown = markdownIt({
     html: true,
     breaks: true,
-    linkify: true
+    linkify: true,
+    typographer: true,
+    langPrefix: 'language-',
 })
     .use(markdownItTasklist, {
         enabled: false,
@@ -62,8 +64,11 @@ let markdown = markdownIt({
         headerless: true,
     })
     .use(markdownItAnchor, markdownItAnchorOptions)
-    .use(markdownItContainer, 'scroll-block', scrollBlock)
-    .use(markdownItAttrs);
+    .use(markdownItAttrs)
+    .use(require('markdown-it-container'),'gallery', markdownItGallery.gallery)
+    .use(require('markdown-it-container'),'row',markdownItGallery.row);
+
+
 
 markdown.renderer.rules.footnote_block_open = () => (
     '<section class="footnotes" aria-labelledby="fotnoter">\n' +

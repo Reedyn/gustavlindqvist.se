@@ -12,12 +12,12 @@ tags:
 
 För 3 dagar sedan [landade vi i Hong Kong](http://instagram.com/p/nzT5Z2SKnj/). Som ni kan se om ni följer länken så bröt jag mot elektronikförbudet när vi landade :) Lätt värt det.{.lead}
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![Mörka moln över berg på andra sidan av en landningsbana.](IMG_20140510_112937.jpg){.-inline}
-		![Höga hus med ett grönt berg bakom och med en grå himmel](IMG_20140510_173115.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![Mörka moln över berg på andra sidan av en landningsbana.](IMG_20140510_112937.jpg){.-inline}
+![Höga hus med ett grönt berg bakom och med en grå himmel](IMG_20140510_173115.jpg){.-inline}
+:::
+::::
 
 ## Dag 1
 
@@ -45,12 +45,12 @@ Idag har vi besökt huvudattraktionen på vår Hong Kong vistelse, Ocean Park.{.
 
 Ocean Park är beläget på andra sidan Hong Kong Island med bästa utsikt och läge. Fyllt med massor med karuseller, berg- & dalbanor och diverse attraktioner kring djur, både från ovan och under havets yta.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![En rosa manet i väldigt blått vatten](IMG_20140512_213451.jpg){.-inline}
-		![Väldigt många maneter upplysta av en blå lampa](IMG_20140512_213358.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![En rosa manet i väldigt blått vatten](IMG_20140512_213451.jpg){.-inline}
+![Väldigt många maneter upplysta av en blå lampa](IMG_20140512_213358.jpg){.-inline}
+:::
+::::
 
 Favoriten här måste vara Grand Aquarium, allt från enorma stingrockor till hajar och småfisk med gångar där man kunde gå rakt igenom och under akvariet, det var riktigt awesome.
 
@@ -74,11 +74,11 @@ Vi spenderade inte all tid i poolen, det blev även en tur in till *Sneaker stre
 
 Efter en natt på hotellet var sista delen på resan avklarad och det var "bara" resan hem kvar.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![En flygplats med en massa människor på ett välpolerat golv.](IMG_20140516_180818.jpg){.-inline}
-		![Ett flygplan som står vid gaten.](IMG_20140516_223052.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![En flygplats med en massa människor på ett välpolerat golv.](IMG_20140516_180818.jpg){.-inline}
+![Ett flygplan som står vid gaten.](IMG_20140516_223052.jpg){.-inline}
+:::
+::::
 
 The end.

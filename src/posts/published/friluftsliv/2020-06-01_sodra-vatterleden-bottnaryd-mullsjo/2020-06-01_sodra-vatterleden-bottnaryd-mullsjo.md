@@ -18,13 +18,13 @@ Just denna leden var vi ett gäng under studietiden som gick, dock avbröt vi ti
 
 Vandringen började med underbart väder: blå himmel och behaglig temperatur (kanske lite för varmt), vi gick på snabbt med ett snittempo på runt 4.5km/h och stannade bara några gånger för att äta de snacks vi hade med oss.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![Josefine sitter i gräset bredvid sin ryggsäck](Gustav-Lindqvist_2020-05-22_R8-09-1.jpg){.-inline}
-		![En selfie med Josefine i bakgrunden sittandes. Det ligger en ryggsäck på marken.](20200522_112634.jpg){.-inline}
-	</figure>
-	<figcaption><p>Lite paus</p></figcaption>
-</figure>
+:::: gallery {.-wide}
+::: row
+![Josefine sitter i gräset bredvid sin ryggsäck](Gustav-Lindqvist_2020-05-22_R8-09-1.jpg){.-inline}![En selfie med Josefine i bakgrunden sittandes. Det ligger en ryggsäck på marken.](20200522_112634.jpg){.-inline}
+:::
+<figcaption><p>Lite paus</p></figcaption>
+::::
+
 
 Vid 11km gjorde vi ett stopp och lagade lite varm mat. Kycklingsoppa från REAL Turmat som vi båda var ganska missnöjda med. Bra att veta till nästa gång!
 
@@ -42,13 +42,13 @@ Med mat i magen gick det sedan snabbt, vi stannade bara en gång och det var lä
 
 Ganska snabbt var vi framme vid Bergs vindskydd (tältet har inte kommit än så vi valde att sova här istället).
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![Två ryggsäckar som står lutade mot några pinnar intill ett vindskydd.](20200522_164929.jpg){.-inline}
-		![En eldstad sedd inifrån ett en presenning använd som ett regnskydd](20200522_202652.jpg){.-inline}
-		![Josefine i en sovsäck](Gustav-Lindqvist_2020-05-23_R8-20.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![Två ryggsäckar som står lutade mot några pinnar intill ett vindskydd.](20200522_164929.jpg){.-inline}
+![En eldstad sedd inifrån ett en presenning använd som ett regnskydd](20200522_202652.jpg){.-inline}
+![Josefine i en sovsäck](Gustav-Lindqvist_2020-05-23_R8-20.jpg){.-inline}
+:::
+::::
 
 Vi hade med en presenning som vi sov under för att få lite extra skydd.
 
@@ -58,30 +58,29 @@ Så här i efterhand hade vi nog inte behövt ha den över oss utan bara under. 
 
 ## Dag 2
 
-<figure class="gallery -wide">
-	<figure class="gallery-row -no-wrap">
-		![Tunnbröd med skinkost, oboyförpackningar och ett friluftskök som ligger på golvet i ett vindskydd](20200523_072032-1.jpg){.-inline}
-		![Ett friluftskök som brinner för fullt](20200523_073732.jpg){.-inline}
-	</figure>
-	<figcaption><p>Lyxfrukost bestående av tunnbröd med mjukost och varm choklad</p></figcaption>
-</figure>
-
+:::: gallery {.-wide}
+::: row {.-no-wrap}
+![Tunnbröd med skinkost, oboyförpackningar och ett friluftskök som ligger på golvet i ett vindskydd](20200523_072032-1.jpg){.-inline}
+![Ett friluftskök som brinner för fullt](20200523_073732.jpg){.-inline}
+:::
+<figcaption><p>Lyxfrukost bestående av tunnbröd med mjukost och varm choklad</p></figcaption>
+::::
 
 Trots att vi var väldigt sega i benen efter en dags vandring så kändes det på något vis lättare dag två på grund av att packningen börjat lätta. Runt 800g mat och 2.5kg vatten hade vi redan förbrukat. Efter en lyxig frukost begav vi oss iväg.
 
 Andra etappen var fortfarande väldigt lättvandrat med fina stigar men nu började det bli rejält mycket mer kuperat. Särskilt när vi närmade oss Ryfors med fina vattenfall.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![En stig intill en bäck med en damm lite längre upp längs ån.](20200523_111823-6.jpg){.-inline}
-		![En nästan torrlagd flod intill en gammal industrilokal byggd i tegel.](20200523_111032-01-1.jpg){.-inline}
-	</figure>
-	<figure class="gallery-row">
-		![En damm med spegelblank yta.](Gustav-Lindqvist_2020-05-23_R8-27.jpg){.-inline}
-		![Två träbyggnader och en tegelbyggnad](Gustav-Lindqvist_2020-05-23_R8-26.jpg){.-inline}
-	</figure>
-	<figcaption><p>Ryfors bruk</p></figcaption>
-</figure>
+:::: gallery {.-wide}
+::: row
+![En stig intill en bäck med en damm lite längre upp längs ån.](20200523_111823-6.jpg){.-inline}
+![En nästan torrlagd flod intill en gammal industrilokal byggd i tegel.](20200523_111032-01-1.jpg){.-inline}
+:::
+::: row
+![En damm med spegelblank yta.](Gustav-Lindqvist_2020-05-23_R8-27.jpg){.-inline}
+![Två träbyggnader och en tegelbyggnad](Gustav-Lindqvist_2020-05-23_R8-26.jpg){.-inline}
+:::
+<figcaption><p>Ryfors bruk</p></figcaption>
+::::
 
 Det bjöds också på mycket finare vyer. Bland annat Stråkensbro som vi använde för att ta oss över Stråken.
 

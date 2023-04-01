@@ -22,18 +22,18 @@ Med tung packning och allt annat än sval luft var det oerhört skönt att få s
 
 Dagen därpå seglade vi iväg med endast storsegel mot vårt första stopp: **Tjärö**.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![En motorbåt som kör så att vattnet stänker åt sidorna](Gustav-Lindqvist_2018-07-20_0062--1--1.jpg){.-inline}
-		![En närbild på några tampar som är upphängna på pulpeten på en segelbåt](Gustav-Lindqvist_2018-07-20_0056-1.jpg){.-inline}
-		![En närbild på en kompass på en segelbåt](Gustav-Lindqvist_2018-07-20_0046-1.jpg){.-inline}
-	</figure>
-	<figure class="gallery-row">
-		![En närbild på en vinsch på en segelbåt](Gustav-Lindqvist_2018-07-20_0043-2.jpg){.-inline}
-		![En motorbåt som kör väldigt snabbt förbi en segelbåt](Gustav-Lindqvist_2018-07-20_0042-1.jpg){.-inline}
-		![Josefine som sitter längst fram på en segelbåt.](Gustav-Lindqvist_2018-07-20_0029-1-1.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![En motorbåt som kör så att vattnet stänker åt sidorna](Gustav-Lindqvist_2018-07-20_0062--1--1.jpg){.-inline}
+![En närbild på några tampar som är upphängna på pulpeten på en segelbåt](Gustav-Lindqvist_2018-07-20_0056-1.jpg){.-inline}
+![En närbild på en kompass på en segelbåt](Gustav-Lindqvist_2018-07-20_0046-1.jpg){.-inline}
+:::
+::: row
+![En närbild på en vinsch på en segelbåt](Gustav-Lindqvist_2018-07-20_0043-2.jpg){.-inline}
+![En motorbåt som kör väldigt snabbt förbi en segelbåt](Gustav-Lindqvist_2018-07-20_0042-1.jpg){.-inline}
+![Josefine som sitter längst fram på en segelbåt.](Gustav-Lindqvist_2018-07-20_0029-1-1.jpg){.-inline}
+:::
+::::
 
 Skärgården var full av trafik, främst motorbåtar.
 

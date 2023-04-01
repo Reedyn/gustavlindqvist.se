@@ -3,7 +3,7 @@ const markdownIt = require('markdown-it');
 
 let markdown = markdownIt({
     html: true,
-    breaks: true,
+    breaks: false,
     linkify: true
 })
 

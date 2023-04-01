@@ -9,15 +9,15 @@ permalink: "/{{ page.date | dateFolder}}/fotbollsmatch-i-trelleborg/index.html"
 
 Egentligen är jag inte speciellt intresserad av fotboll och egentligen inte att titta på sport i allmänhet (segling är ett undantag). Men när jag fick chansen att testa mitt 70-200mm på en fotbollsmatch där min kusin spelade och min morbror var tränare kunde jag inte låta bli =)
 
-<figure class="gallery -wide">
-	<figure class="gallery-row -no-wrap">
-		![Två fotbollsspelare i närkamp](9506131016_451e42ed0a_c.jpg){.-inline}
-		![Tre fotbollsspelare i närkamp. Två av spelarna har blåvita kläder den tredje har grön-vita kläder.](9506131166_65d847f8a3_c.jpg){.-inline}
-	</figure>
-	<figure class="gallery-row">
-		![En fotbollsspelare i grön-vita kläder sparkar på bollen så att plasten i konstgräset flyger.](9506131406_206d6cea05_k.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row {.-no-wrap}
+![Två fotbollsspelare i närkamp](9506131016_451e42ed0a_c.jpg){.-inline}
+![Tre fotbollsspelare i närkamp. Två av spelarna har blåvita kläder den tredje har grön-vita kläder.](9506131166_65d847f8a3_c.jpg){.-inline}
+:::
+::: row
+![En fotbollsspelare i grön-vita kläder sparkar på bollen så att plasten i konstgräset flyger.](9506131406_206d6cea05_k.jpg){.-inline}
+:::
+::::
 
 Jag spenderade drygt 30 minuters läsande över vad man ska tänka på när man ska fotografera fotboll och sedan skred jag till verket. För att vara mitt första försök är jag väldigt nöjd, dock har jag ljuset att tacka, solen stod lågt och det var tidigt på förmiddagen utan moln, så ljuset var konstant. Jag hade möjlighet att hålla slutartiden under 1/2000s för det mesta.
 

@@ -25,17 +25,17 @@ I Prag var vi i två dagar så vi lyckades se allt vi ville. Först ut var Old T
 
 ![Gamla torget i Prag sett från toppen av Rådhuset.](Gustav-Lindqvist_2019-07-14_06398.jpg){.-full}
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![Orangefärgade tak i Prag](Gustav-Lindqvist_2019-07-14_06412.jpg){.-inline}
-		![En gata med trafik i Prag](Gustav-Lindqvist_2019-07-14_06414.jpg){.-inline}
-		![Taknockar och torn i Prag](Gustav-Lindqvist_2019-07-14_06405.jpg){.-inline}
-	</figure>
-	<figure class="gallery-row">
-		![Vidvinkelvy från Rådhuset i Prag som visar torget nedanför och alla taken i sydlig riktning.](Gustav-Lindqvist_2019-07-14_06391.jpg){.-inline}
-		![Church of Our Lady of the Snows sett från avstånd](Gustav-Lindqvist_2019-07-14_06421.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![Orangefärgade tak i Prag](Gustav-Lindqvist_2019-07-14_06412.jpg){.-inline}
+![En gata med trafik i Prag](Gustav-Lindqvist_2019-07-14_06414.jpg){.-inline}
+![Taknockar och torn i Prag](Gustav-Lindqvist_2019-07-14_06405.jpg){.-inline}
+:::
+::: row
+![Vidvinkelvy från Rådhuset i Prag som visar torget nedanför och alla taken i sydlig riktning.](Gustav-Lindqvist_2019-07-14_06391.jpg){.-inline}
+![Church of Our Lady of the Snows sett från avstånd](Gustav-Lindqvist_2019-07-14_06421.jpg){.-inline}
+:::
+::::
 
 Därefter blev det fokus på att hitta en restaurang för middag. Efter lite sökande hittade vi en trevlig liten pizzeria i närheten av turiststråken.
 
@@ -53,13 +53,13 @@ Det mesta på borgen var fullproppat med folk och krävde inträde så vi nöjde
 
 Från Kampaparken fick vi fina vyer över floden och Karlsbron.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![En båt på floden Vltava](Gustav-Lindqvist_2019-07-15_06476.jpg){.-inline}
-		![Karlsbron](Gustav-Lindqvist_2019-07-15_06477.jpg){.-inline}
-		![En brant gata i Prag](Gustav-Lindqvist_2019-07-15_06463-Pano.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![En båt på floden Vltava](Gustav-Lindqvist_2019-07-15_06476.jpg){.-inline}
+![Karlsbron](Gustav-Lindqvist_2019-07-15_06477.jpg){.-inline}
+![En brant gata i Prag](Gustav-Lindqvist_2019-07-15_06463-Pano.jpg){.-inline}
+:::
+::::
 
 ![Två trampbåtar på floden Vltava](Gustav-Lindqvist_2019-07-15_06488.jpg){.-full}
 

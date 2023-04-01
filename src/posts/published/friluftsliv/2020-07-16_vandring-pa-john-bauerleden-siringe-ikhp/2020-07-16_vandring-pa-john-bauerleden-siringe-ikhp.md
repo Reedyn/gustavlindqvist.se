@@ -14,13 +14,13 @@ Vi började vandringen i Siringe norr om Skärstad för att därifrån vandra un
 
 Leden började med att gå längs landsvägar av asfalt men efter 4 och en halv kilometer kom vi äntligen fram till lite riktiga stigar som började vid Ramsjön.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![En asfalterad väg i en skog](Gustav-Lindqvist_2020-07-12_09576.jpg){.-inline}
-		![En röd stuga nere vid en sjö](Gustav-Lindqvist_2020-07-12_09585.jpg){.-inline}
-		![En sjö i en skog](Gustav-Lindqvist_2020-07-12_09586.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![En asfalterad väg i en skog](Gustav-Lindqvist_2020-07-12_09576.jpg){.-inline}
+![En röd stuga nere vid en sjö](Gustav-Lindqvist_2020-07-12_09585.jpg){.-inline}
+![En sjö i en skog](Gustav-Lindqvist_2020-07-12_09586.jpg){.-inline}
+:::
+::::
 
 Ramsjön bjöd på underbara vyer över skog och landskap.
 
@@ -28,16 +28,16 @@ Ramsjön bjöd på underbara vyer över skog och landskap.
 
 Därefter var det dags för lite riktiga stigar i skogen som också bjöd på ett rikt djurliv. Många fjärilar och några ekorrar fick vi se.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![En ekorre i ett träd som håller i en kotte](Gustav-Lindqvist_2020-07-12_09611.jpg){.-inline}
-		![En stig i skogen med en orange ledmarkering lite längre bort](Gustav-Lindqvist_2020-07-12_09587-Pano.jpg){.-inline}
-	</figure>
-	<figure class="gallery-row">
-		![En nässelfjäril på en lila blomma](Gustav-Lindqvist_2020-07-12_09622.jpg){.-inline}
-		![Blåklockor i solen mot en mörk bakgrund](Gustav-Lindqvist_2020-07-12_09636.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![En ekorre i ett träd som håller i en kotte](Gustav-Lindqvist_2020-07-12_09611.jpg){.-inline}
+![En stig i skogen med en orange ledmarkering lite längre bort](Gustav-Lindqvist_2020-07-12_09587-Pano.jpg){.-inline}
+:::
+::: row
+![En nässelfjäril på en lila blomma](Gustav-Lindqvist_2020-07-12_09622.jpg){.-inline}
+![Blåklockor i solen mot en mörk bakgrund](Gustav-Lindqvist_2020-07-12_09636.jpg){.-inline}
+:::
+::::
 
 Efter 12 kilometer gjorde vi ett stopp för att laga lunch vid Pukasjön där det byggts ett nytt fint vindskydd med utedass.
 
@@ -47,13 +47,13 @@ Efter 12 kilometer gjorde vi ett stopp för att laga lunch vid Pukasjön där de
 
 Sedan gick vi vidare mot Fjällstorp som låg ungefär 2 kilometer bort. Vid Fjällstorp fanns en stor fin gräsmatta för att slå upp tält, ett utedass och en fin värmestuga med eldstad där vi gjorde vår kvällsmat: Korv med bröd.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![Josefine packar upp sin väska intill ett tält](Gustav-Lindqvist_2020-07-12_09672-1.jpg){.-inline}
-		![Josefine blåser på en eld](Gustav-Lindqvist_2020-07-12_09683.jpg){.-inline}
-		![En selfie i ett tält där jag (Gustav) ligger upp och ner och håller kameran, Josefine är snett bakom och tittar in i kameran.](Gustav-Lindqvist_2020-07-12_212456.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![Josefine packar upp sin väska intill ett tält](Gustav-Lindqvist_2020-07-12_09672-1.jpg){.-inline}
+![Josefine blåser på en eld](Gustav-Lindqvist_2020-07-12_09683.jpg){.-inline}
+![En selfie i ett tält där jag (Gustav) ligger upp och ner och håller kameran, Josefine är snett bakom och tittar in i kameran.](Gustav-Lindqvist_2020-07-12_212456.jpg){.-inline}
+:::
+::::
 
 Jag hade lite som ett mål att testa min sovsäcks gränser vilket gick alldeles utmärkt. Det är en sovsäck för +13° och det blev +10.4° som kallast i tältet.
 

@@ -1,0 +1,4 @@
+// markdown-it sometimes enters empty paragraph tags, this hides those.
+p:empty {
+  display: none;
+}

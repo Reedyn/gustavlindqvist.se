@@ -54,16 +54,16 @@ Jag blev väldigt förtjust i resultatet från Tri-X och Ektar. Särskilt Ektar 
 
 ![Munksjöstaden sett söderifrån med solen som lyser upp byggnaderna mot en mörk himmel](Gustav-Lindqvist.2019-03-03.-3-29.jpg "Olympus XA, 35mm, Kodak Ektar 100"){.-full}
 
-<figure class="gallery -wide">
-	<figure class="gallery-row -no-wrap">
-		![Vass längs med Munksjöns kant](Gustav-Lindqvist.2019-02-26.-3-19.jpg){.-inline}
-		![Vass mot en blå sjö](Gustav-Lindqvist.2019-02-24.-3-15.jpg){.-inline}
-	</figure>
-	<figure class="gallery-row">
-		![Munksjöstaden perfekt speglad i Munksjön](Gustav-Lindqvist.2019-02-26.-3-21.jpg){.-inline}
-		![En lång bänk formad som en slingrande orm vid Atollen i Jönköping täckt av snö](Gustav-Lindqvist.2019-02-22.-3-10-1.jpg){.-inline}
-	</figure>
-	<figcaption><p>Olympus XA, 35mm, Kodak Ektar 100</p></figcaption>
-</figure>
+:::: gallery {.-wide}
+::: row {.-no-wrap}
+![Vass längs med Munksjöns kant](Gustav-Lindqvist.2019-02-26.-3-19.jpg){.-inline}
+![Vass mot en blå sjö](Gustav-Lindqvist.2019-02-24.-3-15.jpg){.-inline}
+:::
+::: row
+![Munksjöstaden perfekt speglad i Munksjön](Gustav-Lindqvist.2019-02-26.-3-21.jpg){.-inline}
+![En lång bänk formad som en slingrande orm vid Atollen i Jönköping täckt av snö](Gustav-Lindqvist.2019-02-22.-3-10-1.jpg){.-inline}
+:::
+<figcaption><p>Olympus XA, 35mm, Kodak Ektar 100</p></figcaption>
+::::
 
 ![Spira och Munksjöbron sett i solnedgången med en delvis spegelblank Munksjön. Himlen är i toner av blått och violett.](Gustav-Lindqvist.2019-03-10.-3-34.jpg "Olympus XA, 35mm, Kodak Ektar 100"){.-full}

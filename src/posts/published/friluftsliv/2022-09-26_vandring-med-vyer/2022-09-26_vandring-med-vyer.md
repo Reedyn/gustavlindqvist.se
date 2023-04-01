@@ -29,12 +29,12 @@ Första biten gick på fina lättvandrade stigar i öppen tallskog.
 
 Höstfärgerna har fläckvis börjat färga skogen gult och orange men det gröna dominerar fortfarande.
 
-<figure class="gallery -wide">
-    <figure class="gallery-row">
-        ![En solbelyst buske med gröna blad, skogen är ur fokus i bakgrunden.](Gustav-Lindqvist_2022-09-25_06720-Pano.jpg){.-inline}
-        ![En öppen tallskog med blåbärsris på marken. Står lågt och får träden att kasta långa skuggor på marken.](Gustav-Lindqvist_2022-09-25_06722-Pano.jpg){.-inline}
-    </figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![En solbelyst buske med gröna blad, skogen är ur fokus i bakgrunden.](Gustav-Lindqvist_2022-09-25_06720-Pano.jpg){.-inline}
+![En öppen tallskog med blåbärsris på marken. Står lågt och får träden att kasta långa skuggor på marken.](Gustav-Lindqvist_2022-09-25_06722-Pano.jpg){.-inline}
+:::
+::::
 
 På avstånd kunde jag se Tabergstoppen som jag lite senare skulle klättra över.
 
@@ -46,15 +46,15 @@ Efter ungefär tre kilometer kom jag fram till Kortgölen och det vattendrag som
 
 Här gick stigen bara några meter från vattnet.
 
-<figure class="gallery -wide">
-    <figure class="gallery-row">
-        ![En stig som går mellan blåbärsrisen i en tallskog](Gustav-Lindqvist_2022-09-25_06742-Pano.jpg){.-inline}
-        ![En buske som växer precis bredvid ett träd. Den låga solen kastar en skarp skugga från busken på trädstammen.](Gustav-Lindqvist_2022-09-25_06745-Pano.jpg){.-inline}
-    </figure>
-    <figure class="gallery-row">
-        ![Skog reflekterat i vatten som krusar sig.](Gustav-Lindqvist_2022-09-25_06755-Pano.jpg){.-inline}
-    </figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![En stig som går mellan blåbärsrisen i en tallskog](Gustav-Lindqvist_2022-09-25_06742-Pano.jpg){.-inline}
+![En buske som växer precis bredvid ett träd. Den låga solen kastar en skarp skugga från busken på trädstammen.](Gustav-Lindqvist_2022-09-25_06745-Pano.jpg){.-inline}
+:::
+::: row
+![Skog reflekterat i vatten som krusar sig.](Gustav-Lindqvist_2022-09-25_06755-Pano.jpg){.-inline}
+:::
+::::
 
 Vid den norra änden av vattendraget finns Kåperyds dammar, en gammal ruin där det ska ha funnits en masugn där malm från Tabergsgruvan smälts.
 
@@ -66,12 +66,12 @@ Vid den norra änden av vattendraget finns Kåperyds dammar, en gammal ruin där
 
 Efter att ha sett Tabergstoppen från avstånd så var det nu dags bestigning. Från Kåperyds dammar började det sakta bli brantare och brantare ju närmre Tabergstoppen jag kom. En bit innan jag närmade mig den värsta klättringen öppnade landskapet upp sig med öppna fält.
 
-<figure class="gallery -wide">
-    <figure class="gallery-row">
-        ![Två tallar som sträckar sig högt över kringliggande skog och visar sig som en siluette mot den blå himlen.](Gustav-Lindqvist_2022-09-25_06777.jpg){.-inline}
-        ![En äng med skog bakom.](Gustav-Lindqvist_2022-09-25_06778-Pano.jpg){.-inline}
-    </figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![Två tallar som sträckar sig högt över kringliggande skog och visar sig som en siluette mot den blå himlen.](Gustav-Lindqvist_2022-09-25_06777.jpg){.-inline}
+![En äng med skog bakom.](Gustav-Lindqvist_2022-09-25_06778-Pano.jpg){.-inline}
+:::
+::::
 
 Uppe på toppen bjöd Tabergstoppen på en fantastisk utsikt hela vägen till Visingsö.
 
@@ -99,12 +99,12 @@ Kallebäcksleden är nog den tråkigaste sträckan på hela vandringen sedan de 
 
 Jag traskade på i fart med regnjackan på eftersom det börjat regna så smått.
 
-<figure class="gallery">
-    <figure class="gallery-row -no-wrap">
-        ![En selfie på Gustav i en blå jacka, ryggsäck och en kamera fäst på en av bärremmarna invirad i ett regnskydd.](20220925_144359.jpg){.-inline}
-        ![En väldigt bred sandig stig där skogsmaskiner har kört.](20220925-WA0020_2.jpg){.-inline}
-    </figure>
-</figure>
+:::: gallery
+::: row {.-no-wrap}
+![En selfie på Gustav i en blå jacka, ryggsäck och en kamera fäst på en av bärremmarna invirad i ett regnskydd.](20220925_144359.jpg){.-inline}
+![En väldigt bred sandig stig där skogsmaskiner har kört.](20220925-WA0020_2.jpg){.-inline}
+:::
+::::
 
 
 ## Varkullen & Hassafall
@@ -121,10 +121,9 @@ Regnet hade nu flyttat sig norrut över Jönköping, det droppade fortfarande li
 
 Kanske inte min bästa bild på fallet, men det var iallafall fina färger av den fuktiga terrängen.
 
-<figure class="gallery -wide">
-    <figure class="gallery-row">
-        ![Sandserydsån sett uppifrån Hassafallsleden.](Gustav-Lindqvist_2022-09-25_06903.jpg){.-inline}
-        ![Sanderydsån fotograferad genom en buske som är ur fokus.](Gustav-Lindqvist_2022-09-25_06915-Pano.jpg){.-inline}
-    </figure>
-</figure>
-
+:::: gallery {.-wide}
+::: row
+![Sandserydsån sett uppifrån Hassafallsleden.](Gustav-Lindqvist_2022-09-25_06903.jpg){.-inline}
+![Sanderydsån fotograferad genom en buske som är ur fokus.](Gustav-Lindqvist_2022-09-25_06915-Pano.jpg){.-inline}
+:::
+::::

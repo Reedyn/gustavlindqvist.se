@@ -18,17 +18,17 @@ San Giorgio Maggiore i Venedig](Gustav-Lindqvist_2019-07-17_06564-Pano.jpg){.-fu
 
 Dagens utflykter gick mellan utflyktsmål och skydd från värmen i en av många nedkylda butiker.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![Gondol i Venedig](OI000085.jpg){.-inline}
-		![En bro över en smal kanal](Gustav-Lindqvist_2019-07-17_06585-Pano.jpg){.-inline}
-		![Rialtobron](Gustav-Lindqvist_2019-07-17_06632.jpg){.-inline}
-	</figure>
-	<figure class="gallery-row">
-		![En liten fransk balkong.](OI000079.jpg){.-inline}
-		![Markusplatsen](Gustav-Lindqvist_2019-07-17_06557.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![Gondol i Venedig](OI000085.jpg){.-inline}
+![En bro över en smal kanal](Gustav-Lindqvist_2019-07-17_06585-Pano.jpg){.-inline}
+![Rialtobron](Gustav-Lindqvist_2019-07-17_06632.jpg){.-inline}
+:::
+::: row
+![En liten fransk balkong.](OI000079.jpg){.-inline}
+![Markusplatsen](Gustav-Lindqvist_2019-07-17_06557.jpg){.-inline}
+:::
+::::
 
 ![Båtar på Canal Grande](Gustav-Lindqvist_2019-07-17_06609.jpg){.-full}
 
