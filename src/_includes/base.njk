@@ -54,6 +54,7 @@ eleventyComputed:
     {% jsonLdScript meta, type, tags %}
 
     {% if color %}<style>:root { --color__background__post: {{ color }};}</style>{% endif %}
+
     <script>
         /*to prevent Firefox FOUC, this must be here*/
         let FF_FOUC_FIX;
