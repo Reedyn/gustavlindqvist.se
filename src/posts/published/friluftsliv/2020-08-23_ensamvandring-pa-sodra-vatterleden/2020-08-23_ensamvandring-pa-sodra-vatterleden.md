@@ -96,7 +96,7 @@ Efter en ganska god natts sömn var det dags för frukost som bestod av varm cho
 
 Efter att ha tagit ner tältet var det dags att gå vidare.
 
-<figure class="embed -wide"><iframe width="612" height="344" src="https://www.youtube.com/embed/8vJyrO9MvhM?feature=oembed&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>
+<figure class="embed -wide"><iframe width="612" height="344" src="https://www.youtube-nocookie.com/embed/8vJyrO9MvhM?feature=oembed&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>
 
 Egentligen var planen att gå hela vägen tillbaka till Jönköping men mina fötter tyckte annorlunda. Istället var målet att gå ~5 kilometer bort till Norrahammar och sen ta bussen hem därifrån.
 

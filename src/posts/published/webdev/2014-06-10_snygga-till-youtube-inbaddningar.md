@@ -14,7 +14,7 @@ Nedan har jag kod jag fick från YouTube för att bädda in en av mina filmer
 ```html
 <iframe width="640" 
         height="360" 
-        src="//www.youtube.com/embed/ta-AhNo470g" 
+        src="//www.youtube-nocookie.com/embed/ta-AhNo470g" 
         frameborder="0" 
         allowfullscreen>
 </iframe>
@@ -33,7 +33,7 @@ För att börja en _query string_ skriver man `?` följt av sin parameter och ev
 <iframe 
         width="640"
         height="360"
-        src="//www.youtube.com/embed/ta-AhNo470g?controls=2&showinfo=0&theme=light&color=white"
+        src="//www.youtube-nocookie.com/embed/ta-AhNo470g?controls=2&showinfo=0&theme=light&color=white"
         frameborder="0"
         allowfullscreen>
 </iframe>
@@ -43,5 +43,5 @@ Det finns ett problem till som YouTubes inbäddningskod ej klarar av att lösa p
 
 Så här blir slutrestultatet. Denna metod fungerar för alla inbäddningar för YouTube (även spellistor och liknande)
 
-<figure class="kg-card kg-embed-card"> <iframe width="612" height="344" src="https://www.youtube.com/embed/ta-AhNo470g?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figure class="kg-card kg-embed-card"> <iframe width="612" height="344" src="https://www.youtube-nocookie.com/embed/ta-AhNo470g?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>

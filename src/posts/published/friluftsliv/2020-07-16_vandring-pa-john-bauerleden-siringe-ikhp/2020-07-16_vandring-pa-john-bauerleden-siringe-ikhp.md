@@ -74,7 +74,7 @@ Sedan gick stigen omväxlingsvis genom fin granskog och öppet jordsbrukslandska
 Turen avslutades sedan med vandring på Huskvarnaberget där vi passerade den mycket trevliga utsiktsplatsen Brunstorpsberget.
 
 <figure class="embed video">
-	<iframe width="612" height="344" src="https://www.youtube.com/embed/lHH8InlHv4A?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="612" height="344" src="https://www.youtube-nocookie.com/embed/lHH8InlHv4A?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
 
 ![Utsikt från Brunstorpsberget mot Jönköping.](Gustav-Lindqvist_2020-07-13_09976-Pano.jpg){.-full}
