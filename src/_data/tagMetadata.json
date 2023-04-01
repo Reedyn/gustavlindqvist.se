@@ -64,6 +64,7 @@
     },
     "geocaching": {
         "title": "geocaching",
+        "emoji": "\uD83D\uDCCC",
         "type": "subject"
     },
     "ghost": {
