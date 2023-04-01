@@ -9,6 +9,10 @@ const interactionsForPage = require('./filters/interactions-for-page');
 const dates = require('./filters/dates');
 
 module.exports = {
+    log: (object) => {
+        console.log(object.constructor.name)
+        console.log(object);
+    },
     groupByYear: (collection) => {
         return _.chain(collection)
             .groupBy((post) => post.date.getFullYear())

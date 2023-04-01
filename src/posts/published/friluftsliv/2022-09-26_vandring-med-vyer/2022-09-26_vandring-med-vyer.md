@@ -106,7 +106,6 @@ Jag traskade på i fart med regnjackan på eftersom det börjat regna så smått
 :::
 ::::
 
-
 ## Varkullen & Hassafall
 
 ![Karta över terrängen vid Hassafallsleden. En blå streckad linje är utritad för att visa en vandringsrutt.](Karta_Hassafallsleden.jpg){.-full}
