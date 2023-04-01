@@ -31,6 +31,6 @@ Löven har börjat gulna men har kvar det mesta av sin gröna färg. Skogen lyse
 Jag tog tillfället i akt och timelapsade lite också. Sekvensen nedan är tagen med ett fish-eye. Ska prova olika tekniker för redigering med den sen.
 
 <figure class="embed video">
-    <iframe width="480" height="270" src="https://www.youtube.com/embed/xSlO4Wq3fmE?feature=oembed" frameborder="0"
+    <iframe width="480" height="270" src="https://www.youtube-nocookie.com/embed/xSlO4Wq3fmE?feature=oembed" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
