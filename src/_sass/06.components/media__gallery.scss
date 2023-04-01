@@ -27,7 +27,7 @@
             > figure {
                 margin: 0;
             }
-            > figure:not(:last-child) {
+            > figure:not(:last-of-type) {
                 margin-right: var(--margin__small);
             }
 
@@ -46,7 +46,7 @@
             > figure {
                 margin: 0;
             }
-            > figure:not(:last-child) {
+            > figure:not(:last-of-type) {
                 margin-right: var(--margin__small);
             }
 
