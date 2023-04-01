@@ -20,12 +20,12 @@ Sen var det igång och har sen dess tränat lite mer fokuserat än tidigare, fra
 
 Förra året sprang jag Halvvilden på 7km men eftersom större delen av loppet är samma som Vilden (10km) valde jag att springa det i år.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![Två löpare som springer nedför en brant stig i en skog](DSC_0409.jpg){.-inline}
-		![Många löpare som vadar i knädjup lera.](IMG_5556.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![Två löpare som springer nedför en brant stig i en skog](DSC_0409.jpg){.-inline}
+![Många löpare som vadar i knädjup lera.](IMG_5556.jpg){.-inline}
+:::
+::::
 
 Jag tänker inte påstå att det var ett lätt lopp, men jämfört med förra året gick det betydligt lättare, jag pressade mig inte alls lika hårt och lyckades ändå hålla ett högre tempo trots den längre sträckan och vadande i kärr och träsk.
 

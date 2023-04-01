@@ -32,12 +32,12 @@ Det blev ingen sömn efter första intervallen, men kände mig ändå pigg. Temp
 
 Fick sovit lite mer än 30 minuter efter andra intervallen, nu är det nog som värst; Lite sömn, tidigt på morgonen, tom mage (bara ätit 5 bananer). Men nu ska jag ut iallafall.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![Selfie på Gustav i röd träningströja vid Rosenlunds bankar.](Gustav-Lindqvist_2016-07-23_0102.jpg){.-inline}
-		![En informationstavla för naturreservatet Rosenlunds bankar](Gustav-Lindqvist_2016-07-23_0101.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![Selfie på Gustav i röd träningströja vid Rosenlunds bankar.](Gustav-Lindqvist_2016-07-23_0102.jpg){.-inline}
+![En informationstavla för naturreservatet Rosenlunds bankar](Gustav-Lindqvist_2016-07-23_0101.jpg){.-inline}
+:::
+::::
 
 Efter att ha kommit ut så försvann tröttheten från uppvaknandet och det blev som alla andra morgonrundor: **underbart** :)
 

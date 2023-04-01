@@ -25,16 +25,16 @@ Vi började med att gå ner mot centrum i värmen. Väl framme såg vi att det v
 
 ![Utsikt över staden Linz från Pöstlingberg](Gustav-Lindqvist_2019-07-16_06517-Pano.jpg){.-full}
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![Utsikt från Pöstlingberg med ett staket i förgrunden.](Gustav-Lindqvist_2019-07-16_06538.jpg){.-inline}
-		![Fasaden på en vit kyrka med träd i förgrunden.](Gustav-Lindqvist_2019-07-16_06526.jpg){.-inline}
-	</figure>
-	<figure class="gallery-row">
-		![Tornen på en kyrka sett bakom trädkronorna](Gustav-Lindqvist_2019-07-16_06528.jpg){.-inline}
-		![Vit tegelfasad där skuggan från träd syns](Gustav-Lindqvist_2019-07-16_06535.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![Utsikt från Pöstlingberg med ett staket i förgrunden.](Gustav-Lindqvist_2019-07-16_06538.jpg){.-inline}
+![Fasaden på en vit kyrka med träd i förgrunden.](Gustav-Lindqvist_2019-07-16_06526.jpg){.-inline}
+:::
+::: row
+![Tornen på en kyrka sett bakom trädkronorna](Gustav-Lindqvist_2019-07-16_06528.jpg){.-inline}
+![Vit tegelfasad där skuggan från träd syns](Gustav-Lindqvist_2019-07-16_06535.jpg){.-inline}
+:::
+::::
 
 Efter 40 minuter på toppen kände vi oss nöjda och åkte ner igen. Med tomma magar bestämde vi oss för att leta upp ett matställe. Det blev en liten restaurang med namnet Wirtshaus Keintzel på en innergård som gjorde Wienerschnitzel.
 

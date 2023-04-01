@@ -12,13 +12,13 @@ tags:
 
 Efter regn kommer solsken sägs det och det är samma sak i Kina. Det har regnat i några dagar nu och först idag blev det fint.{.lead}
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![Insidan av en byggnad som består av en lång spiraltrappa med en öppen yta i mitten.](IMG_20140422_151452.jpg){.-inline}
-		![En sfärisk panorama projicerad som en liten planet som visar ett torg.](IMG_20140423_112038.jpg){.-inline}
-		![En gata på campus med byggnader på sidorna och väldigt mycket grönska.](IMG_20140421_153336_L.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![Insidan av en byggnad som består av en lång spiraltrappa med en öppen yta i mitten.](IMG_20140422_151452.jpg){.-inline}
+![En sfärisk panorama projicerad som en liten planet som visar ett torg.](IMG_20140423_112038.jpg){.-inline}
+![En gata på campus med byggnader på sidorna och väldigt mycket grönska.](IMG_20140421_153336_L.jpg){.-inline}
+:::
+::::
 
 Eftersom jag inte tagit så mycket bilder på campus gick jag och Tobbe en runda och fotograferade. Med Google's nylanserade kamerapp i högsta hugg tog jag lite [photospheres som kan ses här](https://photos.app.goo.gl/cMUKw6WfxMtHKZT5A); Min plan är att fylla på det albumet med alla photospheres som jag tar.
 

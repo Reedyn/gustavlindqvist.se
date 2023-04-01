@@ -15,38 +15,38 @@ Andra dagen i Berlin började med en trevlig frukost på hotellet och sen en pro
 
 ![En gångväg längs med en kanal i Berlin. En bit bort går det en bro över både kanalen och gångvägen där ett tåg kör över.](Gustav-Lindqvist_2019-07-13_06295.jpg)
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![Ett klocktorn med grönt koppartak](Gustav-Lindqvist_2019-07-13_06313.jpg){.-inline}
-		![Toppen på Berliner Dom](Gustav-Lindqvist_2019-07-13_06317.jpg){.-inline}
-	</figure>
-	<figure class="gallery-row">
-		![Berliner Dom med kanalen intill.](Gustav-Lindqvist_2019-07-13_06307.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![Ett klocktorn med grönt koppartak](Gustav-Lindqvist_2019-07-13_06313.jpg){.-inline}
+![Toppen på Berliner Dom](Gustav-Lindqvist_2019-07-13_06317.jpg){.-inline}
+:::
+::: row
+![Berliner Dom med kanalen intill.](Gustav-Lindqvist_2019-07-13_06307.jpg){.-inline}
+:::
+::::
 
 Museet var väldigt intressant med en massa interaktiva moment som gav en inblick i livet i öst-Berlin från början till dess fall.
 
 Därefter blev det ett besök på Decathlon som är en gigantisk sport- och friluftsaffär. Jag köpte ett par MTB-glasögon 😄.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![Riksdagshuset i Berlin med en EU-flagga.](Gustav-Lindqvist_2019-07-13_06333.jpg){.-inline}
-	</figure>
-	<figure class="gallery-row">
-		![Pelarna på Brandenburger Tor](Gustav-Lindqvist_2019-07-13_06322.jpg){.-inline}
-		![En häststaty på toppen av Brandenburger Tor](Gustav-Lindqvist_2019-07-13_06323.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![Riksdagshuset i Berlin med en EU-flagga.](Gustav-Lindqvist_2019-07-13_06333.jpg){.-inline}
+:::
+::: row
+![Pelarna på Brandenburger Tor](Gustav-Lindqvist_2019-07-13_06322.jpg){.-inline}
+![En häststaty på toppen av Brandenburger Tor](Gustav-Lindqvist_2019-07-13_06323.jpg){.-inline}
+:::
+::::
 
 Sen gick vi bort till Brandenburger Tor och Tiergarten igen, denna gången för att besöka Förintelsemonumentet, som tillägnades de judar som mördades under andra världskriget, som ligger precis intill.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![Närbild på tre stenar i Förintelsemonumentet](Gustav-Lindqvist_2019-07-13_06363.jpg){.-inline}
-		![En monokrom överblicksbild på Förintelsemonumentet](Gustav-Lindqvist_2019-07-13_06371.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![Närbild på tre stenar i Förintelsemonumentet](Gustav-Lindqvist_2019-07-13_06363.jpg){.-inline}
+![En monokrom överblicksbild på Förintelsemonumentet](Gustav-Lindqvist_2019-07-13_06371.jpg){.-inline}
+:::
+::::
 
 Minnesmonumentet syftar till att "representera ett förmodligen ordnat system som har förlorat kontakten med mänsklig anledning" och var som ett stort rutnätverk av betongblock.
 
@@ -54,22 +54,22 @@ Minnesmonumentet syftar till att "representera ett förmodligen ordnat system so
 
 På kvällen blev det ett besök uppe i Fernsehturm 203 meter upp.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![Fernsehturm sett från avstånd](IMG_20190713_153152_875.jpg){.-inline}
-		![Fönster på toppvåningen i Fernsehturm.](20190713_201453-2.jpg){.-inline}
-		![Toppen av Fernsehturm sett rakt nedifrån.](OI000035.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![Fernsehturm sett från avstånd](IMG_20190713_153152_875.jpg){.-inline}
+![Fönster på toppvåningen i Fernsehturm.](20190713_201453-2.jpg){.-inline}
+![Toppen av Fernsehturm sett rakt nedifrån.](OI000035.jpg){.-inline}
+:::
+::::
 
 Dagen avslutade vi sen med en promenad bort till Berlin Wall Memorial.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![En bit av Berlinmuren](20190713_212657-2.jpg){.-inline}
-		![En big övervuxen del av Berlinmuren](20190713_213058-2.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![En bit av Berlinmuren](20190713_212657-2.jpg){.-inline}
+![En big övervuxen del av Berlinmuren](20190713_213058-2.jpg){.-inline}
+:::
+::::
 
 Efter DDR-museet på förmiddagen var det lite extra skrämmande att se muren på riktigt med vakttorn och allt.
 

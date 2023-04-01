@@ -11,13 +11,13 @@ tags:
 
 Nu har vi bott i några dagar i Ningbo och det känns faktiskt som att man har landat nu. Maten känns inte ovanligt, man har vant sig vid lukten och man börjar känna sig nästan lite hemma. Det är rätt märkligt med tanke på omständigheterna.{.lead}
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![En solnedgång över en basketplan på campusområdet](IMG_20140415_175630.jpg){.-inline}
-		![Ett Starbuckskafé i Ningbo](IMG_20140415_200455.jpg){.-inline}
-		![Bordsnummer 16 på en restaurang](IMG_20140416_120231.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![En solnedgång över en basketplan på campusområdet](IMG_20140415_175630.jpg){.-inline}
+![Ett Starbuckskafé i Ningbo](IMG_20140415_200455.jpg){.-inline}
+![Bordsnummer 16 på en restaurang](IMG_20140416_120231.jpg){.-inline}
+:::
+::::
 
 För tillfället bor vi på Zhejiang Wanli University campus i lägenheter avsedda för internationella, vilket betyder att de är typ dubbelt så stora som de vanliga lägenheterna och det bor hälften så många i dem. Vi har tvättmaskin, kök, kylskåp, mikrovågsugn, dusch och allt sådant (fast typ inget fungerar i just vår lägenhet).
 
@@ -41,12 +41,12 @@ Det var vid denna tidpunkt de andra kom fram till IKEA (utan problem alls) och h
 
 På IKEA passade vi på att äta lite på restaurangen och sedan den sedvanliga rundvandringen (där de andra besökarna var mer intresserade av oss än varorna) och avslutades sedan i IKEA Foods där vi fick tag på diverse svenska matartiklar. Jag som hungrat efter något ordentligt i brödväg köpte 3 stora påsar med skorpor :)
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![Insidan av en kinesisk IKEA-butik](IMG_20140419_142847.jpg){.-inline}
-		![Svenska skorpor och mjölkchoklad](IMG_20140419_144358.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![Insidan av en kinesisk IKEA-butik](IMG_20140419_142847.jpg){.-inline}
+![Svenska skorpor och mjölkchoklad](IMG_20140419_144358.jpg){.-inline}
+:::
+::::
 
 Efter IKEA tog vi taxi _(inga komplikationer)_ till ett annat köpcenter som heter Olé. Där har de importerade produkter liknande de som vi ska designa för på vårt projekt, så att besöka stället där produkterna ska säljas var något vi kände vi behövde göra. Det var efter detta som vi stötte på komplikationer igen. Det är nämligen så att mellan 16:30 och 18:00 är det taxibyten i Ningbo och det är i stort sett omöjligt att få tag på en taxi, speciellt inte för längre sträckor som det var vi skulle göra; Klockan var 16:21 när vi började leta taxi. Addera sen ösregn till denna ekvationen så får man ett litet hum om hur det var.
 

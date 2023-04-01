@@ -11,16 +11,16 @@ tags:
 
 Så här på förhösten ([ja det är tydligen ett ord](http://www.smhi.se/bloggar/vaderleken/2012/08/25/sensommar-eller-forhost/4)) är det väldigt trevligt på alla vandringsleder runtom i landet. Jag och familjen tog tillfället i akt och åkte till Skåneleden vid Romeleåsen och vandrade och grillade lite under dagen.
 
-<figure class="gallery -wide">
-    <figure class="gallery-row">
-        ![En skylt i skogen med texten: “Romeleklint 3, Lägerplats 0.4, Romelestigen”](Gustav-Lindqvist_2014-09-20_0744.jpg){.-inline}
-        ![Ett särpräglat träd](Gustav-Lindqvist_2014-09-20_0438.jpg){.-inline}
-    </figure>
-    <figure class="gallery-row">
-        ![Två korvar på ett grillgaller](Gustav-Lindqvist_2014-09-20_0001-73.jpg){.-inline}
-        ![Två personer som ligger på en filt i skogen och tittar upp mot himlen](Gustav-Lindqvist_2014-09-20_0001-49-1.jpg){.-inline}
-    </figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![En skylt i skogen med texten: “Romeleklint 3, Lägerplats 0.4, Romelestigen”](Gustav-Lindqvist_2014-09-20_0744.jpg){.-inline}
+![Ett särpräglat träd](Gustav-Lindqvist_2014-09-20_0438.jpg){.-inline}
+:::
+::: row
+![Två korvar på ett grillgaller](Gustav-Lindqvist_2014-09-20_0001-73.jpg){.-inline}
+![Två personer som ligger på en filt i skogen och tittar upp mot himlen](Gustav-Lindqvist_2014-09-20_0001-49-1.jpg){.-inline}
+:::
+::::
 
 Löven har börjat gulna men har kvar det mesta av sin gröna färg. Skogen lyser med en kraftig grön färg. Att det var lite halvmulet gjorde det inte sämre för fotograferande heller :D
 

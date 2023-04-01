@@ -15,13 +15,13 @@ Efter att ha pratat om att åka till Kullaberg ett tag tog vi ett ganska spontan
 
 Trots den extrema värmen och att Kullaberg knappt erbjuder något skydd mot den var det väldigt mycket folk. De flesta höll sig dock längst upp på toppen i närheten av parkeringen och undvek den värsta klättringen.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![Josefine sitter på en klippa och fotograferar ut mot havet på Kullaberg](Gustav-Lindqvist_2018-08-02_1086.jpg){.-inline}
-		![En person står i öppningen av en grotta.](Gustav-Lindqvist_2018-08-02_0978.jpg){.-inline}
-		![En stenlagd stig som går upp mot toppen av Kullaberg](Gustav-Lindqvist_2018-08-02_1017-Edit.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![Josefine sitter på en klippa och fotograferar ut mot havet på Kullaberg](Gustav-Lindqvist_2018-08-02_1086.jpg){.-inline}
+![En person står i öppningen av en grotta.](Gustav-Lindqvist_2018-08-02_0978.jpg){.-inline}
+![En stenlagd stig som går upp mot toppen av Kullaberg](Gustav-Lindqvist_2018-08-02_1017-Edit.jpg){.-inline}
+:::
+::::
 
 Vi hittade en klippa med en mycket fin utsikt, och efter lite väntande fick vi en underbar scen där skuggorna från molnen dansade över landskapet.
 
@@ -43,16 +43,16 @@ Dagen därefter traskade vi de långa 1.5km från campingen bort till färjeläg
 
 Denna dagen blev om möjligt ännu varmare så det blev inte så mycket vandring utan vi gick bara någon kilometer över till fyren på norra sidan av ön där vi också åt vår massäck. Sedan sällade vi oss till de andra besökarna vid stranden och svalkade oss i det klara vattnet.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![Mossa på stenar](Gustav-Lindqvist_2018-08-03_1370.jpg){.-inline}
-		![En fyr sett på avstånd](Gustav-Lindqvist_2018-08-03_1384.jpg){.-inline}
-	</figure>
-	<figure class="gallery-row">
-		![En fyr bland klippor och gräs.](Gustav-Lindqvist_2018-08-03_1389.jpg){.-inline}
-		![En fyr sedd underifrån. Bredvid står en person med armarna i luften](Gustav-Lindqvist_2018-08-03_1386.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![Mossa på stenar](Gustav-Lindqvist_2018-08-03_1370.jpg){.-inline}
+![En fyr sett på avstånd](Gustav-Lindqvist_2018-08-03_1384.jpg){.-inline}
+:::
+::: row
+![En fyr bland klippor och gräs.](Gustav-Lindqvist_2018-08-03_1389.jpg){.-inline}
+![En fyr sedd underifrån. Bredvid står en person med armarna i luften](Gustav-Lindqvist_2018-08-03_1386.jpg){.-inline}
+:::
+::::
 
 När vi sen skulle åka därifrån blev kön extremt lång till båten, vi var lite oroliga att vi inte skulle få plats men båten slukade alla passagerare utan problem och vi fick till och med bästa läktarplats för resan tillbaka.
 

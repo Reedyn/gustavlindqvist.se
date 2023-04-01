@@ -50,25 +50,25 @@ Och sen en färdig modell. Storleksmässigt är den 2-3 gånger större än de f
 
 ![En modell av Jönköping i LEGO](Gustav-Lindqvist_2019-10-12_07462.jpg "Färdigbyggt!"){.-full}
 
-<figure class="gallery -wide">
-	<figure class="gallery-row -no-wrap">
-		![En bild på en LEGO-modell över Jönköping från sidan](Gustav-Lindqvist_2019-10-12_07466-1.jpg){.-inline}
-		![Munksjötornet i LEGO](Gustav-Lindqvist_2019-10-12_07465.jpg){.-inline}
-	</figure>
-	<figure class="gallery-row -no-wrap">
-		![LEGO-modell av ett litet träd](Gustav-Lindqvist_2019-10-09_07440.jpg){.-inline}
-		![LEGO-modell av Tekniska högskolan i Jönköping](Gustav-Lindqvist_2019-10-12_07467.jpg){.-inline}
-	</figure>
-	<figcaption><p>Toarullen och högskolan</p></figcaption>
-</figure>
+:::: gallery {.-wide}
+::: row {.-no-wrap}
+![En bild på en LEGO-modell över Jönköping från sidan](Gustav-Lindqvist_2019-10-12_07466-1.jpg){.-inline}
+![Munksjötornet i LEGO](Gustav-Lindqvist_2019-10-12_07465.jpg){.-inline}
+:::
+::: row {.-no-wrap}
+![LEGO-modell av ett litet träd](Gustav-Lindqvist_2019-10-09_07440.jpg){.-inline}
+![LEGO-modell av Tekniska högskolan i Jönköping](Gustav-Lindqvist_2019-10-12_07467.jpg){.-inline}
+:::
+<figcaption><p>Toarullen och högskolan</p></figcaption>
+::::
 
-<figure class="gallery -wide">
-	<figure class="gallery-row -no-wrap">
-		![Närbild på Munksjöbron i LEGO](Gustav-Lindqvist_2019-10-09_07442-1.jpg){.-inline}
-		![Munksjöbron och Spira i LEGO](Gustav-Lindqvist_2019-10-12_07471-2.jpg){.-inline}
-	</figure>
-	<figcaption><p>Munksjöbron</p></figcaption>
-</figure>
+:::: gallery {.-wide}
+::: row {.-no-wrap}
+![Närbild på Munksjöbron i LEGO](Gustav-Lindqvist_2019-10-09_07442-1.jpg){.-inline}
+![Munksjöbron och Spira i LEGO](Gustav-Lindqvist_2019-10-12_07471-2.jpg){.-inline}
+:::
+<figcaption><p>Munksjöbron</p></figcaption>
+::::
 
 ![Kulturhuset Spira i LEGO](Gustav-Lindqvist_2019-10-12_07473-1.jpg "Kulturhuset Spira"){.-wide}
 

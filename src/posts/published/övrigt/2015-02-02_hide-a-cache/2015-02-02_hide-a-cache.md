@@ -11,13 +11,13 @@ tags:
 
 Under helgen slängde jag och min pappa ihop en geocache. Vi tog en stock, sågade av ena halvan (som blev ett lock) och borrade ett hål för att ha själva cachen i. Tanken var att cachen skulle smälta in fint i omgivning och samtidigt vara något som är lite roligare att hitta än en matlåda eller liknande.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-        ![En tjock gren med en symbol för geocaching ritad med blyerts på änden](Gustav-Lindqvist_2015-01-31_0032_s.jpg){.-inline}
-        ![En person borrar i en tjock gren](Gustav-Lindqvist_2015-01-31_0030_s.jpg){.-inline}
-        ![En träbit med ett tjockt borrat hål i](Gustav-Lindqvist_2015-01-31_0028_s.jpg){.-inline}
-    </figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![En tjock gren med en symbol för geocaching ritad med blyerts på änden](Gustav-Lindqvist_2015-01-31_0032_s.jpg){.-inline}
+![En person borrar i en tjock gren](Gustav-Lindqvist_2015-01-31_0030_s.jpg){.-inline}
+![En träbit med ett tjockt borrat hål i](Gustav-Lindqvist_2015-01-31_0028_s.jpg){.-inline}
+:::
+::::
 
 Eftersom jag tycker om att pyssla tog jag en glödpenna och brände in Groundspeaks geocaching logotyp i ena änden av stocken. Locket skruvades sedan igenom för att kunna snurras bort för att komma åt cachen.
 

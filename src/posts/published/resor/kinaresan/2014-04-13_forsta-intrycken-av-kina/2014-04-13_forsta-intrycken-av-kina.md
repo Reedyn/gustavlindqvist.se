@@ -20,12 +20,12 @@ _Efter ett besök på en restaurang så begav vi oss iväg på en liten promenad
 
 Parker, grönområden och gågator är väldigt välskötta, man ser inte ett papper som ligger på marken eftersom det verkar som att ingen skräpar ner och om det är någon som tappar något blir det upplockat någon minut senare.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![En gågata i Shanghai](DSC_0063_L.jpg){.-inline}
-		![En park sett fårn en hög byggnad i Shanghai](_OLY0337_L.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![En gågata i Shanghai](DSC_0063_L.jpg){.-inline}
+![En park sett fårn en hög byggnad i Shanghai](_OLY0337_L.jpg){.-inline}
+:::
+::::
 
 Stora prisskillnader jämfört med Sverige på vissa varor, att gå på restaurang är typ i snitt hälften så dyrt som Sverige medans en halvliters Coca Cola kan kosta ~2-3 kronor, en bråkdel av vad det kostar hemma.
 

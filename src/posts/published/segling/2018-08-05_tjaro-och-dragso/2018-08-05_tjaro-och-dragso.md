@@ -13,7 +13,7 @@ Tjärö har förändrats rejält genom åren efter att de gjort ett flertal äga
 
 Filmen nedan av Chani Johnsson visar hur det nya fina restaurangkomplexet ser ut. Med möjligheter att få mat, dryck och fika.
 
-<figure class="embed video -wide"> <iframe width="480" height="270" src="https://www.youtube.com/embed/RHPMO2EOqQ4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </figure>
+<figure class="embed video -wide"> <iframe width="480" height="270" src="https://www.youtube.com/embed/RHPMO2EOqQ4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>
 
 Även jag saknar det gamla Tjärö så är allt bättre än vad det var åren efter 2008.
 

@@ -25,15 +25,15 @@ Det blev en runda bort till ett matställe och sen bort till Brandenburger Tor.
 
 Sedan gick vi en trevlig promenad runt parlamentsbyggnaderna och vattnet.
 
-<figure class="gallery -wide">
-	<figure class="gallery-row">
-		![Bundestag](20190712_200009-2.jpg){.-inline}
-		![Großer tiergarten](OI000017.jpg){.-inline}
-	</figure>
-	<figure class="gallery-row">
-		![Bundestag sett från vattnet.](Gustav-Lindqvist_2019-07-12_06282.jpg){.-inline}
-		![En kanal i Berlin.](Gustav-Lindqvist_2019-07-12_06264.jpg){.-inline}
-	</figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![Bundestag](20190712_200009-2.jpg){.-inline}
+![Großer tiergarten](OI000017.jpg){.-inline}
+:::
+::: row
+![Bundestag sett från vattnet.](Gustav-Lindqvist_2019-07-12_06282.jpg){.-inline}
+![En kanal i Berlin.](Gustav-Lindqvist_2019-07-12_06264.jpg){.-inline}
+:::
+::::
 
 Kvällen avslutades med lite öl på en mysig restaurang på en innergård ett halvt kvarter från hotellet.

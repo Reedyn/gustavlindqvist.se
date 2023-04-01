@@ -26,12 +26,12 @@ Efter att vi kollat på vattenfallet en stund gick vi bort mot Västanåleden so
 
 Västanåleden är mestadels bokskog med fin utsikt mot Visingsö längs med kuststräckan.
 
-<figure class="gallery -wide">
-    <figure class="gallery-row">
-        ![En stig i en grön bokskog, bilden är tagen med fokus långt bort på ett träd med en orange markering. Förgrunden är lätt ur fokus.](Gustav-Lindqvist_2022-09-10_05946.jpg){.-inline}
-        ![Ett träd med orange markering i en bokskog.](Gustav-Lindqvist_2022-09-10_05952.jpg){.-inline}
-    </figure>
-</figure>
+:::: gallery {.-wide}
+::: row
+![En stig i en grön bokskog, bilden är tagen med fokus långt bort på ett träd med en orange markering. Förgrunden är lätt ur fokus.](Gustav-Lindqvist_2022-09-10_05946.jpg){.-inline}
+![Ett träd med orange markering i en bokskog.](Gustav-Lindqvist_2022-09-10_05952.jpg){.-inline}
+:::
+::::
 
 Egentligen är Västanåleden en stor rundslinga men vi kände inte riktigt för att gå hela leden så vi vek av upp mot en skogsväg som vi tog tillbaka.
 
