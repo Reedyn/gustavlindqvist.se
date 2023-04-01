@@ -1,10 +1,6 @@
 module.exports = {
     gallery: {
         minMarkerCount: 4,
-        validate: function(params) {
-            return params.trim().match(/^gallery\s+(.*)$/);
-        },
-
         render: function (tokens, idx) {
             const token = tokens[idx];
             if (token.nesting === 1) {
