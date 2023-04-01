@@ -11,5 +11,13 @@ module.exports = {
     checksum: function (filename) {
         const fileContent = fs.readFileSync(filename, 'utf8');
         return hashString(fileContent);
+    },
+    githubLink: function () {
+        const prefix = 'https://github.com/Reedyn/gustavlindqvist.se/blob/main/'
+        return prefix + this.page.inputPath.replace('./','')
+    },
+    sourceLink: function () {
+        const prefix = 'https://raw.githubusercontent.com/Reedyn/gustavlindqvist.se/main/'
+        return prefix + this.page.inputPath.replace('./','')
     }
 };
