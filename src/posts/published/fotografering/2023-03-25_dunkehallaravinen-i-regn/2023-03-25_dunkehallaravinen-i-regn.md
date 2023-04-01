@@ -21,8 +21,6 @@ Det var ett stort regnområde som rörde sig norr om staden där vi fick slänga
 
 ![Utsikt från toppen av Dunkehallaravinen med vattenfallet för Dunkehallaån rakt nedanför i full kraft. Vättern och Jönköping skymtas en bit bort med regnmoln över.](Gustav-Lindqvist_2023-03-25_08167.jpg "Dunkehallaravinen"){.-full}
 
-![Utsikt från toppen av Dunkehallaravinen med vattenfallet för Dunkehallaån rakt nedanför i full kraft. Vättern och Jönköping skymtas en bit bort med regnmoln över.](Gustav-Lindqvist_2023-03-25_08167.jpg "Dunkehallaravinen"){.-full}
-
 ![Selfie på Gustav i Stadsparken](photo_2023-03-25_21-49-53.jpg)
 
 I stadsparken [passade jag på att gå på de nya stigarna de håller på att anlägga så att jag sen kunde lägga in dem i OpenStreetMap](https://www.openstreetmap.org/changeset/134107263#map=18/57.78495/14.14255) (min felstavning kommer nu att vara förevigad i datasetet för alltid: *kontstruktion*)
