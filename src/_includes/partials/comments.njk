@@ -31,7 +31,7 @@
                 >
                 {{ reply.author.name | safe}}</span>{% endif %} kommenterade {%  if reply.url %}<a href="{{ reply.url }}" target="_blank" rel="external noopener noreferrer"> <time class="timeago" prefix datetime="{{ reply.published | date("YYYY-MM-DDTHH:mm:ss") }}" title="{{ reply.published | date("YYYY-MM-DD HH:mm") }}">{{ reply.published | date("YYYY-MM-DD") }}</time></a>{% else %}<span> <time class="timeago" prefix datetime="{{ reply.published | date("YYYY-MM-DDTHH:mm:ss") }}" title="{{ reply.published | date("YYYY-MM-DD HH:mm") }}">{{ reply.published | date("YYYY-MM-DD") }}</time></span>{% endif %}
             </span>
-            {{ reply.content | safe }}
+            {{ reply.content | safe }}{% if reply.image %}<p><a href="{{ reply.url }}"><img class="Comments__image" src="{{ reply.image.preview_url }}" alt="{{ reply.image.description }}"></a></p>{% endif %}
         </li>
         {% endfor %}
     </ol>
