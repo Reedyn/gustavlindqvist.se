@@ -2,8 +2,6 @@
 title: "Det här vill jag göra under 2022"
 feature_image: Gustav-Lindqvist_2020-07-13_09711-Pano.jpg
 description: "Jag är inte mycket för nyårslöften av flera anledningar men nu så här lite mer än en månad in på året inser jag att jag ändå vill skriva ner vad jag vill göra under året."
-mastodonId: "107764319058784893"
-mastodonDomain: mastodon.acc.sunet.se
 twitterId: "1491150760083664900"
 permalink: "/2022/todo/index.html"
 ---

@@ -42,13 +42,22 @@
         justify-content: flex-start;
     }
 
+    .tags {
+        display: none;
+    }
+
     @include respond-to(medium) {
         &.post:first-of-type {
             aspect-ratio: 21/9;
             grid-column-start: span 3;
 
+
             .Card__title {
                 font-size: 3rem;
+            }
+
+            .tags {
+                display: block;
             }
         }
     }

@@ -1,28 +1,38 @@
+{%- set repliesForPost = mastodonId | getRepliesForPost -%}
 <aside class="Comments hidden@print" aria-labelledby="kommentarer">
     <h2 class="Comments__title separator-heading" id="kommentarer"><span>Kommentarer</span></h2>
-    {% if postInteractions.replies.length %}
+    {% if repliesForPost.length %}
     <ol class="Comments__list">
-        {% for reply in postInteractions.replies %}
-            {%- set sluggedName = reply.author.name | slug -%}
-            <li class="Comments__list-item {% if reply.author['is-me'] %}-is-me{% endif %} -{{ reply["wm-property"] }}" data-source="{{ reply["wm-source"] }}">
-                <span class="Comments__metadata">
-                {% if reply.author.url %}<a class="Comments__author" href="{{ reply.author.url }}" target="_blank" rel="external noopener noreferrer">
-                {% else %}<span class="Comments__author">{% endif %}
-                    <img
-                            class="Comments__avatar"
-                            src="{{ reply.author.photo or 'https://source.boringavatars.com/beam/45/' + sluggedName + '?colors=262AFF,4326FF,6226FF,8426FF,8727CC' }}"
-                            alt="{{ reply.author.name }}"
-                            loading="lazy"
-                            decoding="async"
-                            width="48"
-                            height="48"
-                    >
-                    {{ reply.author.name }}
-                {% if reply.author.url %}</a>{% else %}</span>{% endif %}
-                {% if reply['action-type'] === 'tweet'%}tweetade{% elseif reply['wm-property'] === 'repost-of' %}delade{% else %}kommenterade{% endif %} {%  if reply.url %}<a href="{{ reply.url }}" target="_blank" rel="external noopener noreferrer"> <time class="timeago" prefix datetime="{{ reply.published | date("YYYY-MM-DDTHH:mm:ss") }}" title="{{ reply.published | date("YYYY-MM-DD") }}">{{ reply.published | date("YYYY-MM-DD") }}</time></a>{% else %}<span> <time class="timeago" prefix datetime="{{ reply.published | date("YYYY-MM-DDTHH:mm:ss") }}" title="{{ reply.published | date("YYYY-MM-DD HH:mm") }}">{{ reply.published | date("YYYY-MM-DD") }}</time></span>{% endif %}
-                </span>
-                {% if reply['wm-property'] !== 'repost-of' %}<p>{{ reply.content.value | safe }}</p>{% endif %}
-            </li>
+        {% for reply in repliesForPost %}
+        {%- set sluggedName = reply.author.name | slug -%}
+        <li class="Comments__list-item{% if reply.author['is_me'] %} -is-me{% endif %}" data-source="{{ reply.source }}">
+            <span class="Comments__metadata">
+            {% if reply.author.url %}
+            <a class="Comments__author" href="{{ reply.author.url }}" target="_blank" rel="external noopener noreferrer">
+                <img
+                        class="Comments__avatar"
+                        src="{{ reply.author.image or 'https://source.boringavatars.com/beam/45/' + sluggedName + '?colors=262AFF,4326FF,6226FF,8426FF,8727CC' }}"
+                        alt="Bild på {{ reply.author.name }}"
+                        loading="lazy"
+                        decoding="async"
+                        width="48"
+                        height="48"
+                >
+                {{ reply.author.name | safe}}</a>{% else %}
+            <span class="Comments__author">
+                <img
+                        class="Comments__avatar"
+                        src="{{ reply.author.image or 'https://source.boringavatars.com/beam/45/' + sluggedName + '?colors=262AFF,4326FF,6226FF,8426FF,8727CC' }}"
+                        alt="Bild på {{ reply.author.name }}"
+                        loading="lazy"
+                        decoding="async"
+                        width="48"
+                        height="48"
+                >
+                {{ reply.author.name | safe}}</span>{% endif %} kommenterade {%  if reply.url %}<a href="{{ reply.url }}" target="_blank" rel="external noopener noreferrer"> <time class="timeago" prefix datetime="{{ reply.published | date("YYYY-MM-DDTHH:mm:ss") }}" title="{{ reply.published | date("YYYY-MM-DD HH:mm") }}">{{ reply.published | date("YYYY-MM-DD") }}</time></a>{% else %}<span> <time class="timeago" prefix datetime="{{ reply.published | date("YYYY-MM-DDTHH:mm:ss") }}" title="{{ reply.published | date("YYYY-MM-DD HH:mm") }}">{{ reply.published | date("YYYY-MM-DD") }}</time></span>{% endif %}
+            </span>
+            {{ reply.content | safe }}
+        </li>
         {% endfor %}
     </ol>
     {% endif %}

@@ -10,7 +10,6 @@ eleventyComputed:
     modified: "{% if updateDate %}{{ updateDate | isoString }}{% endif %}"
 ---
 {%- set canonicalURL = metadata.url + page.url -%}
-{%- set postInteractions = webmentions | interactionsForPage(comments, canonicalURL) -%}
 {% if feature_image %}
     {%- set optimizedFeaturedImage = feature_image | featuredImageFilter("100vw", "page-header__image", page) %}
 {% else %}

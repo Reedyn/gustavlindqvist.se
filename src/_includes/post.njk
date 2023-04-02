@@ -10,18 +10,12 @@ eleventyComputed:
     modified: "{% if updateDate %}{{ updateDate | isoString }}{% endif %}"
 ---
 {%- set canonicalURL = metadata.url + page.url -%}
-{%- set postInteractions = webmentions | interactionsForPage(comments, canonicalURL) -%}
 {% if feature_image %}
     {%- set optimizedFeaturedImage = feature_image | featuredImageFilter("100vw", "post-header__image", page) %}
 {% else %}
     {%- set optimizedFeaturedImage = "" %}
 {% endif %}
-{% if series %}
-{%- set nextPost = collections[series] | removePostsNotInSeries(series) | getNextCollectionItem(page) %}
-    {% if nextPost and nextPost.data.feature_image %}
-        {%- set nextPostOptimizedFeaturedImage = nextPost.data.feature_image | featuredImageFilter("100vw", "next-post__image", nextPost.data.page) %}
-    {% endif %}
-{% endif %}
+{% if series %}{%- set nextPost = collections[series] | removePostsNotInSeries(series) | getNextCollectionItem(page) %}{% endif %}
 <article class="post">
     <header id="post-header" class="post-header{% if feature_image %} -feature-image{% endif %}">
         <div class="post-metadata">
@@ -39,5 +33,5 @@ eleventyComputed:
         {% if not (nextPost and series) %}{% include "partials/syndicated-content.njk" %}{% endif %}
     </section>
 </article>
-{% if series and nextPost %}{% include "partials/next-post-in-series.njk" %}{% endif %}
+{% include "partials/next-post-in-series.njk" %}
 
