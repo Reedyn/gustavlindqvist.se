@@ -7,6 +7,7 @@ const pluginSchema = require('@quasibit/eleventy-plugin-schema');
 
 const markdown = require('./.eleventy_config/markdown');
 const filters = require('./.eleventy_config/filters');
+const asyncFilters = require('./.eleventy_config/filters.async');
 const shortcodes = require('./.eleventy_config/shortcodes');
 const collections = require('./.eleventy_config/collections');
 
@@ -46,6 +47,11 @@ module.exports = function (eleventyConfig) {
     // Filters
     Object.keys(filters).forEach((filterName) => {
         eleventyConfig.addFilter(filterName, filters[filterName])
+    });
+
+    // Async filters
+    Object.keys(asyncFilters).forEach((filterName) => {
+        eleventyConfig.addAsyncFilter(filterName, asyncFilters[filterName])
     });
 
     // Shortcodes

@@ -5,12 +5,10 @@ const moment = require('moment/moment');
 const markdown = require('./markdown');
 const hashString = require('./functions').hashString;
 const featuredImageFilter = require('./filters/featured-image');
-const interactionsForPage = require('./filters/interactions-for-page');
 const dates = require('./filters/dates');
 
 module.exports = {
     log: (object) => {
-        console.log(object.constructor.name)
         console.log(object);
     },
     groupByYear: (collection) => {
@@ -143,6 +141,5 @@ module.exports = {
     },
     isoString: (date = Date.now()) => new Date(date).toISOString(),
     count: (arr) => arr.length,
-    interactionsForPage,
-    featuredImageFilter
+    featuredImageFilter,
 };

@@ -2,8 +2,6 @@
 title: "Aprilväder"
 description: "Något som det behövs en årlig påminnelse om i april är att det inte är våren som kommit utan mellanperioden vårvintern"
 feature_image: Gustav-Lindqvist_0942.JPG
-mastodonId: "108086819863967350"
-mastodonDomain: mastodon.acc.sunet.se
 twitterId: "1511791119150972928"
 series: cykling
 tags:

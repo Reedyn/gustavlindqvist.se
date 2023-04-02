@@ -67,7 +67,6 @@ eleventyComputed:
             {%- for post in collections.ölbryggning | reverse -%}
             {% if loop.index0 < 4 %}
             {%- set canonicalURL = metadata.url + post.data.page.url -%}
-            {%- set postInteractions = webmentions | interactionsForPage(comments, canonicalURL) -%}
             {%- set optimizedFeaturedImage = post.data.feature_image | featuredImageFilter("50w", "Card__image", post.data.page) %}
             {%- set parsed_feature_image = post.data.feature_image | parseImagePath(post.url)-%}
             <article aria-labelledby="{{ post.url | hashString}}" class="Card post -align-bottom{% if optimizedFeaturedImage %} -featured-image{% endif %}" style="{% if optimizedFeaturedImage %} background-image: url({{ optimizedFeaturedImage }});{% endif %}{% if post.data.color %} --color__background__contrast__widget: {{ post.data.color }};{% endif %}">
