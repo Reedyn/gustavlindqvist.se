@@ -1,4 +1,8 @@
 .Comments {
+    img.Comments__image {
+        max-height: 15em;
+        margin: initial;
+    }
 }
 
 .Comments__list {
@@ -9,6 +13,8 @@
 
 .Comments__title {
 }
+
+
 
 .Comments_reference {
     font-size: calc(var(--font__size) * .85);

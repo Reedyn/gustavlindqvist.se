@@ -22,10 +22,17 @@ const normalize = {
             })
             .map((reply) => {
 
+                const image = (reply.media_attachments.filter((media) => media.type === 'image'))[0];
+
                 return {
                     published: reply.created_at,
                     source: 'mastodon',
                     content: reply.content,
+                    image: (typeof image !== 'undefined') ? {
+                        preview_url: image.preview_url,
+                        url: image.url,
+                        description: image.description
+                    } : null,
                     url: reply.url,
                     author: {
                         name: reply.account.display_name.replace(/:\w+:/,'').trim(), // Remove custom emojis
