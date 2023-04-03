@@ -71,7 +71,7 @@
         width: 100%;
         height: 100%;
         backdrop-filter: blur(10px) brightness(60%);
-        mask: linear-gradient(0deg, black 0em, #0003 6em, transparent 8em);
+        mask: linear-gradient(0deg,#000 0,rgba(0, 0, 0, 0.7) 4em,transparent 8em)
     }
 }
 
