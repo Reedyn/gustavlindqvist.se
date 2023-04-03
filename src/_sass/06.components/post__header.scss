@@ -30,16 +30,15 @@
 
     .post-date {
         margin-top: var(--margin__small);
-        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0,0,0,0.20), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.10), 0 16px 16px rgba(0,0,0,0.05);
     }
 
     .tags {
-        margin-top: var(--margin__small);
+        margin-top: var(--margin__medium);
         .tag {
             display: inline-block;
             margin-right: .4em;
             color: inherit;
-            background: rgba(0, 0, 0, 0.5);
+            background: var(--color__background__widget);
             padding: 0 .5em;
             margin-bottom: .4em;
         }
@@ -78,18 +77,19 @@
         color: var(--color__text__contrast);
         position: relative;
         background-color: black;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0,0,0,0.20), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.10), 0 16px 16px rgba(0,0,0,0.05);
 
         a {
             color: var(--color__text__contrast);
         }
 
-        .post-title {
+        .post-metadata {
             text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0,0,0,0.20), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.10), 0 16px 16px rgba(0,0,0,0.05);
         }
 
         .tags {
             .tag {
-                background: rgba(128, 128, 128, 0.4);
+                background: rgba(255, 255, 255, 0.1);
             }
         }
 
