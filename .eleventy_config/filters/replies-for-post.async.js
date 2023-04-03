@@ -3,7 +3,7 @@ const sanitizeHTML = require("sanitize-html");
 
 require('dotenv').config();
 
-const mastodonAsync = {}
+const mastodonAsync = {};
 
 mastodonAsync.host = 'jkpg.rocks';
 
@@ -18,7 +18,8 @@ const normalize = {
         return posts
             .filter((reply) => {
                 // Don't include bots or accounts that are set to not be discoverable
-                return (reply.account.discoverable || !reply.account.bot)
+                // and only include posts that are public
+                return (reply.account.discoverable && !reply.account.bot && reply.visibility === 'public')
             })
             .map((reply) => {
 
@@ -143,7 +144,7 @@ const normalize = {
                 }
             })
     }
-}
+};
 
 const getMastodonReplies = async function (postId) {
     try {
@@ -152,7 +153,7 @@ const getMastodonReplies = async function (postId) {
             duration: "6h",
             type: "json",
             directory: ".cache"
-        }
+        };
         const response = await fetch(url, options);
 
         return response.descendants;
@@ -160,9 +161,10 @@ const getMastodonReplies = async function (postId) {
         console.error(err);
         return [];
     }
-}
+};
+
 const getRepliesForPost = async function (postId) {
-    const postUrl = this.ctx.metadata.url + this.ctx.page.url
+    const postUrl = this.ctx.metadata.url + this.ctx.page.url;
     const comments = [];
 
     comments.push(normalize.webmentions(this.ctx.webmentions.filter((entry) => {
@@ -182,7 +184,8 @@ const getRepliesForPost = async function (postId) {
         return new Date(a.published) - new Date(b.published);
     });
 
-}
+};
+
 module.exports = {
     getRepliesForPost
 };
