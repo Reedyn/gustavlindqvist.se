@@ -42,7 +42,7 @@
         justify-content: flex-start;
     }
 
-    .tags {
+    .tags .tag:not(:first-of-type) {
         display: none;
     }
 
@@ -56,8 +56,8 @@
                 font-size: 3rem;
             }
 
-            .tags {
-                display: block;
+            .tags .tag {
+                display: inline-block;
             }
         }
     }
