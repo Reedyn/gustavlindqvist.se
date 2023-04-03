@@ -28,6 +28,7 @@ const normalize = {
                 return {
                     published: reply.created_at,
                     source: 'mastodon',
+                    type: 'in-reply-to',
                     content: reply.content,
                     image: (typeof image !== 'undefined') ? {
                         preview_url: image.preview_url,
@@ -55,6 +56,7 @@ const normalize = {
             .map((comment) => {
                 return {
                     published: comment.published,
+                    type: comment['wm-property'],
                     source: 'local',
                     content: comment.content.html,
                     url: comment.url,
@@ -128,13 +130,13 @@ const normalize = {
                         entry[urlField] = entry[urlField].split('#')[0];
                     }
                 });
-
                 return {
                     published: entry.published,
                     type: entry['wm-property'],
                     source: 'webmention',
                     content: entry.content.value,
                     url: entry.url,
+                    host: new URL(entry.url).host,
                     author: {
                         name: entry.author.name,
                         url: entry.author.url,
@@ -148,7 +150,7 @@ const normalize = {
 
 const getMastodonReplies = async function (postId) {
     try {
-        const url = `https://${mastodonAsync.host}/api/v1/statuses/${postId}/context`
+        const url = `https://${mastodonAsync.host}/api/v1/statuses/${postId}/context`;
         const options = {
             duration: "6h",
             type: "json",
