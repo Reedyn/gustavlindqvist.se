@@ -5,7 +5,7 @@
     <ol class="Comments__list">
         {% for reply in repliesForPost %}
         {% if reply.author.name.length %}{%- set sluggedName = reply.author.name | slug -%}{% else %}{%- set sluggedName = reply.host | slug -%}{% endif %}{{ sluggedName | log }}
-        <li class="Comments__list-item{% if reply.author['is_me'] %} -is-me{% endif %}{% if reply.type === 'mention-of' %} -mention-of{% endif %}" data-source="{{ reply.source }}">
+        <li class="Comments__list-item{% if reply.author['is_me'] %} -is-me{% endif %}{% if not reply.conten} -no-content{% endif %}" data-source="{{ reply.source }}">
             <span class="Comments__metadata">
             {% if reply.author.url %}
             <a class="Comments__author" href="{{ reply.author.url }}" target="_blank" rel="external noopener noreferrer">
