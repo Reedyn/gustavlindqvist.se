@@ -134,7 +134,7 @@ const normalize = {
                     published: entry.published,
                     type: entry['wm-property'],
                     source: 'webmention',
-                    content: entry.content.value,
+                    content: `<p>${entry.content.value}</p>`,
                     url: entry.url,
                     host: new URL(entry.url).host,
                     author: {
