@@ -4,3 +4,4 @@
 /.cache/
 .env
 /src/**/*.md.backup
+/**/.obsidian/
