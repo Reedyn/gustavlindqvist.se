@@ -11,6 +11,8 @@ tags:
 
 De flesta väskor för cyklarna är one-size-fits-most. Där inkluderas styrväskor, sadelväskor med mera. Det gäller dock inte för ramväskan eftersom den ska in i ramen. Många cyklar har en ganska liknande ram som racer och gruscyklar, men inte MTB.{.lead}
 
+## Lärdomar från gamla väskan
+
 ## Material
 
 * [X-PAC 220g/m²][Friluftstyger - X-PAC220]
@@ -18,6 +20,9 @@ De flesta väskor för cyklarna är one-size-fits-most. Där inkluderas styrväs
 * [100mm kardborrband][Friluftstyger - Kardborrband]
 * [Krokar för gummiband][Extremtextil - Pack hook for 3mm cord]
 
+## Gustavs cykel
+
+## Jossans cykel
 
 *[MTB]: Mountainbike
 
