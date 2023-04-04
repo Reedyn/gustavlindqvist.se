@@ -4,7 +4,6 @@ feature_image: IMG_20180914_083819797_HDR_2.jpg
 description: En kort rapport från turen till Borgafjällen i början av hösten.
 date: 2018-12-20
 tags: ['friluftsliv', 'resor', 'borgafjäll', 'höst']
-
 ---
 
 En kort rapport från turen till Borgafjällen i början av hösten.{.lead}

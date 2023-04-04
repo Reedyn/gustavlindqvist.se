@@ -160,6 +160,12 @@
         "description": "Jag är ute och cyklar (i skogen).",
         "type": "subject"
     },
+    "myog": {
+        "title": "pryltillverkning",
+        "emoji": "✂",
+        "feedTitle": "Gustavs pryltillverkning",
+        "type": "subject"
+    },
     "nederländerna": {
         "title": "Nederländerna",
         "emoji": "\uD83C\uDDF3\uD83C\uDDF1",
