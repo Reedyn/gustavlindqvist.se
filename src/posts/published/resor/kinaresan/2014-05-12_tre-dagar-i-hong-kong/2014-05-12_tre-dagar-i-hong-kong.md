@@ -62,6 +62,8 @@ Ocean Park är uppdelat i två delar, en halva som ligger i dalen, där fanns ak
 
 Ocean Park avslutades med att se på deras fontänshow med specialeffekter.
 
+<figure class="embed"><iframe title="Symbio!" src="https://video.gustavlindqvist.se/videos/embed/e91251e2-915b-43ab-a364-d7494b5d8e3a?start=5s&amp;warningTitle=0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560" height="315" frameborder="0"></iframe></figure>
+
 ## Dag 3
 
 Tredje och sista dagen började med att vi bytte hotell till ett som var närmre flygplatsen. Här var det den fina poolen som vi fick ha i princip ensamma som var huvudattraktionen.
