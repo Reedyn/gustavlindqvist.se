@@ -5,3 +5,6 @@
 .env
 /src/**/*.md.backup
 /**/.obsidian/
+
+# Local Netlify folder
+.netlify

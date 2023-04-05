@@ -101,8 +101,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            backdrop-filter: blur(10px) brightness(80%);
-            mask: linear-gradient(0deg,#000 0,rgba(0, 0, 0, 0.7) 6em,transparent 12em);
+            background: linear-gradient(0deg,#000 0,rgba(0, 0, 0, 0.7) 6em,transparent 12em);
         }
 
         .post-header__image {
