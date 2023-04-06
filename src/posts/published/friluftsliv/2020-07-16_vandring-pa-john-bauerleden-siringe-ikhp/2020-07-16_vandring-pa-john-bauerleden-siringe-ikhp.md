@@ -41,7 +41,7 @@ Därefter var det dags för lite riktiga stigar i skogen som också bjöd på et
 
 Efter 12 kilometer gjorde vi ett stopp för att laga lunch vid Pukasjön där det byggts ett nytt fint vindskydd med utedass.
 
-![Pukasjön under en molnig himmel](Gustav-Lindqvist_2020-07-12_09661-Pano.jpg){.-full}
+![Pukasjön under en molnig himmel](Gustav-Lindqvist_2020-07-12_09661-Pano.jpg "Pukasjön"){.-full}
 
 ![Josefine sitter på en brygga vid Pukasjön](Gustav-Lindqvist_2020-07-12_09666.jpg){.-wide}
 
@@ -53,6 +53,7 @@ Sedan gick vi vidare mot Fjällstorp som låg ungefär 2 kilometer bort. Vid Fj�
 ![Josefine blåser på en eld](Gustav-Lindqvist_2020-07-12_09683.jpg){.-inline}
 ![En selfie i ett tält där jag (Gustav) ligger upp och ner och håller kameran, Josefine är snett bakom och tittar in i kameran.](Gustav-Lindqvist_2020-07-12_212456.jpg){.-inline}
 :::
+<figcaption><p><em>Tältplatsen vid Fjällstorp</em></p></figcaption>
 ::::
 
 Jag hade lite som ett mål att testa min sovsäcks gränser vilket gick alldeles utmärkt. Det är en sovsäck för +13° och det blev +10.4° som kallast i tältet.
@@ -77,7 +78,7 @@ Turen avslutades sedan med vandring på Huskvarnaberget där vi passerade den my
 	<iframe width="612" height="344" src="https://www.youtube-nocookie.com/embed/lHH8InlHv4A?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
 
-![Utsikt från Brunstorpsberget mot Jönköping.](Gustav-Lindqvist_2020-07-13_09976-Pano.jpg){.-full}
+![Utsikt från Brunstorpsberget mot Jönköping.](Gustav-Lindqvist_2020-07-13_09976-Pano.jpg "Utsikt från Brunstorpsberget"){.-full}
 
 Sedan gick vi sista biten bort mot IKHP-stugan där vi blev upphämtade. Lagom vandringstur på ~29km.
 
