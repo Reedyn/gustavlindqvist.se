@@ -46,9 +46,9 @@
                 </style>
             </noscript>
             <p class="Form__group">
-                <textarea id="content" name="content" required placeholder="Skriv en kommentar…"></textarea>
+                <textarea id="content" name="content" required placeholder="Skriv en kommentar…" aria-describedby="content-description"></textarea>
                 <label for="content">Kommentar</label>
-                <span class="secondary smallcaps -collapsed">Det går bra att skriva med <a href="https://www.markdownguide.org/cheat-sheet/">Markdown <svg class="icon -large icon--xml" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/markdown.svg#icon"></use></svg></a></span>
+                <span class="secondary small -collapsed" id="content-description">Det går bra att skriva med <a href="https://www.markdownguide.org/cheat-sheet/">Markdown <svg class="icon -large icon--xml" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/markdown.svg#icon"></use></svg></a></span>
             </p>
             <p class="Form__group -collapsed">
                 <input type="text" id="author.name" name="author.name" required>
