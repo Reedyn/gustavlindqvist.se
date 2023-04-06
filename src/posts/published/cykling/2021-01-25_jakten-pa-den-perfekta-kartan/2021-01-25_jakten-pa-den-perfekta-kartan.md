@@ -24,7 +24,7 @@ Garmins cykeldatorer kan göra mycket och har en ganska trevlig skärm för att 
 
 Första alternativet jag testade var [OpenMTBMap](https://openmtbmap.org/) som var flera steg framåt. Kartdatan uppdateras regelbundet (veckovis om jag förstod det rätt) och kartan är också betydligt bättre
 
-![Skärmdump från Garmin Edge 530 som visar OpenMTBMap-kartan]((79.jpg)
+![Skärmdump från Garmin Edge 530 som visar OpenMTBMap-kartan](79.jpg)
 
 Samtidigt var det ganska många saker jag störde mig på vid användning, framförallt att det är på tok för mycket detaljer. Jag känner inget behov av att se varenda kiosk, fotbollsplan eller livsmedelsbutik.
 
@@ -54,13 +54,13 @@ Jag får då några fördelar:
 * Jag kan uppdatera kartan hur ofta jag vill
 * Jag får en massa extra arbete
 
-Första frågan är då vilken design jag vill ha på kartan. Jag gillar design och valen som tagits med kartrenderingen [CyclOSM], så jag tänkte att det kan vara en bra utgångspunkt.
+Första frågan är då vilket utseende jag vill ha på kartan. Jag gillar designen och valen som tagits med kartrenderingen [CyclOSM], så jag tänkte att det kan vara en bra utgångspunkt.
 
 ![Karta över Vattenledningsparken från CyclOSM](vivaldi_Cnjx5XQghm.png "[CyclOSM över Vattenledningsparken](https://www.cyclosm.org/#map=15/57.7646/14.1265/cyclosm)"){.-full}
 
 Verktyget som används för att skapa en rendering för Garminenheter heter [mkgmap] och man designar kartan via `typfiles`, jag använde först redigeringsprogrammet [TYPWiz 6] men gick sen över till att redigera textfilerna direkt, det var snabbare när man väl vant sig vid strukturen.
 
-![Karta över Vattenledningsparken från en Garmin Edge-enhet]((121.jpg)
+![Karta över Vattenledningsparken från en Garmin Edge-enhet](121.jpg)
 
 Så blev mitt första utkast, redan en tydlig förbättring. Jag valde att göra landområden som skogar, fält, hus med mera ljusa för att ge en ordentlig kontrast till stigar och rutter på enheten. Stigar blev svarta och dedikerade cykelvägar/stigar i mörkblått. I praktiken fungerar det bra då det räcker att kasta ett öga på enheten för att orientera sig.
 
