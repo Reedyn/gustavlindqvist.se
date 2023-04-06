@@ -61,6 +61,8 @@ Början av turen gick genom skog fullt med mygg och annat men efter en liten stu
 
 Väl uppe vid sjön Čuonjájávri och med en fin vy över Lapporten stannade vi och vilade en stund och åt den lilla proviant vi hade med oss. Pappa kokade lite pilsnerkorv som några av oss åt.
 
+![Två personer som sitter och tittar ut på utsikten från en höjd](Gustav-Lindqvist_2016-07-26_0423.jpg)
+
 Sen var det dags för den betydligt lättare vandringen nedför berget igen, nu kunde vi njuta av utsikten varje steg.
 
 ![Fyra personer som går på en stig nedför ett kalfjäll. Det är utsikt över Abisko och Torneträsk.](Gustav-Lindqvist_2016-07-26_0468.jpg)
