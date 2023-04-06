@@ -66,11 +66,11 @@ Rundan börjar med lite mer än en kilometer med platt asfalt, sen kommer nästa
 
 :::: gallery {.-wide}
 ::: row
-![Forsen under vägen vid toppen av Dunkehallaravinen i full fart](20211205_102335%7E2-01.jpeg){.-inline}
-![Stadsparken i Jönköping täckt av snö](20221120_155007%7E2.jpg){.-inline}
-:::
-::: row
 ![Selfie på Gustav på toppen av Dunkehallatrapporna med en frusen Dunkehallaravin i bakgrunden](20221120_154716~2.jpg){.-inline}
 ![Dunkehallaravinen i skugga och täckt av snö och is. I bakgrunden ses de sista solstrålarna färga Jönköping orange](20230308_164011%7E2.jpg){.-inline}
+:::
+::: row
+![Forsen under vägen vid toppen av Dunkehallaravinen i full fart](20211205_102335%7E2-01.jpeg){.-inline}
+![Stadsparken i Jönköping täckt av snö](20221120_155007%7E2.jpg){.-inline}
 :::
 ::::
