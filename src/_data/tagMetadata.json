@@ -35,6 +35,12 @@
         "emoji": "\uD83D\uDD8C️",
         "type": "subject"
     },
+    "diy": {
+        "title": "pysselverkstad",
+        "emoji": "\uD83D\uDCD0",
+        "feedTitle": "Gustavs pysselverkstad",
+        "type": "subject"
+    },
     "fäboliden": {
         "title": "Fäboliden",
         "type": "location"
@@ -158,12 +164,6 @@
         "title": "stigcykling",
         "feedTitle": "Gustav är ute och cyklar (i skogen)",
         "description": "Jag är ute och cyklar (i skogen).",
-        "type": "subject"
-    },
-    "myog": {
-        "title": "pysselverkstad",
-        "emoji": "\uD83D\uDCD0",
-        "feedTitle": "Gustavs pysselverkstad",
         "type": "subject"
     },
     "nederländerna": {
