@@ -5,24 +5,29 @@ let markdown = markdownIt({
     html: true,
     breaks: false,
     linkify: true
-})
+});
 
 module.exports = function (tokens, idx, options, env, self) {
-    const token = tokens[idx]
+    const token = tokens[idx];
     const source = decodeURI(token.attrGet('src'));
     const attributes = {
         alt: token.content,
         loading: 'lazy',
         decoding: 'async'
-    }
-    const style = token.attrGet('class');
+    };
+    const style = (token.attrGet('class')) ? token.attrGet('class') : '';
     const classString = ` class="image ${style}"`;
 
     const caption = token.attrGet('title');
 
     const attributesString = ' ' + Object.keys(attributes).map(key => `${key}="${attributes[key]}"`).join(" ");
 
-    if (source.startsWith('/') || source.startsWith('http')) { // If the source is absolute or external
+    if (source === '') {
+        if (caption) {
+            return `<figure${classString}><img width="800" height="300"${attributesString}><figcaption><em>${markdown.render(caption)}</em></figcaption></figure>`;
+        }
+        return `<figure${classString}><img width="800" height="300"${attributesString}></figure>`;
+    } else if (source.startsWith('/') || source.startsWith('http')) { // If the source is absolute or external
         if (caption) {
             return `<figure${classString}><img src="${source}"${attributesString}><figcaption><em>${markdown.render(caption)}</em></figcaption></figure>`;
         }
