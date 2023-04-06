@@ -4,8 +4,23 @@ em {
 }
 
 .note {
-    padding: var(--margin__small);
-    background: var(--color__background__alt);
+    padding: var(--margin__medium);
+    background: #6183fd26;
+    color: var(--color__link);
+
+    &:before {
+        content: "!";
+        display: inline-block;
+        background: var(--color__link);
+        width: 2em;
+        height: 2em;
+        text-align: center;
+        border-radius: 50%;
+        font-weight: 700;
+        color: var(--color__background);
+        line-height: 2em;
+        margin-right: 1em;
+    }
 }
 
 .lead {

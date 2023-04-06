@@ -3,6 +3,10 @@
         "title": "11ty",
         "type": "subject"
     },
+    "abisko": {
+        "title": "Abisko",
+        "type": "location"
+    },
     "amsterdam": {
         "title": "Amsterdam",
         "type": "location"
@@ -140,6 +144,10 @@
     "kullaberg": {
         "title": "Kullaberg",
         "type": "location"
+    },
+    "kungsleden": {
+        "title": "Kungsleden",
+        "type": "hiking_trail"
     },
     "kåseberga": {
         "title": "Kåseberga",

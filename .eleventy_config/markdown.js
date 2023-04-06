@@ -65,6 +65,20 @@ let markdown = markdownIt({
     })
     .use(markdownItAnchor, markdownItAnchorOptions)
     .use(markdownItAttrs)
+    .use(require('markdown-it-container'),'note',{
+        render: function (tokens, idx) {
+            const token = tokens[idx];
+            if (token.nesting === 1) {
+                // opening tag
+                const classes = (token.attrGet('class')) ? ' ' + token.attrGet('class') : '';
+                return `<aside class="note${classes}">`;
+
+            } else {
+                // closing tag
+                return '</aside>';
+            }
+        }
+    })
     .use(require('markdown-it-container'),'gallery', markdownItGallery.gallery)
     .use(require('markdown-it-container'),'row',markdownItGallery.row);
 
