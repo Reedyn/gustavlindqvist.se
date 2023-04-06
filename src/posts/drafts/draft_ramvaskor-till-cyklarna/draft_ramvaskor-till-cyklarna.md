@@ -4,7 +4,7 @@ description: ""
 feature_image: ""
 date: 2023-04-04 10:18:56 +02:00
 tags:
-    - myog
+    - diy
     - friluftsliv
     - cykling
 ---
