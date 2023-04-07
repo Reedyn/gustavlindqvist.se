@@ -5,7 +5,7 @@ templateClass: home-template
 <div class="wrapper">
 <section class="Cards posts" aria-labelledby="senaste-inlaggen">
     <h2 id="senaste-inlaggen" class="sr-only">Senaste inläggen</h2>
-    {%- for post in collections.posts | reverse -%}
+    {%- for post in collections.posts | sortBySortDate | reverse -%}
     {% if loop.index0 < 4 %}
     {%- set canonicalURL = metadata.url + post.data.page.url -%}
     {% if loop.index0 == 0 %}
