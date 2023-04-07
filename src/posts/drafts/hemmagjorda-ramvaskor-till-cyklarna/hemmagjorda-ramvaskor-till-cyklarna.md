@@ -11,8 +11,7 @@ tags:
 
 De flesta väskor för cyklarna är one-size-fits-most. Där inkluderas styrväskor, sadelväskor med mera. Det gäller dock inte för ramväskan eftersom den ska in i ramen. Många cyklar har en ganska liknande ram som racer och gruscyklar, men inte MTB.{.lead}
 
-## Lärdomar från gamla väskan
-
+## Min första ramväska
 
 ![Bild på den gamla väskan]()
 
