@@ -22,6 +22,15 @@ module.exports = {
         items = [...items];
         return items.sort((a, b) => Math.sign(a.data.order - b.data.order));
     },
+    sortBySortDate: (items) => {
+        items = [...items];
+        return items
+            .map((item) => {
+                item.data.sortDate = (typeof item.data.sortDate !== 'undefined') ? item.data.sortDate : item.date;
+                return item;
+            })
+            .sort((a, b) => new Date(a.data.sortDate) - new Date(b.data.sortDate));
+    },
     slug: (input) => {
         const options = {
             replacement: '-',
