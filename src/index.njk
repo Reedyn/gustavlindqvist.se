@@ -9,7 +9,7 @@ templateClass: home-template
     {% if loop.index0 < 4 %}
     {%- set canonicalURL = metadata.url + post.data.page.url -%}
     {% if loop.index0 == 0 %}
-        {%- set optimizedFeaturedImage = post.data.feature_image | featuredImageFilter("(min-width: 55em) 55em,
+        {%- set optimizedFeaturedImage = post.data.feature_image | featuredImageFilter("(min-width: 30em) 55em,
            400px", "Card__image", post.data.page) %}
     {% else %}
         {%- set optimizedFeaturedImage = post.data.feature_image | featuredImageFilter("(min-width: 55em) 18em,
