@@ -12,7 +12,6 @@ eleventyNavigation:
     parent: hembryggeri
     key: "49.44n-13.22o"
     title: "49°44′N, 13°22′O"
-tags: beer
 ---
 
 En ljus pilsner med klassisk tjeckisk Saaz-humle.
