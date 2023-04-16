@@ -50,14 +50,14 @@ eleventyComputed:
     <section aria-labelledby="beers" class="content">
         <h2 id="beers" class="sr-only">Mina öl</h2>
         <div class="beers">
-            {%- for beer in collections.beers | sortByOrder -%}
+            {%- for beer in collections.beers | sortByOrder -%}{% if not beer.data.one_off_brew %}
                 <article class="beer" aria-labelledby="{{ beer.url | hashString}}"{% if beer.data.color %} data-order="{{ beer.data.order }}" style="--color__link: {{ beer.data.color }}"{% endif %}>
                     <h3 class="beer-title"><a id="{{ beer.url | hashString}}" href="{{ beer.url }}">
                             {% if beer.data.label %}<svg class="beer-label" role="presentation" aria-label="{{ beer.data.title }}" viewBox="{{ beer.data.label_viewbox }}"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="{{ beer.data.label }}"></use></svg>
                             {% else %}{{ beer.data.title }}{% endif %}</a>
                     </h3>
                 </article>
-            {%- endfor -%}
+            {% endif %}{%- endfor -%}
         </div>
     </section>
 	{% if collections.ölbryggning.length %}
