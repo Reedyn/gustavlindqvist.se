@@ -1,8 +1,0 @@
-.kg-card {
-    margin-top: var(--margin__medium);
-    margin-bottom: var(--margin__medium);
-    @include respond-to(medium) {
-        margin-top: var(--margin__large);
-        margin-bottom: var(--margin__large);
-    }
-}
