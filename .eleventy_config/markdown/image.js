@@ -67,13 +67,13 @@ module.exports = function (tokens, idx, options, env, self) {
         let inlineStyling = (style === '-inline') ? ` style="flex: ${highsrc.width / highsrc.height}"` : '';
 
         // Base sizes on the layout changes.
-        let sizes = '(max-width: 80rem) 100vw, 80rem';
+        let sizes = '(max-width: 50rem) 100vw, 50rem';
         switch (style) {
             case '-full':
                 sizes = '100vw';
                 break;
             case '-wide':
-                sizes = '(max-width: 100rem) 100vw, 100rem';
+                sizes = '(max-width: 80rem) 100vw, 80rem';
                 break;
             case '-inline':
                 // Approximation of the size in the UI, not perfect since the siblings width isn't taken into account
