@@ -52,7 +52,7 @@ module.exports = function (tokens, idx, options, env, self) {
 
         const filePath = folderPath + source;
 
-        EleventyImage(filePath, options)
+        EleventyImage(filePath, options);
         const metadata = EleventyImage.statsSync(filePath, options);
         console.log('[' + '\x1b[36m%s\x1b[0m', '11ty Image' + '\x1b[0m' + ']:', 'Created responsive images for', filePath);
 
