@@ -79,7 +79,7 @@ eleventyComputed:
                     {% if (post.data.tags) %}<span class="tags"><span class="sr-only">Taggar: </span>
                         {%- for tag in post.data.tags -%}
                             {% if (tag !== 'posts') and (tag !== 'page') %}
-                                <span class="tag">{{ tag }}</span><span class="sr-only">,</span>
+                                <span class="tag">{{ tag | firstLetterUppercase }}</span><span class="sr-only">,</span>
                             {% endif %}
                         {%- endfor -%}
                         </span>{% endif %}
