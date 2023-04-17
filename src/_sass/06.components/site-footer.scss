@@ -36,6 +36,16 @@
         list-style: none;
         padding-inline-start: 0;
         margin: 0;
+        li {
+            margin-bottom: .5em;
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            a {
+                display: block;
+            }
+        }
     }
 
     a {
