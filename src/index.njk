@@ -33,7 +33,7 @@ templateClass: home-template
     {% endif %}
     {%- endfor -%}
 </section>
-<p>Läs mer i <a href="/blogg/">bloggen</a>.</p>
+    <p>Läs {{ collections.posts.length-4 }} fler inlägg i <a href="/blogg/">bloggen</a>.</p>
 <h2 id="annan-lasning">Lästips</h2>
 <section class="Cards series" aria-labelledby="annan-lasning">
     <article aria-labelledby="{{ "/kinaresan/" | hashString }}" class="Card -align-bottom -featured-image">
