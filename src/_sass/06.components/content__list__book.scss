@@ -5,13 +5,13 @@ ol.book-list {
 }
 
 .book-list__item {
-  display: flex;
-  margin-bottom: var(--margin__small);
+  margin-bottom: var(--margin__medium);
   &:last-child {
     margin-bottom: 0;
   }
 
   .book-list__cover {
+    float: left;
     width: 5rem;
     margin-left: 0;
     margin-bottom: 0;
