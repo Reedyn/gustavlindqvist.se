@@ -1,7 +1,6 @@
 /*
-  Report-To: {"group":"default","max_age":31536000,"endpoints":[{"url":"https://gustavlindqvist.report-uri.com/a/d/g"}],"include_subdomains":true}
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-  Content-Security-Policy-Report-Only: default-src https://*.gustavlindqvist.se https://gustavlindqvist.se https://player.vimeo.com https://www.youtube-nocookie.com https://en.frame.mapy.cz; style-src https://*.gustavlindqvist.se https://gustavlindqvist.se 'unsafe-inline'; img-src https:; script-src https://*.gustavlindqvist.se https://gustavlindqvist.se 'unsafe-inline'; report-to https://gustavlindqvist.report-uri.com/r/d/csp/reportOnly
+  Content-Security-Policy-Report-Only: default-src https://*.gustavlindqvist.se https://gustavlindqvist.se https://player.vimeo.com https://www.youtube-nocookie.com https://en.frame.mapy.cz; style-src https://*.gustavlindqvist.se https://gustavlindqvist.se 'unsafe-inline'; img-src https:; script-src https://*.gustavlindqvist.se https://gustavlindqvist.se 'unsafe-inline'; report-to https://reports.gustavlindqvist.se/
   Content-Security-Policy: default-src https://*.gustavlindqvist.se https://gustavlindqvist.se https://player.vimeo.com https://www.youtube-nocookie.com https://en.frame.mapy.cz; style-src https://*.gustavlindqvist.se https://gustavlindqvist.se 'unsafe-inline'; img-src https:; script-src https://*.gustavlindqvist.se https://gustavlindqvist.se 'unsafe-inline';
   Referrer-Policy: no-referrer
   X-Content-Type-Options: nosniff
