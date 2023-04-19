@@ -4,12 +4,18 @@
     <ul class="post-list">
         {% for feedItem in inoreader.latestPostsForSeries[series] %}
             {% if loop.index0 < 5 %}
-            <li class="post-list__item">
-                <a class="post-title post-link" href="{{ feedItem.link }}" target="_blank" rel="noopener" title="Öppnas i ny flik.">{{ feedItem.title }}</a>
-                <p class="post-date">
-                    <time class="timeago" firstletterupper datetime="{{ feedItem.publicationDate | shortISODate }}T00:00:00.000+01:00" title="{{ feedItem.publicationDate | shortISODate }}">{{ feedItem.publicationDate  | readableDate }}</time> via
-                    <a href="{{ feedItem.blogLink }}">{{ feedItem.blogName }}</a>
-                </p>
+            <li class="post-list__item -magazine">
+                <div class="post-list__item-image">
+                    <img src="https://opengraph.gustavlindqvist.se/{{ feedItem.link | encodeURIComponent }}/small/ " alt="Tumnagelbild för {{ feedItem.title }}">
+                </div>
+                <div class="post-list__item-content">
+                    <a class="post-title post-link" href="{{ feedItem.link }}" target="_blank" rel="noopener" title="Öppnas i ny flik.">{{ feedItem.title }}</a>
+                    <p class="post-date">
+                        <time class="timeago" firstletterupper datetime="{{ feedItem.publicationDate | shortISODate }}T00:00:00.000+01:00" title="{{ feedItem.publicationDate | shortISODate }}">{{ feedItem.publicationDate  | readableDate }}</time> via
+                        <a href="{{ feedItem.blogLink }}">{{ feedItem.blogName }}</a>
+                    </p>
+                </div>
+
             </li>
             {% endif %}
         {% endfor %}
