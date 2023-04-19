@@ -25,7 +25,7 @@ eleventyComputed:
         <p><svg class="icon icon--feed" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/rss.svg#rss"></use></svg> <a href="/blogroll.xml">Följ med OPML</a></p>
         {%- for category in inoreader.feeds -%}
         <details>
-            <summary>{{ category.title }}<sup>({{ category.feeds | count }}<span class="sr-only"> flöden</span>)</sup></summary>
+            <summary><h3>{{ category.title }}<sup>({{ category.feeds | count }}<span class="sr-only"> flöden</span>)</sup></h3></summary>
             <ul class="no-style">
             {%- for feed in category.feeds -%}
                 <li>
@@ -40,7 +40,7 @@ eleventyComputed:
         <p>Uppdateras tyvärr inte så ofta eftersom det görs via manuell export från mitt poddprogram.</p>
         <p>Senast uppdaterad: <time datetime="2023-03-21 10:22">2023-03-21</time></p>
         <details>
-            <summary>Podcasts<sup>({{ podcasts.feeds | count }})</sup></summary>
+            <summary><h3>Podcasts<sup>({{ podcasts.feeds | count }})</sup></h3></summary>
             <ul class="no-style">
                 {%- for podcast in podcasts.feeds -%}
                     <li><a href="{{ podcast.xml_url }}"><img class="icon" src="https://avatars.gustavlindqvist.se/{{ podcast.xml_url | encodeURIComponent}}" alt="Ikon för {{ podcast.title }}"> {{ podcast.title }}</a></li>
