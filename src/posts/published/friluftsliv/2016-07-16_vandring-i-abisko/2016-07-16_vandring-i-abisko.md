@@ -30,7 +30,7 @@ Första dagen som också var en resdag hade vi inte tid för så mycket så vi b
 ![Två personer som går på en grusstig med ett kalt fjäll i bakgrunden](Gustav-Lindqvist_2016-07-25_0209.jpg){.-inline}
 ![En linbana som går upp mot ett fjäll. Mitt i bild är det en stol med två personer som vänt på sig och tittar rakt in i kameran](Gustav-Lindqvist_2016-07-25_0235.jpg){.-inline}
 :::
-<figcaption><p><em>Vandring och linbana upp till Nuolja och Aurora Sky Station</em></p></figcaption>
+<figcaption><p>Vandring och linbana upp till Nuolja och Aurora Sky Station</p></figcaption>
 ::::
 
 Uppe på toppen var den fantastisk vy över hela dalen i Abisko och i fjärran skymtade vi Lapporten dit vi skulle dagen efter.
@@ -77,7 +77,7 @@ Tredje och sista dagen blev lite kort vandring längs Kungsleden med mer fokus p
 ![En fors med grönt klart vatten med klippor på båda sidor. Forsen ringlar sig genom landskapet bort mot ett kalfjäll som syns långt bort](Gustav-Lindqvist_2016-07-27_0023-Pano.jpg){.-inline}
 ![Närbild på en fors med grönt klart vatten](Gustav-Lindqvist_2016-07-27_0052-Pano.jpg){.-inline}
 :::
-<figcaption><p><em>Forsen i Abiskojokk</em></p></figcaption>
+<figcaption><p>Forsen i Abiskojokk</p></figcaption>
 ::::
 
 Dag Hammarskjöld var en flitig besökare och denna första delen av Kungsleden går parallellt med [Dag Hammarsjöldsleden](https://kiruna.se/konst-och-kulturhistoria/modalpuffar/kulturmiljo/dag-hammarskoldsleden.html), en pilgrimsled med flera meditationsplatser med citat från hans efterlämnade texter inristade på stenar.

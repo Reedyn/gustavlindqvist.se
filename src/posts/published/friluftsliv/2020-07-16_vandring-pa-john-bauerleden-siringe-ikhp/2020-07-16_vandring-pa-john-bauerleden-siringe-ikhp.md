@@ -53,7 +53,7 @@ Sedan gick vi vidare mot Fjällstorp som låg ungefär 2 kilometer bort. Vid Fj�
 ![Josefine blåser på en eld](Gustav-Lindqvist_2020-07-12_09683.jpg){.-inline}
 ![En selfie i ett tält där jag (Gustav) ligger upp och ner och håller kameran, Josefine är snett bakom och tittar in i kameran.](Gustav-Lindqvist_2020-07-12_212456.jpg){.-inline}
 :::
-<figcaption><p><em>Tältplatsen vid Fjällstorp</em></p></figcaption>
+<figcaption><p>Tältplatsen vid Fjällstorp</p></figcaption>
 ::::
 
 Jag hade lite som ett mål att testa min sovsäcks gränser vilket gick alldeles utmärkt. Det är en sovsäck för +13° och det blev +10.4° som kallast i tältet.
