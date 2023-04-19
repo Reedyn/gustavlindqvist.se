@@ -34,9 +34,12 @@ module.exports = async function (src, sizes, style, postData) {
         formats: [null],
         outputDir: outputPath,
         urlPath: postData.url,
-        sharpOptions: {
-            animated: true,
-            progressive: true
+        sharpGifOptions: {
+            animated: true
+        },
+        sharpJpegOptions: {
+            progressive: true,
+            optimiseScans: true
         }
     };
     let metadata = await EleventyImage(src, options);

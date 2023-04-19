@@ -48,9 +48,12 @@ module.exports = function (tokens, idx, options, env, self) {
             formats: [null],
             outputDir: outputPath,
             urlPath: '',
-            sharpOptions: {
-                animated: true,
-                progressive: true
+            sharpGifOptions: {
+                animated: true
+            },
+            sharpJpegOptions: {
+                progressive: true,
+                optimiseScans: true
             }
         };
 

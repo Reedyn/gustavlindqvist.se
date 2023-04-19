@@ -27,9 +27,12 @@ module.exports = async function (src, style, alt, caption = undefined) {
             formats: [null],
             outputDir: outputPath,
             urlPath: '',
-            sharpOptions: {
-                animated: true,
-                progressive: true
+            sharpGifOptions: {
+                animated: true
+            },
+            sharpJpegOptions: {
+                progressive: true,
+                optimiseScans: true
             }
         };
 
