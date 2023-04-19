@@ -26,7 +26,11 @@ module.exports = async function (src, style, alt, caption = undefined) {
             widths: [500, 900, 1500, 2500, null],
             formats: [null],
             outputDir: outputPath,
-            urlPath: ''
+            urlPath: '',
+            sharpOptions: {
+                animated: true,
+                progressive: true
+            }
         };
 
         let metadata = await EleventyImage(src, options);
