@@ -26,10 +26,10 @@ eleventyComputed:
         {%- for category in inoreader.feeds -%}
         <details>
             <summary>{{ category.title }}<sup>({{ category.feeds | count }}<span class="sr-only"> flöden</span>)</sup></summary>
-            <ul>
+            <ul class="no-style">
             {%- for feed in category.feeds -%}
                 <li>
-                    <a href="{{ feed.htmlUrl }}"><img class="icon" src="https://avatars.gustavlindqvist.se/{{ feed.htmlUrl | encodeURIComponent }}" alt="Ikon för {{ feed.title }}">{{ feed.title }}</a> <sup>[<a href="{{ feed.xmlUrl }}" title="för {{ feed.title }}">Flöde</a>]</sup>
+                    <a href="{{ feed.htmlUrl }}"><img class="icon" src="https://avatars.gustavlindqvist.se/{{ feed.htmlUrl | encodeURIComponent }}" alt="Ikon för {{ feed.title }}"> {{ feed.title }}</a> <sup>[<a href="{{ feed.xmlUrl }}" title="för {{ feed.title }}">Flöde</a>]</sup>
                 </li>
             {%- endfor -%}
             </ul>
@@ -43,7 +43,7 @@ eleventyComputed:
             <summary>Podcasts<sup>({{ podcasts.feeds | count }})</sup></summary>
             <ul class="no-style">
                 {%- for podcast in podcasts.feeds -%}
-                    <li><a href="{{ podcast.xml_url }}"><img class="icon" src="https://avatars.gustavlindqvist.se/{{ podcast.xml_url | encodeURIComponent}}" alt="Ikon för {{ podcast.title }}">{{ podcast.title }}</a></li>
+                    <li><a href="{{ podcast.xml_url }}"><img class="icon" src="https://avatars.gustavlindqvist.se/{{ podcast.xml_url | encodeURIComponent}}" alt="Ikon för {{ podcast.title }}"> {{ podcast.title }}</a></li>
                 {%- endfor -%}
             </ul>
         </details>
