@@ -81,7 +81,7 @@ module.exports = function (tokens, idx, options, env, self) {
                 break;
         }
 
-        const captionElement = (caption) ? `<figcaption><em>${markdown.render(caption)}</em></figcaption>` : '';
+        const captionElement = (caption) ? `<figcaption>${markdown.render(caption)}</figcaption>` : '';
 
         return `<figure class="image ${style}"${inlineStyling}>
                <picture>
