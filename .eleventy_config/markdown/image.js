@@ -47,7 +47,11 @@ module.exports = function (tokens, idx, options, env, self) {
             widths: [500, 900, 1500, 2500, null],
             formats: [null],
             outputDir: outputPath,
-            urlPath: ''
+            urlPath: '',
+            sharpOptions: {
+                animated: true,
+                progressive: true
+            }
         };
 
         const filePath = folderPath + source;
