@@ -113,6 +113,9 @@ module.exports = {
     encodeURL: (inputString) => {
         return encodeURI(inputString);
     },
+    encodeURIComponent: (inputString) => {
+        return encodeURIComponent(inputString);
+    },
     parseImagePath: (imagePath, postPath) => {
         if (imagePath) {
             if (imagePath.indexOf('/assets/images/') !== -1) { // If image is in the content folder.
