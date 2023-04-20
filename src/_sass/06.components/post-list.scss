@@ -4,7 +4,11 @@
 }
 
 .post-list__item {
-    margin-bottom: var(--margin__medium);
+    margin-bottom: var(--margin__large);
+
+    @include respond-to(tiny) {
+        margin-bottom: var(--margin__medium);
+    }
     &:last-child {
         margin-bottom: 0;
     }
@@ -24,17 +28,17 @@
         display: flex;
         flex-direction: column;
 
-        @include respond-to(small) {
+        @include respond-to(tiny) {
             flex-direction: row;
         }
 
         .post-list__item-image {
             width: 100%;
-            aspect-ratio: 4/1;
+            aspect-ratio: 16/9;
 
-            @include respond-to(small) {
-                width: 10em;
-                aspect-ratio: 16/9;
+            @include respond-to(tiny) {
+                width: 5em;
+                aspect-ratio: 1/1;
             }
 
             img {
@@ -48,7 +52,7 @@
             flex: 1;
             padding-top: var(--margin__small);
 
-            @include respond-to(small) {
+            @include respond-to(tiny) {
                 padding-top: 0;
                 padding-left: var(--margin__small);
             }
