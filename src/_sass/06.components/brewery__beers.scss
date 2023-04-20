@@ -7,7 +7,11 @@
     grid-template-columns: 1fr;
 
     @include respond-to(small) {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    @include respond-to(medium) {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
@@ -17,6 +21,7 @@
 
     a {
         &:hover, &:focus {
+            background: none !important;
             .beer-label {
                 filter: drop-shadow(0 0 1rem var(--color__link));
             }
