@@ -20,4 +20,25 @@
     > :last-child {
         margin-bottom: 0;
     }
+
+    a {
+        color: var(--color__link);
+        text-decoration: underline;
+        transition: all .2s;
+
+        &:visited {
+            color: var(--color__link__visited);
+        }
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+            color: var(--color__background);
+            background: var(--color__link);
+
+            &:visited {
+                background: var(--color__link__visited);
+            }
+        }
+    }
 }

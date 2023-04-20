@@ -1,24 +1,32 @@
-.header-anchor {
-    position: relative;
-    color: var(--color__text);
+.content .header-anchor {
+    position: absolute;
+    color: var(--color__link);
+    transform: translateX(-0.8em);
+    text-decoration: none;
+    opacity: 0;
 
     &:visited {
-        color: var(--color__text);
-    }
-
-    &:before {
-        position: absolute;
-        left: -.8em;
-        display: none;
-        content: "#";
+        color: var(--color__link);
     }
 
     &:focus,
     &:hover {
         color: var(--color__link);
+        background: none;
+        text-decoration: underline;
 
-        &:before {
-            display: block;
+        &:visited {
+            color: var(--color__link);
+            background: none;
+        }
+    }
+}
+
+.content h1, h2, h3, h4 {
+    &:hover,
+    &:focus {
+        .header-anchor {
+            opacity: 1;
         }
     }
 }
