@@ -86,7 +86,7 @@ eleventyComputed:
             </ul>
         </div>
         <div id="beer-ingredients" class="beer-ingredients" aria-labelledby="ingredienser">
-            <h2 id="ingredienser"><a class="header-anchor" href="#ingredienser">Ingredienser</a> <span class="secondary">({{ recipe.batchSize }} liter)</span></h2>
+            <h2 id="ingredienser"><a class="header-anchor" href="#ingredienser"><span class="sr-only">Länk till </span><span aria-hidden="true">#</span></a>Ingredienser <span class="secondary">({{ recipe.batchSize }} liter)</span></h2>
             <span class="beer-ingredients__label" title="{{ recipe.color }} EBC"><svg class="icon -large" role="presentation" style="color: {{ recipe.colorHEX }}" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/malt.svg#malt"></use></svg> <span class="uppercase semibold">Extraktgivare</span> <span class="secondary">({{ recipe.fermentablesTotalAmount }} kg)</span></span>
             <ul class="beer-ingredients__list">
                 {% for fermentable in recipe.fermentables %}
@@ -139,7 +139,7 @@ eleventyComputed:
             </ul>
         </div>
         <aside id="batches" class="batches" aria-labelledby="satser">
-            <h2 id="satser"><a class="header-anchor" href="#satser">Bryggda satser</a></h2>
+            <h2 id="satser"><a class="header-anchor" href="#satser"><span class="sr-only">Länk till </span><span aria-hidden="true">#</span></a>Bryggda satser</h2>
             {% for batch in batches %}
                 <h3 id="{{ batch.brewDate | shortISODate }}"><a class="header-anchor" href="#{{ batch.brewDate | shortISODate }}">{{ batch.brewDate | shortISODate }}</a> <span class="batches__status">{{ batch.status.label }}</span></h3>
                 {% if batch.status.code === "planned" %}
