@@ -7,5 +7,26 @@
         background: rgba(128, 128, 128, 0.15);
         padding: 0 .5em;
         margin-bottom: .4em;
+
+        a {
+            color: var(--color__link);
+            text-decoration: none;
+
+            &:visited {
+                color: var(--color__link__visited);
+            }
+
+            &:hover,
+            &:focus {
+                text-decoration: underline;
+                color: var(--color__link);
+                background: none;
+
+                &:visited {
+                    color: var(--color__link__visited);
+                    background: none;
+                }
+            }
+        }
     }
 }

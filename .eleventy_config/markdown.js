@@ -10,6 +10,7 @@ const markdownItTables = require('markdown-it-multimd-table');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownIt11tyImages = require('./markdown/image');
 const markdownItGallery = require('./markdown/gallery');
+
 const markdownItAnchorOptions = {
     level: [1, 2, 3, 4],
     slugify: (str) =>
@@ -19,7 +20,13 @@ const markdownItAnchorOptions = {
             remove: /[*+~.()'"!:@]/g,
         }),
     tabIndex: false,
-    permalink: markdownItAnchor.permalink.headerLink(),
+    permalink: markdownItAnchor.permalink.linkInsideHeader({
+        symbol: `
+          <span class="sr-only">Länk till </span>
+          <span aria-hidden="true">#</span>
+        `,
+        placement: 'before'
+    })
 };
 
 const scrollBlock = {

@@ -52,20 +52,22 @@
                     <ul class="post-list">
                     <xsl:for-each select="atom:feed/atom:entry">
                             <li class="post-list__item">
-                                <a class="post-title post-link">
+                                <h3 class="post-title">
+                                <a class="post-link">
                                     <xsl:attribute name="href">
                                         <xsl:value-of select="atom:link/@href"/>
                                     </xsl:attribute>
                                     <xsl:value-of select="atom:title"/>
                                 </a>
-                                <p class="post-date">
+                                </h3>
+                                <span class="post-date">
                                     <time>
                                         <xsl:attribute name="datetime">
                                             <xsl:value-of select="atom:updated"/>
                                         </xsl:attribute>
                                         <xsl:value-of select="atom:updated"/>
                                     </time>
-                                </p>
+                                </span>
                             </li>
                     </xsl:for-each>
 

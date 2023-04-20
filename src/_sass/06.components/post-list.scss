@@ -14,10 +14,11 @@
     }
 
     .post-title {
-        margin: 0;
+        display: inline-block;
         font-size: var(--font__size__heading-4);
-        font-weight: 600;
+        font-weight: 500;
         line-height: 1.25;
+        margin: 0 .5rem 0 0;
     }
 
     p {
@@ -30,6 +31,14 @@
 
         @include respond-to(tiny) {
             flex-direction: row;
+        }
+
+        .post-title {
+            display: block;
+        }
+
+        p {
+            display: block;
         }
 
         .post-list__item-image {

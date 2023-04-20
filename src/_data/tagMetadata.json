@@ -74,7 +74,6 @@
     },
     "geocaching": {
         "title": "geocaching",
-        "emoji": "\uD83D\uDCCC",
         "type": "subject"
     },
     "ghost": {
@@ -154,7 +153,7 @@
         "type": "location"
     },
     "lego": {
-        "title": "LEGO™",
+        "title": "LEGO",
         "type": "subject"
     },
     "linz": {
