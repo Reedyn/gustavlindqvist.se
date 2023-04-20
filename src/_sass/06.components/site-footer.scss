@@ -21,7 +21,7 @@
     grid-gap: var(--margin__medium);
 
     @include respond-to(small) {
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: 1fr 2fr;
     }
 
     label {
