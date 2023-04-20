@@ -141,7 +141,7 @@ eleventyComputed:
         <aside id="batches" class="batches" aria-labelledby="satser">
             <h2 id="satser"><a class="header-anchor" href="#satser"><span class="sr-only">Länk till </span><span aria-hidden="true">#</span></a>Bryggda satser</h2>
             {% for batch in batches %}
-                <h3 id="{{ batch.brewDate | shortISODate }}"><a class="header-anchor" href="#{{ batch.brewDate | shortISODate }}">{{ batch.brewDate | shortISODate }}</a> <span class="batches__status">{{ batch.status.label }}</span></h3>
+                <h3 id="{{ batch.brewDate | shortISODate }}"><a class="header-anchor" href="#{{ batch.brewDate | shortISODate }}"><span class="sr-only">Länk till </span><span aria-hidden="true">#</span></a>{{ batch.brewDate | shortISODate }} <span class="batches__status">{{ batch.status.label }}</span></h3>
                 {% if batch.status.code === "planned" %}
                     <ul class="beer-statistics__list">
                         {% if batch.recipe.batchSize %}<li class="beer-statistics__list-item">
