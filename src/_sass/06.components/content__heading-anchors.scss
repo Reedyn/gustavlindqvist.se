@@ -3,7 +3,7 @@
     color: var(--color__link);
     transform: translateX(-0.65em);
     text-decoration: none;
-    visibility: hidden;
+    opacity: 0;
 
     &:visited {
         color: var(--color__link);
@@ -26,7 +26,7 @@
     &:hover,
     &:focus {
         .header-anchor {
-            visibility: visible;
+            opacity: 1;
         }
     }
 }

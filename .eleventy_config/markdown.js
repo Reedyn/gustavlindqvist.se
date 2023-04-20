@@ -57,7 +57,6 @@ let markdown = markdownIt({
     langPrefix: 'language-',
 })
     .use(markdownItTasklist, {
-        enabled: false,
         label: true,
         labelAfter: false
     })
