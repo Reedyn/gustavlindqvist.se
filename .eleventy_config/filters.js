@@ -58,7 +58,6 @@ module.exports = {
     trailingZeros: (num, totalLength) => {
         return String(num).padEnd(totalLength, '0');
     },
-    htmlDateString: dates.htmlDateString,
     volumeToBottles: (volume) => {
         return Math.round(volume * 3);
     },
@@ -77,30 +76,15 @@ module.exports = {
             return typeof post.data.series !== 'undefined' && post.data.series.includes(series);
         });
     },
-    date: (date, format) => {
-        return moment(date).format(format);
-    },
-    dateFromString: (dateString) => {
-        return new Date(dateString);
-    },
-    dateFolder: (dateObj) => {
-        return DateTime.fromJSDate(dateObj).setZone('Europe/Stockholm').toFormat('yyyy/MM/dd');
-    },
-    shortISODate: (dateObj) => {
-        return DateTime.fromJSDate(dateObj).setZone('Europe/Stockholm').toFormat('yyyy-MM-dd');
-    },
-    longISODate: (dateObj) => {
-        return DateTime.fromJSDate(dateObj).setZone('Europe/Stockholm').toFormat('yyyy-MM-dd HH:mm');
-    },
-    fullISODate: (dateObj) => {
-        return DateTime.fromJSDate(dateObj).setZone('Europe/Stockholm').toISO();
-    },
-    readableDate: (dateObj) => {
-        return DateTime.fromJSDate(dateObj).setLocale('sv').toFormat('d MMMM');
-    },
-    readableLongDate: (dateObj) => {
-        return DateTime.fromJSDate(dateObj).setLocale('sv').toFormat('d MMMM, yyyy');
-    },
+    date: dates.date,
+    dateFromString: dates.dateFromString,
+    dateFolder: dates.dateFolder,
+    htmlDateString: dates.htmlDateString,
+    shortISODate: dates.shortISODate,
+    longISODate: dates.longISODate,
+    fullISODate: dates.fullISODate,
+    readableDate: dates.readableDate,
+    readableLongDate: dates.readableLongDate,
     lowercase: (inputString) => {
         return inputString.toLowerCase();
     },
