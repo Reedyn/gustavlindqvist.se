@@ -14,7 +14,7 @@ Som de flesta andra så har jag slutat planera saker under pandemin och det har 
 
 Om lite mer än två veckor får jag (förhoppningsvis) min Steam Deck, en handhållen spelkonsoll som jag har velat ha hela mitt liv. Efter ett år med ett trasigt grafikkort och en fullständigt kraschad marknad för grafikkort är den efterlängtad. Det är många spel jag missat och som jag ska försöka ta igen.
 
-![Steam Deck handhållen spelkonsoll](steam-deck.png){width=1200 height=594 .image .-wide}
+![Steam Deck handhållen spelkonsoll](steam_deck.jpg){.-full}
 
 Att det är handhållet kommer göra att jag kan och kommer vilja spela mycket mer än tidigare också, jag har alltid föredragit den formfaktorn sen jag fick min Game Boy 1998 (idag är det mest min Nintendo Switch som går varm).
 
