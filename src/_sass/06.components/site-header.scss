@@ -39,6 +39,10 @@
         &:visited {
             color: var(--color__text);
         }
+
+        &:hover, &:focus, &.active {
+            text-decoration: underline;
+        }
     }
 
     .site__description {

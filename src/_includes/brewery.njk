@@ -35,7 +35,7 @@ eleventyComputed:
         margin-left: 0;
     }
 </style>
-<article aria-labelledby="brewery" class="post">
+<article aria-labelledby="brewery" class="post brewery">
     <header id="post-header" class="post-header{% if feature_image %} -feature-image{% endif %}">
         <div class="post-metadata">
             <h1 id="brewery" class="post-title">
@@ -44,10 +44,10 @@ eleventyComputed:
         </div>
         {{ optimizedFeaturedImage | safe }}
     </header>
-    <section class="post-content content" id="post-content" aria-label="Sidans innehåll">
+    <section class="post-content wrapper" id="post-content" aria-label="Sidans innehåll">
         {{ content | safe }}
     </section>
-    <section aria-labelledby="beers" class="content">
+    <section aria-labelledby="beers" class="wrapper">
         <h2 id="beers" class="sr-only">Mina öl</h2>
         <div class="beers">
             {%- for beer in collections.beers | sortByOrder -%}{% if not beer.data.one_off_brew %}
@@ -61,7 +61,7 @@ eleventyComputed:
         </div>
     </section>
 	{% if collections.ölbryggning.length %}
-	<section aria-labelledby="olbryggning" class="content">
+	<section aria-labelledby="olbryggning" class="wrapper">
         <h2 id="olbryggning">Mina inlägg om ölbryggning</h2>
         <div class="Cards posts">
             {%- for post in collections.ölbryggning | reverse -%}
@@ -95,7 +95,7 @@ eleventyComputed:
     </section>
     {% endif %}
 
-    <aside class="content" aria-label="senast-i-bryggeriet">
+    <aside class="wrapper" aria-label="senast-i-bryggeriet">
         <h2 id="senast-i-bryggeriet">Senaste händelserna i bryggeriet</h2>
         <div class="Cards -max-2-columns">
             <article aria-labelledby="batches" class="Card -align-top">
@@ -107,7 +107,7 @@ eleventyComputed:
                                 <li class="metadata-list__item">
                                     <span class="metadata-list__item-title" id="{{ batch._id }}">{{ batch.recipe.name }}{% if batch.recipe.style.name %} ({{ batch.recipe.style.name }}){% endif %}</span>
                                     <p class="metadata-values">
-                                        {% if batch.status.label %}<span>{{ batch.status.label }}</span>{% endif %}{% if batch.brewDate %} <time datetime="{{ batch.brewDate | fullISODate }}" title="{{ batch.brewDate | shortISODate }}">{{ batch.brewDate | readableLongDate }}</time>{% endif %}
+                                        {% if batch.status.label %}<span>{{ batch.status.label }}</span>{% endif %} · {% if batch.brewDate %} <time datetime="{{ batch.brewDate | fullISODate }}" title="{{ batch.brewDate | shortISODate }}">{{ batch.brewDate | readableLongDate }}</time>{% endif %}
                                         {% if batch.measuredBottlingSize %} · <span>{{ batch.measuredBottlingSize }}L</span>{% elseif batch.measuredBatchSize %} · <span>{{ batch.measuredBatchSize }}L</span>{% elseif batch.recipe.batchSize %} · <span>{{ batch.recipe.batchSize }}L</span>{% endif %}
                                     </p>
                                 </li>
