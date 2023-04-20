@@ -41,7 +41,7 @@ Målet är att spela så många spel som möjligt (utan att stressa igenom dem!)
 * [ ] [Control]
 
 
-![Tältplats i skogen med ett tält och solen som lyser genom träden](Gustav-Lindqvist_2020-08-22_5.jpg){width=2500 height=1072 .image .-full}
+![Tältplats i skogen med ett tält och solen som lyser genom träden](Gustav-Lindqvist_2020-08-22_5.jpg){.-full}
 
 
 ## Friluftsliv & träning
