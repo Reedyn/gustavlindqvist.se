@@ -26,6 +26,8 @@ const gustavlindqvist = (() => {
 
         themeChooserToggle.addEventListener('click', () => {
             themeChooserContainer.classList.toggle('hidden');
+            const scrollingElement = (document.scrollingElement || document.body);
+            scrollingElement.scrollTop = scrollingElement.scrollHeight;
         });
 
         [...themeSelectors].forEach((themeSelector) => {
