@@ -3,7 +3,7 @@ title: "Vandring kring Skälderviken"
 feature_image: Gustav-Lindqvist_2018-08-02_1079.jpg
 description: "Efter att ha pratat om att åka till Kullaberg ett tag tog vi ett ganska spontant beslut om att åka iväg."
 date: 2018-08-12
-tags: ['friluftsliv', 'resor', 'kullaberg', 'sommar']
+tags: ['friluftsliv', 'kullaberg', 'sommar']
 
 ---
 
