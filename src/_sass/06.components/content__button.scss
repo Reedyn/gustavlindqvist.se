@@ -1,4 +1,4 @@
-.Button {
+.content .button {
     display: inline-block;
     background: var(--color__link);
     color: var(--color__background);
@@ -10,6 +10,7 @@
     font-size: inherit;
     font-weight: inherit;
     margin: 0;
+    text-decoration: none;
 
     &:visited {
         color: var(--color__background);
