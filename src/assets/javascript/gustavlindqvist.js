@@ -13,28 +13,38 @@ const gustavlindqvist = (() => {
         let theme = localStorage.getItem('theme');
         if (theme) {
             document.documentElement.setAttribute('data-theme', theme);
+            document.querySelector(`.theme-chooser.-${theme}`).classList.add('active');
+        } else {
+            document.querySelector(`.theme-chooser.-auto`).classList.add('active');
         }
     })();
 
     const createThemeChooser = (() => {
-        const themeSelector = document.querySelector('#theme-chooser');
-        const themeSelectorContainer = document.querySelector('#theme-chooser-container');
-        const theme = localStorage.getItem('theme');
-        themeSelector.value = (theme) ? theme : 'auto';
+        const themeChooserToggle = document.getElementById('theme-chooser-toggle');
+        const themeChooserContainer = document.getElementById('theme-chooser-container');
+        const themeSelectors = document.querySelectorAll('.theme-chooser');
 
-        themeSelector.addEventListener('change', (event) => {
-            const selectedTheme = event.target.value;
-
-            if(selectedTheme === 'auto') {
-                localStorage.removeItem('theme');
-                document.documentElement.removeAttribute('data-theme');
-            } else {
-                localStorage.setItem('theme', event.target.value);
-                document.documentElement.setAttribute('data-theme', event.target.value);
-            }
+        themeChooserToggle.addEventListener('click', () => {
+            themeChooserContainer.classList.toggle('hidden');
         });
 
-        themeSelectorContainer.classList.remove('hidden');
+        [...themeSelectors].forEach((themeSelector) => {
+            themeSelector.addEventListener('click', (event) => {
+                [...document.querySelectorAll('.theme-chooser.active')].forEach((btn) => { btn.classList.remove('active') });
+
+                const selectedTheme = themeSelector.value;
+
+                if(selectedTheme === 'auto') {
+                    localStorage.removeItem('theme');
+                    document.documentElement.removeAttribute('data-theme');
+                } else {
+                    localStorage.setItem('theme', selectedTheme);
+                    document.documentElement.setAttribute('data-theme', selectedTheme);
+                }
+
+                themeSelector.classList.add('active')
+            });
+        });
     })();
 
     const initializeDayJS = (() => {

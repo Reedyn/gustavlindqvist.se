@@ -18,6 +18,20 @@
     column-count: 2;
 }
 
+.-flex-grow {
+    flex: 1;
+}
+
+.-align-right {
+    justify-content: right;
+    text-align: right;
+}
+
+.-align-left {
+    justify-content: left;
+    text-align: left;
+}
+
 .sr-only {
     position: absolute;
     width: 1px;

@@ -1,57 +1,36 @@
-<div class="site-footer__content columns">
-    <div class="column">
-        <h2 id="lankar-i-sidfot" class="sr-only">Länkar</h2>
+<div class="site-footer__content">
+    <div>
+        <h2 id="lankar-i-sidfot" class="site-footer__heading">Länkar</h2>
         <nav class="site-footer__navigation" aria-labelledby="lankar-i-sidfot">
-            <ul>
+            <ul class="list">
                 <li><a href="/kontakta-mig/">Kontakta mig</a></li>
                 <li><a href="/hembryggeri/">Hembryggeriet</a></li>
+                <li><a href="/licensiering/">Licensiering</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <h2 id="andra-konton" class="site-footer__heading">Annat innehåll</h2>
+        <nav class="site-footer__navigation" aria-labelledby="andra-konton">
+            <ul class="list">
                 <li><a href="/blogroll/">Blogroll</a></li>
                 <li><a href="/lanktips/">Länktips</a></li>
-                <li><a href="/licensiering/">Licensiering</a></li>
-                <li><a href="/feeds/">Prenumerera via flöden</a></li>
             </ul>
         </nav>
     </div>
-    <div class="column">
-        <h2 id="andra-konton" class="sr-only">Mina andra konton</h2>
-        <nav class="site-footer__navigation" aria-labelledby="andra-konton">
-            <ul class="list -column-count-2">
-                <li class="list-item--mastodon"><a rel="me" href="https://jkpg.rocks/@gustav">
-                        <svg class="icon icon--mastodon" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/mastodon.svg#mastodon-icon"></use></svg> Mastodon
-                    </a></li>
-                <li class="list-item--twitter"><a rel="me" href="https://twitter.gustavlindqvist.se">
-                        <svg class="icon icon--twitter" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/twitter.svg#twitter-icon"></use></svg> Mitt Twitterarkiv
-                    </a></li>
-                <li class="list-item--discord"><a rel="me" href="https://discordapp.com/users/126936105458073600/">
-                        <svg class="icon icon--discord" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/discord.svg#discord-icon"></use></svg> Discord
-                    </a></li>
-                <li class="list-item--signal"><a rel="me" href="http://signal.me/#p/+46761479126">
-                    <svg class="icon icon--signal" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/signal.svg#signal-icon"></use></svg> Signal
-                </a></li>
-                <li class="list-item--telegram"><a rel="me" href="https://t.me/Reedyn">
-                        <svg class="icon icon--telegram" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/telegram.svg#telegram-icon"></use></svg> Telegram
-                    </a></li>
-                <li class="list-item--steam"><a rel="me" href="https://steamcommunity.com/id/reedyn">
-                        <svg class="icon icon--steam" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/steam.svg#steam-icon"></use></svg> Steam
-                    </a></li>
-                <li class="list-item--github"><a rel="me" href="https://github.com/Reedyn">
-                        <svg class="icon icon--GitHub" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/github.svg#github-icon"></use></svg> GitHub
-                    </a></li>
-                <li class="list-item--openstreetmap"><a rel="me" href="https://www.openstreetmap.org/user/Reedyn">
-                        <svg class="icon icon--openstreetmap" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/openstreetmap.svg#openstreetmap-icon"></use></svg> OpenStreetMap
-                    </a></li>
-                <li class="list-item--untappd"><a rel="me" href="https://untappd.com/user/Reedyn">
-                        <svg class="icon icon--untappd" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/untappd.svg#untappd-icon"></use></svg> Untappd
-                    </a></li>
-                <li class="list-item--strava"><a rel="me" href="https://www.strava.com/athletes/7825396">
-                        <svg class="icon icon--strava" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/strava.svg#strava-icon"></use></svg> Strava
-                    </a></li>
-            </ul>
-        </nav>
+    <div class="button-row -flex-grow -align-right">
+        <a class="button__icon" href="/feeds/">
+            <svg class="icon" role="presentation" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/rss.svg#rss"></use></svg>
+            <span class="sr-only">RSS-flöden</span>
+        </a>
+        <a class="button__icon" href="https://git.gustavlindqvist.se/gustav/gustavlindqvist.se">
+            <svg class="icon" role="presentation" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/source-branch.svg#icon"></use></svg>
+            <span class="sr-only">Gå till källkoden för webbplatsen</span>
+        </a>
+        <button id="theme-chooser-toggle" class="button__icon hidden@no-js">
+            <svg class="icon" role="presentation" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/spray.svg#icon"></use></svg>
+            <span class="sr-only">Visa färgväljaren</span>
+        </button>
     </div>
 </div>
-<div class="hidden@no-js" aria-labelledby="valj-tema">
-    <h2 id="valj-tema" class="sr-only">Välj färgtema</h2>
-    {% include 'partials/theme-chooser.njk' %}
-</div>
-<p class="site-footer__content">Byggt med <a href="https://www.11ty.dev/">11ty</a> och <a href="https://git.gustavlindqvist.se/gustav/gustavlindqvist.se">öppen källkod <svg class="icon icon--xml" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/xml.svg#icon"></use></svg></a></p>
+{% include 'partials/theme-chooser.njk' %}

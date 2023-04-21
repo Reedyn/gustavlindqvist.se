@@ -33,7 +33,7 @@ function css() {
 
 function serve() {
     'use strict';
-    watch('src_/sass/**/*.scss', css);
+    watch('src/_sass/**/*.scss', css);
 }
 
 exports.css = css;
