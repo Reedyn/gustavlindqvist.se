@@ -1,10 +1,30 @@
-<div id="theme-chooser-container" class="theme-chooser-container hidden">
-    <button class="theme-chooser" id="theme-choose__auto" value="auto">Automatiskt tema</button>
-
-    <label for="theme-chooser" class="sr-only">Välj tema</label>
-    <select name="theme-chooser" id="theme-chooser" class="theme-chooser">
-        <option value="auto">Auto</option>
-        <option value="light">Ljust</option>
-        <option value="dark">Mörkt</option>
-    </select>
+<div id="theme-chooser-container" class="theme-chooser-container hidden hidden@no-js">
+    <button class="theme-chooser -auto" id="theme-choose__auto" value="auto">
+        <span class="theme-chooser__title">Auto</span>
+        <span class="theme-chooser__dot -text"></span>
+        <span class="theme-chooser__dot -text-alt"></span>
+        <span class="theme-chooser__dot -link"></span>
+        <span class="theme-chooser__dot -link-visited"></span>
+    </button>
+    <button class="theme-chooser -light" id="theme-choose__light" value="light">
+        <span class="theme-chooser__title">Ljust</span>
+        <span class="theme-chooser__dot -text"></span>
+        <span class="theme-chooser__dot -text-alt"></span>
+        <span class="theme-chooser__dot -link"></span>
+        <span class="theme-chooser__dot -link-visited"></span>
+    </button>
+    <button class="theme-chooser -dark" id="theme-choose__dark" value="dark">
+        <span class="theme-chooser__title">Mörkt</span>
+        <span class="theme-chooser__dot -text"></span>
+        <span class="theme-chooser__dot -text-alt"></span>
+        <span class="theme-chooser__dot -link"></span>
+        <span class="theme-chooser__dot -link-visited"></span>
+    </button>
+    <!--button class="theme-chooser -wiki" id="theme-choose__wiki" value="light">
+        <span class="theme-chooser__title">Wiki</span>
+        <span class="theme-chooser__dot -text"></span>
+        <span class="theme-chooser__dot -text-alt"></span>
+        <span class="theme-chooser__dot -link"></span>
+        <span class="theme-chooser__dot -link-visited"></span>
+    </button-->
 </div>

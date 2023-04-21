@@ -4,7 +4,8 @@
   "description": "Personal website using Eleventy",
   "main": "eleventy.js",
   "scripts": {
-    "build": "eleventy"
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve --incremental --ignore-initial"
   },
   "author": "Gustav Lindqvist",
   "license": "MIT",

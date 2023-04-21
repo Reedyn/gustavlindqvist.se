@@ -1,0 +1,27 @@
+.button__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4em;
+    height: 4em;
+    margin: 0;
+    border-radius: 50%;
+    border: 0;
+    color: var(--color__text);
+    background: var(--color__background__alt);
+    cursor: pointer;
+
+    &:visited {
+        color: var(--color__text);
+    }
+
+    &:hover, &:focus {
+        color: var(--color__background);
+        background: var(--color__link);
+    }
+
+    svg {
+        width: 2em;
+        height: 2em;
+    }
+}

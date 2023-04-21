@@ -17,17 +17,21 @@ eleventyComputed:
 <html lang="sv" class="no-js">
 <head>
     <meta charset="utf-8">
-    <title>
-        {% if page_title %}{{ page_title }}{% elseif title %}{{ title }} / {{ metadata.title }}{% elseif tagMetadata[ tag ].title %}{{ tagMetadata[ tag ].title | firstLetterUpper }} / {{ metadata.title }}{% else %}{{ metadata.title }} / {{ metadata.description }}{% endif %}
-    </title>
+
+    <meta name="generator" content="{{ eleventy.generator }}">
+
+    <title>{% if page_title %}{{ page_title }}{% elseif title %}{{ title }} / {{ metadata.title }}{% elseif tagMetadata[ tag ].title %}{{ tagMetadata[ tag ].title | firstLetterUpper }} / {{ metadata.title }}{% else %}{{ metadata.title }} / {{ metadata.description }}{% endif %}</title>
     <meta name="description" content="{% if tagMetadata[ tag ].description %}{{ tagMetadata[ tag ].description }}{% elseif description %}{{ description }}{% else %}{{ metadata.description }}{{  metadata.description }}{% endif %}">
+
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/assets/stylesheets/gustavlindqvist.css?{% checksum './src/assets/stylesheets/gustavlindqvist.css' %}">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="manifest" href="/site.webmanifest">
 
     <script src="/assets/javascript/dayjs.min.js" defer></script>
@@ -44,8 +48,6 @@ eleventyComputed:
     <meta property="og:description" content="{% if tagMetadata[ tag ].description %}{{ tagMetadata[ tag ].description }}{% elseif description %}{{ description }}{% else %}{{ metadata.description }}{{  metadata.description }}{% endif %}">
     <meta property="og:image" content="{{ meta.image.src }}">
     <meta property="og:type" content="{% if type === 'post' %}article{% else %}website{% endif %}">
-
-    <meta name="generator" content="{{ eleventy.generator }}">
 
     {% include 'partials/identities.njk' %}
 
