@@ -1,6 +1,6 @@
 ---
 title: "Vårkänslor och vitsippor på Vista"
-description: "När gruset sopas undan och vitsipporna slår ut så vet man att det är vår på riktigt."
+description: "När gruset sopas undan, sommardäcken åker på och vitsipporna slår ut så vet man att det är vår på riktigt."
 feature_image: "GOPR1260_1682251847721.JPG"
 mastodonId: "110249028591475924"
 date: 2023-04-23T18:09:27+0200
@@ -10,7 +10,7 @@ tags:
     - jkpg
 ---
 
-När gruset sopas undan och vitsipporna slår ut så vet man att det är vår på riktigt.{.lead}
+När gruset sopas undan, sommardäcken åker på och vitsipporna slår ut så vet man att det är vår på riktigt.{.lead}
 
 [I Jönköping vallfärdar cyklister varje vår till Vista MTB för att uppleva detta hav av vitsippor][Elna Dahlstrand - Genom ett hav av vitsippor] som finns en kort tid på våren. I år är det troligtvis extra kort; Vitsipporna slog ut med kraft i början av helgen när temperaturen steg kraftigt, samtidigt är det rejält regn på gång hela den kommande veckan som troligtvis kommer att göra stigarna på Vista obrukbara eftersom området blir väldigt lerigt.
 
