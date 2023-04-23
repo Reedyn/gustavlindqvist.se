@@ -1,7 +1,7 @@
 ---
 title: "Vårkänslor och vitsippor på Vista"
 description: "När gruset sopas undan, sommardäcken åker på och vitsipporna slår ut så vet man att det är vår på riktigt."
-feature_image: "GOPR1260_1682251847721.JPG"
+feature_image: "GOPR1260_1682251847721.jpg"
 mastodonId: "110249028591475924"
 date: 2023-04-23T18:09:27+0200
 tags:
@@ -25,13 +25,13 @@ Eftersom cykeln stått oanvänd nästan hela vintern som mestadels spenderats i 
 
 :::: gallery {.-wide}
 ::: row
-![Selfie på Gustav på en cykel i MTB-kläder vid en hamn](GOPR1266_1682251847721.JPG){.-inline}
-![En cykel som ligger på sidan av en stig intill en massa vitsippor](GOPR1262_1682251847721.JPG){.-inline}
+![Selfie på Gustav på en cykel i MTB-kläder vid en hamn](GOPR1266_1682251847721.jpg){.-inline}
+![En cykel som ligger på sidan av en stig intill en massa vitsippor](GOPR1262_1682251847721.jpg){.-inline}
 :::
 <figcaption><p>Obligatorisk selfie i t-shirt och kortbyxor och en bild på trotjänaren</p></figcaption>
 ::::
 
 
-![Vätterstranden i Jönköping sett från marken med en stor blomplantering](GOPR1267_1682251847721.JPG "Vätterstranden på vägen hem"){.-wide}
+![Vätterstranden i Jönköping sett från marken med en stor blomplantering](GOPR1267_1682251847721.jpg "Vätterstranden på vägen hem"){.-wide}
 
 [Elna Dahlstrand - Genom ett hav av vitsippor]: https://elnadahlstrand.se/2017/05/09/genom-ett-hav-av-vitsippor/
