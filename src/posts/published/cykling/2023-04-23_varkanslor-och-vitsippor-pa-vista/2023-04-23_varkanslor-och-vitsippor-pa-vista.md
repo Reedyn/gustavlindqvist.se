@@ -21,7 +21,7 @@ Jag var inte den enda som insett detta och jag mötte flera cyklister som njöt 
     <figcaption><p>Varning för mitt flåsande!</p></figcaption>
 </figure>
 
-Eftersom cykeln stått oanvänd nästan hela vintern som mestadels spenderats i löparskorna så orkade jag bara två varv (jag brukar köra 3), sen bar det av hemåt i svagt duggregn som gav en svalka som definitivt behövdes.0
+Eftersom cykeln stått oanvänd nästan hela vintern som mestadels spenderats i löparskorna så orkade jag bara två varv (jag brukar köra 3), sen bar det av hemåt i svagt duggregn som gav en svalka som definitivt behövdes.
 
 :::: gallery {.-wide}
 ::: row
