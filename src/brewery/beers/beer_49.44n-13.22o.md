@@ -7,7 +7,7 @@ label_viewbox: "0 0 150.06 81.31"
 color: "red"
 thumbnail_image: "/assets/images/og_brewery_49-44N_13-22E.png"
 recipeId: "BlX2Xma1UJ1Q2x2xGr5uM3KgF2FItK"
-order: 4
+order: 5
 eleventyNavigation:
     parent: hembryggeri
     key: "49.44n-13.22o"
