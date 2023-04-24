@@ -38,7 +38,7 @@ module.exports = {
             outputString += `</ul>`;
             outputString += `<p><a href="https://www.packstack.io/pack/${pack.id}">Utrustningslistan ${pack.name} på Packstack</a></p>`;
             let equipmentString = ``;
-            equipmentString += '<div id="equipment" class="pack__list-container -collapsed">';
+            equipmentString += '<div class="pack__list-container equipment -collapsed">';
             pack.contents.forEach((item_category) => {
                 let packList = '';
                 const color = (typeof item_category.color !== 'undefined' && item_category.color.length) ? item_category.color : '#ffffff';
@@ -61,7 +61,7 @@ module.exports = {
                 equipmentString += packList;
                 equipmentString += `</ul>`;
             });
-            equipmentString += '<button class="Button pack__list-button pack__list-button__show-inventory">Visa all utrustning</button></div>';
+            equipmentString += '<button class="button pack__list-button pack__list-button__show-inventory">Visa all utrustning</button></div>';
             outputString += equipmentString;
             outputString += `</section>`;
             outputString += `<script src="/assets/javascript/pack.js" async></script>`;
@@ -120,7 +120,7 @@ module.exports = {
         if (pack) {
             let outputString = `<section class="packStatistics">`;
             let equipmentString = ``;
-            equipmentString += '<div id="equipment" class="pack__list-container -collapsed">';
+            equipmentString += '<div class="pack__list-container equipment -collapsed">';
             pack.contents.forEach((item_category) => {
                 let packList = '';
                 const color = (typeof item_category.color !== 'undefined' && item_category.color.length) ? item_category.color : 'var(--color__text)';
@@ -148,7 +148,7 @@ module.exports = {
                 equipmentString += packList;
                 equipmentString += `</ul>`;
             });
-            equipmentString += '<button class="Button pack__list-button pack__list-button__show-inventory hidden@no-js">Visa all utrustning</button></div>';
+            equipmentString += '<button class="button pack__list-button pack__list-button__show-inventory hidden@no-js">Visa all utrustning</button></div>';
             outputString += equipmentString;
             outputString += `</section>`;
             outputString += `<script src="/assets/javascript/pack.js" async></script>`;
