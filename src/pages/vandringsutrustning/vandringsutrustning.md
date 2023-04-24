@@ -29,10 +29,10 @@ Beroende på vart vi ska vandra tillkommer även vandringsstavar på 600 gram oc
 
 Utöver utrustningen ovan har jag alltid med kamera, om jag vill fotografera mycket har jag med hela mitt systemkamerakit som väger 2kg med flera objektiv och ett stativ, vill jag fotografera lite mindre har jag ändå med systemkameran men bara mitt fasta tele och min GoPro får fylla behovet av vidvinkelobjektivet.
 
-### Lilla kamerakittet
+### Lilla kamerakittet ({{ packstack.small_camera_kit.base_weight | prettyDigits }}g)
 
 {% packInventory packstack.small_camera_kit %}
 
-### Stora kamerakittet
+### Stora kamerakittet ({{ packstack.big_camera_kit.base_weight | prettyDigits }}g)
 
 {% packInventory packstack.big_camera_kit %}
