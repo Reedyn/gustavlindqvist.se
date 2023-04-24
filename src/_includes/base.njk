@@ -11,7 +11,7 @@ eleventyComputed:
         title: "{% if page_title %}{{ page_title }}{% elseif title %}{{ title }}{% elseif tagMetadata[ tag ].title %}{{ tagMetadata[ tag ].title | firstLetterUpper }}{% else %}{{ metadata.title }}{% endif %}"
         description: "{% if tagMetadata[ tag ].description %}{{ tagMetadata[ tag ].description }}{% elseif description %}{{ description }}{% else %}{{ metadata.description }}{% endif %}"
         image:
-            src: "{% if thumbnail_image %}{{ metadata.url + thumbnail_image | parseImagePath(page.url) }}{% elseif feature_image %}{{ metadata.url + feature_image | parseImagePath(page.url) }}{% else %}{{ metadata.url }}/assets/images/website_feature.png{% endif %}"
+            src: "{% if thumbnail_image %}{{ metadata.url + thumbnail_image | parseImagePath(page.url) }}{% elseif feature_image %}{{ metadata.url }}{{ feature_image | openGraphImageFilter(page) }}{% else %}{{ metadata.url }}/assets/images/website_feature.png{% endif %}"
 ---
 <!doctype html>
 <html lang="sv" class="no-js">
