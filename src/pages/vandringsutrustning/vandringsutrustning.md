@@ -29,13 +29,13 @@ Beroende på vart vi ska vandra tillkommer även vandringsstavar på 600 gram oc
 
 Beroende på om jag vill fotografera mycket har jag antingen med hela mitt kit med alla objektiv till systemkameran eller bara systemkameran plus ett objektiv och en GoPro.
 
-### Lilla kamerakittet ({{ packstack.small_camera_kit.base_weight | prettyDigits }}g)
+### Lilla kamerakittet ({{ packstack.small_camera_kit.base_weight }}g)
 
 Här får GoPron fylla behovet av alla de vidare vinklarna och systemkameran används bara för proträtt, panoramabilder och tele. Jag har bara med ett stativ för GoPron.
 
 {% packInventory packstack.small_camera_kit %}
 
-### Stora kamerakittet ({{ packstack.big_camera_kit.base_weight | prettyDigits }}g)
+### Stora kamerakittet ({{ packstack.big_camera_kit.base_weight }}g)
 
 Hela systemkamerakitet med alla objektiv samt ett kompakt resestativ.
 
