@@ -155,6 +155,8 @@ module.exports = async () => {
     packstack.summer_2023 = await getPack('https://www.packstack.io/pack/559');
     packstack.bikepacking_2023 = await getPack('https://www.packstack.io/pack/581');
     packstack.bankerydsleden_2022 = await getPack('https://www.packstack.io/pack/257');
+    packstack.big_camera_kit = await getPack('https://www.packstack.io/pack/654');
+    packstack.small_camera_kit = await getPack('https://www.packstack.io/pack/655');
 
     return packstack;
 
