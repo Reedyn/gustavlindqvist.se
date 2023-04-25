@@ -14,6 +14,7 @@
     padding-left: var(--padding__medium);
     margin: auto;
     color: var(--color__text-alt);
+    font-family: var(--font__menu);
     font-size: var(--font__size-base);
     line-height: var(--header__height);
 
@@ -47,7 +48,7 @@
 
     .site__description {
         display: none;
-        font-family: var(--font__serif);
+        font-family: var(--font__captions);
         font-style: italic;
 
         @include respond-to(small) {

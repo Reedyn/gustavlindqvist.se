@@ -33,6 +33,13 @@
   --font__serif: #{$font__serif};
   --font__mono: #{$font__monospace};
 
+  --font__body: var(--font__sans-serif);
+  --font__headings: var(--font__sans-serif);
+  --font__menu: var(--font__sans-serif);
+  --font__captions: var(--font__serif);
+  --font__quotes: var(--font_serif);
+  --font__code: var(--font__mono);
+
   // Sizing
   --max-width__base: #{$max-width__base};
   --max-width__content: #{$max-width__content};
