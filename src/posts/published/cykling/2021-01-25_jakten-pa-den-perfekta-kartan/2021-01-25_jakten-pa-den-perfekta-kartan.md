@@ -64,7 +64,7 @@ Verktyget som används för att skapa en rendering för Garminenheter heter [mkg
 
 Så blev mitt första utkast, redan en tydlig förbättring. Jag valde att göra landområden som skogar, fält, hus med mera ljusa för att ge en ordentlig kontrast till stigar och rutter på enheten. Stigar blev svarta och dedikerade cykelvägar/stigar i mörkblått. I praktiken fungerar det bra då det räcker att kasta ett öga på enheten för att orientera sig.
 
-[Ladda ner kartfilen (~430MB)](https://onedrive.live.com/download?cid=2858546231E48839&resid=2858546231E48839%21269806&authkey=AM-fQ79ti5J_zMw){download #ladda-ner-kartan .button}
+[Ladda ner kartfilen (~430MB)](https://onedrive.live.com/download?cid=2858546231E48839&resid=2858546231E48839%21274152&authkey=ANwbGQmPDWaswPM){download #ladda-ner-kartan .button}
 
 Vet du inte hur du installerar kartan? [DC Rainmaker har skrivit en guide för hur du installerar kartor på din Garmin-enhet](https://www.dcrainmaker.com/2013/05/download-garmin-705800810.html#part-ii-installing-the-maps).
 
