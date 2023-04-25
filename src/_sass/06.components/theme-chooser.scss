@@ -94,11 +94,20 @@
         --color__text-alt: #{$color__65-brightness};
     }
 
-    &.-wiki {
-        font-family: serif;
+    &.-reader {
+        font-family: var(--font__serif);
         --color__background: white;
         --color__link: #3366cc;
         --color__link__visited: #795cb2;
+        --color__text: #000000;
+        --color__text-alt: #202122;
+    }
+
+    &.-web1 {
+        font-family: sans-serif;
+        --color__background: white;
+        --color__link: #0000FF;
+        --color__link__visited: #800080;
         --color__text: #000000;
         --color__text-alt: #202122;
     }

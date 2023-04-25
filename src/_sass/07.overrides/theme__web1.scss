@@ -1,0 +1,29 @@
+[data-theme=web1] {
+    --color__background: white;
+    --color__background__alt: #{$color__97-brightness};
+    --color__background__widget: #{$color__95-brightness};
+    --color__background__contrast: #{$color__15-brightness};
+    --color__background__contrast__widget: #{$color__8-brightness};
+    --color__background__contrast__alt: #{$color__2-brightness};
+    --color__background__gradient: linear-gradient(180deg,rgba(0,0,0,0) 0,white 100%);
+    --color__overlay: rgba(0,0,0,.5);
+    --color__link: #0000FF;
+    --color__link__visited: #800080;
+    --color__text: #000000;
+    --color__text-alt: #202122;
+    --color__text__contrast: white;
+    --color__text__contrast__alt: #a9a9a9;
+
+    --font__body: sans-serif;
+    --font__headings: sans-serif;
+    --font__menus: sans-serif;
+    --font__captions: sans-serif;
+    --font__quotes: sans-serif;
+    --font__code: mono;
+
+    .page-header:not(.-feature-image) .page-title {
+        color: var(--color__text);
+        background: none;
+        background-clip: initial;
+    }
+}
