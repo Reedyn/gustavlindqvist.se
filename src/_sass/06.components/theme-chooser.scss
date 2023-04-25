@@ -19,6 +19,7 @@
     column-gap: var(--margin__small);
     justify-content: center;
     background: var(--color__background__alt);
+    overflow-x: scroll;
 }
 
 .theme-chooser {
@@ -94,13 +95,36 @@
         --color__text-alt: #{$color__65-brightness};
     }
 
-    &.-reader {
-        font-family: var(--font__serif);
-        --color__background: white;
-        --color__link: #3366cc;
-        --color__link__visited: #795cb2;
-        --color__text: #000000;
-        --color__text-alt: #202122;
+    &.-charizard {
+        --color__background: #141414;
+        --color__link: #FF6A23;
+        --color__link__visited: #3489a1;
+        --color__text: #{$color__95-brightness};
+        --color__text-alt: #{$color__65-brightness};
+    }
+
+    &.-gastly {
+        --color__background: #1b0b36;
+        --color__link: #9090f5;
+        --color__link__visited: #95799F;
+        --color__text: #{$color__95-brightness};
+        --color__text-alt: #{$color__65-brightness};
+    }
+
+    &.-mewtwo {
+        --color__background: #DAD4E0;
+        --color__link: #926993;
+        --color__link__visited: #7b6c7c;
+        --color__text: black;
+        --color__text-alt: #{$color__25-brightness};
+    }
+
+    &.-umbreon {
+        --color__background: #293134;
+        --color__link: #EBC675;
+        --color__link__visited: #af9661;
+        --color__text: #{$color__95-brightness};
+        --color__text-alt: #{$color__65-brightness};
     }
 
     &.-web1 {
