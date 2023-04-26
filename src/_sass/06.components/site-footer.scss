@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: space-around;
     border-top: 1px solid var(--color__background__alt);
-    font-family: var(--font__menu);
+    font-family: var(--font__meta);
 }
 
 .site-footer__content {
@@ -58,4 +58,5 @@
     margin-top: 0;
     margin-bottom: var(--margin__small);
     font-size: var(--font__size__heading-5);
+    font-family: var(--font__meta);
 }
