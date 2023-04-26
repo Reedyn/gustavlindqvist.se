@@ -21,7 +21,7 @@ eleventyComputed:
         </section>
     </header>
     <section class="page-content content" id="page-content">
-        <h2 id="blogroll"><a class="header-anchor" href="#blogroll"><span class="sr-only">Länk till </span><span aria-hidden="true">#</span></a>Bloggar och video</h2>
+        <h2 id="blogroll">Bloggar och video</h2>
         <p><svg class="icon icon--feed" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/rss.svg#rss"></use></svg> <a href="/blogroll.xml">Följ med OPML</a></p>
         {%- for category in inoreader.feeds -%}
         <details>
@@ -35,7 +35,7 @@ eleventyComputed:
             </ul>
         </details>
         {%- endfor -%}
-        <h2 id="podcasts"><a class="header-anchor" href="#podcasts"><span class="sr-only">Länk till </span><span aria-hidden="true">#</span></a>Poddar</h2>
+        <h2 id="podcasts">Poddar</h2>
         <p><svg class="icon icon--feed" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/rss.svg#rss"></use></svg> <a href="/podcasts.xml">Följ med OPML</a></p>
         <p>Uppdateras tyvärr inte så ofta eftersom det görs via manuell export från mitt poddprogram.</p>
         <p>Senast uppdaterad: <time datetime="2023-03-21 10:22">2023-03-21</time></p>

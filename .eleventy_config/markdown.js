@@ -1,5 +1,3 @@
-const slugify = require('slugify');
-const markdownItAnchor = require('markdown-it-anchor');
 const markdownIt = require('markdown-it');
 const markdownItTasklist = require('markdown-it-task-lists');
 const markdownItSup = require('markdown-it-sup');
@@ -10,43 +8,6 @@ const markdownItTables = require('markdown-it-multimd-table');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownIt11tyImages = require('./markdown/image');
 const markdownItGallery = require('./markdown/gallery');
-
-const markdownItAnchorOptions = {
-    level: [1, 2, 3, 4],
-    slugify: (str) =>
-        slugify(str, {
-            lower: true,
-            strict: true,
-            remove: /[*+~.()'"!:@]/g,
-        }),
-    tabIndex: false,
-    permalink: markdownItAnchor.permalink.linkInsideHeader({
-        symbol: `
-          <span class="sr-only">Länk till </span>
-          <span aria-hidden="true">#</span>
-        `,
-        placement: 'before'
-    })
-};
-
-const scrollBlock = {
-    validate: function (params) {
-        return params.trim().match(/^scroll-block\s*(.*)$/);
-    },
-
-    render: function (tokens, idx) {
-        const m = tokens[idx].info.trim().match(/^scroll-block\s*(.*)$/);
-
-        if (tokens[idx].nesting === 1) {
-            // opening tag
-            return '<section class="scroll-block ' + m[1] + '">\n';
-
-        } else {
-            // closing tag
-            return '</section>\n';
-        }
-    }
-};
 
 // Customize Markdown library and settings:
 let markdown = markdownIt({
@@ -70,7 +31,6 @@ let markdown = markdownIt({
         rowspan: true,
         headerless: true,
     })
-    .use(markdownItAnchor, markdownItAnchorOptions)
     .use(markdownItAttrs)
     .use(require('markdown-it-container'),'note',{
         render: function (tokens, idx) {
