@@ -95,12 +95,12 @@
         --color__text-alt: #{$color__65-brightness};
     }
 
-    &.-charizard {
-        --color__background: #141414;
-        --color__link: #FF6A23;
-        --color__link__visited: #3489a1;
-        --color__text: #{$color__95-brightness};
-        --color__text-alt: #{$color__65-brightness};
+    &.-greenery {
+        --color__background: #ffffff;
+        --color__link: #5e931f;
+        --color__link__visited: #425728;
+        --color__text: black;
+        --color__text-alt: #404040;
     }
 
     &.-gastly {
