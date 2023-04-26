@@ -10,10 +10,10 @@
     background-position: center;
     background-size: cover;
     color: white;
+    font-family: var(--font__meta);
 
     .read-more-text {
         margin-bottom: var(--margin__medium);
-        font-family: var(--font__body);
         font-size: 90%;
         font-weight: 600;
         text-align: center;
@@ -24,7 +24,8 @@
         display: block;
         color: white;
         text-shadow: 0 1px 1px rgba(0, 0, 0, 0.22), 0 2px 2px rgba(0,0,0,0.20), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.10), 0 16px 16px rgba(0,0,0,0.05);
-        font-size: var(--font__size__heading-1); // H1
+        font-size: var(--font__size__heading-1);
+        font-family: var(--font__headings);
         font-weight: 900;
         letter-spacing: -.2rem;
         line-height: 1.2;

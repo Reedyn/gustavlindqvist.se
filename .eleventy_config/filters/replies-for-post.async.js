@@ -157,7 +157,6 @@ const getMastodonReplies = async function (postId) {
             directory: ".cache"
         };
         const response = await fetch(url, options);
-
         return response.descendants;
     } catch (err) {
         console.error(err);
@@ -181,6 +180,10 @@ const getRepliesForPost = async function (postId) {
         comments.push(normalize.mastodon(await getMastodonReplies(postId)));
     }
     const allComments = comments.flat(1);
+
+    if (allComments.length) {
+        console.log('[' + '\x1b[34m%s\x1b[0m', 'Comments' + '\x1b[0m' + ']:', 'Loaded', allComments.length,'comments for',postUrl);
+    }
 
     return allComments.sort((a,b) => {
         return new Date(a.published) - new Date(b.published);
