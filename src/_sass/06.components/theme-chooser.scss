@@ -95,7 +95,16 @@
         --color__text-alt: #{$color__65-brightness};
     }
 
-    &.-greenery {
+    &.-fall {
+        font-family: sans-serif;
+        --color__background: #141414;
+        --color__link: #ff5900;
+        --color__link__visited: #da2800;
+        --color__text: #{$color__95-brightness};
+        --color__text-alt: #{$color__65-brightness};
+    }
+
+    &.-spring {
         --color__background: #ffffff;
         --color__link: #5e931f;
         --color__link__visited: #425728;
