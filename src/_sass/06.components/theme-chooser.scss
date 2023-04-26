@@ -96,7 +96,6 @@
     }
 
     &.-fall {
-        font-family: sans-serif;
         --color__background: #141414;
         --color__link: #ff5900;
         --color__link__visited: #da2800;
@@ -105,6 +104,7 @@
     }
 
     &.-spring {
+        font-family: var(--font__serif);
         --color__background: #ffffff;
         --color__link: #5e931f;
         --color__link__visited: #425728;
