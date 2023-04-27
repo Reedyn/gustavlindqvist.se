@@ -19,5 +19,8 @@ module.exports = {
     sourceLink: function () {
         const prefix = 'https://raw.githubusercontent.com/Reedyn/gustavlindqvist.se/main/'
         return prefix + this.page.inputPath.replace('./','')
+    },
+    editLink: function () {
+        return `${this.ctx.page.inputPath.replace('./','/')}`
     }
 };
