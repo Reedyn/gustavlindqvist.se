@@ -216,7 +216,7 @@ module.exports = async () => {
         }
     }
     const getRecommendations = async () => {
-        const feedURL = 'https://www.inoreader.com/stream/user/1005830534/tag/Good%20shit';//view/json';
+        const feedURL = 'https://www.inoreader.com/stream/user/1005830534/tag/Good%20shit?n=500';
 
         try {
             const rawFeed = await fetchWithTimeout(feedURL, {
