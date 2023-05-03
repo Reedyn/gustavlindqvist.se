@@ -82,7 +82,7 @@ Tredje och sista dagen blev lite kort vandring längs Kungsleden med mer fokus p
 
 Dag Hammarskjöld var en flitig besökare och denna första delen av Kungsleden går parallellt med [Dag Hammarsjöldsleden](https://kiruna.se/konst-och-kulturhistoria/modalpuffar/kulturmiljo/dag-hammarskoldsleden.html), en pilgrimsled med flera meditationsplatser med citat från hans efterlämnade texter inristade på stenar.
 
-![En meditationsplats på Kungsleden. På bilden är det en sten som det står citatet "Den längsta redan är resan inåt" från Dag Hammarskjöld.](Gustav-Lindqvist_2016-07-27_0077-Pano.jpg "En av många meditationsplatser längs Kungsleden"){.-full}
+![En meditationsplats på Kungsleden. På bilden är det en sten som det står citatet “Den längsta redan är resan inåt” från Dag Hammarskjöld.](Gustav-Lindqvist_2016-07-27_0077-Pano.jpg "En av många meditationsplatser längs Kungsleden"){.-full}
 
 Från meditationsplatsen var det fin utsikt åt många håll, bland annat över floden Abiskojokk som här några kilometer ifrån forsen var betydligt lugnare.
 
