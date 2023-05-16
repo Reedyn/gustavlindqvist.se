@@ -36,7 +36,7 @@ date: 2019-10-17
     <li class="list-item--github"><a rel="me" href="https://github.com/Reedyn">
             <svg class="icon icon--GitHub" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/github.svg#github-icon"></use></svg> GitHub
         </a></li>
-    <li class="list-item--openstreetmap"><a rel="me" href="https://www.openstreetmap.org/user/Reedyn">
+    <li class="list-item--openstreetmap"><a rel="me" href="https://www.openstreetmap.org/user/reedyn">
             <svg class="icon icon--openstreetmap" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/openstreetmap.svg#openstreetmap-icon"></use></svg> OpenStreetMap
         </a></li>
     <li class="list-item--untappd"><a rel="me" href="https://untappd.com/user/Reedyn">
