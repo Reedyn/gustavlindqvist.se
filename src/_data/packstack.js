@@ -6,7 +6,7 @@ module.exports = async () => {
 
     const categoryData = {
         6: {
-            "name": "Väska",
+            "name": "Packning",
             "icon": "bag-personal",
             "color": "#3949ab",
         },
