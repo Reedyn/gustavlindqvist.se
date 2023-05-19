@@ -18,6 +18,12 @@
     .page-title {
         margin-bottom: var(--margin__small);
         font-weight: 900;
+
+        svg {
+            width: 90%;
+            max-width: 60rem;
+            padding-bottom: var(--padding__small);
+        }
     }
 
     .page-date {
@@ -25,14 +31,14 @@
     }
 
     .tags {
-        margin-top: var(--margin__small);
+        margin-top: var(--margin__medium);
         .tag {
-            color: var(--color__text__contrast);
+            display: inline-block;
             margin-right: .4em;
-
-            &:before {
-                content: "#";
-            }
+            color: inherit;
+            background: var(--color__background__widget);
+            padding: 0 .5em;
+            margin-bottom: .4em;
         }
     }
 
@@ -69,9 +75,40 @@
         color: var(--color__text__contrast);
         position: relative;
         background-color: black;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0,0,0,0.20), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.10), 0 16px 16px rgba(0,0,0,0.05);
 
         a {
             color: var(--color__text__contrast);
+        }
+
+        .page-metadata {
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0,0,0,0.20), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.10), 0 16px 16px rgba(0,0,0,0.05);
+        }
+
+        .tags {
+            color: var(--color__text__contrast);
+            .tag {
+                background: rgba(255, 255, 255, 0.1);
+                a {
+                    color: var(--color__text__contrast);
+                }
+            }
+        }
+
+        &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,.5);
+            @include respond-to(small) {
+                @supports ((background: linear-gradient(0deg,#000 0,rgba(0, 0, 0, 0.7) 8em,transparent 15em))) {
+                    background: linear-gradient(0deg,#000 0,rgba(0, 0, 0, 0.7) 8em,transparent 15em);
+                }
+            }
         }
 
         .page-header__image {
@@ -80,7 +117,6 @@
             width: 100%;
             top: 0;
             margin: 0;
-            opacity: .5;
 
             img {
                 width: 100%;
