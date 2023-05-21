@@ -39,3 +39,6 @@ Cachen blev nyss godkänd och publicerad med namnet <a href="http://www.geocachi
 Blev sjukt nervös när de två första loggningarna var DNF, skulle den vara snodd efter mindre än ett dygn???
 
 Sen kom en ny loggning med FTF :)
+
+*[FTF]:  First to find
+*[DND]:  Did not find
