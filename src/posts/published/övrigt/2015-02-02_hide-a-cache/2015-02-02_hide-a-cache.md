@@ -41,4 +41,4 @@ Blev sjukt nervös när de två första loggningarna var DNF, skulle den vara sn
 Sen kom en ny loggning med FTF :)
 
 *[FTF]:  First to find
-*[DND]:  Did not find
+*[DNF]:  Did not find
