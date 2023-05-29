@@ -17,9 +17,9 @@ eleventyComputed:
 {% endif %}
 {% if series %}{%- set nextPost = collections[series] | removePostsNotInSeries(series) | getNextCollectionItem(page) %}{% endif %}
 <article class="post">
-    <header id="post-header" class="post-header{% if feature_image %} -feature-image{% endif %}" style="view-transition-name: post-{{ post.url | hashString}}">
+    <header id="post-header" class="post-header{% if feature_image %} -feature-image{% endif %}">
         <div class="post-metadata">
-            <h1 class="post-title">{{ title }}</h1>
+            <h1 class="post-title" style="view-transition-name: post-title-{{ page.url | hashString}}">{{ title }}</h1>
             {% if page.date %}<p class="post-date"><time datetime="{{ page.date | fullISODate }}" title="{{ page.date | shortISODate }}">{{ page.date | readableLongDate }}</time></p>{% endif %}
             {% if tags %} <p class="tags"><span class="sr-only">Ämnen: </span>
                 {%- for tag in tags -%}{% if (tag !== 'posts') and (tag !== 'page') %}{% set tagData = tagMetadata[tag] %}<span class="tag"><a href="/{{ tag | slug}}/">{% if tagData.emoji %}{{ tagData.emoji }} {% endif %}{% if tagData.title %}{{ tagData.title | firstLetterUppercase }}{% else %}{{ tag | firstLetterUppercase }}{% endif %}</a><span class="sr-only">, </span></span>{% endif %}{%- endfor -%}
