@@ -27,11 +27,7 @@ I går passade vi på och gå Bankerydsleden med planen att gå större delen av
 
 Det var även mitt första test av min utrustning för året. De tidigare vandringarna har varit utan övernattning så de flesta sakerna har lämnats hemma. Packningen hade en basvikt på {{ packstack.bankerydsleden_2022.base_weight | prettyDigits }}g och en totalvikt på 10.3kg med mat & vatten.
 
-{% packStatistics packstack.bankerydsleden_2022 %}
-
-### Lista på all utrustning
-
-{% packInventory packstack.bankerydsleden_2022 %}
+{% pack packstack.bankerydsleden_2022 %}
 
 ## Utsikt och kohagar
 

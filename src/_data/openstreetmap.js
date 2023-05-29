@@ -11,7 +11,7 @@ module.exports = async () => {
         }
     });
 
-    const openstreetmap_personal_history_feed = "https://www.openstreetmap.org/user/Reedyn/history/feed";
+    const openstreetmap_personal_history_feed = "https://www.openstreetmap.org/user/reedyn/history/feed";
 
     const getEdits = async _ => {
         try {
