@@ -1,0 +1,19 @@
+.page-header.-feature-image .page-header__image,
+.post-header.-feature-image .post-header__image {
+    view-transition-name: hero
+}
+
+.page-title,
+.post-title,
+.Card__title {
+    view-transition-name: title;
+}
+
+.post-date,
+.Card__metadata time {
+    view-transition-name: date;
+}
+
+.tags {
+    view-transition-name: tags;
+}
