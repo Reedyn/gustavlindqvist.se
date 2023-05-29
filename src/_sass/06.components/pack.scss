@@ -25,6 +25,14 @@
             position: relative;
             z-index: 2;
         }
+        .marker {
+            display: inline-block;
+            transform: rotate(-90deg);
+        }
+
+        &[open] .marker {
+            transform: rotate(0deg);
+        }
 
         &-summary {
             display: grid;
@@ -70,7 +78,7 @@
         margin: 0;
         padding: var(--padding__small);
         display: block;
-        margin-block-end: .1rem;
+        margin-block-end: var(--margin__small);
 
         &-item {
             display: grid;
