@@ -3,14 +3,13 @@
     view-transition-name: hero
 }
 
-.page-title,
 .post-title,
-.Card__title {
+.post .Card__title {
     view-transition-name: title;
 }
 
 .post-date,
-.Card__metadata time {
+.post .Card__metadata time {
     view-transition-name: date;
 }
 
