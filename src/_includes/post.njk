@@ -17,7 +17,7 @@ eleventyComputed:
 {% endif %}
 {% if series %}{%- set nextPost = collections[series] | removePostsNotInSeries(series) | getNextCollectionItem(page) %}{% endif %}
 <article class="post">
-    <header id="post-header" class="post-header{% if feature_image %} -feature-image{% endif %}">
+    <header id="post-header" class="post-header{% if feature_image %} -feature-image{% endif %}" style="view-transition-name: post-{{ post.url | hashString}}">
         <div class="post-metadata">
             <h1 class="post-title">{{ title }}</h1>
             {% if page.date %}<p class="post-date"><time datetime="{{ page.date | fullISODate }}" title="{{ page.date | shortISODate }}">{{ page.date | readableLongDate }}</time></p>{% endif %}
