@@ -14,23 +14,63 @@
         text-transform: uppercase;
     }
 
+    &__category {
+        background: hsl(0deg 0% 70% / 10%);
+
+        .icon {
+            margin-left: .3rem;
+        }
+
+        > span {
+            position: relative;
+            z-index: 2;
+        }
+
+        &-summary {
+            display: grid;
+            grid-template-columns: 2em 1fr auto;
+            grid-template-areas:
+                    "left middle right"
+                    "bottom-left bottom bottom-right";
+            position: relative;
+            border-bottom: 1px solid var(--color__background);
+
+            &:focus, &:hover {
+                background: var(--color__background__alt);
+            }
+            > * {
+                z-index: 10;
+            }
+            &__bar {
+                position: absolute !important;
+                height: 100%;
+                right: 0;
+                top: 0;
+                z-index: 1 !important;
+                opacity: .5;
+            }
+
+            &__left {
+                grid-area: left;
+            }
+
+            &__middle {
+                grid-area: middle;
+            }
+
+            &__right {
+                grid-area: right;
+                text-align: right;
+            }
+        }
+    }
+
     &__list {
         list-style: none;
-        max-width: 35em;
         margin: 0;
-        padding: 0;
+        padding: var(--padding__small);
         display: block;
-        margin-block-start: var(--margin__medium);
-        margin-block-end: var(--margin__small);
-
-        &__bar {
-            position: absolute !important;
-            height: 100%;
-            right: 0;
-            top: 0;
-            z-index: 1 !important;
-            opacity: .5;
-        }
+        margin-block-end: .1rem;
 
         &-item {
             display: grid;
@@ -41,25 +81,6 @@
                 "left middle right"
                 "bottom-left bottom bottom-right";
             margin-bottom: 0.5em;
-
-            &.-overview {
-                grid-template-columns: 2em 1fr auto;
-                grid-template-areas:
-                    "left middle right"
-                    "bottom-left bottom bottom-right";
-                position: relative;
-                background: hsl(0deg 0% 70% / 10%);
-                margin-bottom: 0.1rem;
-
-                .icon {
-                    margin-left: .3rem;
-                }
-
-                > span {
-                    position: relative;
-                    z-index: 2;
-                }
-            }
 
             &__left {
                 grid-area: left;
@@ -88,6 +109,10 @@
                 grid-area: bottom-right;
                 font-size: var(--font__size-base);
                 text-align: right;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
             }
         }
     }
