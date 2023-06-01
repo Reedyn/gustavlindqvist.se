@@ -132,8 +132,10 @@ module.exports = async () => {
                 }
             });
         }
+        console.log('[' + '\x1b[35m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Grabbed',feedList.length,'feed lists from Inoreader');
         return feedList;
     };
+
     const feedLists = removeSelf(await getSourcesFromOPML());
 
     function sortByDate(a, b) {
@@ -158,7 +160,7 @@ module.exports = async () => {
                 })
             });
         });
-        console.log('[' + '\x1b[35m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Grabbed feed lists from Inoreader');
+        console.log('[' + '\x1b[35m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Removed self from feed lists');
         return filteredFeedList;
     }
 
