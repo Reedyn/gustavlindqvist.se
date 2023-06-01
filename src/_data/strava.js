@@ -1,5 +1,5 @@
 let Parser = require('rss-parser');
-const fetch = require("@11ty/eleventy-fetch");
+const { AssetCache} = require("@11ty/eleventy-fetch");
 const nodeFetch = require("node-fetch");
 const stravaAPI = require('strava-v3');
 
@@ -180,37 +180,49 @@ module.exports = async () => {
     const accessToken = await getAccessToken();
 
     async function getAthlete () {
-        const athlete = await stravaAPI.athlete.get({'access_token': accessToken});
-        console.log('[' + '\x1b[33m%s\x1b[0m', 'Strava' + '\x1b[0m' + ']:' , 'loaded athlete');
-        return athlete
+        let asset = new AssetCache('strava_athlete');
+        try {
+            const athlete = await stravaAPI.athlete.get({'access_token': accessToken});
+            console.log('[' + '\x1b[33m%s\x1b[0m', 'Strava' + '\x1b[0m' + ']:', 'loaded athlete');
+            await asset.save(athlete, "json");
+            return athlete
+        } catch (err) {
+            return asset.getCachedValue('strava_athlete');
+        }
     }
 
     async function getActivities () {
-        const activities = await stravaAPI.athlete.listActivities({'access_token': accessToken});
+        let asset = new AssetCache("strava_activities");
+        try {
+            const activities = await stravaAPI.athlete.listActivities({'access_token': accessToken});
 
-        activities.forEach((activity) => {
-            activity.start_date = new Date(activity.start_date);
-            if (activity.type === "Run" || activity.type === "Walk") {
-                const pace = (activity.workout_type === 1) ? activity.elapsed_time / activity.distance * 1000 : activity.moving_time / activity.distance * 1000;
+            activities.forEach((activity) => {
+                activity.start_date = new Date(activity.start_date);
+                if (activity.type === "Run" || activity.type === "Walk") {
+                    const pace = (activity.workout_type === 1) ? activity.elapsed_time / activity.distance * 1000 : activity.moving_time / activity.distance * 1000;
 
-                let wholeSeconds = Math.round(pace % 60);
-                wholeSeconds = String(wholeSeconds).padStart(2, '0');
-                let wholeMinutes = (pace - (pace % 60)) / 60;
+                    let wholeSeconds = Math.round(pace % 60);
+                    wholeSeconds = String(wholeSeconds).padStart(2, '0');
+                    let wholeMinutes = (pace - (pace % 60)) / 60;
 
 
-                activity.pace = wholeMinutes + ':' + wholeSeconds;
-            }
-            activity.map.svg = generateSVGMap(activity.map.summary_polyline);
-            activity.distance_km = Number(activity.distance / 1000).toFixed(1);
-            activity.average_speed_km = Math.round(activity.average_speed * 3.6);
-        });
+                    activity.pace = wholeMinutes + ':' + wholeSeconds;
+                }
+                activity.map.svg = generateSVGMap(activity.map.summary_polyline);
+                activity.distance_km = Number(activity.distance / 1000).toFixed(1);
+                activity.average_speed_km = Math.round(activity.average_speed * 3.6);
+            });
 
-        const visibleActivities = activities.filter((activity) => {
-            return activity.visibility === 'everyone';
-        });
+            const visibleActivities = activities.filter((activity) => {
+                return activity.visibility === 'everyone';
+            });
 
-        console.log('[' + '\x1b[33m%s\x1b[0m', 'Strava' + '\x1b[0m' + ']:' , 'loaded', visibleActivities.length + ' activities');
-        return visibleActivities
+            console.log('[' + '\x1b[33m%s\x1b[0m', 'Strava' + '\x1b[0m' + ']:' , 'loaded', visibleActivities.length + ' activities');
+            await asset.save('strava_activities', "json");
+            return visibleActivities
+        } catch (err) {
+            return asset.getCachedValue('strava_activities');
+        }
     }
 
 
