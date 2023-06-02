@@ -1,14 +1,15 @@
 .icon, .content .icon {
+    display: inline-block;
+    bottom: 0.1em;
+    position: relative;
     width: auto;
     height: 1em;
     vertical-align: sub;
-    display: inline-block;
-    bottom: 0.1rem;
-    position: relative;
 
     &.-large {
         height: 1.5em;
         vertical-align: middle;
+        bottom: 0.15em;
     }
 
     &.-strava {
