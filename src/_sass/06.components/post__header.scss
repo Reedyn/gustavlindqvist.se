@@ -5,8 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    padding-top: var(--padding__large);
-    padding-bottom: var(--padding__medium);
+    padding: 0;
     background-position: center;
     background-size: cover;
     color: var(--color__text);
@@ -18,6 +17,7 @@
 
 
     .post-title {
+        margin-top: var(--margin__medium);
         margin-bottom: var(--margin__small);
         font-weight: 900;
 
@@ -51,10 +51,6 @@
         max-width: var(--max-width__content);
         padding: 0 var(--padding__medium);
 
-        :first-child {
-            margin-top: 0;
-        }
-
         :last-child {
             margin-bottom: 0;
         }
@@ -72,57 +68,14 @@
     }
 
     &.-feature-image {
-        min-height: 50vmin;
-        max-height: 80vh;
-        color: var(--color__text__contrast);
-        position: relative;
-        background-color: black;
-        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0,0,0,0.20), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.10), 0 16px 16px rgba(0,0,0,0.05);
-
-        a {
-            color: var(--color__text__contrast);
-        }
-
-        .post-metadata {
-            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0,0,0,0.20), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.10), 0 16px 16px rgba(0,0,0,0.05);
-        }
-
-        .tags {
-            color: var(--color__text__contrast);
-            .tag {
-                background: rgba(255, 255, 255, 0.1);
-                a {
-                    color: var(--color__text__contrast);
-                }
-            }
-        }
-
-        &:after {
-            content: "";
-            display: block;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,.5);
-            @include respond-to(small) {
-                @supports ((background: linear-gradient(0deg,#000 0,rgba(0, 0, 0, 0.7) 8em,transparent 15em))) {
-                    background: linear-gradient(0deg,#000 0,rgba(0, 0, 0, 0.7) 8em,transparent 15em);
-                }
-            }
-        }
-
         .post-header__image {
-            position: absolute;
-            height: 100%;
             width: 100%;
-            top: 0;
             margin: 0;
 
             img {
                 width: 100%;
-                height: 100%;
+                height: 50vmax;
+                max-height: 80vh;
                 margin: 0;
                 padding: 0;
                 object-fit: cover;
