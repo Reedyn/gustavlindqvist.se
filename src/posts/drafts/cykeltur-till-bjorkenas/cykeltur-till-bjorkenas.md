@@ -9,3 +9,11 @@ tags:
   - sommar
   - jkpg
 ---
+
+![Bild på en cykel fullastad med flera väskor fästa på olika ställen](){.-full}
+
+## Utrustning
+
+{% pack packstack.bikepacking_2023 %}
+
+![Skärmdump på en karta över Jönköping och Bunn med en rutt utritad](){.-full}
