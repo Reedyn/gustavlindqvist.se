@@ -51,7 +51,7 @@ module.exports = async function (src, style, alt, caption = undefined) {
         let captionElement = (typeof caption !== 'undefined') ? `<figcaption>${markdown.render(caption)}</figcaption>` : '';
 
 
-        let inlineStyling = (style === '-inline') ? ` style="flex: ${highsrc.width / highsrc.height}"` : '';
+        let inlineStyling = (style === '-inline') ? ` style="flex: ${highsrc.width / highsrc.height} view-transition-name: featured-image-${hashString(imageSrc.url)}"` : 'view-transition-name: featured-image-${hashString(imageSrc.url)}';
 
         // Base sizes on the layout changes.
         let sizes = '(max-width: 50rem) 100vw, 50rem';
