@@ -134,7 +134,7 @@ module.exports = {
     },
     hashString: hashString,
     prettyDigits: (number) => {
-        return number.toString().replace(/(?!^)(?=(?:\d{3})+(?:\.|$))/gm, '  ');
+        return number.toString().replace(/(?!^)(?=(?:\d{3})+(?:\.|$))/gm, ' ');
     },
     isoString: (date = Date.now()) => new Date(date).toISOString(),
     count: (arr) => arr.length,
