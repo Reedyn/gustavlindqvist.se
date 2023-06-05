@@ -61,7 +61,7 @@ När jag närmade mig Bunn släppte det dock, de smala stigarna blev skogsvägar
 :::: gallery {.-wide}
 ::: row {.-no-wrap}
 ![En väg med en skylt som det står Aneby kommun på](Gustav-Lindqvist_2023-06-04_08816.jpg){.-inline}
-:![En informationsskylt för naturreservatet Björkenäs](Gustav-Lindqvist_2023-06-04_08817-Pano.jpg){.-inline}
+![En informationsskylt för naturreservatet Björkenäs](Gustav-Lindqvist_2023-06-04_08817-Pano.jpg){.-inline}
 :::
 ::::
 
@@ -111,7 +111,7 @@ Istället för att cykla leden tog jag vägen över Ölmstad och förbi Flättin
 
 ![En väg som går genom ett landskap av öppna ämngar och små skogspartier](Gustav-Lindqvist_2023-06-05_08945-Pano.jpg){.-full}
 
-Vid Fagerslätt var det en Glada som bråkade med några kråkor, oklart om vad.
+Vid Fagerslätt var det en glada som bråkade med några kråkor, oklart om vad.
 
 ![En glada som bråkar med tre andra fåglar](Gustav-Lindqvist_2023-06-05_08944.jpg){.-wide}
 
