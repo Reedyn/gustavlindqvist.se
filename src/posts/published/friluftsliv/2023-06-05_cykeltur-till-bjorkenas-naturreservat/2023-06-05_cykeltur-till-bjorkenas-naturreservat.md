@@ -12,7 +12,7 @@ tags:
 
 I helgen var det äntligen dags för min första bikepackingtur med cykeln. Det bar av till naturreservatet Björkenäs vid sjön Ören som ligger i grannkommunen Aneby, strax intill kommungränsen nära Bunn.
 
-## Min utrustning
+## Packlistan
 
 {% pack packstack.bikepacking_2023 %}
 
