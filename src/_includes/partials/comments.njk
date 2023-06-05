@@ -29,7 +29,7 @@
                         width="48"
                         height="48"
                 >
-                {{ reply.author.name | safe}}</span>{% endif %}{% if reply.type === 'mention-of' %} nämnde detta inlägg{% else %} kommenterade{% endif%} {%  if reply.url %}<a href="{{ reply.url }}" target="_blank" rel="external noopener noreferrer"> <time class="timeago" prefix datetime="{{ reply.published | fullISODate }}" title="{{ reply.published | shortISODate }}">{{ reply.published | readableLongDate }}</time></a>{% else %}<span> <time class="timeago" prefix datetime="{{ reply.published | fullISODate }}" title="{{ reply.published | shortISODate }}">{{ reply.published | readableLongDate }}</time></span>{% endif %}
+                {{ reply.author.name | safe}}</span>{% endif %}{% if reply.type === 'mention-of' %} nämnde detta inlägg{% else %} kommenterade{% endif%} {%  if reply.url %}<a href="{{ reply.url }}" target="_blank" rel="external noopener noreferrer"> <time class="timeago" prefix datetime="{{ reply.published | dateFromString | fullISODate }}" title="{{ reply.published | dateFromString | longISODate }}">{{ reply.published | dateFromString | readableLongDate }}</time></a>{% else %}<span> <time class="timeago" prefix datetime="{{ reply.published | dateFromString | fullISODate }}" title="{{ reply.published | dateFromString | longISODate }}">{{ reply.published | dateFromString | readableLongDate }}</time></span>{% endif %}
             </span>
             {{ reply.content | safe }}{% if reply.image %}<p><a href="{{ reply.url }}"><img class="Comments__image" src="{{ reply.image.preview_url }}" alt="{{ reply.image.description }}"></a></p>{% endif %}
         </li>
