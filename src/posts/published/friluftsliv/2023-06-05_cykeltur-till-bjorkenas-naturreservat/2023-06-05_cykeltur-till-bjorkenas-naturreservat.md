@@ -61,7 +61,7 @@ När jag närmade mig Bunn släppte det dock, de smala stigarna blev skogsvägar
 :::: gallery {.-wide}
 ::: row {.-no-wrap}
 ![En väg med en skylt som det står Aneby kommun på](Gustav-Lindqvist_2023-06-04_08816.jpg){.-inline}
-:![En informationsskylt för naturreservatet Björkenäs](Gustav-Lindqvist_2023-06-04_08817-Pano.jpg){.-inline}
+![En informationsskylt för naturreservatet Björkenäs](Gustav-Lindqvist_2023-06-04_08817-Pano.jpg){.-inline}
 :::
 ::::
 
