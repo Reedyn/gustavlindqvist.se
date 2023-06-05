@@ -133,5 +133,22 @@
             "text": "Trevlig beskrivning av denna vandring!"
         },
         "wm-property": "in-reply-to"
+    },
+    {
+        "author": {
+            "name": "Daniel",
+            "photo": false,
+            "url": false,
+            "is-me": false
+        },
+        "url": false,
+        "published": "2023-06-05T14:45:29+02:00",
+        "wm-source": "comment",
+        "wm-target": "https://gustavlindqvist.se/2023/06/05/cykeltur-till-bjorkenas-naturreservat/",
+        "content": {
+            "html": "<p>Härlig tur! Du skulle bara haft med dig fiskeprylar och ordnat kvällsmaten själv.</p>",
+            "text": "Härlig tur! Du skulle bara haft med dig fiskeprylar och ordnat kvällsmaten själv."
+        },
+        "wm-property": "in-reply-to"
     }
 ]
