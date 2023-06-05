@@ -111,7 +111,7 @@ Istället för att cykla leden tog jag vägen över Ölmstad och förbi Flättin
 
 ![En väg som går genom ett landskap av öppna ämngar och små skogspartier](Gustav-Lindqvist_2023-06-05_08945-Pano.jpg){.-full}
 
-Vid Fagerslätt var det en Glada som bråkade med några kråkor, oklart om vad.
+Vid Fagerslätt var det en glada som bråkade med några kråkor, oklart om vad.
 
 ![En glada som bråkar med tre andra fåglar](Gustav-Lindqvist_2023-06-05_08944.jpg){.-wide}
 
