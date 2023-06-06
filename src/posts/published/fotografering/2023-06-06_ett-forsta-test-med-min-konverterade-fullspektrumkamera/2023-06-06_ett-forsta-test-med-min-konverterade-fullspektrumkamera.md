@@ -15,9 +15,9 @@ Med en sådan kamera kan man med lite olika filter få väldigt häftiga effekte
 
 ## IRChrome
 
-Mitt enda filter jag har för tillfället är ett sådant, det är ett speciellt filter från Kolari Vision som heter IRChrome och som är gjort för att efterlikna en gammal filmrulle som brukar kallas aerochrome. För den som är mer intresserad kan jag rekommendera [Todd Domineys film om historien bakom aerochrome på YouTube][YouTube - Story of Kodak Aerochrome Part 1]
+Mitt enda filter jag har för tillfället är ett sådant, det är ett speciellt filter från Kolari Vision som heter IRChrome och som är gjort för att efterlikna en gammal filmrulle som brukar kallas aerochrome. För den som är mer intresserad kan jag rekommendera [Todd Domineys film om historien bakom aerochrome på YouTube][YouTube - Story of Kodak Aerochrome Part 1]
 
-![Diagram över ett spektrum där det gröna och blå ljuset är inringat samt det infraröda](irchrome_spectrum.png "Ungefärligt spektrum för det ljus som filtret IRChrome släpper igenom.<br>[Från Rob Sheas film om IRChrome YouTube](https://www.youtube.com/watch?v=IifxAny9rCM)")
+![Diagram över ett spektrum där det gröna och blå ljuset är inringat samt det infraröda](irchrome_spectrum.png "Ungefärligt spektrum för det ljus som filtret IRChrome släpper igenom.<br>[Från Rob Sheas film om IRChrome YouTube](https://www.youtube.com/watch?v=IifxAny9rCM)")
 
 Till skillnad från det synliga ljuset som oftast ser bäst ut när solen står lågt eller det är lite halvmulet så vill det infraröda ha så mycket solljus som möjligt, helst mitt på dagen. Idag var det just sånt här väder så på vår nationaldagspromenad tog jag med min konverterade kamera och filter.
 
