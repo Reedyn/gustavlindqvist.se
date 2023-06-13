@@ -65,4 +65,4 @@ module.exports = async function (src, sizes, style, postData) {
             height="${lowsrc.height}"
             alt="">
         </picture></figure>`;
-}
+};
