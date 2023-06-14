@@ -7,9 +7,7 @@
     z-index: 10;
     display: flex;
     max-width: var(--max-width__base);
-    height: var(--header__height);
-    max-height: var(--header__height);
-    flex-direction: row;
+    flex-direction: column;
     padding-right: var(--padding__medium);
     padding-left: var(--padding__medium);
     margin: auto;
@@ -18,14 +16,26 @@
     font-size: var(--font__size-base);
     line-height: var(--header__height);
 
+
+
+    @include respond-to(small) {
+        flex-direction: row;
+    }
+
     .site__title {
-        font-size: inherit;
+        font-size: 150%;
         line-height: inherit;
         letter-spacing: inherit;
         margin: 0;
+
+        a {
+            font-weight: 700;
+        }
     }
 
     .site__image {
+        position: relative;
+        top: calc(var(--header__height) * -.05);
         width: calc(var(--header__height) * .5);
         margin: 0;
         margin-right: 0.75em;

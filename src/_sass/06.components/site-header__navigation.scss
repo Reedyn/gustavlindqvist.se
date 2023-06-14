@@ -1,8 +1,14 @@
 .site-header__navigation {
     flex: 1;
-    text-align: right;
+    text-align: left;
+
+    @include respond-to(small) {
+        text-align: right;
+    }
+
     ul {
         margin: 0;
+        padding-inline-start: 0;
         li {
             display: inline-block;
             margin-left: var(--margin__small);
