@@ -22,7 +22,7 @@
         height: 100%;
         border-radius: 1em;
         transition: 0.3s;
-        background-color: var(--color__background__widget);
+        background-color: var(--color__text);
 
         &:before {
             content: "";
@@ -32,7 +32,7 @@
             width: 1.5em;
             height: 1.5em;
             border-radius: 50%;
-            background-color: var(--color__text);
+            background-color: var(--color__background);
             transition: transform 0.1s;
         }
     }
@@ -43,8 +43,8 @@
 
         &:checked ~ .theme-toggle__slider:before {
             transform: translateX(2em);
-            box-shadow: inset -.4em -.4em 0 0 var(--color__text);
-            background-color: var(--color__background_alt);
+            box-shadow: inset -.4em -.4em 0 0 var(--color__background);
+            background-color: var(--color__text);
         }
     }
 }
