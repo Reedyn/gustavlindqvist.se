@@ -3,7 +3,7 @@ title: "Om mig"
 layout: base.njk
 templateClass: post-template
 type: page
-description: "Jag är bosatt i Jönköping sedan 2012. Sedan 2015 har jag jobbat som webbutvecklare på Högskolebiblioteket i Jönköping. Jag kommer ursprungligen från Trelleborg där jag har min familj."
+description: "Jag är en skåning bosatt i Jönköping sedan 2012. Sedan 2015 har jag jobbat som webbutvecklare på Högskolebiblioteket i Jönköping. Jag kommer ursprungligen från Trelleborg i södra Skåne där jag har min familj."
 permalink: /om-mig/
 eleventyComputed:
     meta:
@@ -19,74 +19,9 @@ eleventyComputed:
         </div>
     </header>
     <section aria-label="Sidans innehåll" class="page-content content" id="page-content">
-        <p>Detta är en sida inspirerad av <a href="https://nownownow.com/about">now now now</a>.</p>
-        <p class="lead">Jag är bosatt i Jönköping sedan 2012. Sedan 2015 har jag jobbat som webbutvecklare på <a href="https://ju.se/bibliotek">Högskolebiblioteket i Jönköping</a>. Jag kommer ursprungligen från Trelleborg där jag har min familj.</p>
-
-        <h2 id="träning">🏃‍♂️Träning</h2>
-        <p>Jag tycker om att springa och cykla, gärna så mycket i skogen som möjligt</p>
-        <p>På vinterhalvåret blir det mycket löpning på stigar i skogen. På våren och hösten när det är säsong för orientering brukar det bli mest det och på sommaren när det är varmt och torrt blir det mycket stigcykling.</p>
-        <p>Mina senaste träningspass:</p>
-        <ol class="activity-list">
-            {% for activity in strava.activities %}{% if loop.index0 < 2 %}<li class="activity-list__item">
-                <svg class="icon" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" {% if activity.type === 'Ride' %}href="/assets/icons/bike.svg#bike" {% endif %}{% if activity.type === 'Run' %}href="/assets/icons/run.svg#run"{% endif %}{% if activity.type === 'Walk' %}href="/assets/icons/walk.svg#walk"{% endif %}{% if activity.type === 'Hike' %}href="/assets/icons/hiking.svg#icon"{% endif %}></use></svg>
-                <div class="activity-content">
-                    <a id="{{ activity.id }}" class="" href="https://www.strava.com/activities/{{ activity.id }}">{{ activity.name }}</a>
-                    <p class="activity-metadata" data-polyline="{{ activity.map.summary_polyline }}" data-latitude="{{ activity.start_latlng[0] }}" data-longitude="{{ activity.start_latlng[1] }}">
-                        <time class="timeago" firstletterupper datetime="{{ activity.start_date | fullISODate }}" title="{{ activity.start_date | shortISODate }}">{{ activity.start_date | readableDate }}</time>
-                        {% if activity.distance_km %} · <span class="activity-distance">{{ activity.distance_km }}km</span>{% endif %}
-                        {% if activity.total_elevation_gain and activity.total_elevation_gain > 200 %} · <span class="activity-elevation_gain">{{ activity.total_elevation_gain }}m↥</span>{% endif %}
-                        {% if activity.type === 'Run' and activity.pace %} · <span class="activity-pace">{{ activity.pace }}min/km</span>{% endif %}
-                        {% if activity.average_speed_km and (activity.type === 'Ride' or activity.type === 'Walk' ) %} · <span class="activity-average_speed">{{ activity.average_speed_km }}km/h</span>{% endif %}
-                    </p>
-                </div>
-                </li>{% endif %}{% endfor %}
-        </ol>
-
-        <h2 id="vandring">🏕️ Vandring</h2>
-        <p>Jag gillar att vandra (och sova i tält) och försöker göra det så mycket jag hinner, speciellt under sommarhalvåret. <a href="/friluftsliv">Jag skriver om mina vandringar på bloggen under kategorin friluftsliv</a>.</p>
-
-        <h2 id="kartor">🗺️ Kartor</h2>
-        <p>Flera av mina fritidsintressen går in i varandra och inget mer än mitt intresse för kartor. När jag är ute och springer, vandrar eller cyklar samlar jag alltid in uppgifter och kartlägger för att sen kunna lägga in det i <a href="https://openstreetmap.org/">OpenStreetMap</a>.</p>
-        <p>Mina senaste redigeringar i OpenStreetMap:</p>
-        <ol class="list">
-            {% for edit in openstreetmap.edits %}{% if loop.index0 < 2 %}
-            <li class="list__item">
-                <a id="{{ edit.id }}" href="{{ edit.resultatmaps }}">{{ edit.comment }}</a>
-                {% if edit.date %}<p class="metadata"><time class="timeago" firstletterupper datetime="{{ edit.date | fullISODate }}" title="{{ edit.date | shortISODate }}">{{ edit.date | readableDate }}</time></p>{% endif %}
-            </li>
-            {% endif %}{% endfor %}
-        </ol>
-
-        <h2 id="bocker">📖 Böcker</h2>
-        {% if goodreads.currently_reading.length %}
-            <p>Jag läser för tillfället:</p>
-            <ol class="book-list">
-                {% for book in goodreads.currently_reading %}
-                    <li class="book-list__item">
-                        <img class="book-list__cover" src="{{ book.book_medium_image_url }}" alt="Bokomslag för {{ book.title }}">
-                        <div class="book-list__item-content">
-                            <h3 class="book-title"><a id="{{ book.book_id }}" href="{{ book.url }}">{{ book.title }}</a></h3>
-                            <p>{{ book.author }}</p>
-                        </div>
-                    </li>
-                {% endfor %}
-            </ol>
-        {% endif %}
-
-        <h2 id="gaming">🎮 Spel</h2>
-        <p>Efter några års uppehåll på grund av en trasig dator har jag det senaste året tagit upp datorspelandet igen. Jag spelar mestadels spel som har några år på nacken som jag missat. </p>
-        {% if steam.recently_played_games.length %}
-        <p id="games">Jag spelar för tillfället:</p>
-        <ol class="game-list">
-            {% for game in steam.recently_played_games %}
-                <li class="game-list__item">
-                    <img class="icon" src="https://media.steampowered.com/steamcommunity/public/images/apps/{{ game.appid }}/{{ game.img_icon_url }}.jpg" alt="Ikon för spelet {{ game.name }}">
-                    <div class="game-list__item-content">
-                        <a id="{{ game.appid }}" href="{{ game.url }}">{{ game.name }}</a>
-                    </div>
-                </li>
-            {% endfor %}
-        </ol>
-        {% endif %}
+        <p class="lead">Jag är en skåning bosatt i Jönköping sedan 2012. Sedan 2015 har jag jobbat som webbutvecklare på <a href="https://ju.se/bibliotek">Högskolebiblioteket i Jönköping</a>. Jag kommer ursprungligen från Trelleborg i södra Skåne där jag har min familj.</p>
+        <p>Här på bloggen skriver jag mestadels om vad jag hittar på på fritiden, <a href="/friluftsliv/">friluftsliv</a>, <a href="/fotografering/">fotografering</a>, <a href="/resor/">mina resor</a> och lite vad som faller mig in, det brukar inte bli så många tankar och sånt utan det är mer dokumentation för vad jag hittat på. </p>
+        <p>Följ mig på <a href="https://jkpg.rocks/@gustav">Mastodon</a> om du vill följa mitt dagliga flöde, du kan även
+            <a href="/just-nu/">se vad jag hittar på just nu</a>.</p>
     </section>
 </article>
