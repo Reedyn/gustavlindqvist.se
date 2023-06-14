@@ -19,7 +19,7 @@ eleventyComputed:
         </div>
     </header>
     <section aria-label="Sidans innehåll" class="page-content content" id="page-content">
-        <p class="lead">Detta är en sida som visar vad jag hittar på <a href="https://nownownow.com/about">just nu</a>. Vill du läsa mer om min bakgrund så kan du läsa
+        <p class="lead">Detta är <a href="https://nownownow.com/about">en sida som visar vad jag hittar på just nu</a>. Vill du läsa mer om min bakgrund så kan du läsa
             <a href="/om-mig">om mig</a>.</p>
         <p>Jag bor i Jönköping och jobbar som webbutvecklare på <a href="https://ju.se/bibliotek">Högskolebiblioteket i Jönköping</a>.</p>
 
@@ -60,7 +60,8 @@ eleventyComputed:
             {% endif %}{% endfor %}
         </ol>
 
-        {% if goodreads.currently_reading.length %}<h2 id="bocker">Jag läser för tillfället</h2>
+        {% if goodreads.currently_reading.length %}<h2 id="bocker">Böcker</h2>
+            <p>Jag läser för tillfället:</p>
             <ol class="book-list">
                 {% for book in goodreads.currently_reading %}
                     <li class="book-list__item">
@@ -74,7 +75,7 @@ eleventyComputed:
             </ol>
         {% endif %}
 
-        {% if steam.recently_played_games.length %}<h2 id="gaming">Jag spelar för tillfället</h2>
+        {% if steam.recently_played_games.length %}<h2 id="gaming">Spel</h2>
         <p>Efter några års uppehåll på grund av en trasig dator har jag det senaste året tagit upp datorspelandet igen. Jag spelar mestadels spel som har några år på nacken som jag missat. </p>
         <p id="games">Jag spelar för tillfället:</p>
         <ol class="game-list">
