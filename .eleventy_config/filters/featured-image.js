@@ -54,7 +54,7 @@ module.exports = async function (src, sizes, style, postData) {
 
     let imageSrc = metadata[format][0];
     console.log('[' + '\x1b[36m%s\x1b[0m', '11ty Image' + '\x1b[0m' + ']:', 'Created featured image ', imageSrc.url);
-    return `<figure class="image ${style}"">
+    return `<figure class="image ${style}">
                <picture>
         ${Object.values(metadata).map(imageFormat => {
         return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`;
@@ -63,6 +63,7 @@ module.exports = async function (src, sizes, style, postData) {
             src="${lowsrc.url}"
             width="${lowsrc.width}"
             height="${lowsrc.height}"
-            alt="">
+            alt=""
+            loading="eager">
         </picture></figure>`;
 };
