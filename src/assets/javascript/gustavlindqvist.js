@@ -12,41 +12,48 @@ const gustavlindqvist = (() => {
     const setSavedTheme = (() => {
         let theme = localStorage.getItem('theme');
         if (theme) {
-            document.documentElement.setAttribute('data-theme', theme);
-            document.querySelector(`.theme-chooser.-${theme}`).classList.add('active');
+            if (theme === 'dark') {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                document.getElementById('theme-toggle__checkbox').checked = true;
+            } else {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
         } else {
-            document.querySelector(`.theme-chooser.-auto`).classList.add('active');
+            if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            } else {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
         }
     })();
 
     const createThemeChooser = (() => {
-        const themeChooserToggle = document.getElementById('theme-chooser-toggle');
-        const themeChooserContainer = document.getElementById('theme-chooser-container');
-        const themeSelectors = document.querySelectorAll('.theme-chooser');
+        const themeToggle = document.getElementById('theme-toggle__checkbox');
+        const colorSchemeSetting = window.matchMedia("(prefers-color-scheme: dark)");
 
-        themeChooserToggle.addEventListener('click', () => {
-            themeChooserContainer.classList.toggle('hidden');
-            const scrollingElement = (document.scrollingElement || document.body);
-            scrollingElement.scrollTop = scrollingElement.scrollHeight;
+        themeToggle.addEventListener('change', (event) => {
+            if(event.target.checked) {
+                localStorage.setItem('theme', 'dark');
+                document.documentElement.setAttribute('data-theme', 'dark');
+            } else {
+                localStorage.setItem('theme', 'light');
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
         });
 
-        [...themeSelectors].forEach((themeSelector) => {
-            themeSelector.addEventListener('click', (event) => {
-                [...document.querySelectorAll('.theme-chooser.active')].forEach((btn) => { btn.classList.remove('active') });
-
-                const selectedTheme = themeSelector.value;
-
-                if(selectedTheme === 'auto') {
-                    localStorage.removeItem('theme');
-                    document.documentElement.removeAttribute('data-theme');
-                } else {
-                    localStorage.setItem('theme', selectedTheme);
-                    document.documentElement.setAttribute('data-theme', selectedTheme);
-                }
-
-                themeSelector.classList.add('active')
-            });
+        colorSchemeSetting.addEventListener('change', (event) => {
+            if(event.matches) {
+                localStorage.setItem('theme', 'dark');
+                document.getElementById('theme-toggle__checkbox').checked = true;
+                document.documentElement.setAttribute('data-theme', 'dark');
+            } else {
+                localStorage.setItem('theme', 'light');
+                document.getElementById('theme-toggle__checkbox').checked = false;
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
         });
+
+
     })();
 
     const initializeDayJS = (() => {
