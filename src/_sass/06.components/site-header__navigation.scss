@@ -7,7 +7,7 @@
         flex: 1;
         margin: 0;
         padding-inline-start: 0;
-        text-align: left;
+        text-align: center;
 
         @include respond-to(small) {
             text-align: right;
