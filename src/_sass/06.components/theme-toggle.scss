@@ -7,6 +7,18 @@
     top: -.1em;
     margin-left: 1em;
 
+    &__container {
+        position: absolute;
+        top: 0;
+        right: var(--margin__medium);
+
+        @include respond-to(medium) {
+            position: initial;
+            top: initial;
+            right: initial;
+        }
+    }
+
     label {
         position: absolute;
         width: 100%;
