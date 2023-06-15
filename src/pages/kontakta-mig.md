@@ -1,10 +1,10 @@
 ---
 title: "Kontakta mig"
-custom_excerpt: "Kontakta mig över e-post, Telegram, Signal eller någon av de sociala medier jag använder."
+custom_excerpt: "Kontakta mig"
 date: 2019-10-17
 ---
 
-<p>Det går bra att kontakta mig via någon av följande tjänster. För säker kommunikation rekommenderas Signal.</p>
+<p>Det går bra att kontakta mig via någon av följande tjänster.</p>
 
 <ul class="list -no-style">
       <li class="list-item--email"><a rel="me" href="mailto:&#104;&#101;&#106;&#064;&#103;&#117;&#115;&#116;&#097;&#118;&#108;&#105;&#110;&#100;&#113;&#118;&#105;&#115;&#116;&#046;&#115;&#101;">
