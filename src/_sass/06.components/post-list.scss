@@ -4,7 +4,7 @@
 }
 
 .post-list__item {
-    margin-bottom: var(--margin__large);
+    margin-bottom: var(--margin__small);
 
     @include respond-to(tiny) {
         margin-bottom: var(--margin__medium);
