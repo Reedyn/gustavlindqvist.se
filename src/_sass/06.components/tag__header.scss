@@ -18,16 +18,13 @@
         max-width: var(--max-width__content);
         padding: 0 var(--padding__medium);
 
-        :first-child {
-            margin-top: 0;
-        }
-
         :last-child {
             margin-bottom: 0;
         }
     }
 
     .tag-title {
+        margin-top: var(--margin__medium);
         margin-bottom: var(--margin__small);
         font-weight: 900;
     }
