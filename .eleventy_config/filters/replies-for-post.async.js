@@ -152,7 +152,7 @@ const getMastodonReplies = async function (postId) {
     try {
         const url = `https://${mastodonAsync.host}/api/v1/statuses/${postId}/context`;
         const options = {
-            duration: "6h",
+            duration: "1h",
             type: "json",
             directory: ".cache"
         };
