@@ -1,7 +1,7 @@
 ---
 title: "Kort cykeltur med övernattning vid Fjällstorp"
 description: "I måndags tyckte Jossan att det kunde vara kul att ta en kort bikepackingtur med hennes nya cykelväskor. Jag hade redan en tur jag spanat in sedan tidigare som passade perfekt för en kort övernattning."
-feature_image: "Gustav-Lindqvist_2023-06-20_09313_16-9.jpg"
+feature_image: Gustav-Lindqvist_2023-06-20_09313_16-9.jpg
 date: 2023-06-23T12:00:00+0200
 tags:
     - friluftsliv
