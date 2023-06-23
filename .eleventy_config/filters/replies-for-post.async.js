@@ -17,9 +17,9 @@ const normalize = {
 
         return posts
             .filter((reply) => {
-                // Don't include bots or accounts that are set to not be discoverable
+                // Don't include bots
                 // and only include posts that are public
-                return (reply.account.discoverable && !reply.account.bot && reply.visibility === 'public')
+                return (!reply.account.bot && reply.visibility === 'public')
             })
             .map((reply) => {
 
