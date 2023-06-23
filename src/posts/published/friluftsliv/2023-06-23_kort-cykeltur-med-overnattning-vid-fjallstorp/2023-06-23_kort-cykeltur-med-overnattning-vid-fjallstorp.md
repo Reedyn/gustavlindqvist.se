@@ -12,7 +12,7 @@ tags:
 
 I måndags tyckte [Jossan](https://josefinenilsson.se) att det kunde vara kul att ta en kort bikepackingtur med hennes nya cykelväskor. Jag hade redan en tur jag spanat in sedan tidigare som passade perfekt för en kort övernattning.
 
-Strax efter 18 rullade vi iväg frå Jönköping. Vi cyklade upp till Kaxholmen och sedan uppför de branta backarna till tältplatsen Fjällstorp som ligger på John Bauerleden. Hela vägen är på fina cykelvägar eller grusvägar och bortsett från de branta backarna så är det lättcyklat. Sträckan bjuder också på mycket fina vyer över Landsjön, Skärstadalen och Vättern.
+Strax efter 18 rullade vi iväg från Jönköping. Vi cyklade upp till Kaxholmen och sedan uppför de branta backarna till tältplatsen Fjällstorp som ligger på John Bauerleden. Hela vägen är på fina cykelvägar eller grusvägar och bortsett från de branta backarna så är det lättcyklat. Sträckan bjuder också på mycket fina vyer över Landsjön, Skärstadalen och Vättern.
 
 Upp till Kaxholmen fick vi en fin uppvärmning med en jämn lutning på backen, därefter skulle vi klättra upp mot Måla kulle och då blev det riktigt brant.
 
