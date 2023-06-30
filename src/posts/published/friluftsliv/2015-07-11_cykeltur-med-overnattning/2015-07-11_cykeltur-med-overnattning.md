@@ -10,7 +10,6 @@ tags:
     - holavedsleden
     - sommar
     - retropost
-
 ---
 
 Detta är en händelse från 2015 men som skrevs 2023{.note}
@@ -19,7 +18,7 @@ Av någon anledning fick vi för oss att cykla till Gränna och sova i tält. Vi
 
 Vi hade inte någon särskild utrustning för att cykla med packning så vi köpte några biketouringväskor som vi kunde fästa på våra pakethållare. Vårt tält var ett billigt från Intersport som säkert vägde 4--5 kilo, resten av utrustningen var i princip lika tung och stor *(tyvärr tog jag inga bilder på cyklarna)*.
 
-Vi cyklade upp mot gamla Grännavägen via Huskvarna, fram till Skärstad var det fina asfalterade cykelbanor, därefter var det slut. Från Skärstad cyklar man i väggrenen med bitvis tung trafik ([jag förstår varför de som bor där tjatar om bättre infrastruktur][JP - Skärstadalen kräver gång- och cykelväg].
+Vi cyklade upp mot gamla Grännavägen via Huskvarna, fram till Skärstad var det fina asfalterade cykelbanor, därefter var det slut. Från Skärstad cyklar man i väggrenen med bitvis tung trafik ([jag förstår varför de som bor där tjatar om bättre infrastruktur][JP - Skärstadalen kräver gång- och cykelväg]).
 
 Efter Ölmstad svängde vi av från bilvägen och ut på lite mindre grusvägar som nu gick mestadels nedför mot Röttle by.
 
