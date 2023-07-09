@@ -101,6 +101,10 @@
         "title": "Hong Kong",
         "type": "location"
     },
+    "höga-kusten": {
+        "title": "Höga kusten",
+        "type": "location"
+    },
     "höst": {
         "title": "höst",
         "emoji": "\uD83C\uDF42",
@@ -243,6 +247,18 @@
         "title": "sommar",
         "emoji": "\uD83C\uDF33",
         "type": "season"
+    },
+    "stöttingfjället": {
+        "title": "Stöttingfjället",
+        "type": "location"
+    },
+    "stöttingfjället-2023": {
+        "title": "Stöttingfjället 2023",
+        "emoji": "⛰\uFE0F",
+        "type": "trip",
+        "date": "2023",
+        "original_order": true,
+        "description": "Vår roadtrip upp till Stöttingfjället sommaren 2023."
     },
     "södra-vätterleden": {
         "title": "Södra Vätterleden",
