@@ -29,4 +29,4 @@ Långt mycket längre söderut blev det ytterligare ett stopp vid ännu en bro. 
 
 ![En bro med skog och ett vindkraftverk bakom](Gustav-Lindqvist_2023-07-08_00427-Pano_3000w.jpg){.-wide}
 
-Lite efter klockan 10 på kvällen rullade vi in i Jönköping med en stor längtan efter att få träffa katterna efter en vecka borta.
+Lite efter klockan 9 på kvällen rullade vi in i Jönköping med en stor längtan efter att få träffa katterna efter en vecka borta.
