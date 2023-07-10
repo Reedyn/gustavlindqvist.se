@@ -22,7 +22,7 @@ Fäboliden ligger på en höjd och har ett lokalt väderfenomen som gör att ov�
 
 ![Ett stort åskmoln på en i övrigt blå himmel](Gustav-Lindqvist_2023-07-07_00360-Pano_3000w.jpg "Ett väldigt dramatiskt regnoväder med lite åska i som missade byn fullständigt"){.-full}
 
-Runt 22:30 varje kväll innan solen gick ned bakom berget fanns en liten chans för att få se en liten dramatisk scen där landskapet badar i dagens sista ljus. I torsdags hade det varit mulet större delen av dagen och vi trodde det inte skulle bli något. Tjugo över 10 noterade Josefine att det lyste orange ute, så vi slängde oss in i bilden och körde snabbt upp mot "oppa lia" för att kanske få det hela på bild, och så blev det.
+Runt 22:30 varje kväll innan solen gick ned bakom berget fanns en liten chans för att få se en liten dramatisk scen där landskapet badar i dagens sista ljus. I torsdags hade det varit mulet större delen av dagen och vi trodde det inte skulle bli något. Tjugo över 10 noterade Josefine att det lyste orange ute, så vi slängde oss in i bilen och körde snabbt upp mot "oppa lia" för att kanske få det hela på bild, och så blev det.
 
 ![Ett skogslandskap som träffas av dagens sista strålar som lyser upp allt i intensivt guld och det som inte träffas är i blå skugga](Gustav-Lindqvist_2023-07-06_00323-Pano_3000w.jpg){.-full}
 
