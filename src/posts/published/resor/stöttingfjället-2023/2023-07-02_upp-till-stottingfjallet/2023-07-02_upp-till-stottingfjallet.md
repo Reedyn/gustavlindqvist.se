@@ -24,7 +24,7 @@ Eftersom vi hade kortare distans andra dagen passade vi på att stanna på lite 
 
 ![En båt från kustbevakningen som kör under Högakustenbron](Gustav-Lindqvist_2023-07-02_09789-Pano_3000w.jpg)
 
-Vi följde E4:an norrut längs Höga kusten. Planen var att svänga av upp mot Lycksele vid Nordmaling, egentligen är det kortare att göra det vid Örnskjöldsvik men det är ganska dåliga vägar så vi valde ändå att köra vidare längs E4:an för att få mindre tid på dåliga vägar.
+Vi följde E4:an norrut längs Höga kusten. Planen var att svänga av upp mot Lycksele vid Nordmaling, egentligen är det kortare att göra det vid Örnsköldsvik men det är ganska dåliga vägar så vi valde ändå att köra vidare längs E4:an för att få mindre tid på dåliga vägar.
 
 Innan vi svängde av gjorde vi dock ett kort (eller ganska långt) stopp på Fjällräven/Naturkompaniets outlet i Ö-vik.
 
