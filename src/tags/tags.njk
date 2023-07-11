@@ -25,7 +25,7 @@ templateClass: tag-template
             {% if tagData.type === 'subject' %}<p><svg class="icon icon--feed" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/rss.svg#rss"></use></svg> <a href="/{{ tag | slug }}/feed.xml">Flöde för {{ title or tag }}</a></p>{% endif %}
             {% if tagData.description %}{{ tagData.description | renderUsingMarkdown | safe }}{% endif %}
         </div>
-        {{ optimizedFeaturedImage | safe }}
+        {{ optimizedFeatureImage | safe }}
     </header>
     <section class="tag-content content" id="tag-content">
         {% set taglist = collections[ tag ] %}

@@ -28,7 +28,7 @@ permalink: /{{ tag | slug }}/feed.xml
     {%- for post in taglist | reverse -%}
     {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
     {% if post.data.feature_image %}
-    {%- set optimizedFeaturedImage = post.data.feature_image | featuredImageFilter("100vw", "", post.data.page)%}
+    {%- set optimizedFeatureImage = post.data.feature_image | featureImageFilter("100vw", "", post.data.page)%}
     {% endif %}
     <entry>
         <title>{{ post.data.title }}</title>
@@ -36,7 +36,7 @@ permalink: /{{ tag | slug }}/feed.xml
         <updated>{{ post.date | dateToRfc3339 }}</updated>
         <id>{{ absolutePostUrl }}</id>
         <content type="html">
-            {% if post.data.feature_image %}{{ optimizedFeaturedImage | htmlToAbsoluteUrls(absolutePostUrl) | utf8_xml }}{% endif %}{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | utf8_xml }}
+            {% if post.data.feature_image %}{{ optimizedFeatureImage | htmlToAbsoluteUrls(absolutePostUrl) | utf8_xml }}{% endif %}{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | utf8_xml }}
         </content>
     </entry>
     {%- endfor %}

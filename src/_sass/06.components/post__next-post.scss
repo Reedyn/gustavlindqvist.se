@@ -59,7 +59,7 @@
         margin-top: var(--padding__small);
     }
 
-    .next-post__image {
+    &__image {
         position: absolute;
         height: 100%;
         width: 100%;
@@ -73,6 +73,32 @@
             padding: 0;
             object-fit: cover;
             object-position: center;
+        }
+    }
+
+    &.-feature-image {
+        &--bottom {
+            .next-post__image img {
+                object-position: bottom;
+            }
+        }
+
+        &--top {
+            .next-post__image img {
+                object-position: top;
+            }
+        }
+
+        &--left {
+            .next-post__image img {
+                object-position: left;
+            }
+        }
+
+        &--right {
+            .next-post__image img {
+                object-position: right;
+            }
         }
     }
 

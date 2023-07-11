@@ -11,14 +11,14 @@ eleventyComputed:
 ---
 {%- set canonicalURL = metadata.url + page.url -%}
 {% if feature_image %}
-    {%- set optimizedFeaturedImage = feature_image | featuredImageFilter("100vw", "post-header__image", page) %}
+    {%- set optimizedFeatureImage = feature_image | featureImageFilter("100vw", "post-header__image", page) %}
 {% else %}
-    {%- set optimizedFeaturedImage = "" %}
+    {%- set optimizedFeatureImage = "" %}
 {% endif %}
 {% if series %}{%- set nextPost = collections[series] | removePostsNotInSeries(series) | getNextCollectionItem(page) %}{% endif %}
 <article class="post">
-    <header id="post-header" class="post-header{% if feature_image %} -feature-image{% endif %}">
-        {{ optimizedFeaturedImage | safe }}
+    <header id="post-header" position="{{ feature_image_position }}" class="post-header{% if feature_image %} -feature-image{% endif %}{% if feature_image_position %} -feature-image--{{ feature_image_position }}{% endif %}">
+        {{ optimizedFeatureImage | safe }}
         <div class="post-metadata">
             <h1 class="post-title" style="view-transition-name: post-title-{{ page.url | hashString}}">{{ title }}</h1>
             {% if page.date %}<p class="post-date"><time datetime="{{ page.date | fullISODate }}" title="{{ page.date | longISODate }}">{{ page.date | readableLongDate }}</time></p>{% endif %}

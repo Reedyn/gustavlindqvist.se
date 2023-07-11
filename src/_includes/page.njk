@@ -11,13 +11,13 @@ eleventyComputed:
 ---
 {%- set canonicalURL = metadata.url + page.url -%}
 {% if feature_image %}
-    {%- set optimizedFeaturedImage = feature_image | featuredImageFilter("100vw", "page-header__image", page) %}
+    {%- set optimizedFeatureImage = feature_image | featureImageFilter("100vw", "page-header__image", page) %}
 {% else %}
-    {%- set optimizedFeaturedImage = "" %}
+    {%- set optimizedFeatureImage = "" %}
 {% endif %}
 <article class="page">
     <header id="page-header" class="page-header{% if feature_image %} -feature-image{% endif %}">
-        {{ optimizedFeaturedImage | safe }}
+        {{ optimizedFeatureImage | safe }}
         <div class="page-metadata">
             <h1 class="page-title">{{ title }}</h1>
         </div>

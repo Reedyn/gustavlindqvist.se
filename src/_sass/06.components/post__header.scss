@@ -83,6 +83,30 @@
                 object-position: center;
             }
         }
+
+        &--bottom {
+            .post-header__image img {
+                object-position: bottom;
+            }
+        }
+
+        &--top {
+            .post-header__image img {
+                object-position: top;
+            }
+        }
+
+        &--left {
+            .post-header__image img {
+                object-position: left;
+            }
+        }
+
+        &--right {
+            .post-header__image img {
+                object-position: right;
+            }
+        }
     }
 
 }
