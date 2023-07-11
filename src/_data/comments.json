@@ -150,5 +150,22 @@
             "text": "Härlig tur! Du skulle bara haft med dig fiskeprylar och ordnat kvällsmaten själv."
         },
         "wm-property": "in-reply-to"
+    },
+    {
+        "author": {
+            "name": "Maggan",
+            "photo": false,
+            "url": false,
+            "is-me": false
+        },
+        "url": false,
+        "published": "2023-07-10T11:41:29+02:00",
+        "wm-source": "comment",
+        "wm-target": "https://gustavlindqvist.se/2023/07/07/faboliden/",
+        "content": {
+            "html": "<p>Wow, vilket fenomen!</p>",
+            "text": "Wow, vilket fenomen!"
+        },
+        "wm-property": "in-reply-to"
     }
 ]
