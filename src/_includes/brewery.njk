@@ -11,9 +11,9 @@ eleventyComputed:
         modified: "{% if updateDate %}{{ updateDate | isoString }}{% endif %}"
 ---
 {% if feature_image %}
-    {%- set optimizedFeaturedImage = feature_image | featuredImageFilter("100vw", "post-header__image", page) %}
+    {%- set optimizedFeatureImage = feature_image | featureImageFilter("100vw", "post-header__image", page) %}
 {% else %}
-    {%- set optimizedFeaturedImage = "" %}
+    {%- set optimizedFeatureImage = "" %}
 {% endif %}
 <style>
 
@@ -42,7 +42,7 @@ eleventyComputed:
                 <svg aria-label="{{ title }}" viewBox="0 0 500 80"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/Gustavs-hembryggeri.svg#brewery"></use></svg>
             </h1>
         </div>
-        {{ optimizedFeaturedImage | safe }}
+        {{ optimizedFeatureImage | safe }}
     </header>
     <section class="post-content wrapper" id="post-content" aria-label="Sidans innehåll">
         {{ content | safe }}
@@ -67,14 +67,14 @@ eleventyComputed:
             {%- for post in collections.ölbryggning | reverse -%}
             {% if loop.index0 < 4 %}
             {%- set canonicalURL = metadata.url + post.data.page.url -%}
-            {%- set optimizedFeaturedImage = post.data.feature_image | featuredImageFilter("50w", "Card__image", post.data.page) %}
+            {%- set optimizedFeatureImage = post.data.feature_image | featureImageFilter("50w", "Card__image", post.data.page) %}
             {%- set parsed_feature_image = post.data.feature_image | parseImagePath(post.url)-%}
-            <article aria-labelledby="{{ post.url | hashString}}" class="Card post -align-bottom{% if optimizedFeaturedImage %} -featured-image{% endif %}" style="{% if optimizedFeaturedImage %} background-image: url({{ optimizedFeaturedImage }});{% endif %}{% if post.data.color %} --color__background__contrast__widget: {{ post.data.color }};{% endif %}">
+            <article aria-labelledby="{{ post.url | hashString}}" class="Card post -align-bottom{% if optimizedFeatureImage %} -feature-image{% endif %}" style="{% if optimizedFeatureImage %} background-image: url({{ optimizedFeatureImage }});{% endif %}{% if post.data.color %} --color__background__contrast__widget: {{ post.data.color }};{% endif %}">
                 <div class="Card__content">
                     <h3 class="Card__title"><a id="{{ post.url | hashString}}" class="Card__title-link" href="{{ post.url }}">{{ post.data.title }}</a></h3>
                     {% if post.data.page.date %}<p class="Card__metadata"><time firstletterupper class="timeago" datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | shortISODate }}">{{ post.data.page.date | readableDate }}</time></p>{% endif %}
                 </div>
-                {{ optimizedFeaturedImage | safe }}
+                {{ optimizedFeatureImage | safe }}
                 {% if (post.data.tags.length) %}<span class="Card__content__extra -top-left">
                     {% if (post.data.tags) %}<span class="tags"><span class="sr-only">Taggar: </span>
                         {%- for tag in post.data.tags -%}

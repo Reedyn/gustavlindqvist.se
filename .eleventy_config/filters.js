@@ -4,7 +4,7 @@ const {DateTime} = require('luxon');
 const moment = require('moment/moment');
 const markdown = require('./markdown');
 const hashString = require('./functions').hashString;
-const featuredImageFilter = require('./filters/featured-image');
+const featureImageFilter = require('./filters/feature-image');
 const openGraphImageFilter = require('./filters/open-graph-image');
 const dates = require('./filters/dates');
 
@@ -138,6 +138,6 @@ module.exports = {
     },
     isoString: (date = Date.now()) => new Date(date).toISOString(),
     count: (arr) => arr.length,
-    featuredImageFilter,
+    featureImageFilter,
     openGraphImageFilter,
 };

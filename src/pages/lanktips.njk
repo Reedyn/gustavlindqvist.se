@@ -24,7 +24,7 @@ eleventyComputed:
     <section aria-label="Lista över innehåll" class="page-content wrapper Cards" id="page-content">
             {% for post in inoreader.recommendations %}
             {%- set computedDate = post.date | dateFromString -%}
-            <article aria-labelledby="{{ post.url | hashString }}" class="Card bookmark -align-bottom{% if post.feature_image %} -featured-image{% endif %}" style="{% if post.feature_image %} background-image: url({{ post.feature_image }});{% endif %}">
+            <article aria-labelledby="{{ post.url | hashString }}" class="Card bookmark -align-bottom{% if post.feature_image %} -feature-image{% endif %}" style="{% if post.feature_image %} background-image: url({{ post.feature_image }});{% endif %}">
                 {% if (post.tags.length) %}<span class="Card__content__extra -top-left">
                     {% if (post.tags) %}<span class="tags">
                         {%- for tag in post.tags -%}
