@@ -25,4 +25,4 @@ På toppen sitter flera antenner så det går grusväg hela vägen upp till topp
 
 Berget var fullt av fäbromsar som attackerade bilen och oss så länge som vi var där. Som tur var blev ingen av oss biten.
 
-![Utsikt från Alsberget västerut. Längst bort i bilden går det att se några snätäckta berg som ligger längs Norska gränsen. Lite närmre syns flera skogsklädda bergstoppar och allra närmst syns en stor sjö.](Gustav-Lindqvist_2023-07-06_00256-Pano_3000w.jpg "Utsikt österut från Alsberget.<br>Längst bort syns snäklädda fjäll nära norska gränsen och närmst syns Stor-Arasjön"){.-full}
+![Utsikt från Alsberget västerut. Längst bort i bilden går det att se några snätäckta berg som ligger längs Norska gränsen. Lite närmre syns flera skogsklädda bergstoppar och allra närmst syns en stor sjö.](Gustav-Lindqvist_2023-07-06_00256-Pano_3000w.jpg "Utsikt österut från Alsberget.<br>Längst bort syns snäklädda fjäll nära norska gränsen och närmst syns Alsträsket"){.-full}
