@@ -91,6 +91,7 @@
     },
     "hassafallsleden": {
         "title": "Hassafallsleden",
+        "emoji": "\uD83D\uDD35",
         "type": "hiking_trail"
     },
     "holavedsleden": {
@@ -130,6 +131,7 @@
     },
     "john-bauerleden": {
         "title": "John Bauerleden",
+        "emoji": "\uD83D\uDFE0",
         "type": "hiking_trail"
     },
     "kartor": {
@@ -311,6 +313,7 @@
     },
     "västanåleden": {
         "title": "Västanåleden",
+        "emoji": "\uD83D\uDFE2",
         "type": "hiking_trail"
     },
     "webdev": {
