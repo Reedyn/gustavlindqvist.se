@@ -2,6 +2,7 @@
 title: "Cykeltur till Björkenäs naturreservat"
 description: ""
 feature_image: "Gustav-Lindqvist_2023-06-05_08904-Pano.jpg"
+feature_image_position: bottom
 date: 2023-06-05T14:20:26+0200
 tags:
   - friluftsliv
