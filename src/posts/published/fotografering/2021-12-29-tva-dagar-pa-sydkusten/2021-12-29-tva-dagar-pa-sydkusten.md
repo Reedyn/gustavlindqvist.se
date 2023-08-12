@@ -17,34 +17,28 @@ När det är omväxlande väder är det ofta intressant att vara ute och fotogra
 
 Det var tunn dimma som solen lyste igenom och gav ett varmt ljus på den annars kalla krispiga morgonen.
 
-<style>
-.image-gallery {
-  display: grid;
-  grid-gap: var(--margin__small);
-  grid-template-columns: 1fr 1fr;
-}
-
-.image-gallery.-three-columns {
-  grid-template-columns: 1fr 1fr 1fr;
-}
-</style>
-<figure class="image-gallery">
-    <img src="Gustav-Lindqvist_2021-12-26_03924.jpg" alt="" width="400" height="400">
-    <img src="Gustav-Lindqvist_2021-12-26_03937.jpg" alt="" width="400" height="400">
-    <img src="Gustav-Lindqvist_2021-12-26_03938.jpg" alt="" width="400" height="400">
-    <img src="Gustav-Lindqvist_2021-12-26_03939.jpg" alt="" width="400" height="400">
-</figure>
+:::: gallery
+::: row {.-no-wrap}
+![Ett barrträd med frost på](Gustav-Lindqvist_2021-12-26_03924.jpg){.-inline}
+![Närbild på en murgröna på ett svart plank](Gustav-Lindqvist_2021-12-26_03937.jpg){.-inline}
+:::
+::: row {.-no-wrap}
+![Närbild på en vattentunna med fruset vatten](Gustav-Lindqvist_2021-12-26_03938.jpg){.-inline}
+![Närbild på en hög med staplad ved](Gustav-Lindqvist_2021-12-26_03939.jpg){.-inline}
+:::
+::::
 
 ## Dimma
 
 Senare tjocknade dimman till ordentligt och bitvis gick det inte att se mer än 50 meter fram. Solen gick knappt att urskilja.
 
-<figure class="image-gallery -three-columns">
-    <img src="Gustav-Lindqvist_2021-12-26_03955.jpg" alt="" width="400" height="400">
-    <img src="Gustav-Lindqvist_2021-12-26_03963.jpg" alt="" width="400" height="400">
-    <img src="Gustav-Lindqvist_2021-12-26_03964.jpg" alt="" width="400" height="400">
-</figure>
-
+:::: gallery
+::: row {.-no-wrap}
+![En brygga i dimma](Gustav-Lindqvist_2021-12-26_03955.jpg){.-inline}
+![Närbild på växter täcka i frost](Gustav-Lindqvist_2021-12-26_03963){.-inline}
+![Närbild på några mossiga grenar](Gustav-Lindqvist_2021-12-26_03964.jpg){.-inline}
+:::
+::::
 
 ## Solljus
 
