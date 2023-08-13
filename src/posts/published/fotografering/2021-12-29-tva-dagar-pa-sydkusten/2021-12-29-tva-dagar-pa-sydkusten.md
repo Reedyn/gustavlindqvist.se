@@ -35,7 +35,7 @@ Senare tjocknade dimman till ordentligt och bitvis gick det inte att se mer än 
 :::: gallery
 ::: row {.-no-wrap}
 ![En brygga i dimma](Gustav-Lindqvist_2021-12-26_03955.jpg){.-inline}
-![Närbild på växter täcka i frost](Gustav-Lindqvist_2021-12-26_03963){.-inline}
+![Närbild på växter täcka i frost](Gustav-Lindqvist_2021-12-26_03963.jpg){.-inline}
 ![Närbild på några mossiga grenar](Gustav-Lindqvist_2021-12-26_03964.jpg){.-inline}
 :::
 ::::
