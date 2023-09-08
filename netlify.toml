@@ -28,3 +28,7 @@ package = "netlify-plugin-cache"
   for = "*.gif" # css files too
   [headers.values]
     Cache-Control = "public, max-age=604800"
+[[headers]]
+  for = "*.svg" # css files too
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
