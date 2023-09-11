@@ -1,5 +1,5 @@
 ---
-title: "Uppgradering av mina Koss Porta Pro-hörlurar"
+title: "Nytt liv i mina Koss Porta Pro"
 description: ""
 feature_image: ""
 date: 2023-09-01T09:11:33+0200
