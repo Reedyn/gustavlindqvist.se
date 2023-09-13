@@ -3,9 +3,9 @@
 Fonts
 --------------- */
 
-$font__sans-serif: "Noto Sans", "San Francisco", "Segoe UI", sans-serif;
+$font__sans-serif: "Noto Sans", system-ui, sans-serif;
 $font__serif: "Noto Serif", Charter, Georgia, serif;
-$font__monospace: "Fira Code", monospace;
+$font__monospace: "Fira Code", ui-monospace, monospace;
 
 $font__size: 1.6rem;
 $font__size__base: 1.4rem;
