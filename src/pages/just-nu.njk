@@ -59,7 +59,7 @@ eleventyComputed:
             {% endif %}{% endfor %}
         </ol>
 
-        {% if goodreads.currently_reading.length %}<!--h2 id="bocker">Böcker</h2>
+        {% if goodreads.currently_reading.length %}<h2 id="bocker">Böcker</h2>
             <p>Jag läser för tillfället:</p>
             <ol class="book-list">
                 {% for book in goodreads.currently_reading %}
@@ -71,7 +71,7 @@ eleventyComputed:
                         </div>
                     </li>
                 {% endfor %}
-            </ol-->
+            </ol>
         {% endif %}
 
         {% if steam.recently_played_games.length %}<h2 id="gaming">Spel</h2>
