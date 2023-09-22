@@ -20,8 +20,12 @@ const gustavlindqvist = (() => {
             }
         } else {
             if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                localStorage.setItem('theme', 'dark');
+                document.getElementById('theme-toggle__checkbox').checked = true;
                 document.documentElement.setAttribute('data-theme', 'dark');
             } else {
+                localStorage.setItem('theme', 'light');
+                document.getElementById('theme-toggle__checkbox').checked = false;
                 document.documentElement.setAttribute('data-theme', 'light');
             }
         }
