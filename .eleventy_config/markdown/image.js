@@ -44,7 +44,7 @@ module.exports = function (tokens, idx, options, env, self) {
             .replace(/^\//, ''); // remove first slash
 
         const options = {
-            widths: [500, 900, 1500, 2500, null],
+            widths: [480, 720, 1080, 1620, 2430, null],
             formats: [null],
             outputDir: outputPath,
             urlPath: '',

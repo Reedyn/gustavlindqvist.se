@@ -31,7 +31,7 @@ module.exports = async function (src, sizes, style, postData) {
     }
 
     const options = {
-        widths: [500, 900, 1500, 2500, null],
+        widths: [480, 720, 1080, 1620, 2430, null],
         formats: [null],
         outputDir: outputPath,
         urlPath: postData.url,
