@@ -67,6 +67,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/assets');
     eleventyConfig.addPassthroughCopy('src/CNAME');
     eleventyConfig.addPassthroughCopy('src/robots.txt');
+    eleventyConfig.addPassthroughCopy('src/key_gustav-lindqvist.asc');
     eleventyConfig.addPassthroughCopy({'src/webfinger.json': '/.well-known/webfinger'});
     eleventyConfig.addPassthroughCopy({'src/favicon': '/'});
     eleventyConfig.addPassthroughCopy('src/_redirects');
