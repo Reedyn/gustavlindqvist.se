@@ -9,7 +9,7 @@ date: 2019-10-17
 <ul class="list -no-style">
       <li class="list-item--email"><a rel="me" href="mailto:&#104;&#101;&#106;&#064;&#103;&#117;&#115;&#116;&#097;&#118;&#108;&#105;&#110;&#100;&#113;&#118;&#105;&#115;&#116;&#046;&#115;&#101;">
             <svg class="icon icon--email" role="presentation" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/email.svg#email-icon"></use></svg> &#104;&#101;&#106;&#064;&#103;&#117;&#115;&#116;&#097;&#118;&#108;&#105;&#110;&#100;&#113;&#118;&#105;&#115;&#116;&#046;&#115;&#101;
-        </a></li>
+        </a> <sup>(<a href="/key_gustav-lindqvist.asc" download>du hittar min PGP-nyckel här</a>)</sup></li>
     <li class="list-item--mastodon"><a rel="me" href="https://jkpg.rocks/@gustav">
             <svg class="icon icon--mastodon" role="presentation" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/mastodon.svg#mastodon-icon"></use></svg> Mastodon
         </a></li>
