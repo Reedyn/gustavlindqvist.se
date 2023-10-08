@@ -1,5 +1,5 @@
 ---
-title: "Ett nytt liv i mina Koss Porta Pro"
+title: "Ett nytt liv i mina Koss Porta Pro"
 description: ""
 feature_image: "20230903_104553.jpg"
 feature_image_position: top
