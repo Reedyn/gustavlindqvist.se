@@ -32,6 +32,11 @@
         "title": "Borgafjäll",
         "type": "location"
     },
+    "brunstorpsleden": {
+        "title": "Brunstorpsleden",
+        "emoji": "\uD83D\uDFE2",
+        "type": "hiking_trail"
+    },
     "cykling": {
         "title": "cykling",
         "emoji": "\uD83D\uDEB4",
