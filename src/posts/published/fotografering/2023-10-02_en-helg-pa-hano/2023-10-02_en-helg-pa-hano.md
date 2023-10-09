@@ -6,7 +6,7 @@ date: 2023-10-02T18:04:49+0200
 tags:
     - fotografering
     - friluftsliv
-    - hanö
+    - blekinge-skärgård
     - höst
 ---
 

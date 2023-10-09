@@ -5,6 +5,7 @@ description: "Den 19:onde startade vi den förmodligen mest vältimade semestern
 date: 2018-08-04
 tags: 
     - segling
+    - friluftsliv
     - blekinge-skärgård
     - sommar
     
