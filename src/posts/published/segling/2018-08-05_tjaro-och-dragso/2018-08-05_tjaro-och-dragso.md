@@ -5,6 +5,7 @@ description: Tjärö har förändrats rejält genom åren efter att de gjort ett
 date: 2018-08-05T12:45:46+01:00
 tags:
     - segling
+    - friluftsliv
     - blekinge-skärgård
     - sommar
 
