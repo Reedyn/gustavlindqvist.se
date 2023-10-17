@@ -13,7 +13,7 @@ eleventyNavigation:
     title: "Make It Double"
 ---
 
-En bärnstensfärgad belgisk ale med Tettnanger- och Saaz-humle och belgisk abbeyjäst samt en lite mer komplex maltprofil. Inspirerad av belgisk dubbel men håller sig inte helt till [SHBF:s öltypsdefinition](https://styles.shbf.se/style.php?PersistentId=92&GlobalVersion=652). Istället för inslag av choklad är det inslag av russin, torkad frukt, kola och vete.
+En bärnstensfärgad belgisk ale med Tettnanger- och Saaz-humle och belgisk abbeyjäst samt en lite mer komplex maltprofil. Inspirerad av belgisk dubbel och följer [SHBF:s öltypsdefinition](https://styles.shbf.se/style.php?PersistentId=92&GlobalVersion=652) med inslag av choklad, russin, torkad frukt, kola och vete.
 
 Rekommenderas att serveras i en ölkupa eller konjaksglas i 4–8°C och låta temperaturen stiga under tiden som ölen dricks.
 
