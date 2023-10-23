@@ -3,9 +3,11 @@ const markdownIt = require('markdown-it');
 
 let markdown = markdownIt({
     html: true,
-    breaks: false,
-    linkify: true
-});
+    breaks: true,
+    linkify: true,
+    typographer: true,
+    langPrefix: 'language-',
+})
 
 module.exports = function (tokens, idx, options, env, self) {
     const token = tokens[idx];

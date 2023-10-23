@@ -20,8 +20,6 @@ Jag började turen från busshållplatsen Kullen i Skärstad, därifrån gick ja
 :::
 ::::
 
-
-
 Istället för att gå hela vägen bort till Ramsjön och följa John Bauerleden den vägen ([som vi gjorde sist](/2020/07/16/vandring-pa-john-bauerleden-siringe-ikhp/)) så svängde jag av mot Råbyskogen för att se hur det ser ut där.
 
 Råbyskogen är ett litet naturreservat med en rundslinga som bland annat används som lägerplats för diverse lokala scoutföreningar.

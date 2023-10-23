@@ -80,7 +80,7 @@ eleventyComputed:
             <article aria-labelledby="{{ post.url | hashString}}" class="Card post -align-bottom{% if optimizedFeatureImage %} -feature-image{% endif %}" style="{% if optimizedFeatureImage %} background-image: url({{ optimizedFeatureImage }});{% endif %}{% if post.data.color %} --color__background__contrast__widget: {{ post.data.color }};{% endif %}">
                 <div class="Card__content">
                     <h3 class="Card__title"><a id="{{ post.url | hashString}}" class="Card__title-link" href="{{ post.url }}">{{ post.data.title }}</a></h3>
-                    {% if post.data.page.date %}<p class="Card__metadata"><time firstletterupper class="timeago" datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | shortISODate }}">{{ post.data.page.date | readableDate }}</time></p>{% endif %}
+                    {% if post.data.page.date %}<p class="Card__metadata"><time data-firstletterupper class="timeago" datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | shortISODate }}">{{ post.data.page.date | readableDate }}</time></p>{% endif %}
                 </div>
                 {{ optimizedFeatureImage | safe }}
                 {% if (post.data.tags.length) %}<span class="Card__content__extra -top-left">
