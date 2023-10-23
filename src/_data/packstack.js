@@ -147,7 +147,8 @@ module.exports = async () => {
 
             return pack;
         } catch (err) {
-            console.error(err);
+            console.error('[' + '\x1b[34m%s\x1b[0m', 'Packstack' + '\x1b[0m' + ']:',err);
+            return undefined;
         }
     };
 

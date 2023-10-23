@@ -64,13 +64,13 @@ const gustavlindqvist = (() => {
         dayjs.extend(dayjs_plugin_relativeTime);
         dayjs.locale('sv');
         [...document.querySelectorAll('.timeago')].forEach((element) => {
-            if (typeof element.attributes.datetime !== 'undefined') {
+            if (typeof element.getAttribute('datetime') !== 'undefined') {
                 let newString = dayjs().to(element.attributes.datetime.value);
 
-                if (typeof element.attributes.prefix === 'undefined') {
+                if (typeof element.getAttribute('prefix') === 'undefined') {
                     newString = newString.replace('för ','');
                 }
-                if (typeof element.attributes.firstletterupper !== 'undefined') {
+                if (typeof element.getAttribute('data-firstletterupper') !== 'undefined') {
                     newString = newString.charAt(0).toUpperCase() + newString.slice(1)
                 }
 

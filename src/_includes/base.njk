@@ -32,7 +32,7 @@ eleventyComputed:
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="view-transition" content="same-origin" />
+    <meta name="view-transition" content="same-origin">
 
     <link rel="manifest" href="/site.webmanifest">
 
@@ -41,8 +41,8 @@ eleventyComputed:
     <script src="https://plausible.gustavlindqvist.se/js/plausible.js" async data-domain="gustavlindqvist.se"></script>
 
     <link rel="canonical" href="{{ metadata.url }}{{ page.url }}">
-    <link rel="webmention" href="https://webmention.io/gustavlindqvist.se/webmention" />
-    <link rel="pingback" href="https://webmention.io/gustavlindqvist.se/xmlrpc" />
+    <link rel="webmention" href="https://webmention.io/gustavlindqvist.se/webmention">
+    <link rel="pingback" href="https://webmention.io/gustavlindqvist.se/xmlrpc">
 
     <meta property="og:title" content="{% if page_title %}{{ page_title }}{% elseif title %}{{ title }}{% elseif tagMetadata[ tag ].title %}{{ tagMetadata[ tag ].title | firstLetterUpper }}{% else %}{{ metadata.title }} / {{ metadata.description }}{% endif %}">
     <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
