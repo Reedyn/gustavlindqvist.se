@@ -60,7 +60,7 @@ module.exports = async () => {
         let pack = {};
         try {
             const rawPage = await fetch(packUrl, {
-                duration: "1h",
+                duration: "1d",
                 type: "text",
                 directory: ".cache",
             });
