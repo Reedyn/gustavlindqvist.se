@@ -56,18 +56,17 @@ module.exports = async () => {
         }
     };
 
-    const getPack = async (packUrl) => {
+    const getPack = async (packId, shareId) => {
         let pack = {};
+        const packUrl = `https://api.packstack.io/pack/trip/${packId}`
         try {
-            const rawPage = await fetch(packUrl, {
+            const rawPackData = await fetch(packUrl, {
                 duration: "1d",
                 type: "text",
                 directory: ".cache",
             });
 
-            const htmlPage = cheerio.load(rawPage);
-            const rawJSON = JSON.parse(htmlPage('body > script#__NEXT_DATA__').text());
-            const packData = rawJSON.props.pageProps.data;
+            const packData = JSON.parse(rawPackData)[0]
 
             const categories = [];
 
@@ -142,6 +141,7 @@ module.exports = async () => {
             pack.name = packData.title;
             pack.id = packData.id;
             pack.contents = categories;
+            pack.shareLink = `https://packstack.io/pack/${shareId}`
 
             console.log('[' + '\x1b[34m%s\x1b[0m', 'Packstack' + '\x1b[0m' + ']:', 'Grabbed pack:', packData.title, '(' + packUrl + ')');
 
@@ -152,12 +152,12 @@ module.exports = async () => {
         }
     };
 
-    packstack.summer_2022 = await getPack('https://www.packstack.io/pack/209');
-    packstack.summer_2023 = await getPack('https://www.packstack.io/pack/559');
-    packstack.bikepacking_2023 = await getPack('https://www.packstack.io/pack/581');
-    packstack.bankerydsleden_2022 = await getPack('https://www.packstack.io/pack/257');
-    packstack.big_camera_kit = await getPack('https://www.packstack.io/pack/654');
-    packstack.small_camera_kit = await getPack('https://www.packstack.io/pack/655');
+    packstack.bankerydsleden_2022 = await getPack('368', '020cc93d-2d4e-43c0-9df4-c1ccb63c90eb');
+    packstack.summer_2022 = await getPack('369', 'dc516757-bc41-4304-a29e-5dadc9dcf50e');
+    packstack.summer_2023 = await getPack('367', '5f4edc0b-ddca-4a64-a97f-ee313f66e6bd');
+    packstack.bikepacking_2023 = await getPack('370', '10c47671-c9f4-414e-b07d-2d796eb1c3e0');
+    packstack.big_camera_kit = await getPack('372', '12baa3b2-8104-4c26-9532-acb721f05240');
+    packstack.small_camera_kit = await getPack('371', 'c8848465-155d-4b9e-ac99-ddf43d8cbdbb');
 
     return packstack;
 
