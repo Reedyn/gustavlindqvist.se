@@ -54,52 +54,9 @@ module.exports = {
                         </li>`;
             }
             outputString += `</ul>`;
-            outputString += `<p><a href="https://www.packstack.io/pack/${pack.id}">Utrustningslistan ${pack.name} på Packstack</a></p>`;
+            outputString += `<p><a href="${pack.shareLink}">Utrustningslistan ${pack.name} på Packstack</a></p>`;
             outputString += `</section>`;
             outputString += `<script src="/assets/javascript/pack.js" async></script>`;
-            return outputString;
-        }
-        return '';
-    },
-    packStatistics: (pack) => {
-        function prettyDigits (number) {
-            return number.toString().replace(/(?!^)(?=(?:\d{3})+(?:\.|$))/gm, ' ');
-        }
-
-        if (pack) {
-            let outputString = `<section class="packStatistics">`;
-            outputString += `<ul class="pack__list">`;
-            pack.contents.forEach((category) => {
-                const color = (typeof category.color !== 'undefined' && category.color.length) ? category.color : 'var(--color__text)';
-                outputString += `<li class="pack__list-item -overview small">
-                    <span class="pack__list-item__left"><svg class="icon -large" role="presentation" style="color: ${color}" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/${category.icon}.svg#icon"></use></svg></span><span class="pack__list-item__middle">${category.name}<span class="sr-only">:</span></span>
-                    <span class="pack__list-item__right" style="padding-right: 0.3rem">${prettyDigits(category.total_weight)}g</span>
-                    <div class="pack__list__bar" style="width: ${((category.total_weight / pack.total_weight) * 200).toFixed(3)}%; background: ${color};"></div>
-                </li>`;
-            });
-            outputString += `</ul>`;
-            outputString += `<ul class="statistics__list ${(pack.consumables_weight > 0) ? '-column-count-4' : ''}">
-                    <li class="statistics__list-item">
-                        <span class="statistics__list-item__label">Total vikt<span class="sr-only">:</span></span>
-                        <span class="statistics__list-item__value">${prettyDigits(pack.total_weight)}g</span>
-                    </li>
-                    <li class="statistics__list-item">
-                        <span class="statistics__list-item__label">Basvikt<span class="sr-only">:</span></span>
-                        <span class="statistics__list-item__value">${prettyDigits(pack.base_weight)}g</span>
-                    </li>
-                    <li class="statistics__list-item">
-                        <span class="statistics__list-item__label">På kroppen<span class="sr-only">:</span></span>
-                        <span class="statistics__list-item__value">${prettyDigits(pack.worn_weight)}g</span>
-                    </li>`;
-            if (pack.consumables_weight > 0) {
-                outputString += `<li class="statistics__list-item">
-                            <span class="statistics__list-item__label">Förbrukningsvaror<span class="sr-only">:</span></span>
-                            <span class="statistics__list-item__value">${prettyDigits(pack.consumables_weight)}g</span>
-                        </li>`;
-            }
-            outputString += `</ul>`;
-            outputString += `<p><a href="https://www.packstack.io/pack/${pack.id}">Utrustningslistan ${pack.name} på Packstack</a></p>`;
-            outputString += `</section>`;
             return outputString;
         }
         return '';
