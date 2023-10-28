@@ -15,24 +15,11 @@ module.exports = async () => {
         const checkin = {};
         let  [ username, beer ] = checkinFeedItem.title.split(' is drinking a ');  // Separate title into the different objects
         beer = beer.replace(/at\s.*/,'').trim(); // Remove location and extra spaces.
-        let score = null;
         let review_description = '';
-        let rounded_score = null;
-        let displayed_half_star = false;
-        let displayed_stars = null;
 
         if (typeof checkinFeedItem.description !== 'undefined') {
             let [ review_desc, stars ] = checkinFeedItem.description.split(' (');  // Separate title into the different objects
             review_description = review_desc;
-            stars = stars.replace('/5 Stars)', '').replace(' (', '');
-            try {
-                score = Number(stars);
-                rounded_score = Math.round(score*2)/2;
-                displayed_half_star = rounded_score !== Math.floor(rounded_score);
-                displayed_stars = Math.floor(rounded_score);
-            } catch (e) {
-
-            }
         }
 
         checkin.beer = beer;
@@ -41,11 +28,6 @@ module.exports = async () => {
             link: checkinFeedItem.link.replace(/\/checkin\/\d+/, '').trim()
         };
         checkin.review = {
-            score: score,
-            displayed_stars: {
-                full: displayed_stars,
-                half: displayed_half_star
-            },
             description: review_description
         };
         checkin.date = new Date(checkinFeedItem.pubDate);
@@ -66,6 +48,7 @@ module.exports = async () => {
             feed.items.forEach((item) => {
                 checkins.push(createCheckinFromFeedItem(item));
             });
+            console.log(checkins);
             return checkins;
         } catch (err) {
             console.error(err);
