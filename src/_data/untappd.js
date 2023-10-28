@@ -48,7 +48,6 @@ module.exports = async () => {
             feed.items.forEach((item) => {
                 checkins.push(createCheckinFromFeedItem(item));
             });
-            console.log(checkins);
             return checkins;
         } catch (err) {
             console.error(err);
