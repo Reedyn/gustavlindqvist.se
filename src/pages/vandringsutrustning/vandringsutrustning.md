@@ -1,14 +1,14 @@
 ---
 title: "Vandringsutrustning"
 page_title: "Vandringsutrustning / Gustav Lindqvist"
-description: "Min vandringsutrustning för sommaren 2023"
+description: "Min vandringsutrustning för sommarbruk"
 permalink: "/friluftsliv/utrustning/index.html"
 feature_image: Gustav-Lindqvist_2022-08-01_05564-Pano.jpg
 ---
 
-Min utrustning för sommaren 2023 med en basvikt på {{ packstack.summer_2023.base_weight | prettyDigits }}g.{.lead}
+Min utrustning för sommarbruk med en basvikt på {{ packstack.summer.base_weight | prettyDigits }}g.{.lead}
 
-{% pack packstack.summer_2023 %}
+{% pack packstack.summer %}
 
 Beroende på vart vi ska vandra tillkommer även vandringsstavar på 600 gram och ibland en stol på 615 gram.
 
@@ -23,7 +23,7 @@ Beroende på vart vi ska vandra tillkommer även vandringsstavar på 600 gram oc
 
 ## Kamerautrustning
 
-Beroende på om jag vill fotografera mycket har jag antingen med hela mitt kit med alla objektiv till systemkameran eller bara systemkameran plus ett objektiv och en GoPro.
+Beroende på om jag vill fotografera mycket har jag antingen med hela mitt kit med alla objektiv till systemkameran eller bara systemkameran plus ett objektiv och min smartphone.
 
 ### Lilla kamerakittet ({{ packstack.small_camera_kit.base_weight | prettyDigits }}g)
 
