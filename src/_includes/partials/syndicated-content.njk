@@ -11,7 +11,7 @@
                 <div class="post-list__item-content">
                     <a class="post-title post-link" href="{{ feedItem.link }}" target="_blank" rel="noopener" title="Öppnas i ny flik.">{{ feedItem.title }}</a>
                     <p class="post-date">
-                        <time class="timeago" data-firstletterupper datetime="{{ feedItem.publicationDate | shortISODate }}T00:00:00.000+01:00" title="{{ feedItem.publicationDate | shortISODate }}">{{ feedItem.publicationDate  | readableDate }}</time> via
+                        <time class="timeago" data-firstletterupper datetime="{{ feedItem.publicationDate | shortISODate }}T00:00:00.000+01:00" title="{{ feedItem.publicationDate | longISODate }}">{{ feedItem.publicationDate  | readableDate }}</time> via
                         <a href="{{ feedItem.blogLink }}">{{ feedItem.blogName }}</a>
                     </p>
                 </div>
