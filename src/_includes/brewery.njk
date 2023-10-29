@@ -80,7 +80,7 @@ eleventyComputed:
             <article aria-labelledby="{{ post.url | hashString}}" class="Card post -align-bottom{% if optimizedFeatureImage %} -feature-image{% endif %}" style="{% if optimizedFeatureImage %} background-image: url({{ optimizedFeatureImage }});{% endif %}{% if post.data.color %} --color__background__contrast__widget: {{ post.data.color }};{% endif %}">
                 <div class="Card__content">
                     <h3 class="Card__title"><a id="{{ post.url | hashString}}" class="Card__title-link" href="{{ post.url }}">{{ post.data.title }}</a></h3>
-                    {% if post.data.page.date %}<p class="Card__metadata"><time data-firstletterupper class="timeago" datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | shortISODate }}">{{ post.data.page.date | readableDate }}</time></p>{% endif %}
+                    {% if post.data.page.date %}<p class="Card__metadata"><time data-firstletterupper class="timeago" datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | longISODate }}">{{ post.data.page.date | readableDate }}</time></p>{% endif %}
                 </div>
                 {{ optimizedFeatureImage | safe }}
                 {% if (post.data.tags.length) %}<span class="Card__content__extra -top-left">
@@ -115,7 +115,7 @@ eleventyComputed:
                                 <li class="metadata-list__item">
                                     <span class="metadata-list__item-title" id="{{ batch._id }}">{{ batch.recipe.name }}{% if batch.recipe.style.name %} ({{ batch.recipe.style.name }}){% endif %}</span>
                                     <p class="metadata-values">
-                                        {% if batch.status.label %}<span>{{ batch.status.label }}</span>{% endif %} · {% if batch.brewDate %} <time datetime="{{ batch.brewDate | fullISODate }}" title="{{ batch.brewDate | shortISODate }}">{{ batch.brewDate | readableLongDate }}</time>{% endif %}
+                                        {% if batch.status.label %}<span>{{ batch.status.label }}</span>{% endif %} · {% if batch.brewDate %} <time datetime="{{ batch.brewDate | fullISODate }}" title="{{ batch.brewDate | longISODate }}">{{ batch.brewDate | readableLongDate }}</time>{% endif %}
                                         {% if batch.measuredBottlingSize %} · <span>{{ batch.measuredBottlingSize }}L</span>{% elseif batch.measuredBatchSize %} · <span>{{ batch.measuredBatchSize }}L</span>{% elseif batch.recipe.batchSize %} · <span>{{ batch.recipe.batchSize }}L</span>{% endif %}
                                     </p>
                                 </li>
