@@ -9,7 +9,7 @@ tags:
 
 Jag har länge bara haft två cyklar, min gamla Crescent stadscykel och min Orbea [stigcykel][Orbea Laufey - Vintercykling]. Stadscykeln har jag använt främst för ärenden i stan, typ handling och transportsträckor i närområdet. Stigcykeln har fått fylla alla andra roller, skoj i skogen, långrundor, bikepacking, transportsträckor m.m.{.lead}
 
-Eftersom min stadscykel är lite av en skrothög nuförtiden (den har 16 år på nacken och jag ger den inte så mycket kärlek som den skulle behöva) så har stigcykeln fått fylla alla roller som stadscykeln inte klarade av. Det har lett till att den lite har hamlat i riskzonen att bli en [frankenbike][/r/frankenbike] med modifieringar för att göra den mer bekväm på framförallt långa distanser och inte det den är gjord för: skoj i skogen!
+Eftersom min stadscykel är lite av en skrothög nuförtiden (den har 16 år på nacken och jag ger den inte så mycket kärlek som den skulle behöva) så har stigcykeln fått fylla alla roller som stadscykeln inte klarade av. Det har lett till att den lite har hamlat i riskzonen att bli en [frankenbike][/r/frankenbike] med modifieringar för att göra den mer bekväm på framförallt långa distanser och inte det den är gjord för: **skoj i skogen**!
 
 Istället blev det `n+1`[^1] med en svart [Merida Silex 400] i storlek S, en gruscykel med lite inspiration från geometri från stigcyklar och perfekt för bikepacking, så kan stigcykeln få vara det den vill vara.
 
