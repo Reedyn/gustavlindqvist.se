@@ -11,7 +11,7 @@ Jag har länge bara haft två cyklar, min gamla Crescent stadscykel och min Orbe
 
 Eftersom min stadscykel är lite av en skrothög nuförtiden (den har 16 år på nacken och jag ger den inte så mycket kärlek som den skulle behöva) så har stigcykeln fått fylla alla roller som stadscykeln inte klarade av. Det har lett till att den lite har hamlat i riskzonen att bli en [frankenbike][/r/frankenbike] med modifieringar för att göra den mer bekväm på framförallt långa distanser och inte det den är gjord för: **skoj i skogen**!
 
-Istället blev det `n+1`[^1] med en svart [Merida Silex 400] i storlek S, en gruscykel med lite inspiration från geometri från stigcyklar och perfekt för bikepacking, så kan stigcykeln få vara det den vill vara.
+Istället blev det `n+1`[^1] med en svart [Merida Silex 400] i storlek S, en gruscykel konstruerad med inspiration av geometrin från stigcyklar och perfekt för bikepacking. Så kan stigcykeln få vara det den vill vara.
 
 ![En svart gruscykel av modellen Merida Silex som står i profil på en väg](){.-wide}
 
