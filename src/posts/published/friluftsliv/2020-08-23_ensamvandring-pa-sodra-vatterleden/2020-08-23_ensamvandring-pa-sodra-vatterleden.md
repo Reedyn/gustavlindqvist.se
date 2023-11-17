@@ -29,7 +29,7 @@ Turen började i högt tempo på lite över 6km i timmen med snabba steg tack va
 
 Snoken ringlade sig snabbt åt sidan när jag skrämde den, men inte förrän jag hunnit ta en bild.
 
-Vid 1.2km stötte jag på turens första problem. Den utmärkta leden avvek från leden på kartan. Jag valde då att följa leden på kartan vilket ledde mig in på Rallarleden (Cykelrallarn, inte att förväxla med Rallarleden i Kiruna) som jag gick på ungefär 2 kilometer sedan gick den utmärkta leden och leden på kartan ihop igen.
+Vid 1,2km stötte jag på turens första problem. Den utmärkta leden avvek från leden på kartan. Jag valde då att följa leden på kartan vilket ledde mig in på Rallarleden (Cykelrallarn, inte att förväxla med Rallarleden i Kiruna) som jag gick på ungefär 2 kilometer sedan gick den utmärkta leden och leden på kartan ihop igen.
 
 ![En grusväg med jordbruksmark till vänster och skog en bit bort.](Gustav-Lindqvist_2020-08-22_0380.jpg){.-full}
 
@@ -67,7 +67,7 @@ Sedan var det nästan helt slut på skogsstigar med några undantag. Leden gick 
 
 Den sista kilometern råkade jag gå fel eftersom jag ganska blint följde de oranga markeringarna. Det jag inte uppmärksammat var att det var ett sidospår som också var uppmärkt som jag följt. Så det blev lite extra.
 
-![En karta som visar en vandringsrutt från Bottnaryd till Skinnarebo.](image-1.png "[Bottnaryd till Skinnarebo (24.5km)](https://www.strava.com/activities/3950140453)"){.-full}
+![En karta som visar en vandringsrutt från Bottnaryd till Skinnarebo.](image-1.png "[Bottnaryd till Skinnarebo (24,5km)](https://www.strava.com/activities/3950140453)"){.-full}
 
 Vid scoutstugan Bastan i Skinnarebo slog jag upp mitt tält för natten. Här finns faciliteter i form av toalett och brunn med fint vatten som jag fyllde på vattentanken med.
 
@@ -123,5 +123,5 @@ Trots det molniga vädret sprack solen igenom lite då och då och skapade fanta
 
 För att hinna med en buss joggade jag den sista kilometern ned för backen. Packningen till trots gick det bra i tempot ~8min/km. Jag hann fram till busshållplatsen med 5 minuters marginal ungefär. Ett lagom slut på vandringen.
 
-![Karta över en vandringsrutt som går från Skinnarebo till Norrahammar](image-2.png "[Skinnarebo till Norrahammar (5.5km)](https://www.strava.com/activities/3952486509)"){.-full}
+![Karta över en vandringsrutt som går från Skinnarebo till Norrahammar](image-2.png "[Skinnarebo till Norrahammar (5,5km)](https://www.strava.com/activities/3952486509)"){.-full}
 

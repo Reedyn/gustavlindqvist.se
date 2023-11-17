@@ -13,7 +13,7 @@ Så här på förhösten ([ja det är tydligen ett ord](http://www.smhi.se/blogg
 
 :::: gallery {.-wide}
 ::: row
-![En skylt i skogen med texten: “Romeleklint 3, Lägerplats 0.4, Romelestigen”](Gustav-Lindqvist_2014-09-20_0744.jpg){.-inline}
+![En skylt i skogen med texten: “Romeleklint 3, Lägerplats 0,4, Romelestigen”](Gustav-Lindqvist_2014-09-20_0744.jpg){.-inline}
 ![Ett särpräglat träd](Gustav-Lindqvist_2014-09-20_0438.jpg){.-inline}
 :::
 ::: row

@@ -33,7 +33,7 @@ Varje gång jag flyttat har jag hittat en ny runda som utgår från hemmet. I J�
 
 ![Karta över Rosenlunds bankar i Jönköping med en löprunda utritad med blå linje](Bankarna.png)
 
-Denna rundan var min vanligaste när jag bodde på Rosenlund, den är [5.3km lång](bankarna_5.3km.gpx){download} och gav fantastisk utsikt över Vättern, dock var den kanske lite för kylig på vinterhalvåret.
+Denna rundan var min vanligaste när jag bodde på Rosenlund, den är [5,3km lång](bankarna_5.3km.gpx){download} och gav fantastisk utsikt över Vättern, dock var den kanske lite för kylig på vinterhalvåret.
 
 ![En naturreservatsskylt precis vid ett stup vid Rosenlunds bankar](Gustav-Lindqvist_2016-07-23_0101.jpg){.-wide}
 
@@ -43,7 +43,7 @@ När jag 2016 flyttade till Munksjöstaden och närmre centrum blev Vattenlednin
 
 ![Klipporna vid Åsendammen under en blå himmel. Dammen är helt stilla och speglar himmel och skog perfekt.](20210517_182656%7E2.jpg "Åsendammen på sommaren"){.-wide}
 
-Eftersom Vattenledningsparken ligger en bit bort blev denna rundan något längre än min tidigare standarddistans på 5km, denna är på [7.2km](vattenledningsparken_7.2km.gpx).
+Eftersom Vattenledningsparken ligger en bit bort blev denna rundan något längre än min tidigare standarddistans på 5km, denna är på [7,2km](vattenledningsparken_7.2km.gpx).
 
 ![Karta över Vattenledningsparken och Torpa i Jönköping med en löprunda utritad med blå linje](Vattenledningsparken.png){.-wide}
 
@@ -58,7 +58,7 @@ Eftersom Vattenledningsparken ligger en bit bort blev denna rundan något längr
 
 2019 flyttade jag in till Jönköpings centrum och då blev Vattenledningsparken otillgänglig på alla rundor kortare än en mil, jag springer fortfarande där då och då men för mina vanliga rundor behövde jag något kortare.
 
-Då blev Dunkehallaravinen med alla trapporna och Stadsparken den perfekta rundan på [5.9km](dunkehallatrapporna_5.9km.gpx).
+Då blev Dunkehallaravinen med alla trapporna och Stadsparken den perfekta rundan på [5,9km](dunkehallatrapporna_5.9km.gpx).
 
 ![Karta över Väster, Dunkehallaravinen och Stadsparken i Jönköping med en löprunda utritad med blå linje](Dunkehallatrapporna.png)
 

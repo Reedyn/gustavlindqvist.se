@@ -37,7 +37,7 @@ Sen var det dags att köra till campingen för övernattning. Josefine hade valt
 
 ## Hallands väderö
 
-Dagen därefter traskade vi de långa 1.5km från campingen bort till färjeläget för att ta båten ut till Hallands väderö.
+Dagen därefter traskade vi de långa 1,5km från campingen bort till färjeläget för att ta båten ut till Hallands väderö.
 
 ![En färja på väg in i hamnen i Torekov](Gustav-Lindqvist_2018-08-03_1454.jpg){.-wide}
 
