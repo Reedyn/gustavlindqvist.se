@@ -65,7 +65,7 @@ Vilken slutartid man ska ha kan man räkna ut med NPF-formeln.
 
 Ingen rimlig person sitter och räknar med denna, istället rekommenderar jag att man använder en app. Personligen använder jag appen [PhotoPills](https://www.photopills.com).
 
-Till exempel, ett 7.5mm Fish-eye på en Olympus EM-5 (Micro Four Thirds) ger en effektiv brännvidd på 15mm _(Motsvarande småbildsformat)_ ger med den formeln 21 sekunders exponering. Däremot ett 24mm på en Canon 6D (småbildsformatskamera) ger 10 sekunders exponering.
+Till exempel, ett 7,5mm Fish-eye på en Olympus EM-5 (Micro Four Thirds) ger en effektiv brännvidd på 15mm _(Motsvarande småbildsformat)_ ger med den formeln 21 sekunders exponering. Däremot ett 24mm på en Canon 6D (småbildsformatskamera) ger 10 sekunders exponering.
 
 Vid nattfotografering med stjärnor påverkar alltså brännvidden resultatet enormt.
 

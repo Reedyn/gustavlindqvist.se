@@ -56,11 +56,11 @@ Sedan gick vi vidare mot Fjällstorp som låg ungefär 2 kilometer bort. Vid Fj�
 <figcaption><p>Tältplatsen vid Fjällstorp</p></figcaption>
 ::::
 
-Jag hade lite som ett mål att testa min sovsäcks gränser vilket gick alldeles utmärkt. Det är en sovsäck för +13° och det blev +10.4° som kallast i tältet.
+Jag hade lite som ett mål att testa min sovsäcks gränser vilket gick alldeles utmärkt. Det är en sovsäck för +13° och det blev +10,4° som kallast i tältet.
 
 Jag som sover varmt visste (eller trodde) att jag kunde tänja lite på den gränsen vilket stämde bra. Jag vaknade inte en enda gång och jag var i en ganska lagom temperatur när jag vaknade.
 
-![Karta över Råbyskogen med omnejd med en röd linje inritad för rutten som vi gick.](JohnBauerleden_Del-1.png "[Vandring på John Bauerleden från Siringe till Fjällstorp (14.32km)](https://www.strava.com/activities/3753226670)"){.-full}
+![Karta över Råbyskogen med omnejd med en röd linje inritad för rutten som vi gick.](JohnBauerleden_Del-1.png "[Vandring på John Bauerleden från Siringe till Fjällstorp (14,32km)](https://www.strava.com/activities/3753226670)"){.-full}
 
 ## Dag 2
 
@@ -82,4 +82,4 @@ Turen avslutades sedan med vandring på Huskvarnaberget där vi passerade den my
 
 Sedan gick vi sista biten bort mot IKHP-stugan där vi blev upphämtade. Lagom vandringstur på ~29km.
 
-![Karta över Kaxholmen och Huskvarnabergen med omnejd med en röd linje inritad för rutten som vi gick.](JohnBauerleden_Del-2.png "[Andra dagens vandring från Fjällstorp till IKHP (15.16km)](https://www.strava.com/activities/3755966671)"){.-full}
+![Karta över Kaxholmen och Huskvarnabergen med omnejd med en röd linje inritad för rutten som vi gick.](JohnBauerleden_Del-2.png "[Andra dagens vandring från Fjällstorp till IKHP (15,16km)](https://www.strava.com/activities/3755966671)"){.-full}

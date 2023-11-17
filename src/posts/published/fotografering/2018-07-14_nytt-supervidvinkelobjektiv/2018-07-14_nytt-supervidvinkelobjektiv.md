@@ -10,7 +10,7 @@ permalink: "/{{ page.date | dateFolder}}/nytt-supervidvinkelobjektiv/index.html"
 
 En av de största uppoffringarna jag gjorde när jag gick från mitt *Canon 450D*-system till min spegellösa *Olympus OM-D E-M5* var mitt *Tokina 11-16 f/2.8*.
 
-Det var ett fantastiskt objektiv med extremt bred bildvinkel motsvarande 17.6mm på ett fullformat och samtidigt var det rektalinjärt och väldigt ljusstarkt på f/2.8.
+Det var ett fantastiskt objektiv med extremt bred bildvinkel motsvarande 17,6mm på ett fullformat och samtidigt var det rektalinjärt och väldigt ljusstarkt på f/2.8.
 
 ![Piren i Jönköping med himlen speglad i vattenytan.](8818138516_d9263d5c7d_h.jpg "Foto med Canon 450D och Tokina 11-16 f/2.8")
 

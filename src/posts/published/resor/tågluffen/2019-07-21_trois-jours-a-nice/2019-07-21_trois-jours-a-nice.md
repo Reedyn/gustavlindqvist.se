@@ -55,7 +55,7 @@ Sedan gick vi hemåt och såg att de förberedde en seglingstävling för morgon
 
 ![Några personer som förbereder segelbåtar sent på kvällen.](20190719_215754-1.jpg){.-inline}
 
-Tredje och sista dagen i Nice åkte vi bort till Villefranche sur Mer, en publik badstrand 5min bort med tåg där vi började dagen med snorkling. Efter ungefär 4 timmar på stranden hade vi fått ihop 2.5 timmars snorklande och vi kände oss nöjda (kanske inte riktigt Josefine) och begav oss tillbaka till stan för en dusch och eftermiddagens och kvällens äventyr.
+Tredje och sista dagen i Nice åkte vi bort till Villefranche sur Mer, en publik badstrand 5min bort med tåg där vi började dagen med snorkling. Efter ungefär 4 timmar på stranden hade vi fått ihop 2,5 timmars snorklande och vi kände oss nöjda (kanske inte riktigt Josefine) och begav oss tillbaka till stan för en dusch och eftermiddagens och kvällens äventyr.
 
 :::: gallery {.-wide}
 ::: row {.-no-wrap}

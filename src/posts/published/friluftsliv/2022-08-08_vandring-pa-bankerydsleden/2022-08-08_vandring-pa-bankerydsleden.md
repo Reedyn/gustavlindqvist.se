@@ -10,9 +10,9 @@ tags:
   - sommar
 ---
   
-Bankerydsleden är en vandringsled på 24.5km i Jönköping som utgår från hembygsgården i Bankeryd och rör sig över öppna jordbrukslandskap, skogsområdet Högamon och fina utsiktsplatser som Labbarpaberget.{.lead}
+Bankerydsleden är en vandringsled på 24,5km i Jönköping som utgår från hembygsgården i Bankeryd och rör sig över öppna jordbrukslandskap, skogsområdet Högamon och fina utsiktsplatser som Labbarpaberget.{.lead}
 
-Leden är välskött och har gott om faciliteter som vindskydd, toaletter och grillplatser. Den är även lättillgänglig med lokala bussar från Jönköpings tätort som går väldigt ofta. Kort och sagt, en perfekt led för 1–1.5 dags vandring med potential för övernattning.
+Leden är välskött och har gott om faciliteter som vindskydd, toaletter och grillplatser. Den är även lättillgänglig med lokala bussar från Jönköpings tätort som går väldigt ofta. Kort och sagt, en perfekt led för 1–1,5 dags vandring med potential för övernattning.
 
 <figure class="map -full">
     <iframe style="border:none" src="https://en.frame.mapy.cz/s/gabeporena" width="100%" height="500" frameborder="0" alt="Karta över Bankeryd med Bankerydsleden utmärkt med röd linje."></iframe>
@@ -25,7 +25,7 @@ I går passade vi på och gå Bankerydsleden med planen att gå större delen av
 
 ## Utrustning
 
-Det var även mitt första test av min utrustning för året. De tidigare vandringarna har varit utan övernattning så de flesta sakerna har lämnats hemma. Packningen hade en basvikt på {{ packstack.bankerydsleden_2022.base_weight | prettyDigits }}g och en totalvikt på 10.3kg med mat & vatten.
+Det var även mitt första test av min utrustning för året. De tidigare vandringarna har varit utan övernattning så de flesta sakerna har lämnats hemma. Packningen hade en basvikt på {{ packstack.bankerydsleden_2022.base_weight | prettyDigits }}g och en totalvikt på 10,3kg med mat & vatten.
 
 {% pack packstack.bankerydsleden_2022 %}
 
