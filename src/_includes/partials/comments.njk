@@ -1,4 +1,4 @@
-{%- set repliesForPost = mastodonId | getRepliesForPost -%}
+{%- set repliesForPost = mastodon_id | getRepliesForPost -%}
 <aside class="Comments hidden@print" aria-labelledby="kommentarer">
     <h2 class="Comments__title separator-heading" id="kommentarer"><span>Kommentarer</span></h2>
     {% if repliesForPost.length %}
