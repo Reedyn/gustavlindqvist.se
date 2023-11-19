@@ -22,9 +22,11 @@ Jag började turen från busshållplatsen Kullen i Skärstad, därifrån gick ja
 
 Istället för att gå hela vägen bort till Ramsjön och följa John Bauerleden den vägen ([som vi gjorde sist](/2020/07/16/vandring-pa-john-bauerleden-siringe-ikhp/)) så svängde jag av mot Råbyskogen för att se hur det ser ut där.
 
+![En sjö omgiven av skog. I förgrunden syns skuggade trädstammar som avtecknar sig som tjocka streck mot den ljusa skogen och sjön.](Gustav-Lindqvist_2023-09-17_00643+_3000w.jpg){.-full}
+
 Råbyskogen är ett litet naturreservat med en rundslinga som bland annat används som lägerplats för diverse lokala scoutföreningar.
 
-![En orange skylt med två pilar. På den till vänster står det John Bauerleden och på den till höger står det Råbyskogen](20230917_161536_3000w.jpg)
+![En orange skylt med två pilar. På den till vänster står det John Bauerleden och på den till höger står det Råbyskogen](Gustav-Lindqvist_2023-09-17_00652_3000w.jpg)
 
 När jag går själv brukar jag hålla ganska hög fart, jag stannar mest när jag hittar något att fotografera, vilket jag inte gjorde på många kilometer förrän jag kom till Pukasjön.
 
@@ -58,16 +60,13 @@ På andra sidan hagen var dagens mål: tältplatsen Fjällstorp.
 
 Dagen därpå tog jag den (nästan) obligatoriska omvägen förbi utsikten vid Måla kulle.
 
-![Utsikt från Måla kulle över Landsjön och Vättern](original_058f4958-23cf-4dec-81df-4b20e444f78b_20230918_080027_3000w.jpg "Landsjön och Vättern"){.-full}
+![Utsikt från Måla kulle över Landsjön och Vättern](Gustav-Lindqvist_2023-09-18_00674-Pano_3000w.jpg "Landsjön och Vättern"){.-full}
 
 Andra dagen var en måndag som jag tagit ut en semesterdag på. Jossan jobbade så jag ville hem till katterna så fort som möjligt och vandrade på i hög fart mot Brunstorpsberget.
 
-:::: gallery {.-wide}
-::: row
-![En ledskylt som det står 10km på. Leden är helt täckt av vatten](20230918_081134_3000w.jpg){.-inline}
+![En grusväg som leder ned för en kulle mot en liten gård. På sidorna syns skog och bortom gården syns Vättern med Habo på andra sidan sjön.](Gustav-Lindqvist_2023-09-18_00701-Pano_3000w.jpg "Vättern"){.-full}
+
 ![En övergång över ett staket. Till höger om övergången är det en skylt som det står Brunstorpsberget på.](20230918_093750_3000w.jpg){.-inline}
-:::
-::::
 
 Vid Brunstorpsberget beundrade jag utsikten en liten stund och gick sedan ned längs Brunstorpsleden och tog bussen hem från busshållplatsen vid Brunstorp.
 
