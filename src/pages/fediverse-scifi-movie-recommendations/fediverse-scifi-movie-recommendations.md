@@ -10,6 +10,6 @@ I went through all replies and compiled a list of all movies that got recommende
 
 I included a link to the post if it was posted as public (not unlisted or private) but I counted them all regardless of post visibility.
 
-| Title | Recommendations | Posts | Comment |
+| Title | Summary | Source | Comment |
 |-------|-----------------|-------|---------|
 | [Edge of Tomorrow](https://www.themoviedb.org/movie/137113-edge-of-tomorrow) | 5👍 1👎 | [@gustav](https://jkpg.rocks/@gustav/111488570537867130)  | No comment |
