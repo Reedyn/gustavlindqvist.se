@@ -9,7 +9,7 @@ eleventyExcludeFromCollections: true
 
 [Well that escalated quickly!](https://duckduckgo.com/?q=Well+that+escalated+quickly+meme&t=ffab&iar=images&iax=images&ia=images){.lead}
 
-I gave up even trying to keep up with all the replies but I felt I had to do some kind of summary when it all cooled down a bit. The post was reblogged 243 times and got over 300 replies. I went through all replies and compiled this list of all movies that got recommended. If I missed some, let me know!
+I gave up even trying to keep up with all the replies but I felt I had to do some kind of summary when it all cooled down a bit. [The post](https://jkpg.rocks/@gustav/111488570537867130) was reblogged 243 times and got over 300 replies. I went through all replies and compiled this list of all movies that got recommended. If I missed some, let me know!
 
 ## The list
 
