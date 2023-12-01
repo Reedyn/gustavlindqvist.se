@@ -2,8 +2,9 @@
 title: "Fediverse Scifi Movie Recommendations"
 page_title: "Fediverse Scifi Movie Recommendations"
 description: "Fediverse Scifi Movie Recommendations"
-new_permalink: "/fediverse/scifi-movie-recommendations/index.html"
-permalink: false
+permalink: "/fediverse/scifi-movie-recommendations/index.html"
+date: 2023-12-01T10:37:21+0100
+eleventyExcludeFromCollections: true
 ---
 
 [Well that escalated quickly!](https://duckduckgo.com/?q=Well+that+escalated+quickly+meme&t=ffab&iar=images&iax=images&ia=images){.lead}
@@ -18,6 +19,6 @@ I included a link to the post if it was posted as public (not unlisted or privat
 
 | Title | Summary | Source | Comment |
 |-------|-----------------|-------|---------|
-| [Edge of Tomorrow](https://www.themoviedb.org/movie/137113-edge-of-tomorrow) | 5👍 1👎 | [@gustav](https://jkpg.rocks/@gustav/111488570537867130)  | No comment |
+| Edge of Tomorrow (2014) ^[\[TMDB\]](https://www.themoviedb.org/movie/137113-edge-of-tomorrow)^ | 5👍 1👎 | [@gustav](https://jkpg.rocks/@gustav/111488570537867130)  | No comment |
 
 
