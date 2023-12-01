@@ -15,7 +15,7 @@ eleventyComputed:
 {% else %}
     {%- set optimizedFeatureImage = "" %}
 {% endif %}
-<article class="page">
+<article class="page"{% if language %} lang="{{ language }}"{% endif %}>
     <header id="page-header" class="page-header{% if feature_image %} -feature-image{% endif %}">
         {{ optimizedFeatureImage | safe }}
         <div class="page-metadata">
