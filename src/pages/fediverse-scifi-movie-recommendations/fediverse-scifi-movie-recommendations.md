@@ -27,7 +27,7 @@ td:nth-child(3) {
   max-width: 100px;
 }
 
-tr:nth-child(even) {
+tr:nth-child(odd) {
   background: var(--color__background__alt);
 }
 
