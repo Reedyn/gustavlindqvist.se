@@ -19,4 +19,4 @@ I included a link to the post if it was posted as public (not unlisted or privat
 
 | Title | Summary | Source | Comment |
 |-------|-----------------|-------|---------|
-| Edge of Tomorrow (2014)[^\[TMDb\]^](https://www.themoviedb.org/movie/137113-edge-of-tomorrow) | 5👍 1👎 | [@gustav](https://jkpg.rocks/@gustav/111488570537867130)  | No comment |
+| Edge of Tomorrow (2014)^[\[TMDb\]](https://www.themoviedb.org/movie/137113-edge-of-tomorrow) | 5👍 1👎 | [@gustav](https://jkpg.rocks/@gustav/111488570537867130)^  | No comment |
