@@ -17,9 +17,9 @@ I gave up even trying to keep up with all the replies but I felt I had to do som
 
 I included a link to the post if it was posted as public (not unlisted or private) but I counted them all in the summary regardless of post visibility. Some seemed ambivalent whether they recommended a movie or not, I didn't count those.
 
-| Title            | Year | Summary | Source | Comment |
-|------------------|------|---------|--------|---------|
-| [Edge of Tomorrow] | 2014 | 5👍 1👎 | [@gustav](https://jkpg.rocks/@gustav/111488570537867130) | No comment |
-| [Edge of Tomorrow] | 2014 | 2👍 1👎 | [@gustav](https://jkpg.rocks/@gustav/111488570537867130) | No comment |
+| Title | Summary | Source | Comment |
+|-------|---------|--------|---------|
+| [Edge of Tomorrow (2014)] | 5👍 1👎 | [@gustav](https://jkpg.rocks/@gustav/111488570537867130) | No comment |
+| [Edge of Tomorrow (2014)] | 2👍 1👎 | [@gustav](https://jkpg.rocks/@gustav/111488570537867130) | No comment |
 
-[Edge of Tomorrow]: https://www.themoviedb.org/movie/137113-edge-of-tomorrow
+[Edge of Tomorrow (2014)]: https://www.themoviedb.org/movie/137113-edge-of-tomorrow
