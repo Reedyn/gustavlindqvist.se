@@ -27,11 +27,11 @@ td:nth-child(3) {
   max-width: 100px;
 }
 
-tr:nth-child(odd) {
+tbody tr:nth-child(odd) {
   background: var(--color__background__alt);
 }
 
-tr:hover {
+tbody tr:hover {
   background: var(--color__background__widget);
 }
 </style>
