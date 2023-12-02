@@ -9,26 +9,33 @@ language: en
 ---
 
 <style>
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    overflow-x: scroll;
+    display: block;
+}
 td, th {
- padding: 0.3em;
+    padding: 0.3em;
 }
 
 td:nth-child(1) {
- width: 1px;
- white-space: nowrap;
+    width: 1px;
+    white-space: nowrap;
 }
 
 td:nth-child(2) {
- width: 1px;
- white-space: nowrap;
+    width: 1px;
+    white-space: nowrap;
 }
 
 tbody tr:nth-child(odd) {
- background: var(--color__background__alt);
+    background: var(--color__background__alt);
 }
 
 tbody tr:hover {
- background: var(--color__background__widget);
+    background: var(--color__background__widget);
 }
 </style>
 
@@ -54,7 +61,7 @@ I included a link to the post if it was posted as public (not unlisted or privat
 | Los cronocrímenes (2007) | 7👍 | [@Rudantu](https://typo.social/@Rudantu/111489185593762679) [@femme_mal](https://mstdn.social/@femme_mal/111490113542370469) [@giantspecks](https://sfba.social/@giantspecks/111489278857489692) [@jsprbkkr](https://mstdn.social/@jsprbkkr/111489568839537029) [@sidawson](https://mastodon.nz/@sidawson/111495253374123095) | Watch in spanish with subtitles |
 | Silent Running (1972) | 7👍 | [@martinvermeer](https://fediscience.org/@martinvermeer/111488829891172467) [@Pineywoozle](https://masto.ai/@Pineywoozle/111493653719138041) [@mastodonmigration](https://mastodon.online/@mastodonmigration/111488955822612114) [@kierkegaank](https://mastodon.sdf.org/@kierkegaank/111490760735572086) [@sidawson](https://mastodon.nz/@sidawson/111495253374123095) | |
 | District 9 (2009) | 6👍 | [@Archergal](https://wandering.shop/@Archergal/111490911794137472) [@femme_mal](https://mstdn.social/@femme_mal/111491251792835217) [@manuel_carlos_](https://mastodon.social/@manuel_carlos_/111489794276910393) [@plakat](https://mastodon.social/@plakat/111490336934352704) [@matsh](https://toots.nu/@matsh/111490449963943356) [@landetannien](https://toots.nu/@landetannien/111493779638254227) | |
-| Buckaroo Banzai (1984) | 6👍 | [@wordshaper](https://weatherishappening.network/@wordshaper/111488771412841804) [@old_hippie](https://masto.ai/@old_hippie/111489266337514625) [@MaryAliciaZiff](https://mastodon.sdf.org/@MaryAliciaZiff/111492693596521596) [@Yuki](https://udon.icu/notes/9mm75jzwdx) [@MadisonMonkey](https://mindly.social/@MadisonMonkey/111490942203868343) [@violetmadder](https://kolektiva.social/@violetmadder/111490971331305646) | |
+| The Adventures of Buckaroo Banzai Across the 8th Dimension (1984) | 6👍 | [@wordshaper](https://weatherishappening.network/@wordshaper/111488771412841804) [@old_hippie](https://masto.ai/@old_hippie/111489266337514625) [@MaryAliciaZiff](https://mastodon.sdf.org/@MaryAliciaZiff/111492693596521596) [@Yuki](https://udon.icu/notes/9mm75jzwdx) [@MadisonMonkey](https://mindly.social/@MadisonMonkey/111490942203868343) [@violetmadder](https://kolektiva.social/@violetmadder/111490971331305646) | |
 | Stalker (1979) | 5👍 | [@stooryduster](https://mastodon.scot/@stooryduster/111489496375025479) [@kierkegaank](https://mastodon.sdf.org/@kierkegaank/111490760735572086) [@rowat_c](https://mastodon.social/@rowat_c/111491856350905098) | |
 | Upgrade (2018) | 5👍 | [@johannes](https://toot.community/@johannes/111489593744215437) [@Elegansen](https://biblioverse.online/@Elegansen/111489170373055510) [@giantspecks](https://sfba.social/@giantspecks/111489278857489692) [@jsprbkkr](https://mstdn.social/@jsprbkkr/111489568839537029) [@neontapir](https://ruby.social/@neontapir/111490778419991580) | |
 | Cube (1997) | 4👍 | [@allclaws](https://kolektiva.social/@allclaws/111488774322747793) [@IanMoore3000](https://mastodon.ie/@IanMoore3000/111489119862656980) [@markmcelroy](https://pkm.social/@markmcelroy/111488908988438405) [@Yuki](https://udon.icu/notes/9mm75jzwdx) | |
@@ -286,5 +293,3 @@ I included a link to the post if it was posted as public (not unlisted or privat
 | World on a Wire (1973) | 1👍 | [@giantspecks](https://sfba.social/@giantspecks/111489278857489692) | |
 | The Whispering Star (2015) | 1👍 | [@hula_doll](https://mstdn.social/@hula_doll/111491758118997119) | |
 | Interstellar (2014) | 1👍 1👎 | [@arisummerland](https://mstdn.social/@arisummerland/111489267640011255) [@TomSwirly](https://toot.community/@TomSwirly/111489992900514312) | |
-
-*[Buckaroo Banzai]: The Adventures of Buckaroo Banzai Across the 8th Dimension
