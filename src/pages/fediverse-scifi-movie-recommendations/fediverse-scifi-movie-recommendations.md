@@ -22,7 +22,6 @@ td, th {
 
 td:nth-child(1) {
     width: 1px;
-    white-space: nowrap;
 }
 
 td:nth-child(2) {
