@@ -40,7 +40,7 @@ I gave up even trying to keep up with all the replies but I felt I had to do som
 
 <p>Updated <date datetime="2023-11-30T18:37:44+0100" title="2023-11-30 18:37">30 november</date>. <a href="https://jkpg.rocks/@gustav/111488570537867130">See original post</a> for possibly more replies after this date.</p>
 
-[Download the list \[.csv\]](fediverse-scifi-movie-recommendations.csv)
+[Download the list \[.csv\]](fediverse-scifi-movie-recommendations.csv){.button download}
 
 I included a link to the post if it was posted as public (not unlisted or private) but I counted them all in the summary regardless of post visibility. Some seemed ambivalent whether they recommended a movie or not. I didn't count those.
 
