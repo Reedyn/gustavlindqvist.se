@@ -20,7 +20,7 @@ td, th {
     padding: 0.3em;
 }
 
-td:nth-child(1) {
+td:nth-child(3) {
     width: 1px;
 }
 
