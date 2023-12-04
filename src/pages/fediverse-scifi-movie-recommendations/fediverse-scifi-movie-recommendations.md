@@ -1,7 +1,6 @@
 ---
 title: "Fediverse Scifi Movie Recommendations"
-page_title: "Fediverse Scifi Movie Recommendations"
-description: "Fediverse Scifi Movie Recommendations"
+description: "I gave up even trying to keep up with all the replies but I felt I had to do some kind of summary when it all cooled down a bit. The post was reblogged 240+ times and got over 300 replies. I went through all replies and compiled this list of all movies that got recommended. If I missed some let me know!"
 permalink: "/fediverse/scifi-movie-recommendations/index.html"
 date: 2023-12-01T10:37:21+0100
 eleventyExcludeFromCollections: true
@@ -40,7 +39,7 @@ tbody tr:hover {
 
 [Well that escalated quickly!](https://duckduckgo.com/?q=Well+that+escalated+quickly+meme&t=ffab&iar=images&iax=images&ia=images){.lead}
 
-I gave up even trying to keep up with all the replies but I felt I had to do some kind of summary when it all cooled down a bit. [The post](https://jkpg.rocks/@gustav/111488570537867130) was reblogged 243 times and got over 300 replies. I went through all replies and compiled this list of all movies that got recommended. If I missed some let me know!
+I gave up even trying to keep up with all the replies but I felt I had to do some kind of summary when it all cooled down a bit. [The post](https://jkpg.rocks/@gustav/111488570537867130) was reblogged 240+ times and got over 300 replies. I went through all replies and compiled this list of all movies that got recommended. If I missed some let me know!
 
 ## The list
 
@@ -50,7 +49,7 @@ I gave up even trying to keep up with all the replies but I felt I had to do som
 
 I included a link to the post if it was posted as public (not unlisted or private) but I counted them all in the summary regardless of post visibility. Some seemed ambivalent whether they recommended a movie or not. I didn't count those.
 
-
+| Title | Summary | Source | Comment |
 |-------|---------|--------|---------|
 | Moon (2009) | 10👍 | [@johannes](https://toot.community/@johannes/111489593744215437) [@neontapir](https://ruby.social/@neontapir/111489806294591668) [@samuteki](https://ohay.ooo/@samuteki/111490584244522828) [@europlus](https://social.europlus.zone/@europlus/111495874365807887) [@nf3xn](https://mastodon.social/@nf3xn/111488833038574239) [@xanna](https://mastodon.ie/@xanna/111488854331339046) [@IanMoore3000](https://mastodon.ie/@IanMoore3000/111489149850430729) [@vagrantc](https://floss.social/@vagrantc/111489796449612616) [@sidawson](https://mastodon.nz/@sidawson/111495253374123095) [@Krux_22](https://mastodonsweden.se/@Krux_22/111495672380699444) | |
 | Primer (2004) | 9👍 | [@tartley](https://mastodon.social/@tartley/111488829309181099) [@porsupah](https://lgbt.io/@porsupah/111488832108999884) [@markmcelroy](https://pkm.social/@markmcelroy/111488908988438405) [@PizzaDemon](https://mastodon.online/@PizzaDemon/111489345724981691) [@ben](https://werd.social/@ben/111489577659597384) [@vagrantc](https://floss.social/@vagrantc/111489796449612616) [@internetsdairy](https://mastodon.art/@internetsdairy/111490827450446712) [@sidawson](https://mastodon.nz/@sidawson/111495253374123095) | |
