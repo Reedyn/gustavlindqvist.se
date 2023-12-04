@@ -1,5 +1,5 @@
 ---
-title: "Dressincykling på smalspåret (Hultsfred ↔ Målilla)"
+title: "Dressincykling på smalspåret Hultsfred ↔ Målilla"
 description: "Igår mitt under toppen på värmeböljan åkta jag och Jossan iväg till Hultsfred för att cykla dressin på de gamla smalspåren (891mm spårbredd) som går mellan Västervik och Hultsfred och är fint bevarade av föreningen Smalspåret Växjö-Västervik"
 date: 2022-07-22 14:45:00 +2
 feature_image: "GOPR1107_1658419674114.JPG"
