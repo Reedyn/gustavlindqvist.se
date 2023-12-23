@@ -14,3 +14,8 @@ eleventyExcludeFromCollections: true
 ## Öl
 
 * [ ] [Malt: A Practical Guide from Field to Brewhouse](https://shop.humle.se/litteratur/avancerade-bocker-om-olbryggning/malt-a-practical-guide-from-field-to-brewhouse) (189kr)
+
+
+## Verktyg
+
+* [Knivslip](https://www.knivbutik.se/product/spyderco-sharpmaker/) (~1 000kr)
