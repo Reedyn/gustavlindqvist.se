@@ -19,3 +19,4 @@ eleventyExcludeFromCollections: true
 ## Verktyg
 
 * [Knivslip](https://www.knivbutik.se/product/spyderco-sharpmaker/) (~1 000kr)
+* [Heat it – Myggbettsbehandling](https://www.apotekhjartat.se/produkt/heat-it-mot-insektsbett-android/) (~300kr)
