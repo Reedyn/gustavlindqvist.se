@@ -11,5 +11,5 @@ eleventyExcludeFromCollections: true
 <p class="lead">Det är julafton <time class="timeago" datetime="2024-12-24T00:00:00.000+01:00" title="2024-12-24">24 december</time>.</p>
 
 * [ ] [Knivslip](https://www.knivbutik.se/product/spyderco-sharpmaker/) (~1 000kr)
-* [ ] [Opinel No8 Kolstål](https://scandinavianoutdoor.se/opinel/utrustning/knivar-och-verktyg/fasta-knivar-och-fallknivar/opinel-carbon-4/) (~100kr)
+* [ ] [Opinel No4 Kolstål](https://scandinavianoutdoor.se/opinel/utrustning/knivar-och-verktyg/fasta-knivar-och-fallknivar/opinel-carbon-4/) (~100kr)
 * [ ] [Heat it – Myggbettsbehandling](https://www.apotekhjartat.se/produkt/heat-it-mot-insektsbett-android/) (~300kr)
