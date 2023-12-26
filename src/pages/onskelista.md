@@ -13,3 +13,4 @@ eleventyExcludeFromCollections: true
 * [ ] [Knivslip](https://www.knivbutik.se/product/spyderco-sharpmaker/) (~1 000kr)
 * [ ] [Opinel No4 Kolstål](https://scandinavianoutdoor.se/opinel/utrustning/knivar-och-verktyg/fasta-knivar-och-fallknivar/opinel-carbon-4/) (~100kr)
 * [ ] [Heat it – Myggbettsbehandling](https://www.apotekhjartat.se/produkt/heat-it-mot-insektsbett-android/) (~300kr)
+* [ ] [Stormtändare](https://corax-store.se/sv/clawgear/clawgear-mkii-storm-pocket-lighter.html) (~100kr)
