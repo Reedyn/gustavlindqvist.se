@@ -18,5 +18,4 @@ eleventyExcludeFromCollections: true
 * [ ] [Öppningsbara buntband](https://www.smartasaker.se/sv/oppningsbara-buntband-20-pack) (~25kr)
 * [ ] [Flextail myggskydd](https://www.flextail.com/products/light-repel?variant=43108221550839) (~350kr)
 * [ ] [Windfeather](https://hfshop.se/ultralatt/windfeater) (~400kr)
-/light-repel?variant=43108221550839) (~350kr)
 * [ ] [Tvättpåse för mikroplast](https://www.scoutshop.se/tvattpase-stoppa-mikroplast) (~200kr)
