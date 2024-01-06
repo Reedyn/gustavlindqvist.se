@@ -17,3 +17,4 @@ eleventyExcludeFromCollections: true
 * [ ] [Stormtändare](https://corax-store.se/sv/clawgear/clawgear-mkii-storm-pocket-lighter.html) (~100kr)
 * [ ] [Öppningsbara buntband](https://www.smartasaker.se/sv/oppningsbara-buntband-20-pack) (~25kr)
 * [ ] [Flextail myggskydd](https://www.flextail.com/products/light-repel?variant=43108221550839) (~350kr)
+* [ ] [Windfeather](https://hfshop.se/ultralatt/windfeater) (~400kr)
