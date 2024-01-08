@@ -70,7 +70,7 @@ const gustavlindqvist = (() => {
                 if (typeof element.getAttribute('prefix') === 'undefined') {
                     newString = newString.replace('för ','');
                 }
-                if (typeof element.getAttribute('data-firstletterupper') !== 'undefined') {
+                if (typeof element.getAttribute('data-firstletterupper') !== 'undefined' && element.getAttribute('data-firstletterupper')) {
                     newString = newString.charAt(0).toUpperCase() + newString.slice(1)
                 }
 
