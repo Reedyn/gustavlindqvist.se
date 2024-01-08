@@ -19,4 +19,4 @@ eleventyExcludeFromCollections: true
 * [ ] [Flextail myggskydd](https://www.flextail.com/products/light-repel?variant=43108221550839) (~350kr)
 * [ ] [Windfeather](https://hfshop.se/ultralatt/windfeater) (~400kr)
 * [ ] [Tvättpåse för mikroplast](https://www.scoutshop.se/tvattpase-stoppa-mikroplast) (~200kr)
-* [ ] [Datablockerare för USB-C](https://www.inet.se/produkt/8906980/microconnect-safe-charge-usb-c-data-blocker-adapter) (~180kr)
+* [ ] [Datablockerare för USB-C](https://www.dustinhome.se/product/5011339897/usb-c-data-blocker-adapter) (~150kr)
