@@ -19,7 +19,7 @@
             padding: 0;
             background: none;
             color: var(--color__text);
-            font-size: $font__size;
+            font-size: var(--font__size);
         }
     }
 }

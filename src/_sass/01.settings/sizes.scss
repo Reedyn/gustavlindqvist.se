@@ -1,15 +1,19 @@
-$margin__tiny: .5rem;
-$margin__small: 1rem;
-$margin__medium: 2rem;
-$margin__large: 4rem;
+/* Sizes
+---------------
+Sizes, margins and paddings
+--------------- */
+:root {
+  --max-width__base: 110rem;
+  --max-width__content: 75rem;
 
-$padding__small: 1rem;
-$padding__medium: 2rem;
-$padding__large: 4rem;
+  --margin__tiny: .5rem;
+  --margin__small: 1rem;
+  --margin__medium: 2rem;
+  --margin__large: 4rem;
+  --padding__tiny: .5rem;
+  --padding__small: 1rem;
+  --padding__medium: 2rem;
+  --padding__large: 4rem;
 
-$max-width__content: 75rem;
-$max-width__base: 110rem;
-
-$header__height: 6rem;
-
-$gutter: $margin__medium;
+  --header__height: 6rem;
+}
