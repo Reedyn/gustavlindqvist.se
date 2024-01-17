@@ -1,6 +1,5 @@
 ---
 title: "Ny plattform för bloggen"
-feature_image: laptop-gc9c2b5bef_1920.jpg
 description: "Från 2013 fram till nu har jag använt plattformen Ghost för att hosta denna webbplatsen. Ghost var som en frisk fläkt på bloggmarknaden när den kom mot den då (och fortfarande) dominerande plattformen WordPress."
 twitterId: 1468288793019101189
 tags:
