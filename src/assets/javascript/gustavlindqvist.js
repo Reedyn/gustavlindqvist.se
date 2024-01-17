@@ -8,58 +8,6 @@ const gustavlindqvist = (() => {
         htmlElement.classList.add('js');
     })();
 
-    // Set theme to saved value if it exists
-    const setSavedTheme = (() => {
-        let theme = localStorage.getItem('theme');
-        if (theme) {
-            if (theme === 'dark') {
-                document.documentElement.setAttribute('data-theme', 'dark');
-                document.getElementById('theme-toggle__checkbox').checked = true;
-            } else {
-                document.documentElement.setAttribute('data-theme', 'light');
-            }
-        } else {
-            if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                localStorage.setItem('theme', 'dark');
-                document.getElementById('theme-toggle__checkbox').checked = true;
-                document.documentElement.setAttribute('data-theme', 'dark');
-            } else {
-                localStorage.setItem('theme', 'light');
-                document.getElementById('theme-toggle__checkbox').checked = false;
-                document.documentElement.setAttribute('data-theme', 'light');
-            }
-        }
-    })();
-
-    const createThemeChooser = (() => {
-        const themeToggle = document.getElementById('theme-toggle__checkbox');
-        const colorSchemeSetting = window.matchMedia("(prefers-color-scheme: dark)");
-
-        themeToggle.addEventListener('change', (event) => {
-            if(event.target.checked) {
-                localStorage.setItem('theme', 'dark');
-                document.documentElement.setAttribute('data-theme', 'dark');
-            } else {
-                localStorage.setItem('theme', 'light');
-                document.documentElement.setAttribute('data-theme', 'light');
-            }
-        });
-
-        colorSchemeSetting.addEventListener('change', (event) => {
-            if(event.matches) {
-                localStorage.setItem('theme', 'dark');
-                document.getElementById('theme-toggle__checkbox').checked = true;
-                document.documentElement.setAttribute('data-theme', 'dark');
-            } else {
-                localStorage.setItem('theme', 'light');
-                document.getElementById('theme-toggle__checkbox').checked = false;
-                document.documentElement.setAttribute('data-theme', 'light');
-            }
-        });
-
-
-    })();
-
     const initializeDayJS = (() => {
         dayjs.extend(dayjs_plugin_relativeTime);
         dayjs.locale('sv');
