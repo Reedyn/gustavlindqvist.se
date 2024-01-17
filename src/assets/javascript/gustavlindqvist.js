@@ -29,8 +29,6 @@ const gustavlindqvist = (() => {
 
     return {
         isJS,
-        initializeDayJS,
-        setSavedTheme,
-        createThemeChooser,
+        initializeDayJS
     };
 })();
