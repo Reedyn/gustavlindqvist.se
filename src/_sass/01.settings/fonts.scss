@@ -16,14 +16,16 @@ Fonts
   --font__quotes: var(--font__serif);
   --font__code: var(--font__mono);
 
-
   // Font sizing
+  --font__size: 1.6rem;
+  --font__size-base: 1.4rem;
+}
+
+:root {
+  // Font scaling
   --font__dynamic-scaling: 0.3vw;
   --font__ratio: 1.25;
   --font__dynamic-ratio: 1.3;
-
-  --font__size: 1.6rem;
-  --font__size-base: 1.4rem;
   --font__size__heading-4: calc( (var(--font__size-base) * var(--font__ratio)) + (var(--font__dynamic-scaling) * var(--font__dynamic-ratio)));
   --font__size__heading-3: calc( (var(--font__size-base) * var(--font__ratio) * var(--font__ratio)) + (var(--font__dynamic-scaling) * var(--font__dynamic-ratio) * var(--font__dynamic-ratio)));
   --font__size__heading-2: calc( (var(--font__size-base) * var(--font__ratio) * var(--font__ratio) * var(--font__ratio)) + (var(--font__dynamic-scaling) * var(--font__dynamic-ratio) * var(--font__dynamic-ratio) * var(--font__dynamic-ratio)));
