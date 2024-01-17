@@ -11,10 +11,7 @@
 
         a {
             text-decoration: none;
-
-            &:visited {
-
-            }
+            color: var(--color__text);
 
             &:hover,
             &:focus {
