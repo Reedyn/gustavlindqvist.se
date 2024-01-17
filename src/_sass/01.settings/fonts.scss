@@ -3,13 +3,29 @@
 Fonts
 --------------- */
 
-$font__sans-serif: "Noto Sans", system-ui, sans-serif;
-$font__serif: "Noto Serif", Charter, Georgia, serif;
-$font__monospace: "Fira Code", ui-monospace, monospace;
+:root {
+  // Font family
+  --font__sans-serif: "Noto Sans", system-ui, sans-serif;
+  --font__serif: "Noto Serif", Charter, Georgia, serif;
+  --font__mono: "Fira Code", ui-monospace, monospace;
 
-$font__size: 1.6rem;
-$font__size__base: 1.4rem;
+  --font__body: var(--font__sans-serif);
+  --font__headings: var(--font__sans-serif);
+  --font__meta: var(--font__sans-serif);
+  --font__captions: var(--font__serif);
+  --font__quotes: var(--font__serif);
+  --font__code: var(--font__mono);
 
-$font__dynamic-scaling: 0.3vw;
-$font__ratio: 1.25;
-$font__dynamic-ratio: 1.3;
+
+  // Font sizing
+  --font__dynamic-scaling: 0.3vw;
+  --font__ratio: 1.25;
+  --font__dynamic-ratio: 1.3;
+
+  --font__size: 1.6rem;
+  --font__size-base: 1.4rem;
+  --font__size__heading-4: calc( (var(--font__size-base) * var(--font__ratio)) + (var(--font__dynamic-scaling) * var(--font__dynamic-ratio)));
+  --font__size__heading-3: calc( (var(--font__size-base) * var(--font__ratio) * var(--font__ratio)) + (var(--font__dynamic-scaling) * var(--font__dynamic-ratio) * var(--font__dynamic-ratio)));
+  --font__size__heading-2: calc( (var(--font__size-base) * var(--font__ratio) * var(--font__ratio) * var(--font__ratio)) + (var(--font__dynamic-scaling) * var(--font__dynamic-ratio) * var(--font__dynamic-ratio) * var(--font__dynamic-ratio)));
+  --font__size__heading-1: calc( (var(--font__size-base) * var(--font__ratio) * var(--font__ratio) * var(--font__ratio) * var(--font__ratio)) + (var(--font__dynamic-scaling) * var(--font__dynamic-ratio) * var(--font__dynamic-ratio) * var(--font__dynamic-ratio) * var(--font__dynamic-ratio)));
+}
