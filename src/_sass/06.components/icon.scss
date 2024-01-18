@@ -2,33 +2,34 @@
     display: inline-block;
     bottom: 0.1em;
     position: relative;
-    width: auto;
-    height: 1em;
+    height: auto;
+    width: 1em;
     vertical-align: sub;
+    align-self: flex-start;
 
     &.-large {
-        height: 1.5em;
+        width: 1.5em;
         vertical-align: middle;
         bottom: 0.15em;
     }
 
     &.-strava {
-        color: #e34a00;
+        color: oklch(70% 0.2 38deg);
     }
 
     &.-gaming {
-        color: #B172FD;
+        color: oklch(70% 0.2 300deg);
     }
 
     &.-fermentables {
-        color: #ffca5a;
+        color: oklch(70% 0.15 80deg);
     }
 
     &.-hops {
-        color: #6f9a4b;
+        color: oklch(70% 0.1 132deg);
     }
 
     &.-yeast {
-        color: #e2b693;
+        color: oklch(80% 0.06 60deg);
     }
 }
