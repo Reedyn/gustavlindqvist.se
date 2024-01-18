@@ -7,6 +7,7 @@ const hashString = require('./functions').hashString;
 const featureImageFilter = require('./filters/feature-image');
 const openGraphImageFilter = require('./filters/open-graph-image');
 const dates = require('./filters/dates');
+const time = require('./filters/time');
 
 module.exports = {
     log: (object) => {
@@ -86,6 +87,7 @@ module.exports = {
     fullISODate: dates.fullISODate,
     readableDate: dates.readableDate,
     readableLongDate: dates.readableLongDate,
+    minutesToHoursAndMinutes: time.minutesToHoursAndMinutes,
     lowercase: (inputString) => {
         return inputString.toLowerCase();
     },
