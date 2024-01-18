@@ -33,6 +33,22 @@ ol {
     padding-inline-start: 0;
 }
 
+.-inline {
+    li, a {
+        display: inline;
+        width: auto;
+        a {
+            display: inline;
+        }
+
+        &:not(:last-child):after {
+            content: "·";
+            display: inline-block;
+            margin: 0 0.4em;
+        }
+    }
+}
+
 .task-list-item-checkbox {
     margin-left: -1.6em; // Move the checkbox to the left to match other lists indentation.
     vertical-align: baseline;

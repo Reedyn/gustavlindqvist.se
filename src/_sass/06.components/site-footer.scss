@@ -15,12 +15,7 @@
     max-width: var(--max-width__base);
     padding: var(--padding__large) var(--padding__medium);
     font-size: var(--font__size-base);
-
-    grid-gap: var(--margin__large);
-
-    @include respond-to(small) {
-        flex-direction: row;
-    }
+    text-align: center;
 
     label {
         color: var(--color__text);
@@ -29,22 +24,6 @@
 
 .site-footer__navigation {
     color: var(--color__text);
-
-    ul {
-        list-style: none;
-        padding-inline-start: 0;
-        margin: 0;
-        li {
-            margin-bottom: .5em;
-            &:last-child {
-                margin-bottom: 0;
-            }
-
-            a {
-                display: block;
-            }
-        }
-    }
 
     a {
         color: var(--color__text);
