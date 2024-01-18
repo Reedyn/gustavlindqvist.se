@@ -1,5 +1,6 @@
 @media print {
 
+
     body {
         overflow-x: visible !important;
         overflow-y: visible !important;
@@ -15,6 +16,10 @@
 
     a, p, span, ul, ol, li, h1, h2, h3, h4, h5, h6 {
         color: black !important;
+    }
+
+    img {
+        break-inside: avoid;
     }
 
     main.main {
