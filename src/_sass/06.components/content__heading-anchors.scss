@@ -1,22 +1,22 @@
 .content .header-anchor {
     position: absolute;
-    color: var(--color__link);
+    color: var(--color__accent);
     transform: translateX(-0.65em);
     text-decoration: none;
     opacity: 0;
 
     &:visited {
-        color: var(--color__link);
+        color: var(--color__accent);
     }
 
     &:focus,
     &:hover {
-        color: var(--color__link);
+        color: var(--color__accent);
         background: none;
         text-decoration: underline;
 
         &:visited {
-            color: var(--color__link);
+            color: var(--color__accent);
             background: none;
         }
     }
