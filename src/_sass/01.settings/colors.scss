@@ -21,6 +21,6 @@ All colors used throughout the theme
   --color__text__contrast: white;
   --color__text__contrast__alt: oklch(73% 0 0deg);
 
-  --color__link: --color__accent;
-  --color__link__visited: --color__accent-secondary;
+  --color__link: var(--color__accent);
+  --color__link__visited: var(--color__accent-secondary);
 }
