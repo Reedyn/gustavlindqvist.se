@@ -34,6 +34,7 @@ ol {
 }
 
 .-inline {
+    padding-inline-start: 0;
     li, a {
         display: inline;
         width: auto;
