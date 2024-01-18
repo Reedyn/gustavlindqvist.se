@@ -4,7 +4,7 @@ description: "En lättdrucken gyllene belgisk ale bryggd med vatten från Vätte
 date: 2022-06-14
 label: "/assets/icons/Gustavs-hembryggeri_Logotyp_Vätterns-enkla.svg#vatterns-enkla"
 label_viewbox: "0 0 500 190.6"
-color: "#ed6239"
+color: "oklch(67% 0.181 37deg)"
 thumbnail_image: "/assets/images/og_brewery_vatterns-enkla.png"
 order: 3
 recipeId: "UtRDDEtSXhNZeFh08cUWG3O8mON4uZ"
