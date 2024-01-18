@@ -16,11 +16,11 @@
             &:hover,
             &:focus {
                 text-decoration: underline;
-                color: var(--color__link);
+                color: var(--color__accent);
                 background: none;
 
                 &:visited {
-                    color: var(--color__link__visited);
+                    color: var(--color__accent-secondary);
                     background: none;
                 }
             }

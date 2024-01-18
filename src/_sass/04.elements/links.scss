@@ -1,5 +1,5 @@
 a {
-    color: var(--color__link);
+    color: var(--color__accent);
     text-decoration: none;
     &:hover,
     &:focus {
@@ -7,6 +7,6 @@ a {
     }
 
     &:visited {
-        color: var(--color__link__visited);
+        color: var(--color__accent-secondary);
     }
 }

@@ -22,21 +22,21 @@
     }
 
     a {
-        color: var(--color__link);
+        color: var(--color__accent);
         text-decoration: underline;
 
         &:visited {
-            color: var(--color__link__visited);
+            color: var(--color__accent-secondary);
         }
 
         &:hover,
         &:focus {
             text-decoration: none;
             color: var(--color__background);
-            background: var(--color__link);
+            background: var(--color__accent);
 
             &:visited {
-                background: var(--color__link__visited);
+                background: var(--color__accent-secondary);
             }
         }
     }
