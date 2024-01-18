@@ -217,7 +217,7 @@
             display: inline-block;
             margin-right: .4em;
             color: var(--color__text__contrast);
-            background: hsla(0, 0%, 15%, 0.65);
+            background: oklch(27% 0 0deg / 0.65);
             padding: 0 .5em;
             margin-bottom: .4em;
         }

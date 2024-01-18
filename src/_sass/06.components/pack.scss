@@ -17,7 +17,7 @@
     }
 
     &__category {
-        background: hsl(0deg 0% 70% / 10%);
+        background: oklch(77% 0 0deg / 0.1);
 
         .icon {
             margin-left: .3rem;

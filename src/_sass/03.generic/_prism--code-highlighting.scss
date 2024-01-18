@@ -5,7 +5,7 @@
 
 code[class*="language-"],
 pre[class*="language-"] {
-    color: #393A34;
+    color: oklch(34% 0.01 114deg);
     font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
     direction: ltr;
     text-align: left;
@@ -31,12 +31,12 @@ pre > code[class*="language-"] {
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
-    background: #b3d4fc;
+    background: oklch(86% 0.066 253deg);
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
-    background: #b3d4fc;
+    background: oklch(86% 0.066 253deg);
 }
 
 /* Code blocks */
@@ -44,7 +44,7 @@ pre[class*="language-"] {
     padding: 1em;
     margin: .5em 0;
     overflow: auto;
-    border: 1px solid #dddddd;
+    border: 1px solid oklch(90% 0 0deg);
     background-color: white;
 }
 
@@ -53,15 +53,15 @@ pre[class*="language-"] {
     padding: .2em;
     padding-top: 1px;
     padding-bottom: 1px;
-    background: #f8f8f8;
-    border: 1px solid #dddddd;
+    background: oklch(98% 0 0deg);
+    border: 1px solid oklch(90% 0 0deg);
 }
 
 .token.comment,
 .token.prolog,
 .token.doctype,
 .token.cdata {
-    color: #999988;
+    color: oklch(68% 0.024 107deg);
     font-style: italic;
 }
 
@@ -71,12 +71,12 @@ pre[class*="language-"] {
 
 .token.string,
 .token.attr-value {
-    color: #e3116c;
+    color: oklch(60% 0.233 5deg);
 }
 
 .token.punctuation,
 .token.operator {
-    color: #393A34; /* no highlight */
+    color: oklch(34% 0.01 114deg); /* no highlight */
 }
 
 .token.entity,
@@ -89,26 +89,26 @@ pre[class*="language-"] {
 .token.property,
 .token.regex,
 .token.inserted {
-    color: #36acaa;
+    color: oklch(68% 0.102 193deg);
 }
 
 .token.atrule,
 .token.keyword,
 .token.attr-name,
 .language-autohotkey .token.selector {
-    color: #00a4db;
+    color: oklch(67% 0.137 231deg);
 }
 
 .token.function,
 .token.deleted,
 .language-autohotkey .token.tag {
-    color: #9a050f;
+    color: oklch(43% 0.174 27deg);
 }
 
 .token.tag,
 .token.selector,
 .language-autohotkey .token.keyword {
-    color: #00009f;
+    color: oklch(32% 0.22 264deg);
 }
 
 .token.important,

@@ -135,7 +135,7 @@
 
     // Suffix the URL of links after the link text
     a[href^='http'], a[href^='/'] {
-        color: #006bf1 !important;
+        color: oklch(56% 0.218 259deg) !important;
         text-decoration: underline !important;
         &:after {
             content: ' ['attr(href)']';
