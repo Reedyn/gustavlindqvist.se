@@ -6,6 +6,7 @@ date: 2024-01-18T21:42:02+0100
 tags:
     - cykling
     - vinter
+    - jkpg
 ---
 
 Tyvärr har jag inte kommit ut med [nya cykeln](/2023/11/18/ny-cykel/) på ett tag på grund av vädret, planen är inte att sätta på vinterdäck på den utan den får vara en tresäsongscykel.
