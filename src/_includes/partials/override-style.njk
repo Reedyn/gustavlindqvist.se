@@ -1,13 +1,1 @@
-{% if series and nextPost %}
-    {% if nextPost and nextPost.data.feature_image %}
-        {%- set nextPostOptimizedFeatureImage = nextPost.data.feature_image | featureImageFilter("100vw", "next-post__image", nextPost.data.page) %}
-    {% endif %}
-<article role="complementary" id="read-more" aria-labelledby="next-post__title" class="next-post{% if nextPost.data.feature_image %} -feature-image{% endif %}{% if nextPost.data.feature_image_position %} -feature-image--{{ nextPost.data.feature_image_position }}{% endif %} hidden@print">
-    <section class="next-post__metadata">
-        {% set seriesTitle = tagMetadata[series].title or series %}
-        <p id="read-more__text" class="read-more-text">~ Läs nästa inlägg i {{ seriesTitle }} ~</p>
-        <a id="next-post__title" class="next-post__title" href="{{ nextPost.url }}" style="view-transition-name: post-title-{{ nextPost.url | hashString}}">{{ nextPost.data.title }}</a>
-        {% if nextPost.data.page.date %}<p class="next-post__date"><time datetime="{{ nextPost.data.page.date | fullISODate }}" title="{{ nextPost.data.page.date | longISODate }}">{{ nextPost.data.page.date | readableLongDate }}</time></p>{% endif %}
-    </section>
-    {{ nextPostOptimizedFeatureImage | safe }}
-    </article>{% endif %}
+{% if style %}style="{% if style.huePrimary %}--color__hue: {{ style.huePrimary }};{% endif %}{% if style.hueSecondary %}--color__hue-secondary: {{ style.hueSecondary }};{% endif %}{% if style.chroma %}--color__chroma: {{ style.chroma }};{% endif %}"{% endif %}

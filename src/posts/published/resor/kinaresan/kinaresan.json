@@ -1,4 +1,9 @@
 {
   "series": "kinaresan",
-  "tag": "kinaresan"
+  "tag": "kinaresan",
+  "style": {
+    "huePrimary": "30deg",
+    "hueSecondary": "90deg",
+    "chroma": "100%"
+  }
 }

@@ -71,8 +71,8 @@ eleventyComputed:
             {% include 'partials/navigation.njk' %}
         </div>
     </header>
-    <main id="main" class="main" aria-label="Innehåll">
-        {{content | safe }}
+    <main id="main" class="main" aria-label="Innehåll" {% include 'partials/override-style.njk' %}>
+        {{ content | safe }}
     </main>
     <footer class="site-footer hidden@print" aria-label="Sidfot">
         {% include 'partials/footer.njk' %}
