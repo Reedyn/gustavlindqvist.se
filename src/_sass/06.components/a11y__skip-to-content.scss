@@ -1,6 +1,6 @@
 .skip-to-content {
     padding: var(--margin__medium);
-    color: var(--color__accent);
+    color: oklch(var(--color__link__lightness) var(--color__chroma) var(--color__hue));
     background: var(--color__background);
     display: block;
     border: 1px solid white;

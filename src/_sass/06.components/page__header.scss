@@ -57,8 +57,8 @@
     &:not(.-feature-image){
         .page-title {
             //noinspection CssInvalidPropertyValue
-            @supports ((background-clip: text) and (background: linear-gradient(120deg, var(--color__accent-secondary) 0%, var(--color__accent) 37.5%, var(--color__accent-secondary) 100%))) {
-                background: linear-gradient(120deg, var(--color__accent-secondary) 0%, var(--color__accent) 37.5%, var(--color__accent-secondary) 100%);
+            @supports ((background-clip: text) and (background: linear-gradient(120deg, black 0%, white 37.5%, black 100%))) {
+                background: linear-gradient(120deg, oklch(var(--color__link__lightness) var(--color__chroma) var(--color__hue)) 0%, oklch(var(--color__link__lightness) var(--color__chroma) var(--color__hue-secondary)) 37.5%, oklch(var(--color__link__lightness) var(--color__chroma) var(--color__hue)) 100%);
                 background-clip: text;
                 color: transparent;
             }
