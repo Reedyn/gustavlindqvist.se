@@ -23,7 +23,7 @@
         &:hover, &:focus {
             background: none !important;
             .beer-label {
-                filter: drop-shadow(0 0 1rem oklch(var(--color__link__lightness) var(--color__chroma) var(--color__hue)));
+                filter: drop-shadow(0 0 1rem oklch(var(--color__lightness) var(--color__chroma) var(--color__hue)));
             }
         }
     }

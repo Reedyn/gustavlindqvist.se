@@ -8,7 +8,7 @@ tags:
     - röttle
     - höst
 style:
-    huePrimary: 130deg
+    hue: 130deg
     hueSecondary: 100deg
 ---
 

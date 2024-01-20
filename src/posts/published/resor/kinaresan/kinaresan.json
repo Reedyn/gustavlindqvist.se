@@ -2,8 +2,11 @@
   "series": "kinaresan",
   "tag": "kinaresan",
   "style": {
-    "huePrimary": "30deg",
-    "hueSecondary": "90deg",
-    "chroma": "100%"
+    "hue": "30deg",
+    "hueSecondary": "100deg",
+    "chroma": ".2",
+    "chromaSecondary": ".2",
+    "lightness": "50%",
+    "lightnessSecondary": "95%"
   }
 }
