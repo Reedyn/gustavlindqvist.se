@@ -1,7 +1,7 @@
 {
   "series": "segling",
   "style": {
-    "huePrimary": "220deg",
+    "hue": "220deg",
     "hueSecondary": "250deg",
     "chroma": ".15"
   }

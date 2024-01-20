@@ -2,8 +2,12 @@
 title: "Vandringsutrustning"
 page_title: "Vandringsutrustning / Gustav Lindqvist"
 description: "Min vandringsutrustning för sommarbruk"
-permalink: "/friluftsliv/utrustning/index.html"
+permalink: "/friluftsliv/packlistor/vandring/index.html"
 feature_image: Gustav-Lindqvist_2022-08-01_05564-Pano.jpg
+style:
+    hue: 130deg
+    hueSecondary: 80deg
+    lightnessSecondary: 90%
 ---
 
 Min utrustning för sommarbruk med en basvikt på {{ packstack.summer.base_weight | prettyDigits }}g.{.lead}

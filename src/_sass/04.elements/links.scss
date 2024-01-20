@@ -1,5 +1,5 @@
 a {
-    color: oklch(var(--color__link__lightness) var(--color__chroma) var(--color__hue));
+    color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
     text-decoration: none;
     &:hover,
     &:focus {
@@ -7,6 +7,6 @@ a {
     }
 
     &:visited {
-        color: oklch(var(--color__link__lightness) var(--color__chroma) var(--color__hue-secondary));
+        color: oklch(var(--color__lightness-secondary) var(--color__chroma-secondary) var(--color__hue-secondary));
     }
 }
