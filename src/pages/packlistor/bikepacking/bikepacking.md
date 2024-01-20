@@ -1,7 +1,7 @@
 ---
 title: "Bikepackingutrustning"
 page_title: "Bikepackingutrustning / Gustav Lindqvist"
-feature_image: bikepacking.jpg
+feature_image: Gustav-Lindqvist_2023-06-05_08904-Pano.jpg
 description: "Min bikepackingutrustning"
 permalink: "/friluftsliv/packlistor/bikepacking/index.html"
 style:
