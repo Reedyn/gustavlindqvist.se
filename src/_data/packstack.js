@@ -8,47 +8,47 @@ module.exports = async () => {
         6: {
             "name": "Packning",
             "icon": "bag-personal",
-            "color": "#3949ab",
+            "color": "oklch(45% 0.16 272)",
         },
         7: {
             "name": "Skydd",
             "icon": "tent",
-            "color": "#7cb342",
+            "color": "oklch(70% 0.155 131)",
         },
         4: {
             "name": "Sovsystem",
             "icon": "sleep",
-            "color": "#c51162",
+            "color": "oklch(54% 0.2 3)",
         },
         1: {
             "name": "Kläder",
             "icon": "tshirt-crew",
-            "color": "#5e35b1",
+            "color": "oklch(45% 0.18 293)",
         },
         2: {
             "name": "Matlagning & vattenrening",
             "icon": "campfire",
-            "color": "#ff861f",
+            "color": "oklch(74% 0.18 54)",
         },
         202: {
             "name": "Elektronik & övriga tillbehör",
             "icon": "battery-charging",
-            "color": "#ffd600",
+            "color": "oklch(88% 0.18 95)",
         },
         8: {
             "name": "Säkerhets- & toalettartiklar",
             "icon": "medical-bag",
-            "color": "#d91b1b",
+            "color": "oklch(56% 0.22 28)",
         },
         15: {
             "name": "Fotografering",
             "icon": "camera",
-            "color": "#119ae0",
+            "color": "oklch(65% 0.15 240)",
         },
         204: {
             "name": "Förbrukningsvaror",
             "icon": "food-hot-dog",
-            "color": "#ba6d54",
+            "color": "oklch(61% 0.10 39)",
         },
         3: {
             "name": "Övrigt",
