@@ -11,8 +11,8 @@ style:
 
 ## Mina primära packlistor
 
-* [Vandring](/friluftsliv/utrustning/vandring/)
-* [Bikepacking](/friluftsliv/utrustning/bikepacking/)
+* [Vandring](/friluftsliv/packlistor/vandring/)
+* [Bikepacking](/friluftsliv/packlistor/bikepacking/)
 
 ## Specifika utflykter
 
