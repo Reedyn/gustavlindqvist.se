@@ -96,4 +96,8 @@ Totalt slutade andra dagen på 14,3 km med 1,9km i transportsträcka bort till t
 
 Totalt kom vi upp i 35,44km, en bit mer än de utlovade 30km.
 
-![Karta över Bottnaryd med en rutt inritad med röd linje.](Södra-Vätterleden_Bottnaryd-Mullsjö_Del-2.png "[Andra dagens vandring från Bergs vindskydd till Mullsjö (14,3km)](https://www.strava.com/activities/3497756756)"){.-full}
+<figure class="image -full">
+   <picture>
+          <img src="Karta_Stråken.svg" width="2160" height="3840" alt="Karta över Stråken" loading="lazy" decoding="async">
+    </picture>
+</figure>
