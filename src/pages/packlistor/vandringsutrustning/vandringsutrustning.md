@@ -4,6 +4,7 @@ page_title: "Vandringsutrustning / Gustav Lindqvist"
 description: "Min vandringsutrustning för sommarbruk"
 permalink: "/friluftsliv/packlistor/vandring/index.html"
 feature_image: Gustav-Lindqvist_2022-08-01_05564-Pano.jpg
+feature_image_position: bottom
 style:
     hue: 130deg
     hueSecondary: 80deg
