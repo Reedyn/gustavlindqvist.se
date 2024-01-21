@@ -20,4 +20,4 @@ eleventyExcludeFromCollections: true
 * [ ] [Windfeather](https://hfshop.se/ultralatt/windfeater) (~400kr)
 * [ ] [Tvättpåse för mikroplast](https://www.scoutshop.se/tvattpase-stoppa-mikroplast) (~200kr)
 * [ ] [Datablockerare för USB-C](https://www.dustinhome.se/product/5011339897/usb-c-data-blocker-adapter) (~150kr)
-* [ ] [Sharpie märkpenna silver](https://www.clasohlson.com/se/Sharpie-Fine-Point-Metallic-Permanent-Marker-markpenna-1,4-mm/p/44-9014-9) (~30kr
+* [ ] [Sharpie märkpenna silver](https://www.clasohlson.com/se/Sharpie-Fine-Point-Metallic-Permanent-Marker-markpenna-1,4-mm/p/44-9014-9) (~30kr)
