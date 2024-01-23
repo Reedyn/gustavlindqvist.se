@@ -1,6 +1,6 @@
 .content .button {
     display: inline-block;
-    background: var(--color__accent);
+    background: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
     color: var(--color__background);
     padding: .5em 0.8em;
     line-height: 1.5;
@@ -13,7 +13,7 @@
     text-decoration: none;
 
     &:visited {
-        background: var(--color__accent);
+        background: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
         color: var(--color__background);
     }
 

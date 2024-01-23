@@ -4,7 +4,7 @@
 
 .Breadcrumbs a:hover,
 .Breadcrumbs a:focus {
-    color: var(--color__accent);
+    color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
 }
 
 .Breadcrumbs ol {

@@ -7,6 +7,9 @@ tags:
     - fotografering
     - röttle
     - höst
+style:
+    hue: 130deg
+    hueSecondary: 100deg
 ---
 
 Röttle är alltid värt ett besök, särskilt på dagar med fint väder och efter rikligt med nederbörd för maximal kraft i forsen.

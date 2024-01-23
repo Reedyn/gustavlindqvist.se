@@ -5,12 +5,12 @@ em {
 .note {
     padding: var(--margin__medium);
     background: var(--color__background__alt);
-    color: var(--color__accent);
+    color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
 
     &:before {
         content: "!";
         display: inline-block;
-        background: var(--color__accent);
+        background: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
         width: 2em;
         height: 2em;
         text-align: center;

@@ -13,7 +13,7 @@ const collections = require('./.eleventy_config/collections');
 
 const CONTENT_GLOBS = {
     posts: 'src/posts/**/*.md|pages/**/*.md',
-    assets: '*.gpx|*.fit|*.pdf|*.csv'
+    assets: '*.gpx|*.fit|*.pdf|*.csv|*.svg'
 };
 
 module.exports = function (eleventyConfig) {
