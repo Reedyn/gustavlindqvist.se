@@ -11,24 +11,24 @@
     background-size: cover;
     color: white;
     font-family: var(--font__meta);
+    text-align: center;
 
     .read-more-text {
         margin-bottom: var(--margin__medium);
         font-size: 90%;
         font-weight: 600;
-        text-align: center;
         text-transform: uppercase;
     }
 
     .next-post__title {
         display: block;
         color: white;
-        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.22), 0 2px 2px rgba(0,0,0,0.20), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.10), 0 16px 16px rgba(0,0,0,0.05);
         font-size: var(--font__size__heading-1);
         font-family: var(--font__headings);
         font-weight: 900;
         letter-spacing: -.2rem;
-        line-height: 1.2;
+        line-height: 1.3;
+
         &:visited {
             color: white;
         }
@@ -48,7 +48,6 @@
         width: 100%;
         max-width: var(--max-width__content);
         padding: 0 var(--padding__medium);
-        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0,0,0,0.20), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.10), 0 16px 16px rgba(0,0,0,0.05);
     }
 
     .next-post__date {
@@ -76,7 +75,23 @@
         }
     }
 
+    &:not(.-feature-image) {
+        .next-post__title {
+            //noinspection CssInvalidPropertyValue
+            @supports ((background-clip: text) and (background: linear-gradient(120deg, black 0%, white 37.5%, black 100%))) {
+                background: linear-gradient(120deg, oklch(var(--color__lightness) var(--color__chroma) var(--color__hue)) 0%, oklch(var(--color__lightness-secondary) var(--color__chroma-secondary) var(--color__hue-secondary)) 37.5%, oklch(var(--color__lightness) var(--color__chroma) var(--color__hue)) 100%);
+                background-clip: text;
+                color: transparent;
+            }
+        }
+    }
+
     &.-feature-image {
+
+        .next-post__metadata {
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0,0,0,0.20), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.10), 0 16px 16px rgba(0,0,0,0.05);
+        }
+
         &--bottom {
             .next-post__image img {
                 object-position: bottom;

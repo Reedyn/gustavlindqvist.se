@@ -17,7 +17,7 @@
 
     &:hover, &:focus {
         color: var(--color__background);
-        background: var(--color__accent);
+        background: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
     }
 
     svg {

@@ -7,7 +7,7 @@ module.exports = {
         if (pack) {
             let outputString = `<section class="pack">`;
             pack.contents.forEach((category) => {
-                const color = (typeof category.color !== 'undefined' && category.color.length) ? category.color : '#808080';
+                const color = (typeof category.color !== 'undefined' && category.color.length) ? category.color : 'oklch(60% 0 0)';
                 outputString += `<details class="pack__category"><summary class="pack__category-summary">
                     <span class="pack__category-summary__left"><svg class="icon -large" role="presentation" style="color: ${color}" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/${category.icon}.svg#icon"></use></svg></span><span class="pack__category-summary__middle">${category.name}<span class="sr-only">:</span></span>
                     <span class="pack__category-summary__right" style="padding-right: 0.3rem">${prettyDigits(category.total_weight)}g</span>

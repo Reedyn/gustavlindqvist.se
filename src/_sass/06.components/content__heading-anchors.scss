@@ -1,22 +1,22 @@
 .content .header-anchor {
     position: absolute;
-    color: var(--color__accent);
+    color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
     transform: translateX(-0.65em);
     text-decoration: none;
     opacity: 0;
 
     &:visited {
-        color: var(--color__accent);
+        color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
     }
 
     &:focus,
     &:hover {
-        color: var(--color__accent);
+        color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
         background: none;
         text-decoration: underline;
 
         &:visited {
-            color: var(--color__accent);
+            color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
             background: none;
         }
     }

@@ -22,21 +22,21 @@
     }
 
     a {
-        color: var(--color__accent);
+        color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
         text-decoration: underline;
 
         &:visited {
-            color: var(--color__accent-secondary);
+            color: oklch(var(--color__lightness-secondary) var(--color__chroma-secondary) var(--color__hue-secondary));
         }
 
         &:hover,
         &:focus {
             text-decoration: none;
             color: var(--color__background);
-            background: var(--color__accent);
+            background: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
 
             &:visited {
-                background: var(--color__accent-secondary);
+                background: oklch(var(--color__lightness-secondary) var(--color__chroma-secondary) var(--color__hue-secondary));
             }
         }
     }
