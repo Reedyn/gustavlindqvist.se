@@ -194,7 +194,8 @@ module.exports = async () => {
     async function getActivities () {
         let asset = new AssetCache("strava_activities");
         try {
-            const activities = await stravaAPI.athlete.listActivities({'access_token': accessToken});
+            const activities = await stravaAPI.athlete.listActivities({'access_token': accessToken, 'per_page': 200});
+            await asset.save(activities, "json");
 
             activities.forEach((activity) => {
                 activity.start_date = new Date(activity.start_date);
@@ -218,7 +219,6 @@ module.exports = async () => {
             });
 
             console.log('[' + '\x1b[33m%s\x1b[0m', 'Strava' + '\x1b[0m' + ']:' , 'loaded', visibleActivities.length + ' activities');
-            await asset.save('strava_activities', "json");
             return visibleActivities
         } catch (err) {
             return asset.getCachedValue('strava_activities');
