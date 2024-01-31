@@ -74,7 +74,12 @@
         "title": "friluftsliv",
         "emoji": "\uD83C\uDFD5️",
         "feedTitle": "Gustavs friluftsblogg",
-        "type": "subject"
+        "type": "subject",
+        "style": {
+            "hue": "130deg",
+            "hueSecondary": "80deg",
+            "lightnessSecondary": "90%"
+        }
     },
     "gaming": {
         "title": "gaming",
@@ -154,7 +159,15 @@
         "date": "2014",
         "original_order": true,
         "description": "Min resa till Kina på våren 2014 och andra året av mina högskolestudier.",
-        "type": "trip"
+        "type": "trip",
+        "style": {
+            "hue": "40deg",
+            "hueSecondary": "40deg",
+            "chroma": ".3",
+            "chromaSecondary": ".15",
+            "lightness": "50%",
+            "lightnessSecondary": "40%"
+        }
     },
     "kullaberg": {
         "title": "Kullaberg",
@@ -239,7 +252,12 @@
     "segling": {
         "title": "segling",
         "emoji": "⛵",
-        "type": "subject"
+        "type": "subject",
+        "style": {
+            "hue": "220deg",
+            "hueSecondary": "250deg",
+            "chroma": ".15"
+        }
     },
     "shanghai": {
         "title": "Shanghai",
