@@ -17,14 +17,10 @@ Min utrustning för sommarbruk med en basvikt på {{ packstack.summer.base_weigh
 
 Beroende på vart vi ska vandra tillkommer även vandringsstavar på 600 gram och ibland en stol på 615 gram.
 
-## Nytt för 2023
+## Nytt för 2024
 
-* [x] [Nya tights med fickor](https://fusionworld.se/products/c3-long-tights) som är tänkta att ersätta friluftsbyxorna vid vandring i värme och där det inte är allt för mycket mygg.
-* [x] [Nya lättare skor som campingskor m.m.](https://gofreeconcepts.de/products/shamma-sandals-trailstars-alpha)
-* [x] Uppblåsbar kudde
-* [x] [Ny GPS-klocka](https://www.garmin.com/en-US/p/735626), min Forerunner 645 hade gett upp, batteriet klarade inte av mer än 1-2 timmar sen dog den, vilket inte fungerade så bra för vandring.
-* [x] [Nytt lite större stativ till systemkameran](https://www.astroshop.eu/made-of-carbon/cullmann-carbon-tripod-carvao-816tc/p,63530)
-* [x] [Nytt vattenfilter](https://www.naturkompaniet.se/grayl-vattenrening-ultrapress-purifier-covert-black-2127025), det jag hade tidigare är lite för stort för att smidigt gå ner i de flesta fickor för vattenflaskor.
+ - [ ] SOTO Windmaster
+ - [x] Toaks 750ml
 
 ## Kamerautrustning
 
