@@ -2,13 +2,14 @@
     --gutter: var(--margin__medium);
 
     display: grid;
-    margin-top: var(--margin__medium);
+    margin-top: 0;
     margin-bottom: var(--margin__medium);
     grid-auto-flow: dense;
     grid-gap: var(--gutter);
     grid-template-columns: 1fr;
 
     @include respond-to(small) {
+        margin-top: var(--margin__medium);
         grid-template-columns: 1fr 1fr;
     }
 
