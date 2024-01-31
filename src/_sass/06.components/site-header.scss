@@ -7,7 +7,7 @@
     z-index: 10;
     display: flex;
     max-width: var(--max-width__base);
-    flex-direction: column;
+    flex-direction: row;
     padding-right: var(--padding__medium);
     padding-left: var(--padding__medium);
     margin: auto;
@@ -15,12 +15,6 @@
     font-family: var(--font__meta);
     font-size: var(--font__size-base);
     line-height: var(--header__height);
-
-
-
-    @include respond-to(small) {
-        flex-direction: row;
-    }
 
     .site__title {
         font-size: 125%;
