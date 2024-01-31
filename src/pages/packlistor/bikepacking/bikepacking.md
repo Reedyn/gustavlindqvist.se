@@ -19,5 +19,4 @@ Min bikepacking-utrustning för sommaren 2023 med en basvikt på {{ packstack.bi
 
 Kitet kommer göras om i grunden på grund av byte av cykel med flera nya väskor m.m.
 
- - [ ] Ortlieb Quick Rack – Pakethållare bak som klarar 20kg
- - [ ] Sea to Summit Dry River 20L – Nya huvudväskan, ersätter både sadelväskan och styrväskan. Är tänkt att surras ovanpå pakethållaren bak.
+ {% pack packstack.bikepacking_2024 %}
