@@ -27,12 +27,13 @@
 /feed       /feed.xml
 /homebrew   /hembryggeri/
 /rss        /feed.xml
+/feeds        /floden/
 
 /content/images/josm-user-agent.png /assets/images/josm-user-agent.png
 
 # Synonyms
 
 /om     /om-mig/
-/nu     /om-mig/
-/now    /om-mig/
+/nu     /just-nu/
+/now    /just-nu/
 /about  /om-mig/
