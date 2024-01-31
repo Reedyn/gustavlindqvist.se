@@ -9,12 +9,15 @@
     grid-template-columns: 1fr;
 
     @include respond-to(small) {
-        margin-top: var(--margin__medium);
         grid-template-columns: 1fr 1fr;
     }
 
     @include respond-to(medium) {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @media (min-width: var(--max-width__base)) {
+        margin-top: var(--margin__medium);
     }
 
     &.-max-2-columns {
