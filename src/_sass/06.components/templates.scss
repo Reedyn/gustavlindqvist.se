@@ -21,4 +21,11 @@
         background: var(--color__background);
 
     }
+
+    .posts {
+        margin-top: 0;
+        @media (min-width: var(--max-width__base)) {
+            margin-top: var(--margin__medium);
+        }
+    }
 }
