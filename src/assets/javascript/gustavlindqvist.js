@@ -16,7 +16,7 @@ const gustavlindqvist = (() => {
                 let newString = dayjs().to(element.attributes.datetime.value);
 
                 const today = new Date();
-                const date = new Date();
+                const date = new Date(element.attributes.datetime.value);
 
                 // If date is today
                 if (date.getDate() === today.getDate() &&
