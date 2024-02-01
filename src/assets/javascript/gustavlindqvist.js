@@ -29,7 +29,7 @@ const gustavlindqvist = (() => {
                     }
                 }
 
-                if (typeof element.getAttribute('data-firstletterupper') !== 'undefined' && element.hasAttribute('data-firstletterupper')) {
+                if (element.hasAttribute('data-firstletterupper')) {
                     newString = newString.charAt(0).toUpperCase() + newString.slice(1)
                 }
 
