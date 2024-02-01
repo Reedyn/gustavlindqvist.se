@@ -15,9 +15,20 @@ const gustavlindqvist = (() => {
             if (typeof element.getAttribute('datetime') !== 'undefined') {
                 let newString = dayjs().to(element.attributes.datetime.value);
 
-                if (typeof element.getAttribute('prefix') === 'undefined') {
-                    newString = newString.replace('för ','');
+                const today = new Date();
+                const date = new Date();
+
+                // If date is today
+                if (date.getDate() === today.getDate() &&
+                    date.getMonth() === today.getMonth() &&
+                    date.getFullYear() === today.getFullYear()) {
+                    newString = 'idag';
+                } else {
+                    if (typeof element.getAttribute('prefix') === 'undefined') {
+                        newString = newString.replace('för ','');
+                    }
                 }
+
                 if (typeof element.getAttribute('data-firstletterupper') !== 'undefined' && element.getAttribute('data-firstletterupper')) {
                     newString = newString.charAt(0).toUpperCase() + newString.slice(1)
                 }
