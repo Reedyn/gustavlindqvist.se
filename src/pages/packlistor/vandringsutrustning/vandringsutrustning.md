@@ -27,7 +27,11 @@ Jag sålde mitt förra friluftskök bestående av Pocket Rocket 2 + Toaks 650, f
  * [ ] **SOTO Windmaster**
  * [x] **Toaks 750ml**
  * [ ] [**Stormtändare**](https://corax-store.se/sv/clawgear/clawgear-mkii-storm-pocket-lighter.html) — +21 gram jämfört med förra tändaren och borde underlätta en del att göra upp eld.
- * [ ] [**Flextail myggskydd**](https://www.flextail.com/products/light-repel?variant=43108221550839)
+
+ ### Skydd mot myggj@&vlarna
+
+ * [x] [**Flextail myggskydd**](https://www.flextail.com/products/light-repel?variant=43108221550839)
+
 
 ## Kamerautrustning
 
