@@ -5,3 +5,12 @@ Disallow: /onskelista
 Disallow: /spark
 Disallow: /cykling/planeringsverktyg
 Disallow: /mtb/planeringsverktyg
+
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: Google-Extended
+User-agent: FacebookBot
+User-agent: OmgiliBot
+User-agent: anthropic-ai
+User-agent: cohere-ai
+Disallow: /
