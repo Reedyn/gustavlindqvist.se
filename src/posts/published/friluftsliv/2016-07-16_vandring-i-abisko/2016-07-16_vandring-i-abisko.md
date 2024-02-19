@@ -13,8 +13,6 @@ tags:
 
 ---
 
-Detta är en händelse från 2016 som skrevs 2023{.note}
-
 Det är inte varje dag som en får möjlighet att besöka en av våra mest kända nationalparker: Abisko med starten på vår utan tvekan mest kända vandringsled: Kungsleden.{.lead}
 
 ![Flygfoto över Kiruna med gruvan i centrum](Gustav-Lindqvist_2016-07-25_0185.jpg "Kiruna och gruvan"){.-full}
