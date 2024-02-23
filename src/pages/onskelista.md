@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
 <p class="lead">Gustavs födelsedag är <time class="timeago" datetime="2025-02-01T00:00:00.000+01:00" title="2025-02-01">1 februari</time>.</p>
 <p class="lead">Det är julafton <time class="timeago" datetime="2024-12-24T00:00:00.000+01:00" title="2024-12-24">24 december</time>.</p>
 
-* [ ] [Knivslip](https://www.knivbutik.se/product/spyderco-sharpmaker/) (~1 100kr)
+* [x] [Knivslip](https://www.knivbutik.se/product/spyderco-sharpmaker/) (~1 100kr)
 * [x] [~~Korvsnittare~~](https://www.smartasaker.se/sv/korvsnittare) (~125kr)
 * [ ] [Opinel No2 Kolstål](https://scandinavianoutdoor.se/opinel/utrustning/knivar-och-verktyg/fasta-knivar-och-fallknivar/opinel-model-2/) (~100kr)
 * [ ] [Heat it – Myggbettsbehandling](https://www.apotekhjartat.se/produkt/heat-it-mot-insektsbett-android/) (~300kr)
