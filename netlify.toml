@@ -3,32 +3,3 @@ package = "netlify-plugin-cache"
 
   [plugins.inputs]
   paths = [ ".cache" ]
-
-[[headers]]
-  for = "*.js" # js files should be set this way
-  [headers.values]
-    Cache-Control = "public, max-age=604800"
-[[headers]]
-  for = "*.css" # css files too
-  [headers.values]
-    Cache-Control = "public, max-age=604800"
-[[headers]]
-  for = "*.jpg" # css files too
-  [headers.values]
-    Cache-Control = "public, max-age=604800"
-[[headers]]
-  for = "*.jpeg" # css files too
-  [headers.values]
-    Cache-Control = "public, max-age=604800"
-[[headers]]
-  for = "*.png" # css files too
-  [headers.values]
-    Cache-Control = "public, max-age=604800"
-[[headers]]
-  for = "*.gif" # css files too
-  [headers.values]
-    Cache-Control = "public, max-age=604800"
-[[headers]]
-  for = "*.svg" # css files too
-  [headers.values]
-    Cache-Control = "public, max-age=604800"
