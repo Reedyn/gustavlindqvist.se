@@ -18,9 +18,11 @@
 /bokmarken/			/lanktips/
 /lastips/			/linkblog/
 /lanktips/			/linkblog/
+/linklog/			/linkblog/
 /gustav-tipsar/		/linkblog/
 /gustav-tipsar.xml	/linkblog.xml
 /lanktips.xml		/linkblog.xml
+/linklog.xml		/linkblog.xml
 /friluftsliv/bikepacking/	/friluftsliv/packlistor/bikepacking/
 
 /2014/06/02/kinaresan-en-sammanfattning/	/kinaresan/
