@@ -1,40 +1,42 @@
 # Homebrewing shortcuts
 
-/~b  /hembryggeri/?utm_source=Beer%20Label&utm_medium=QR-code
-/~m  /hembryggeri/make-it-double/?utm_source=Beer%20Label&utm_medium=QR-code
-/~4  /hembryggeri/4944n-1322o/?utm_source=Beer%20Label&utm_medium=QR-code
-/~g  /hembryggeri/grona-angar/?utm_source=Beer%20Label&utm_medium=QR-code
-/~r  /hembryggeri/r45/?utm_source=Beer%20Label&utm_medium=QR-code
-/~v  /hembryggeri/vatterns-enkla/?utm_source=Beer%20Label&utm_medium=QR-code
-/~q  /hembryggeri/heliga-handgranaten/?utm_source=Beer%20Label&utm_medium=QR-code
-/~x  /hembryggeri/x/?utm_source=Beer%20Label&utm_medium=QR-code
+/~b	/hembryggeri/?utm_source=Beer%20Label&utm_medium=QR-code
+/~m	/hembryggeri/make-it-double/?utm_source=Beer%20Label&utm_medium=QR-code
+/~4	/hembryggeri/4944n-1322o/?utm_source=Beer%20Label&utm_medium=QR-code
+/~g	/hembryggeri/grona-angar/?utm_source=Beer%20Label&utm_medium=QR-code
+/~r	/hembryggeri/r45/?utm_source=Beer%20Label&utm_medium=QR-code
+/~v	/hembryggeri/vatterns-enkla/?utm_source=Beer%20Label&utm_medium=QR-code
+/~q	/hembryggeri/heliga-handgranaten/?utm_source=Beer%20Label&utm_medium=QR-code
+/~x	/hembryggeri/x/?utm_source=Beer%20Label&utm_medium=QR-code
 
 # Old URLs
 
 /2013/02/25/att-fotografera-stjarnor-pa-natten/ /2013/02/25/att-fotografera-stjarnor/
-/mtb /cykling/
-/mtb/feed.xml /cykling/feed.xml
-/hembryggeri/vatterns-guld/ /hembryggeri/vatterns-enkla/
-/bokmarken/ /lanktips/
-/lastips/ /lanktips/
-/gustav-tipsar/ /lanktips/
-/gustav-tipsar.xml /lanktips.xml
-/friluftsliv/bikepacking/ /friluftsliv/packlistor/bikepacking/
+/mtb				/cykling/
+/mtb/feed.xml		/cykling/feed.xml
+/hembryggeri/vatterns-guld/	/hembryggeri/vatterns-enkla/
+/bokmarken/			/lanktips/
+/lastips/			/linklog/
+/lanktips/			/linklog/
+/gustav-tipsar/		/linklog/
+/gustav-tipsar.xml	/linklog.xml
+/lanktips.xml		/linklog.xml
+/friluftsliv/bikepacking/	/friluftsliv/packlistor/bikepacking/
 
-/2014/06/02/kinaresan-en-sammanfattning/ /kinaresan/
+/2014/06/02/kinaresan-en-sammanfattning/	/kinaresan/
 
 # Other redirects
 
-/feed       /feed.xml
-/homebrew   /hembryggeri/
-/rss        /feed.xml
-/feeds        /floden/
+/feed		/feed.xml
+/homebrew	/hembryggeri/
+/rss		/feed.xml
+/feeds		/floden/
 
 /content/images/josm-user-agent.png /assets/images/josm-user-agent.png
 
 # Synonyms
 
-/om     /om-mig/
-/nu     /just-nu/
-/now    /just-nu/
-/about  /om-mig/
+/om		/om-mig/
+/nu		/just-nu/
+/now	/just-nu/
+/about	/om-mig/
