@@ -16,11 +16,11 @@
 /mtb/feed.xml		/cykling/feed.xml
 /hembryggeri/vatterns-guld/	/hembryggeri/vatterns-enkla/
 /bokmarken/			/lanktips/
-/lastips/			/linklog/
-/lanktips/			/linklog/
-/gustav-tipsar/		/linklog/
-/gustav-tipsar.xml	/linklog.xml
-/lanktips.xml		/linklog.xml
+/lastips/			/linkblog/
+/lanktips/			/linkblog/
+/gustav-tipsar/		/linkblog/
+/gustav-tipsar.xml	/linkblog.xml
+/lanktips.xml		/linkblog.xml
 /friluftsliv/bikepacking/	/friluftsliv/packlistor/bikepacking/
 
 /2014/06/02/kinaresan-en-sammanfattning/	/kinaresan/
