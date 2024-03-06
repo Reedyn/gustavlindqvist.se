@@ -218,8 +218,8 @@ module.exports = async () => {
             latestPostsForSeries[feedList.series] = await getLatestPostsForSeries(feedList.feeds);
         }
     }
-    const getRecommendations = async () => {
-        const feedURL = 'https://www.inoreader.com/stream/user/1005830534/tag/Good%20shit?n=500';
+    const getLinkBlog = async () => {
+        const feedURL = 'https://www.inoreader.com/stream/user/1005830534/tag/Linkblog?n=500';
 
         try {
             const rawFeed = await fetchWithTimeout(feedURL, {
@@ -236,7 +236,7 @@ module.exports = async () => {
 
             let feed = await xml_parser.parse(rawFeed).rss.channel.item;
 
-            console.log('[' + '\x1b[35m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Loaded', feed.length, 'posts from good-shit.');
+            console.log('[' + '\x1b[35m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Loaded', feed.length, 'posts from linkblog.');
 
             outputPosts = [];
             feed.forEach((post) => {
@@ -267,7 +267,7 @@ module.exports = async () => {
 
     inoreader.feeds = await getSourcesFromOPML();
     inoreader.latestPostsForSeries = latestPostsForSeries;
-    inoreader.recommendations = await getRecommendations();
+    inoreader.linkblog = await getLinkBlog();
 
     return inoreader;
 };
