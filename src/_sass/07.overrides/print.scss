@@ -1,6 +1,4 @@
 @media print {
-
-
     body {
         overflow-x: visible !important;
         overflow-y: visible !important;
@@ -122,14 +120,14 @@
     }
 
     // Style buttons with outline instead of background (to save ink)
-    a.Button {
+    a.button {
         border: 1px solid black !important;
         background: none !important;
         position: initial !important;
     }
 
     // Hide buttons that don't link anywhere
-    .Button:not(a) {
+    .button:not(a) {
         display: none !important;
     }
 
