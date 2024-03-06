@@ -17,20 +17,22 @@ Min utrustning för sommarbruk med en basvikt på {{ packstack.summer.base_weigh
 
 Beroende på vart vi ska vandra tillkommer även vandringsstavar på 600 gram och ibland en stol på 615 gram.
 
-## Nytt för 2024
+<p class="fleuron" aria-hidden="true">🙕</p>
 
+## Nytt för 2024
 
 ### Uppgradering av friluftskök
 
 Jag sålde mitt förra friluftskök bestående av Pocket Rocket 2 + Toaks 650, främst för att uppgradera brännaren. Kastrullen behövde dock bytas för att nya brännaren ska få plats i.
 
- * [ ] **SOTO Windmaster**
- * [x] **Toaks 750ml**
- * [ ] [**Stormtändare**](https://corax-store.se/sv/clawgear/clawgear-mkii-storm-pocket-lighter.html) — +21 gram jämfört med förra tändaren och borde underlätta en del att göra upp eld.
+ * [ ] [SOTO Windmaster](https://uthuset.nu/sv/artiklar/windmaster-with-4flex.html)
+ * [x] [Toaks Titanium 750ml](https://www.fjallsport.se/titanium-750-ml-pot.html)
+ * [x] [Windfeather](https://hfshop.se/ultralatt/windfeater)
+ * [x] [Stormtändare](https://corax-store.se/sv/clawgear/clawgear-mkii-storm-pocket-lighter.html) — +21 gram jämfört med förra tändaren och borde underlätta en del att göra upp eld.
 
- ### Skydd mot myggj@&vlarna
+ ### Skydd mot myggj██larna
 
- * [x] [**Flextail myggskydd**](https://www.flextail.com/products/light-repel?variant=43108221550839)
+ * [x] [Flextail myggskydd](https://www.flextail.com/products/light-repel?variant=43108221550839)
 
 
 ## Kamerautrustning

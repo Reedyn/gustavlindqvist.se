@@ -14,7 +14,7 @@ feedsToShow:
     - resor
 permalink: "/floden/index.html"
 ---
-<p>Följ <svg class="icon icon--feed" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/rss.svg#rss"></use></svg> <a href="/feed.xml">bloggens primära flöde</a> eller något av alla flöden för specifika ämnen:</p>
+<p>Följ <svg class="icon icon--feed" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/rss.svg#rss"></use></svg> <a href="/feed.xml">bloggens primära flöde</a> eller något av alla flöden för specifika ämnen:</p>
 <ul class="-no-style">
     {%- for feed in feedsToShow -%}
         {% set tagData = tagMetadata[feed] %}
@@ -22,6 +22,7 @@ permalink: "/floden/index.html"
         <li><svg class="icon icon--feed" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/rss.svg#rss"></use></svg> <a href="/{{ feed | slug }}/feed.xml">Flöde för {{ title or feed }}</a></li>
     {%- endfor %}
 </ul>
+<p>Jag dela samla länkar till allt intressant jag surfar in på på webben och samlar det i min <svg class="icon icon--feed" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/rss.svg#rss"></use></svg> <a href="/linkblog.xml">länkblogg</a>.</p>
 <h2>Andra flöden</h2>
 <ul class="-no-style">
     <li><svg class="icon icon--feed" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/rss.svg#rss"></use></svg> <a href="https://www.openstreetmap.org/user/reedyn/history/feed">Flöde för mina redigeringar på OpenStreetMap</a></li>

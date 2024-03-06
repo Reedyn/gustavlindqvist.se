@@ -1,11 +1,11 @@
 ---
-title: "Gustavs länktips"
+title: "Gustavs länkblogg"
 layout: base.njk
 templateClass: post-template
 type: page
-description: "Artiklar, böcker, filmer och annat som jag tycker är extra bra, intressant eller kul; i ordningen som <em>jag</em> läste/upptäckte dem (senast överst)."
-permalink: /lanktips/
-feed: /lanktips.xml
+description: "En samling länkar till allt intressant jag surfat in på, på webben."
+permalink: /linkblog/
+feed: /linkblog.xml
 eleventyComputed:
     meta:
         author:
@@ -17,12 +17,12 @@ eleventyComputed:
     <header id="page-header" class="page-header">
         <div class="page-metadata">
             <h1 class="page-title">{{ title }}</h1>
-            <p><svg class="icon icon--feed" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/rss.svg#rss"></use></svg> <a href="/lanktips.xml">Flöde för tips</a></p>
+            <p><svg class="icon icon--feed" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/rss.svg#rss"></use></svg> <a href="/linkblog.xml">Flöde för länkbloggen</a></p>
             <p class="description">{{ description | renderUsingMarkdown | safe }}</p>
         </div>
     </header>
     <section aria-label="Lista över innehåll" class="page-content wrapper Cards" id="page-content">
-            {% for post in inoreader.recommendations %}
+            {% for post in inoreader.linkblog %}
             {%- set computedDate = post.date | dateFromString -%}
             <article aria-labelledby="{{ post.url | hashString }}" class="Card bookmark -align-bottom{% if post.feature_image %} -feature-image{% endif %}" style="{% if post.feature_image %} background-image: url({{ post.feature_image }});{% endif %}">
                 {% if (post.tags.length) %}<span class="Card__content__extra -top-left">
