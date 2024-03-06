@@ -9,9 +9,9 @@
     <subtitle>Artiklar, böcker, filmer och annat som jag tycker är extra bra, intressant eller kul; i ordningen som jag läste/upptäckte dem (senast överst).</subtitle>
     <link href="{{ metadata.url }}/linkblog.xml" rel="self"/>
     <link href="{{ metadata.url }}/linkblog/"/>
-    <updated>{{ inoreader.goodShit[0].date }}</updated>
+    <updated>{{ inoreader.linkblog[0].date }}</updated>
     <id>{{ metadata.url }}/linkblog.xml</id>
-    {%- for post in inoreader.recommendations -%}
+    {%- for post in inoreader.linkblog -%}
     <entry>
         <title>{{ post.title }}</title>
         <link href="{{ post.url }}"/>

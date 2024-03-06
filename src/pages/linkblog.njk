@@ -22,7 +22,7 @@ eleventyComputed:
         </div>
     </header>
     <section aria-label="Lista över innehåll" class="page-content wrapper Cards" id="page-content">
-            {% for post in inoreader.recommendations %}
+            {% for post in inoreader.linkblog %}
             {%- set computedDate = post.date | dateFromString -%}
             <article aria-labelledby="{{ post.url | hashString }}" class="Card bookmark -align-bottom{% if post.feature_image %} -feature-image{% endif %}" style="{% if post.feature_image %} background-image: url({{ post.feature_image }});{% endif %}">
                 {% if (post.tags.length) %}<span class="Card__content__extra -top-left">
