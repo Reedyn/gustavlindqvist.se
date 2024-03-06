@@ -17,6 +17,8 @@ Min utrustning för sommarbruk med en basvikt på {{ packstack.summer.base_weigh
 
 Beroende på vart vi ska vandra tillkommer även vandringsstavar på 600 gram och ibland en stol på 615 gram.
 
+<p class="fleuron" aria-hidden="true">🙕</p>
+
 ## Nytt för 2024
 
 ### Uppgradering av friluftskök
