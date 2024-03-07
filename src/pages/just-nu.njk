@@ -33,10 +33,10 @@ eleventyComputed:
                     <a id="{{ activity.id }}" class="" href="https://www.strava.com/activities/{{ activity.id }}">{{ activity.name }}</a>
                     <p class="activity-metadata" data-polyline="{{ activity.map.summary_polyline }}" data-latitude="{{ activity.start_latlng[0] }}" data-longitude="{{ activity.start_latlng[1] }}">
                         <time class="timeago" data-firstletterupper="true" datetime="{{ activity.start_date | fullISODate }}" title="{{ activity.start_date | longISODate }}">{{ activity.start_date | readableDate }}</time>
-                        {% if activity.distance_km %} · <span class="activity-distance">{{ activity.distance_km }}km</span>{% endif %}
+                        {% if activity.distance_km %} · <span class="activity-distance">{{ activity.distance_km | dotToComma }}km</span>{% endif %}
                         {% if activity.total_elevation_gain and activity.total_elevation_gain > 200 %} · <span class="activity-elevation_gain">{{ activity.total_elevation_gain }}m↥</span>{% endif %}
                         {% if activity.type === 'Run' and activity.pace %} · <span class="activity-pace">{{ activity.pace }}min/km</span>{% endif %}
-                        {% if activity.average_speed_km and (activity.type === 'Ride' or activity.type === 'Walk' ) %} · <span class="activity-average_speed">{{ activity.average_speed_km }}km/h</span>{% endif %}
+                        {% if activity.average_speed_km and (activity.type === 'Ride' or activity.type === 'Walk' ) %} · <span class="activity-average_speed">{{ activity.average_speed_km | dotToComma }}km/h</span>{% endif %}
                     </p>
                 </div>
                 </li>{% endif %}{% endfor %}
