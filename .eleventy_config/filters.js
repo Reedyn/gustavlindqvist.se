@@ -63,8 +63,8 @@ module.exports = {
     volumeToBottles: (volume) => {
         return Math.round(volume * 3);
     },
-    dotToComma: (string) => {
-        return string.replace('\.', ',');
+    dotToComma: (inputString) => {
+        return inputString.replace('\.', ',');
     },
     head: (array, n) => {
         if (!Array.isArray(array) || array.length === 0) {
