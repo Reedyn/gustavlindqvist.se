@@ -64,7 +64,7 @@ module.exports = {
         return Math.round(volume * 3);
     },
     dotToComma: (inputString) => {
-        return inputString.replace('\.', ',');
+        return inputString.toString().replace('\.', ',');
     },
     head: (array, n) => {
         if (!Array.isArray(array) || array.length === 0) {
