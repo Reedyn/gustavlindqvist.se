@@ -1,7 +1,7 @@
 ---
 title: "Vi ska inte lyssna på deras politik, men på deras väljare"
 description: ""
-date: 2014-09-15
+publishedDate: "2014-09-15"
 tags: politik
 ---
 

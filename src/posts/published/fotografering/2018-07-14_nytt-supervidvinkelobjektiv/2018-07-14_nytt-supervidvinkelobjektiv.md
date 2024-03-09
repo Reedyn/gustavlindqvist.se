@@ -2,9 +2,9 @@
 title: "Laowa 7.5mm f/2 MFT"
 feature_image: Gustav-Lindqvist_2018-07-14_0177.jpg
 description: "En av de största uppoffringarna jag gjorde när jag gick från mitt Canon 450D system till min spegellösa Olympus OM-D E-M5 var mitt Tokina…"
-date: 2018-07-14
+publishedDate: "2018-07-14"
 tags: ['fotografering']
-permalink: "/{{ page.date | dateFolder}}/nytt-supervidvinkelobjektiv/index.html"  
+permalink: "/{{ publishedDate | dateFolder}}/nytt-supervidvinkelobjektiv/index.html"
 
 ---
 

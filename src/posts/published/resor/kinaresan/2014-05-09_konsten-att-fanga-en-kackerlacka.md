@@ -1,7 +1,7 @@
 ---
 title: "Konsten att fånga en kackerlacka"
 description: "Om 10 timmar lämnar vi Beijing mot Hong Kong och varmare klimat."
-date: 2014-05-09
+publishedDate: "2014-05-09"
 tags:
     - resor
     - kinaresan

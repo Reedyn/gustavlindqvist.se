@@ -1,6 +1,7 @@
 ---
 title: "Bortom upptrampade stigar"
 feature_image: Gustav-Lindqvist_2019-01-05_50219.jpg
+publishedDate: "2021-12-14"
 description: "När var senaste gången som du tappade bort dig i ett nät av intressanta länkar på webben?"
 tags:
   - internet

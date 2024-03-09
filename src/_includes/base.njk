@@ -50,6 +50,9 @@ eleventyComputed:
     <meta property="og:image" content="{{ meta.image.src }}">
     <meta property="og:type" content="{% if type === 'post' %}article{% else %}website{% endif %}">
 
+    <meta name="published-date" content="{% if publishedDate %}{{ publishedDate | fullISODate }}{% endif %}">
+    <meta name="modified-date" content="{% if page.date %}{{ page.date | fullISODate }}{% endif %}">
+
     {% include 'partials/identities.njk' %}
 
     {% include 'partials/feeds.njk' %}

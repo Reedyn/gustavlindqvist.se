@@ -3,7 +3,7 @@ title: "Vårkänslor och vitsippor på Vista"
 description: "När gruset sopas undan, sommardäcken åker på och vitsipporna slår ut så vet man att det är vår på riktigt."
 feature_image: "GOPR1260_1682251847721.jpg"
 mastodon_id: "110249028591475924"
-date: 2023-04-23T18:09:27+0200
+publishedDate: 2023-04-23T18:09:27+0200
 tags:
     - cykling
     - vår

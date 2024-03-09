@@ -3,7 +3,7 @@ title: "Sensommartur på John Bauerleden"
 description: "Jag började turen från busshållplatsen Kullen i Skärstad, därifrån gick jag mellan åkrarna upp mot skogen och John Bauerleden."
 feature_image: "original_43ec3823-0501-425d-98f9-f6af13330d59_20230917_173131_3000w.jpg"
 feature_image_position: "bottom"
-date: 2023-09-26T18:04:49+0200
+publishedDate: 2023-09-26T18:04:49+0200
 tags:
     - friluftsliv
     - john-bauerleden

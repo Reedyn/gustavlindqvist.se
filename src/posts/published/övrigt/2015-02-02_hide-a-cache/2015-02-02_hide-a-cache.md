@@ -2,7 +2,7 @@
 title: "Hide a Cache"
 feature_image: Gustav-Lindqvist_2015-01-31_0037_m.jpg
 description: "Under helgen slängde jag och min pappa ihop en geocache. Vi tog en stock, sågade av ena halvan (som blev ett lock) och borrade ett hål för…"
-date: 2015-02-02
+publishedDate: "2015-02-02"
 tags:
     - geocaching
     - vinter

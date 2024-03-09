@@ -2,7 +2,7 @@
 title: "Moon Lake Park"
 feature_image: _OLY0257_L.jpg
 description: "En kort taxiresa från campus i Ningbo ligger 月湖, eller Moon Lake Park som det också heter."
-date: 2014-05-01
+publishedDate: "2014-05-01"
 tags:
     - resor
     - kinaresan

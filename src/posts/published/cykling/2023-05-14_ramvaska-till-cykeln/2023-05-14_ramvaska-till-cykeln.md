@@ -3,7 +3,7 @@ title: "Ramväska till cykeln"
 description: ""
 feature_image: "Gustav-Lindqvist_2023-05-14_08527-HDR.jpg"
 mastodon_id: "110367005699444129"
-date: 2023-05-14T14:09:28+0200
+publishedDate: 2023-05-14T14:09:28+0200
 tags:
     - diy
     - cykling

@@ -6,8 +6,6 @@ eleventyComputed:
     meta:
         author:
             name: "{{ metadata.author.name }}"
-    published: "{{ date | isoString }}"
-    modified: "{% if updateDate %}{{ updateDate | isoString }}{% endif %}"
 ---
 {%- set canonicalURL = metadata.url + page.url -%}
 {% if feature_image %}
@@ -21,7 +19,7 @@ eleventyComputed:
         {{ optimizedFeatureImage | safe }}
         <div class="post-metadata">
             <h1 class="post-title" style="view-transition-name: post-title-{{ page.url | hashString}}">{{ title }}</h1>
-            {% if page.date %}<p class="post-date"><time datetime="{{ page.date | fullISODate }}" title="{{ page.date | longISODate }}">{{ page.date | readableLongDate }}</time></p>{% endif %}
+            {% if publishedDate %}<p class="post-date"><time datetime="{{ publishedDate | fullISODate }}" title="{{ publishedDate | longISODate }}">{{ publishedDate | readableLongDate }}</time></p>{% endif %}
             {% if tags %} <p class="tags"><span class="sr-only">Ämnen: </span>
                 {%- for tag in tags -%}{% if (tag !== 'posts') and (tag !== 'page') %}{% set tagData = tagMetadata[tag] %}<span class="tag"><a href="/{{ tag | slug}}/">{% if tagData.emoji %}{{ tagData.emoji }} {% endif %}{% if tagData.title %}{{ tagData.title | firstLetterUppercase }}{% else %}{{ tag | firstLetterUppercase }}{% endif %}</a><span class="sr-only">, </span></span>{% endif %}{%- endfor -%}
             </p>{% endif %}

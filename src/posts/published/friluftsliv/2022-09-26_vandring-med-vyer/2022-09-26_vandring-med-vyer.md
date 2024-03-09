@@ -4,7 +4,7 @@ description: "Det finns många fina vandringsleder runt Jönköping, men det fin
 feature_image: "Gustav-Lindqvist_2022-09-25_06715-Pano.jpg"
 feature_image_position: right
 series: "friluftsliv"
-date: 2022-09-26 10:37:00 +2
+publishedDate: 2022-09-26 10:37:00 +2
 tags:
   - friluftsliv
   - södra-vätterleden

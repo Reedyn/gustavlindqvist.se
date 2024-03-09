@@ -2,7 +2,7 @@
 title: "Un giorno a Venezia"
 feature_image: Gustav-Lindqvist_2019-07-17_06652-1.jpg
 description: "Hettan i Venedig slog direkt mot en och i de trånga gränderna stannade all värme kvar i luften."
-date: 2019-07-18
+publishedDate: "2019-07-18"
 tags:
     - resor
     - tågluffen

@@ -1,7 +1,7 @@
 ---
 title: "Distraherande teknik"
 description: "Design är till att lösa problem och tjänster/produkter är till för att användas. Det skapas nya tjänster och produkter varje dag som alla…"
-date: 2014-10-29
+publishedDate: "2014-10-29"
 tags:
     - design
 

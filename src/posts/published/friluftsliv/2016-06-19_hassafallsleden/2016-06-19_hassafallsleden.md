@@ -2,7 +2,7 @@
 title: "Hassafallsleden"
 feature_image: Gustav-Lindqvist_2016-06-19_0180-1.jpg
 description: "Det fina vädret till ära tog jag och Marcus en runda på Hassafallsleden och som vanligt blev det ingen besvikelse :)"
-date: 2016-06-19
+publishedDate: "2016-06-19"
 tags: ['friluftsliv', 'hassafallsleden', 'sommar']
 
 ---

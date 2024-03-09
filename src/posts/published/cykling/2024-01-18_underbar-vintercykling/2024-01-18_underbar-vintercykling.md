@@ -2,7 +2,7 @@
 title: "Underbar vintercykling"
 description: "Tyvärr har jag inte kommit ut med nya cykeln på ett tag på grund av vädret, planen är inte att sätta på vinterdäck på den utan den får vara en tresäsongscykel. Stigcykeln däremot fick på sig mina två och ett halv kilos dubbdäck har är fullt redo för alla äventyr."
 feature_image: "20240117_191653.heic_3000w.jpg"
-date: 2024-01-18T21:42:02+0100
+publishedDate: 2024-01-18T21:42:02+0100
 tags:
     - cykling
     - vinter

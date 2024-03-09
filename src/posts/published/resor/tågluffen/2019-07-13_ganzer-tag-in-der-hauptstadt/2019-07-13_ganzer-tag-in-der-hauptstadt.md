@@ -2,7 +2,7 @@
 title: "Ganzer Tag in der Hauptstadt"
 feature_image: Gustav-Lindqvist_2019-07-13_06333.jpg
 description: "Andra dagen i Berlin började med en trevlig frukost på hotellet och sen en promenad bort till DDR-museet som låg precis intill Berliner Dom."
-date: 2019-07-13
+publishedDate: "2019-07-13"
 tags:
     - resor
     - tågluffen
