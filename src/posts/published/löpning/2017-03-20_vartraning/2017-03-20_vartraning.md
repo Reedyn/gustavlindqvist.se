@@ -1,7 +1,7 @@
 ---
 title: "Vårträning"
 description: "Det är något speciellt med sol och träningslust. Jag har inte haft lust att springa på månader i vintermörkret utan varje gång jag skulle…"
-publishedDate: "2017-03-20"
+date: 2017-03-20
 tags:
     - löpning
     - vår

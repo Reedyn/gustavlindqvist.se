@@ -18,7 +18,7 @@ templateClass: home-template
     <article aria-labelledby="{{ post.url | hashString}}" class="Card post -align-bottom{% if optimizedFeatureImage %} -feature-image{% endif %}{% if post.data.feature_image_position %} -feature-image--{{ post.data.feature_image_position }}{% endif %}">
         <div class="Card__content">
             <h3 class="Card__title" style="view-transition-name: post-title-{{ post.url | hashString}}"><a id="{{ post.url | hashString}}" class="Card__title-link" href="{{ post.url }}">{{ post.data.title }}</a></h3>
-            {% if post.data.publishedDate %}<p class="Card__metadata"><time data-firstletterupper class="timeago" datetime="{{ post.data.publishedDate | fullISODate }}" title="{{ post.data.publishedDate | longISODate }}">{{ post.data.publishedDate | readableLongDate }}</time></p>{% endif %}
+            {% if post.data.page.date %}<p class="Card__metadata"><time data-firstletterupper class="timeago" datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | longISODate }}">{{ post.data.page.date | readableLongDate }}</time></p>{% endif %}
         </div>
         {% if (post.data.tags.length) %}<span class="Card__content__extra -top-left">
             {% if (post.data.tags) %}<span class="tags" aria-label="Taggar:">

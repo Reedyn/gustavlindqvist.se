@@ -2,7 +2,7 @@
 title: "Zhejiang Wanli University"
 feature_image: 13980846711_bbef934826_h.jpg
 description: "Efter regn kommer solsken sägs det och det är samma sak i Kina. Det har regnat i några dagar nu och först idag blev det fint."
-publishedDate: "2014-04-22"
+date: 2014-04-22
 tags:
     - resor
     - kinaresan

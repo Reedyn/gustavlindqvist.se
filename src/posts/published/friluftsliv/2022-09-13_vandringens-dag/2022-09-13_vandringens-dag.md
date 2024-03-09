@@ -3,7 +3,7 @@ title: "Vandringens dag"
 description: "I lördags var det vandringens dag och vi tog en tur bort till Röttle och Västanåleden."
 feature_image: "Gustav-Lindqvist_2022-09-10_05952_Landscape.jpg"
 series: "friluftsliv"
-publishedDate: 2022-09-14 17:48:00 +2
+date: 2022-09-14 17:48:00 +2
 tags:
   - friluftsliv
   - röttle

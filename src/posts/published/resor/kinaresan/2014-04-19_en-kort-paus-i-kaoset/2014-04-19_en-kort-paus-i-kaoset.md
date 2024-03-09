@@ -1,7 +1,7 @@
 ---
 title: "En kort paus i kaoset"
 description: "Nu har vi bott i några dagar i Ningbo och det känns faktiskt som att man har landat nu. Maten känns inte ovanligt, man har vant sig vid…"
-publishedDate: "2014-04-19"
+date: 2014-04-19
 tags:
     - resor
     - kinaresan

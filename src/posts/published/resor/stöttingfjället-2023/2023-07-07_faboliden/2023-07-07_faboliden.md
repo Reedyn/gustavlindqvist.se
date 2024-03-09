@@ -3,7 +3,7 @@ title: "Fäboliden"
 description: "Under hela veckan vi var på Stöttingfjället var Fäboliden vår hemmabas. Det är en liten by utanför Lycksele med färre året-runtboende än jag har fingrar på en hand."
 feature_image: "Gustav-Lindqvist_2023-07-06_00323-Pano_16-9.jpg"
 mastodon_id: "110686248063302537"
-publishedDate: 2023-07-07T18:16:04+0200
+date: 2023-07-07T18:16:04+0200
 sortDate: 2023-07-08T19:00:00+0200
 tags:
     - fotografering

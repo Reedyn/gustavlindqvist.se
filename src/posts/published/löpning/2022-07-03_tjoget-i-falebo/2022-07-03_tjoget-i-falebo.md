@@ -1,7 +1,7 @@
 ---
 title: "Tjoget 2022 i Falebo, Emmaboda"
 feature_image: "Gustav-Lindqvist_2022-07-02_05020.jpg"
-publishedDate: 2022-07-03 21:30:00 +2
+date: 2022-07-03 21:30:00 +2
 description: "Jag sprang sträcka 17 på Tjoget i Falebo med IF Hallby SOK."
 series: löpning
 tags:

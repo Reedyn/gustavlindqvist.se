@@ -1,7 +1,7 @@
 ---
 title: "Cykeltur med övernattning i Gränna"
 description: "Av någon anledning fick vi för oss att cykla till Gränna och sova i tält. Vi var båda sugna på att besöka Tegnértornet som skulle ha fantastisk utsikt åt alla håll…"
-publishedDate: 2015-07-11T16:48:23+0200
+date: 2015-07-11T16:48:23+0200
 sortDate: 2023-03-19T14:40:04+0200
 feature_image: Gustav-Lindqvist_2015-07-10_0051_O.jpg
 tags:

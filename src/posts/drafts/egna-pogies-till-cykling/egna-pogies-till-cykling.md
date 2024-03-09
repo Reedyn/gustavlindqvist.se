@@ -2,7 +2,7 @@
 title: "Egna pogies till cykling"
 description: ""
 feature_image: ""
-publishedDate: 2038-01-19T03:14:07+0000
+date: 2038-01-19T03:14:07+0000
 tags:
 	- myog
     - cykling

@@ -2,9 +2,9 @@
 title: "Vandring längs Södra Vätterleden (Bottnaryd → Mullsjö)"
 feature_image: 20200522_112634-1.jpg
 description: "Precis som alla andra svenskar bestämde vi oss för att vandra lite i närområdet under pandemin."
-publishedDate: "2020-06-01"
+date: 2020-06-01
 tags: ['friluftsliv', 'södra-vätterleden', 'sommar']
-permalink: "/{{ publishedDate | dateFolder}}/sodra-vatterleden-bottnaryd-mullsjo/index.html"
+permalink: "/{{ page.date | dateFolder}}/sodra-vatterleden-bottnaryd-mullsjo/index.html"
 
 ---
 

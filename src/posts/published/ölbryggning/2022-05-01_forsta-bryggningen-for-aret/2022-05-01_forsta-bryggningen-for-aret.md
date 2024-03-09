@@ -1,8 +1,7 @@
 ---
 title: "Första bryggningen för året"
 feature_image: "Gustav-Lindqvist_2022-05-01_04741.jpg"
-publishedDate: 2022-05-01 15:00:00 +2
-date: "Last Modified"
+date: 2022-05-01 15:00:00 +2
 description: "Idag var det dags för årets första bryggning och även premiären för det nya bryggverket."
 series: ölbryggning
 tags:

@@ -2,7 +2,7 @@
 title: "The Great Wall of China"
 feature_image: 14516284473_f764196022_o.jpg
 description: "Idag har vi varit och besökt den kinesiska muren, vi hade bokat en privat tour som vi tog till ett av de mindre populära men ansett av de…"
-publishedDate: "2014-05-08"
+date: 2014-05-08
 tags:
     - resor
     - kinaresan

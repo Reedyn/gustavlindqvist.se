@@ -12,7 +12,6 @@ const time = require('./filters/time');
 module.exports = {
     log: (object) => {
         console.log(object);
-        return object;
     },
     groupByYear: (collection) => {
         return _.chain(collection)
