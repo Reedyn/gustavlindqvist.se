@@ -2,7 +2,7 @@
 title: "Deux jours dans la capitale"
 feature_image: Gustav-Lindqvist_2019-07-22_07089.jpg
 description: "Tågresan från Nice var något som jag sett fram emot sedan vi började planera tågluffen eftersom vi skulle åka med TGV, detta av några…"
-date: 2019-07-23
+publishedDate: "2019-07-23"
 tags:
     - resor
     - tågluffen

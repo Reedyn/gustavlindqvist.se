@@ -2,7 +2,7 @@
 title: "Nattsegling mot Kåseberga"
 feature_image: Gustav-Lindqvist_2018-07-23_0511.jpg
 description: "Resan ner blev lugn utan vare sig vågor eller vind. Enda seglet som var hissat var järngenoan (motorn)."
-date: 2018-08-06
+publishedDate: "2018-08-06"
 tags:
     - segling
     - kåseberga

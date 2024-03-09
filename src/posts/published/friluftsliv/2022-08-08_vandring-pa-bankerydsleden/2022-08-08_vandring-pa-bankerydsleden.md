@@ -3,7 +3,7 @@ title: "Vandring på Bankerydsleden"
 description: "Vi vandrade Bankerydsleden över två dagar där vi gick större delen av leden första dagen och övernattade vid vindskyddet på Högamon för att sen gå de sista 5 kilometrarna andra dagen och ta bussen hem tidigt på morgonen."
 feature_image: "Gustav-Lindqvist_2022-08-02_05735.jpg"
 series: "friluftsliv"
-date: 2022-08-02 14:42:00 +2
+publishedDate: 2022-08-02 14:42:00 +2
 tags:
   - friluftsliv
   - bankerydsleden

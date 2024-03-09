@@ -3,7 +3,7 @@ title: "Mårdselforsen"
 description: "Om man är i närheten av Mårdselforsen så är ett besök obligatoriskt, så även denna resa. Eftersom vädret såg ut att bli regnigt resten av veckan bestämde vi oss för Mårdselforsen först."
 feature_image: "Gustav-Lindqvist_2023-07-03_09941-Pano_16-9.jpg"
 mastodon_id: "110686238189137691"
-date: 2023-07-03T18:16:04+0200
+publishedDate: 2023-07-03T18:16:04+0200
 tags:
     - friluftsliv
     - stöttingfjället-2023

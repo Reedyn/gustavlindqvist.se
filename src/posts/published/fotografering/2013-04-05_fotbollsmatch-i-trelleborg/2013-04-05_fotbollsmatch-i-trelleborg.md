@@ -2,9 +2,9 @@
 title: "Fotbollsmatch i Trelleborg"
 feature_image: 9503333163_94b671f8df_o.jpg
 description: "Egentligen är jag inte speciellt intresserad av fotboll och egentligen inte att titta på sport i allmänhet (segling är ett undantag). Men…"
-date: 2013-04-05
+publishedDate: "2013-04-05"
 tags: ['fotografering', 'trelleborg']
-permalink: "/{{ page.date | dateFolder}}/fotbollsmatch-i-trelleborg/index.html"  
+permalink: "/{{ publishedDate | dateFolder}}/fotbollsmatch-i-trelleborg/index.html"
 ---
 
 Egentligen är jag inte speciellt intresserad av fotboll och egentligen inte att titta på sport i allmänhet (segling är ett undantag). Men när jag fick chansen att testa mitt 70-200mm på en fotbollsmatch där min kusin spelade och min morbror var tränare kunde jag inte låta bli =)

@@ -2,6 +2,7 @@
 title: "Två dagar på sydkusten"
 feature_image: "Gustav-Lindqvist_2021-12-26_03968-Pano.jpg"
 description: "När det är omväxlande väder är det ofta intressant att vara ute och fotografera, samma plats kan skifta utseende fullständigt."
+publishedDate: "2021-12-29"
 twitterId: 1476151527475761155
 series: fotografering
 tags:

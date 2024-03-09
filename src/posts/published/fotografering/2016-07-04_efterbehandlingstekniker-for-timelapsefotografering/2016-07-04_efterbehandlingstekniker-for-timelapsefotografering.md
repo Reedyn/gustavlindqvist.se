@@ -2,9 +2,9 @@
 title: "Efterbehandlings­tekniker för timelapse­fotografering"
 feature_image: lrtimelapse.jpg
 description: "Det som anses av de flesta inom timelapsefotografering som är bland det svåraste att få till och häftigast resultat är s.k. “Holy Grail”…"
-date: 2016-07-04
+publishedDate: "2016-07-04"
 tags: ['fotografering']
-permalink: "/{{ page.date | dateFolder}}/efterbehandlingstekniker-for-timelapsefotografering/index.html"
+permalink: "/{{ publishedDate | dateFolder}}/efterbehandlingstekniker-for-timelapsefotografering/index.html"
 ---
 
 Det som anses av de flesta inom timelapsefotografering som är bland det svåraste att få till och häftigast resultat är s.k. "Holy Grail" vilket kort och enkelt är fotografering (filming?) av dag-till-natt samt natt-till-dag övergångar.

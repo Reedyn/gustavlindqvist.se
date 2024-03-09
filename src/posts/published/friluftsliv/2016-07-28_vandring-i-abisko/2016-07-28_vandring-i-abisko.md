@@ -2,7 +2,7 @@
 title: "Vandring i Abisko"
 description: "Det är inte varje dag som en får möjlighet att besöka en av våra mest kända nationalparker: Abisko med starten på vår utan tvekan mest kända vandringsled: Kungsleden."
 feature_image: "Gustav-Lindqvist_2016-07-26_0300-Pano.jpg"
-date: 2016-07-28T16:32:04+0200
+publishedDate: 2016-07-28T16:32:04+0200
 sortDate: 2023-04-06T16:32:04+0200
 mastodon_id: "110153096619496650"
 tags:

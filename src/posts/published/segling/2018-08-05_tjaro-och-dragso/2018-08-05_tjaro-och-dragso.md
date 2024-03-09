@@ -2,7 +2,7 @@
 title: Tjärö och Dragsö
 feature_image: "Gustav-Lindqvist_2018-07-20_0001-4-Pano.jpg"
 description: Tjärö har förändrats rejält genom åren efter att de gjort ett flertal ägarbyten. När jag växte upp besökte vi ofta Tjärö och då var det…
-date: 2018-08-05T12:45:46+01:00
+publishedDate: 2018-08-05T12:45:46+01:00
 tags:
     - segling
     - friluftsliv

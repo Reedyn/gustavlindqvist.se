@@ -1,7 +1,7 @@
 ---
 title: "Det är rätt tid att bli en JavaScript-ninja"
 description: "Idag är det en kul dag för alla utvecklare i JavaScript. Google gick nämligen ut och med att de utvecklar sin egen plattform för att köra…"
-date: 2014-01-29
+publishedDate: "2014-01-29"
 tags: webdev
 ---
 

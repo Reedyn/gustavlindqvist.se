@@ -2,7 +2,7 @@
 title: "Gegen Deutschland"
 feature_image: Gustav-Lindqvist_2019-07-12_06246.jpg
 description: "So it begins..."
-date: 2019-07-11T12:00:00Z
+publishedDate: 2019-07-11T12:00:00Z
 tags:
     - resor
     - tågluffen

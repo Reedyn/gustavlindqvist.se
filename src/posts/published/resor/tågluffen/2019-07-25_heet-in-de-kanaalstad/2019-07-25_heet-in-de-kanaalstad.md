@@ -2,7 +2,7 @@
 title: "Heet in de kanaalstad"
 feature_image: Gustav-Lindqvist_2019-07-23_07154.jpg
 description: "Från Paris åkte vi också snabbtåg, men inte TGV utan den privata aktören Thalys. Det gick också snabbt."
-date: 2019-07-25
+publishedDate: "2019-07-25"
 tags:
     - resor
     - tågluffen
