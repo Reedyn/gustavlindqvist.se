@@ -2,7 +2,7 @@
 title: "Ankunft in Berlin"
 feature_image: Gustav-Lindqvist_2019-07-12_06282.jpg
 description: "Resan från Rostock till Berlin klaffade perfekt med alla sträckor. Vi kom fram till Rostock drygt en timme före tåget skulle åka från…"
-publishedDate: 2019-07-12T18:00:00Z
+date: 2019-07-12T18:00:00Z
 tags:
     - resor
     - tågluffen

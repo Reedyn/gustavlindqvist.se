@@ -3,7 +3,7 @@ title: "Ett nytt liv i mina Koss Porta Pro"
 description: ""
 feature_image: "20230903_104553.jpg"
 feature_image_position: top
-publishedDate: 2023-09-20T21:57:51+0200
+date: 2023-09-20T21:57:51+0200
 tags:
     - diy
 ---

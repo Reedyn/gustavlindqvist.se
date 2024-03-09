@@ -2,11 +2,11 @@
 title: "Jakten på den perfekta kartan (för Garmin Edge)"
 feature_image: Gustav-Lindqvist_2021-01-25_01720.jpg
 description: "Efter ha fått en Garmin Edge 530 cykeldator i julklapp tänkte jag se om jag kunde få till kartan på ett bra sätt."
-publishedDate: "2021-01-25"
-tags:
+date: 2021-01-25
+tags: 
     - cykling
     - kartor
-permalink: "/{{ publishedDate | dateFolder}}/jakten-pa-den-perfekta-kartan/index.html"
+permalink: "/{{ page.date | dateFolder}}/jakten-pa-den-perfekta-kartan/index.html"  
 ---
 
 Efter ha fått en Garmin Edge 530 cykeldator i julklapp tänkte jag se om jag kunde få till kartan på ett bra sätt.{.lead}

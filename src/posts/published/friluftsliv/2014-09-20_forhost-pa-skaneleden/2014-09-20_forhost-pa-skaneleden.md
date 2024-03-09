@@ -2,8 +2,8 @@
 title: "Förhöst på Skåneleden"
 feature_image: Gustav-Lindqvist_2014-09-20_0440.jpg
 description: "Så här på förhösten (ja det är tydligen ett ord) är det väldigt trevligt på alla vandringsleder runtom i landet. Jag och familjen tog…"
-publishedDate: "2014-09-20"
-tags:
+date: 2014-09-20
+tags: 
   - friluftsliv
   - skåneleden
   - höst

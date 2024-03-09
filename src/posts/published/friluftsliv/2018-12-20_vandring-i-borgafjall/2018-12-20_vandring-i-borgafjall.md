@@ -2,7 +2,7 @@
 title: Vandring i Borgafjäll
 feature_image: IMG_20180914_083819797_HDR_2.jpg
 description: En kort rapport från turen till Borgafjällen i början av hösten.
-publishedDate: "2018-12-20"
+date: 2018-12-20
 tags: ['friluftsliv', 'borgafjäll', 'höst']
 ---
 

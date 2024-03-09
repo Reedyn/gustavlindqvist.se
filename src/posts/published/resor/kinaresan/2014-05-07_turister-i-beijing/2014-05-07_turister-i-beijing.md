@@ -1,7 +1,7 @@
 ---
 title: "Turister i Beijing"
 description: "Äntligen är vi turister igen!"
-publishedDate: "2014-05-07"
+date: 2014-05-07
 tags:
     - resor
     - kinaresan

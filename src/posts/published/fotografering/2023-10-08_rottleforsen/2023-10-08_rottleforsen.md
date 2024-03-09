@@ -2,7 +2,7 @@
 title: "Röttleforsen"
 description: "Röttle är alltid värt ett besök, särskilt på dagar med fint väder och efter rikligt med nederbörd för maximal kraft i forsen."
 feature_image: "Gustav-Lindqvist_2023-10-08_00858-HDR.jpg"
-publishedDate: 2023-10-08T20:29:59+0200
+date: 2023-10-08T20:29:59+0200
 tags:
     - fotografering
     - röttle

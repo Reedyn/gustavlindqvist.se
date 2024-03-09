@@ -3,7 +3,7 @@ title: "Roadtrippen hem"
 description: ""
 feature_image: "20230708_135822.jpg"
 feature_image_position: bottom
-publishedDate: 2023-07-08T18:16:04+0200
+date: 2023-07-08T18:16:04+0200
 tags:
     - resor
     - friluftsliv

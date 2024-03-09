@@ -2,7 +2,7 @@
 title: "Vättern by night"
 feature_image: 8738080004_abc9b7ba0c_o.jpg
 description: "Min första timelapsesekvens på natten (eller sen kväll). Overhead börjar bli ett problem då mot slutet hann kameran knappt spara bilderna…"
-publishedDate: "2013-05-13"
+date: 2013-05-13
 tags: ['fotografering', 'jkpg']
 
 ---

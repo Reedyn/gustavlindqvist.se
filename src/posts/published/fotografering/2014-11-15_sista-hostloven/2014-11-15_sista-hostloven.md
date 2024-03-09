@@ -2,7 +2,7 @@
 title: "Sista höstlöven?"
 feature_image: Gustav-Lindqvist_2014-11-15_0084_s.jpg
 description: "Nu är det över en månad sedan jag var ute och fotograferade så det var på tiden :) Jag passade på att gå en runda timmen innan solen gick…"
-publishedDate: "2014-11-15"
+date: 2014-11-15
 tags:
     - fotografering
     - jkpg

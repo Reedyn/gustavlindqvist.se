@@ -3,7 +3,6 @@ title: "Aprilväder"
 description: "Något som det behövs en årlig påminnelse om i april är att det inte är våren som kommit utan mellanperioden vårvintern"
 feature_image: Gustav-Lindqvist_0942.JPG
 twitterId: "1511791119150972928"
-publishedDate: "2022-04-06"
 series: cykling
 tags:
     - vår

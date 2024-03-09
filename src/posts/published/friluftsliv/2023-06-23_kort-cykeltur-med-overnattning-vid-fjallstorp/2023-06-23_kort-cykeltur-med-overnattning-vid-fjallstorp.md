@@ -4,7 +4,7 @@ description: "I måndags tyckte Jossan att det kunde vara kul att ta en kort bik
 feature_image: Gustav-Lindqvist_2023-06-20_09313_16-9.jpg
 feature_image_position: right
 mastodon_id: "110593013979343646"
-publishedDate: 2023-06-23T12:00:00+0200
+date: 2023-06-23T12:00:00+0200
 tags:
     - friluftsliv
     - cykling

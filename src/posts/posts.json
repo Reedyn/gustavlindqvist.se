@@ -1,7 +1,6 @@
 {
   "tags": "posts",
-  "permalink": "/{{ publishedDate | dateFolder}}/{{ title | slug }}/index.html",
+  "permalink": "/{{ page.date | dateFolder}}/{{ title | slug }}/index.html",
   "mastodonId": null,
-  "layout": "post.njk",
-  "date": "git Last Modified"
+  "layout": "post.njk"
 }

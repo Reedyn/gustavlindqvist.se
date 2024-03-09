@@ -1,7 +1,7 @@
 ---
 title: "En skärm utan uppkoppling är en värdelös skärm"
 description: "De senaste dagarna har varit en jakt på öppna (och fungerande) Wi-Fi. Det som vi har på hotellet fungerar bara vissa tider på dygnet och de…"
-publishedDate: "2014-04-14"
+date: 2014-04-14
 tags:
     - resor
     - kinaresan

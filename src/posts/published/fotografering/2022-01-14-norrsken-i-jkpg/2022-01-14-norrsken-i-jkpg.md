@@ -4,8 +4,7 @@ feature_image: "norrsken-i-jkpg.jpg"
 description: "Det är inte ofta som det är norrsken i Jönköping och när det väl är det så är det ofta molnigt, men ibland blir det tillfälle"
 twitterId: "1482113295280705538"
 series: fotografering
-publishedDate: "2022-01-14"
-permalink: "/{{ publishedDate | dateFolder}}/norrsken-i-jkpg/index.html"
+permalink: "/{{ page.date | dateFolder}}/norrsken-i-jkpg/index.html"
 tags:
   - fotografering
   - jkpg

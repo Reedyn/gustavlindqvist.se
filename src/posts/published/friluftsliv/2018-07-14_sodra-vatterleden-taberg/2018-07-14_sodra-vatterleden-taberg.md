@@ -2,9 +2,9 @@
 title: "Södra Vätterleden (Taberg → Strömsberg)"
 feature_image: Gustav-Lindqvist_2018-06-16_2944.jpg
 description: "Nu har Jossan och jag äntligen landat i vilka ryggsäckar vi ville ha och vi gav oss ut på en tur för att testa dem. Vi valde varsin…"
-publishedDate: "2018-07-14"
+date: 2018-07-14
 tags: ['friluftsliv', 'södra-vätterleden', 'sommar']
-permalink: "/{{ publishedDate | dateFolder}}/sodra-vatterleden-taberg/index.html"
+permalink: "/{{ page.date | dateFolder}}/sodra-vatterleden-taberg/index.html"
 
 ---
 

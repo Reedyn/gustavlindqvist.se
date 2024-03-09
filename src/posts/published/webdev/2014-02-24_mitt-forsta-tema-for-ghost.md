@@ -1,7 +1,7 @@
 ---
 title: "Mitt första tema för Ghost"
 description: "Jag har nu officiellt släppt mitt första tema för Ghost =)"
-publishedDate: "2014-02-24"
+date: 2014-02-24
 tags:
     - webdev
     - design

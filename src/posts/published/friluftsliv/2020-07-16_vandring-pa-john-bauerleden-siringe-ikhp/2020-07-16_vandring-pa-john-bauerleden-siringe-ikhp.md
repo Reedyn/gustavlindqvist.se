@@ -2,9 +2,9 @@
 title: "Vandring på John Bauerleden (Siringe → IKHP)"
 feature_image: Gustav-Lindqvist_2020-07-13_09692.jpg
 description: "Vi började vandringen i Siringe norr om Skärstad för att därifrån vandra ungefär 4 kilometer genom fina öppna landskap upp mot John…"
-publishedDate: "2020-07-16"
+date: 2020-07-16
 tags: ['friluftsliv', 'john-bauerleden', 'sommar']
-permalink: "/{{ publishedDate | dateFolder}}/vandring-pa-john-bauerleden-siringe-ikhp/index.html"
+permalink: "/{{ page.date | dateFolder}}/vandring-pa-john-bauerleden-siringe-ikhp/index.html"
 
 ---
 

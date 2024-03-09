@@ -2,7 +2,7 @@
 title: "Att fotografera solnedgångar"
 feature_image: _GUS0159-Edit-2.jpg
 description: "Solnedgångar är en av de finaste tiderna man kan fotografera landskap i men det kan också vara något av de mest komplicerade man kan…"
-publishedDate: "2014-07-25"
+date: 2014-07-25
 tags: ['fotografering', 'stöttingfjället']
 
 ---

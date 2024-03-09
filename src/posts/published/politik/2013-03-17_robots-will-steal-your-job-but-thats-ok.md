@@ -1,7 +1,7 @@
 ---
 title: "Robots Will Steal Your Job, But That's OK"
 description: "Andreas Cervenka skriver om robotars påverkan på ekonomin och arbetssamhället i Svenska Dagbladet idag."
-publishedDate: "2013-03-17"
+date: 2013-03-17
 tags: politik
 ---
 

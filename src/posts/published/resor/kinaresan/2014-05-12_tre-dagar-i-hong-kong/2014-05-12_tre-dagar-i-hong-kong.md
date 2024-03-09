@@ -2,7 +2,7 @@
 title: "Tre dagar i Hong Kong"
 feature_image: DSC_0744_L.jpg
 description: "För 3 dagar sedan landade vi i Hong Kong. Som ni kan se om ni följer länken så bröt jag mot elektronikförbudet när vi landade :) Lätt värt…"
-publishedDate: "2014-05-12"
+date: 2014-05-12
 tags:
     - resor
     - kinaresan
