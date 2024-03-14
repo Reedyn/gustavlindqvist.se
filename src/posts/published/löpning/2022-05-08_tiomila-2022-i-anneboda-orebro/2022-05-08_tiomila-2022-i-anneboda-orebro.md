@@ -1,5 +1,5 @@
 ---
-title: "Tiomila 2022 i Ånnaboda, Örebro"
+title: "Tiomila 2022 i Ånnaboda, Örebro"
 feature_image: "Gustav-Lindqvist_2022-05-07_04772-Pano.jpg"
 date: 2022-05-08 21:00:00 +2
 description: "En liten löprapport från Tiomila 2022 i Ånnaboda, Örebro"
@@ -15,11 +15,11 @@ En liten löprapport från Tiomila 2022 i Ånnaboda, Örebro.{.lead}
 
 ![En överblick på TC (tävlingscentrum).](Gustav-Lindqvist_2022-05-07_04759-Pano.jpg){.-full}
 
-På grund av diverse anledningar har jag tyvärr missat de flesta av orienteringssportens största tävlingar som Tiomila och O-ringen. Med lite hjälp från min hemmaklubb Hallby SOK och lite andra klubbar fick jag denna helg hjälp att delta i ett av dessa.
+På grund av diverse anledningar har jag tyvärr missat de flesta av orienteringssportens största tävlingar som Tiomila och O-ringen. Med lite hjälp från min hemmaklubb Hallby SOK och lite andra klubbar fick jag denna helg hjälp att delta i ett av dessa.
 
 I år arrangerades den på och runt campingområdet Ånnaboda nordväst om Örebro.
 
-Vårt lag var en kombination av klubbarna Anderstorps SOK, IF Hallby SOK, OK Reftele och OK Tyr.
+Vårt lag var en kombination av klubbarna Anderstorps SOK, IF Hallby SOK, OK Reftele och OK Tyr.
 
 Tävlingen består av 10 sträckor som sammanlagt uppgår till ungefär 10 mil, därav namnet. Starten går kl 21:30 och flera av sträckorna går på natten. I vårt fall var det sträckorna 1–5 som gick i mörker med pannlampa, de lite snabbare lagen hade fler sträckor på natten.
 
