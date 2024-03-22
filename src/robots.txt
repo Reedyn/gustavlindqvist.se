@@ -1,4 +1,3 @@
-
 Sitemap: https://gustavlindqvist.se/sitemap.xml
 
 User-agent: *
@@ -42,6 +41,9 @@ User-agent: cohere-ai
 Disallow: /
 
 User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: Diffbot
 Disallow: /
 
 User-agent: FacebookBot
