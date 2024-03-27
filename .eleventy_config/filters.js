@@ -7,6 +7,7 @@ const hashString = require('./functions').hashString;
 const featureImageFilter = require('./filters/feature-image');
 const openGraphImageFilter = require('./filters/open-graph-image');
 const dates = require('./filters/dates');
+const statistics = require('./filters/statistics');
 const time = require('./filters/time');
 
 module.exports = {
@@ -91,6 +92,7 @@ module.exports = {
     readableDate: dates.readableDate,
     readableLongDate: dates.readableLongDate,
     minutesToHoursAndMinutes: time.minutesToHoursAndMinutes,
+    filteredPopularPages: statistics.filteredPopularPages,
     lowercase: (inputString) => {
         return inputString.toLowerCase();
     },
@@ -149,5 +151,5 @@ module.exports = {
     isoString: (date = Date.now()) => new Date(date).toISOString(),
     count: (arr) => arr.length,
     featureImageFilter,
-    openGraphImageFilter,
+    openGraphImageFilter
 };

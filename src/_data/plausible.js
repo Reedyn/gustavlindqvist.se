@@ -7,7 +7,7 @@ module.exports = async () => {
 
     const getPopularPages = async () => {
         try {
-            const response = await fetch('https://plausible.gustavlindqvist.se/api/v1/stats/breakdown?site_id=gustavlindqvist.se&period=6mo&property=event:page&limit=200', {
+            const response = await fetch('https://plausible.gustavlindqvist.se/api/v1/stats/breakdown?site_id=gustavlindqvist.se&period=12mo&property=event:page&limit=50', {
                 duration: "7d",
                 type: "json",
                 directory: ".cache",
