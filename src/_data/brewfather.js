@@ -153,7 +153,7 @@ module.exports = async () => {
             let readings = {};
             try {
                 const batchReadings = await fetch('https://api.brewfather.app/v1/batches/' + batchId + '/readings', {
-                    duration: "1s",
+                    duration: "1h",
                     type: "json",
                     directory: ".cache",
                     fetchOptions: {
@@ -202,7 +202,7 @@ module.exports = async () => {
         const batches = [];
         try {
             const batchList = await fetch('https://api.brewfather.app/v1/batches', {
-                duration: "1s",
+                duration: "1h",
                 type: "json",
                 directory: ".cache",
                 fetchOptions: {
@@ -235,7 +235,7 @@ module.exports = async () => {
     const getRecipes = async () => {
         try {
             const recipes = await fetch('https://api.brewfather.app/v1/recipes?complete=true&limit=50', {
-                duration: "1s",
+                duration: "1h",
                 type: "json",
                 directory: ".cache",
                 fetchOptions: {
