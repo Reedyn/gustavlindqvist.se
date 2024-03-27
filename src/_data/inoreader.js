@@ -164,60 +164,6 @@ module.exports = async () => {
         return filteredFeedList;
     }
 
-    const getLatestPostsForSeries = async (feeds) => {
-
-        let combinedFeed = [];
-
-        for (let index = 0; index < feeds.length; index++) {
-            let feedUrl = feeds[index].xmlUrl;
-            let siteUrl = feeds[index].htmlUrl;
-            let siteTitle = feeds[index].title;
-            try {
-                const rawFeed = await fetchWithTimeout(feedUrl, {
-                    duration: '6h',
-                    type: 'text',
-                    directory: '.cache'
-                });
-
-                let feed = await parser.parseString(rawFeed);
-                console.log('[' + '\x1b[35m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Grabbed', feed.items.length, 'posts from', siteTitle + ' (' + feedUrl + ')');
-
-                feed.items.forEach((item) => {
-                    item.blogName = siteTitle;
-                    item.blogLink = siteUrl;
-                });
-
-                const cleanFeed = feed.items.map((feedItem) => {
-                    return {
-                        title: feedItem.title,
-                        link: feedItem.link,
-                        publicationDate: new Date(feedItem.pubDate),
-                        blogName: feedItem.blogName,
-                        blogLink: feedItem.blogLink,
-                        source: new URL(feedItem.link).origin
-                    };
-                });
-
-                combinedFeed = combinedFeed.concat(cleanFeed.slice(0, maxPerFeed));
-
-
-            } catch (err) {
-                const msg = (typeof err !== 'undefined' && typeof err.message !== 'undefined') ? ': ' + err.message.replace(/[\n\r]/g, '. ') : '';
-                console.log('[' + '\x1b[31m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Failed to grab posts from', siteTitle, '(' + feedUrl + ')', msg);
-            }
-        }
-        return combinedFeed.sort(sortByDate);
-
-    };
-
-    let latestPostsForSeries = {};
-    for (let index = 0; index < feedLists.length; index++) {
-        const feedList = feedLists[index];
-        if (feedList.series) {
-            console.log('[' + '\x1b[35m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Grabbed', feedList.feeds.length, 'feed sources for tag: ', feedList.title);
-            latestPostsForSeries[feedList.series] = await getLatestPostsForSeries(feedList.feeds);
-        }
-    }
     const getLinkBlog = async () => {
         const feedURL = 'https://www.inoreader.com/stream/user/1005830534/tag/Linkblog?n=500';
 
@@ -265,8 +211,7 @@ module.exports = async () => {
         }
     };
 
-    inoreader.feeds = await getSourcesFromOPML();
-    inoreader.latestPostsForSeries = latestPostsForSeries;
+    inoreader.feeds = feedLists
     inoreader.linkblog = await getLinkBlog();
 
     return inoreader;
