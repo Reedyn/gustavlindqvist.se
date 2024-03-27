@@ -15,6 +15,8 @@ Min bikepacking-utrustning för sommaren 2023 med en basvikt på {{ packstack.bi
  
 {% pack packstack.bikepacking_2023 %}
 
+<p class="fleuron" aria-hidden="true">☘</p>
+
 ## 2024
 
 Kitet kommer göras om i grunden på grund av byte av cykel med flera nya väskor m.m.
