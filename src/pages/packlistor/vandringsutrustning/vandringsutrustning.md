@@ -25,7 +25,7 @@ Beroende på vart vi ska vandra tillkommer även vandringsstavar på 600 gram oc
 
 Jag sålde mitt förra friluftskök bestående av Pocket Rocket 2 + Toaks 650, främst för att uppgradera brännaren. Kastrullen behövde dock bytas för att nya brännaren ska få plats i.
 
- * [ ] [SOTO Windmaster](https://uthuset.nu/sv/artiklar/windmaster-with-4flex.html)
+ * [x] [SOTO Windmaster](https://uthuset.nu/sv/artiklar/windmaster-with-4flex.html)
  * [x] [Toaks Titanium 750ml](https://www.fjallsport.se/titanium-750-ml-pot.html)
  * [x] [Windfeather](https://hfshop.se/ultralatt/windfeater)
  * [x] [Stormtändare](https://corax-store.se/sv/clawgear/clawgear-mkii-storm-pocket-lighter.html) — +21 gram jämfört med förra tändaren och borde underlätta en del att göra upp eld.
