@@ -14,8 +14,8 @@ Helgen vid månadsskiftet september–oktober spenderade vi på Hanö strax söd
 
 :::: gallery {.-wide}
 ::: row {.-no-wrap}
-![En stig med buskar som vuxit som en tunnel över](Gustav-Lindqvist_2023-09-30_00761-Pano_3000w.jpg){.-inline}
 ![Hamnen i Hanö sett uååifrån vägen som går upp till toppen av ön](20230930_143038_3000w.jpg){.-inline}
+![En stig med buskar som vuxit som en tunnel över](Gustav-Lindqvist_2023-09-30_00761-Pano_3000w.jpg){.-inline}
 :::
 ::: row {.-no-wrap}
 ![En stenig strand sett från sidan. Vågor slår in mot den.](20230930_145149_3000w.jpg){.-inline}
