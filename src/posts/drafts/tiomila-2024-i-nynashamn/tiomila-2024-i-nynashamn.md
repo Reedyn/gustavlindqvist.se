@@ -20,7 +20,10 @@ Till skillnad från tidigare år så gick starten på dagen och höll på i tre 
 
 ## Loppet
 
-![En orienteringskarta över sträcka 2 på Tiomila 2024 i Nynäshamn. Banan med gaffling är utmärkta med lila linjer och ringar och ett GPS-spår för hur banan sprangs är utritad som en linje färglagd i rött till grönt baserat på hur snabbt det gick vid den punkten.](Livelox_Tiomila-Nynashamn-Stafettligan-3-_Herrkavlen_2_GustavLindqvist.png){.-full}
+* Väldigt välritad karta av Roger Åsberg
+* "Stockholmsorientering" där det är relativt lätt att hitta vägvalen men sen väldigt tekniskt inpå kontrollen, ofta satt kontrollerna dolda bakom höjder eller stenar så det gick inte att se den förrän man var nära inpå. De bommar jag hade var främst inuti kontrollringen.
+
+![En orienteringskarta över sträcka 2 på Tiomila 2024 i Nynäshamn. Banan med gaffling är utmärkta med lila linjer och ringar och ett GPS-spår för hur banan sprangs är utritad som en linje färglagd i rött till grönt baserat på hur snabbt det gick vid den punkten.](Livelox_Tiomila-Nynashamn-Stafettligan-3-_Herrkavlen_2_GustavLindqvist.png "[Se hur jag sprang i Livelox](https://www.livelox.com/Viewer/Tiomila-Nynashamn-Stafettligan-3-/Herrkavlen/2?classId=708794&relayLeg=2)"){.-full}
 
 
 *[TC]: Tävlingcentrum
