@@ -16,12 +16,11 @@ TC var på Kvarnängens idrottsplats med väldigt fina faciliteter med riktiga i
 
 Till skillnad från tidigare år så gick starten på dagen och höll på i tre sträckor, därefter var det uppehåll till 23:30 då sträcka 4 jaktstartade (alla lag som var mindre än en timme efter första laget). De lag som var mer än en timme efter första laget startade från 00:30 i en vågstart baserat på hur långt efter första laget de var.
 
-
 ![](){.-full}
 
 ## Loppet
 
-![En orienteringskarta över sträcka 2 på Tiomila 2024 i Nynäshamn. Banan med gaffling är utmärkta med lila linjer och ringar och ett GPS-spår för hur banan sprangs är utritad som en linje färglagd i rött till grönt baserat på hur snabbt det gick vid den punkten.](){.-full}
+![En orienteringskarta över sträcka 2 på Tiomila 2024 i Nynäshamn. Banan med gaffling är utmärkta med lila linjer och ringar och ett GPS-spår för hur banan sprangs är utritad som en linje färglagd i rött till grönt baserat på hur snabbt det gick vid den punkten.](Livelox_Tiomila-Nynashamn-Stafettligan-3-_Herrkavlen_2_GustavLindqvist.png){.-full}
 
 
 *[TC]: Tävlingcentrum
