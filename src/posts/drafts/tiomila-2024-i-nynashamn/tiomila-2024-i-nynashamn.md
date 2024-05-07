@@ -1,7 +1,7 @@
 ---
 title: "Tiomila 2024 i Nynäshamn"
 description: "En liten löprapport från Tiomila 2024 i Nynäshamn."
-feature_image: ""
+feature_image: "Tiomila_2024_Kvarnängen_Map-Sample.png"
 date: 2024-05-05T21:14:00+0000
 tags:
     - orientering
