@@ -29,8 +29,8 @@ module.exports = async () => {
             'folder_name': 'Nyheter%2C+journalism+%26+politik'
         },
         {
-            'title': 'Säkerhet & försvar',
-            'folder_name': 'S%C3%A4kerhet+%26+f%C3%B6rsvar'
+            'title': 'Säkerhet, integritet & försvar',
+            'folder_name': 'Säkerhet%2C+integritet+%26+försvar'
         },
         {
             'title': 'Friluftsliv',
