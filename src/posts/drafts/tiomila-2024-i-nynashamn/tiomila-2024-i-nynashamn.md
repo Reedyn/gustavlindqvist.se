@@ -22,6 +22,8 @@ Detta året sprang jag sträcka 2 som var på 7,2km (fågelvägen) och det var h
 
 Efter en stark första sträcka skickade Niclas ut mig i skogen. Jag gick ut stabilt och tog första kontrollen utan några problem (fick dock klättra lite i en ravin som jag körde mitt vägval igenom); det gick även bra till kontroll 2.
 
+![Jag på väg till startpunkten med huvudet ner i kartan. Jag har svarta byxor, en blå tröja med en nummerlapp som det står nummer 171 på.](439604774_824865039664927_259979250381371700_n.jpg)
+
 Sen började "problemen". Banan var lagd enligt något som verkar kallas "Stockholmorientering" där svårigheten oftast inte består av vägvalen utan vid själva kontrollpunkten, när man väl kommit in i den lila ringen så kan det vara svårt att hitta kontrollpunkten som kan sitta dold och otydligt. 
 
 Detta var jag inte alls van vid.
