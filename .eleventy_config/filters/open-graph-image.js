@@ -44,6 +44,8 @@ module.exports = async function (src, postData) {
         }
     };
 
+    console.log(options);
+
     let metadata = await EleventyImage(src, options);
 
     let format = '';
