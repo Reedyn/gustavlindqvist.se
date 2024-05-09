@@ -2,6 +2,7 @@
 title: "Tiomila 2024 i Nynäshamn"
 description: "En liten löprapport från Tiomila 2024 i Nynäshamn."
 date: 2024-05-09T09:44:00+0200
+mastodon_id:112410398806611516
 series: löpning
 tags:
     - orientering
