@@ -99,10 +99,6 @@ abbr {
     border-bottom-color: var(--color__text);
     font-variant: all-small-caps;
     text-decoration: none;
-
-    &:first-child {
-        font-variant: normal;
-    }
 }
 
 .center {
