@@ -37,7 +37,7 @@ Vägvalen var inte särskilt svåra, jag valde omvägen i ett högre tempo vid d
 
 Måste även nämna kartan. Jag tror aldrig jag sprungit på en karta som varit så välritad (av Roger Åsberg). Så stort plus på det!
 
-Precis på slutet (mellan kontroll 12 och 13) gjorde jag en rejäl vurpa där jag fastnade med snörningen i en rot och jag föll med huvudet rakt ner i en lerpöl och snörningen flög av på mina skor. Det var dock bara att klicka tillbaka snörningen på skon och dra åt så kunde jag fortsätta och avsluta loppet. Tyvärr överlevde den inte (snörningen var av tyen BOA), men det verkar som att det finns livstidsgaranti (vad nu det betyder) och de skickade ett raparationskit som jag får om några dagar.
+Precis på slutet (mellan kontroll 12 och 13) gjorde jag en rejäl vurpa där jag fastnade med snörningen i en rot och jag föll med huvudet rakt ner i en lerpöl och snörningen flög av på mina skor. Det var dock bara att klicka tillbaka snörningen på skon och dra åt så kunde jag fortsätta och avsluta loppet. Tyvärr överlevde den inte (snörningen var av typen BOA), men det verkar som att det finns livstidsgaranti (vad nu det betyder) och de skickade ett reparationskit som jag får om några dagar.
 
 Som vanligt med Tiomila och andra stora lopp så är det nervöst före, intensivt under och skönt när man är i mål. Nu när tröttheten äntligen släppt börjar jag svagt ladda upp mentalt inför nästa års upplaga i Finspång.
 
