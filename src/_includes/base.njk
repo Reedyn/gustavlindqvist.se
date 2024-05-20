@@ -64,7 +64,7 @@ eleventyComputed:
     </script>
 </head>
 <body class="{{ templateClass }}">
-    <a class="skip-to-content" href="#main">Gå till huvudinnehåll</a>
+    <a class="skip-to-content" href="#main">Gå till innehållet</a>
     <header class="site-header hidden@print" aria-label="Sidhuvud">
         <div class="site-header__content">
             {% if templateClass === 'home-template' %}<h1 class="site__title"><a href="{{ metadata.url }}"><img src="/assets/images/blog-profilepic.jpg" class="site__image" alt="Selfie på Gustav Lindqvist" width="30" height="30">{{metadata.title}}</a></h1>{% else %}<span class="site__title"><a href="{{ metadata.url }}"><img src="/assets/images/blog-profilepic.jpg" class="site__image" alt="Selfie på Gustav Lindqvist" width="30" height="30">{{metadata.title}}</a></span>{% endif %}
