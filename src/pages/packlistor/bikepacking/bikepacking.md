@@ -11,14 +11,6 @@ style:
     lightnessSecondary: 90%
 ---
 
-Min bikepacking-utrustning för sommaren 2023 med en basvikt på {{ packstack.bikepacking_2023.base_weight | prettyDigits }}g.{.lead}
- 
-{% pack packstack.bikepacking_2023 %}
-
-<p class="fleuron" aria-hidden="true">☘</p>
-
-## 2024
-
-Kitet kommer göras om i grunden på grund av byte av cykel med flera nya väskor m.m.
+Min bikepacking-utrustning för sommaren 2024 med en basvikt på {{ packstack.bikepacking_2024.base_weight | prettyDigits }}g.{.lead}
 
 {% pack packstack.bikepacking_2024 %}
