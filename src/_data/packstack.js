@@ -157,7 +157,7 @@ module.exports = async () => {
     packstack.summer_2022 = await getPack('369', 'dc516757-bc41-4304-a29e-5dadc9dcf50e');
     packstack.summer_2023 = await getPack('367', '5f4edc0b-ddca-4a64-a97f-ee313f66e6bd');
     packstack.bikepacking_2023 = await getPack('370', '10c47671-c9f4-414e-b07d-2d796eb1c3e0');
-    packstack.bikepacking_2024 = await getPack('657', 'a087099c-4873-4249-8cd6-df985831de2a');
+    packstack.bikepacking_2024 = await getPack('892', '7bc1501e-e6cd-4f46-b191-8b6bd4bd9ff1');
     packstack.big_camera_kit = await getPack('372', '12baa3b2-8104-4c26-9532-acb721f05240');
     packstack.small_camera_kit = await getPack('371', 'c8848465-155d-4b9e-ac99-ddf43d8cbdbb');
 
