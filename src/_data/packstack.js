@@ -153,7 +153,7 @@ module.exports = async () => {
     };
 
     packstack.bankerydsleden_2022 = await getPack('368', '020cc93d-2d4e-43c0-9df4-c1ccb63c90eb');
-    packstack.summer = await getPack('455', '5f4edc0b-ddca-4a64-a97f-ee313f66e6bd');
+    packstack.summer_2024 = await getPack('455', '5f4edc0b-ddca-4a64-a97f-ee313f66e6bd');
     packstack.summer_2022 = await getPack('369', 'dc516757-bc41-4304-a29e-5dadc9dcf50e');
     packstack.summer_2023 = await getPack('367', '5f4edc0b-ddca-4a64-a97f-ee313f66e6bd');
     packstack.bikepacking_2023 = await getPack('370', '10c47671-c9f4-414e-b07d-2d796eb1c3e0');
