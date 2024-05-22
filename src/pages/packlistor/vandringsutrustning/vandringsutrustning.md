@@ -41,7 +41,7 @@ Beroende på om jag vill fotografera mycket har jag antingen med hela mitt kit m
 
 ### Lilla kamerakittet ({{ packstack.small_camera_kit.base_weight | prettyDigits }}g)
 
-Här får GoPron fylla behovet av alla de vidare vinklarna och systemkameran används bara för porträtt, panoramabilder och tele.
+Här får mobilen med ett litet stativ fylla behovet av alla de vidare vinklarna och systemkameran används bara för porträtt, panoramabilder och tele.
 
 {% packInventory packstack.small_camera_kit %}
 
