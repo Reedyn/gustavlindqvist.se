@@ -14,10 +14,7 @@ Bankerydsleden är en vandringsled på 24,5km i Jönköping som utgår från hem
 
 Leden är välskött och har gott om faciliteter som vindskydd, toaletter och grillplatser. Den är även lättillgänglig med lokala bussar från Jönköpings tätort som går väldigt ofta. Kort och sagt, en perfekt led för 1–1,5 dags vandring med potential för övernattning.
 
-<figure class="map -full">
-    <iframe style="border:none" src="https://en.frame.mapy.cz/s/gabeporena" width="100%" height="500" frameborder="0" alt="Karta över Bankeryd med Bankerydsleden utmärkt med röd linje."></iframe>
-    <figcaption><p><a href="https://en.mapy.cz/turisticka?x=14.0721374&y=57.8475668&z=14&l=0">Bankerydsleden på Mapy.cz</a></p></figcaption>
-</figure>
+![En karta över Bankerydsleden. Leden är utmärkt med en orange streckad linje och några punkter är utmärkta med en blå symbol som till exempel rastplatser, toalett, vindskydd och kollektivtrafik. Kartan har en ljus bakgrund med bara de större vägarna och terrängskuggning och höjdkurvor öfr att visa de stora höjdskillnaderna som finns på leden.](Bankerydsleden_3000x1500.png){.-full}
 
 I går passade vi på och gå Bankerydsleden med planen att gå större delen av leden första dagen och övernatta vid vindskyddet på Högamon för att sen gå de sista 5 kilometrarna andra dagen och ta bussen hem tidigt på morgonen.
 
