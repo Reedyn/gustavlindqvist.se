@@ -21,72 +21,18 @@ eleventyComputed:
     <section aria-label="Sidans innehåll" class="page-content content" id="page-content">
         <p class="lead">Detta är <a href="https://nownownow.com/about">en sida som visar vad jag hittar på just nu</a>. Vill du läsa mer om min bakgrund så kan du läsa
             <a href="/om-mig">om mig</a>.</p>
-        <p>Jag bor i Jönköping och jobbar som webbutvecklare på <a href="https://ju.se/bibliotek">Högskolebiblioteket i Jönköping</a>.</p>
-
-        <h2 id="träning">Träning</h2>
-        <p>Jag tycker om att springa och cykla, gärna så mycket i skogen som möjligt. På vinterhalvåret blir det mycket löpning på stigar i skogen. På våren och hösten när det är säsong för orientering brukar det bli mest det. På sommaren är det framförallt cykling som gäller.</p>
-        {% if strava.activities.length %}<p>Mina senaste träningspass:</p>
-        <ol class="activity-list">
-            {% for activity in strava.activities %}{% if loop.index0 < 2 %}<li class="activity-list__item">
-                <svg class="icon" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" {% if activity.type === 'Ride' %}href="/assets/icons/bike.svg#bike" {% endif %}{% if activity.type === 'Run' %}href="/assets/icons/run.svg#run" {% endif %}{% if activity.type === 'Walk' %}href="/assets/icons/walk.svg#walk" {% endif %}{% if activity.type === 'Hike' %}href="/assets/icons/hiking.svg#icon"{% endif %}></use></svg>
-                <div class="activity-content">
-                    <a id="{{ activity.id }}" class="" href="https://www.strava.com/activities/{{ activity.id }}">{{ activity.name }}</a>
-                    <p class="activity-metadata" data-polyline="{{ activity.map.summary_polyline }}" data-latitude="{{ activity.start_latlng[0] }}" data-longitude="{{ activity.start_latlng[1] }}">
-                        <time class="timeago" data-firstletterupper="true" datetime="{{ activity.start_date | fullISODate }}" title="{{ activity.start_date | longISODate }}">{{ activity.start_date | readableDate }}</time>
-                        {% if activity.distance_km %} · <span class="activity-distance">{{ activity.distance_km | dotToComma }}km</span>{% endif %}
-                        {% if activity.total_elevation_gain and activity.total_elevation_gain > 200 %} · <span class="activity-elevation_gain">{{ activity.total_elevation_gain }}m↥</span>{% endif %}
-                        {% if activity.type === 'Run' and activity.pace %} · <span class="activity-pace">{{ activity.pace }}min/km</span>{% endif %}
-                        {% if activity.average_speed_km and (activity.type === 'Ride' or activity.type === 'Walk' ) %} · <span class="activity-average_speed">{{ activity.average_speed_km | dotToComma }}km/h</span>{% endif %}
-                    </p>
-                </div>
-                </li>{% endif %}{% endfor %}
-        </ol>{% endif %}
-
-        <h2 id="vandring">Vandring</h2>
-        <p>Jag gillar att vandra (och sova i tält) och försöker göra det så mycket jag hinner, speciellt under sommarhalvåret. <a href="/friluftsliv">Jag skriver om mina utflykter på bloggen under kategorin 🏕️ friluftsliv</a>.</p>
-
-        <h2 id="kartor">Kartor</h2>
-        <p>Flera av mina fritidsintressen går in i varandra och inget mer än mitt intresse för kartor. När jag är ute och springer, vandrar eller cyklar samlar jag alltid in uppgifter och kartlägger för att sen kunna lägga in det i <a href="https://www.openstreetmap.org/user/reedyn">OpenStreetMap</a>.</p>
-        <p>Mina senaste redigeringar i OpenStreetMap:</p>
-        <ol class="list">
-            {% for edit in openstreetmap.edits %}{% if loop.index0 < 2 %}
-            <li class="list__item">
-                <a id="{{ edit.id }}" href="{{ edit.resultatmaps }}">{{ edit.comment }}</a>
-                {% if edit.date %}<p class="metadata"><time class="timeago" data-firstletterupper="true" datetime="{{ edit.date | fullISODate }}" title="{{ edit.date | longISODate }}">{{ edit.date | readableDate }}</time></p>{% endif %}
-            </li>
-            {% endif %}{% endfor %}
-        </ol>
-
-        {% if goodreads.currently_reading.length %}<h2 id="bocker">Böcker</h2>
-            <p>Jag läser för tillfället:</p>
-            <ol class="book-list">
-                {% for book in goodreads.currently_reading %}
-                    <li class="book-list__item">
-                        <img class="book-list__cover" src="{{ book.book_medium_image_url }}" alt="Bokomslag för {{ book.title }}">
-                        <div class="book-list__item-content">
-                            <h3 class="book-title"><a id="{{ book.book_id }}" href="{{ book.url }}">{{ book.title }}</a></h3>
-                            <p>{{ book.author }}</p>
-                        </div>
-                    </li>
-                {% endfor %}
-            </ol>
-        {% endif %}
-
-        {% if steam.recently_played_games.length %}<h2 id="gaming">Spel</h2>
-        <p>Efter några års uppehåll på grund av en trasig dator har jag det senaste året tagit upp datorspelandet igen. Jag spelar mestadels spel som har några år på nacken som jag missat. </p>
-        <p id="games">De senaste veckorna har jag spelat:</p>
-        <ol class="game-list">
-            {% for game in steam.recently_played_games %}
-                <li class="game-list__item">
-                    <img class="icon -large" src="https://media.steampowered.com/steamcommunity/public/images/apps/{{ game.appid }}/{{ game.img_icon_url }}.jpg" alt="Ikon för spelet {{ game.name }}">
-                    <div class="game-list__item-content">
-                        <a id="{{ game.appid }}" href="{{ game.url }}">{{ game.name }}</a>
-                        <p class="game-metadata" title="{{ game.playtime_2weeks }} minuter">{{ game.playtime_2weeks | minutesToHoursAndMinutes }}</p>
-                    </div>
-            </li>
-                </li>
-            {% endfor %}
-        </ol>
-        {% endif %}
+        <ul class="-no-style">
+            <li>🏢 Jag bor i Jönköping och jobbar som webbutvecklare på <a href="https://ju.se/bibliotek">Högskolebiblioteket i Jönköping</a>.</li>
+            <li>🏕️ Just nu planerar jag sommarens utflykter</li>
+            {% if strava.activities.length %}{% for activity in strava.activities %}{% if loop.index0 < 1 %}
+                {% if activity.type === 'Ride' %}<li>🚴 <a href="https://www.strava.com/activities/{{ activity.id }}">Jag cyklade {% if activity.distance_km %} <span class="activity-distance">{{ activity.distance_km | dotToComma }}km</span>{% endif %} <time class="timeago" datetime="{{ activity.start_date | fullISODate }}" title="{{ activity.start_date | longISODate }}">{{ activity.start_date | readableDate }}</time></a></li>{% endif %}
+                {% if activity.type === 'Run' %}<li>🏃‍ <a href="https://www.strava.com/activities/{{ activity.id }}">Jag sprang {% if activity.distance_km %} <span class="activity-distance">{{ activity.distance_km | dotToComma }}km</span>{% endif %} <time class="timeago" datetime="{{ activity.start_date | fullISODate }}" title="{{ activity.start_date | longISODate }}">{{ activity.start_date | readableDate }}</time></a></li>{% endif %}
+                {% if activity.type === 'Walk' %}<li>🚶‍ <a href="https://www.strava.com/activities/{{ activity.id }}">Jag gick {% if activity.distance_km %} <span class="activity-distance">{{ activity.distance_km | dotToComma }}km</span>{% endif %} <time class="timeago" datetime="{{ activity.start_date | fullISODate }}" title="{{ activity.start_date | longISODate }}">{{ activity.start_date | readableDate }}</time></a></li>{% endif %}
+                {% if activity.type === 'Hike' %}<li>🚶‍🎒 <a href="https://www.strava.com/activities/{{ activity.id }}">Jag vandrade {% if activity.distance_km %} <span class="activity-distance">{{ activity.distance_km | dotToComma }}km</span>{% endif %} <time class="timeago" atetime="{{ activity.start_date | fullISODate }}" title="{{ activity.start_date | longISODate }}">{{ activity.start_date | readableDate }}</time></a></li>{% endif %}
+            {% endif %}{% endfor %}{% endif %}
+            {% if steam.recently_played_games.length %}<li>🎮 Jag spelar {% for game in steam.recently_played_games %}<a id="{{ game.appid }}" href="{{ game.url }}">{{ game.name }}</a>{% if loop.index0 < steam.recently_played_games.length - 2 %}, {% endif %}{% if loop.index0 == steam.recently_played_games.length - 2 %} och {% endif %}{% endfor %}</li>{% endif %}
+            {% if goodreads.currently_reading.length %}{% if goodreads.currently_reading.length %}<li>📚 Jag läser {% for book in goodreads.currently_reading %}<a id="{{ book.book_id }}" href="{{ book.url }}"><em>{{ book.title }}</em></a> av {{ book.author }}{% if loop.index0 < goodreads.currently_reading.length - 2 %}, {% endif %}{% if loop.index0 == goodreads.currently_reading.length - 2 %} och {% endif %}{% endfor %}</li>
+            {% endif %}{% endif %}
+        </ul>
     </section>
 </article>
