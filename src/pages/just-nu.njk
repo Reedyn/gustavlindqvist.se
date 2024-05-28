@@ -23,7 +23,7 @@ eleventyComputed:
             <a href="/om-mig">om mig</a>.</p>
         <ul class="-icons">
             <li><span>🏢</span> <span>Jag bor i Jönköping och jobbar som webbutvecklare på <a href="https://ju.se/bibliotek">Högskolebiblioteket i Jönköping</a></span></li>
-            <li><span>🏕️</span> <span>Just nu planerar jag sommarens utflykter</span></li>
+            <li><span>🏕️</span> <span>Just nu planerar jag sommarens utflykter med det nya tältet ⛺</span></li>
             {% if strava.activities.length %}{% for activity in strava.activities %}{% if loop.index0 < 1 %}
                 {% if activity.type === 'Ride' %}<li><span>🚴</span> <span>Jag <a href="https://www.strava.com/activities/{{ activity.id }}" title="{{ activity.name }}">cyklade {% if activity.distance_km %} <span class="activity-distance">{{ activity.distance_km | dotToComma }}km</span>{% endif %} <time class="timeago" datetime="{{ activity.start_date | fullISODate }}" title="{{ activity.start_date | longISODate }}">{{ activity.start_date | readableDate }}</time></a></span></li>{% endif %}
                 {% if activity.type === 'Run' %}<li><span>🏃‍</span> <span>Jag <a href="https://www.strava.com/activities/{{ activity.id }}" title="{{ activity.name }}">sprang {% if activity.distance_km %} <span class="activity-distance">{{ activity.distance_km | dotToComma }}km</span>{% endif %} <time class="timeago" datetime="{{ activity.start_date | fullISODate }}" title="{{ activity.start_date | longISODate }}">{{ activity.start_date | readableDate }}</time></a></span></li>{% endif %}
