@@ -25,7 +25,7 @@ Efter en stark första sträcka skickade Niclas ut mig i skogen. Jag gick ut sta
 
 ![Jag på väg till startpunkten med huvudet ner i kartan. Jag har svarta byxor, en blå tröja med en nummerlapp som det står nummer 171 på.](2024-05-04_Gustav-till-start_Elise-Josefsson.jpg "Foto av Elise Josefsson")
 
-Sen började "problemen". Banan var lagd enligt något som verkar kallas "Stockholmorientering" där svårigheten oftast inte består av vägvalen utan vid själva kontrollpunkten, när man väl kommit in i den lila ringen så kan det vara svårt att hitta kontrollpunkten som kan sitta dold och otydligt. 
+Sen började "problemen". Banan var lagd enligt något som verkar kallas "Stockholmsorientering" där svårigheten oftast inte består av vägvalen utan vid själva kontrollpunkten, när man väl kommit in i den lila ringen så kan det vara svårt att hitta kontrollpunkten som kan sitta dold och otydligt.
 
 Detta var jag inte alls van vid.
 
