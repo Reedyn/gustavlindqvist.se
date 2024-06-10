@@ -33,7 +33,7 @@ På i stort sett alla följande kontroller gjorde jag någon form av miss inne v
 
 Vägvalen var inte särskilt svåra, jag valde omvägen i ett högre tempo vid de tillfällen det erbjöds. Till exempel mellan kontroll 7 och 8 där jag körde på rakt ut till vägen och följde den upp, just det tror jag var klokt eftersom jag sprang ikapp några som tog det mer genare vägvalet.
 
-![En orienteringskarta över sträcka 2 på Tiomila 2024 i Nynäshamn. Banan med gaffling är utmärkta med lila linjer och ringar och ett GPS-spår för hur banan sprangs är utritad som en linje färglagd i rött till grönt baserat på hur snabbt det gick vid den punkten.](Livelox_Tiomila-Nynashamn-Stafettligan-3-_Herrkavlen_2_GustavLindqvist.png "[Se hur jag sprang i Livelox](https://www.livelox.com/Viewer/Tiomila-Nynashamn-Stafettligan-3-/Herrkavlen/2?classId=708794&relayLeg=2)"){.-full}
+![En orienteringskarta över sträcka 2 på Tiomila 2024 i Nynäshamn. Banan med gaffling är utmärkta med lila linjer och ringar och ett GPS-spår för hur banan sprangs är utritad som en linje färglagd i rött till grönt baserat på hur snabbt det gick vid den punkten.](Livelox_Tiomila-Nynashamn-Stafettligan-3-_Herrkavlen_2_GustavLindqvist.webp "[Se hur jag sprang i Livelox](https://www.livelox.com/Viewer/Tiomila-Nynashamn-Stafettligan-3-/Herrkavlen/2?classId=708794&relayLeg=2)"){.-full}
 
 Måste även nämna kartan. Jag tror aldrig jag sprungit på en karta som varit så välritad (av Roger Åsberg). Så stort plus på det!
 
