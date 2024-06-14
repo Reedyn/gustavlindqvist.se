@@ -120,7 +120,7 @@ module.exports = async () => {
                         statusCode = "fermenting";
                         break;
                     case "Conditioning":
-                        status = "Kolsyrejäsning";
+                        status = "Efterbehandling";
                         statusCode = "conditioning";
                         break;
                     case "Completed":
