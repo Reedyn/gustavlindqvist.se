@@ -21,11 +21,11 @@ module.exports = async () => {
             console.error(err);
             return [];
         }
-    }
+    };
 
     const popularPages = await getPopularPages();
 
     return {
         popularPages: popularPages
     };
-}
+};
