@@ -1,7 +1,6 @@
 ---
 title: "Dags för flygfotografering!"
 description: ""
-feature_image: "Gustav-Lindqvist_2024-06-21_0067-HDR.jpg"
 date: 2038-01-19T03:14:07+0000
 tags:
     - fotografering
