@@ -23,7 +23,7 @@ Många webbplatser har också (ofta på grund av reklam) gjort sig till en själ
  
 ## Hitta andra vägar?
 
-Om man ser hyperlänkarna som webben knyts ihop med, som vägar och stigar så skulle Facebook, Google med flera vara motorvägarna på internet. De är enkla och bekväma att röra sig på men går bara mellan några platser. Samtidigt finns det ett enormt nät av mindre vägar och stigar som alltid funnits där. 
+Om man ser hyperlänkarna, som webben knyts ihop med, som vägar och stigar så skulle Facebook, Google med flera vara motorvägarna på internet. De är enkla och bekväma att röra sig på men går bara mellan några platser. Samtidigt finns det ett enormt nät av mindre vägar och stigar som alltid funnits där. 
 
 Det gamla Internet försvann aldrig, om man vågar röra sig utanför de anlagda vägarna finns en hel värld av intressant och unikt innehåll att förkovra sig i.
 
