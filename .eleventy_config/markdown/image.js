@@ -7,7 +7,7 @@ let markdown = markdownIt({
     linkify: true,
     typographer: true,
     langPrefix: 'language-',
-})
+});
 
 module.exports = function (tokens, idx, options, env, self) {
     const token = tokens[idx];
@@ -34,6 +34,8 @@ module.exports = function (tokens, idx, options, env, self) {
             return `<figure${classString}><img src="${source}"${attributesString}><figcaption><em>${markdown.render(caption)}</em></figcaption></figure>`;
         }
         return `<img src="${source}"${classString}${attributesString}>`;
+    } else if (!env.page.outputPath) {
+        return `<figure${classString}><img width="800" height="300"${attributesString}></figure>`;
     } else { // If relative, local image
         const documentPath = env.page.filePathStem;
         const outputPath = env.page.outputPath
