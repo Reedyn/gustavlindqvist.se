@@ -13,7 +13,6 @@
     margin: auto;
     color: var(--color__text-alt);
     font-family: var(--font__meta);
-    font-size: var(--font__size-base);
     line-height: var(--header__height);
 
     .site__title {
@@ -52,6 +51,7 @@
 
     .site__description {
         display: none;
+        font-size: var(--font__size-base);
         font-family: var(--font__captions);
         font-style: italic;
 
