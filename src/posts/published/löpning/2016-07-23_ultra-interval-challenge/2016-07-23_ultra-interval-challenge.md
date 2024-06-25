@@ -60,4 +60,4 @@ Femte intervallen gick bra men kände lite mer i knäna så det blir min sista. 
 
 Det var ett ganska intressant event, kanske blir ett nytt försök nästa år, men det är lite jobbigt när rundorna är så nära varandra vilket gör det omöjligt att få någon vettig sömn under natten.
 
-**Nu ska jag förbereda mig för nästa äventyr i Abisko.**
+**Nu ska jag förbereda mig för [nästa äventyr i Abisko](/2016/07/28/vandring-i-abisko/).**
