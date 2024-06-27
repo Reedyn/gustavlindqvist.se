@@ -64,7 +64,11 @@ eleventyComputed:
     </script>
 </head>
 <body class="{{ templateClass }}">
-    <a class="skip-to-content" href="#main">Gå till innehållet</a>
+    <nav>
+        <a class="skip-to-content" href="#site-navigation">Gå till toppmenyn</a>
+        <a class="skip-to-content" href="#main">Gå till innehållet</a>
+        <a class="skip-to-content" href="#footer">Gå till sidfoten</a>
+    </nav>
     <header class="site-header hidden@print" aria-label="Sidhuvud">
         <div class="site-header__content">
             {% if templateClass === 'home-template' %}<h1 class="site__title"><a href="{{ metadata.url }}"><img src="/assets/images/blog-profilepic.jpg" class="site__image" alt="Selfie på Gustav Lindqvist" width="30" height="30">{{metadata.title}}</a></h1>{% else %}<span class="site__title"><a href="{{ metadata.url }}"><img src="/assets/images/blog-profilepic.jpg" class="site__image" alt="Selfie på Gustav Lindqvist" width="30" height="30">{{metadata.title}}</a></span>{% endif %}
@@ -74,7 +78,7 @@ eleventyComputed:
     <main id="main" class="main" aria-label="Innehåll" {% include 'partials/override-style.njk' %}>
         {{ content | safe }}
     </main>
-    <footer class="site-footer hidden@print" aria-label="Sidfot">
+    <footer id="footer" class="site-footer hidden@print" aria-label="Sidfot">
         {% include 'partials/footer.njk' %}
     </footer>
 </body>
