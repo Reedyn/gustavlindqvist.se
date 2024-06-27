@@ -11,7 +11,7 @@ tags:
   
 En liten löprapport från Tiomila 2022 i Ånnaboda, Örebro.{.lead}
 
-[Tiomila](https://tiomila.se) är *(förmodligen)* orienteringens största budkavle som arrangerats nästan årligen sedan 1945. På grund av pandemin har det nu varit uppehåll sedan 2019 så den var efterlängtad av många.
+[Tiomila](https://tiomila.se) är en av orienteringens största budkavletävlingar som arrangerats nästan årligen sedan 1945. På grund av pandemin har det nu varit uppehåll sedan 2019 så den var efterlängtad av många.
 
 ![En överblick på TC (tävlingscentrum).](Gustav-Lindqvist_2022-05-07_04759-Pano.jpg){.-full}
 
