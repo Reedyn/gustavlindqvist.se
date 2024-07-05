@@ -59,7 +59,7 @@ ol {
     > li {
         display: flex;
 
-        :first-child {
+        >:first-child {
             width: 1.5em;
         }
 

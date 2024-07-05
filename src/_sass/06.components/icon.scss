@@ -32,4 +32,8 @@
     &.-yeast {
         color: oklch(80% 0.06 60deg);
     }
+
+    &.-rounded {
+        border-radius: .2rem;
+    }
 }
