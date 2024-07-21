@@ -61,7 +61,7 @@ module.exports = async () => {
         const packUrl = `https://api.packstack.io/pack/trip/${packId}`;
         try {
             const rawPackData = await fetch(packUrl, {
-                duration: "1s",
+                duration: "1h",
                 type: "json",
                 directory: ".cache",
             });
@@ -153,6 +153,7 @@ module.exports = async () => {
     };
 
     packstack.bankerydsleden_2022 = await getPack('368', '020cc93d-2d4e-43c0-9df4-c1ccb63c90eb');
+    packstack.visingso2024 = await getPack('1054', 'fe2c7512-dbd3-4d28-83d4-d3c658767101');
     packstack.summer_2024 = await getPack('909', '7b57ce93-3c7e-4728-a2a9-e8b7f7e3237f');
     packstack.summer_2023 = await getPack('367', '5f4edc0b-ddca-4a64-a97f-ee313f66e6bd');
     packstack.summer_2022 = await getPack('369', 'dc516757-bc41-4304-a29e-5dadc9dcf50e');

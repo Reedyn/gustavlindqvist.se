@@ -12,13 +12,19 @@
         &:before {
             position: relative;
             z-index: 1;
-            top: calc(50% - 1em);
+            top: 50%;
+            left: 50%;
+            content: attr(alt);
+            text-wrap: pretty;
+            max-width: 50ch;
+            display: block;
+            transform: translateX(-50%) translateY(-50%);
         }
 
         &:after {
+            content: "";
             position: absolute;
             z-index: 0;
-            content: "";
             left: 0;
             top: 0;
             width: 100%;
