@@ -83,4 +83,4 @@ Med nu ungefär 80km i benen så kan jag inte påstå att det var så det upplev
 
 {% pack packstack.visingso2024 %}
 
-![En svart cykel med väskor monterat på framgaffeln, styret samt baktill på en pakethållare. I ramen sitter det två vattenflaskor. På sidan av pakethållaren är tältpinnar, en sidoväska och ett par skor fästa. Cykeln syns i profil.](Gustav-Lindqvist_2024-07-19_02762-Pano_3000w.jpg){.-full}
+![En svart cykel med väskor monterat på framgaffeln, styret samt baktill på en pakethållare. I ramen sitter det två vattenflaskor. På sidan av pakethållaren är tältpinnar, en sidoväska och ett par skor fästa. Cykeln syns i profil.](Gustav-Lindqvist_2024-07-19_02762-Pano_3000w.jpg "Trotjänaren"){.-full}
