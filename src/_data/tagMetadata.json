@@ -334,6 +334,10 @@
         "emoji": "❄\uFE0F",
         "type": "season"
     },
+    "visingsö": {
+        "title": "Visingsö",
+        "type": "location"
+    },
     "västanåleden": {
         "title": "Västanåleden",
         "emoji": "\uD83D\uDFE2",
