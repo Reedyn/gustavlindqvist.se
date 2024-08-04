@@ -273,6 +273,10 @@
         "emoji": "\uD83C\uDF33",
         "type": "season"
     },
+    "stenshuvud": {
+        "title": "Stenshuvud nationalpark",
+        "type": "location"
+    },
     "stöttingfjället": {
         "title": "Stöttingfjället",
         "type": "location"

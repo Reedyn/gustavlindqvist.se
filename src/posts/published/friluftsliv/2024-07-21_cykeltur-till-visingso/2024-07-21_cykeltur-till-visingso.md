@@ -9,6 +9,7 @@ tags:
     - cykling
     - visingsö
     - jkpg
+    - sommar
 ---
 
 I veckan kom vi äntligen iväg på en tur som vi pratat om ett tag, en cykeltur till Visingsö, på Visingsö, och hem från Visingsö. Ursprungligen planerade vi att resan skulle vara över tre dagar med två nätter på ön men andra planer gjorde att vi tryckte ihop det till två dagar.{.lead}
