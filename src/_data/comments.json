@@ -167,5 +167,22 @@
             "text": "Wow, vilket fenomen!"
         },
         "wm-property": "in-reply-to"
+    },
+    {
+        "author": {
+            "name": "Eija",
+            "photo": false,
+            "url": false,
+            "is-me": false
+        },
+        "url": false,
+        "published": "2024-08-05T09:37:40:12+0200",
+        "wm-source": "comment",
+        "wm-target": "https://gustavlindqvist.se/2024/08/04/vandring-pa-stenshuvud/",
+        "content": {
+            "html": "<p>Trevlig läsning Gustav!</p><p>Ni fick en fin tur där!</p>",
+            "text": "Trevlig läsning Gustav! Ni fick en fin tur där!"
+        },
+        "wm-property": "in-reply-to"
     }
 ]
