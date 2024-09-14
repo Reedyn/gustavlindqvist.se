@@ -78,7 +78,6 @@ module.exports = async () => {
                     }
                 });
                 if (!found) {
-                    item.item.category.name = item.item.category.category.name;
                     if (typeof categoryData[item.item.category.category_id] !== 'undefined') {
                         Object.assign(item.item.category, categoryData[item.item.category.category_id]);
                     }
