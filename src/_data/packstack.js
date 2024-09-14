@@ -1,5 +1,4 @@
 const fetch = require("@11ty/eleventy-fetch");
-const cheerio = require("cheerio");
 
 module.exports = async () => {
     const packstack = {};
