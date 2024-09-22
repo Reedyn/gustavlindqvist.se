@@ -351,6 +351,11 @@
         "title": "webbutveckling",
         "type": "subject"
     },
+    "webben": {
+        "title": "webben",
+        "emoji": "\uD83C\uDF10",
+        "type": "subject"
+    },
     "ölbryggning": {
         "title": "ölbryggning",
         "emoji": "\uD83C\uDF7A",
