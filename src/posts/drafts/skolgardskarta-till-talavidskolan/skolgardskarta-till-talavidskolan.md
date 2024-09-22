@@ -38,7 +38,7 @@ I vanliga fall när man fotograferar med drönare behöver man få ett [spridnin
 
 ![Närbild på detaljer på en orienteringskarta]()
 
-![Hela den färdiga orienteringskartan](){.-wide}
+![Hela den färdiga orienteringskartan](karta.png){.-wide}
 
 Orienteringskartor frångår ibland verkligheten om det underlättar för läsbarheten på kartan, 
 
