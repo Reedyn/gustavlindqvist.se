@@ -23,11 +23,11 @@ Kommunen i sin tur ville ha kontroll hela vägen (som de också tog upp under sa
 
 Boken fick mig att ännu mer uppskatta vilken _fantastisk_ plattform webben är.
 
-Webben, när den fungerar som bäst, fungerar på just detta vis där det aldrig från webbplatsägarens håll går att fullt ut kontrollera hur informationen presenteras. Informationen skickas till en webbläsare eller [användaragent][Wikipedia: Användaragent] som de också kallas som sedan resenterar informationen utifrån en mix av hur webbplatsen/applikationen är uppsatt, hur användaragenten är konstruerad och hur användaren har ställt in sina preferenser i användarangenten. 
+Webben, när den fungerar som bäst, fungerar på just detta vis där det aldrig från webbplatsägarens håll går att fullt ut kontrollera hur informationen presenteras. Informationen skickas till en webbläsare eller [användaragent][Wikipedia: Användaragent] som de också kallas som sedan presenterar informationen utifrån en mix av hur webbplatsen/applikationen är uppsatt, hur användaragenten är konstruerad och hur användaren har ställt in sina preferenser i användarangenten.
 
-Under åren har jag gått till att uppskatta just detta mer och mer. Det är verkligen en *feature* och inte en bugg med webbplattformen. Det är också varför jag uppskattar flera av våra nya lagar som kom från Tillgänglighetsdirektivet som delvis kodifierar vissa av dessa tankar i juridik utöver det som redan fanns i kod.
+Under åren har jag gått till att uppskatta just detta mer och mer. Det är verkligen en *feature* och inte en bugg med webbplattformen. Det är också varför jag uppskattar flera av våra nya lagar som kom från Tillgänglighetsdirektivet som kodifierar vissa av dessa tankar i juridik utöver det som redan fanns i kod.
 
-Det är ytterligare ett exempel på varför många företag gillar appar så mycket: det ger större kontroll än de skulle haft på webben.
+Det är ytterligare ett exempel på varför många organisationer gillar appar så mycket och som Stockholms kommun tog upp i mötet jag nämnde tidigare: **det ger större kontroll än de skulle haft på webben**.
 
 Avslutar med ett till lästips om användaragenter från Cory Doctorow: [The disenshittified internet starts with loyal "user agents"]
 
