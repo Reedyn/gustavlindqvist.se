@@ -1,62 +1,64 @@
 .site-header {
-    background-color: var(--color__background);
+	background-color: var(--color__background);
 }
 
 .site-header__content {
-    position: relative;
-    z-index: 10;
-    display: flex;
-    max-width: var(--max-width__base);
-    flex-direction: row;
-    padding-right: var(--padding__medium);
-    padding-left: var(--padding__medium);
-    margin: auto;
-    color: var(--color__text-alt);
-    font-family: var(--font__meta);
-    line-height: var(--header__height);
+	position: relative;
+	z-index: 10;
+	display: flex;
+	max-width: var(--max-width__base);
+	flex-direction: row;
+	padding-right: var(--padding__medium);
+	padding-left: var(--padding__medium);
+	margin: auto;
+	color: var(--color__text-alt);
+	font-family: var(--font__meta);
+	line-height: var(--header__height);
 
-    .site__title {
-        font-size: 115%;
-        line-height: inherit;
-        letter-spacing: inherit;
-        margin: 0;
+	.site__title {
+		font-size: 115%;
+		line-height: inherit;
+		letter-spacing: inherit;
+		margin: 0;
 
-        a {
-            font-weight: 700;
-        }
-    }
+		a {
+			font-weight: 700;
+		}
+	}
 
-    .site__image {
-        position: relative;
-        top: calc(var(--header__height) * -.05);
-        width: calc(var(--header__height) * .5);
-        margin: 0;
-        margin-right: 0.75em;
-        vertical-align: middle;
-        border-radius: 50%;
-    }
+	.site__image {
+		position: relative;
+		top: calc(var(--header__height) * -0.05);
+		width: calc(var(--header__height) * 0.5);
+		margin: 0;
+		margin-right: 0.75em;
+		vertical-align: middle;
+		border-radius: 50%;
+	}
 
-    a {
-        color: var(--color__text);
-        font-weight: 600;
-        text-decoration: none;
-        &:visited {
-            color: var(--color__text);
-        }
+	a {
+		color: var(--color__text);
+		font-weight: 600;
+		text-decoration: none;
+		&:visited {
+			color: var(--color__text);
+		}
 
-        &:hover, &:focus, &.active {
-            text-decoration: underline;
-        }
-    }
+		&:hover,
+		&:focus,
+		&.active {
+			text-decoration: underline;
+		}
+	}
 
-    .site__description {
-        display: none;
-        font-size: var(--font__size-base);
-        font-family: var(--font__captions);
-        font-style: italic;
+	.site__description {
+		display: none;
+		font-size: var(--font__size-base);
+		font-family: var(--font__captions);
+		font-style: italic;
 
-        @include respond-to(small) {
-            display: inline;
-        }
-    }
+		@include respond-to(small) {
+			display: inline;
+		}
+	}
 }

@@ -2,7 +2,7 @@
 title: "Idag Sverige, imorgon Kina*"
 description: "Imorgon är det dags! Klockan 07:05 lämnar vi Jönköping mot Landvetter för att därifrån ta flyget till London och sen vidare mot Shanghai…"
 date: 2014-04-10
-tags: ['gaming', 'resor', 'kinaresan']
+tags: ["gaming", "resor", "kinaresan"]
 ---
 
 Imorgon är det dags! Klockan 07:05 lämnar vi Jönköping mot Landvetter för att därifrån ta flyget till London och sen vidare mot Shanghai och Kina.{.lead}
@@ -17,6 +17,6 @@ För att varva ner lite innan jag ska sova min sista natt i Sverige på ett tag 
 
 [![Grand Regent Eldrayn i Torchlight 2](200710_screenshots_2014-04-10_00001.jpg)](http://steamcommunity.com/sharedfiles/filedetails/?id=247784611)
 
-_*Tekniskt sett är vi inte framme förrän lördag morgon i Kina men det hade blivit en så tråkig titel med "**Idag Sverige, i övermorgon Kina**"_
+_\*Tekniskt sett är vi inte framme förrän lördag morgon i Kina men det hade blivit en så tråkig titel med "**Idag Sverige, i övermorgon Kina**"_
 
 _Om någon tycker att det är synd att jag inte har kommentarer aktiverat på bloggen så går det utmärkt att skriva till mig på twitter, Facebook eller på något annat ställe där jag finns :)_

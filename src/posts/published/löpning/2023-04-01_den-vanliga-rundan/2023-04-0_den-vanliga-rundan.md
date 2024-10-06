@@ -8,7 +8,6 @@ tags:
     - löpning
     - jkpg
     - trelleborg
-
 ---
 
 När jag tittar på vad jag sprungit för rundor under mitt ganska korta liv kan jag se att de flesta av mina rundor ser ungefär likadana ut. De är alla runt 5--7km och är alltid förbi något trevligt ställe.{.lead}
@@ -21,7 +20,7 @@ Här i Jönköping verkar denna runda för många vara Munksjöpromenaden som g�
 
 ## Trelleborg
 
-Min första sådan runda är i *Trelleborg*{title="Min födelsehemort"} på exakt [exakt 5 kilometer](ostra-stranden_5km.gpx){download}. Den går bara fram och tillbaka längs med stranden mellan Åhus och Gislövs läge. Mestadels på sandiga stigar och gräs.
+Min första sådan runda är i _Trelleborg_{title="Min födelsehemort"} på exakt [exakt 5 kilometer](ostra-stranden_5km.gpx){download}. Den går bara fram och tillbaka längs med stranden mellan Åhus och Gislövs läge. Mestadels på sandiga stigar och gräs.
 
 ![Karta över Östra stranden i Trelleborg med en löprunda utritad med blå linje längs med stranden](Östra-stranden.png){.-wide}
 
@@ -39,7 +38,7 @@ Denna rundan var min vanligaste när jag bodde på Rosenlund, den är [5,3km lå
 
 ### Vattenledningsparken
 
-När jag 2016 flyttade till Munksjöstaden och närmre centrum blev Vattenledningsparken (*numera även naturreservatet Junebäckens källor*) min hemvist med löpskorna.
+När jag 2016 flyttade till Munksjöstaden och närmre centrum blev Vattenledningsparken (_numera även naturreservatet Junebäckens källor_) min hemvist med löpskorna.
 
 ![Klipporna vid Åsendammen under en blå himmel. Dammen är helt stilla och speglar himmel och skog perfekt.](20210517_182656%7E2.jpg "Åsendammen på sommaren"){.-wide}
 

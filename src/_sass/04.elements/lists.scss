@@ -1,75 +1,76 @@
 ul {
-    padding-inline-start: 1.5em;
-    list-style: disc;
-    ul {
-        margin-top: 0;
-        margin-bottom: 0;
-        padding-inline-start: 1em;
-    }
+	padding-inline-start: 1.5em;
+	list-style: disc;
+	ul {
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-inline-start: 1em;
+	}
 }
 
 ol {
-    padding-inline-start: 1.5em;
-    list-style: decimal;
-    ol {
-        margin-top: 0;
-        margin-bottom: 0;
-        padding-inline-start: 1em;
-    }
+	padding-inline-start: 1.5em;
+	list-style: decimal;
+	ol {
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-inline-start: 1em;
+	}
 
-    li {
-        &:last-of-type {
-            margin-bottom: 0;
-        }
-    }
+	li {
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
 }
 
 .contains-task-list {
-    list-style: none;
+	list-style: none;
 }
 
 .-no-style {
-    list-style: none;
-    padding-inline-start: 0;
+	list-style: none;
+	padding-inline-start: 0;
 }
 
 .-inline {
-    padding-inline-start: 0;
-    li, a {
-        display: inline;
-        width: auto;
-        a {
-            display: inline;
-        }
+	padding-inline-start: 0;
+	li,
+	a {
+		display: inline;
+		width: auto;
+		a {
+			display: inline;
+		}
 
-        &:not(:last-child):after {
-            content: "·";
-            display: inline-block;
-            margin: 0 0.4em;
-        }
-    }
+		&:not(:last-child):after {
+			content: "·";
+			display: inline-block;
+			margin: 0 0.4em;
+		}
+	}
 }
 
 .-icons {
-    padding-inline-start: 0;
-    display: flex;
-    flex-direction: column;
-    grid-gap: .4em;
+	padding-inline-start: 0;
+	display: flex;
+	flex-direction: column;
+	grid-gap: 0.4em;
 
-    > li {
-        display: flex;
+	> li {
+		display: flex;
 
-        >:first-child {
-            width: 1.5em;
-        }
+		> :first-child {
+			width: 1.5em;
+		}
 
-        :nth-child(2) {
-            flex: 1;
-        }
-    }
+		:nth-child(2) {
+			flex: 1;
+		}
+	}
 }
 
 .task-list-item-checkbox {
-    margin-left: -1.6em; // Move the checkbox to the left to match other lists indentation.
-    vertical-align: baseline;
+	margin-left: -1.6em; // Move the checkbox to the left to match other lists indentation.
+	vertical-align: baseline;
 }

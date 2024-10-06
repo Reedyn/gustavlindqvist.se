@@ -3,8 +3,7 @@ title: "Vandring kring Skälderviken"
 feature_image: Gustav-Lindqvist_2018-08-02_1079.jpg
 description: "Efter att ha pratat om att åka till Kullaberg ett tag tog vi ett ganska spontant beslut om att åka iväg."
 date: 2018-08-12
-tags: ['friluftsliv', 'kullaberg', 'sommar']
-
+tags: ["friluftsliv", "kullaberg", "sommar"]
 ---
 
 Efter att ha pratat om att åka till Kullaberg ett tag tog vi ett ganska spontant beslut om att åka iväg.
@@ -55,4 +54,3 @@ Denna dagen blev om möjligt ännu varmare så det blev inte så mycket vandring
 ::::
 
 När vi sen skulle åka därifrån blev kön extremt lång till båten, vi var lite oroliga att vi inte skulle få plats men båten slukade alla passagerare utan problem och vi fick till och med bästa läktarplats för resan tillbaka.
-

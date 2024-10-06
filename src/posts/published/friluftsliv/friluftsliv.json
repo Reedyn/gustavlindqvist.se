@@ -1,8 +1,8 @@
 {
-  "series": "friluftsliv",
-  "style": {
-    "hue": "130deg",
-    "hueSecondary": "80deg",
-    "lightnessSecondary": "90%"
-  }
+	"series": "friluftsliv",
+	"style": {
+		"hue": "130deg",
+		"hueSecondary": "80deg",
+		"lightnessSecondary": "90%"
+	}
 }

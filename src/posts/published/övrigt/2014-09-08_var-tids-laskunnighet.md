@@ -4,7 +4,7 @@ description: ""
 date: 2014-09-08
 ---
 
-Eftersom det är läskunnighetsdagen idag *(eller [läsk-unnighetsdagen som någon på twitter föreslog](https://twitter.com/PierreMathisson/status/508875082098540544))* tänkte jag skriva lite om vad jag tror är dagens motsvarighet till läskunnighet: [Computational Thinking](http://en.wikipedia.org/wiki/Computational_thinking) (CT) eller **teknisk förståelse** _(bästa översättningen som jag klarade av)_.
+Eftersom det är läskunnighetsdagen idag _(eller [läsk-unnighetsdagen som någon på twitter föreslog](https://twitter.com/PierreMathisson/status/508875082098540544))_ tänkte jag skriva lite om vad jag tror är dagens motsvarighet till läskunnighet: [Computational Thinking](http://en.wikipedia.org/wiki/Computational_thinking) (CT) eller **teknisk förståelse** _(bästa översättningen som jag klarade av)_.
 
 [CT beskrivs som en av de viktigaste egenskaperna vi kan lära ut i informationssamhället vi lever i idag v Jeanette Wing](https://www.cs.cmu.edu/~15110-s13/Wing06-ct.pdf). Vi har datorer och mjukvara överallt omkring oss idag; De flesta skulle inte kunna klara sig igenom en enda dag utan att komma i kontakt med det. Trots det är det väldigt få som har förståelse för systemen, de ses som magi av de flesta.
 
@@ -26,6 +26,6 @@ I Storbritannien har man förstått vilken viktigt kunskap detta är och [där s
 
 **[Vi är bara i början av en teknisk utveckling som kommer att explodera de kommande åren](http://www.forbes.com/sites/gregsatell/2014/04/05/why-the-digital-revolution-is-really-just-getting-started/) och förståelsen för våra system vi är och kommer bli ännu mer beroende av är avgörande för samhället.**
 
-Vänta inte på att Sverige tar efter Storbritannien utan hjälp de i din närhet att få upp ögonen för programmering och *"hacking"*. Det finns många resurser, som till exempel [Code.org](http://code.org/learn) eller [Codecademy](http://www.codecademy.com/). Jag rekommenderar dig som har egna barn själv eller i din närhet att köpa en [Raspberry Pi](http://www.raspberrypi.org/) och [gör lite enklare övningar](http://it-ebooks.info/read/3552/), det krävs inte mycket för att det ska bli kul, programmering är juh trots allt enormt kul i sig 😀
+Vänta inte på att Sverige tar efter Storbritannien utan hjälp de i din närhet att få upp ögonen för programmering och _"hacking"_. Det finns många resurser, som till exempel [Code.org](http://code.org/learn) eller [Codecademy](http://www.codecademy.com/). Jag rekommenderar dig som har egna barn själv eller i din närhet att köpa en [Raspberry Pi](http://www.raspberrypi.org/) och [gör lite enklare övningar](http://it-ebooks.info/read/3552/), det krävs inte mycket för att det ska bli kul, programmering är juh trots allt enormt kul i sig 😀
 
-*[CT]: Computational Thinking
+\*[CT]: Computational Thinking

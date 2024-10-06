@@ -11,7 +11,7 @@ tags:
 
 En liten löprapport från Tiomila 2024 i Nynäshamn.{.lead}
 
-Äntligen var det dags för Tiomila igen! [Det var två år sen vi sprang sist, då i Örebro](/2022/05/08/tiomila-2022-i-annaboda-orebro/). TC var på Kvarnängens idrottsplats med väldigt fina faciliteter med riktiga inomhusduschar *(jämfört med vad vi orienterare normalt är vana vid som till exempel en dusch bestående av en lastpall och en vattenslang)*.
+Äntligen var det dags för Tiomila igen! [Det var två år sen vi sprang sist, då i Örebro](/2022/05/08/tiomila-2022-i-annaboda-orebro/). TC var på Kvarnängens idrottsplats med väldigt fina faciliteter med riktiga inomhusduschar _(jämfört med vad vi orienterare normalt är vana vid som till exempel en dusch bestående av en lastpall och en vattenslang)_.
 
 Till skillnad från tidigare år så gick starten (för herrarna) på dagen och höll på i tre sträckor, därefter var det uppehåll till 23:30 då sträcka 4 jaktstartade (alla lag som var mindre än en timme efter första laget). De lag som var mer än en timme efter första laget startade från 00:30 i en vågstart.
 
@@ -41,4 +41,4 @@ Precis på slutet (mellan kontroll 12 och 13) gjorde jag en rejäl vurpa där ja
 
 Som vanligt med Tiomila och andra stora lopp så är det nervöst före, intensivt under och skönt när man är i mål. Nu när tröttheten äntligen släppt börjar jag svagt ladda upp mentalt inför nästa års upplaga i Finspång.
 
-*[TC]: Tävlingcentrum
+\*[TC]: Tävlingcentrum

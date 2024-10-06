@@ -3,8 +3,7 @@ title: "Vattenstaden Jönköping"
 feature_image: Gustav-Lindqvist_2014-09-27_0063.jpg
 description: "När man bor i en stad blir man lätt blind för allt som egentligen gör staden speciell. Visst, många smultronställen hittar man inte som…"
 date: 2014-09-28
-tags: ['friluftsliv', 'jkpg', 'sommar']
-
+tags: ["friluftsliv", "jkpg", "sommar"]
 ---
 
 När man bor i en stad blir man lätt blind för allt som egentligen gör staden speciell. Visst, många smultronställen hittar man inte som turist men samtidigt är det många ställen man inte ens ser för att man har dem rakt framför näsan.

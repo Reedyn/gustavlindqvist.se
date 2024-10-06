@@ -5,7 +5,6 @@ date: 2014-10-01
 tags:
     - design
     - ux
-
 ---
 
 Jag tror på öppen källkod och fri mjukvara. Många problem inom teknologin beror på att vi har sluten källkod i till stor del otestad mjukvara. Nu är det inte så att man löser alla sina problem genom att öppna upp källkoden. **För att öppen mjukvara ska fungera som bäst krävs ett intresse.** Ett intresse av communityn som använder mjukvaran att underhålla och förbättra systemet som de förlitar sig på. Och desto större intresse desto fler ögon och då upptäcks buggar snabbare och förbättringar utvecklas snabbare; Alla vinner.

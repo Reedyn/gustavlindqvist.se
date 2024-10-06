@@ -1,29 +1,31 @@
 .tags {
-    color: var(--color__text-alt);
-    font-family: var(--font__meta);
-    .tag {
-        display: inline-block;
-        margin-right: .4em;
-        color: inherit;
-        background: oklch(60% 0 0deg / 0.15);
-        padding: 0 .5em;
-        margin-bottom: .4em;
+	color: var(--color__text-alt);
+	font-family: var(--font__meta);
+	.tag {
+		display: inline-block;
+		margin-right: 0.4em;
+		color: inherit;
+		background: oklch(60% 0 0deg / 0.15);
+		padding: 0 0.5em;
+		margin-bottom: 0.4em;
 
-        a {
-            text-decoration: none;
-            color: var(--color__text);
+		a {
+			text-decoration: none;
+			color: var(--color__text);
 
-            &:hover,
-            &:focus {
-                text-decoration: underline;
-                color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
-                background: none;
+			&:hover,
+			&:focus {
+				text-decoration: underline;
+				color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
+				background: none;
 
-                &:visited {
-                    color: oklch(var(--color__lightness-secondary) var(--color__chroma-secondary) var(--color__hue-secondary));
-                    background: none;
-                }
-            }
-        }
-    }
+				&:visited {
+					color: oklch(
+						var(--color__lightness-secondary) var(--color__chroma-secondary) var(--color__hue-secondary)
+					);
+					background: none;
+				}
+			}
+		}
+	}
 }

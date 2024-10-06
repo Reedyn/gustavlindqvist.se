@@ -52,6 +52,7 @@ Andra dagen tog vi tunnelbanan bort mot kyrkan Sacré-Cœur. Det var även en li
 ![Kyrkan Sacré-Cœur med fokus på en av de mindre tornen.](Gustav-Lindqvist_2019-07-22_07032.jpg){.-inline}
 ![Kyrkan Sacré-Cœur sett från botten av parken intill](Gustav-Lindqvist_2019-07-22_07036.jpg){.-inline}
 :::
+
 <figcaption><p>Kyrkan Sacré-Cœur</p></figcaption>
 ::::
 

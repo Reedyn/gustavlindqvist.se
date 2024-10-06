@@ -1,19 +1,19 @@
 {
-    "env": {
-        "browser": true,
-        "es6": true
-    },
-    "extends": "eslint:recommended",
-    "rules": {
-        "linebreak-style": ["error", "unix"],
-        "quotes": [ "error", "single"],
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"extends": "eslint:recommended",
+	"rules": {
+		"linebreak-style": ["error", "unix"],
+		"quotes": ["error", "single"],
 		"array-bracket-spacing": 2,
 		"brace-style": 2,
 		"comma-dangle": 2,
 		"comma-spacing": 1,
 		"comma-style": [1, "last", { "exceptions": { "VariableDeclaration": true } }],
 		"curly": 2,
-		"dot-notation": [1, {"allowKeywords": false }],
+		"dot-notation": [1, { "allowKeywords": false }],
 		"eol-last": [2, "always"],
 		"eqeqeq": 2,
 		"indent": [1, 4],
@@ -21,8 +21,8 @@
 		"keyword-spacing": 1,
 		"new-cap": 0,
 		"no-continue": 2,
-		"no-empty": [2, {"allowEmptyCatch": true}],
-		"no-multiple-empty-lines": [1, {"max": 2}],
+		"no-empty": [2, { "allowEmptyCatch": true }],
+		"no-multiple-empty-lines": [1, { "max": 2 }],
 		"no-eval": 2,
 		"no-implied-eval": 2,
 		"no-mixed-spaces-and-tabs": 2,
@@ -40,13 +40,23 @@
 		"semi": 2,
 		"semi-spacing": 1,
 		"space-before-blocks": 1,
-		"space-before-function-paren": [1, {"anonymous": "always", "named": "never"}],
+		"space-before-function-paren": [1, { "anonymous": "always", "named": "never" }],
 		"space-in-parens": 1,
 		"space-infix-ops": 1,
 		"space-unary-ops": 1,
 		"vars-on-top": 0,
 		"wrap-iife": 2,
-		"no-unused-vars": [1, {"vars": "local"}],
-		"max-len": [1, {"code": 100, "tabWidth": 4, "ignoreTemplateLiterals": true, "ignoreRegExpLiterals": true, "ignoreStrings": false, "ignoreComments": true}]
-    }
+		"no-unused-vars": [1, { "vars": "local" }],
+		"max-len": [
+			1,
+			{
+				"code": 100,
+				"tabWidth": 4,
+				"ignoreTemplateLiterals": true,
+				"ignoreRegExpLiterals": true,
+				"ignoreStrings": false,
+				"ignoreComments": true
+			}
+		]
+	}
 }

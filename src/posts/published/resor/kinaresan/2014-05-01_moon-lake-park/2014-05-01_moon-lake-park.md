@@ -12,7 +12,6 @@ tags:
 
 En kort taxiresa från campus i Ningbo ligger 月湖, eller Moon Lake Park som det också heter. Jag och Jossan tog en eftermiddag och kväll här borta från resten av gänget och gick runt och fotograferade.{.lead}
 
-
 :::: gallery {.-wide}
 ::: row
 ![Josefine fotograferar med sin systemkamera.](_OLY0334_L.jpg){.-inline}

@@ -4,28 +4,28 @@ All colors used throughout the theme
 ------------------- */
 
 :root {
-  --color__accent: oklch(50% 0.25 270deg);
-  --color__accent-secondary: oklch(50% 0.25 310deg);
+	--color__accent: oklch(50% 0.25 270deg);
+	--color__accent-secondary: oklch(50% 0.25 310deg);
 
-  --color__hue: 270deg;
-  --color__hue-secondary: 310deg;
+	--color__hue: 270deg;
+	--color__hue-secondary: 310deg;
 
-  --color__lightness: 50%;
-  --color__lightness-secondary: 50%;
-  --color__chroma: .25;
-  --color__chroma-secondary: .25;
+	--color__lightness: 50%;
+	--color__lightness-secondary: 50%;
+	--color__chroma: 0.25;
+	--color__chroma-secondary: 0.25;
 
-  --color__background: white;
-  --color__background__alt: oklch(97% 0 0deg);
-  --color__background__widget: oklch(95% 0 0deg);
-  --color__background__contrast: oklch(15% 0 0deg);
-  --color__background__contrast__widget: oklch(8% 0 0deg);
-  --color__background__contrast__alt: oklch(2% 0 0deg);
-  --color__background__gradient: linear-gradient(180deg, transparent 0, white 100%);
-  --color__overlay: oklch(0% 0 0deg / 0.5);
+	--color__background: white;
+	--color__background__alt: oklch(97% 0 0deg);
+	--color__background__widget: oklch(95% 0 0deg);
+	--color__background__contrast: oklch(15% 0 0deg);
+	--color__background__contrast__widget: oklch(8% 0 0deg);
+	--color__background__contrast__alt: oklch(2% 0 0deg);
+	--color__background__gradient: linear-gradient(180deg, transparent 0, white 100%);
+	--color__overlay: oklch(0% 0 0deg / 0.5);
 
-  --color__text: black;
-  --color__text-alt: oklch(25% 0 0deg);
-  --color__text__contrast: white;
-  --color__text__contrast__alt: oklch(73% 0 0deg);
+	--color__text: black;
+	--color__text-alt: oklch(25% 0 0deg);
+	--color__text__contrast: white;
+	--color__text__contrast__alt: oklch(73% 0 0deg);
 }

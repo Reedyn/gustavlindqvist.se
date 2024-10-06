@@ -3,8 +3,7 @@ title: "Att fotografera solnedgångar"
 feature_image: _GUS0159-Edit-2.jpg
 description: "Solnedgångar är en av de finaste tiderna man kan fotografera landskap i men det kan också vara något av de mest komplicerade man kan…"
 date: 2014-07-25
-tags: ['fotografering', 'stöttingfjället']
-
+tags: ["fotografering", "stöttingfjället"]
 ---
 
 Solnedgångar är en av de finaste tiderna man kan fotografera landskap i men det kan också vara något av de mest komplicerade man kan fotografera.{.lead}
@@ -44,7 +43,7 @@ _Bilderna redigeras sedan individuellt för varje scen, i detta exemplet en bild
 
 Jag väljer alltid en bild som är bas, i detta fallet så valde jag ängen. Sedan maskar jag in de andra bilderna, först ängsbilden utan glare och sist himmelen.
 
-_Med denna metod kan jag efterbehandla nästan vilken scen som helst väldigt snabbt. Oavsett hur stor den dynamiska bredden är. Medans Tonmappning via tex Photoshops inbyggda ****Merge to HDR****\-funktion eller Photomatix inte enkelt klarar av en extrem scen som en stjärnhimmel till exempel._
+_Med denna metod kan jag efterbehandla nästan vilken scen som helst väldigt snabbt. Oavsett hur stor den dynamiska bredden är. Medans Tonmappning via tex Photoshops inbyggda \***\*Merge to HDR\*\***\-funktion eller Photomatix inte enkelt klarar av en extrem scen som en stjärnhimmel till exempel._
 
 Slutresultatet ser man nedan, oftast kan man ganska lätt nå samma resultat via tonmappning _([faktiskt så gjorde jag detta för exemplet för att testa](https://www.flickr.com/gp/gustavlindqvist/4zLoDy), den stora skillnaden här är just sämre detaljer på ängen pga att inte bilden där jag täckte solen var med)._ Men en bild som [denna bild på stjärnhimmelen över Jönköping](https://www.flickr.com/photos/gustavlindqvist/8564096273/) där exponeringsskillnaden är extremt stor hade inte varit möjlig med tonmappning.
 

@@ -23,6 +23,3 @@ permalink: "/cykling/planeringsverktyg/index.html"
 
 ![Vy över vättern från Domsand](https://www.domsand.org/webcam/vattern/rename_returnjpg.php "Mot Vättern")
 ![Vy över hamnen i Domsand](https://www.domsand.org/webcam/hamn/rename_returnjpg.php "Mot hamnen")
-
-
-

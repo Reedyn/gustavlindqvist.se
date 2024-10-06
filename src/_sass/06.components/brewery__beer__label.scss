@@ -1,23 +1,22 @@
 .post-header .post-title {
-    .beer-label {
-        max-width: 100%;
-        width: 40rem;
-        display: block;
-        color: var(--color__text);
-    }
-
-
+	.beer-label {
+		max-width: 100%;
+		width: 40rem;
+		display: block;
+		color: var(--color__text);
+	}
 }
 .beer-title {
-    a {
-        .beer-label {
-            color: var(--color__text);
-            aspect-ratio: 2/1;
-        }
-        &:hover, &:visited {
-            .beer-label {
-                color: var(--color__text);
-            }
-        }
-    }
+	a {
+		.beer-label {
+			color: var(--color__text);
+			aspect-ratio: 2/1;
+		}
+		&:hover,
+		&:visited {
+			.beer-label {
+				color: var(--color__text);
+			}
+		}
+	}
 }

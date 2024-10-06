@@ -5,7 +5,6 @@ description: "Ultra Interval Challenge är event flera gånger per år som går 
 date: 2016-07-23
 tags:
     - löpning
-
 ---
 
 Ultra Interval Challenge är event flera gånger per år som går över hela världen där alla springer individuellt (eller i grupp) i sin egen takt men man springer samtidigt som alla andra.
@@ -42,7 +41,6 @@ Fick sovit lite mer än 30 minuter efter andra intervallen, nu är det nog som v
 Efter att ha kommit ut så försvann tröttheten från uppvaknandet och det blev som alla andra morgonrundor: **underbart** :)
 
 ![En graf som visar tempo på en löprunda på 5km. Sluttiden är 32:53](chrome_2016-07-23_06-59-51.png)
-
 
 ## Intervall 4 (09:00)
 

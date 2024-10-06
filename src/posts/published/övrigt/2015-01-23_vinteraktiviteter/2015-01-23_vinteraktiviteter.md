@@ -8,7 +8,7 @@ tags:
     - jkpg
 ---
 
-Det är mycket som hänt nu under vintern. Förra veckan började jag med trail running, lite som orientering utan karta, väldigt kul! I onsdags körde vi backträning i skidbacken, *det var tungt!*
+Det är mycket som hänt nu under vintern. Förra veckan började jag med trail running, lite som orientering utan karta, väldigt kul! I onsdags körde vi backträning i skidbacken, _det var tungt!_
 
 :::: gallery {.-wide}
 ::: row
@@ -24,5 +24,4 @@ Det är mycket som hänt nu under vintern. Förra veckan började jag med trail 
 
 Under julhelgen bestämde jag mig för att börja med geocaching. Nu är jag uppe i 10 stycken och kan nog säga att jag är fast :)
 
-Ovan finns de som blivit plockade *(gröna punkter)* och några som försökt plockas *(de som är röda)*. Jag börjar få lite paranoia över att cacherna ska vara försvunna när en inte hittar efter ett långt letande.
-
+Ovan finns de som blivit plockade _(gröna punkter)_ och några som försökt plockas _(de som är röda)_. Jag börjar få lite paranoia över att cacherna ska vara försvunna när en inte hittar efter ett långt letande.

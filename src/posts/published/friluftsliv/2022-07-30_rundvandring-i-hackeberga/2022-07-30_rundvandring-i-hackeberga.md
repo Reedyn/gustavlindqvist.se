@@ -5,11 +5,11 @@ feature_image: "Gustav-Lindqvist_2022-07-27_05436.jpg"
 series: "friluftsliv"
 date: 2022-07-30 16:00:00 +2
 tags:
-  - friluftsliv
-  - skåneleden
-  - sommar
+    - friluftsliv
+    - skåneleden
+    - sommar
 ---
-  
+
 I onsdags var vi och vandrade en runda i Häckeberga på ~12km. Vi ville utgå från samma plats för att bara behöva en bil så vi valde att inte gå en av de etablerade lederna i området.
 
 ![Karta över Häckeberga med vandringsrundan utritad med streckad blå linje.](Rundvandring-vid-Häckeberga_Karta.jpg){.-full}

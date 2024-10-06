@@ -7,9 +7,9 @@ tags:
     - fotografering
 ---
 
- - Ett gammalt uttryck som tolkat handlar mer om att bara komma ut och fotografera och använda det man har med sig.
- - Smarta telefoner
- - Kompaktkamerans död
+-   Ett gammalt uttryck som tolkat handlar mer om att bara komma ut och fotografera och använda det man har med sig.
+-   Smarta telefoner
+-   Kompaktkamerans död
 
 ## Systemkamerans död?
 

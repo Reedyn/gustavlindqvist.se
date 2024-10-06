@@ -1,42 +1,41 @@
 ol.game-list {
-    margin-block-start: 1em;
-    list-style: none;
-    padding-inline-start: 0;
+	margin-block-start: 1em;
+	list-style: none;
+	padding-inline-start: 0;
 }
 
 .game-list__item {
-    display: flex;
-    margin-bottom: var(--margin__small);
-    &:last-child {
-        margin-bottom: 0;
-    }
+	display: flex;
+	margin-bottom: var(--margin__small);
+	&:last-child {
+		margin-bottom: 0;
+	}
 
-    .icon {
-        width: 1em;
-        margin-left: 0;
-        margin-bottom: 0;
-        margin-top: .4em;
-        margin-right: .5em;
+	.icon {
+		width: 1em;
+		margin-left: 0;
+		margin-bottom: 0;
+		margin-top: 0.4em;
+		margin-right: 0.5em;
 
-        &.-large {
-            width: 2em;
-        }
-    }
+		&.-large {
+			width: 2em;
+		}
+	}
 
-    .game-title {
-        margin: 0;
-        font-size: var(--font__size__heading-4);
-    }
+	.game-title {
+		margin: 0;
+		font-size: var(--font__size__heading-4);
+	}
 
-    &-content {
+	&-content {
+	}
 
-    }
+	p {
+		margin: 0;
+	}
 
-    p {
-        margin: 0;
-    }
-
-    .game-metadata {
-        color: var(--color__text-alt);
-    }
+	.game-metadata {
+		color: var(--color__text-alt);
+	}
 }

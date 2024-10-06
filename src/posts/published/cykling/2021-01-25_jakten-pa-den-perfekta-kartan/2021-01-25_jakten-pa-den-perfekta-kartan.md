@@ -3,10 +3,10 @@ title: "Jakten på den perfekta kartan (för Garmin Edge)"
 feature_image: Gustav-Lindqvist_2021-01-25_01720.jpg
 description: "Efter ha fått en Garmin Edge 530 cykeldator i julklapp tänkte jag se om jag kunde få till kartan på ett bra sätt."
 date: 2021-01-25
-tags: 
+tags:
     - cykling
     - kartor
-permalink: "/{{ page.date | dateFolder}}/jakten-pa-den-perfekta-kartan/index.html"  
+permalink: "/{{ page.date | dateFolder}}/jakten-pa-den-perfekta-kartan/index.html"
 ---
 
 Efter ha fått en Garmin Edge 530 cykeldator i julklapp tänkte jag se om jag kunde få till kartan på ett bra sätt.{.lead}
@@ -15,10 +15,9 @@ Efter ha fått en Garmin Edge 530 cykeldator i julklapp tänkte jag se om jag ku
 
 Garmins cykeldatorer kan göra mycket och har en ganska trevlig skärm för att visa kartor, men kartorna som kommer förinstallerade på enheten lämnar en del i övrigt att önska.
 
-* Data är väldigt utdaterad, min enhet kom med tidsstämpel från 2019
-* Kartdesignen känns inte helt genomtänkt, det är mycket kontrast på saker som inte är något man bryr sig om (skog/vatten) samtidigt som vissa vägar är lite svåra att se.
-* Färgerna är lite för mörka som i kombination med att Garmins färger för att visa rutter också är mörka skapar problem (navigeringslinjen är alltid lila t ex)
-
+-   Data är väldigt utdaterad, min enhet kom med tidsstämpel från 2019
+-   Kartdesignen känns inte helt genomtänkt, det är mycket kontrast på saker som inte är något man bryr sig om (skog/vatten) samtidigt som vissa vägar är lite svåra att se.
+-   Färgerna är lite för mörka som i kombination med att Garmins färger för att visa rutter också är mörka skapar problem (navigeringslinjen är alltid lila t ex)
 
 ## OpenMTBMap
 
@@ -50,9 +49,9 @@ Ni som känner mig ser säkert åt vilket håll detta oundvikligen är på väg.
 
 Jag får då några fördelar:
 
-* Jag kan styra exakt hur kartan ser ut och vad som ska visas
-* Jag kan uppdatera kartan hur ofta jag vill
-* Jag får en massa extra arbete
+-   Jag kan styra exakt hur kartan ser ut och vad som ska visas
+-   Jag kan uppdatera kartan hur ofta jag vill
+-   Jag får en massa extra arbete
 
 Första frågan är då vilket utseende jag vill ha på kartan. Jag gillar designen och valen som tagits med kartrenderingen [CyclOSM], så jag tänkte att det kan vara en bra utgångspunkt.
 
@@ -68,7 +67,7 @@ Så blev mitt första utkast, redan en tydlig förbättring. Jag valde att göra
 
 Vet du inte hur du installerar kartan? [DC Rainmaker har skrivit en guide för hur du installerar kartor på din Garmin-enhet](https://www.dcrainmaker.com/2013/05/download-garmin-705800810.html#part-ii-installing-the-maps).
 
-*[DIY]: Do it yourself
+\*[DIY]: Do it yourself
 
 [CyclOSM]: https://cyclosm.org
 [mkgmap]: https://www.mkgmap.org.uk

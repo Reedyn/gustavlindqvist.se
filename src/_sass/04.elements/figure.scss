@@ -1,76 +1,83 @@
 figure {
-    > br {
-        display: none;
-    }
-    figcaption {
-        margin: 0;
-        font-family: var(--font__captions);
-        font-style: italic;
-        text-align: center;
-    }
+	> br {
+		display: none;
+	}
+	figcaption {
+		margin: 0;
+		font-family: var(--font__captions);
+		font-style: italic;
+		text-align: center;
+	}
 
-    @include respond-to(medium) {
-        margin-top: var(--margin__medium);
-        margin-bottom: var(--margin__medium);
-    }
+	@include respond-to(medium) {
+		margin-top: var(--margin__medium);
+		margin-bottom: var(--margin__medium);
+	}
 
-    &.-full {
-        > picture img, > img, iframe, > div {
-            position: relative;
-            width: 100vw; /* Or whatever max width is */
-            margin-left: calc(50% - 50vw); /* 50vw equals half the width */
-            margin-right: calc(50% - 50vw);
-            max-width: none;
-        }
-    }
+	&.-full {
+		> picture img,
+		> img,
+		iframe,
+		> div {
+			position: relative;
+			width: 100vw; /* Or whatever max width is */
+			margin-left: calc(50% - 50vw); /* 50vw equals half the width */
+			margin-right: calc(50% - 50vw);
+			max-width: none;
+		}
+	}
 
-    &.-pixels {
-        image-rendering: crisp-edges;
-    }
+	&.-pixels {
+		image-rendering: crisp-edges;
+	}
 
-    &.-wide {
-        --card__extra-width: 0rem;
-        @include respond-to(medium) {
-            margin-top: var(--margin__medium);
-            margin-bottom: var(--margin__medium);
-        }
+	&.-wide {
+		--card__extra-width: 0rem;
+		@include respond-to(medium) {
+			margin-top: var(--margin__medium);
+			margin-bottom: var(--margin__medium);
+		}
 
-        @include respond-to(large) {
-            --card__extra-width: 10rem;
+		@include respond-to(large) {
+			--card__extra-width: 10rem;
 
-            > picture img, > img, iframe, > div, > figure.gallery-row {
-                max-width: none;
-                width: calc(var(--max-width__content) + var(--card__extra-width));
-                margin-left: calc(50% - ((var(--max-width__content) + var(--card__extra-width)) / 2));
-            }
-        }
+			> picture img,
+			> img,
+			iframe,
+			> div,
+			> figure.gallery-row {
+				max-width: none;
+				width: calc(var(--max-width__content) + var(--card__extra-width));
+				margin-left: calc(50% - ((var(--max-width__content) + var(--card__extra-width)) / 2));
+			}
+		}
 
-        @include respond-to(huge) {
-            --card__extra-width: 35rem;
-        }
-    }
+		@include respond-to(huge) {
+			--card__extra-width: 35rem;
+		}
+	}
 
-    &.embed {
-        width: 100%;
-        iframe {
-            aspect-ratio: 16/9;
-            height: auto;
-            max-width: 100%;
-            min-width: 100%;
-            @include respond-to(large) {
-                max-width: none;
-            }
-        }
-    }
+	&.embed {
+		width: 100%;
+		iframe {
+			aspect-ratio: 16/9;
+			height: auto;
+			max-width: 100%;
+			min-width: 100%;
+			@include respond-to(large) {
+				max-width: none;
+			}
+		}
+	}
 
-    &.map {
-        iframe {
-            height: 50vh;
-            min-width: 100%;
-        }
-    }
+	&.map {
+		iframe {
+			height: 50vh;
+			min-width: 100%;
+		}
+	}
 
-    .instagram-media {
-        margin: 0 auto !important;
-    }
+	.instagram-media {
+		margin: 0 auto !important;
+	}
 }

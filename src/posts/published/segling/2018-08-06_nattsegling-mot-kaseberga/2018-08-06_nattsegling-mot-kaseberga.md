@@ -7,7 +7,6 @@ tags:
     - segling
     - kåseberga
     - sommar
-    
 ---
 
 Resan ner blev lugn utan vare sig vågor eller vind. Enda seglet som var hissat var järngenoan (motorn).

@@ -1,113 +1,113 @@
 em {
-    font-style: italic;
+	font-style: italic;
 }
 
 .note {
-    padding: var(--margin__medium);
-    background: var(--color__background__alt);
-    color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
+	padding: var(--margin__medium);
+	background: var(--color__background__alt);
+	color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
 
-    &:before {
-        content: "!";
-        display: inline-block;
-        background: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
-        width: 2em;
-        height: 2em;
-        text-align: center;
-        border-radius: 50%;
-        font-weight: 700;
-        color: var(--color__background);
-        line-height: 2em;
-        margin-right: 1em;
-    }
+	&:before {
+		content: "!";
+		display: inline-block;
+		background: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
+		width: 2em;
+		height: 2em;
+		text-align: center;
+		border-radius: 50%;
+		font-weight: 700;
+		color: var(--color__background);
+		line-height: 2em;
+		margin-right: 1em;
+	}
 }
 
 .lead {
-    font-size: 115%;
+	font-size: 115%;
 }
 
 sup {
-    font-size: 85%;
-    vertical-align: super;
-    line-height: .5em;
+	font-size: 85%;
+	vertical-align: super;
+	line-height: 0.5em;
 }
 
 blockquote {
-    padding-left: var(--margin__medium);
-    border-left: 4px solid var(--color__background__alt);
-    color: var(--color__text-alt);
-    font-family: var(--font__quotes);
-    img {
-        width: 100%;
-        margin: var(--margin__medium) 0;
-    }
+	padding-left: var(--margin__medium);
+	border-left: 4px solid var(--color__background__alt);
+	color: var(--color__text-alt);
+	font-family: var(--font__quotes);
+	img {
+		width: 100%;
+		margin: var(--margin__medium) 0;
+	}
 
-    > :first-child {
-        margin-top: 0;
-    }
-    > :last-child {
-        margin-bottom: 0;
-    }
+	> :first-child {
+		margin-top: 0;
+	}
+	> :last-child {
+		margin-bottom: 0;
+	}
 }
 
 q {
-    display: block;
-    font-family: var(--font__quotes);
-    font-size: 125%;
-    font-style: italic;
-    text-align: center;
+	display: block;
+	font-family: var(--font__quotes);
+	font-size: 125%;
+	font-style: italic;
+	text-align: center;
 
-    @include respond-to(small) {
-        width: calc(100% + var(--margin__large));
-        max-width: calc(100% + var(--margin__large));
-        margin-top: var(--margin__large);
-        margin-bottom: var(--margin__medium);
-        margin-left: calc(0% - var(--margin__medium));
-    }
-    &:before,
-    &:after {
-        display: none;
-    }
+	@include respond-to(small) {
+		width: calc(100% + var(--margin__large));
+		max-width: calc(100% + var(--margin__large));
+		margin-top: var(--margin__large);
+		margin-bottom: var(--margin__medium);
+		margin-left: calc(0% - var(--margin__medium));
+	}
+	&:before,
+	&:after {
+		display: none;
+	}
 }
 
 cite {
-    display: block;
-    font-family: var(--font__quotes);
-    font-style: normal;
-    a {
-        border: none;
-        color: inherit;
-    }
-    &:before {
-        content: "\2014 \2009";
-    }
+	display: block;
+	font-family: var(--font__quotes);
+	font-style: normal;
+	a {
+		border: none;
+		color: inherit;
+	}
+	&:before {
+		content: "\2014 \2009";
+	}
 }
 
 strong {
-    font-weight: 700;
+	font-weight: 700;
 }
 
 hr {
-    height: .4rem;
-    border: 0;
-    margin: var(--margin__medium) 0 0;
-    background: var(--color__background__alt);
+	height: 0.4rem;
+	border: 0;
+	margin: var(--margin__medium) 0 0;
+	background: var(--color__background__alt);
 }
 
 abbr {
-    border-bottom-width: 1px;
-    border-bottom-style: dotted;
-    border-bottom-color: var(--color__text);
-    font-variant: all-small-caps;
-    text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: var(--color__text);
+	font-variant: all-small-caps;
+	text-decoration: none;
 }
 
 .center {
-    text-align: center;
+	text-align: center;
 }
 
 kbd {
-    background: var(--color__background__alt);
-    padding: .2em .4em;
-    border-radius: .3em;
+	background: var(--color__background__alt);
+	padding: 0.2em 0.4em;
+	border-radius: 0.3em;
 }

@@ -6,11 +6,11 @@ feature_image: "GOPR1107_1658419674114.JPG"
 feature_image_position: bottom
 series: friluftsliv
 tags:
-  - friluftsliv
-  - cykling
-  - sommar
+    - friluftsliv
+    - cykling
+    - sommar
 ---
-  
+
 Igår mitt under toppen på värmeböljan åkta jag och Jossan iväg till Hultsfred för att cykla dressin[^\[Wikipedia\]^][Wikipedia: Dressin] på de gamla smalspåren med 891mm spårbredd som går mellan Västervik och Hultsfred och är fint bevarade av [föreningen Smalspåret Växjö-Västervik][Föreningen Smalspåret Växjö-Västervik].{.lead}
 
 Vi utgick från Hultsfred och cyklade söderut mot Målilla strax efter klockan 9 på förmiddagen. Den första sträckan gick smalspåret längs med [Stångådalsbanan][Stångådalsbanan på Wikipedia] där de vanliga tågen går på normalspår (1 435mm). Efter 2,5 kilometer vek vårt spår av och sen uppför en vall för att sen passera över Stångådalsbanan på en bro. på samma vis passerade vi sedan över riksväg 34. Övriga vägar passerade vi genom att hoppa av dressinen för att leda den över. Detta delvis eftersom det kom bilar och vi hade väjningsplikt men även för att asfalten ibland gjorde att det lätt gick att spåra ur.

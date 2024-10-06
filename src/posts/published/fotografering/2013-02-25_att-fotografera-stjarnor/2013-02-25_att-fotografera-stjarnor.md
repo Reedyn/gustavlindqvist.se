@@ -3,8 +3,7 @@ title: "Att fotografera stjärnor"
 feature_image: 15258885827_7a56e6f5d6_b.jpg
 description: "Vinterns kalla väder lämpar sig väldigt väldigt till natt-fotografering, i synnerhet till att fotografera stjärnor. Är man riktigt duktig kan man få till fantastiska bilder…"
 date: 2013-02-25
-tags: ['fotografering', 'jkpg']
-
+tags: ["fotografering", "jkpg"]
 ---
 
 **Filmen nedan är en [time-lapse gjord av Alessandro Della Bella](http://helvetiabynight.com/2012/12/20/one-day-on-earth-cold-engadin-time-lapse-night/) under One Day on Earth, 2012-12-12.**
@@ -53,9 +52,9 @@ Fotografering på natten kan bli dyrt eftersom man är begränsad till en viss s
 
 Dessa är:
 
-*   Använd största möjliga bländare, dvs så lågt tal på bländaren som möjligt för maximalt ljusinsläpp
-*   Öka ISO. Stjärnfotografering kräver mycket ljus, man ska inte vara rädd för att pumpa upp ISOn långt högre än man är van vid; Det finns bra brusreduceringsprogram man kan utnyttja efteråt.
-*   Använd bredaste brännvidden. Ett extrem-vidvinkelobjektiv är att rekommendera.
+-   Använd största möjliga bländare, dvs så lågt tal på bländaren som möjligt för maximalt ljusinsläpp
+-   Öka ISO. Stjärnfotografering kräver mycket ljus, man ska inte vara rädd för att pumpa upp ISOn långt högre än man är van vid; Det finns bra brusreduceringsprogram man kan utnyttja efteråt.
+-   Använd bredaste brännvidden. Ett extrem-vidvinkelobjektiv är att rekommendera.
 
 _För att veta vilken bländare och ISO man ska använda är det bra att först veta vilken slutartid man ska använda. Detta är direkt beroende av brännvidden man använder; Desto mer utzoomat man har det desto mindre ser stjärnorna ut och man kan ha en längre slutartid, Därför är extrem-vidvinkelobjektiv som Tokina 11-16 f/2.8 optimala för detta._
 
@@ -68,4 +67,3 @@ Ingen rimlig person sitter och räknar med denna, istället rekommenderar jag at
 Till exempel, ett 7,5mm Fish-eye på en Olympus EM-5 (Micro Four Thirds) ger en effektiv brännvidd på 15mm _(Motsvarande småbildsformat)_ ger med den formeln 21 sekunders exponering. Däremot ett 24mm på en Canon 6D (småbildsformatskamera) ger 10 sekunders exponering.
 
 Vid nattfotografering med stjärnor påverkar alltså brännvidden resultatet enormt.
-

@@ -1,4 +1,4 @@
 {
-  "draft": true,
-  "permalink": "/utkast/{{ title | slug }}/index.html"
+	"draft": true,
+	"permalink": "/utkast/{{ title | slug }}/index.html"
 }

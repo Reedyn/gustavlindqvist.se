@@ -18,10 +18,10 @@ Just för teman är det ganska likt WordPress fast mycket snyggare eftersom det 
 
 Mitt tema som heter Draugur _(Ghost/Spöke på isländska)_ har stöd för följande:
 
-* Omslagsbild
-* Byggd med SCSS
-* Mobile-First responsiv
-* Syntaxmarkering för kod
-* Kommentarer som kan aktiveras enkelt (optimerat för Disqus)
+-   Omslagsbild
+-   Byggd med SCSS
+-   Mobile-First responsiv
+-   Syntaxmarkering för kod
+-   Kommentarer som kan aktiveras enkelt (optimerat för Disqus)
 
 Källkoden kan ses på [GitHub-sidan för projektet](https://github.com/reedyn/Draugur/) där man också kan följa all utveckling. Tanken är att använda projektet för att bygga en personlig struktur för hur jag vill lägga upp projekt med Issues, Milestones, Dokumentation osv.

@@ -20,7 +20,7 @@ Ritprogram för orienteringskartor skiljer sig lite från andra kartprogram i at
 
 Steg 1 för att börja rita en karta är att samla in data. Med utgångspunkt från en av våra tidigare kartor på området gjorde jag en snabb karta med tillräckligt mycket landmärken (som byggnader, staket m.m.) för att kunna göra vettiga anteckningar på plats.
 
-På plats gick jag sedan runt och gjorde en nekel skisskarta ovanpå min initiala karta samtidigt som jag dokumenterade med kamera från marken (lärdom till nästa gång: *ta alltid fler bilder och med vidvinkel*).
+På plats gick jag sedan runt och gjorde en nekel skisskarta ovanpå min initiala karta samtidigt som jag dokumenterade med kamera från marken (lärdom till nästa gång: _ta alltid fler bilder och med vidvinkel_).
 
 ![Bild på kartskiss]()
 
@@ -32,7 +32,7 @@ Med [OpenDroneMap] kan jag sedan använda mig av fotogrammetri[^1] för att sy i
 
 ![Ortofoto över Talavidskolan](2024-09-08_ortofoto_talavidskolan.png "Ortofotot finns publicerad i den öppna datamängden [OpenAerialMap](https://map.openaerialmap.org/#/14.15227621793747,57.78577506174773,18/square/12003212022102000121/66dec62ccd0baa0001b61ffb)")
 
-I vanliga fall när man fotograferar med drönare behöver man få ett [spridningstillstånd från Lantmäteriet] för att få publicera bilderna ^(i\ skrivande\ stund\ är\ det\ en\ handläggningstid\ på\ nästan\ 3\ månader!)^, men det finns vissa undantag, till exempel det för offentliga platser *(skolgårdar utanför skoltid är offentliga platser i Jönköping)* där man inte behöver detta tillstånd.
+I vanliga fall när man fotograferar med drönare behöver man få ett [spridningstillstånd från Lantmäteriet] för att få publicera bilderna ^(i\ skrivande\ stund\ är\ det\ en\ handläggningstid\ på\ nästan\ 3\ månader!)^, men det finns vissa undantag, till exempel det för offentliga platser _(skolgårdar utanför skoltid är offentliga platser i Jönköping)_ där man inte behöver detta tillstånd.
 
 ## Framställning av kartan
 
@@ -40,15 +40,16 @@ I vanliga fall när man fotograferar med drönare behöver man få ett [spridnin
 
 ![Hela den färdiga orienteringskartan](karta.png){.-wide}
 
-Orienteringskartor frångår ibland verkligheten om det underlättar för läsbarheten på kartan, 
+Orienteringskartor frångår ibland verkligheten om det underlättar för läsbarheten på kartan,
 
 ## Finjustering och kvalitetskontroll
 
 ![En bild på en surfplatta med en orienteringskarta på och miljön som kartan föreställer i bakgrunden]()
 
-*[GIS]: Geografiska informationssystem
+\*[GIS]: Geografiska informationssystem
 
 [^1]: Fotogrammetri är en process som tar flera bilder från olika perspektiv för att göra en 3d-modell av ett föremål eller en plats (samma process som gör att vi kan ha djupseende med två ögon).
+
 [^2]: Ortofoto är en bild med ortografisk projektion där alla objekt projiceras utifrån en tänkt mittpunkt, rakt uppifrån varje enskilt objekt, liknande hur man skulle rita en karta.
 
 [OpenDroneMap]: https://www.opendronemap.org/

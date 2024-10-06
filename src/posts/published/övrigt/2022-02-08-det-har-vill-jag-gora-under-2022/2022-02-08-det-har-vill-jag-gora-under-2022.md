@@ -20,52 +20,50 @@ Att det är handhållet kommer göra att jag kan och kommer vilja spela mycket m
 
 Målet är att spela så många spel som möjligt (utan att stressa igenom dem!) i denna listan:
 
-* [x] [Fable Anniversary]
-* [x] [Fable II]
-* [x] [Dark Souls: Remastered] [^1]
-* [x] [Assassin's Creed 2]
-* [x] [Assassin's Creed Brotherhood]
-* [ ] [Mass Effect (Legendary Edition)] [^2]
-* [x] [Spec Ops: The Line]
-* [x] [Subnautica]
-* [ ] [Ori and the Blind Forest]
-* [ ] [Ori and the Will of the Wisps]
-* [ ] [Hollow Knight]
-* [ ] [Assassin's Creed Odyssey]
-* [x] [The Long Dark]
-* [x] [Journey]
-* [ ] [The Ascent]
-* [ ] [The Witcher]
-* [ ] [The Witcher 2: Assassins of Kings]
-* [x] [Star Wars: Battlefront II] [^3]
-* [ ] [Control]
-
+-   [x] [Fable Anniversary]
+-   [x] [Fable II]
+-   [x] [Dark Souls: Remastered] [^1]
+-   [x] [Assassin's Creed 2]
+-   [x] [Assassin's Creed Brotherhood]
+-   [ ] [Mass Effect (Legendary Edition)] [^2]
+-   [x] [Spec Ops: The Line]
+-   [x] [Subnautica]
+-   [ ] [Ori and the Blind Forest]
+-   [ ] [Ori and the Will of the Wisps]
+-   [ ] [Hollow Knight]
+-   [ ] [Assassin's Creed Odyssey]
+-   [x] [The Long Dark]
+-   [x] [Journey]
+-   [ ] [The Ascent]
+-   [ ] [The Witcher]
+-   [ ] [The Witcher 2: Assassins of Kings]
+-   [x] [Star Wars: Battlefront II] [^3]
+-   [ ] [Control]
 
 ![Tältplats i skogen med ett tält och solen som lyser genom träden](Gustav-Lindqvist_2020-08-22_5.jpg){.-full}
-
 
 ## Friluftsliv & träning
 
 Jag gillar att vara ute men har ibland lite svårt att komma till skott, i år skulle jag vilja komma ut både för träning, vandring och tältning men även börja med bikepacking.
 
-- [x] Laga mat ute
-- [x] Tälta
-- [x] Vandra
+-   [x] Laga mat ute
+-   [x] Tälta
+-   [x] Vandra
 
 ### Bikepacking
 
-- [ ] Färdigställa mitt bikepacking kit
-- [ ] Cykla bikepacking
+-   [ ] Färdigställa mitt bikepacking kit
+-   [ ] Cykla bikepacking
 
 ### MTB
 
 Förra året upptäckte jag MTB-stigarna på Vista i Kaxholmen och roligare cykling får man leta efter. I år vill jag cykla mer här. Med en transportsträcka på 15km och ~4km för ett varv på det roligaste varvet (röda slingan utan de jobbigaste klättringarna) så blir transport plus fyra varv rätt lagom på lite över 4 mil. Definitivt en tur som går att köra varannan vecka eller så.
 
-- [x] Cykla mer på Vista
+-   [x] Cykla mer på Vista
 
 Jag har fortfarande inte cyklat på alla MTB-slingor i stan. IKHP och Stensholm finns kvar!
 
-- [ ] Cykla en gång (eller mer) på varje MTB-spår.
+-   [ ] Cykla en gång (eller mer) på varje MTB-spår.
 
 ### Orientering
 
@@ -73,29 +71,31 @@ Förra året gick jag med i Hallby SOK för att vara med i cyklingen men iställ
 
 I år vill jag:
 
-- [x] Träna mer regelbundet med orienteringsgänget på Hallby
-- [x] Springa mer med Hitta ut
+-   [x] Träna mer regelbundet med orienteringsgänget på Hallby
+-   [x] Springa mer med Hitta ut
 
 ## Ölbryggning
 
 2021 var året [jag upptäckte ölbryggning](/hembryggeri/). 2022 Kan bli året när jag tar det till nästa nivå med ett bryggverk för att kunna få lite mer kontroll och även få till lite större satser.
 
-- [x] Köpa ett bryggverk
-- [x] Brygga en sats med lager
-- [x] Brygga en sats med belgisk ale
+-   [x] Köpa ett bryggverk
+-   [x] Brygga en sats med lager
+-   [x] Brygga en sats med belgisk ale
 
 ## OpenStreetMap
 
 Jag redigerar regelbundet på OpenStreetMap, oftast är det detaljer som läggs till från mina cykel- eller löpturer. Det jag skulle vilje få gjort är:
 
-- [ ] Rita klart MTB-spåren i Jönköpings kommun (IKHP!)
-- [ ] Lägga till byggnader i hela Jönköpings innerstad (plus kanske Huskvarna)
+-   [ ] Rita klart MTB-spåren i Jönköpings kommun (IKHP!)
+-   [ ] Lägga till byggnader i hela Jönköpings innerstad (plus kanske Huskvarna)
 
 [^1]: Jag har spelat en del Dark Souls Remastered på min Nintendo Switch men tänkte starta om på Steam Deck med lite bättre prestanda, 60 fps FTW!
+
 [^2]: I Mass Effect Legendary Edition hann jag spela igenom halva Mass Effect 2 innan mitt grafikkort dog.
+
 [^3]: I Battlefront II är det endast enspelarkampanjen jag planerar att spela.
 
-*[FTW]: For the win
+\*[FTW]: For the win
 
 [Fable Anniversary]: https://store.steampowered.com/app/288470/Fable_Anniversary/
 [Fable II]: https://www.xbox.com/sv-SE/games/store/fable-ii/C2WKJJ9F5936

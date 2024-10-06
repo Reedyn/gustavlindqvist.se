@@ -6,7 +6,6 @@ date: 2023-03-25T21:57:30+0100
 tags:
     - fotografering
     - jkpg
-
 ---
 
 Idag valde jag att trotsa regnet och ge mig ut med kameran på en liten fotopromenad. Jag tycker oftast att fint väder är det tråkigaste att fotografera; regn och rusk ger oftast mycket mer dramatiska bilder.{.lead}
@@ -23,7 +22,7 @@ Det var ett stort regnområde som rörde sig norr om staden där vi fick slänga
 
 ![Selfie på Gustav i Stadsparken](photo_2023-03-25_21-49-53.jpg)
 
-I stadsparken [passade jag på att gå på de nya stigarna de håller på att anlägga så att jag sen kunde lägga in dem i OpenStreetMap](https://www.openstreetmap.org/changeset/134107263#map=18/57.78495/14.14255) (min felstavning kommer nu att vara förevigad i datasetet för alltid: *kontstruktion*)
+I stadsparken [passade jag på att gå på de nya stigarna de håller på att anlägga så att jag sen kunde lägga in dem i OpenStreetMap](https://www.openstreetmap.org/changeset/134107263#map=18/57.78495/14.14255) (min felstavning kommer nu att vara förevigad i datasetet för alltid: _kontstruktion_)
 
 ![Stadsparksvallen som skymtas bortom en massa träd i Stadsparken i Jönköping](Gustav-Lindqvist_2023-03-25_08173-Pano.jpg "Stadsparksvallen"){.-full}
 

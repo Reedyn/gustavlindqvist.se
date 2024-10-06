@@ -1,46 +1,46 @@
 ol.book-list {
-    margin-block-start: 1em;
-    list-style: none;
-    padding-inline-start: 0em;
+	margin-block-start: 1em;
+	list-style: none;
+	padding-inline-start: 0em;
 }
 
 .book-list__item {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: var(--margin__medium);
+	display: flex;
+	flex-direction: row;
+	margin-bottom: var(--margin__medium);
 
-    &:last-child {
-        margin-bottom: 0;
-    }
+	&:last-child {
+		margin-bottom: 0;
+	}
 
-    .book-list__cover {
-        width: 5rem;
-        margin-left: 0;
-        margin-bottom: 0;
-        margin-right: .5em;
-    }
+	.book-list__cover {
+		width: 5rem;
+		margin-left: 0;
+		margin-bottom: 0;
+		margin-right: 0.5em;
+	}
 
-    .book-list__cover {
-        width: 5rem;
-        margin-left: 0;
-        margin-bottom: 0;
-        margin-right: .5em;
-    }
+	.book-list__cover {
+		width: 5rem;
+		margin-left: 0;
+		margin-bottom: 0;
+		margin-right: 0.5em;
+	}
 
-    .book-title {
-        margin: 0;
-        font-size: var(--font__size__heading-4);
-    }
+	.book-title {
+		margin: 0;
+		font-size: var(--font__size__heading-4);
+	}
 
-    &-content {
-        flex: 1;
-    }
+	&-content {
+		flex: 1;
+	}
 
-    p {
-        margin: 0;
-    }
+	p {
+		margin: 0;
+	}
 
-    .game-metadata {
-        color: var(--color__text-alt);
-    }
+	.game-metadata {
+		color: var(--color__text-alt);
+	}
 }

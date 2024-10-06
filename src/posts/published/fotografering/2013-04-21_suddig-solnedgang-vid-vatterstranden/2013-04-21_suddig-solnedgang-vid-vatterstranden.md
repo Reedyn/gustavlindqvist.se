@@ -3,7 +3,7 @@ title: "Suddig solnedgång vid Vätterstranden"
 feature_image: _MG_0766_s.jpg
 description: "Jag är nu hemma efter mitt första försök till att få till en solnedgång som timelapse; Detta ska vara något av det besvärligaste man kan…"
 date: 2013-04-21
-tags: ['fotografering', 'jkpg']
+tags: ["fotografering", "jkpg"]
 ---
 
 Jag är nu hemma efter mitt första försök till att få till en solnedgång som timelapse; Detta ska vara något av det besvärligaste man kan göra inom timelapsefotografering och efter att ha läst om vilka problem andra fotografer har haft hade jag inte höga förhoppningar på mitt första försök.

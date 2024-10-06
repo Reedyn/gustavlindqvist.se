@@ -1,293 +1,293 @@
 {
-  "title": "Pocket Casts Feeds",
-  "feeds": [
-    {
-      "title": "99% Invisible",
-      "xml_url": "https://feeds.simplecast.com/BqbsxVfO"
-    },
-    {
-      "title": "Konflikt",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/3967"
-    },
-    {
-      "title": "Embedded",
-      "xml_url": "https://feeds.npr.org/510311/podcast.xml"
-    },
-    {
-      "title": "Vetenskapsradion Klotet",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/6230"
-    },
-    {
-      "title": "En podd om teknik",
-      "xml_url": "https://enpoddomteknik.libsyn.com/rss"
-    },
-    {
-      "title": "Plånboken",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/3970"
-    },
-    {
-      "title": "Sieps Podcast",
-      "xml_url": "https://feeds.acast.com/public/shows/63c1544b9fe97a001109ade8"
-    },
-    {
-      "title": "USApodden",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/22712"
-    },
-    {
-      "title": "Uppkopplad",
-      "xml_url": "https://api.sr.se/api/rss/pod/25620"
-    },
-    {
-      "title": "Robotarna kommer",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/23773"
-    },
-    {
-      "title": "EU Watchdog Radio",
-      "xml_url": "https://feeds.buzzsprout.com/856474.rss"
-    },
-    {
-      "title": "Filosofiska rummet",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/3963"
-    },
-    {
-      "title": "P3 Dystopia",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/26068"
-    },
-    {
-      "title": "Kaliber",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/4016"
-    },
-    {
-      "title": "Kropp & Själ",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/4015"
-    },
-    {
-      "title": "Cykelpodd med Elna och Helena",
-      "xml_url": "https://feed.podbean.com/cykelpodd/feed.xml"
-    },
-    {
-      "title": "App och etikett",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/27442"
-    },
-    {
-      "title": "I lagens namn",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/21147"
-    },
-    {
-      "title": "Ekot fördjupning",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/30920"
-    },
-    {
-      "title": "Kvalificerat Hemligt poddradio",
-      "xml_url": "https://feeds.soundcloud.com/users/soundcloud:users:167287536/sounds.rss"
-    },
-    {
-      "title": "Medierna",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/3951"
-    },
-    {
-      "title": "RÄDSLAN",
-      "xml_url": "https://radslan.libsyn.com/rss"
-    },
-    {
-      "title": "Planet Money",
-      "xml_url": "https://feeds.npr.org/510289/podcast.xml"
-    },
-    {
-      "title": "Politiken",
-      "xml_url": "https://podcast.stream.schibsted.media/svd/267316204?podcast"
-    },
-    {
-      "title": "Scocconomics",
-      "xml_url": "https://feeds.captivate.fm/scocconomics/"
-    },
-    {
-      "title": "Radiokorrespondenterna Ryssland",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/4886"
-    },
-    {
-      "title": "Triple Click",
-      "xml_url": "https://feeds.simplecast.com/6WD3bDj7"
-    },
-    {
-      "title": "P3 Nyheter Dokumentär",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/7565"
-    },
-    {
-      "title": "Det nya tjänstefolket",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/31013"
-    },
-    {
-      "title": "Idag i historien",
-      "xml_url": "https://feeds.acast.com/public/shows/5e8a5f7a3ee51a0462e79fd4"
-    },
-    {
-      "title": "Kinapodden i P1",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/34159"
-    },
-    {
-      "title": "Europapodden",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/22793"
-    },
-    {
-      "title": "Ekonomiekot Extra",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/8749"
-    },
-    {
-      "title": "Vetenskapsradion På djupet",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/4017"
-    },
-    {
-      "title": "Söndagsintervjun",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/21830"
-    },
-    {
-      "title": "Gräns",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/34795"
-    },
-    {
-      "title": "Typo",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/18418"
-    },
-    {
-      "title": "Mediepodden",
-      "xml_url": "https://mediepodden.libsyn.com/rss"
-    },
-    {
-      "title": "UX Podcast",
-      "xml_url": "http://feed.uxpodcast.com/spotify/"
-    },
-    {
-      "title": "Politikrummet",
-      "xml_url": "http://cdn.radioplay.se/data/rss/1433.xml"
-    },
-    {
-      "title": "Det perfekta Kina",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/33522"
-    },
-    {
-      "title": "P4 Världen",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/21472"
-    },
-    {
-      "title": "Money Talks from The Economist",
-      "xml_url": "https://feeds.acast.com/public/shows/39fc4a99-8861-437d-81e2-684d13e48f92"
-    },
-    {
-      "title": "Cykla i P1",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/19424"
-    },
-    {
-      "title": "Godmorgon världen",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/3958"
-    },
-    {
-      "title": "Speljuntan",
-      "xml_url": "https://speljuntan.libsyn.com/rss"
-    },
-    {
-      "title": "P1 Dokumentär",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/4013"
-    },
-    {
-      "title": "Fråga Agnes Wold",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/34530"
-    },
-    {
-      "title": "50 Things That Made the Modern Economy",
-      "xml_url": "https://podcasts.files.bbci.co.uk/p04b1g3c.rss"
-    },
-    {
-      "title": "Tendens – kortdokumentärer",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/6615"
-    },
-    {
-      "title": "Pixelated Playgrounds",
-      "xml_url": "https://www.pixelatedplaygrounds.com/bookclub?format=rss"
-    },
-    {
-      "title": "GigWatch-podden",
-      "xml_url": "https://anchor.fm/s/e88b144/podcast/rss"
-    },
-    {
-      "title": "P1 Dokumentär: Miniserie",
-      "xml_url": "https://api.sr.se/api/rss/pod/33639"
-    },
-    {
-      "title": "Besluten som format Sverige",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/24083"
-    },
-    {
-      "title": "Today in Focus",
-      "xml_url": "https://www.theguardian.com/news/series/todayinfocus/podcast.xml"
-    },
-    {
-      "title": "P3 Krim",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/34482"
-    },
-    {
-      "title": "Ekots lördagsintervju",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/3953"
-    },
-    {
-      "title": "Vandringspodden",
-      "xml_url": "https://feeds.soundcloud.com/users/soundcloud:users:426816666/sounds.rss"
-    },
-    {
-      "title": "PUSHBACK Talks",
-      "xml_url": "https://feeds.buzzsprout.com/1189295.rss"
-    },
-    {
-      "title": "Känsligt läge",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/22029"
-    },
-    {
-      "title": "Innovationslandet",
-      "xml_url": "https://feeds.libsyn.com/397913/rss"
-    },
-    {
-      "title": "The Anthropocene Reviewed",
-      "xml_url": "https://feeds.simplecast.com/p7S4nr_h"
-    },
-    {
-      "title": "Beredskap",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/37282"
-    },
-    {
-      "title": "OK Boomer",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/40631"
-    },
-    {
-      "title": "P1:s Mellanösternpodd",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/35902"
-    },
-    {
-      "title": "Prylarnas pris",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/10468"
-    },
-    {
-      "title": "Sommar & Vinter i P1",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/4023"
-    },
-    {
-      "title": "Studio Ett",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/4021"
-    },
-    {
-      "title": "Riskzonen",
-      "xml_url": "https://feeds.acast.com/public/shows/riskzonen"
-    },
-    {
-      "title": "Dagens Eko",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/41978"
-    },
-    {
-      "title": "Det politiska spelet",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/21597"
-    },
-    {
-      "title": "Språket",
-      "xml_url": "https://api.sr.se/api/rss/pod/itunes/4012"
-    }
-  ]
+	"title": "Pocket Casts Feeds",
+	"feeds": [
+		{
+			"title": "99% Invisible",
+			"xml_url": "https://feeds.simplecast.com/BqbsxVfO"
+		},
+		{
+			"title": "Konflikt",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/3967"
+		},
+		{
+			"title": "Embedded",
+			"xml_url": "https://feeds.npr.org/510311/podcast.xml"
+		},
+		{
+			"title": "Vetenskapsradion Klotet",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/6230"
+		},
+		{
+			"title": "En podd om teknik",
+			"xml_url": "https://enpoddomteknik.libsyn.com/rss"
+		},
+		{
+			"title": "Plånboken",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/3970"
+		},
+		{
+			"title": "Sieps Podcast",
+			"xml_url": "https://feeds.acast.com/public/shows/63c1544b9fe97a001109ade8"
+		},
+		{
+			"title": "USApodden",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/22712"
+		},
+		{
+			"title": "Uppkopplad",
+			"xml_url": "https://api.sr.se/api/rss/pod/25620"
+		},
+		{
+			"title": "Robotarna kommer",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/23773"
+		},
+		{
+			"title": "EU Watchdog Radio",
+			"xml_url": "https://feeds.buzzsprout.com/856474.rss"
+		},
+		{
+			"title": "Filosofiska rummet",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/3963"
+		},
+		{
+			"title": "P3 Dystopia",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/26068"
+		},
+		{
+			"title": "Kaliber",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/4016"
+		},
+		{
+			"title": "Kropp & Själ",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/4015"
+		},
+		{
+			"title": "Cykelpodd med Elna och Helena",
+			"xml_url": "https://feed.podbean.com/cykelpodd/feed.xml"
+		},
+		{
+			"title": "App och etikett",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/27442"
+		},
+		{
+			"title": "I lagens namn",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/21147"
+		},
+		{
+			"title": "Ekot fördjupning",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/30920"
+		},
+		{
+			"title": "Kvalificerat Hemligt poddradio",
+			"xml_url": "https://feeds.soundcloud.com/users/soundcloud:users:167287536/sounds.rss"
+		},
+		{
+			"title": "Medierna",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/3951"
+		},
+		{
+			"title": "RÄDSLAN",
+			"xml_url": "https://radslan.libsyn.com/rss"
+		},
+		{
+			"title": "Planet Money",
+			"xml_url": "https://feeds.npr.org/510289/podcast.xml"
+		},
+		{
+			"title": "Politiken",
+			"xml_url": "https://podcast.stream.schibsted.media/svd/267316204?podcast"
+		},
+		{
+			"title": "Scocconomics",
+			"xml_url": "https://feeds.captivate.fm/scocconomics/"
+		},
+		{
+			"title": "Radiokorrespondenterna Ryssland",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/4886"
+		},
+		{
+			"title": "Triple Click",
+			"xml_url": "https://feeds.simplecast.com/6WD3bDj7"
+		},
+		{
+			"title": "P3 Nyheter Dokumentär",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/7565"
+		},
+		{
+			"title": "Det nya tjänstefolket",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/31013"
+		},
+		{
+			"title": "Idag i historien",
+			"xml_url": "https://feeds.acast.com/public/shows/5e8a5f7a3ee51a0462e79fd4"
+		},
+		{
+			"title": "Kinapodden i P1",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/34159"
+		},
+		{
+			"title": "Europapodden",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/22793"
+		},
+		{
+			"title": "Ekonomiekot Extra",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/8749"
+		},
+		{
+			"title": "Vetenskapsradion På djupet",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/4017"
+		},
+		{
+			"title": "Söndagsintervjun",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/21830"
+		},
+		{
+			"title": "Gräns",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/34795"
+		},
+		{
+			"title": "Typo",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/18418"
+		},
+		{
+			"title": "Mediepodden",
+			"xml_url": "https://mediepodden.libsyn.com/rss"
+		},
+		{
+			"title": "UX Podcast",
+			"xml_url": "http://feed.uxpodcast.com/spotify/"
+		},
+		{
+			"title": "Politikrummet",
+			"xml_url": "http://cdn.radioplay.se/data/rss/1433.xml"
+		},
+		{
+			"title": "Det perfekta Kina",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/33522"
+		},
+		{
+			"title": "P4 Världen",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/21472"
+		},
+		{
+			"title": "Money Talks from The Economist",
+			"xml_url": "https://feeds.acast.com/public/shows/39fc4a99-8861-437d-81e2-684d13e48f92"
+		},
+		{
+			"title": "Cykla i P1",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/19424"
+		},
+		{
+			"title": "Godmorgon världen",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/3958"
+		},
+		{
+			"title": "Speljuntan",
+			"xml_url": "https://speljuntan.libsyn.com/rss"
+		},
+		{
+			"title": "P1 Dokumentär",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/4013"
+		},
+		{
+			"title": "Fråga Agnes Wold",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/34530"
+		},
+		{
+			"title": "50 Things That Made the Modern Economy",
+			"xml_url": "https://podcasts.files.bbci.co.uk/p04b1g3c.rss"
+		},
+		{
+			"title": "Tendens – kortdokumentärer",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/6615"
+		},
+		{
+			"title": "Pixelated Playgrounds",
+			"xml_url": "https://www.pixelatedplaygrounds.com/bookclub?format=rss"
+		},
+		{
+			"title": "GigWatch-podden",
+			"xml_url": "https://anchor.fm/s/e88b144/podcast/rss"
+		},
+		{
+			"title": "P1 Dokumentär: Miniserie",
+			"xml_url": "https://api.sr.se/api/rss/pod/33639"
+		},
+		{
+			"title": "Besluten som format Sverige",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/24083"
+		},
+		{
+			"title": "Today in Focus",
+			"xml_url": "https://www.theguardian.com/news/series/todayinfocus/podcast.xml"
+		},
+		{
+			"title": "P3 Krim",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/34482"
+		},
+		{
+			"title": "Ekots lördagsintervju",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/3953"
+		},
+		{
+			"title": "Vandringspodden",
+			"xml_url": "https://feeds.soundcloud.com/users/soundcloud:users:426816666/sounds.rss"
+		},
+		{
+			"title": "PUSHBACK Talks",
+			"xml_url": "https://feeds.buzzsprout.com/1189295.rss"
+		},
+		{
+			"title": "Känsligt läge",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/22029"
+		},
+		{
+			"title": "Innovationslandet",
+			"xml_url": "https://feeds.libsyn.com/397913/rss"
+		},
+		{
+			"title": "The Anthropocene Reviewed",
+			"xml_url": "https://feeds.simplecast.com/p7S4nr_h"
+		},
+		{
+			"title": "Beredskap",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/37282"
+		},
+		{
+			"title": "OK Boomer",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/40631"
+		},
+		{
+			"title": "P1:s Mellanösternpodd",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/35902"
+		},
+		{
+			"title": "Prylarnas pris",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/10468"
+		},
+		{
+			"title": "Sommar & Vinter i P1",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/4023"
+		},
+		{
+			"title": "Studio Ett",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/4021"
+		},
+		{
+			"title": "Riskzonen",
+			"xml_url": "https://feeds.acast.com/public/shows/riskzonen"
+		},
+		{
+			"title": "Dagens Eko",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/41978"
+		},
+		{
+			"title": "Det politiska spelet",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/21597"
+		},
+		{
+			"title": "Språket",
+			"xml_url": "https://api.sr.se/api/rss/pod/itunes/4012"
+		}
+	]
 }

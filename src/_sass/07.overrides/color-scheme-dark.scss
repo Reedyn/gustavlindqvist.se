@@ -1,24 +1,24 @@
 @media (prefers-color-scheme: dark) {
-    :root {
-        --color__accent: oklch(65% 0.2 270deg);
-        --color__accent-secondary: oklch(65% 0.2 310deg);
+	:root {
+		--color__accent: oklch(65% 0.2 270deg);
+		--color__accent-secondary: oklch(65% 0.2 310deg);
 
-        --color__lightness: 70%;
-        --color__lightness-secondary: 70%;
-        --color__chroma: .2;
-        --color__chroma-secondary: .2;
+		--color__lightness: 70%;
+		--color__lightness-secondary: 70%;
+		--color__chroma: 0.2;
+		--color__chroma-secondary: 0.2;
 
-        --color__background: oklch(19% 0 0deg);
-        --color__background__alt: oklch(23% 0 0deg);
-        --color__background__widget: oklch(32% 0 0deg);
-        --color__background__contrast: oklch(19% 0 0deg);
-        --color__background__contrast__widget: oklch(27% 0 0deg);
-        --color__background__contrast__alt: oklch(32% 0 0deg);
-        --color__background__gradient: linear-gradient(180deg, transparent 0, oklch(19% 0 0deg) 100%);
-        --color__overlay: oklch(0% 0 0deg / 0.5);
+		--color__background: oklch(19% 0 0deg);
+		--color__background__alt: oklch(23% 0 0deg);
+		--color__background__widget: oklch(32% 0 0deg);
+		--color__background__contrast: oklch(19% 0 0deg);
+		--color__background__contrast__widget: oklch(27% 0 0deg);
+		--color__background__contrast__alt: oklch(32% 0 0deg);
+		--color__background__gradient: linear-gradient(180deg, transparent 0, oklch(19% 0 0deg) 100%);
+		--color__overlay: oklch(0% 0 0deg / 0.5);
 
-        --color__text: oklch(95% 0 0deg);;
-        --color__text-alt: oklch(70% 0 0deg);;
-        --color__text__contrast: white;
-    }
+		--color__text: oklch(95% 0 0deg);
+		--color__text-alt: oklch(70% 0 0deg);
+		--color__text__contrast: white;
+	}
 }
