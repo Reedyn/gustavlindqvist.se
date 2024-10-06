@@ -1,23 +1,23 @@
 ol.list {
-    list-style: disc;
+	list-style: disc;
 }
 
 .list__item {
-    margin-bottom: var(--margin__small);
-    &:last-child {
-        margin-bottom: 0;
-    }
+	margin-bottom: var(--margin__small);
+	&:last-child {
+		margin-bottom: 0;
+	}
 
-    .title {
-        margin: 0;
-        font-size: var(--font__size__heading-4);
-    }
+	.title {
+		margin: 0;
+		font-size: var(--font__size__heading-4);
+	}
 
-    p {
-        margin: 0;
-    }
+	p {
+		margin: 0;
+	}
 
-    .metadata {
-        color: var(--color__text-alt);
-    }
+	.metadata {
+		color: var(--color__text-alt);
+	}
 }

@@ -5,10 +5,10 @@ feature_image: "Gustav-Lindqvist_2023-06-05_08904-Pano.jpg"
 feature_image_position: bottom
 date: 2023-06-05T14:20:26+0200
 tags:
-  - friluftsliv
-  - cykling
-  - john-bauerleden
-  - sommar
+    - friluftsliv
+    - cykling
+    - john-bauerleden
+    - sommar
 ---
 
 I helgen var det äntligen dags för min första bikepackingtur med cykeln. Det bar av till naturreservatet Björkenäs vid sjön Ören som ligger i grannkommunen Aneby, strax intill kommungränsen nära Bunn.
@@ -66,7 +66,6 @@ När jag närmade mig Bunn släppte det dock, de smala stigarna blev skogsvägar
 :::
 ::::
 
-
 Vid kommungränsen var det inte långt kvar. Framme i naturreservatet slog jag direkt upp tältet på första bästa plats för att lättare kunna ta fram packningen och göra ett snabbt ombyte.
 
 ![Ett tält på en liten än med en cykel lutad mot ett träd](20230604_190659.jpg)
@@ -98,7 +97,7 @@ Det visade sig att det var sjön som transporterade ljudet långa vägar, så de
 
 ![Soluppgång över en nyskördad åker](Gustav-Lindqvist_2023-06-05_08899.jpg){.-wide}
 
-Hemfärden hade jag från början bestämt skulle gå på  lite lättare vägar och efter gårdagens tuffa etapp var det inget tal om att ändra på den planen.
+Hemfärden hade jag från början bestämt skulle gå på lite lättare vägar och efter gårdagens tuffa etapp var det inget tal om att ändra på den planen.
 
 Strax innan sju rullade jag iväg från naturreservatet. Det är något speciellt att vara ute på morgonen innan världen har vaknat och allt är stilla.
 

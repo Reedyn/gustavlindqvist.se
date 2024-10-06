@@ -1,23 +1,24 @@
 .content .button {
-    display: inline-block;
-    background: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
-    color: var(--color__background);
-    padding: .5em 0.8em;
-    line-height: 1.5;
-    border: 0;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    text-decoration: none;
+	display: inline-block;
+	background: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
+	color: var(--color__background);
+	padding: 0.5em 0.8em;
+	line-height: 1.5;
+	border: 0;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	margin: 0;
+	text-decoration: none;
 
-    &:visited {
-        background: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
-        color: var(--color__background);
-    }
+	&:visited {
+		background: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
+		color: var(--color__background);
+	}
 
-    &:hover, &:focus {
-        text-decoration: underline;
-    }
+	&:hover,
+	&:focus {
+		text-decoration: underline;
+	}
 }

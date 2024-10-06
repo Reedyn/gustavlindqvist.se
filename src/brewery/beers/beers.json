@@ -1,6 +1,6 @@
 {
-  "tags": "beers",
-  "permalink": "//hembryggeri/{{ title | slug }}/index.html",
-  "layout": "beer.njk",
-  "order": 99
+	"tags": "beers",
+	"permalink": "//hembryggeri/{{ title | slug }}/index.html",
+	"layout": "beer.njk",
+	"order": 99
 }

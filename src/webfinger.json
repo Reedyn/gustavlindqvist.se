@@ -1,23 +1,20 @@
 {
-    "subject": "acct:gustav@jkpg.rocks",
-    "aliases": [
-        "https://jkpg.rocks/@gustav",
-        "https://jkpg.rocks/users/gustav"
-    ],
-    "links": [
-        {
-            "rel": "http://webfinger.net/rel/profile-page",
-            "type": "text/html",
-            "href": "https://jkpg.rocks/@gustav"
-        },
-        {
-            "rel": "self",
-            "type": "application/activity+json",
-            "href": "https://jkpg.rocks/users/gustav"
-        },
-        {
-            "rel": "http://ostatus.org/schema/1.0/subscribe",
-            "template": "https://jkpg.rocks/authorize_interaction?uri={uri}"
-        }
-    ]
+	"subject": "acct:gustav@jkpg.rocks",
+	"aliases": ["https://jkpg.rocks/@gustav", "https://jkpg.rocks/users/gustav"],
+	"links": [
+		{
+			"rel": "http://webfinger.net/rel/profile-page",
+			"type": "text/html",
+			"href": "https://jkpg.rocks/@gustav"
+		},
+		{
+			"rel": "self",
+			"type": "application/activity+json",
+			"href": "https://jkpg.rocks/users/gustav"
+		},
+		{
+			"rel": "http://ostatus.org/schema/1.0/subscribe",
+			"template": "https://jkpg.rocks/authorize_interaction?uri={uri}"
+		}
+	]
 }

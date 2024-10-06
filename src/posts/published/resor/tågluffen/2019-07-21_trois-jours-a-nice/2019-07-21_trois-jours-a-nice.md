@@ -75,4 +75,3 @@ Sedan kände vi oss hungriga och bestämde oss för ytterligare ett besök på C
 Sedan avslutade vi dagen med att gå tillbaka till boendet för att packa för resan till Paris.
 
 ![Segelbåtar som rundar en av bojarna i en tävling utanför Nice](OI000103-1.jpg){.-wide}
-

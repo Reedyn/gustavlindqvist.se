@@ -5,11 +5,11 @@ feature_image: "Gustav-Lindqvist_2022-08-02_05735.jpg"
 series: "friluftsliv"
 date: 2022-08-02 14:42:00 +2
 tags:
-  - friluftsliv
-  - bankerydsleden
-  - sommar
+    - friluftsliv
+    - bankerydsleden
+    - sommar
 ---
-  
+
 Bankerydsleden är en vandringsled på 24,5km i Jönköping som utgår från hembygsgården i Bankeryd och rör sig över öppna jordbrukslandskap, skogsområdet Högamon och fina utsiktsplatser som Labbarpaberget.{.lead}
 
 Leden är välskött och har gott om faciliteter som vindskydd, toaletter och grillplatser. Den är även lättillgänglig med lokala bussar från Jönköpings tätort som går väldigt ofta. Kort och sagt, en perfekt led för 1–1,5 dags vandring med potential för övernattning.
@@ -118,5 +118,3 @@ Efter sidoturen (som innebar ganska många extra höjdmeter) var det ganska rakt
 ![En smal nästan övervuxen stig.](Gustav-Lindqvist_2022-08-02_05734.jpg)
 
 Kort och gott en perfekt tur för lite mer än en dags vandring med övernattning.
-
-

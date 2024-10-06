@@ -1,10 +1,10 @@
 .fleuron {
-    // Example fleuron characters: ✃⁂➤✎☘☂⛬
-    font-size: var(--font__size__heading-1);
-    color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
-    text-align: center;
-    line-height: 1;
-    margin-block-start: var(--margin__large);
-    margin-block-end: var(--margin__large);
-    user-select: none;
+	// Example fleuron characters: ✃⁂➤✎☘☂⛬
+	font-size: var(--font__size__heading-1);
+	color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
+	text-align: center;
+	line-height: 1;
+	margin-block-start: var(--margin__large);
+	margin-block-end: var(--margin__large);
+	user-select: none;
 }

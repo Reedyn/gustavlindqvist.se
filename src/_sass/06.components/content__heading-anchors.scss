@@ -1,33 +1,36 @@
 .content .header-anchor {
-    position: absolute;
-    color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
-    transform: translateX(-0.65em);
-    text-decoration: none;
-    opacity: 0;
+	position: absolute;
+	color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
+	transform: translateX(-0.65em);
+	text-decoration: none;
+	opacity: 0;
 
-    &:visited {
-        color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
-    }
+	&:visited {
+		color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
+	}
 
-    &:focus,
-    &:hover {
-        color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
-        background: none;
-        text-decoration: underline;
+	&:focus,
+	&:hover {
+		color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
+		background: none;
+		text-decoration: underline;
 
-        &:visited {
-            color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
-            background: none;
-        }
-    }
+		&:visited {
+			color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
+			background: none;
+		}
+	}
 }
 
-.content h1, h2, h3, h4 {
-    &:hover,
-    &:focus,
-    &:focus-within {
-        .header-anchor {
-            opacity: 1;
-        }
-    }
+.content h1,
+h2,
+h3,
+h4 {
+	&:hover,
+	&:focus,
+	&:focus-within {
+		.header-anchor {
+			opacity: 1;
+		}
+	}
 }

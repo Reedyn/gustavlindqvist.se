@@ -13,7 +13,7 @@ De senaste dagarna har varit en jakt på öppna (och fungerande) Wi-Fi. Det som 
 
 Igår besökte vi _"Fake Market"_ där man kan köpa fake-produkter av en massa olika produkter, allt från elektronik till Converse-skor. Några av oss fyndade och vissa floppade, men jag tror vi alla blev lurade på någon vänster, det var väldigt intressant iallafall. Alla försäljare var på en konstant, några timmar där så blir man immun mot all typ av "vanlig" försäljning där hemma.
 
-Resan till Fake Market var också vårt första användning av Metron vilket var en upplevelse. Mycket väl fungerande tunnelbana med en massa smarta saker, bland annat staket med automatiska grindar så att man inte kan trilla ner på spåret. 
+Resan till Fake Market var också vårt första användning av Metron vilket var en upplevelse. Mycket väl fungerande tunnelbana med en massa smarta saker, bland annat staket med automatiska grindar så att man inte kan trilla ner på spåret.
 
 **Varför har vi inte det i Sverige?!** Att det sen kostade 3 Yuan skadade inte heller =)
 

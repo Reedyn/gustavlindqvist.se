@@ -1,31 +1,30 @@
 .post-template {
-    main {
-        background: var(--color__background);
-    }
+	main {
+		background: var(--color__background);
+	}
 }
 
 .tag-template {
-    main {
-        background: var(--color__background);
-    }
+	main {
+		background: var(--color__background);
+	}
 }
 
 .page-template {
-    main {
-        background: var(--color__background);
-    }
+	main {
+		background: var(--color__background);
+	}
 }
 
 .home-template {
-    main {
-        background: var(--color__background);
+	main {
+		background: var(--color__background);
+	}
 
-    }
-
-    .posts {
-        margin-top: 0;
-        @media (min-width: var(--max-width__base)) {
-            margin-top: var(--margin__medium);
-        }
-    }
+	.posts {
+		margin-top: 0;
+		@media (min-width: var(--max-width__base)) {
+			margin-top: var(--margin__medium);
+		}
+	}
 }

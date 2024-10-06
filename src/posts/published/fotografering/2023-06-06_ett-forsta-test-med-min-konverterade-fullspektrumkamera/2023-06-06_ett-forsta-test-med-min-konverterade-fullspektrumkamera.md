@@ -7,7 +7,7 @@ tags:
     - fotografering
 ---
 
-För några år sedan bytte jag ut min gamla *Olympus OM-D E-M5*. Sedan dess har den suttit oanvänd i en hylla. Jag har länge tänkt att jag borde [skicka iväg den på konvertering till fullspektrum][IRreCams].
+För några år sedan bytte jag ut min gamla _Olympus OM-D E-M5_. Sedan dess har den suttit oanvänd i en hylla. Jag har länge tänkt att jag borde [skicka iväg den på konvertering till fullspektrum][IRreCams].
 
 Vid en sådan konvertering tas filtret på sensorn som blockerar infrarött och ultraviolett ljus (så att den bara ser synligt ljus) bort och då kan den se allt som sensorn kan se. Jag valde att ersätta detta filtret med ett 280nm filter som bara tar bort ultraviolett ljus vilket ger en kamera som kan se synligt ljus och infrarött ljus.
 

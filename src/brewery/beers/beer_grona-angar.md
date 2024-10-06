@@ -18,5 +18,3 @@ eleventyNavigation:
 En glutenfri lager export med citrustoner.
 
 [Checka in på Gröna ängar på Untappd](https://untappd.com/b/gustavs-hembryggeri-grona-angar/4886981)
-
-

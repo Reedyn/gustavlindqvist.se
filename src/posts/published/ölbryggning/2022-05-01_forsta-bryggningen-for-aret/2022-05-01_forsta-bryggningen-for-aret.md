@@ -39,14 +39,3 @@ Sedan pitchade jag jästen och tog ett vörtprov på 1.051, något högre än be
 ![Speidel jästunna med vört i.](Gustav-Lindqvist_2022-05-01_04747.jpg)
 
 Om 14 dagar är det dags för flaskning!
-
-
-
-
-
-
-
-
-
-
-

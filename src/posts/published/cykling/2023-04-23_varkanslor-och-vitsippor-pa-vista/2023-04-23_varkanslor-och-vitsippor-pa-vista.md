@@ -28,9 +28,9 @@ Eftersom cykeln stått oanvänd nästan hela vintern som mestadels spenderats i 
 ![Selfie på Gustav på en cykel i MTB-kläder vid en hamn](GOPR1266_1682251847721.jpg){.-inline}
 ![En cykel som ligger på sidan av en stig intill en massa vitsippor](GOPR1262_1682251847721.jpg){.-inline}
 :::
+
 <figcaption><p>Obligatorisk selfie i t-shirt och kortbyxor och en bild på trotjänaren</p></figcaption>
 ::::
-
 
 ![Vätterstranden i Jönköping sett från marken med en stor blomplantering](GOPR1267_1682251847721.jpg "Vätterstranden på vägen hem"){.-wide}
 

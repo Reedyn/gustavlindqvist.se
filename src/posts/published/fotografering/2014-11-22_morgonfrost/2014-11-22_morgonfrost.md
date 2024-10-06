@@ -3,11 +3,10 @@ title: "Morgonfrost"
 feature_image: Gustav-Lindqvist_2014-11-22_0161_s.jpg
 description: "Hösten vill verkligen inte ge upp här i Jönköping. Men nu känns det att vintern är på väg när vi äntligen börjar få lägre temperaturer,…"
 date: 2014-11-22
-tags: 
+tags:
     - fotografering
     - jkpg
     - vinter
-
 ---
 
 Hösten vill verkligen inte ge upp här i Jönköping. Men nu känns det att vintern är på väg när vi äntligen börjar få lägre temperaturer, någon ordentlig snö har inte setts röken av än dock ☹
@@ -23,7 +22,7 @@ Hösten vill verkligen inte ge upp här i Jönköping. Men nu känns det att vin
 :::
 ::::
 
- skulle nästan kunnat vara en vårdag med vårens första blommor.
+skulle nästan kunnat vara en vårdag med vårens första blommor.
 
 :::: gallery {.-wide}
 ::: row

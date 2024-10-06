@@ -19,4 +19,3 @@ En bärnstensfärgad belgisk ale med Tettnanger- och Saaz-humle och belgisk abbe
 Rekommenderas att serveras i en ölkupa eller konjaksglas i 4–8°C och låta temperaturen stiga under tiden som ölen dricks.
 
 [Checka in på Make It Double på Untappd](https://untappd.com/b/gustavs-hembryggeri-make-it-double/4496036)
-

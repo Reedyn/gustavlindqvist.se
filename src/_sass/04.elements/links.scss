@@ -1,12 +1,12 @@
 a {
-    color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
-    text-decoration: none;
-    &:hover,
-    &:focus {
-        text-decoration: underline;
-    }
+	color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
+	text-decoration: none;
+	&:hover,
+	&:focus {
+		text-decoration: underline;
+	}
 
-    &:visited {
-        color: oklch(var(--color__lightness-secondary) var(--color__chroma-secondary) var(--color__hue-secondary));
-    }
+	&:visited {
+		color: oklch(var(--color__lightness-secondary) var(--color__chroma-secondary) var(--color__hue-secondary));
+	}
 }

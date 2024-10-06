@@ -17,4 +17,3 @@ eleventyNavigation:
 En lättdrucken gyllene belgisk ale bryggd med vatten från Vättern. Av typen patersbier eller belgisk enkel, en öltyp som traditionellt inte såldes utan bryggdes för munkarnas eget bruk inne i klostren där en dryck med lägre alkoholhalt behövdes.
 
 [Checka in på Vätterns enkla på Untappd](https://untappd.com/b/gustavs-hembryggeri-vatterns-enkla/4979918)
-

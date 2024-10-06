@@ -70,7 +70,7 @@ Tredje och sista dagen började med att vi bytte hotell till ett som var närmre
 
 ![En spegelblank pool.](DSC_0822_L.jpg){.-wide}
 
-Vi spenderade inte all tid i poolen, det blev även en tur in till *Sneaker street*, en gatumarknad full med fejkprodukter.
+Vi spenderade inte all tid i poolen, det blev även en tur in till _Sneaker street_, en gatumarknad full med fejkprodukter.
 
 ![En gata med marknad på båda sidor](DSC_0810_L.jpg)
 

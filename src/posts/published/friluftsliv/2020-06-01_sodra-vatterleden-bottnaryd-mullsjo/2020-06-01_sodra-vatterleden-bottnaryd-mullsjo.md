@@ -3,9 +3,8 @@ title: "Vandring längs Södra Vätterleden (Bottnaryd → Mullsjö)"
 feature_image: 20200522_112634-1.jpg
 description: "Precis som alla andra svenskar bestämde vi oss för att vandra lite i närområdet under pandemin."
 date: 2020-06-01
-tags: ['friluftsliv', 'södra-vätterleden', 'sommar']
+tags: ["friluftsliv", "södra-vätterleden", "sommar"]
 permalink: "/{{ page.date | dateFolder}}/sodra-vatterleden-bottnaryd-mullsjo/index.html"
-
 ---
 
 Precis som alla andra svenskar bestämde vi oss för att vandra lite i närområdet under pandemin.
@@ -22,9 +21,9 @@ Vandringen började med underbart väder: blå himmel och behaglig temperatur (k
 ::: row
 ![Josefine sitter i gräset bredvid sin ryggsäck](Gustav-Lindqvist_2020-05-22_R8-09-1.jpg){.-inline}![En selfie med Josefine i bakgrunden sittandes. Det ligger en ryggsäck på marken.](20200522_112634.jpg){.-inline}
 :::
+
 <figcaption><p>Lite paus</p></figcaption>
 ::::
-
 
 Vid 11km gjorde vi ett stopp och lagade lite varm mat. Kycklingsoppa från REAL Turmat som vi båda var ganska missnöjda med. Bra att veta till nästa gång!
 
@@ -63,6 +62,7 @@ Så här i efterhand hade vi nog inte behövt ha den över oss utan bara under. 
 ![Tunnbröd med skinkost, oboyförpackningar och ett friluftskök som ligger på golvet i ett vindskydd](20200523_072032-1.jpg){.-inline}
 ![Ett friluftskök som brinner för fullt](20200523_073732.jpg){.-inline}
 :::
+
 <figcaption><p>Lyxfrukost bestående av tunnbröd med mjukost och varm choklad</p></figcaption>
 ::::
 
@@ -79,6 +79,7 @@ Andra etappen var fortfarande väldigt lättvandrat med fina stigar men nu börj
 ![En damm med spegelblank yta.](Gustav-Lindqvist_2020-05-23_R8-27.jpg){.-inline}
 ![Två träbyggnader och en tegelbyggnad](Gustav-Lindqvist_2020-05-23_R8-26.jpg){.-inline}
 :::
+
 <figcaption><p>Ryfors bruk</p></figcaption>
 ::::
 

@@ -5,10 +5,10 @@ description: "När det är omväxlande väder är det ofta intressant att vara u
 twitterId: 1476151527475761155
 series: fotografering
 tags:
-  - fotografering
-  - friluftsliv
-  - trelleborg
-  - vinter
+    - fotografering
+    - friluftsliv
+    - trelleborg
+    - vinter
 ---
 
 När det är omväxlande väder är det ofta intressant att vara ute och fotografera, samma plats kan skifta utseende fullständigt. Detta hände flera gånger under 26 och 27 december.

@@ -8,8 +8,8 @@ tags:
     - friluftsliv
     - blekinge-skärgård
     - sommar
-
 ---
+
 Tjärö har förändrats rejält genom åren efter att de gjort ett flertal ägarbyten. När jag växte upp besökte vi ofta Tjärö och då var det spartanskt men välskött av Svenska Turistföreningen. Efter en period [mellan 2008 och 2017 var det tumult och problem på ön](http://www.blt.se/karlshamn/gamla-agarna-ar-tillbaka-pa-tjaro/) där i stort sett allt förföll har nu ön kommit tillbaka i helt ny tappning.
 
 Filmen nedan av Chani Johnsson visar hur det nya fina restaurangkomplexet ser ut. Med möjligheter att få mat, dryck och fika.

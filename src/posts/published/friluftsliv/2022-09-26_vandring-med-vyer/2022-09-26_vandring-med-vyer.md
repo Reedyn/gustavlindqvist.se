@@ -6,12 +6,12 @@ feature_image_position: right
 series: "friluftsliv"
 date: 2022-09-26 10:37:00 +2
 tags:
-  - friluftsliv
-  - södra-vätterleden
-  - hassafallsleden
-  - kallebäcksleden
-  - höst
-  - jkpg
+    - friluftsliv
+    - södra-vätterleden
+    - hassafallsleden
+    - kallebäcksleden
+    - höst
+    - jkpg
 ---
 
 Det finns många fina vandringsleder runt Jönköping, men det finns också många fina platser värda att besöka som inte ligger vid en uppmärkt led. Igår gick jag en rutt som passerade så många sådana fina platser som möjligt, en vandring med vyer.{.lead}

@@ -27,7 +27,7 @@ Trots värmen var det en mycket trevlig tur. Vår kapten var entusiastisk och be
 
 ![De lutande husen i Amsterdam](Gustav-Lindqvist_2019-07-23_07173.jpg "Lutande husen i Amsterdam"){.-wide}
 
-Längs kanalen fanns det flertalet husbåtar, både i hög och låg kvalitet där många Amsterdambor valt att bo billigt i. De som bodde där verkade inte vara så förtjusta i turister; En person hade satt upp en skylt i ett av sina fönster med texten *"This is not a zoo"*.
+Längs kanalen fanns det flertalet husbåtar, både i hög och låg kvalitet där många Amsterdambor valt att bo billigt i. De som bodde där verkade inte vara så förtjusta i turister; En person hade satt upp en skylt i ett av sina fönster med texten _"This is not a zoo"_.
 
 ![En kanal med en orange kanalbåt på.](Gustav-Lindqvist_2019-07-24_07205.jpg)
 

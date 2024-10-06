@@ -1,21 +1,21 @@
 .site-header__navigation {
-    display: flex;
-    flex-direction: row;
-    flex: 1;
-    font-size: var(--font__size-base);
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	font-size: var(--font__size-base);
 
-    ul {
-        flex: 1;
-        margin: 0;
-        padding-inline-start: 0;
-        text-align: right;
+	ul {
+		flex: 1;
+		margin: 0;
+		padding-inline-start: 0;
+		text-align: right;
 
-        li {
-            display: inline-block;
-            margin-left: var(--margin__small);
-            &:first-child {
-                margin-left: 0;
-            }
-        }
-    }
+		li {
+			display: inline-block;
+			margin-left: var(--margin__small);
+			&:first-child {
+				margin-left: 0;
+			}
+		}
+	}
 }

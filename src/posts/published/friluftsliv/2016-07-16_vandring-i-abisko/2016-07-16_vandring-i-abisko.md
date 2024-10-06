@@ -10,7 +10,6 @@ tags:
     - abisko
     - kungsleden
     - retropost
-
 ---
 
 Det är inte varje dag som en får möjlighet att besöka en av våra mest kända nationalparker: Abisko med starten på vår utan tvekan mest kända vandringsled: Kungsleden.{.lead}
@@ -28,6 +27,7 @@ Första dagen som också var en resdag hade vi inte tid för så mycket så vi b
 ![Två personer som går på en grusstig med ett kalt fjäll i bakgrunden](Gustav-Lindqvist_2016-07-25_0209.jpg){.-inline}
 ![En linbana som går upp mot ett fjäll. Mitt i bild är det en stol med två personer som vänt på sig och tittar rakt in i kameran](Gustav-Lindqvist_2016-07-25_0235.jpg){.-inline}
 :::
+
 <figcaption><p>Vandring och linbana upp till Nuolja och Aurora Sky Station</p></figcaption>
 ::::
 
@@ -75,6 +75,7 @@ Tredje och sista dagen blev lite kort vandring längs Kungsleden med mer fokus p
 ![En fors med grönt klart vatten med klippor på båda sidor. Forsen ringlar sig genom landskapet bort mot ett kalfjäll som syns långt bort](Gustav-Lindqvist_2016-07-27_0023-Pano.jpg){.-inline}
 ![Närbild på en fors med grönt klart vatten](Gustav-Lindqvist_2016-07-27_0052-Pano.jpg){.-inline}
 :::
+
 <figcaption><p>Forsen i Abiskojokk</p></figcaption>
 ::::
 

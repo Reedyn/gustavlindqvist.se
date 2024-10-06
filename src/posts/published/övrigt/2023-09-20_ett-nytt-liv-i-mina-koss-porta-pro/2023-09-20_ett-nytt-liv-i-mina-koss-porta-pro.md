@@ -34,7 +34,6 @@ Den sista uppgraderingen jag gjorde var att byta ut originalkablarna till MMCX-k
 
 Första steget var att ta ut elementen och ta bort originalkablarna. Därefter tog jag en dremel för att göra hålet tillräckligt stort för att få plats med MMCX-kopplingarna.
 
-
 :::: gallery {.-wide}
 ::: row
 ![Två element från ett par Koss Porta Pro som ligger i delar](20230903_092343.jpg){.-inline}

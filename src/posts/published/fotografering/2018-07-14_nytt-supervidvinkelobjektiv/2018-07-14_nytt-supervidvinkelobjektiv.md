@@ -3,12 +3,11 @@ title: "Laowa 7.5mm f/2 MFT"
 feature_image: Gustav-Lindqvist_2018-07-14_0177.jpg
 description: "En av de största uppoffringarna jag gjorde när jag gick från mitt Canon 450D system till min spegellösa Olympus OM-D E-M5 var mitt Tokina…"
 date: 2018-07-14
-tags: ['fotografering']
-permalink: "/{{ page.date | dateFolder}}/nytt-supervidvinkelobjektiv/index.html"  
-
+tags: ["fotografering"]
+permalink: "/{{ page.date | dateFolder}}/nytt-supervidvinkelobjektiv/index.html"
 ---
 
-En av de största uppoffringarna jag gjorde när jag gick från mitt *Canon 450D*-system till min spegellösa *Olympus OM-D E-M5* var mitt *Tokina 11-16 f/2.8*.
+En av de största uppoffringarna jag gjorde när jag gick från mitt _Canon 450D_-system till min spegellösa _Olympus OM-D E-M5_ var mitt _Tokina 11-16 f/2.8_.
 
 Det var ett fantastiskt objektiv med extremt bred bildvinkel motsvarande 17,6mm på ett fullformat och samtidigt var det rektalinjärt och väldigt ljusstarkt på f/2.8.
 

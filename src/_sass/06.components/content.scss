@@ -1,43 +1,45 @@
 .content {
-    width: 100%;
-    max-width: var(--max-width__content);
-    padding: var(--padding__medium);
-    margin-right: auto;
-    margin-left: auto;
+	width: 100%;
+	max-width: var(--max-width__content);
+	padding: var(--padding__medium);
+	margin-right: auto;
+	margin-left: auto;
 
-    @include respond-to(small) {
-        padding-bottom: var(--padding__large);
-    }
+	@include respond-to(small) {
+		padding-bottom: var(--padding__large);
+	}
 
-    > * {
-        width: 100%;
-    }
+	> * {
+		width: 100%;
+	}
 
-    > :first-child {
-        margin-top: 0;
-    }
+	> :first-child {
+		margin-top: 0;
+	}
 
-    > :last-child {
-        margin-bottom: 0;
-    }
+	> :last-child {
+		margin-bottom: 0;
+	}
 
-    a {
-        color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
-        text-decoration: underline;
+	a {
+		color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
+		text-decoration: underline;
 
-        &:visited {
-            color: oklch(var(--color__lightness-secondary) var(--color__chroma-secondary) var(--color__hue-secondary));
-        }
+		&:visited {
+			color: oklch(var(--color__lightness-secondary) var(--color__chroma-secondary) var(--color__hue-secondary));
+		}
 
-        &:hover,
-        &:focus {
-            text-decoration: none;
-            color: var(--color__background);
-            background: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
+		&:hover,
+		&:focus {
+			text-decoration: none;
+			color: var(--color__background);
+			background: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
 
-            &:visited {
-                background: oklch(var(--color__lightness-secondary) var(--color__chroma-secondary) var(--color__hue-secondary));
-            }
-        }
-    }
+			&:visited {
+				background: oklch(
+					var(--color__lightness-secondary) var(--color__chroma-secondary) var(--color__hue-secondary)
+				);
+			}
+		}
+	}
 }

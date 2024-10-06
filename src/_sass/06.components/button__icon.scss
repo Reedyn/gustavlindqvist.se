@@ -1,27 +1,28 @@
 .button__icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 4em;
-    height: 4em;
-    margin: 0;
-    border-radius: 50%;
-    border: 0;
-    color: var(--color__text);
-    background: var(--color__background__alt);
-    cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 4em;
+	height: 4em;
+	margin: 0;
+	border-radius: 50%;
+	border: 0;
+	color: var(--color__text);
+	background: var(--color__background__alt);
+	cursor: pointer;
 
-    &:visited {
-        color: var(--color__text);
-    }
+	&:visited {
+		color: var(--color__text);
+	}
 
-    &:hover, &:focus {
-        color: var(--color__background);
-        background: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
-    }
+	&:hover,
+	&:focus {
+		color: var(--color__background);
+		background: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
+	}
 
-    svg {
-        width: 2em;
-        height: 2em;
-    }
+	svg {
+		width: 2em;
+		height: 2em;
+	}
 }

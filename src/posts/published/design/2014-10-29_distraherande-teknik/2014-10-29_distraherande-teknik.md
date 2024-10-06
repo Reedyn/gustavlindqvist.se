@@ -4,7 +4,6 @@ description: "Design är till att lösa problem och tjänster/produkter är till
 date: 2014-10-29
 tags:
     - design
-
 ---
 
 [Design är till att lösa problem](https://gustavlindqvist.se/2014/02/25/vad-ar-design/) och tjänster/produkter är till

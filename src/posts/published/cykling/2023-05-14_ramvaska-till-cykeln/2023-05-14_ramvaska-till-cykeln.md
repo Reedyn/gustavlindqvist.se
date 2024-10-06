@@ -20,10 +20,10 @@ jag valde därför att sy min egen. Jag har sedan tidigare sytt en mindre sådan
 
 Här är en lista på det material jag använde för väskan.
 
-* [X-PAC 220g/m²][Friluftstyger - X-PAC220]
-* [YKK Aquaguard Vislon 5VT 30cm][Extremtextil - YKK Aquaguard 5VT]
-* [100mm kardborrband][Friluftstyger - Kardborrband]
-* [Krokar för gummiband][Extremtextil - Pack hook for 3mm cord]
+-   [X-PAC 220g/m²][Friluftstyger - X-PAC220]
+-   [YKK Aquaguard Vislon 5VT 30cm][Extremtextil - YKK Aquaguard 5VT]
+-   [100mm kardborrband][Friluftstyger - Kardborrband]
+-   [Krokar för gummiband][Extremtextil - Pack hook for 3mm cord]
 
 När jag sydde planerade jag inte allt från början, jag började med sidorna som jag gjorde en mall av i kartong och sen sydde jag efter en bild jag hade i huvudet.
 
@@ -46,7 +46,7 @@ Det blev många omtagningar där jag fick sprätta upp en söm men slutresultate
 
 ![Ramväskan monterad i ramen på cykeln](Gustav-Lindqvist_2023-05-14_08527-HDR.jpg){.-full}
 
-*[MTB]: Mountainbike
+\*[MTB]: Mountainbike
 
 [Friluftstyger - X-PAC220]: https://www.friluftstyger.se/sv/material/tyger/x-pac/tyg-tpac220.html
 [Friluftstyger - Kardborrband]: https://www.friluftstyger.se/sv/material/rep-och-snoren/kardborreband/kardborreband-kb-3.html

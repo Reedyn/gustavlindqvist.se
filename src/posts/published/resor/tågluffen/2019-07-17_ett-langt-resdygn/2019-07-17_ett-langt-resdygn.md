@@ -51,4 +51,3 @@ Sedan följde den jobbigaste natten på denna resan. Nattåg utan liggvagn är i
 ![Josefine sover på ett tåg med vinodling som sveper förbi utanför fönstret](20190717_071351-2.jpg)
 
 Tidig morgon rullade vi in i Venedig.
-

@@ -4,9 +4,8 @@ feature_image: Gustav-Lindqvist_2020-08-22_0380.jpg
 feature_image_position: bottom
 description: "I helgen bestämde jag mig för att testa det där med ensamvandring och då valde jag etapp 2 på Södra Vätterleden mellan Bottnaryd och Norrahammar."
 date: 2020-08-23
-tags: ['friluftsliv', 'södra-vätterleden', 'sommar']
+tags: ["friluftsliv", "södra-vätterleden", "sommar"]
 permalink: "/{{ page.date | dateFolder}}/ensamvandring-pa-sodra-vatterleden/index.html"
-
 ---
 
 I helgen bestämde jag mig för att testa det där med ensamvandring och då valde jag etapp 2 på Södra Vätterleden mellan Bottnaryd och Norrahammar.{.lead}
@@ -44,6 +43,7 @@ De kommande 4-5 kilometrarna var utan tvekan den finaste delen av vandringen i f
 ![En näve blåbär](Gustav-Lindqvist_2020-08-22_0416.jpg){.-inline}
 ![Ett vildbi på en rosa växt.](Gustav-Lindqvist_2020-08-22_0409.jpg){.-inline}
 :::
+
 <figcaption><p>Mycket blåbär blev det på vägen, hade nog inte behövt ha med något snacks alls</p></figcaption>
 ::::
 
@@ -124,4 +124,3 @@ Trots det molniga vädret sprack solen igenom lite då och då och skapade fanta
 För att hinna med en buss joggade jag den sista kilometern ned för backen. Packningen till trots gick det bra i tempot ~8min/km. Jag hann fram till busshållplatsen med 5 minuters marginal ungefär. Ett lagom slut på vandringen.
 
 ![Karta över en vandringsrutt som går från Skinnarebo till Norrahammar](image-2.png "[Skinnarebo till Norrahammar (5,5km)](https://www.strava.com/activities/3952486509)"){.-full}
-

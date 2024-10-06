@@ -5,7 +5,6 @@ date: 2014-02-25
 tags:
     - design
     - ux
-
 ---
 
 _Följande paragrafer är högst subjektiva, you have been warned 😄_
@@ -30,6 +29,6 @@ Definitionen av design kommer ursprungligen från latin: **designo** _(peka ut, 
 
 För mig är design att lösa problem, om det är att göra en produkt mer attraktiv eller att underlätta för läsaren av en blogg spelar ingen roll. **En design ska lösa problem, annars har den misslyckats och är då per denna definition** _**dålig design**_.
 
-Ett extremt exempel diskuteras i tråden ["Let's discuss intentionally ugly design" på /r/graphic\_design](http://www.reddit.com/r/graphic_design/comments/1y3o7x/lets_discuss_intentionally_ugly_design/). Produkter som designas för att medvetet vara fula för att vara mer attraktiva för sin målgrupp. [EatMoreCheese](http://www.reddit.com/user/EatMoreCheese) som startade tråden sammanfattar det bäst med: "They presume that nice design incurs an expense that is passed on to the diner."
+Ett extremt exempel diskuteras i tråden ["Let's discuss intentionally ugly design" på /r/graphic_design](http://www.reddit.com/r/graphic_design/comments/1y3o7x/lets_discuss_intentionally_ugly_design/). Produkter som designas för att medvetet vara fula för att vara mer attraktiva för sin målgrupp. [EatMoreCheese](http://www.reddit.com/user/EatMoreCheese) som startade tråden sammanfattar det bäst med: "They presume that nice design incurs an expense that is passed on to the diner."
 
 **Bra design behöver inte vara snygg design** _(Även om det är något man bör eftersträva)_

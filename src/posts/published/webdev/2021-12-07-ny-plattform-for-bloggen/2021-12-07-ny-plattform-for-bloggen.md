@@ -3,10 +3,10 @@ title: "Ny plattform för bloggen"
 description: "Från 2013 fram till nu har jag använt plattformen Ghost för att hosta denna webbplatsen. Ghost var som en frisk fläkt på bloggmarknaden när den kom mot den då (och fortfarande) dominerande plattformen WordPress."
 twitterId: 1468288793019101189
 tags:
-  - webdev
-  - 11ty
-  - ghost
-  - indieweb
+    - webdev
+    - 11ty
+    - ghost
+    - indieweb
 ---
 
 [Från 2013 fram till nu har jag använt plattformen Ghost][Ghost] för att hosta denna webbplatsen. [Ghost var som en frisk fläkt på bloggmarknaden när den kom][Ghost Kickstarter] mot den då (och fortfarande) dominerande plattformen WordPress.{.lead}
@@ -31,7 +31,6 @@ Som ett alternativ till Ghost tittade jag på en statisk sidgenererare.
 
 Under 10-talet ökade användningen av statiska sidgeneratorer som [Jekyll] och senare [Hugo] och [11ty] som gör det möjligt att utifrån en mapp- och filstruktur generera helt statiska webbplatser med bara enkel HTML, CSS och JavaScript. Detta kan sedan läggas på vilket webbhotell som helst och som har fördelar över ett traditionellt CMS som genererar sidorna vid varje sidladdning. [GitHub] gjorde tidigt detta genom [GitHub Pages] som enkelt skapade dokumentationssidor med Jekyll. Dessa sidgeneratorer använder oftast Markdown som märkspråk och utifrån konfiguration kan de generera de flesta typer av sidor med fullständig frihet.
 
-
 ### 11ty
 
 Efter lite efterforskning landade jag i [11ty] som plattform främst för att de andra som var stora använde språk som jag inte är så förtjust i (Jekyll använder sig av Ruby och Hugo använder React.js). 11ty är också lätt att installera plugins eller skriva modifikationer själv för.
@@ -46,20 +45,19 @@ Som jag skrev tidigare går det att använda vilket webbhotell eller webbhost so
 
 ## Redigeringsprogram
 
-Nackdelen med att inte använda ett CMS är att det inte finns ett enhetligt redigeringssystem som går att använda på alla plattformar *(fast det kunde jag ändå inte med Ghost eftersom det inte hade stöd för mobil)* utan det enda sättet att ändra innehållet är att redigera filerna.
+Nackdelen med att inte använda ett CMS är att det inte finns ett enhetligt redigeringssystem som går att använda på alla plattformar _(fast det kunde jag ändå inte med Ghost eftersom det inte hade stöd för mobil)_ utan det enda sättet att ändra innehållet är att redigera filerna.
 
 Lyckligtvis finns det ett stort antal program för att redigera Markdown så detta var inget större problem, nackdelen är att flödet blir olika beroende på vilken plattform jag använder.
 
-|Plattform | Program              		|
-|----------|---------------------------|
-|Windows   | [Ghostwriter] + [git]		|
-|Pop!_OS   | [Ghostwriter] + [git]		|
-|Android   | [Markor] + [Pocket Git]	|
+| Plattform | Program                 |
+| --------- | ----------------------- |
+| Windows   | [Ghostwriter] + [git]   |
+| Pop!\_OS  | [Ghostwriter] + [git]   |
+| Android   | [Markor] + [Pocket Git] |
 
 ![Skärmdump på redigeringsprogrammet Ghostwriter i Windows](ghostwriter-2021-12-07_173620.png)
 
 Största nackdelen som jag inte hittat en lösning på än är hanteringen av bilder, i Ghost fanns ett mycket bra flöde där jag kunde ladda upp en bild i hög upplösning som sedan Ghost automatiskt skapade olika storlekar på och komprimerade för webben. Att hitta en smidig lösning för det blir nästa problem att lösa. För tillfället är därför alla bilder i högsta upplösning.
-
 
 ## WebMentions
 
@@ -71,11 +69,11 @@ Indiewebben vill att användarna ska ha kontrollen och där webbplatser kan vara
 
 WebMentions är ett protokoll som webbplatser använder för att kommunicera med varandra, en implementering som liknar den tolkning av [hyperlänken som Tim Nelson föreslog där länkarna går åt båda hållen](http://www.ted-hunt.com/HYPERLINKS/index.html). WebMentions är också en uppföljare till [Pingback] som användes förr för att bloggar skulle kunna länka till varandra vid hänvisning.
 
-Implementeringen av WebMentions jag använde är [Max Böcks från 2019](https://mxb.dev/blog/using-webmentions-on-static-sites/) som automatiskt hämtar WebMentions varje gång sidan genereras, i mitt fall är det varje gång jag gör en ändring och en gång i timmen. WebMentions kommer sedan visas efter innehållet på sidan (se nedan). 
+Implementeringen av WebMentions jag använde är [Max Böcks från 2019](https://mxb.dev/blog/using-webmentions-on-static-sites/) som automatiskt hämtar WebMentions varje gång sidan genereras, i mitt fall är det varje gång jag gör en ändring och en gång i timmen. WebMentions kommer sedan visas efter innehållet på sidan (se nedan).
 
 [^1]: Test av fotnot
 
-*[CMS]: Content Management System
+\*[CMS]: Content Management System
 
 [Ghost]: https://ghost.org
 [Ghost Kickstarter]: https://www.kickstarter.com/projects/johnonolan/ghost-just-a-blogging-platform

@@ -3,8 +3,7 @@ title: "Vintergatan över Dumme mosse"
 feature_image: Gustav-Lindqvist_2014-10-04_0091-2-Edit-Edit_L.jpg
 description: "Jag var ute och fotograferade vid Dumme mosse igår natt/kväll. Målet var att komma ut från ljusföroreningarna i Jönköping och få lite fina…"
 date: 2014-10-05
-tags: ['fotografering', 'jkpg']
-
+tags: ["fotografering", "jkpg"]
 ---
 
 Jag var ute och fotograferade vid Dumme mosse igår natt/kväll. Målet var att komma ut från ljusföroreningarna i Jönköping och få lite fina stjärnbilder. Vid bilfärden dit möttes en av stora dimbankar; Ett tag var en lite orolig att det inte skulle gå att fotografera alls.
@@ -27,4 +26,4 @@ Det jag inte visste var att Lightroom och Adobe Camera Raw har en bugg för just
 
 Trots månens närvaro fotograferade jag lite söderut, fick en häftig reflektion i vattenpölarna på myren. Det gav dock en väldigt svårredigerad bild så det blir några dagar/veckors extra jobb på att få den bra 😄
 
-*[ETTR]: Exposing to the right
+\*[ETTR]: Exposing to the right

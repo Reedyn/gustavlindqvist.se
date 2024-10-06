@@ -3,10 +3,9 @@ title: "Jönköping i LEGO"
 feature_image: Gustav-Lindqvist_2019-10-12_07466.jpg
 description: "Min favoritserie av LEGO-sets är Architecture. En serie där varje set är ett axplock av kända byggnader och platser från en viss stad i…"
 date: 2019-10-12
-tags: 
+tags:
     - lego
     - jkpg
-
 ---
 
 Min favoritserie av LEGO-sets är Architecture. En serie där varje set är ett axplock av kända byggnader och platser från en viss stad i mikroskala[^\[Brickipedia\]^](https://lego.fandom.com/wiki/Microscale).
@@ -22,7 +21,7 @@ I några år har jag samlat på LEGO Architecture för de städer jag besökt, s
 
 ![Bild på en legomodell av Köpenhamns innerstad](LEGO_Microscale_Copenhagen_Ulrik-Hansen.jpg "[Köpenhamn i mikroskala av Ulrik Hansen](https://www.alllegro.dk/)")
 
-Det var någonstans i den vevan som jag hittade [Stud.io](https://stud.io) eller Studio som den numera heter *(Jag föredrar det gamla namnet)*.
+Det var någonstans i den vevan som jag hittade [Stud.io](https://stud.io) eller Studio som den numera heter _(Jag föredrar det gamla namnet)_.
 
 Stud.io är ett fantastiskt litet CAD-liknande program specifikt för LEGO. Det går att enkelt bygga modeller med alla tillgängliga och otillgängliga bitar. Det går även att få en prisuppskattning för en viss bit för den som vill vara lite ekonomisk och välja en annan liknande bit.
 
@@ -40,7 +39,7 @@ Från Stud.io är det väldigt enkelt. Företaget bakom Stud.io: Bricklink.com s
 
 ![Påsar med LEGO](20191008_165857_2.jpg "Första leveransen av bitar")
 
-Sen var det dags att bygga, jag använder lite plastglas för att organisera upp alla olika bitar. *Nästa gång ska jag inte organisera efter färg utan typ (Färg är alltid lätt att hitta oavsett).*
+Sen var det dags att bygga, jag använder lite plastglas för att organisera upp alla olika bitar. _Nästa gång ska jag inte organisera efter färg utan typ (Färg är alltid lätt att hitta oavsett)._
 
 ![En halvbyggd LEGO-modell](20191009_140522_2-1.jpg "Konstruktion"){.-full}
 
@@ -59,6 +58,7 @@ Och sen en färdig modell. Storleksmässigt är den 2-3 gånger större än de f
 ![LEGO-modell av ett litet träd](Gustav-Lindqvist_2019-10-09_07440.jpg){.-inline}
 ![LEGO-modell av Tekniska högskolan i Jönköping](Gustav-Lindqvist_2019-10-12_07467.jpg){.-inline}
 :::
+
 <figcaption><p>Toarullen och högskolan</p></figcaption>
 ::::
 
@@ -67,6 +67,7 @@ Och sen en färdig modell. Storleksmässigt är den 2-3 gånger större än de f
 ![Närbild på Munksjöbron i LEGO](Gustav-Lindqvist_2019-10-09_07442-1.jpg){.-inline}
 ![Munksjöbron och Spira i LEGO](Gustav-Lindqvist_2019-10-12_07471-2.jpg){.-inline}
 :::
+
 <figcaption><p>Munksjöbron</p></figcaption>
 ::::
 
@@ -75,4 +76,3 @@ Och sen en färdig modell. Storleksmässigt är den 2-3 gånger större än de f
 Vet inte riktigt vad nästa bygge blir, har påbörjat en design på högskoleområdet men får se om det blir nästa jag faktiskt bygger eller om det blir längre fram.
 
 ![3D-rendering av en LEGO-modell över högskolans campus i Jönköping](J-nk-pingUniversity.WIP-1.png)
-

@@ -1,39 +1,40 @@
-.icon, .content .icon {
-    display: inline-block;
-    bottom: 0.1em;
-    position: relative;
-    height: auto;
-    width: 1em;
-    vertical-align: sub;
-    align-self: flex-start;
+.icon,
+.content .icon {
+	display: inline-block;
+	bottom: 0.1em;
+	position: relative;
+	height: auto;
+	width: 1em;
+	vertical-align: sub;
+	align-self: flex-start;
 
-    &.-large {
-        width: 1.5em;
-        vertical-align: middle;
-        bottom: 0.15em;
-    }
+	&.-large {
+		width: 1.5em;
+		vertical-align: middle;
+		bottom: 0.15em;
+	}
 
-    &.-strava {
-        color: oklch(70% 0.2 38deg);
-    }
+	&.-strava {
+		color: oklch(70% 0.2 38deg);
+	}
 
-    &.-gaming {
-        color: oklch(70% 0.2 300deg);
-    }
+	&.-gaming {
+		color: oklch(70% 0.2 300deg);
+	}
 
-    &.-fermentables {
-        color: oklch(70% 0.15 80deg);
-    }
+	&.-fermentables {
+		color: oklch(70% 0.15 80deg);
+	}
 
-    &.-hops {
-        color: oklch(70% 0.1 132deg);
-    }
+	&.-hops {
+		color: oklch(70% 0.1 132deg);
+	}
 
-    &.-yeast {
-        color: oklch(80% 0.06 60deg);
-    }
+	&.-yeast {
+		color: oklch(80% 0.06 60deg);
+	}
 
-    &.-rounded {
-        border-radius: .2rem;
-    }
+	&.-rounded {
+		border-radius: 0.2rem;
+	}
 }

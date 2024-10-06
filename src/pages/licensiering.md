@@ -5,6 +5,7 @@ feature_image:
 custom_excerpt: "Om inget annat är angivet så är allt material producerat av mig licenseriat med licensen Creative Commons BY-SA 4.0."
 date: 2014-05-01
 ---
+
 Om inget annat är angivet så är allt material producerat av mig licenseriat med licensen [Creative Commons BY-SA 4.0][CC BY-SA 4.0].
 
 ## Creative Commons BY-SA 4.0

@@ -7,7 +7,6 @@ tags:
     - fotografering
     - jkpg
     - vinter
-
 ---
 
 Länge var jag ganska negativt inställd till analog fotografering. Det var besvärligt, bakåtsträvande och dyrt. Sida vid sida med en digital kamera ser en analog kamera inte särskilt attraktiv ut.
@@ -63,6 +62,7 @@ Jag blev väldigt förtjust i resultatet från Tri-X och Ektar. Särskilt Ektar 
 ![Munksjöstaden perfekt speglad i Munksjön](Gustav-Lindqvist.2019-02-26.-3-21.jpg){.-inline}
 ![En lång bänk formad som en slingrande orm vid Atollen i Jönköping täckt av snö](Gustav-Lindqvist.2019-02-22.-3-10-1.jpg){.-inline}
 :::
+
 <figcaption><p>Olympus XA, 35mm, Kodak Ektar 100</p></figcaption>
 ::::
 

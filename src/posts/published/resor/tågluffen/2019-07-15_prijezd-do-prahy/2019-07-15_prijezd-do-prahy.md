@@ -72,4 +72,3 @@ Kvällen avslutades med middag på restaurang följt av huvudnumret med ölprovn
 ![Gustav bakom en ölprovarbricka med 6 glas öl.](IMG_20190716_115208_548-2.jpg "Foto: [Josefine Nilsson](https://josefinenilsson.se)")
 
 I morgon (tisdag) åker vi vidare mot Linz och sen nattåg som är framme onsdag morgon i Venedig.
-

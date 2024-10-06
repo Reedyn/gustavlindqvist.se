@@ -15,7 +15,7 @@ tags:
 
 Av någon anledning fick vi för oss att cykla till Gränna och sova i tält. Vi var båda sugna på att besöka Tegnértornet som skulle ha fantastisk utsikt åt alla håll. [Tegnértornet][JKPG.COM - Tegnértornet] är ett 27 meter högt utsiktstorn på toppen av Kramboberget som ligger öster om Grännaberget.{.lead}
 
-Vi hade inte någon särskild utrustning för att cykla med packning så vi köpte några biketouringväskor som vi kunde fästa på våra pakethållare. Vårt tält var ett billigt från Intersport som säkert vägde 4--5 kilo, resten av utrustningen var i princip lika tung och stor *(tyvärr tog jag inga bilder på cyklarna)*.
+Vi hade inte någon särskild utrustning för att cykla med packning så vi köpte några biketouringväskor som vi kunde fästa på våra pakethållare. Vårt tält var ett billigt från Intersport som säkert vägde 4--5 kilo, resten av utrustningen var i princip lika tung och stor _(tyvärr tog jag inga bilder på cyklarna)_.
 
 Vi cyklade upp mot gamla Grännavägen via Huskvarna, fram till Skärstad var det fina asfalterade cykelbanor, därefter var det slut. Från Skärstad cyklar man i väggrenen med bitvis tung trafik ([jag förstår varför de som bor där tjatar om bättre infrastruktur][JP - Skärstadalen kräver gång- och cykelväg]).
 

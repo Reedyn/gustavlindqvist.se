@@ -1,22 +1,20 @@
 {
-  "title": "Gustav\u00a0Lindqvist",
-  "url": "https://gustavlindqvist.se",
-  "language": "sv",
-  "locale": "sv",
-  "description": "fotografering, friluftsliv, kartor & annat",
-  "feed": {
-    "subtitle": "fotografering, friluftsliv, kartor & annat",
-    "filename": "feed.xml",
-    "path": "/feed.xml",
-    "id": "https://gustavlindqvist.se"
-  },
-  "author": {
-    "name": "Gustav",
-    "surname": "Lindqvist",
-    "email": "hej@gustavlindqvist.se",
-    "url": "https://gustavlindqvist.se/om-mig/"
-  },
-  "menu": [
-
-  ]
+	"title": "Gustav\u00a0Lindqvist",
+	"url": "https://gustavlindqvist.se",
+	"language": "sv",
+	"locale": "sv",
+	"description": "fotografering, friluftsliv, kartor & annat",
+	"feed": {
+		"subtitle": "fotografering, friluftsliv, kartor & annat",
+		"filename": "feed.xml",
+		"path": "/feed.xml",
+		"id": "https://gustavlindqvist.se"
+	},
+	"author": {
+		"name": "Gustav",
+		"surname": "Lindqvist",
+		"email": "hej@gustavlindqvist.se",
+		"url": "https://gustavlindqvist.se/om-mig/"
+	},
+	"menu": []
 }

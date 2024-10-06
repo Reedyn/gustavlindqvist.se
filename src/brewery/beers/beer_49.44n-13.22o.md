@@ -17,5 +17,3 @@ eleventyNavigation:
 En ljus pilsner med klassisk tjeckisk Saaz-humle.
 
 [Checka in på 49°44′N, 13°22′O på Untappd](https://untappd.com/b/gustavs-hembryggeri-49044-n-13022-o/4496034)
-
-

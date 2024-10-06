@@ -15,7 +15,7 @@ Nu är det nästan [en månad sedan vi fick meteorologisk vår i Jönköping] oc
 
 Något som det behövs en årlig påminnelse om i april är att det inte är våren som kommit utan mellanperioden vårvintern.
 
-Under denna period är det viktigt att [inte hoppas för mycket på eller råkar nämna våren för tidigt för då säger det bara *Sploff!* så får man sig en smocka av lite vinter][Vårdemort av Ellen Ekman på Instagram]. Exakt detta hände i Jönköping idag när det efter några ganska milda dagar då jag inte ens behövt ha jacka på mig på dagarna till att det under dagen idag kom stora mängder blöt snö som åter färgade landskapet i svart-och-vitt igen.
+Under denna period är det viktigt att [inte hoppas för mycket på eller råkar nämna våren för tidigt för då säger det bara _Sploff!_ så får man sig en smocka av lite vinter][Vårdemort av Ellen Ekman på Instagram]. Exakt detta hände i Jönköping idag när det efter några ganska milda dagar då jag inte ens behövt ha jacka på mig på dagarna till att det under dagen idag kom stora mängder blöt snö som åter färgade landskapet i svart-och-vitt igen.
 
 ![En snötäckt park med en asfalterad gångväg som delar bilden i två delar. I bakgrunden syns träd täckta av tung snö.](Gustav-Lindqvist_0947.JPG)
 
