@@ -119,7 +119,7 @@ Regnet hade nu flyttat sig norrut över Jönköping, det droppade fortfarande li
 
 ![Hassafallet fotografera med en lång exponering så att vattnet ser silkeslent ut. Terrängen runt om är väldigt grön efter att regnet har blött ner allt.](Gustav-Lindqvist_2022-09-25_06909.jpg "Hassafallet"){.-full}
 
-Kanske inte min bästa bild på fallet, men det var iallafall fina färger av den fuktiga terrängen.
+Kanske inte min bästa bild på fallet, men det var i alla fall fina färger av den fuktiga terrängen.
 
 :::: gallery {.-wide}
 ::: row

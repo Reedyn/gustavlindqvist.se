@@ -12,7 +12,7 @@ Min favoritserie av LEGO-sets är Architecture. En serie där varje set är ett 
 
 ![Bild på fyra olika LEGO Architecture sets](image.png){.-inline}
 
-Mikroskala är oerhört roligt på grund av utmaningen att få till små detaljer trots den lilla skalan och med brist på bitar i rätt färg och form. Det är också lite enklare eftersom det är färre (oftast iallafall) bitar vilket gör det snabbare att bygga.
+Mikroskala är oerhört roligt på grund av utmaningen att få till små detaljer trots den lilla skalan och med brist på bitar i rätt färg och form. Det är också lite enklare eftersom det är färre (oftast i alla fall) bitar vilket gör det snabbare att bygga.
 
 <figure class="kg-card kg-image-card kg-card-hascaption"><img src="Lego-Architecture-Paris.jpg" class="kg-image" alt loading="lazy"> <figcaption>Officiella setet för Paris i LEGO™ Architecture</figcaption>
 </figure>
