@@ -1,7 +1,7 @@
+/* eslint-disable no-console */
+/* eslint-disable no-control-regex  */
 const _ = require('lodash');
 const slugify = require('slugify');
-const { DateTime } = require('luxon');
-const moment = require('moment/moment');
 const markdown = require('./markdown');
 const hashString = require('./functions').hashString;
 const featureImageFilter = require('./filters/feature-image');

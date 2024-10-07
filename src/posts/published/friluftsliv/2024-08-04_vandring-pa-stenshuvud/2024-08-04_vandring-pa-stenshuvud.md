@@ -13,7 +13,7 @@ I måndags var vi och vandrade i Stenshuvud nationalpark på Österlen.{.lead}
 
 Det finns flera bra parkeringar att utfå ifrån när man ska vandra i nationalparken (se kartan längre fram i inlägget), en till norr vid Kiviks musteri, en i söder intill Rörums sommarby och en i mitten där Naturum finns. Vi valde den vid Naturum.
 
-![En grå byggnad som det står "Naturum Stenhuvud på sidan"](Gustav-Lindqvist_2024-07-29_02802_3000w.jpg)
+![En grå byggnad som det står Naturum Stenhuvud på](Gustav-Lindqvist_2024-07-29_02802_3000w.jpg)
 
 Stenshuvud är inte en av våra största nationalparker (enbart 400 hektar) och det tar inte särskilt lång tid att gå runt så den lämpar sig perfekt för en dagstur. Själva berget är inte särskilt högt men formen och branten gör ändå det till ett häftigt landmärke. [Det ska ha använts som ett sjömärke i hundratal år](https://sv.wikipedia.org/wiki/Stenshuvud), troligtvis eftersom det är väldigt synligt från sjön. Från land syns det knappt eftersom man kommer från Linderödsåsen som är högre (och som Stenshuvud är avslutningen för).
 

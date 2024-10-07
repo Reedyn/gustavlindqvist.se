@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const fetch = require('@11ty/eleventy-fetch');
 
 require('dotenv').config();

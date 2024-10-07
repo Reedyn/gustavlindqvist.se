@@ -1,11 +1,11 @@
-const Parser = require('rss-parser');
+/* eslint-disable no-console */
 const { XMLParser } = require('fast-xml-parser');
 const opml = require('opml');
 const fetch = require('@11ty/eleventy-fetch');
 
 function fetchWithTimeout(resource, options = {}) {
 	const { timeout = 5000 } = options;
-	return new Promise(async function (resolve, reject) {
+	return new Promise(function (resolve, reject) {
 		fetch(resource, {
 			...options,
 		}).then(resolve, reject);
@@ -15,13 +15,6 @@ function fetchWithTimeout(resource, options = {}) {
 
 module.exports = async () => {
 	const inoreader = {};
-	let parser = new Parser({
-		timeout: 10000,
-		customFields: {
-			item: ['source'],
-		},
-	});
-	const maxPerFeed = 2;
 
 	const opmlSources = [
 		{
@@ -145,18 +138,6 @@ module.exports = async () => {
 		return feedList;
 	};
 
-	const feedLists = removeSelf(await getSourcesFromOPML());
-
-	function sortByDate(a, b) {
-		if (a.publicationDate > b.publicationDate) {
-			return -1;
-		}
-		if (a.publicationDate < b.publicationDate) {
-			return 1;
-		}
-		return 0;
-	}
-
 	function removeSelf(feedList) {
 		const filteredFeedList = [];
 
@@ -172,6 +153,8 @@ module.exports = async () => {
 		console.log('[' + '\x1b[35m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Removed self from feed lists');
 		return filteredFeedList;
 	}
+
+	const feedLists = removeSelf(await getSourcesFromOPML());
 
 	const getLinkBlog = async () => {
 		const feedURL = 'https://www.inoreader.com/stream/user/1005830534/tag/Linkblog?n=500';
@@ -199,9 +182,9 @@ module.exports = async () => {
 				'posts from linkblog.',
 			);
 
-			outputPosts = [];
+			const outputPosts = [];
 			feed.forEach((post) => {
-				outputPost = {};
+				const outputPost = {};
 				outputPost.title = post.title.replace(/\.[pdfPDF]+/, '');
 				outputPost.source = {
 					name: post.source['#text'],
