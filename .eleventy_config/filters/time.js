@@ -3,9 +3,9 @@ module.exports = {
 		let hours = Math.floor(minutes / 60);
 		let remainingMinutes = minutes % 60;
 
-		let hoursString = "";
-		let minutesString = "";
-		let separator = "";
+		let hoursString = '';
+		let minutesString = '';
+		let separator = '';
 
 		if (remainingMinutes >= 45) {
 			remainingMinutes = 0;
@@ -14,18 +14,18 @@ module.exports = {
 
 		if (hours !== 0) {
 			if (hours > 1) {
-				hoursString = hours + " timmar ";
+				hoursString = hours + ' timmar ';
 			} else {
-				hoursString = hours + " timme ";
+				hoursString = hours + ' timme ';
 			}
 		}
 
 		if (hours !== 0 && remainingMinutes > 15) {
-			separator = " ";
+			separator = ' ';
 		}
 
 		if (remainingMinutes > 15 || hours === 0) {
-			minutesString = remainingMinutes + " minuter";
+			minutesString = remainingMinutes + ' minuter';
 		}
 
 		return hoursString + separator + minutesString;

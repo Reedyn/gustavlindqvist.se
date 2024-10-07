@@ -2,8 +2,8 @@
 	display: flex;
 	flex-direction: column;
 	align-content: space-around;
-	align-items: center;
 	justify-content: space-around;
+	align-items: center;
 	border-top: 1px solid var(--color__background__alt);
 	font-family: var(--font__meta);
 }
@@ -11,9 +11,9 @@
 .site-footer__content {
 	display: flex;
 	flex-direction: column;
+	padding: var(--padding__large) var(--padding__medium);
 	width: 100%;
 	max-width: var(--max-width__base);
-	padding: var(--padding__large) var(--padding__medium);
 	font-size: var(--font__size-base);
 	text-align: center;
 

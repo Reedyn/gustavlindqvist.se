@@ -3,11 +3,11 @@
 }
 
 .wrapper {
-	max-width: var(--max-width__base);
+	margin-right: auto;
+	margin-left: auto;
 	padding: 0 var(--padding__medium);
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+	max-width: var(--max-width__base);
 }
 
 .secondary {
@@ -34,14 +34,14 @@
 
 .sr-only {
 	position: absolute;
+	margin: -1 px;
+	padding: 0;
 	width: 1px;
 	height: 1px;
-	padding: 0;
-	margin: -1 px;
 	overflow: hidden;
 	clip: rect(0, 0, 0, 0);
-	white-space: nowrap;
 	border-width: 0;
+	white-space: nowrap;
 }
 
 .uppercase {

@@ -3,23 +3,23 @@
 }
 
 .site-header__content {
-	position: relative;
-	z-index: 10;
 	display: flex;
-	max-width: var(--max-width__base);
+	position: relative;
 	flex-direction: row;
+	z-index: 10;
+	margin: auto;
 	padding-right: var(--padding__medium);
 	padding-left: var(--padding__medium);
-	margin: auto;
+	max-width: var(--max-width__base);
 	color: var(--color__text-alt);
-	font-family: var(--font__meta);
 	line-height: var(--header__height);
+	font-family: var(--font__meta);
 
 	.site__title {
+		margin: 0;
 		font-size: 115%;
 		line-height: inherit;
 		letter-spacing: inherit;
-		margin: 0;
 
 		a {
 			font-weight: 700;
@@ -29,11 +29,11 @@
 	.site__image {
 		position: relative;
 		top: calc(var(--header__height) * -0.05);
-		width: calc(var(--header__height) * 0.5);
+		vertical-align: middle;
 		margin: 0;
 		margin-right: 0.75em;
-		vertical-align: middle;
 		border-radius: 50%;
+		width: calc(var(--header__height) * 0.5);
 	}
 
 	a {
@@ -53,9 +53,9 @@
 
 	.site__description {
 		display: none;
+		font-style: italic;
 		font-size: var(--font__size-base);
 		font-family: var(--font__captions);
-		font-style: italic;
 
 		@include respond-to(small) {
 			display: inline;

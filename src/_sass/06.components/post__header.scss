@@ -1,13 +1,13 @@
 .post-header {
-	position: relative;
 	display: flex;
-	overflow: hidden;
+	position: relative;
 	flex-direction: column;
-	align-items: center;
 	justify-content: flex-end;
-	padding: 0;
+	align-items: center;
 	background-position: center;
 	background-size: cover;
+	padding: 0;
+	overflow: hidden;
 	color: var(--color__text);
 
 	a {
@@ -20,9 +20,9 @@
 		font-weight: 900;
 
 		svg {
+			padding-bottom: var(--padding__small);
 			width: 90%;
 			max-width: 60rem;
-			padding-bottom: var(--padding__small);
 		}
 	}
 
@@ -36,19 +36,19 @@
 		.tag {
 			display: inline-block;
 			margin-right: 0.4em;
-			color: inherit;
+			margin-bottom: 0.4em;
 			background: var(--color__background__widget);
 			padding: 0 0.5em;
-			margin-bottom: 0.4em;
+			color: inherit;
 		}
 	}
 
 	.post-metadata {
 		position: relative;
 		z-index: 10;
+		padding: 0 var(--padding__medium);
 		width: 100%;
 		max-width: var(--max-width__content);
-		padding: 0 var(--padding__medium);
 
 		:last-child {
 			margin-bottom: 0;
@@ -76,16 +76,16 @@
 
 	&.-feature-image {
 		.post-header__image {
-			width: 100%;
 			margin: 0;
+			width: 100%;
 
 			img {
-				width: 100%;
-				aspect-ratio: 16/9;
-				min-height: 30vh;
-				max-height: 60vh;
 				margin: 0;
 				padding: 0;
+				aspect-ratio: 16/9;
+				width: 100%;
+				min-height: 30vh;
+				max-height: 60vh;
 				object-fit: cover;
 				object-position: center;
 			}

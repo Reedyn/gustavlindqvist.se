@@ -1,9 +1,9 @@
 .content .header-anchor {
 	position: absolute;
-	color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
 	transform: translateX(-0.65em);
-	text-decoration: none;
 	opacity: 0;
+	color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
+	text-decoration: none;
 
 	&:visited {
 		color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
@@ -11,13 +11,13 @@
 
 	&:focus,
 	&:hover {
-		color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
 		background: none;
+		color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
 		text-decoration: underline;
 
 		&:visited {
-			color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
 			background: none;
+			color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
 		}
 	}
 }

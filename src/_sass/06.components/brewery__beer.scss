@@ -1,10 +1,10 @@
 .beer-statistics {
 	&__list {
-		list-style: none;
-		margin: 0;
-		padding: 0;
 		display: grid;
 		grid-auto-flow: dense;
+		margin: 0;
+		padding: 0;
+		list-style: none;
 		grid-gap: var(--margin__small);
 		grid-template-columns: 1fr 1fr;
 		max-width: 30em;
@@ -20,8 +20,8 @@
 		justify-content: flex-end;
 
 		&__label {
-			font-size: var(--font__size-base);
 			color: var(--color__text-alt);
+			font-size: var(--font__size-base);
 		}
 		&__value {
 			font-size: var(--font__size__heading-4);
@@ -40,10 +40,10 @@
 	}
 
 	&__list {
-		list-style: none;
-		max-width: 25em;
 		margin: 0;
 		padding: 0;
+		max-width: 25em;
+		list-style: none;
 
 		&-item {
 			display: grid;
@@ -60,10 +60,10 @@
 			}
 			&__middle {
 				grid-area: middle;
+				overflow: hidden;
 
 				text-overflow: ellipsis;
 				white-space: nowrap;
-				overflow: hidden;
 			}
 			&__right {
 				grid-area: right;
@@ -93,12 +93,12 @@
 
 .batches {
 	&__status {
-		font-size: var(--font__size);
 		display: inline-block;
+		position: relative;
+		bottom: 0.1em;
 		vertical-align: middle;
 		background: var(--color__background__widget);
-		bottom: 0.1em;
-		position: relative;
 		padding: 0.3em;
+		font-size: var(--font__size);
 	}
 }

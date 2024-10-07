@@ -1,7 +1,7 @@
 ol.game-list {
 	margin-block-start: 1em;
-	list-style: none;
 	padding-inline-start: 0;
+	list-style: none;
 }
 
 .game-list__item {
@@ -12,11 +12,11 @@ ol.game-list {
 	}
 
 	.icon {
-		width: 1em;
-		margin-left: 0;
-		margin-bottom: 0;
 		margin-top: 0.4em;
 		margin-right: 0.5em;
+		margin-bottom: 0;
+		margin-left: 0;
+		width: 1em;
 
 		&.-large {
 			width: 2em;

@@ -1,4 +1,4 @@
-const eleventyPkg = require("@11ty/eleventy/package.json");
+const eleventyPkg = require('@11ty/eleventy/package.json');
 
 const timestamp = new Date();
 

@@ -1,9 +1,9 @@
 .content {
-	width: 100%;
-	max-width: var(--max-width__content);
-	padding: var(--padding__medium);
 	margin-right: auto;
 	margin-left: auto;
+	padding: var(--padding__medium);
+	width: 100%;
+	max-width: var(--max-width__content);
 
 	@include respond-to(small) {
 		padding-bottom: var(--padding__large);
@@ -31,9 +31,9 @@
 
 		&:hover,
 		&:focus {
-			text-decoration: none;
-			color: var(--color__background);
 			background: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
+			color: var(--color__background);
+			text-decoration: none;
 
 			&:visited {
 				background: oklch(

@@ -3,15 +3,15 @@ const gustavlindqvist = (() => {
 	const isJS = (() => {
 		const htmlElement = document.documentElement;
 
-		htmlElement.classList.remove("no-js");
-		htmlElement.classList.add("js");
+		htmlElement.classList.remove('no-js');
+		htmlElement.classList.add('js');
 	})();
 
 	const initializeDayJS = (() => {
 		dayjs.extend(dayjs_plugin_relativeTime);
-		dayjs.locale("sv");
-		[...document.querySelectorAll(".timeago")].forEach((element) => {
-			if (typeof element.getAttribute("datetime") !== "undefined") {
+		dayjs.locale('sv');
+		[...document.querySelectorAll('.timeago')].forEach((element) => {
+			if (typeof element.getAttribute('datetime') !== 'undefined') {
 				let newString = dayjs().to(element.attributes.datetime.value);
 
 				const today = new Date();
@@ -23,14 +23,14 @@ const gustavlindqvist = (() => {
 					date.getMonth() === today.getMonth() &&
 					date.getFullYear() === today.getFullYear()
 				) {
-					newString = "idag";
+					newString = 'idag';
 				} else {
-					if (typeof element.getAttribute("prefix") === "undefined") {
-						newString = newString.replace("för ", "");
+					if (typeof element.getAttribute('prefix') === 'undefined') {
+						newString = newString.replace('för ', '');
 					}
 				}
 
-				if (element.hasAttribute("data-firstletterupper")) {
+				if (element.hasAttribute('data-firstletterupper')) {
 					newString = newString.charAt(0).toUpperCase() + newString.slice(1);
 				}
 

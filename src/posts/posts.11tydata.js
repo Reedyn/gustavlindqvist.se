@@ -1,10 +1,10 @@
-require("dotenv").config();
+require('dotenv').config();
 
-const isDevEnv = process.env.ELEVENTY_ENV === "development";
+const isDevEnv = process.env.ELEVENTY_ENV === 'development';
 const todaysDate = new Date();
 
 function showDraft(data) {
-	const isDraft = "draft" in data && data.draft !== false;
+	const isDraft = 'draft' in data && data.draft !== false;
 	const isFutureDate = data.page.date > todaysDate;
 	return isDevEnv || (!isDraft && !isFutureDate);
 }

@@ -4,12 +4,12 @@ module.exports = {
 		render: function (tokens, idx) {
 			const token = tokens[idx];
 			if (token.nesting === 1) {
-				const classes = token.attrGet("class") ? " " + token.attrGet("class") : "";
+				const classes = token.attrGet('class') ? ' ' + token.attrGet('class') : '';
 				// opening tag
 				return `<figure class="gallery${classes}">`;
 			} else {
 				// closing tag
-				return "</figure>";
+				return '</figure>';
 			}
 		},
 	},
@@ -18,11 +18,11 @@ module.exports = {
 			const token = tokens[idx];
 			if (token.nesting === 1) {
 				// opening tag
-				const classes = token.attrGet("class") ? " " + token.attrGet("class") : "";
+				const classes = token.attrGet('class') ? ' ' + token.attrGet('class') : '';
 				return `<figure class="gallery-row${classes}">`;
 			} else {
 				// closing tag
-				return "</figure>";
+				return '</figure>';
 			}
 		},
 	},

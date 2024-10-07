@@ -9,9 +9,9 @@
 
 .Breadcrumbs ol {
 	margin: 0;
+	padding-inline-start: 0;
 	font-size: 80%;
 	list-style: none;
-	padding-inline-start: 0;
 	text-transform: uppercase;
 }
 
@@ -20,13 +20,13 @@
 }
 
 .Breadcrumbs ol li:before {
-	content: none !important;
 	display: none !important;
+	content: none !important;
 }
 
 .Breadcrumbs ol li:after {
-	color: var(--color__text-alt);
 	content: "/";
+	color: var(--color__text-alt);
 }
 
 .Breadcrumbs ol li:last-child:after {

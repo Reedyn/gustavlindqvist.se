@@ -1,15 +1,15 @@
 .content .button {
 	display: inline-block;
-	background: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
-	color: var(--color__background);
-	padding: 0.5em 0.8em;
-	line-height: 1.5;
-	border: 0;
 	cursor: pointer;
-	font-family: inherit;
-	font-size: inherit;
-	font-weight: inherit;
 	margin: 0;
+	border: 0;
+	background: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
+	padding: 0.5em 0.8em;
+	color: var(--color__background);
+	font-weight: inherit;
+	font-size: inherit;
+	line-height: 1.5;
+	font-family: inherit;
 	text-decoration: none;
 
 	&:visited {

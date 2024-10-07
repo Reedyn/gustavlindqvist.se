@@ -1,8 +1,8 @@
-const { DateTime } = require("luxon");
-const moment = require("moment");
+const { DateTime } = require('luxon');
+const moment = require('moment');
 module.exports = {
 	htmlDateString: (dateObj) => {
-		return DateTime.fromJSDate(dateObj).setZone("Europe/Stockholm").toFormat("yyyy-LL-dd");
+		return DateTime.fromJSDate(dateObj).setZone('Europe/Stockholm').toFormat('yyyy-LL-dd');
 	},
 	date: (date, format) => {
 		return moment(date).format(format);
@@ -11,21 +11,21 @@ module.exports = {
 		return new Date(dateString);
 	},
 	dateFolder: (dateObj) => {
-		return DateTime.fromJSDate(dateObj).setZone("Europe/Stockholm").toFormat("yyyy/MM/dd");
+		return DateTime.fromJSDate(dateObj).setZone('Europe/Stockholm').toFormat('yyyy/MM/dd');
 	},
 	shortISODate: (dateObj) => {
-		return DateTime.fromJSDate(dateObj).setZone("Europe/Stockholm").toFormat("yyyy-MM-dd");
+		return DateTime.fromJSDate(dateObj).setZone('Europe/Stockholm').toFormat('yyyy-MM-dd');
 	},
 	longISODate: (dateObj) => {
-		return DateTime.fromJSDate(dateObj).setZone("Europe/Stockholm").toFormat("yyyy-MM-dd HH:mm");
+		return DateTime.fromJSDate(dateObj).setZone('Europe/Stockholm').toFormat('yyyy-MM-dd HH:mm');
 	},
 	fullISODate: (dateObj) => {
-		return DateTime.fromJSDate(dateObj).setZone("Europe/Stockholm").toISO();
+		return DateTime.fromJSDate(dateObj).setZone('Europe/Stockholm').toISO();
 	},
 	readableDate: (dateObj) => {
-		return DateTime.fromJSDate(dateObj).setLocale("sv").toFormat("d MMMM");
+		return DateTime.fromJSDate(dateObj).setLocale('sv').toFormat('d MMMM');
 	},
 	readableLongDate: (dateObj) => {
-		return DateTime.fromJSDate(dateObj).setLocale("sv").toFormat("d MMMM, yyyy");
+		return DateTime.fromJSDate(dateObj).setLocale('sv').toFormat('d MMMM, yyyy');
 	},
 };

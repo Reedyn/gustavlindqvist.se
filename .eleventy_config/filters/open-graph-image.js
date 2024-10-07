@@ -1,33 +1,33 @@
-const EleventyImage = require("@11ty/eleventy-img");
+const EleventyImage = require('@11ty/eleventy-img');
 
 module.exports = async function (src, postData) {
-	if ((typeof src === "undefined" || !src) && postData.outputPath) {
+	if ((typeof src === 'undefined' || !src) && postData.outputPath) {
 		return src;
 	}
 
 	const documentPath = postData.filePathStem;
-	src = src.replace(/^\//, "");
+	src = src.replace(/^\//, '');
 
-	let outputPath = "";
+	let outputPath = '';
 	try {
 		outputPath = postData.outputPath
-			.substring(0, postData.outputPath.lastIndexOf("/")) // Remove document from path
-			.replace(/^\//, ""); // remove first slash
+			.substring(0, postData.outputPath.lastIndexOf('/')) // Remove document from path
+			.replace(/^\//, ''); // remove first slash
 		// If the image is absolute path or external
 	} catch (error) {
-		outputPath = "";
+		outputPath = '';
 	}
 
 	const folderPath = documentPath
-		.substring(0, documentPath.lastIndexOf("/") + 1) // Remove document from path
-		.replace(/^\//, ""); // remove first slash
+		.substring(0, documentPath.lastIndexOf('/') + 1) // Remove document from path
+		.replace(/^\//, ''); // remove first slash
 	// If the image is absolute path or external
-	if (src.startsWith("http")) {
-	} else if (src.startsWith("assets")) {
-		src = "./src/" + src;
+	if (src.startsWith('http')) {
+	} else if (src.startsWith('assets')) {
+		src = './src/' + src;
 	} else {
 		// Otherwise assume the file is relative to the document folder
-		src = "./src/" + folderPath + src;
+		src = './src/' + folderPath + src;
 	}
 
 	const options = {
@@ -46,12 +46,12 @@ module.exports = async function (src, postData) {
 
 	let metadata = await EleventyImage(src, options);
 
-	let format = "";
+	let format = '';
 	for (const key in metadata) {
 		format = key;
 	}
 
 	let lowsrc = metadata[format].length > 1 ? metadata[format][1] : metadata[format][0];
-	console.log("[" + "\x1b[36m%s\x1b[0m", "11ty Image" + "\x1b[0m" + "]:", "Created open-graph image ", lowsrc.url);
+	console.log('[' + '\x1b[36m%s\x1b[0m', '11ty Image' + '\x1b[0m' + ']:', 'Created open-graph image ', lowsrc.url);
 	return lowsrc.url;
 };
