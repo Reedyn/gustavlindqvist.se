@@ -1,16 +1,16 @@
 .post-header .post-title {
 	.beer-label {
-		max-width: 100%;
-		width: 40rem;
 		display: block;
+		width: 40rem;
+		max-width: 100%;
 		color: var(--color__text);
 	}
 }
 .beer-title {
 	a {
 		.beer-label {
-			color: var(--color__text);
 			aspect-ratio: 2/1;
+			color: var(--color__text);
 		}
 		&:hover,
 		&:visited {

@@ -1,1 +1,12 @@
-{}
+{
+	"singleQuote": true,
+	"overrides": [
+		{
+			"files": ["**/*.css", "**/*.scss", "**/*.html", "**/*.md"],
+			"options": {
+				"singleQuote": false
+			}
+		}
+	],
+	"plugins": ["prettier-plugin-css-order", "prettier-eslint"]
+}

@@ -1,14 +1,14 @@
-const _ = require("lodash");
-const slugify = require("slugify");
-const { DateTime } = require("luxon");
-const moment = require("moment/moment");
-const markdown = require("./markdown");
-const hashString = require("./functions").hashString;
-const featureImageFilter = require("./filters/feature-image");
-const openGraphImageFilter = require("./filters/open-graph-image");
-const dates = require("./filters/dates");
-const statistics = require("./filters/statistics");
-const time = require("./filters/time");
+const _ = require('lodash');
+const slugify = require('slugify');
+const { DateTime } = require('luxon');
+const moment = require('moment/moment');
+const markdown = require('./markdown');
+const hashString = require('./functions').hashString;
+const featureImageFilter = require('./filters/feature-image');
+const openGraphImageFilter = require('./filters/open-graph-image');
+const dates = require('./filters/dates');
+const statistics = require('./filters/statistics');
+const time = require('./filters/time');
 
 module.exports = {
 	log: (object) => {
@@ -29,14 +29,14 @@ module.exports = {
 		items = [...items];
 		return items
 			.map((item) => {
-				item.data.sortDate = typeof item.data.sortDate !== "undefined" ? item.data.sortDate : item.date;
+				item.data.sortDate = typeof item.data.sortDate !== 'undefined' ? item.data.sortDate : item.date;
 				return item;
 			})
 			.sort((a, b) => new Date(a.data.sortDate) - new Date(b.data.sortDate));
 	},
 	slug: (input) => {
 		const options = {
-			replacement: "-",
+			replacement: '-',
 			remove: /[&,+()$~%.'":*?<>{}←→↑↓↔↕↖↗↘↙°!′]/g,
 			lower: true,
 		};
@@ -56,16 +56,16 @@ module.exports = {
 		});
 	},
 	utf8_xml: (inputStr) => {
-		return inputStr.replace(/[^\x09\x0A\x0D\x20-\xFF\x85\xA0-\uD7FF\uE000-\uFDCF\uFDE0-\uFFFD]/gm, "");
+		return inputStr.replace(/[^\x09\x0A\x0D\x20-\xFF\x85\xA0-\uD7FF\uE000-\uFDCF\uFDE0-\uFFFD]/gm, '');
 	},
 	trailingZeros: (num, totalLength) => {
-		return String(num).padEnd(totalLength, "0");
+		return String(num).padEnd(totalLength, '0');
 	},
 	volumeToBottles: (volume) => {
 		return Math.round(volume * 3);
 	},
 	dotToComma: (inputString) => {
-		return inputString.toString().replace(".", ",");
+		return inputString.toString().replace('.', ',');
 	},
 	head: (array, n) => {
 		if (!Array.isArray(array) || array.length === 0) {
@@ -79,7 +79,7 @@ module.exports = {
 	},
 	removePostsNotInSeries: (collection, series) => {
 		return collection.filter((post) => {
-			return typeof post.data.series !== "undefined" && post.data.series.includes(series);
+			return typeof post.data.series !== 'undefined' && post.data.series.includes(series);
 		});
 	},
 	date: dates.date,
@@ -97,10 +97,10 @@ module.exports = {
 		return inputString.toLowerCase();
 	},
 	firstLetterUpper: (inputString) => {
-		if (typeof inputString !== "undefined" && inputString.length) {
+		if (typeof inputString !== 'undefined' && inputString.length) {
 			return inputString.charAt(0).toUpperCase() + inputString.slice(1);
 		}
-		return "";
+		return '';
 	},
 	encodeURL: (inputString) => {
 		return encodeURI(inputString);
@@ -110,7 +110,7 @@ module.exports = {
 	},
 	parseImagePath: (imagePath, postPath) => {
 		if (imagePath) {
-			if (imagePath.indexOf("/assets/images/") !== -1) {
+			if (imagePath.indexOf('/assets/images/') !== -1) {
 				// If image is in the content folder.
 				return imagePath;
 			} else {
@@ -122,9 +122,9 @@ module.exports = {
 		}
 	},
 	shuffle: (arr) => {
-		let m = arr.length,
-			t,
-			i;
+		let m = arr.length;
+		let t;
+		let i;
 
 		while (m) {
 			i = Math.floor(Math.random() * m--);
@@ -144,9 +144,9 @@ module.exports = {
 	hashString: hashString,
 	prettyDigits: (number) => {
 		try {
-			return number.toString().replace(/(?!^)(?=(?:\d{3})+(?:\.|$))/gm, " ");
+			return number.toString().replace(/(?!^)(?=(?:\d{3})+(?:\.|$))/gm, ' ');
 		} catch {
-			return "";
+			return '';
 		}
 	},
 	isoString: (date = Date.now()) => new Date(date).toISOString(),

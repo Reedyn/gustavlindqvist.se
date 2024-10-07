@@ -53,8 +53,8 @@
 		}
 
 		.hero-content {
-			max-width: 100% !important;
 			width: 100% !important;
+			max-width: 100% !important;
 		}
 
 		.post__read-time,
@@ -64,23 +64,23 @@
 	}
 
 	.content {
-		width: 100% !important;
-		max-width: 100% !important;
 		padding: 0 !important;
 		padding-top: var(--margin__medium);
+		width: 100% !important;
+		max-width: 100% !important;
 	}
 
 	.content > * {
-		color: black !important;
-		background: white !important;
 		margin-top: var(--margin__medium);
 		margin-bottom: var(--margin__small);
+		background: white !important;
+		color: black !important;
 	}
 
 	.content pre {
+		border: 1px solid black;
 		background: white !important;
 		color: black !important;
-		border: 1px solid black;
 
 		code {
 			color: black !important;
@@ -88,10 +88,10 @@
 	}
 
 	.post-header {
-		min-height: 0 !important;
+		margin-bottom: 1em !important;
 		background: white !important;
 		padding: 0 !important;
-		margin-bottom: 1em !important;
+		min-height: 0 !important;
 
 		&.-feature-image:after {
 			display: none;
@@ -133,9 +133,9 @@
 
 	// Style buttons with outline instead of background (to save ink)
 	a.button {
+		position: initial !important;
 		border: 1px solid black !important;
 		background: none !important;
-		position: initial !important;
 	}
 
 	// Hide buttons that don't link anywhere
@@ -149,9 +149,9 @@
 		color: oklch(56% 0.218 259deg) !important;
 		text-decoration: underline !important;
 		&:after {
+			vertical-align: super;
 			content: " [" attr(href) "]";
 			font-size: 85%;
-			vertical-align: super;
 		}
 	}
 }

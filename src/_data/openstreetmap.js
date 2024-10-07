@@ -1,5 +1,5 @@
-let Parser = require("rss-parser");
-const fetch = require("@11ty/eleventy-fetch");
+let Parser = require('rss-parser');
+const fetch = require('@11ty/eleventy-fetch');
 
 module.exports = async () => {
 	const openstreetmap = {};
@@ -7,33 +7,33 @@ module.exports = async () => {
 	let parser = new Parser({
 		timeout: 10000,
 		customFields: {
-			item: ["content"],
+			item: ['content'],
 		},
 	});
 
-	const openstreetmap_personal_history_feed = "https://www.openstreetmap.org/user/reedyn/history/feed";
+	const openstreetmap_personal_history_feed = 'https://www.openstreetmap.org/user/reedyn/history/feed';
 
 	const getEdits = async (_) => {
 		try {
 			const rawFeed = await fetch(openstreetmap_personal_history_feed, {
-				duration: "3h",
-				type: "text",
-				directory: ".cache",
+				duration: '3h',
+				type: 'text',
+				directory: '.cache',
 			});
 			const feed = await parser.parseString(rawFeed);
 			const edits = [];
 			console.log(
-				"[" + "\x1b[32m%s\x1b[0m",
-				"OpenStreetMap" + "\x1b[0m" + "]:",
+				'[' + '\x1b[32m%s\x1b[0m',
+				'OpenStreetMap' + '\x1b[0m' + ']:',
 				feed.items.length,
-				"edits from Gustav's OSM profile (" + feed.link + ")",
+				"edits from Gustav's OSM profile (" + feed.link + ')',
 			);
 			feed.items.forEach((item) => {
 				const edit = {};
-				edit.id = item.id.slice(item.id.lastIndexOf("/") + 1);
+				edit.id = item.id.slice(item.id.lastIndexOf('/') + 1);
 				edit.url = item.id;
-				edit.comment = item.title.slice(item.title.indexOf("-") + 1).trim();
-				edit.resultatmaps = "https://resultmaps.neis-one.org/osm-change-viz?c=" + edit.id;
+				edit.comment = item.title.slice(item.title.indexOf('-') + 1).trim();
+				edit.resultatmaps = 'https://resultmaps.neis-one.org/osm-change-viz?c=' + edit.id;
 				edit.date = new Date(item.pubDate);
 				edits.push(edit);
 			});

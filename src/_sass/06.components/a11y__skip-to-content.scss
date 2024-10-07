@@ -1,16 +1,16 @@
 .skip-to-content {
-	padding: var(--margin__medium);
-	color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
-	background: var(--color__background);
 	display: block;
-	border: 1px solid white;
 	position: fixed;
-	z-index: 9999;
 	top: 3px;
 	left: 3px;
+	z-index: 9999;
+	border: 1px solid white;
+	background: var(--color__background);
+	padding: var(--margin__medium);
+	color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
 	&:not(:focus) {
 		position: absolute;
-		left: -100%;
 		top: -100%;
+		left: -100%;
 	}
 }

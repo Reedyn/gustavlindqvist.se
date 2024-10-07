@@ -16,12 +16,12 @@ figure.exif:focus .exif__container {
 
 .exif {
 	&__container {
-		transform: translateY(calc(-100% - var(--margin__small)));
-		font-size: 75%;
 		position: absolute;
 		left: 0;
+		transform: translateY(calc(-100% - var(--margin__small)));
 		opacity: 0;
 		color: var(--color__text__contrast);
+		font-size: 75%;
 		text-shadow:
 			0 0 2px black,
 			0 0 2px black,
@@ -35,7 +35,7 @@ figure.exif:focus .exif__container {
 
 	&__data:before {
 		display: inline-block;
-		content: attr(data-type);
 		width: 5.5em;
+		content: attr(data-type);
 	}
 }

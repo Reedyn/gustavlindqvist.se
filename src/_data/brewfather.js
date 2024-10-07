@@ -1,12 +1,12 @@
-const fetch = require("@11ty/eleventy-fetch");
+const fetch = require('@11ty/eleventy-fetch');
 
-require("dotenv").config();
+require('dotenv').config();
 
 module.exports = async () => {
 	const brewfatherId = process.env.BREWFATHER_ID;
 	const apiKey = process.env.BREWFATHER_APIKEY;
 	const rawAuthorizationHeader = Buffer.from(`${brewfatherId}:${apiKey}`);
-	const authorizationHeader = rawAuthorizationHeader.toString("base64");
+	const authorizationHeader = rawAuthorizationHeader.toString('base64');
 
 	const asyncForEach = async function (array, callback) {
 		for (let index = 0; index < array.length; index++) {
@@ -29,43 +29,43 @@ module.exports = async () => {
 		const mappingTable = [
 			{
 				ebc: 8,
-				hexColor: "#f9e06c",
+				hexColor: '#f9e06c',
 			},
 			{
 				ebc: 12,
-				hexColor: "#eaaf1e",
+				hexColor: '#eaaf1e',
 			},
 			{
 				ebc: 15,
-				hexColor: "#d68019",
+				hexColor: '#d68019',
 			},
 			{
 				ebc: 18,
-				hexColor: "#b7521a",
+				hexColor: '#b7521a',
 			},
 			{
 				ebc: 20,
-				hexColor: "#9d3414",
+				hexColor: '#9d3414',
 			},
 			{
 				ebc: 25,
-				hexColor: "#892515",
+				hexColor: '#892515',
 			},
 			{
 				ebc: 30,
-				hexColor: "#731c0b",
+				hexColor: '#731c0b',
 			},
 			{
 				ebc: 35,
-				hexColor: "#5b0b0a",
+				hexColor: '#5b0b0a',
 			},
 			{
 				ebc: 40,
-				hexColor: "#450b0a",
+				hexColor: '#450b0a',
 			},
 			{
 				ebc: 99999,
-				hexColor: "#240a0b",
+				hexColor: '#240a0b',
 			},
 		];
 		for (const mapping of mappingTable) {
@@ -80,12 +80,12 @@ module.exports = async () => {
 	const getBatches = async () => {
 		const getBatch = async (batchId) => {
 			try {
-				const batch = await fetch("https://api.brewfather.app/v1/batches/" + batchId, {
-					duration: "1h",
-					type: "json",
-					directory: ".cache",
+				const batch = await fetch('https://api.brewfather.app/v1/batches/' + batchId, {
+					duration: '1h',
+					type: 'json',
+					directory: '.cache',
 					fetchOptions: {
-						headers: { Authorization: "Basic " + authorizationHeader },
+						headers: { Authorization: 'Basic ' + authorizationHeader },
 					},
 				});
 
@@ -101,36 +101,36 @@ module.exports = async () => {
 					batch.recipe.bv = null;
 				}
 
-				let status = "Färdig";
-				let statusCode = "completed";
+				let status = 'Färdig';
+				let statusCode = 'completed';
 
 				switch (batch.status) {
-					case "Planning":
-						status = "Planerad";
-						statusCode = "planning";
+					case 'Planning':
+						status = 'Planerad';
+						statusCode = 'planning';
 						break;
-					case "Brewing":
-						status = "Bryggdag! 🍺";
-						statusCode = "brewing";
+					case 'Brewing':
+						status = 'Bryggdag! 🍺';
+						statusCode = 'brewing';
 						break;
-					case "Fermenting":
-						status = "Fermenteras";
-						statusCode = "fermenting";
+					case 'Fermenting':
+						status = 'Fermenteras';
+						statusCode = 'fermenting';
 						break;
-					case "Conditioning":
-						status = "Efterbehandling";
-						statusCode = "conditioning";
+					case 'Conditioning':
+						status = 'Efterbehandling';
+						statusCode = 'conditioning';
 						break;
-					case "Completed":
-						status = "Färdig";
-						statusCode = "completed";
+					case 'Completed':
+						status = 'Färdig';
+						statusCode = 'completed';
 				}
 				batch.notes.forEach((note) => {
 					note.time = new Date(note.timestamp);
 				});
 				batch.notes = batch.notes.filter((note) => {
 					return (
-						note.status.toLowerCase() === statusCode && typeof note.type === "undefined" && note.note.length
+						note.status.toLowerCase() === statusCode && typeof note.type === 'undefined' && note.note.length
 					);
 				});
 
@@ -148,12 +148,12 @@ module.exports = async () => {
 		const getBatchReadings = async (batchId) => {
 			let readings = {};
 			try {
-				const batchReadings = await fetch("https://api.brewfather.app/v1/batches/" + batchId + "/readings", {
-					duration: "1h",
-					type: "json",
-					directory: ".cache",
+				const batchReadings = await fetch('https://api.brewfather.app/v1/batches/' + batchId + '/readings', {
+					duration: '1h',
+					type: 'json',
+					directory: '.cache',
 					fetchOptions: {
-						headers: { Authorization: "Basic " + authorizationHeader },
+						headers: { Authorization: 'Basic ' + authorizationHeader },
 					},
 				});
 
@@ -194,12 +194,12 @@ module.exports = async () => {
 		};
 		const batches = [];
 		try {
-			const batchList = await fetch("https://api.brewfather.app/v1/batches", {
-				duration: "1h",
-				type: "json",
-				directory: ".cache",
+			const batchList = await fetch('https://api.brewfather.app/v1/batches', {
+				duration: '1h',
+				type: 'json',
+				directory: '.cache',
 				fetchOptions: {
-					headers: { Authorization: "Basic " + authorizationHeader },
+					headers: { Authorization: 'Basic ' + authorizationHeader },
 				},
 			});
 
@@ -207,7 +207,7 @@ module.exports = async () => {
 				let batchData = await getBatch(batch._id);
 				batchData.all_readings = [];
 				batchData.last_reading = undefined;
-				if (batchData.status.code === "fermenting") {
+				if (batchData.status.code === 'fermenting') {
 					let readings = await getBatchReadings(batch._id);
 					batchData.all_readings = readings.all;
 					batchData.last_reading = readings.last;
@@ -216,7 +216,7 @@ module.exports = async () => {
 				batches.push(batchData);
 			});
 
-			console.log("[" + "\x1b[33m%s\x1b[0m", "Brewfather" + "\x1b[0m" + "]: loaded", batches.length, "batches.");
+			console.log('[' + '\x1b[33m%s\x1b[0m', 'Brewfather' + '\x1b[0m' + ']: loaded', batches.length, 'batches.');
 			return batches;
 		} catch (err) {
 			console.error(err);
@@ -225,16 +225,16 @@ module.exports = async () => {
 	};
 	const getRecipes = async () => {
 		try {
-			const recipes = await fetch("https://api.brewfather.app/v1/recipes?complete=true&limit=50", {
-				duration: "1h",
-				type: "json",
-				directory: ".cache",
+			const recipes = await fetch('https://api.brewfather.app/v1/recipes?complete=true&limit=50', {
+				duration: '1h',
+				type: 'json',
+				directory: '.cache',
 				fetchOptions: {
-					headers: { Authorization: "Basic " + authorizationHeader },
+					headers: { Authorization: 'Basic ' + authorizationHeader },
 				},
 			});
 
-			console.log("[" + "\x1b[33m%s\x1b[0m", "Brewfather" + "\x1b[0m" + "]: loaded", recipes.length, "recipes.");
+			console.log('[' + '\x1b[33m%s\x1b[0m', 'Brewfather' + '\x1b[0m' + ']: loaded', recipes.length, 'recipes.');
 
 			recipes.forEach((recipe) => {
 				recipe.og = recipe.og.toFixed(3);
@@ -253,100 +253,100 @@ module.exports = async () => {
 					fermentable.colorHEX = setEBCColor(fermentable.color);
 
 					switch (fermentable.type) {
-						case "Grain":
+						case 'Grain':
 							fermentable.type = {
-								label: "Malt",
-								code: "grain",
+								label: 'Malt',
+								code: 'grain',
 							};
 							break;
-						case "Liquid Extract":
+						case 'Liquid Extract':
 							fermentable.type = {
-								label: "Extrakt",
-								code: "extract",
+								label: 'Extrakt',
+								code: 'extract',
 							};
 							break;
-						case "Sugar":
+						case 'Sugar':
 							fermentable.type = {
-								label: "Socker",
-								code: "sugar",
+								label: 'Socker',
+								code: 'sugar',
 							};
 					}
 				});
 
 				recipe.hops.forEach((hop) => {
 					switch (hop.use) {
-						case "Boil":
-							hop.use = "Kok";
+						case 'Boil':
+							hop.use = 'Kok';
 							break;
-						case "Aroma":
-							hop.use = "Efter kok";
+						case 'Aroma':
+							hop.use = 'Efter kok';
 							break;
-						case "Dry Hop":
-							hop.use = "Torrhumling";
+						case 'Dry Hop':
+							hop.use = 'Torrhumling';
 					}
 
-					if (typeof hop.timeunit !== "undefined") {
+					if (typeof hop.timeunit !== 'undefined') {
 						switch (hop.timeunit) {
-							case "days":
-								hop.timeunit = "dagar";
+							case 'days':
+								hop.timeunit = 'dagar';
 								break;
-							case "minutes":
-								hop.timeunit = "min";
+							case 'minutes':
+								hop.timeunit = 'min';
 						}
 					} else {
-						hop.timeunit = "min";
+						hop.timeunit = 'min';
 					}
 				});
 
 				recipe.yeasts.forEach((yeast) => {
 					switch (yeast.unit) {
-						case "pkg":
-							yeast.unit = "paket";
+						case 'pkg':
+							yeast.unit = 'paket';
 							break;
-						case "ml":
-							yeast.unit = "ml";
+						case 'ml':
+							yeast.unit = 'ml';
 					}
 
 					switch (yeast.form) {
-						case "Dry":
-							yeast.form = "Torrjäst";
+						case 'Dry':
+							yeast.form = 'Torrjäst';
 							break;
-						case "Liquid":
-							yeast.form = "Flytande jäst";
+						case 'Liquid':
+							yeast.form = 'Flytande jäst';
 							break;
-						case "Culture":
-							yeast.form = "Förkultur";
+						case 'Culture':
+							yeast.form = 'Förkultur';
 					}
 				});
 
 				recipe.miscs.forEach((additive) => {
 					switch (additive.use) {
-						case "Boil":
-							additive.use = "Kok";
+						case 'Boil':
+							additive.use = 'Kok';
 							break;
-						case "Mash":
-							additive.use = "Mäskning";
+						case 'Mash':
+							additive.use = 'Mäskning';
 							break;
-						case "Primary":
-							additive.use = "Jäsning";
+						case 'Primary':
+							additive.use = 'Jäsning';
 							break;
-						case "Secondary":
-							additive.use = "Sekundärjäsning";
+						case 'Secondary':
+							additive.use = 'Sekundärjäsning';
 							break;
-						case "Dry Hop":
-							additive.use = "Torrhumling";
+						case 'Dry Hop':
+							additive.use = 'Torrhumling';
 					}
 					switch (additive.type) {
-						case "Water Agent":
-							additive.type = "Vattentillsats";
+						case 'Water Agent':
+							additive.type = 'Vattentillsats';
 							break;
-						case "Fining":
-							additive.type = "Klarningsmedel";
+						case 'Fining':
+							additive.type = 'Klarningsmedel';
 					}
 
 					switch (additive.unit) {
-						case "items":
-							additive.unit = "st";
+						case 'items':
+							additive.unit = 'st';
 					}
 				});
 			});

@@ -6,23 +6,23 @@
 code[class*="language-"],
 pre[class*="language-"] {
 	color: oklch(34% 0.01 114deg);
-	font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
-	direction: ltr;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
 	font-size: 0.9em;
 	line-height: 1.2em;
-
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
-	tab-size: 4;
+	font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
 
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-break: normal;
+	word-spacing: normal;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
 }
 
 pre > code[class*="language-"] {
@@ -45,20 +45,20 @@ code[class*="language-"] ::selection {
 
 /* Code blocks */
 pre[class*="language-"] {
-	padding: 1em;
 	margin: 0.5em 0;
-	overflow: auto;
 	border: 1px solid oklch(90% 0 0deg);
 	background-color: white;
+	padding: 1em;
+	overflow: auto;
 }
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
+	border: 1px solid oklch(90% 0 0deg);
+	background: oklch(98% 0 0deg);
 	padding: 0.2em;
 	padding-top: 1px;
 	padding-bottom: 1px;
-	background: oklch(98% 0 0deg);
-	border: 1px solid oklch(90% 0 0deg);
 }
 
 .token.comment,

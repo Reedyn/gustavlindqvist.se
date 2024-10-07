@@ -1,6 +1,6 @@
 .post-list {
-	list-style: none;
 	padding-inline-start: 0;
+	list-style: none;
 }
 
 .post-list__item {
@@ -15,10 +15,10 @@
 
 	.post-title {
 		display: inline;
-		font-size: var(--font__size__heading-4);
-		font-weight: 500;
-		line-height: 1.25;
 		margin: 0 0.5rem 0 0;
+		font-weight: 500;
+		font-size: var(--font__size__heading-4);
+		line-height: 1.25;
 	}
 
 	p {
@@ -42,18 +42,18 @@
 		}
 
 		.post-list__item-image {
-			width: 100%;
 			aspect-ratio: 16/9;
+			width: 100%;
 
 			@include respond-to(tiny) {
-				width: 5em;
 				aspect-ratio: 1/1;
+				width: 5em;
 			}
 
 			img {
-				object-fit: cover;
 				width: 100%;
 				height: 100%;
+				object-fit: cover;
 			}
 		}
 

@@ -4,8 +4,8 @@ figure {
 	}
 	figcaption {
 		margin: 0;
-		font-family: var(--font__captions);
 		font-style: italic;
+		font-family: var(--font__captions);
 		text-align: center;
 	}
 
@@ -20,9 +20,9 @@ figure {
 		iframe,
 		> div {
 			position: relative;
-			width: 100vw; /* Or whatever max width is */
-			margin-left: calc(50% - 50vw); /* 50vw equals half the width */
 			margin-right: calc(50% - 50vw);
+			margin-left: calc(50% - 50vw); /* 50vw equals half the width */
+			width: 100vw; /* Or whatever max width is */
 			max-width: none;
 		}
 	}
@@ -46,9 +46,9 @@ figure {
 			iframe,
 			> div,
 			> figure.gallery-row {
-				max-width: none;
-				width: calc(var(--max-width__content) + var(--card__extra-width));
 				margin-left: calc(50% - ((var(--max-width__content) + var(--card__extra-width)) / 2));
+				width: calc(var(--max-width__content) + var(--card__extra-width));
+				max-width: none;
 			}
 		}
 
@@ -61,9 +61,9 @@ figure {
 		width: 100%;
 		iframe {
 			aspect-ratio: 16/9;
-			height: auto;
-			max-width: 100%;
 			min-width: 100%;
+			max-width: 100%;
+			height: auto;
 			@include respond-to(large) {
 				max-width: none;
 			}
@@ -72,8 +72,8 @@ figure {
 
 	&.map {
 		iframe {
-			height: 50vh;
 			min-width: 100%;
+			height: 50vh;
 		}
 	}
 

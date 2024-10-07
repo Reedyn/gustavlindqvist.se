@@ -1,8 +1,8 @@
 .beers {
 	display: grid;
+	grid-auto-flow: dense;
 	margin-top: var(--margin__medium);
 	margin-bottom: var(--margin__medium);
-	grid-auto-flow: dense;
 	grid-gap: var(--margin__medium);
 	grid-template-columns: 1fr;
 
@@ -36,7 +36,7 @@
 	}
 
 	.beer-label {
-		width: 100%;
 		transition: 0.25s all ease;
+		width: 100%;
 	}
 }

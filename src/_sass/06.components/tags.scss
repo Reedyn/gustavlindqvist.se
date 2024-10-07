@@ -4,26 +4,26 @@
 	.tag {
 		display: inline-block;
 		margin-right: 0.4em;
-		color: inherit;
+		margin-bottom: 0.4em;
 		background: oklch(60% 0 0deg / 0.15);
 		padding: 0 0.5em;
-		margin-bottom: 0.4em;
+		color: inherit;
 
 		a {
-			text-decoration: none;
 			color: var(--color__text);
+			text-decoration: none;
 
 			&:hover,
 			&:focus {
-				text-decoration: underline;
-				color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
 				background: none;
+				color: oklch(var(--color__lightness) var(--color__chroma) var(--color__hue));
+				text-decoration: underline;
 
 				&:visited {
+					background: none;
 					color: oklch(
 						var(--color__lightness-secondary) var(--color__chroma-secondary) var(--color__hue-secondary)
 					);
-					background: none;
 				}
 			}
 		}

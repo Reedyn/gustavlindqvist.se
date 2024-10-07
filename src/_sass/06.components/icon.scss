@@ -1,17 +1,17 @@
 .icon,
 .content .icon {
 	display: inline-block;
-	bottom: 0.1em;
 	position: relative;
-	height: auto;
-	width: 1em;
-	vertical-align: sub;
+	bottom: 0.1em;
 	align-self: flex-start;
+	vertical-align: sub;
+	width: 1em;
+	height: auto;
 
 	&.-large {
-		width: 1.5em;
-		vertical-align: middle;
 		bottom: 0.15em;
+		vertical-align: middle;
+		width: 1.5em;
 	}
 
 	&.-strava {

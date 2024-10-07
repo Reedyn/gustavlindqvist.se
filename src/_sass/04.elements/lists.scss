@@ -29,8 +29,8 @@ ol {
 }
 
 .-no-style {
-	list-style: none;
 	padding-inline-start: 0;
+	list-style: none;
 }
 
 .-inline {
@@ -44,17 +44,17 @@ ol {
 		}
 
 		&:not(:last-child):after {
-			content: "·";
 			display: inline-block;
 			margin: 0 0.4em;
+			content: "·";
 		}
 	}
 }
 
 .-icons {
-	padding-inline-start: 0;
 	display: flex;
 	flex-direction: column;
+	padding-inline-start: 0;
 	grid-gap: 0.4em;
 
 	> li {
@@ -71,6 +71,6 @@ ol {
 }
 
 .task-list-item-checkbox {
-	margin-left: -1.6em; // Move the checkbox to the left to match other lists indentation.
 	vertical-align: baseline;
+	margin-left: -1.6em; // Move the checkbox to the left to match other lists indentation.
 }

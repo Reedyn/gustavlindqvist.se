@@ -1,12 +1,12 @@
 .content {
 	pre {
-		width: 100vw;
-		max-width: 100%;
-		padding: var(--padding__small);
 		border: 0;
 		background-color: var(--color__background__alt);
-		line-height: 125%;
+		padding: var(--padding__small);
+		width: 100vw;
+		max-width: 100%;
 		overflow-y: hidden;
+		line-height: 125%;
 		word-wrap: break-word;
 		margin: {
 			top: var(--margin__medium);
@@ -16,8 +16,8 @@
 		}
 		code {
 			display: block;
-			padding: 0;
 			background: none;
+			padding: 0;
 			color: var(--color__text);
 			font-size: var(--font__size);
 		}

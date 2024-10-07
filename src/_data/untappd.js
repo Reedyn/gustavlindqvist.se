@@ -1,31 +1,31 @@
-let Parser = require("rss-parser");
-const fetch = require("@11ty/eleventy-fetch");
+let Parser = require('rss-parser');
+const fetch = require('@11ty/eleventy-fetch');
 
 module.exports = async () => {
 	let parser = new Parser({
 		timeout: 10000,
 		customFields: {
-			item: ["description"],
+			item: ['description'],
 		},
 	});
 
-	const untappdBreweryURL = "https://untappd.com/rss/brewery/505146";
+	const untappdBreweryURL = 'https://untappd.com/rss/brewery/505146';
 
 	const createCheckinFromFeedItem = (checkinFeedItem) => {
 		const checkin = {};
-		let [username, beer] = checkinFeedItem.title.split(" is drinking a "); // Separate title into the different objects
-		beer = beer.replace(/at\s.*/, "").trim(); // Remove location and extra spaces.
-		let review_description = "";
+		let [username, beer] = checkinFeedItem.title.split(' is drinking a '); // Separate title into the different objects
+		beer = beer.replace(/at\s.*/, '').trim(); // Remove location and extra spaces.
+		let review_description = '';
 
-		if (typeof checkinFeedItem.description !== "undefined") {
-			let [review_desc, stars] = checkinFeedItem.description.split(" ("); // Separate title into the different objects
+		if (typeof checkinFeedItem.description !== 'undefined') {
+			let [review_desc, stars] = checkinFeedItem.description.split(' ('); // Separate title into the different objects
 			review_description = review_desc;
 		}
 
 		checkin.beer = beer;
 		checkin.user = {
 			name: username,
-			link: checkinFeedItem.link.replace(/\/checkin\/\d+/, "").trim(),
+			link: checkinFeedItem.link.replace(/\/checkin\/\d+/, '').trim(),
 		};
 		checkin.review = {
 			description: review_description,
@@ -39,16 +39,16 @@ module.exports = async () => {
 		const checkins = [];
 		try {
 			let rawFeed = await fetch(untappdBreweryURL, {
-				duration: "1d",
-				type: "text",
-				directory: ".cache",
+				duration: '1d',
+				type: 'text',
+				directory: '.cache',
 			});
 			let feed = await parser.parseString(rawFeed);
 			console.log(
-				"[" + "\x1b[33m%s\x1b[0m",
-				"Untappd" + "\x1b[0m" + "]:",
-				"loaded",
-				feed.items.length + " checkins (" + feed.link + ")",
+				'[' + '\x1b[33m%s\x1b[0m',
+				'Untappd' + '\x1b[0m' + ']:',
+				'loaded',
+				feed.items.length + ' checkins (' + feed.link + ')',
 			);
 			feed.items.forEach((item) => {
 				checkins.push(createCheckinFromFeedItem(item));

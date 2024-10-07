@@ -1,9 +1,9 @@
 .statistics {
 	&__list {
-		list-style: none;
-		padding: 0;
 		display: grid;
 		grid-auto-flow: dense;
+		padding: 0;
+		list-style: none;
 		grid-gap: var(--margin__small);
 		grid-template-columns: 1fr 1fr;
 		max-width: 35em;
@@ -26,8 +26,8 @@
 		justify-content: flex-end;
 
 		&__label {
-			font-size: var(--font__size-base);
 			color: var(--color__text-alt);
+			font-size: var(--font__size-base);
 		}
 		&__value {
 			font-size: var(--font__size__heading-4);

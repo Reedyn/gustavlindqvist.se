@@ -1,3 +1,4 @@
-_sass/03.generic/_prism--code-highlighting.scss
 src/assets/javascript/dayjs.min.js
 src/assets/stylesheets/gustavlindqvist.css
+package.json
+package-lock.json
