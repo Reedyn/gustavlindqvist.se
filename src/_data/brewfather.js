@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const fetch = require('@11ty/eleventy-fetch');
 
 require('dotenv').config();
@@ -89,13 +90,21 @@ module.exports = async () => {
 					},
 				});
 
-				if (typeof batch.measuredOg && typeof batch.measuredFg && typeof batch.ibu) {
+				if (
+					typeof batch.measuredOg !== 'undefined' &&
+					typeof batch.measuredFg !== 'undefined' &&
+					typeof batch.ibu !== 'undefined'
+				) {
 					batch.bv = calculateBalanceValue(batch.measuredOg, batch.measuredFg, batch.recipe.ibu);
 				} else {
 					batch.bv = null;
 				}
 
-				if (typeof batch.recipe.og && typeof batch.recipe.fg && typeof batch.recipe.ibu) {
+				if (
+					typeof batch.recipe.og !== 'undefined' &&
+					typeof batch.recipe.fg !== 'undefined' &&
+					typeof batch.recipe.ibu !== 'undefined'
+				) {
 					batch.recipe.bv = calculateBalanceValue(batch.recipe.og, batch.recipe.fg, batch.recipe.ibu);
 				} else {
 					batch.recipe.bv = null;
@@ -240,7 +249,11 @@ module.exports = async () => {
 				recipe.og = recipe.og.toFixed(3);
 				recipe.abv = recipe.abv.toFixed(1);
 
-				if (typeof recipe.og && typeof recipe.fg && typeof recipe.ibu) {
+				if (
+					typeof recipe.og !== 'undefined' &&
+					typeof recipe.fg !== 'undefined' &&
+					typeof recipe.ibu !== 'undefined'
+				) {
 					recipe.bv = calculateBalanceValue(recipe.og, recipe.fg, recipe.ibu);
 				} else {
 					recipe.bv = null;

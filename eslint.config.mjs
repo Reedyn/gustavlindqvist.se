@@ -13,7 +13,7 @@ const compat = new FlatCompat({
 });
 
 export default [
-	...compat.extends('eslint:recommended'),
+	...compat["extends"]('eslint:recommended'),
 	{
 		languageOptions: {
 			globals: {
@@ -24,7 +24,6 @@ export default [
 
 		rules: {
 			'linebreak-style': ['error', 'unix'],
-			quotes: ['error', 'single'],
 			'array-bracket-spacing': 2,
 			'brace-style': 2,
 			'comma-dangle': 0,
@@ -76,7 +75,6 @@ export default [
 			'no-mixed-spaces-and-tabs': 2,
 			'no-multi-str': 1,
 			'no-new-func': 2,
-			'no-plusplus': 2,
 			'no-sequences': 2,
 
 			'no-trailing-spaces': [

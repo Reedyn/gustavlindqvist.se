@@ -1,9 +1,10 @@
+/* eslint-disable no-console */
 const fetch = require('@11ty/eleventy-fetch');
 
 function minutesToHoursMinutes(num) {
 	let hours = Math.floor(num / 60);
 	let minutes = num % 60;
-	let string = '';
+	let string;
 	if (hours === 0) {
 		string = minutes + ' minuter';
 	} else if (0 < hours && hours < 7) {

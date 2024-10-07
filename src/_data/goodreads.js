@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const Parser = require('rss-parser');
 const fetch = require('@11ty/eleventy-fetch');
 

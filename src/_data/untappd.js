@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 let Parser = require('rss-parser');
 const fetch = require('@11ty/eleventy-fetch');
 
@@ -18,7 +19,7 @@ module.exports = async () => {
 		let review_description = '';
 
 		if (typeof checkinFeedItem.description !== 'undefined') {
-			let [review_desc, stars] = checkinFeedItem.description.split(' ('); // Separate title into the different objects
+			let [review_desc] = checkinFeedItem.description.split(' ('); // Separate title into the different objects
 			review_description = review_desc;
 		}
 
@@ -35,7 +36,7 @@ module.exports = async () => {
 		return checkin;
 	};
 
-	const getPosts = async (_) => {
+	const getPosts = async () => {
 		const checkins = [];
 		try {
 			let rawFeed = await fetch(untappdBreweryURL, {

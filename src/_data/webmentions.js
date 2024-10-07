@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const fetch = require('@11ty/eleventy-fetch');
 const WEBMENTION_BASE_URL = 'https://webmention.io/api/mentions.jf2';
 

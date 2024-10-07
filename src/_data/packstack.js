@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const fetch = require('@11ty/eleventy-fetch');
 
 module.exports = async () => {
@@ -80,7 +81,7 @@ module.exports = async () => {
 					if (typeof categoryData[item.item.category.category_id] !== 'undefined') {
 						Object.assign(item.item.category, categoryData[item.item.category.category_id]);
 					}
-					delete item.item.category['category'];
+					delete item.item.category.category;
 					categories.push({ ...item.item.category });
 				}
 			});

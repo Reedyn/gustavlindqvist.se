@@ -1,4 +1,4 @@
-let Parser = require('rss-parser');
+/* eslint-disable no-console */
 const { AssetCache } = require('@11ty/eleventy-fetch');
 const nodeFetch = require('node-fetch');
 const stravaAPI = require('strava-v3');
@@ -6,10 +6,6 @@ const stravaAPI = require('strava-v3');
 require('dotenv').config();
 
 module.exports = async () => {
-	let parser = new Parser({
-		timeout: 10000,
-	});
-
 	async function setValue(key, value) {
 		let headers = {
 			'X-Api-Key': process.env.THISDB_APIKEY,
@@ -39,23 +35,6 @@ module.exports = async () => {
 		};
 
 		let response = await nodeFetch(`https://api.thisdb.com/v1/${bucketId}/${key}`, init);
-
-		return await response.json();
-	}
-
-	async function getRefreshToken(code) {
-		let response = await nodeFetch('https://www.strava.com/api/v3/oauth/token', {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json',
-			},
-			body: JSON.stringify({
-				client_id: process.env.STRAVA_CLIENTID,
-				client_secret: process.env.STRAVA_SECRET,
-				grant_type: 'authorization_code',
-				code: code,
-			}),
-		});
 
 		return await response.json();
 	}
@@ -90,7 +69,7 @@ module.exports = async () => {
 
 	function generateSVGMap(polyline) {
 		function sign(value) {
-			return value & 1 ? ~(value >>> 1) : value >>> 1;
+			return value && 1 ? ~(value >>> 1) : value >>> 1;
 		}
 		function integers(value, start, end, fn) {
 			let byte = 0;
@@ -115,10 +94,10 @@ module.exports = async () => {
 		}
 		function decode(value, { factor = 1e5, mapFn, start = 0, end = value.length } = {}) {
 			const points = [];
-			let x,
-				y,
-				px = 0,
-				py = 0;
+			let x;
+			let y;
+			let px = 0;
+			let py = 0;
 			let point;
 
 			integers(value, start, end, function (v) {
@@ -176,6 +155,7 @@ module.exports = async () => {
 	const accessToken = await getAccessToken();
 
 	async function getAthlete() {
+		/* eslint-disable no-unused-vars */
 		let asset = new AssetCache('strava_athlete');
 		try {
 			const athlete = await stravaAPI.athlete.get({
@@ -190,6 +170,7 @@ module.exports = async () => {
 	}
 
 	async function getActivities() {
+		/* eslint-disable no-unused-vars */
 		let asset = new AssetCache('strava_activities');
 		try {
 			const activities = await stravaAPI.athlete.listActivities({
@@ -232,45 +213,6 @@ module.exports = async () => {
 			return asset.getCachedValue('strava_activities');
 		}
 	}
-
-	function snake_case_string(str) {
-		return (
-			str &&
-			str
-				.match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
-				.map((s) => s.toLowerCase())
-				.join('_')
-		);
-	}
-
-	const createActivityFromFeedItem = (activityFeedItem) => {
-		const activity = {};
-		const [type, ...data] = activityFeedItem.content.split(':');
-
-		activity.type = type.toLowerCase();
-		activity.title = activityFeedItem.title;
-		activity.date = new Date(activityFeedItem.pubDate);
-		activity.url = activityFeedItem.link;
-
-		const list = data.join(':').trim().split(', ');
-		list.forEach((string) => {
-			const array = string.split(': ');
-			const label = snake_case_string(array[0]);
-			activity[label] = array[1];
-		});
-
-		if (typeof activity.elevation_gain !== 'undefined') {
-			const cleaned_elevation = Number(activity.elevation_gain.replace('/km', '').trim());
-			if (!Number.isNaN(cleaned_elevation)) {
-				activity.elevation_gain = cleaned_elevation;
-			}
-		}
-
-		if (typeof activity.pace !== 'undefined') {
-			activity.pace = activity.pace.replace('/km', '').trim();
-		}
-		return activity;
-	};
 
 	return {
 		athlete: await getAthlete(),

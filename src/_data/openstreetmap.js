@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 let Parser = require('rss-parser');
 const fetch = require('@11ty/eleventy-fetch');
 
@@ -13,7 +14,7 @@ module.exports = async () => {
 
 	const openstreetmap_personal_history_feed = 'https://www.openstreetmap.org/user/reedyn/history/feed';
 
-	const getEdits = async (_) => {
+	const getEdits = async () => {
 		try {
 			const rawFeed = await fetch(openstreetmap_personal_history_feed, {
 				duration: '3h',
