@@ -1,4 +1,6 @@
-const gustavlindqvist = (() => {
+/* eslint-env browser */
+/* global dayjs, dayjs_plugin_relativeTime */
+(() => {
 	// Add js-class and remove no-js-class from <html>
 	const isJS = (() => {
 		const htmlElement = document.documentElement;
