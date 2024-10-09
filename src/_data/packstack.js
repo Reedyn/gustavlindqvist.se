@@ -79,7 +79,10 @@ module.exports = async () => {
 				});
 				if (!found) {
 					if (typeof categoryData[item.item.category.category_id] !== 'undefined') {
-						Object.assign(item.item.category, categoryData[item.item.category.category_id]);
+						Object.assign(
+							item.item.category,
+							categoryData[item.item.category.category_id],
+						);
 					}
 					delete item.item.category.category;
 					categories.push({ ...item.item.category });

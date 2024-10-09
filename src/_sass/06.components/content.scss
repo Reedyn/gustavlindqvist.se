@@ -26,7 +26,10 @@
 		text-decoration: underline;
 
 		&:visited {
-			color: oklch(var(--color__lightness-secondary) var(--color__chroma-secondary) var(--color__hue-secondary));
+			color: oklch(
+				var(--color__lightness-secondary) var(--color__chroma-secondary)
+					var(--color__hue-secondary)
+			);
 		}
 
 		&:hover,
@@ -37,7 +40,8 @@
 
 			&:visited {
 				background: oklch(
-					var(--color__lightness-secondary) var(--color__chroma-secondary) var(--color__hue-secondary)
+					var(--color__lightness-secondary) var(--color__chroma-secondary)
+						var(--color__hue-secondary)
 				);
 			}
 		}

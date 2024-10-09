@@ -27,7 +27,8 @@ Fonts
 	--font__ratio: 1.25;
 	--font__dynamic-ratio: 1.3;
 	--font__size__heading-4: calc(
-		(var(--font__size-base) * var(--font__ratio)) + (var(--font__dynamic-scaling) * var(--font__dynamic-ratio))
+		(var(--font__size-base) * var(--font__ratio)) +
+			(var(--font__dynamic-scaling) * var(--font__dynamic-ratio))
 	);
 	--font__size__heading-3: calc(
 		(var(--font__size-base) * var(--font__ratio) * var(--font__ratio)) +
@@ -36,15 +37,19 @@ Fonts
 	--font__size__heading-2: calc(
 		(var(--font__size-base) * var(--font__ratio) * var(--font__ratio) * var(--font__ratio)) +
 			(
-				var(--font__dynamic-scaling) * var(--font__dynamic-ratio) * var(--font__dynamic-ratio) *
-					var(--font__dynamic-ratio)
+				var(--font__dynamic-scaling) * var(--font__dynamic-ratio) *
+					var(--font__dynamic-ratio) * var(--font__dynamic-ratio)
 			)
 	);
 	--font__size__heading-1: calc(
-		(var(--font__size-base) * var(--font__ratio) * var(--font__ratio) * var(--font__ratio) * var(--font__ratio)) +
+		(
+				var(--font__size-base) * var(--font__ratio) * var(--font__ratio) *
+					var(--font__ratio) * var(--font__ratio)
+			) +
 			(
-				var(--font__dynamic-scaling) * var(--font__dynamic-ratio) * var(--font__dynamic-ratio) *
-					var(--font__dynamic-ratio) * var(--font__dynamic-ratio)
+				var(--font__dynamic-scaling) * var(--font__dynamic-ratio) *
+					var(--font__dynamic-ratio) * var(--font__dynamic-ratio) *
+					var(--font__dynamic-ratio)
 			)
 	);
 }

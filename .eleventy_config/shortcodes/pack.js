@@ -8,7 +8,9 @@ module.exports = {
 			let outputString = '<section class="pack">';
 			pack.contents.forEach((category) => {
 				const color =
-					typeof category.color !== 'undefined' && category.color.length ? category.color : 'oklch(60% 0 0)';
+					typeof category.color !== 'undefined' && category.color.length
+						? category.color
+						: 'oklch(60% 0 0)';
 				outputString += `<details class="pack__category"><summary class="pack__category-summary">
                     <span class="pack__category-summary__left"><svg class="icon -large" role="presentation" style="color: ${color}" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/${category.icon}.svg#icon"></use></svg></span><span class="pack__category-summary__middle">${category.name}<span class="sr-only">:</span></span>
                     <span class="pack__category-summary__right" style="padding-right: 0.3rem">${prettyDigits(category.total_weight)}g</span>
@@ -23,7 +25,8 @@ module.exports = {
 						metaString =
 							' <span class="pack__list-item__bottom-right secondary"><svg class="icon" role="presentation" style="color: #5E35B1" aria-label="Buren" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/tshirt-crew.svg#icon"></use></svg></span>';
 					} else if (typeof item.consumable !== 'undefined' && item.consumable) {
-						metaString = ' <span class="pack__list-item__bottom-right secondary">Förbrukningsvara</span>';
+						metaString =
+							' <span class="pack__list-item__bottom-right secondary">Förbrukningsvara</span>';
 					}
 					if (typeof item.item.brand !== 'undefined' && item.item.brand !== null) {
 						packList += `<li class="pack__list-item"><span class="pack__list-item__left secondary">${quantity}st</span> <span class="pack__list-item__bottom secondary">${item.item.name}<span class="sr-only">.</span></span> <span class="pack__list-item__middle"><span class="light">${typeof item.item.brand !== 'undefined' && item.item.brand !== null ? item.item.brand.name : ''}</span> <span class="bold">${typeof item.item.product !== 'undefined' && item.item.product !== null ? item.item.product.name : ''}${typeof item.item.product_variant !== 'undefined' && item.item.product_variant !== null ? ' ' + item.item.product_variant.name : ''}</span><span class="sr-only">.</span></span> <span class="pack__list-item__right">${prettyDigits(item.item.weight * quantity)}g</span>${metaString}</li>`;
@@ -85,7 +88,8 @@ module.exports = {
 						metaString =
 							' <span class="pack__list-item__bottom-right secondary"><svg class="icon" role="presentation" style="color: #5E35B1" aria-label="Buren" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/tshirt-crew.svg#icon"></use></svg></span>';
 					} else if (typeof item.consumable !== 'undefined' && item.consumable) {
-						metaString = ' <span class="pack__list-item__bottom-right secondary">Förbrukningsvara</span>';
+						metaString =
+							' <span class="pack__list-item__bottom-right secondary">Förbrukningsvara</span>';
 					}
 					if (typeof item.item.brand !== 'undefined' && item.item.brand !== null) {
 						packList += `<li class="pack__list-item"><span class="pack__list-item__left secondary">${quantity}st</span> <span class="pack__list-item__bottom secondary">${item.item.name}<span class="sr-only">.</span></span> <span class="pack__list-item__middle"><span class="light">${typeof item.item.brand !== 'undefined' && item.item.brand !== null ? item.item.brand.name : ''}</span> <span class="bold">${typeof item.item.product !== 'undefined' && item.item.product !== null ? item.item.product.name : ''}${typeof item.item.product_variant !== 'undefined' && item.item.product_variant !== null ? ' ' + item.item.product_variant.name : ''}</span><span class="sr-only">.</span></span> <span class="pack__list-item__right">${prettyDigits(item.item.weight * quantity)}g</span>${metaString}</li>`;

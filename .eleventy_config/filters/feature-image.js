@@ -56,7 +56,12 @@ module.exports = async function (src, sizes, style, postData) {
 
 	let imageSrc = metadata[format][0];
 
-	console.log('[' + '\x1b[36m%s\x1b[0m', '11ty Image' + '\x1b[0m' + ']:', 'Created featured image ', imageSrc.url);
+	console.log(
+		'[' + '\x1b[36m%s\x1b[0m',
+		'11ty Image' + '\x1b[0m' + ']:',
+		'Created featured image ',
+		imageSrc.url,
+	);
 	return `<figure class="image ${style}">
                <picture>
         ${Object.values(metadata)

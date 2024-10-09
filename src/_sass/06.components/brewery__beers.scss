@@ -25,7 +25,11 @@
 			background: none !important;
 			.beer-label {
 				filter: drop-shadow(
-					0 0 1rem var(--color__accent, oklch(var(--color__lightness) var(--color__chroma) var(--color__hue)))
+					0 0 1rem
+						var(
+							--color__accent,
+							oklch(var(--color__lightness) var(--color__chroma) var(--color__hue))
+						)
 				);
 			}
 		}

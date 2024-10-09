@@ -29,7 +29,8 @@ module.exports = {
 		items = [...items];
 		return items
 			.map((item) => {
-				item.data.sortDate = typeof item.data.sortDate !== 'undefined' ? item.data.sortDate : item.date;
+				item.data.sortDate =
+					typeof item.data.sortDate !== 'undefined' ? item.data.sortDate : item.date;
 				return item;
 			})
 			.sort((a, b) => new Date(a.data.sortDate) - new Date(b.data.sortDate));
@@ -56,7 +57,10 @@ module.exports = {
 		});
 	},
 	utf8_xml: (inputStr) => {
-		return inputStr.replace(/[^\x09\x0A\x0D\x20-\xFF\x85\xA0-\uD7FF\uE000-\uFDCF\uFDE0-\uFFFD]/gm, '');
+		return inputStr.replace(
+			/[^\x09\x0A\x0D\x20-\xFF\x85\xA0-\uD7FF\uE000-\uFDCF\uFDE0-\uFFFD]/gm,
+			'',
+		);
 	},
 	trailingZeros: (num, totalLength) => {
 		return String(num).padEnd(totalLength, '0');

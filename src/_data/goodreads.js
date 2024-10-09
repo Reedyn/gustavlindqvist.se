@@ -24,11 +24,14 @@ module.exports = async () => {
 
 	const getPosts = async (shelf, feed_id) => {
 		try {
-			let rawFeed = await fetch(`https://www.goodreads.com/review/list_rss/${feed_id}?shelf=${shelf}`, {
-				duration: '1h',
-				type: 'text',
-				directory: '.cache',
-			});
+			let rawFeed = await fetch(
+				`https://www.goodreads.com/review/list_rss/${feed_id}?shelf=${shelf}`,
+				{
+					duration: '1h',
+					type: 'text',
+					directory: '.cache',
+				},
+			);
 
 			let feed = await parser.parseString(rawFeed);
 			console.log(

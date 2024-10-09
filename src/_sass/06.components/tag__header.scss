@@ -36,13 +36,18 @@
 		.tag-title {
 			//noinspection CssInvalidPropertyValue
 			@supports (
-				(background-clip: text) and (background: linear-gradient(120deg, white 0%, black 37.5%, white 100%))
+				(background-clip: text) and
+					(background: linear-gradient(120deg, white 0%, black 37.5%, white 100%))
 			) {
 				background: linear-gradient(
 					120deg,
-					oklch(var(--color__lightness) var(--color__chroma) var(--color__hue-secondary)) 0%,
+					oklch(var(--color__lightness) var(--color__chroma) var(--color__hue-secondary))
+						0%,
 					oklch(var(--color__lightness) var(--color__chroma) var(--color__hue)) 37.5%,
-					oklch(var(--color__lightness-secondary) var(--color__chroma-secondary) var(--color__hue-secondary))
+					oklch(
+							var(--color__lightness-secondary) var(--color__chroma-secondary)
+								var(--color__hue-secondary)
+						)
 						100%
 				);
 				background-clip: text;

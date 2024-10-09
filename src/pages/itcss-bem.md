@@ -125,5 +125,7 @@ And in our HTML it will look something like this:
 Much cleaner than standard BEM which can give absurdly long class attribute values. Such as:
 
 ```html
-<div class="block-name__element-name block-name__element-name-modifier-1 block-name__element-name-modifier-2"></div>
+<div
+	class="block-name__element-name block-name__element-name-modifier-1 block-name__element-name-modifier-2"
+></div>
 ```

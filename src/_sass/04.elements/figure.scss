@@ -46,7 +46,9 @@ figure {
 			iframe,
 			> div,
 			> figure.gallery-row {
-				margin-left: calc(50% - ((var(--max-width__content) + var(--card__extra-width)) / 2));
+				margin-left: calc(
+					50% - ((var(--max-width__content) + var(--card__extra-width)) / 2)
+				);
 				width: calc(var(--max-width__content) + var(--card__extra-width));
 				max-width: none;
 			}

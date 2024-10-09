@@ -7,6 +7,9 @@ a {
 	}
 
 	&:visited {
-		color: oklch(var(--color__lightness-secondary) var(--color__chroma-secondary) var(--color__hue-secondary));
+		color: oklch(
+			var(--color__lightness-secondary) var(--color__chroma-secondary)
+				var(--color__hue-secondary)
+		);
 	}
 }

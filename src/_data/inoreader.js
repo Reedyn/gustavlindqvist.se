@@ -150,7 +150,11 @@ module.exports = async () => {
 				}),
 			});
 		});
-		console.log('[' + '\x1b[35m%s\x1b[0m', 'Inoreader' + '\x1b[0m' + ']:', 'Removed self from feed lists');
+		console.log(
+			'[' + '\x1b[35m%s\x1b[0m',
+			'Inoreader' + '\x1b[0m' + ']:',
+			'Removed self from feed lists',
+		);
 		return filteredFeedList;
 	}
 
@@ -193,7 +197,9 @@ module.exports = async () => {
 				outputPost.url = post.link;
 				outputPost.date = new Date(post.pubDate).toISOString();
 				outputPost.tags =
-					typeof post.category === 'object' ? post.category.filter((tag) => tag !== 'Good shit') : [];
+					typeof post.category === 'object'
+						? post.category.filter((tag) => tag !== 'Good shit')
+						: [];
 				outputPost.feature_image = `https://opengraph.gustavlindqvist.se/${encodeURIComponent(post.link)}/small/webp/`;
 				outputPost.content = `<img src="${outputPost.feature_image}" alt="Featurebild för ${outputPost.title}"><p><a href="${outputPost.url}">${outputPost.title}</a></p>`;
 				outputPosts.push(outputPost);
