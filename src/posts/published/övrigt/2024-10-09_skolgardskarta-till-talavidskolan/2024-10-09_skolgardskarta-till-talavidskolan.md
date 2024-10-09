@@ -47,7 +47,7 @@ Det sista att göra innan kartläggningen började var att ladda ner aktuell sym
 
 🍃{.fleuron}
 
-Själva ritandet var sen inte så komplicerat. Jag la in ortofotot från tidigare och sen kalkerade jag så gott jag kunde med stöd från alla bilder jag tog på marknivå.
+Själva ritandet var sen inte så komplicerat. Jag la in ortofotot från tidigare som ett bakgrundslager i programmet och sen kalkerade jag så gott jag kunde med stöd från alla bilder jag tog på marknivå.
 
 :::: gallery
 ::: row
