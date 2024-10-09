@@ -89,7 +89,8 @@ module.exports = function (tokens, idx, options, env) {
 		let lowsrc = metadata[format].length > 1 ? metadata[format][1] : metadata[format][0];
 		let highsrc = metadata[format][metadata[format].length - 1];
 
-		let inlineStyling = style === '-inline' ? ` style="flex: ${highsrc.width / highsrc.height}"` : '';
+		let inlineStyling =
+			style === '-inline' ? ` style="flex: ${highsrc.width / highsrc.height}"` : '';
 
 		// Base sizes on the layout changes.
 		let sizes = '(max-width: 50rem) 100vw, 50rem';
@@ -106,7 +107,9 @@ module.exports = function (tokens, idx, options, env) {
 				break;
 		}
 
-		const captionElement = caption ? `<figcaption>${markdown.render(caption)}</figcaption>` : '';
+		const captionElement = caption
+			? `<figcaption>${markdown.render(caption)}</figcaption>`
+			: '';
 
 		return `<figure class="image ${style}"${inlineStyling}>
                <picture>

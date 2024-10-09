@@ -136,10 +136,18 @@ module.exports = async () => {
 		let lineString = '';
 
 		points.forEach((point) => {
-			outerBounds.north = !outerBounds.north || outerBounds.north < point[1] ? point[1] * 10 : outerBounds.north;
-			outerBounds.south = !outerBounds.south || outerBounds.south > point[1] ? point[1] * 10 : outerBounds.south;
-			outerBounds.east = !outerBounds.east || outerBounds.east < point[1] ? point[0] * 10 : outerBounds.east;
-			outerBounds.west = !outerBounds.west || outerBounds.west > point[1] ? point[0] * 10 : outerBounds.west;
+			outerBounds.north =
+				!outerBounds.north || outerBounds.north < point[1]
+					? point[1] * 10
+					: outerBounds.north;
+			outerBounds.south =
+				!outerBounds.south || outerBounds.south > point[1]
+					? point[1] * 10
+					: outerBounds.south;
+			outerBounds.east =
+				!outerBounds.east || outerBounds.east < point[1] ? point[0] * 10 : outerBounds.east;
+			outerBounds.west =
+				!outerBounds.west || outerBounds.west > point[1] ? point[0] * 10 : outerBounds.west;
 
 			lineString += point[0] * 10 + ',' + point[1] * 10 + ' ';
 		});

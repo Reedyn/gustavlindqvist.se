@@ -26,7 +26,8 @@ module.exports = async () => {
 	const apiKey = process.env.STEAM_APIKEY;
 
 	const getRecentlyPlayedGames = async (steamId, apiKey) => {
-		const steamBaseURL = 'http://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v0001/';
+		const steamBaseURL =
+			'http://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v0001/';
 		const url = `${steamBaseURL}?key=${apiKey}&steamid=${steamId}&count=5`;
 
 		try {

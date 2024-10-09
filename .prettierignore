@@ -2,3 +2,4 @@ src/assets/javascript/dayjs.min.js
 src/assets/stylesheets/gustavlindqvist.css
 package.json
 package-lock.json
+**/*.md

@@ -17,7 +17,9 @@ module.exports = {
 		return DateTime.fromJSDate(dateObj).setZone('Europe/Stockholm').toFormat('yyyy-MM-dd');
 	},
 	longISODate: (dateObj) => {
-		return DateTime.fromJSDate(dateObj).setZone('Europe/Stockholm').toFormat('yyyy-MM-dd HH:mm');
+		return DateTime.fromJSDate(dateObj)
+			.setZone('Europe/Stockholm')
+			.toFormat('yyyy-MM-dd HH:mm');
 	},
 	fullISODate: (dateObj) => {
 		return DateTime.fromJSDate(dateObj).setZone('Europe/Stockholm').toISO();

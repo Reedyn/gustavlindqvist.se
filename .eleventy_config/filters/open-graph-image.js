@@ -52,6 +52,11 @@ module.exports = async function (src, postData) {
 	}
 
 	let lowsrc = metadata[format].length > 1 ? metadata[format][1] : metadata[format][0];
-	console.log('[' + '\x1b[36m%s\x1b[0m', '11ty Image' + '\x1b[0m' + ']:', 'Created open-graph image ', lowsrc.url);
+	console.log(
+		'[' + '\x1b[36m%s\x1b[0m',
+		'11ty Image' + '\x1b[0m' + ']:',
+		'Created open-graph image ',
+		lowsrc.url,
+	);
 	return lowsrc.url;
 };

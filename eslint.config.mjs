@@ -28,7 +28,6 @@ export default [
 			'brace-style': 2,
 			'comma-dangle': 0,
 			'comma-spacing': 1,
-
 			'comma-style': [
 				1,
 				'last',

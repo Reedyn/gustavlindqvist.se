@@ -95,7 +95,11 @@ module.exports = async () => {
 					typeof batch.measuredFg !== 'undefined' &&
 					typeof batch.ibu !== 'undefined'
 				) {
-					batch.bv = calculateBalanceValue(batch.measuredOg, batch.measuredFg, batch.recipe.ibu);
+					batch.bv = calculateBalanceValue(
+						batch.measuredOg,
+						batch.measuredFg,
+						batch.recipe.ibu,
+					);
 				} else {
 					batch.bv = null;
 				}
@@ -105,7 +109,11 @@ module.exports = async () => {
 					typeof batch.recipe.fg !== 'undefined' &&
 					typeof batch.recipe.ibu !== 'undefined'
 				) {
-					batch.recipe.bv = calculateBalanceValue(batch.recipe.og, batch.recipe.fg, batch.recipe.ibu);
+					batch.recipe.bv = calculateBalanceValue(
+						batch.recipe.og,
+						batch.recipe.fg,
+						batch.recipe.ibu,
+					);
 				} else {
 					batch.recipe.bv = null;
 				}
@@ -139,7 +147,9 @@ module.exports = async () => {
 				});
 				batch.notes = batch.notes.filter((note) => {
 					return (
-						note.status.toLowerCase() === statusCode && typeof note.type === 'undefined' && note.note.length
+						note.status.toLowerCase() === statusCode &&
+						typeof note.type === 'undefined' &&
+						note.note.length
 					);
 				});
 
@@ -157,14 +167,17 @@ module.exports = async () => {
 		const getBatchReadings = async (batchId) => {
 			let readings = {};
 			try {
-				const batchReadings = await fetch('https://api.brewfather.app/v1/batches/' + batchId + '/readings', {
-					duration: '1h',
-					type: 'json',
-					directory: '.cache',
-					fetchOptions: {
-						headers: { Authorization: 'Basic ' + authorizationHeader },
+				const batchReadings = await fetch(
+					'https://api.brewfather.app/v1/batches/' + batchId + '/readings',
+					{
+						duration: '1h',
+						type: 'json',
+						directory: '.cache',
+						fetchOptions: {
+							headers: { Authorization: 'Basic ' + authorizationHeader },
+						},
 					},
-				});
+				);
 
 				batchReadings.forEach((reading) => {
 					reading.time = new Date(reading.time);
@@ -225,7 +238,12 @@ module.exports = async () => {
 				batches.push(batchData);
 			});
 
-			console.log('[' + '\x1b[33m%s\x1b[0m', 'Brewfather' + '\x1b[0m' + ']: loaded', batches.length, 'batches.');
+			console.log(
+				'[' + '\x1b[33m%s\x1b[0m',
+				'Brewfather' + '\x1b[0m' + ']: loaded',
+				batches.length,
+				'batches.',
+			);
 			return batches;
 		} catch (err) {
 			console.error(err);
@@ -234,16 +252,24 @@ module.exports = async () => {
 	};
 	const getRecipes = async () => {
 		try {
-			const recipes = await fetch('https://api.brewfather.app/v1/recipes?complete=true&limit=50', {
-				duration: '1h',
-				type: 'json',
-				directory: '.cache',
-				fetchOptions: {
-					headers: { Authorization: 'Basic ' + authorizationHeader },
+			const recipes = await fetch(
+				'https://api.brewfather.app/v1/recipes?complete=true&limit=50',
+				{
+					duration: '1h',
+					type: 'json',
+					directory: '.cache',
+					fetchOptions: {
+						headers: { Authorization: 'Basic ' + authorizationHeader },
+					},
 				},
-			});
+			);
 
-			console.log('[' + '\x1b[33m%s\x1b[0m', 'Brewfather' + '\x1b[0m' + ']: loaded', recipes.length, 'recipes.');
+			console.log(
+				'[' + '\x1b[33m%s\x1b[0m',
+				'Brewfather' + '\x1b[0m' + ']: loaded',
+				recipes.length,
+				'recipes.',
+			);
 
 			recipes.forEach((recipe) => {
 				recipe.og = recipe.og.toFixed(3);

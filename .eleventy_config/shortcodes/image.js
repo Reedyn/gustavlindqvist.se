@@ -2,7 +2,10 @@ const EleventyImage = require('@11ty/eleventy-img');
 const markdown = require('../markdown');
 
 module.exports = async function (src, style, alt, caption = undefined) {
-	if (typeof this.page.outputPath !== 'undefined' && typeof this.page.outputPath.lastIndexOf !== 'undefined') {
+	if (
+		typeof this.page.outputPath !== 'undefined' &&
+		typeof this.page.outputPath.lastIndexOf !== 'undefined'
+	) {
 		const documentPath = this.page.filePathStem;
 		const outputPath = this.page.outputPath
 			.substring(0, this.page.outputPath.lastIndexOf('/')) // Remove document from path
@@ -41,7 +44,12 @@ module.exports = async function (src, style, alt, caption = undefined) {
 
 		let metadata = await EleventyImage(src, options);
 
-		console.log('[' + '\x1b[36m%s\x1b[0m', '11ty Image' + '\x1b[0m' + ']:', 'Created responsive images for', src);
+		console.log(
+			'[' + '\x1b[36m%s\x1b[0m',
+			'11ty Image' + '\x1b[0m' + ']:',
+			'Created responsive images for',
+			src,
+		);
 
 		let format = '';
 		for (const key in metadata) {
@@ -52,9 +60,12 @@ module.exports = async function (src, style, alt, caption = undefined) {
 		let highsrc = metadata[format][metadata[format].length - 1];
 
 		let captionElement =
-			typeof caption !== 'undefined' ? `<figcaption>${markdown.render(caption)}</figcaption>` : '';
+			typeof caption !== 'undefined'
+				? `<figcaption>${markdown.render(caption)}</figcaption>`
+				: '';
 
-		let inlineStyling = style === '-inline' ? ` style="flex: ${highsrc.width / highsrc.height}"` : '';
+		let inlineStyling =
+			style === '-inline' ? ` style="flex: ${highsrc.width / highsrc.height}"` : '';
 
 		// Base sizes on the layout changes.
 		let sizes = '(max-width: 50rem) 100vw, 50rem';
