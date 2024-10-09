@@ -2,6 +2,7 @@
 title: "Skolgårdskarta till Talavidskolan"
 description: "Processen för hur jag ritade en ny skolgårdskarta till Talavidskolan"
 feature_image: "Screenshot_2024-10-09_192711.png"
+mastodon_id: "113278692878327347"
 date: 2024-10-09T19:30:19+0200
 tags:
     - orientering
