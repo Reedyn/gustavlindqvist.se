@@ -1,7 +1,7 @@
 ---
 title: "Skolgårdskarta till Talavidskolan"
 description: "Processen för hur jag ritade en ny skolgårdskarta till Talavidskolan"
-feature_image: "Screenshot_2024-10-09_192711.png"
+feature_image: "Screenshot_2024-10-09_192711.jpg"
 mastodon_id: "113278692878327347"
 date: 2024-10-09T19:30:19+0200
 tags:
@@ -49,14 +49,16 @@ Det sista att göra innan kartläggningen började var att ladda ner aktuell sym
 
 Själva ritandet var sen inte så komplicerat. Jag la in ortofotot från tidigare som ett bakgrundslager i programmet och sen kalkerade jag så gott jag kunde med stöd från alla bilder jag tog på marknivå.
 
+![Orienteringssymboler på ett fkygfoto](OOMapper_Editing.jpg){.-wide}
+
 :::: gallery
 ::: row
-![Detaljbild på en orienteringskarta på en skolgård. Bilden visar en innergård med särpräglat träd, betongringar och staket](Screenshot_2024-10-09_182450.png){.-inline}
-![Detaljbild på en orienteringskarta på en skolgård. Bilden visar ett område runt en byggnad med gräs och sand samt diverse lekredskap](Screenshot_2024-10-09_182428.png){.-inline}
+![Detaljbild på en orienteringskarta på en skolgård. Bilden visar en innergård med särpräglat träd, betongringar och staket](Screenshot_2024-10-09_182450.jpg){.-inline}
+![Detaljbild på en orienteringskarta på en skolgård. Bilden visar ett område runt en byggnad med gräs och sand samt diverse lekredskap](Screenshot_2024-10-09_182428.jpg){.-inline}
 :::
 ::: row
-![Detaljbild på en orienteringskarta på en skolgård. Bilden visar ett belagt område med staket och bänkar](Screenshot_2024-10-09_182557.png){.-inline}
-![Detaljbild på en orienteringskarta på en skolgård. Bilden visar ett varierat område med gångar, sandlådor, lekredskap, stenar m.m.](Screenshot_2024-10-09_182515.png){.-inline}
+![Detaljbild på en orienteringskarta på en skolgård. Bilden visar ett belagt område med staket och bänkar](Screenshot_2024-10-09_182557.jpg){.-inline}
+![Detaljbild på en orienteringskarta på en skolgård. Bilden visar ett varierat område med gångar, sandlådor, lekredskap, stenar m.m.](Screenshot_2024-10-09_182515.jpg){.-inline}
 ::::
 
 Efter några dagars ritande och även lite dialog med idrottslärarna kring hur deras behov såg ut var jag ganska nöjd. Det som återstod var mest en kontroll på plats och lite finjustering kring detaljer som jag hade dålig dokumentation kring (särskilt träden uppe vid vägen till vänster i bilden eftersom de helt täcks på flygfoton av löven i trädkronorna).
@@ -73,7 +75,7 @@ Helt klar var jag dock inte. I vanliga fall stannar vi här eftersom våra egna 
 
 Här är det färdiga dokumentet som vi sen skickade till skolan. Jag la till lite extra information för framtida kartritare som exakt vilken standard den gällde, när den ritades och deklinationen. Den är gjord för att skrivas ut på vanliga A4-ark.
 
-![En skolgårdskartan för orientering över Talavidskolan i A4-format](Talavidskolan_OL_Hallby_2024-09.png)
+![En skolgårdskartan för orientering över Talavidskolan i A4-format](Talavidskolan_OL_Hallby_2024-09.jpg)
 
 *[GIS]: Geografiska informationssystem
 
