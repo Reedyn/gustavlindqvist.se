@@ -51,16 +51,6 @@ Själva ritandet var sen inte så komplicerat. Jag la in ortofotot från tidigar
 
 ![Orienteringssymboler på ett fkygfoto](OOMapper_Editing.jpg){.-wide}
 
-:::: gallery
-::: row
-![Detaljbild på en orienteringskarta på en skolgård. Bilden visar en innergård med särpräglat träd, betongringar och staket](Screenshot_2024-10-09_182450.jpg){.-inline}
-![Detaljbild på en orienteringskarta på en skolgård. Bilden visar ett område runt en byggnad med gräs och sand samt diverse lekredskap](Screenshot_2024-10-09_182428.jpg){.-inline}
-:::
-::: row
-![Detaljbild på en orienteringskarta på en skolgård. Bilden visar ett belagt område med staket och bänkar](Screenshot_2024-10-09_182557.jpg){.-inline}
-![Detaljbild på en orienteringskarta på en skolgård. Bilden visar ett varierat område med gångar, sandlådor, lekredskap, stenar m.m.](Screenshot_2024-10-09_182515.jpg){.-inline}
-::::
-
 Efter några dagars ritande och även lite dialog med idrottslärarna kring hur deras behov såg ut var jag ganska nöjd. Det som återstod var mest en kontroll på plats och lite finjustering kring detaljer som jag hade dålig dokumentation kring (särskilt träden uppe vid vägen till vänster i bilden eftersom de helt täcks på flygfoton av löven i trädkronorna).
 
 OpenOrienteering Mapper finns som en app för Android som kom väl till pass. Istället för att skriva ut en pappersversion laddade jag upp kartan på surfplattan och tog med mig den när jag gick runt. På det viset kunde jag göra redigeringar direkt på plats också.
