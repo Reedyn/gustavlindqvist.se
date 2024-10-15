@@ -7,6 +7,7 @@ date: 2024-10-09T19:30:19+0200
 tags:
     - orientering
     - kartor
+    - jkpg
 ---
 
 Orienteringsklubben (IF Hallby SOK) fick en förfrågan från gymnastiklärarna på Talavidskolan om att rita en ny orienteringskarta för deras skolgård. Nyligen byggdes en helt ny skolbyggnad där och runt halva skolgården var helt omgjord, så det behövdes verkligen en ny karta.
