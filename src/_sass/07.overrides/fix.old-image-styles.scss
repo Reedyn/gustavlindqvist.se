@@ -1,8 +1,0 @@
-/* Deprecated fix for the old way of handling images, just so they don't look terrible */
-// TODO Remove
-.content {
-	img[src$="#large"],
-	img[src$="#full"] {
-		width: 100%;
-	}
-}

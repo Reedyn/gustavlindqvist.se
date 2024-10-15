@@ -1,0 +1,113 @@
+.post-header {
+	background-position: center;
+	background-size: cover;
+	padding: 0;
+	overflow: clip;
+	color: var(--color__text);
+
+	a {
+		color: var(--color__text);
+	}
+
+	.post-title {
+		margin-top: var(--margin__medium);
+		margin-bottom: var(--margin__small);
+		font-weight: 900;
+
+		svg {
+			padding-bottom: var(--padding__medium);
+			width: 100%;
+			max-width: 60rem;
+		}
+	}
+
+	.post-date {
+		margin-top: var(--margin__small);
+		color: var(--color__text-alt);
+	}
+
+	.tags {
+		margin-top: var(--margin__medium);
+		.tag {
+			display: inline-block;
+			margin-right: 0.4em;
+			margin-bottom: 0.4em;
+			background: var(--color__background__widget);
+			padding: 0 0.5em;
+			color: inherit;
+		}
+	}
+
+	.post-metadata {
+		position: relative;
+		z-index: 10;
+		margin: 0 auto;
+		width: 100%;
+		max-width: min(var(--max-width__content), calc(100% - 2 * var(--margin__medium)));
+
+		:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	&:not(.-feature-image) {
+		.post-title {
+			/* noinspection CssInvalidPropertyValue */
+			@supports (
+				(background-clip: text) and
+					(background: linear-gradient(120deg, black 0%, white 37.5%, black 100%))
+			) {
+				background: linear-gradient(
+					120deg,
+					var(--color__accent) 0%,
+					var(--color__accent-secondary) 37.5%,
+					var(--color__accent) 100%
+				);
+				background-clip: text;
+				color: transparent;
+			}
+		}
+	}
+
+	&.-feature-image {
+		.post-header__image {
+			margin: 0;
+			width: 100%;
+
+			img {
+				margin: 0;
+				padding: 0;
+				aspect-ratio: 16/9;
+				width: 100%;
+				min-height: 30vh;
+				max-height: 60vh;
+				object-fit: cover;
+				object-position: center;
+			}
+		}
+
+		.-feature-image--bottom {
+			.post-header__image img {
+				object-position: bottom;
+			}
+		}
+
+		.-feature-image--top {
+			.post-header__image img {
+				object-position: top;
+			}
+		}
+
+		.-feature-image--left {
+			.post-header__image img {
+				object-position: left;
+			}
+		}
+
+		.-feature-image--right {
+			.post-header__image img {
+				object-position: right;
+			}
+		}
+	}
+}

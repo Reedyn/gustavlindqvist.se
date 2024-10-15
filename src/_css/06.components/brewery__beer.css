@@ -1,0 +1,105 @@
+.beer-statistics {
+	.beer-statistics__list {
+		display: grid;
+		grid-auto-flow: dense;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		grid-gap: var(--margin__small);
+		grid-template-columns: 1fr 1fr;
+		max-width: 30em;
+
+		/* noinspection CssInvalidMediaFeature */
+		@media (--viewport-tiny) {
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+	}
+
+	.beer-statistics__list-item {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+
+		.beer-statistics__list-item__label {
+			color: var(--color__text-alt);
+			font-size: var(--font__size-base);
+		}
+		.beer-statistics__list-item__value {
+			font-size: var(--font__size__heading-4);
+		}
+	}
+}
+
+.beer-ingredients {
+	.beer-ingredients__label {
+		display: block;
+		margin-block-start: var(--margin__medium);
+		margin-block-end: var(--margin__small);
+		.icon {
+			margin-left: -0.2em;
+		}
+	}
+
+	.beer-ingredients__list {
+		margin: 0;
+		padding: 0;
+		max-width: 25em;
+		list-style: none;
+
+		.beer-ingredients__list-item {
+			display: grid;
+			grid-template-columns: 3.8em 1fr auto;
+			grid-gap: 0 0.5rem;
+			grid-template-rows: auto;
+			grid-template-areas:
+				"left middle right"
+				"left bottom bottom-right";
+			margin-bottom: 0.5em;
+
+			.beer-ingredients__list-item__left {
+				grid-area: left;
+			}
+			.beer-ingredients__list-item__middle {
+				grid-area: middle;
+				overflow: clip;
+
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+			.beer-ingredients__list-item__right {
+				grid-area: right;
+				text-align: right;
+			}
+			.beer-ingredients__list-item__bottom-left {
+				grid-area: bottom-left;
+				font-size: var(--font__size-base);
+			}
+			.beer-ingredients__list-item__bottom {
+				grid-area: bottom;
+				font-size: var(--font__size-base);
+			}
+			.beer-ingredients__list-item__bottom-right {
+				grid-area: bottom-right;
+				font-size: var(--font__size-base);
+				text-align: right;
+			}
+		}
+	}
+}
+
+.icon {
+	&.fermentable {
+	}
+}
+
+.batches {
+	.batches__status {
+		display: inline-block;
+		position: relative;
+		bottom: 0.1em;
+		vertical-align: middle;
+		background: var(--color__background__widget);
+		padding: 0.3em;
+		font-size: var(--font__size);
+	}
+}

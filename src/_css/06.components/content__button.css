@@ -1,0 +1,24 @@
+.content .button {
+	display: inline-block;
+	cursor: pointer;
+	margin: 0;
+	border: 0;
+	background: var(--color__accent);
+	padding: 0.5em 0.8em;
+	color: var(--color__background);
+	font-weight: inherit;
+	font-size: inherit;
+	line-height: 1.5;
+	font-family: inherit;
+	text-decoration: none;
+
+	&:visited {
+		background: var(--color__accent);
+		color: var(--color__background);
+	}
+
+	&:hover,
+	&:focus {
+		text-decoration: underline;
+	}
+}
