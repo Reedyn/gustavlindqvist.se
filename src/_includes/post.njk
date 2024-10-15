@@ -17,7 +17,7 @@ eleventyComputed:
 {% endif %}
 {% if series %}{%- set nextPost = collections[series] | removePostsNotInSeries(series) | getNextCollectionItem(page) %}{% endif %}
 <article class="post"{% if language %} lang="{{ language }}"{% endif %}>
-    <header id="post-header" class="post-header{% if feature_image %} -feature-image{% endif %}{% if feature_image_position %} -feature-image--{{ feature_image_position }}{% endif %}">
+    <header id="post-header" class="post-header {% if feature_image %} -feature-image{% endif %}{% if feature_image_position %} -feature-image--{{ feature_image_position }}{% endif %}">
         {{ optimizedFeatureImage | safe }}
         <div class="post-metadata">
             <h1 class="post-title" style="view-transition-name: post-title-{{ page.url | hashString}}">{{ title }}</h1>
@@ -27,9 +27,8 @@ eleventyComputed:
             </p>{% endif %}
         </div>
     </header>
-    <section class="post-content content" id="post-content" aria-label="Inläggets innehåll">
+    <section class="post-content content content-layout" id="post-content" aria-label="Inläggets innehåll">
         {{ content | safe }}
-        <p class="post-source center small uppercase"><a class="secondary" href="https://git.gustavlindqvist.se/gustav/gustavlindqvist.se/_edit/main{% editLink %}?display=source"><svg class="icon" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/text-box-edit.svg#icon"></use></svg> Redigera</a> · <a class="secondary" href="https://git.gustavlindqvist.se/gustav/gustavlindqvist.se/raw/branch/main{% editLink %}"><svg class="icon" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/markdown.svg#icon"></use></svg> Källkod</a></p>
         {% include "partials/comments.njk" %}
     </section>
 </article>

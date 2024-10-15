@@ -1,0 +1,34 @@
+.Breadcrumbs a {
+	color: var(--color__text-alt);
+}
+
+.Breadcrumbs a:hover,
+.Breadcrumbs a:focus {
+	color: var(--color__accent);
+}
+
+.Breadcrumbs ol {
+	margin: 0;
+	padding-inline-start: 0;
+	font-size: 80%;
+	list-style: none;
+	text-transform: uppercase;
+}
+
+.Breadcrumbs ol li {
+	display: inline-block;
+}
+
+.Breadcrumbs ol li:before {
+	display: none !important;
+	content: none !important;
+}
+
+.Breadcrumbs ol li:after {
+	content: "/";
+	color: var(--color__text-alt);
+}
+
+.Breadcrumbs ol li:last-child:after {
+	content: none;
+}

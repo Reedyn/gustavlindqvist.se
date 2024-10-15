@@ -1,0 +1,6 @@
+:root {
+	--layout-gap: var(--padding__medium);
+	--layout-full: minmax(var(--layout-gap), 1fr);
+	--layout-wide: minmax(0, 5rem);
+	--layout-content: min(var(--max-width__content), 100% - var(--layout-gap) * 2);
+}

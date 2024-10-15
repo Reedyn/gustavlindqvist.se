@@ -1,0 +1,16 @@
+.skip-to-content {
+	display: block;
+	position: fixed;
+	top: 3px;
+	left: 3px;
+	z-index: 9999;
+	border: 1px solid white;
+	background: var(--color__background);
+	padding: var(--margin__medium);
+	color: var(--color__accent);
+	&:not(:focus) {
+		position: absolute;
+		top: -100%;
+		left: -100%;
+	}
+}
