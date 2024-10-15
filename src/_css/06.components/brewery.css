@@ -1,0 +1,11 @@
+.brewery {
+	.post-header {
+		display: flex;
+		position: relative;
+		justify-content: center;
+		align-items: center;
+		&.-feature-image:after {
+			background: oklch(0% 0 0deg / 0.7);
+		}
+	}
+}

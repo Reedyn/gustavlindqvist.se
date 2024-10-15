@@ -1,0 +1,19 @@
+/* Sizes
+---------------
+Sizes, margins and paddings
+--------------- */
+:root {
+	--max-width__base: 130ch;
+	--max-width__content: 85ch;
+
+	--margin__tiny: 0.375rem;
+	--margin__small: 0.75rem;
+	--margin__medium: 1.5rem;
+	--margin__large: 4rem;
+	--padding__tiny: 0.375rem;
+	--padding__small: 0.75rem;
+	--padding__medium: 1.5rem;
+	--padding__large: 4rem;
+
+	--header__height: 3.75rem;
+}
