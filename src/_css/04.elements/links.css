@@ -1,0 +1,12 @@
+a {
+	color: var(--color__accent);
+	text-decoration: none;
+	&:hover,
+	&:focus {
+		text-decoration: underline;
+	}
+
+	&:visited {
+		color: var(--color__accent-secondary);
+	}
+}

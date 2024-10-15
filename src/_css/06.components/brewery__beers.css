@@ -1,0 +1,41 @@
+.beers {
+	display: grid;
+	grid-auto-flow: dense;
+	margin-top: var(--margin__medium);
+	margin-bottom: var(--margin__medium);
+	grid-gap: var(--margin__medium);
+	grid-template-columns: 1fr;
+
+	@media (--viewport-small) {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	@media (--viewport-medium) {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+.beer {
+	margin: auto;
+	padding: var(--padding__medium);
+	width: 100%;
+
+	a {
+		&:hover,
+		&:focus {
+			background: none !important;
+			.beer-label {
+				filter: drop-shadow(0 0 1rem var(--color__accent, var(--color__accent)));
+			}
+		}
+	}
+
+	.beer-title {
+		margin: 0;
+	}
+
+	.beer-label {
+		transition: 0.25s all ease;
+		width: 100%;
+	}
+}
