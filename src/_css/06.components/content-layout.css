@@ -1,0 +1,23 @@
+.content {
+	display: grid;
+	grid-template-columns:
+		[full-start] var(--layout-full)
+		[wide-start] var(--layout-wide)
+		[content-start] var(--layout-content) [content-end]
+		var(--layout-wide) [wide-end]
+		var(--layout-full) [full-end];
+
+	> * {
+		grid-column: content;
+	}
+
+	.full,
+	.-full {
+		grid-column: full;
+	}
+
+	.wide,
+	.-wide {
+		grid-column: wide;
+	}
+}

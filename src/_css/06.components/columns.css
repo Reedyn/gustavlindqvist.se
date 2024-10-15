@@ -1,0 +1,11 @@
+.columns {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: var(--margin__medium);
+
+	@media screen and (min-width: var(--breakpoint-small)) {
+	}
+	@media screen and (min-width: var(--breakpoint-small)) {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+}
