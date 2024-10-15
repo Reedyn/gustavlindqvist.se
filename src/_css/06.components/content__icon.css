@@ -1,0 +1,38 @@
+.content .icon {
+	display: inline-block;
+	position: relative;
+	bottom: 0.1em;
+	align-self: flex-start;
+	vertical-align: sub;
+	width: 1em;
+	height: auto;
+
+	&.-large {
+		vertical-align: middle;
+		width: 1.5em;
+	}
+
+	&.-strava {
+		color: oklch(70% 0.2 38deg);
+	}
+
+	&.-gaming {
+		color: oklch(70% 0.2 300deg);
+	}
+
+	&.-fermentables {
+		color: oklch(70% 0.15 80deg);
+	}
+
+	&.-hops {
+		color: oklch(70% 0.1 132deg);
+	}
+
+	&.-yeast {
+		color: oklch(80% 0.06 60deg);
+	}
+
+	&.-rounded {
+		border-radius: 0.2rem;
+	}
+}

@@ -1,0 +1,60 @@
+.Form {
+	margin-top: 2em;
+	color: var(--color__text);
+	font-size: var(--font__size);
+
+	&.-inactive {
+		label {
+			display: none !important;
+		}
+		.-collapsed {
+			display: none !important;
+		}
+		textarea {
+			height: 2.7em;
+			min-height: 0 !important;
+			overflow: clip;
+			resize: none !important;
+		}
+	}
+	.Form__group {
+		position: relative;
+		margin: 0 0 1em 0;
+		input,
+		textarea {
+			border: 2px solid var(--color__background__widget);
+			background: var(--color__background);
+			padding: 0.5em;
+			width: 100%;
+			color: inherit;
+			font-size: inherit;
+			font-family: inherit;
+
+			&:focus {
+				border-color: var(--color__text);
+				+ label {
+					color: var(--color__text);
+				}
+			}
+		}
+
+		textarea {
+			min-height: 15rem;
+			resize: vertical;
+		}
+
+		label {
+			display: inline-block;
+			position: absolute;
+			top: -7px;
+			left: 4px;
+			background: var(--color__background);
+			padding: 0 0.5em;
+			color: var(--color__text-alt);
+			font-size: var(--font__size-base);
+			line-height: 1;
+			text-align: center;
+			text-transform: uppercase;
+		}
+	}
+}

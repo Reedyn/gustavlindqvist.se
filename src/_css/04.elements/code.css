@@ -1,0 +1,4 @@
+code {
+	color: var(--color__accent);
+	font-family: var(--font__code);
+}

@@ -1,0 +1,28 @@
+.content {
+	padding-top: var(--padding__small);
+	padding-bottom: var(--padding__small);
+
+	> :first-child {
+		margin-top: 0;
+	}
+
+	> :last-child {
+		margin-bottom: 0;
+	}
+
+	a {
+		text-decoration: underline;
+
+		&:hover,
+		&:focus-visible {
+			background: var(--color__accent);
+			color: var(--color__background);
+			text-decoration: none;
+
+			&:visited {
+				background: var(--color__accent-secondary);
+				color: var(--color__background);
+			}
+		}
+	}
+}

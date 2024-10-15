@@ -20,15 +20,15 @@
                 >
                 {{ reply.author.name | safe}}</a>{% else %}
             <span class="Comments__author">
-                <img
+                {% if reply.author.image %}<img
                         class="Comments__avatar"
-                        src="{{ reply.author.image or 'https://source.boringavatars.com/beam/45/' + sluggedName + '?colors=262AFF,4326FF,6226FF,8426FF,8727CC' }}"
+                        src="{{ reply.author.image }}"
                         alt="Bild på {{ reply.author.name }}"
                         loading="lazy"
                         decoding="async"
                         width="48"
                         height="48"
-                >
+                >{% endif %}
                 {{ reply.author.name | safe}}</span>{% endif %}{% if reply.type === 'mention-of' %} nämnde detta inlägg{% else %} kommenterade{% endif%} {%  if reply.url %}<a href="{{ reply.url }}" target="_blank" rel="external noopener noreferrer"> <time class="timeago" prefix datetime="{{ reply.published | dateFromString | fullISODate }}" title="{{ reply.published | dateFromString | longISODate }}">{{ reply.published | dateFromString | readableLongDate }}</time></a>{% else %}<span> <time class="timeago" prefix datetime="{{ reply.published | dateFromString | fullISODate }}" title="{{ reply.published | dateFromString | longISODate }}">{{ reply.published | dateFromString | readableLongDate }}</time></span>{% endif %}
             </span>
             {{ reply.content | safe }}{% if reply.image %}<p><a href="{{ reply.url }}"><img class="Comments__image" src="{{ reply.image.preview_url }}" alt="{{ reply.image.description }}"></a></p>{% endif %}
