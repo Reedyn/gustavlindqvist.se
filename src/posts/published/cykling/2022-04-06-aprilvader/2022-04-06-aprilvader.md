@@ -5,7 +5,7 @@ feature_image: Gustav-Lindqvist_0942.JPG
 twitterId: "1511791119150972928"
 series: cykling
 tags:
-    - vår
+    - var
     - vinter
     - cykling
     - jkpg

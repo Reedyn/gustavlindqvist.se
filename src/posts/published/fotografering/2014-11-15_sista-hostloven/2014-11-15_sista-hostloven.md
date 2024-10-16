@@ -6,7 +6,7 @@ date: 2014-11-15
 tags:
     - fotografering
     - jkpg
-    - höst
+    - host
 ---
 
 Nu är det över en månad sedan jag var ute och fotograferade så det var på tiden :) Jag passade på att gå en runda timmen innan solen gick ner.
