@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 const isDevEnv = process.env.ELEVENTY_ENV === 'development';
 const todaysDate = new Date();
 
@@ -9,7 +7,7 @@ function showDraft(data) {
 	return isDevEnv || (!isDraft && !isFutureDate);
 }
 
-module.exports = function () {
+export default function () {
 	return {
 		eleventyComputed: {
 			eleventyExcludeFromCollections: function (data) {
@@ -28,4 +26,4 @@ module.exports = function () {
 			},
 		},
 	};
-};
+}

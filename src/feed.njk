@@ -1,6 +1,8 @@
----
-"permalink": "feed.xml"
-"eleventyExcludeFromCollections": true
+---json
+{
+  "permalink": "feed.xml",
+  "eleventyExcludeFromCollections": true
+}
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="/assets/stylesheets/feed.xsl" type="text/xsl"?>
@@ -10,23 +12,20 @@
     <link href="{{ metadata.url }}{{ metadata.feed.path }}" rel="self"/>
     <link href="{{ metadata.url }}/blogg/"/>
     <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
-    <id>{{ metadata.url }}/</id>
+    <id>{{ metadata.url | addPathPrefixToFullUrl }}/</id>
     <author>
         <name>{{ metadata.author.name }} {{ metadata.author.surname }}</name>
         <email>{{ metadata.author.email }}</email>
     </author>
     {%- for post in collections.posts | reverse -%}
-    {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
-    {% if post.data.feature_image %}
-        {%- set optimizedFeatureImage = post.data.feature_image | featureImageFilter("100vw", "", post.data.page)%}
-    {% endif %}
+    {%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.url ) }}{% endset %}
     <entry>
         <title>{{ post.data.title }}</title>
         <link href="{{ absolutePostUrl }}"/>
         <updated>{{ post.date | dateToRfc3339 }}</updated>
         <id>{{ absolutePostUrl }}</id>
         <content type="html">
-            {% if post.data.feature_image %}{{ optimizedFeatureImage | htmlToAbsoluteUrls(absolutePostUrl) | utf8_xml }}{% endif %}{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | utf8_xml }}
+            {{ post.templateContent | renderTransforms(post.data.page, metadata.url) }}
         </content>
     </entry>
     {%- endfor %}

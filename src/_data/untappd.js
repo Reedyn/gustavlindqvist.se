@@ -1,8 +1,8 @@
 /* eslint-disable no-console */
-let Parser = require('rss-parser');
-const fetch = require('@11ty/eleventy-fetch');
+import Parser from 'rss-parser';
+import fetch from '@11ty/eleventy-fetch';
 
-module.exports = async () => {
+export default async () => {
 	let parser = new Parser({
 		timeout: 10000,
 		customFields: {

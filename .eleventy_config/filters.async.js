@@ -1,5 +1,5 @@
-const { getRepliesForPost } = require('./filters/replies-for-post.async');
+import getRepliesForPost from './filters/replies-for-post.async.mjs';
 
-module.exports = {
+export default {
 	getRepliesForPost,
 };
