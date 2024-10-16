@@ -5,8 +5,8 @@ feature_image: "Gustav-Lindqvist_2023-07-06_00256-Pano_16-9.jpg"
 date: 2023-07-06T18:16:04+0200
 tags:
     - friluftsliv
-    - stöttingfjället-2023
-    - stöttingfjället
+    - stottingfjallet-2023
+    - stottingfjallet
     - sommar
 ---
 
