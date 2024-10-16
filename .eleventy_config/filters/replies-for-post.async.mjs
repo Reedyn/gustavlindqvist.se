@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 import fetch from '@11ty/eleventy-fetch';
 import sanitizeHTML from 'sanitize-html';
-import { config } from 'dotenv';
+import 'dotenv/config';
 
 const mastodonAsync = {};
 
