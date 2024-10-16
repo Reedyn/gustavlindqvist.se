@@ -2,23 +2,17 @@
 /* global: require, module, process */
 require('dotenv').config();
 
-const pluginRss = require('@11ty/eleventy-plugin-rss');
-const pluginPageAssets = require('eleventy-plugin-page-assets');
-const pluginNavigation = require('@11ty/eleventy-navigation');
-const pluginSchema = require('@quasibit/eleventy-plugin-schema');
+import pluginFeed from '@11ty/eleventy-plugin-rss';
+import pluginNavigation from '@11ty/eleventy-navigation';
+import pluginSchema from '@quasibit/eleventy-plugin-schema';
 
-const markdown = require('./.eleventy_config/markdown');
-const filters = require('./.eleventy_config/filters');
-const asyncFilters = require('./.eleventy_config/filters.async');
-const shortcodes = require('./.eleventy_config/shortcodes');
-const collections = require('./.eleventy_config/collections');
+import markdown from './.eleventy_config/markdown.mjs';
+import filters from './.eleventy_config/filters.mjs';
+import asyncFilters from './.eleventy_config/filters.async.js';
+import shortcodes from './.eleventy_config/shortcodes.mjs';
+import collections from './.eleventy_config/collections.mjs';
 
-const CONTENT_GLOBS = {
-	posts: 'src/posts/**/*.md|pages/**/*.md',
-	assets: '*.gpx|*.fit|*.pdf|*.csv|*.svg',
-};
-
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
 	const ELEVENTY_ENVIRONMENT =
 		typeof process.env.ELEVENTY_ENV !== 'undefined' ? process.env.ELEVENTY_ENV : 'production';
 	console.log('Building with', ELEVENTY_ENVIRONMENT, 'environment.');
@@ -32,19 +26,12 @@ module.exports = function (eleventyConfig) {
 		dynamicPartials: false,
 		strictFilters: true,
 	});
-	eleventyConfig.addPlugin(pluginRss, {
+	eleventyConfig.addPlugin(pluginFeed, {
 		posthtmlRenderOptions: {
 			closingSingleTag: 'default', // opt-out of <img/>-style XHTML single tags
 		},
 	});
 	eleventyConfig.addPlugin(pluginNavigation);
-	eleventyConfig.addPlugin(pluginPageAssets, {
-		mode: 'directory',
-		postsMatching: CONTENT_GLOBS.posts,
-		assetsMatching: CONTENT_GLOBS.assets,
-		recursive: false,
-		hashAssets: false,
-	});
 	eleventyConfig.addPlugin(pluginSchema);
 
 	// Filters
@@ -71,6 +58,9 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('src/CNAME');
 	eleventyConfig.addPassthroughCopy('src/robots.txt');
 	eleventyConfig.addPassthroughCopy('src/key_gustav-lindqvist.asc');
+	eleventyConfig.addPassthroughCopy({
+		'src/webfinger.json': '/.well-known/webfinger',
+	});
 	eleventyConfig.addPassthroughCopy({ 'src/favicon': '/' });
 	eleventyConfig.addPassthroughCopy('src/_redirects');
 	eleventyConfig.addPassthroughCopy('src/_headers');
@@ -103,4 +93,4 @@ module.exports = function (eleventyConfig) {
 		// Pre-process *.html files with: (default: `liquid`)
 		htmlTemplateEngine: 'njk',
 	};
-};
+}
