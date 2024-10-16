@@ -9,7 +9,7 @@ tags:
     - friluftsliv
     - sodra-vatterleden
     - hassafallsleden
-    - kallebäcksleden
+    - kallebacksleden
     - host
     - jkpg
 ---
