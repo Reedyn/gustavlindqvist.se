@@ -8,8 +8,8 @@ sortDate: 2023-07-08T19:00:00+0200
 tags:
     - fotografering
     - friluftsliv
-    - stöttingfjället-2023
-    - stöttingfjället
+    - stottingfjallet-2023
+    - stottingfjallet
     - sommar
 ---
 

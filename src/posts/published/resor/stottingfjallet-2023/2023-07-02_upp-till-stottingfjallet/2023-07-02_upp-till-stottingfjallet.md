@@ -6,9 +6,9 @@ date: 2023-07-02T18:16:04+0200
 tags:
     - resor
     - friluftsliv
-    - stöttingfjället-2023
+    - stottingfjallet-2023
     - hoga-kusten
-    - stöttingfjället
+    - stottingfjallet
     - sommar
 ---
 
