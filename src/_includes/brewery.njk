@@ -68,11 +68,11 @@ eleventyComputed:
             {% endif %}{%- endfor -%}
         </div>
     </section>
-	{% if collections.ölbryggning.length %}
+	{% if collections.olbryggning.length %}
 	<section aria-labelledby="olbryggning" class="wrapper">
         <h2 id="olbryggning">Mina inlägg om ölbryggning</h2>
         <div class="Cards posts">
-            {%- for post in collections.ölbryggning | reverse -%}
+            {%- for post in collections.olbryggning | reverse -%}
             {% if loop.index0 < 4 %}
             {%- set canonicalURL = metadata.url + post.data.page.url -%}
             {%- set optimizedFeatureImage = post.data.feature_image | featureImageFilter("50w", "Card__image", post.data.page) %}
