@@ -7,10 +7,10 @@ series: "friluftsliv"
 date: 2022-09-26 10:37:00 +2
 tags:
     - friluftsliv
-    - södra-vätterleden
+    - sodra-vatterleden
     - hassafallsleden
     - kallebäcksleden
-    - höst
+    - host
     - jkpg
 ---
 
