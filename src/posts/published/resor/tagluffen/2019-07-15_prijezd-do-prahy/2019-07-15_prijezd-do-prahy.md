@@ -5,7 +5,7 @@ description: "Första resan som kändes som tågluff på riktigt. Under de förs
 date: 2019-07-15
 tags:
     - resor
-    - tågluffen
+    - tagluffen
     - tjeckien
     - prag
     - sommar
