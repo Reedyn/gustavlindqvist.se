@@ -10,9 +10,13 @@ let markdown = markdownIt({
 	langPrefix: 'language-',
 });
 
-export default function (tokens, idx, options, env) {
-	const token = tokens[idx];
+export default function (tokens, index, options, env) {
+	const token = tokens[index];
 	const source = decodeURI(token.attrGet('src'));
+
+	token.tag = 'figure';
+	token.type = 'block';
+
 	const attributes = {
 		alt: token.content,
 		loading: 'lazy',
