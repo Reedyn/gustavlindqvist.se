@@ -5,7 +5,7 @@ description: "Tågresan från Nice var något som jag sett fram emot sedan vi b�
 date: 2019-07-23
 tags:
     - resor
-    - tågluffen
+    - tagluffen
     - frankrike
     - paris
     - sommar

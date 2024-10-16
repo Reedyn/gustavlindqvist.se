@@ -7,7 +7,7 @@ tags:
     - resor
     - friluftsliv
     - stöttingfjället-2023
-    - höga-kusten
+    - hoga-kusten
     - stöttingfjället
     - sommar
 ---
