@@ -6,7 +6,7 @@ mastodon_id: "110686238189137691"
 date: 2023-07-03T18:16:04+0200
 tags:
     - friluftsliv
-    - stöttingfjället-2023
+    - stottingfjallet-2023
     - sommar
 ---
 
