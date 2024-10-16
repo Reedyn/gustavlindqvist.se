@@ -4,7 +4,7 @@ description: "Det är något speciellt med sol och träningslust. Jag har inte h
 date: 2017-03-20
 tags:
     - lopning
-    - vår
+    - var
 ---
 
 Det är något speciellt med sol och träningslust. Jag har inte haft lust att springa på månader i vintermörkret utan varje gång jag skulle ut har det varit en kamp med viljan. Och således har det inte blivit mycket träning.

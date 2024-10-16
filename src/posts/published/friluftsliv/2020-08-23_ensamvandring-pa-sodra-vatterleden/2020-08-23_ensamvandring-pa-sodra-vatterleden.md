@@ -4,7 +4,7 @@ feature_image: Gustav-Lindqvist_2020-08-22_0380.jpg
 feature_image_position: bottom
 description: "I helgen bestämde jag mig för att testa det där med ensamvandring och då valde jag etapp 2 på Södra Vätterleden mellan Bottnaryd och Norrahammar."
 date: 2020-08-23
-tags: ["friluftsliv", "södra-vätterleden", "sommar"]
+tags: ["friluftsliv", "sodra-vatterleden", "sommar"]
 permalink: "/{{ page.date | dateFolder}}/ensamvandring-pa-sodra-vatterleden/index.html"
 ---
 

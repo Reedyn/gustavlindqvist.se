@@ -6,8 +6,8 @@ series: "friluftsliv"
 date: 2022-09-14 17:48:00 +2
 tags:
     - friluftsliv
-    - röttle
-    - västanåleden
+    - rottle
+    - vastanaleden
     - john-bauerleden
 ---
 

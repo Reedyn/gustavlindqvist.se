@@ -95,7 +95,7 @@
 		"title": "Ghost",
 		"type": "subject"
 	},
-	"göteborg": {
+	"goteborg": {
 		"title": "Göteborg",
 		"type": "location"
 	},
@@ -116,7 +116,7 @@
 		"title": "Höga kusten",
 		"type": "location"
 	},
-	"höst": {
+	"host": {
 		"title": "höst",
 		"emoji": "\uD83C\uDF42",
 		"type": "season"
@@ -177,7 +177,7 @@
 		"title": "Kungsleden",
 		"type": "hiking_trail"
 	},
-	"kåseberga": {
+	"kaseberga": {
 		"title": "Kåseberga",
 		"type": "location"
 	},

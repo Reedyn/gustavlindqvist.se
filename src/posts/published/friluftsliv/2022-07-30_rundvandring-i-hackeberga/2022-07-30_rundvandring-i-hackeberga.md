@@ -6,7 +6,7 @@ series: "friluftsliv"
 date: 2022-07-30 16:00:00 +2
 tags:
     - friluftsliv
-    - skåneleden
+    - skaneleden
     - sommar
 ---
 

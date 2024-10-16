@@ -6,8 +6,8 @@ date: 2023-10-02T18:04:49+0200
 tags:
     - fotografering
     - friluftsliv
-    - blekinge-skärgård
-    - höst
+    - blekinge-skargard
+    - host
 ---
 
 Helgen vid månadsskiftet september–oktober spenderade vi på Hanö strax söder om Karlshamn i Blekinge, vi hade hyrt stugor på vandrarhemmet och hade med oss katterna.
