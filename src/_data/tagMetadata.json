@@ -24,11 +24,11 @@
 		"title": "Berlin",
 		"type": "location"
 	},
-	"blekinge-skärgård": {
+	"blekinge-skargard": {
 		"title": "Blekinge skärgård",
 		"type": "location"
 	},
-	"borgafjäll": {
+	"borgafjall": {
 		"title": "Borgafjäll",
 		"type": "location"
 	},
@@ -55,7 +55,7 @@
 		"feedTitle": "Gustavs pysselverkstad",
 		"type": "subject"
 	},
-	"fäboliden": {
+	"faboliden": {
 		"title": "Fäboliden",
 		"type": "location"
 	},
@@ -112,7 +112,7 @@
 		"title": "Hong Kong",
 		"type": "location"
 	},
-	"höga-kusten": {
+	"hoga-kusten": {
 		"title": "Höga kusten",
 		"type": "location"
 	},
@@ -189,7 +189,7 @@
 		"title": "Linz",
 		"type": "location"
 	},
-	"löpning": {
+	"lopning": {
 		"title": "löpning",
 		"emoji": "\uD83C\uDFC3",
 		"feedTitle": "Gustav springer vilse i skogen",
@@ -202,7 +202,7 @@
 		"description": "Jag är ute och cyklar (i skogen).",
 		"type": "subject"
 	},
-	"nederländerna": {
+	"nederlanderna": {
 		"title": "Nederländerna",
 		"emoji": "\uD83C\uDDF3\uD83C\uDDF1",
 		"type": "location"
@@ -220,7 +220,7 @@
 		"emoji": "\uD83E\uDDED",
 		"type": "subject"
 	},
-	"österrike": {
+	"osterrike": {
 		"title": "Österrike",
 		"emoji": "\uD83C\uDDE6\uD83C\uDDF9",
 		"type": "location"
@@ -263,7 +263,7 @@
 		"title": "Shanghai",
 		"type": "location"
 	},
-	"skåneleden": {
+	"skaneleden": {
 		"title": "Skåneleden",
 		"emoji": "\uD83D\uDFE7",
 		"type": "hiking_trail"
@@ -277,11 +277,11 @@
 		"title": "Stenshuvud nationalpark",
 		"type": "location"
 	},
-	"stöttingfjället": {
+	"stottingfjället": {
 		"title": "Stöttingfjället",
 		"type": "location"
 	},
-	"stöttingfjället-2023": {
+	"stottingfjallet-2023": {
 		"title": "Stöttingfjället 2023",
 		"emoji": "⛰\uFE0F",
 		"type": "trip",
@@ -289,12 +289,12 @@
 		"original_order": true,
 		"description": "Vår roadtrip upp till Stöttingfjället sommaren 2023."
 	},
-	"södra-vätterleden": {
+	"sodra-vatterleden": {
 		"title": "Södra Vätterleden",
 		"emoji": "\uD83D\uDFE0",
 		"type": "hiking_trail"
 	},
-	"tågluffen": {
+	"tagluffen": {
 		"title": "tågluffen",
 		"emoji": "\uD83D\uDE83",
 		"type": "trip",
@@ -302,7 +302,7 @@
 		"original_order": true,
 		"description": "Vår tågluff genom Europa under 2019 som gick genom länderna Tyskland, Österrike, Italien, Frankrike och Nederländerna."
 	},
-	"träning": {
+	"traning": {
 		"title": "träning",
 		"type": "subject"
 	},
@@ -319,7 +319,7 @@
 		"title": "User Experience",
 		"type": "subject"
 	},
-	"vår": {
+	"var": {
 		"title": "vår",
 		"emoji": "\uD83C\uDF31",
 		"type": "season"
@@ -338,11 +338,11 @@
 		"emoji": "❄\uFE0F",
 		"type": "season"
 	},
-	"visingsö": {
+	"visingso": {
 		"title": "Visingsö",
 		"type": "location"
 	},
-	"västanåleden": {
+	"vastanaleden": {
 		"title": "Västanåleden",
 		"emoji": "\uD83D\uDFE2",
 		"type": "hiking_trail"
@@ -356,7 +356,7 @@
 		"emoji": "\uD83C\uDF10",
 		"type": "subject"
 	},
-	"ölbryggning": {
+	"olbryggning": {
 		"title": "ölbryggning",
 		"emoji": "\uD83C\uDF7A",
 		"feedTitle": "Gustavs hembryggeri",
