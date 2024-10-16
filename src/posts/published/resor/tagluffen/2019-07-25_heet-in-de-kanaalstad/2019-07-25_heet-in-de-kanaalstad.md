@@ -5,8 +5,8 @@ description: "Från Paris åkte vi också snabbtåg, men inte TGV utan den priva
 date: 2019-07-25
 tags:
     - resor
-    - tågluffen
-    - nederländerna
+    - tagluffen
+    - nederlanderna
     - amsterdam
     - sommar
 ---
