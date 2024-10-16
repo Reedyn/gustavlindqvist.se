@@ -18,8 +18,6 @@ Det finns många fina vandringsleder runt Jönköping, men det finns också mån
 
 Vandringen utgick från Månsarp, mer specifikt busshållplatsen Månsarp centrum (busslinje 27), därefter gick den norrut förbi bland annat Tabergstoppen, Sörsjön, Kallebäcken, Varkullen och Hassafall för att avslutas vid Hovslätts hembygdsgård och busshållplatsen Hovslättsrondellen (busslinje 28).
 
-<a id="ladda-ner-ruttfilen" href="Månsarp→Kåperyd→Taberg→Varkullen→Hassafall.gpx" class="Button" download>Ladda ner ruttfilen (GPX)</a>
-
 ## Från Månsarp till Kåperyds dammar
 
 ![Karta över terrängen norr om Månsarp och söder om Tabergstoppen. En blå streckad linje är utritad för att visa en vandringsrutt.](Karta_Kåperyd.jpg){.-full}

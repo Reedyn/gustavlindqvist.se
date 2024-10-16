@@ -1,10 +1,8 @@
 /* eslint-disable no-console */
-const fetch = require('@11ty/eleventy-fetch');
+import fetch from '@11ty/eleventy-fetch';
 const WEBMENTION_BASE_URL = 'https://webmention.io/api/mentions.jf2';
 
-require('dotenv').config();
-
-module.exports = async () => {
+export default async () => {
 	const domain = 'gustavlindqvist.se'; // e.g. lukeb.co.uk
 	const token = process.env.WEBMENTIONIO_TOKEN; // found at the bottom of https://webmention.io/settings
 

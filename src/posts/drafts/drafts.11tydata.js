@@ -1,8 +1,6 @@
-require('dotenv').config();
-
 const isDevEnv = process.env.ELEVENTY_ENV === 'development';
 
-module.exports = function () {
+export default function () {
 	return {
 		eleventyComputed: {
 			eleventyExcludeFromCollections: function (data) {
@@ -24,4 +22,4 @@ module.exports = function () {
 			},
 		},
 	};
-};
+}
