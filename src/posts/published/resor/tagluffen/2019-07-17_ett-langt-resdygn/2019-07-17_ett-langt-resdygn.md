@@ -5,8 +5,8 @@ description: "Från Prag åkte vi vidare med tåg ner mot Österrike, denna gån
 date: 2019-07-17
 tags:
     - resor
-    - tågluffen
-    - österrike
+    - tagluffen
+    - osterrrike
     - linz
     - sommar
 ---
