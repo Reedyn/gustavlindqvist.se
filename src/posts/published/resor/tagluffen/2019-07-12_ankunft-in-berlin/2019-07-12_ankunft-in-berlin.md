@@ -5,7 +5,7 @@ description: "Resan från Rostock till Berlin klaffade perfekt med alla sträcko
 date: 2019-07-12T18:00:00Z
 tags:
     - resor
-    - tågluffen
+    - tagluffen
     - tyskland
     - berlin
     - sommar
