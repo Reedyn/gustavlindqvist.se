@@ -6,7 +6,7 @@ date: 2018-08-04
 tags:
     - segling
     - friluftsliv
-    - blekinge-skärgård
+    - blekinge-skargard
     - sommar
 ---
 

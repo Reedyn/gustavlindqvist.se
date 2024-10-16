@@ -5,8 +5,8 @@ feature_image: "Gustav-Lindqvist_2023-10-08_00858-HDR.jpg"
 date: 2023-10-08T20:29:59+0200
 tags:
     - fotografering
-    - röttle
-    - höst
+    - rottle
+    - host
 style:
     hue: 130deg
     hueSecondary: 100deg

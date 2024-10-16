@@ -5,7 +5,7 @@ description: "Resan ner blev lugn utan vare sig vågor eller vind. Enda seglet s
 date: 2018-08-06
 tags:
     - segling
-    - kåseberga
+    - kaseberga
     - sommar
 ---
 
