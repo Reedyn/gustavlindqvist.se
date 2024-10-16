@@ -7,7 +7,7 @@ mastodon_id: 112826096975755837
 tags:
     - friluftsliv
     - cykling
-    - visingsö
+    - visingso
     - jkpg
     - sommar
 ---

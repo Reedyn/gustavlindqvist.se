@@ -6,7 +6,7 @@ mastodon_id: "110249028591475924"
 date: 2023-04-23T18:09:27+0200
 tags:
     - cykling
-    - vår
+    - var
     - jkpg
 ---
 
