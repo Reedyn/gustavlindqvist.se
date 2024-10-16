@@ -8,7 +8,7 @@ tags:
     - orientering
     - lopning
     - kartor
-    - vår
+    - var
 ---
 
 [Ett betydligt säkrare vårtecken än vädret](https://gustavlindqvist.se/2022/04/06/aprilvader/) är när orienteringen kommer igång.{.lead}
