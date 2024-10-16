@@ -12,6 +12,8 @@ import asyncFilters from './.eleventy_config/filters.async.js';
 import shortcodes from './.eleventy_config/shortcodes.mjs';
 import collections from './.eleventy_config/collections.mjs';
 
+import 'dotenv/config';
+
 export default function (eleventyConfig) {
 	const ELEVENTY_ENVIRONMENT =
 		typeof process.env.ELEVENTY_ENV !== 'undefined' ? process.env.ELEVENTY_ENV : 'production';
