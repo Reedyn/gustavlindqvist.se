@@ -29,7 +29,7 @@ I Röttle stannade vi och tittade på vattenfallet.
 
 ## Gränna och Tegnértornet
 
-Efter Röttle cyklade vi bort till Gränna och påbörjade sedan vår stigning på lite över 200 meter upp till toppen Kramboberget, vi valde den kortaste vägen upp som tyvärr var stigen där Holavedsleden går, [den var väldigt kuperad](stigning-upp-till-tegnertornet.pdf) och så pass dåligt underlag att vi inte kunde cykla på våra stadscyklar utan fick knuffa, och eftersom vi hade den mesta av packningen på pakethållarna var cyklarna så baktunga att framhjulet ville lyfta i uppförbackarna.
+Efter Röttle cyklade vi bort till Gränna och påbörjade sedan vår stigning på lite över 200 meter upp till toppen Kramboberget, vi valde den kortaste vägen upp som tyvärr var stigen där Holavedsleden går, den var väldigt kuperad och så pass dåligt underlag att vi inte kunde cykla på våra stadscyklar utan fick knuffa, och eftersom vi hade den mesta av packningen på pakethållarna var cyklarna så baktunga att framhjulet ville lyfta i uppförbackarna.
 
 Det var svettigt…
 

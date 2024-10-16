@@ -37,7 +37,7 @@ Med mat i magen gick det sedan snabbt, vi stannade bara en gång och det var lä
 
 ![Ett ensamt träd på ett kalhygge avtecknat mot himlen.](Gustav-Lindqvist_2020-05-22_R8-15.jpg "Moln"){.-full}
 
-![Karta över Bottnaryd med en rutt inritad med röd linje.](Södra-Vätterleden_Bottnaryd-Mullsjö_Del-1.png "[Första dagens vandring från Bottnaryd till Bergs vindskydd (19,26km)](https://www.strava.com/activities/3493642297)"){.-full}
+![Karta över Bottnaryd med en rutt inritad med röd linje.](Sodra-Vatterleden_Bottnaryd-Mullsjo_Del-1.jpg "[Första dagens vandring från Bottnaryd till Bergs vindskydd (19,26km)](https://www.strava.com/activities/3493642297)"){.-full}
 
 Ganska snabbt var vi framme vid Bergs vindskydd (tältet har inte kommit än så vi valde att sova här istället).
 
@@ -96,9 +96,4 @@ Totalt slutade andra dagen på 14,3 km med 1,9km i transportsträcka bort till t
 ![En bred skog i en öppen tallskog](Gustav-Lindqvist_2020-05-23_R8-37.jpg "Slutspurten i lättvandrad skog"){.-wide}
 
 Totalt kom vi upp i 35,44km, en bit mer än de utlovade 30km.
-
-<figure class="image -full">
-   <picture>
-          <img src="Karta_Stråken.svg" width="2160" height="3840" alt="Karta över Stråken" loading="lazy" decoding="async">
-    </picture>
-</figure>
+![Karta över Mullsjö med en rutt inritad med röd linje.](Sodra-Vatterleden_Bottnaryd-Mullsjo_Del-2.jpg){.-full}
