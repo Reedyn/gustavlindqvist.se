@@ -25,7 +25,7 @@ eleventyComputed:
 
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/assets/stylesheets/gustavlindqvist.postcss.css?{% checksum './src/assets/stylesheets/gustavlindqvist.postcss.css' %}">
+    <link rel="stylesheet" href="/assets/stylesheets/gustavlindqvist.css?{% checksum './src/assets/stylesheets/gustavlindqvist.postcss.css' %}">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -72,7 +72,7 @@ eleventyComputed:
     <header class="site-header hidden@print" aria-label="Sidhuvud">
         <div class="site-header__content">
             {% if templateClass === 'home-template' %}<h1 class="site__title"><a href="{{ metadata.url }}"><img src="/assets/images/blog-profilepic.jpg" class="site__image" alt="Selfie på Gustav Lindqvist" width="30" height="30">{{metadata.title}}</a></h1>{% else %}<span class="site__title"><a href="{{ metadata.url }}"><img src="/assets/images/blog-profilepic.jpg" class="site__image" alt="Selfie på Gustav Lindqvist" width="30" height="30">{{metadata.title}}</a></span>{% endif %}
-            {% include 'partials/navigation.njk' %}
+            {% include 'partials/site-navigation.njk' %}
         </div>
     </header>
     <main id="main" class="main" aria-label="Innehåll" {% include 'partials/override-style.njk' %}>
