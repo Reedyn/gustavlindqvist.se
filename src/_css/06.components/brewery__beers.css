@@ -6,10 +6,12 @@
 	grid-gap: var(--margin__medium);
 	grid-template-columns: 1fr;
 
+	/*noinspection CssInvalidMediaFeature*/
 	@media (--viewport-small) {
 		grid-template-columns: 1fr 1fr;
 	}
 
+	/*noinspection CssInvalidMediaFeature*/
 	@media (--viewport-medium) {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
