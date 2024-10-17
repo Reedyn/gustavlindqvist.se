@@ -27,7 +27,7 @@
 	"scripts": {
 		"build": "npx @11ty/eleventy",
 		"serve": "npx @11ty/eleventy --serve --incremental --ignore-initial",
-		"compile-css": "postcss src/_css/main.css -o src/assets/stylesheets/gustavlindqvist.postcss.css",
+		"compile-css": "postcss src/_css/main.css -o src/assets/stylesheets/gustavlindqvist.css",
 		"copy-compiled-css": "copyfiles -f src/assets/stylesheets/*.css _site/assets/stylesheets/",
 		"watch-css": "npm-watch compile-css",
 		"watch-copy-compiled-css": "npm-watch copy-compiled-css"
