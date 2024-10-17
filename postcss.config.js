@@ -1,13 +1,20 @@
+import postcssImportExtGlob from 'postcss-import-ext-glob';
+import postcssImport from 'postcss-import';
+import postcssCustomMedia from 'postcss-custom-media';
+import autoprefixer from 'autoprefixer';
+import postcssNesting from 'postcss-nesting';
+import cssnano from 'cssnano';
+
 /** @type {import('postcss-load-config').Config} */
 const config = {
 	plugins: [
-		require('postcss-import-ext-glob'),
-		require('postcss-import'),
-		require('postcss-custom-media'),
-		require('autoprefixer'),
-		require('postcss-nesting'),
-		require('cssnano'),
+		postcssImportExtGlob,
+		postcssImport,
+		postcssCustomMedia,
+		autoprefixer,
+		postcssNesting,
+		cssnano,
 	],
 };
 
-module.exports = config;
+export default config;
