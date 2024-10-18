@@ -27,7 +27,7 @@
 }
 
 /*noinspection CssInvalidMediaFeature*/
-@media (--viewport-small) {
+@media (--viewport__small) {
 	.statistics__list {
 		grid-template-columns: 1fr 1fr 1fr;
 
