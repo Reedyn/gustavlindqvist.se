@@ -58,7 +58,7 @@ q {
 	text-align: center;
 
 	/*noinspection CssInvalidMediaFeature*/
-	@media (--viewport-small) {
+	@media (--viewport__small) {
 		margin-top: var(--margin__large);
 		margin-bottom: var(--margin__medium);
 		margin-left: calc(0% - var(--margin__medium));
