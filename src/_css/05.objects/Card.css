@@ -9,13 +9,13 @@
 	grid-template-columns: 1fr;
 
 	/*noinspection CssInvalidMediaFeature*/
-	@media (--viewport-medium) {
+	@media (--viewport__medium) {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 
 	/*noinspection CssInvalidMediaFeature*/
 	&.-max-2-columns {
-		@media (--viewport-medium) {
+		@media (--viewport__medium) {
 			grid-template-columns: 1fr 1fr;
 		}
 	}
@@ -47,11 +47,11 @@
 	}
 
 	.Card__title {
-		font-size: var(--fs-heading-3);
+		font-size: var(--font__size__heading-3);
 	}
 
 	/*noinspection CssInvalidMediaFeature*/
-	@media (--viewport-medium) {
+	@media (--viewport__medium) {
 		&.post:first-of-type {
 			grid-column-start: span 3;
 			aspect-ratio: 21/9;
