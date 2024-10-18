@@ -10,7 +10,7 @@
 		max-width: 30em;
 
 		/* noinspection CssInvalidMediaFeature */
-		@media (--viewport-tiny) {
+		@media (--viewport__tiny) {
 			grid-template-columns: 1fr 1fr 1fr;
 		}
 	}

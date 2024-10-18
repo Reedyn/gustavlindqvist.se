@@ -44,7 +44,7 @@ figure {
 		}
 
 		/*noinspection CssInvalidMediaFeature*/
-		@media (--viewport-large) {
+		@media (--viewport__large) {
 			> picture img,
 			> img,
 			iframe,
@@ -56,7 +56,7 @@ figure {
 		}
 
 		/*noinspection CssInvalidMediaFeature*/
-		@media (--viewport-huge) {
+		@media (--viewport__huge) {
 			--card__extra-width: 35rem;
 		}
 	}
@@ -70,7 +70,7 @@ figure {
 			height: auto;
 
 			/*noinspection CssInvalidMediaFeature*/
-			@media (--viewport-large) {
+			@media (--viewport__large) {
 				max-width: none;
 			}
 		}

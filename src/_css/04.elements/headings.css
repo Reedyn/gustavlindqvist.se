@@ -16,21 +16,21 @@ h6 {
 
 h1 {
 	font-weight: 800;
-	font-size: var(--fs-heading-1);
+	font-size: var(--font__size__heading-1);
 	letter-spacing: -0.05em;
 }
 
 h2 {
 	font-weight: 700;
-	font-size: var(--fs-heading-2);
+	font-size: var(--font__size__heading-2);
 }
 
 h3 {
 	font-weight: 700;
-	font-size: var(--fs-heading-3);
+	font-size: var(--font__size__heading-3);
 }
 
 h4 {
 	font-weight: 600;
-	font-size: var(--fs-heading-4);
+	font-size: var(--font__size__heading-4);
 }
