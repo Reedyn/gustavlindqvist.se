@@ -5,8 +5,7 @@ import autoprefixer from 'autoprefixer';
 import postcssNesting from 'postcss-nesting';
 import cssnano from 'cssnano';
 
-/** @type {import('postcss-load-config').Config} */
-const config = {
+/** @type {import('postcss-load-config').Config} */ const config = {
 	plugins: [
 		postcssImportExtGlob,
 		postcssImport,
