@@ -95,7 +95,7 @@ Jag redigerar regelbundet på OpenStreetMap, oftast är det detaljer som läggs 
 
 [^3]: I Battlefront II är det endast enspelarkampanjen jag planerar att spela.
 
-\*[FTW]: For the win
+*[FTW]: For the win
 
 [Fable Anniversary]: https://store.steampowered.com/app/288470/Fable_Anniversary/
 [Fable II]: https://www.xbox.com/sv-SE/games/store/fable-ii/C2WKJJ9F5936
