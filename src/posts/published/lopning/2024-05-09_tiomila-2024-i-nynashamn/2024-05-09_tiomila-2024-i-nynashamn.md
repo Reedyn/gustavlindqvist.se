@@ -41,4 +41,4 @@ Precis på slutet (mellan kontroll 12 och 13) gjorde jag en rejäl vurpa där ja
 
 Som vanligt med Tiomila och andra stora lopp så är det nervöst före, intensivt under och skönt när man är i mål. Nu när tröttheten äntligen släppt börjar jag svagt ladda upp mentalt inför nästa års upplaga i Finspång.
 
-\*[TC]: Tävlingcentrum
+*[TC]: Tävlingcentrum
