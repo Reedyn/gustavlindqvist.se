@@ -73,7 +73,7 @@ Implementeringen av WebMentions jag använde är [Max Böcks från 2019](https:/
 
 [^1]: Test av fotnot
 
-\*[CMS]: Content Management System
+*[CMS]: Content Management System
 
 [Ghost]: https://ghost.org
 [Ghost Kickstarter]: https://www.kickstarter.com/projects/johnonolan/ghost-just-a-blogging-platform

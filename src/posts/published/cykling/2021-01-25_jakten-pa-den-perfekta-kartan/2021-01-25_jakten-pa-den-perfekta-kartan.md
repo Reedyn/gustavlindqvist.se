@@ -67,7 +67,7 @@ Så blev mitt första utkast, redan en tydlig förbättring. Jag valde att göra
 
 Vet du inte hur du installerar kartan? [DC Rainmaker har skrivit en guide för hur du installerar kartor på din Garmin-enhet](https://www.dcrainmaker.com/2013/05/download-garmin-705800810.html#part-ii-installing-the-maps).
 
-\*[DIY]: Do it yourself
+*[DIY]: Do it yourself
 
 [CyclOSM]: https://cyclosm.org
 [mkgmap]: https://www.mkgmap.org.uk

@@ -23,8 +23,8 @@ const markdown = markdownIt({
 		label: true,
 		labelAfter: false,
 	})
-	.use(markdownItSup)
 	.use(markdownItAbbr)
+	.use(markdownItSup)
 	.use(markdownItKbd)
 	.use(markdownItFootnotes)
 	.use(markdownItTables, {
