@@ -46,7 +46,7 @@ Det blev många omtagningar där jag fick sprätta upp en söm men slutresultate
 
 ![Ramväskan monterad i ramen på cykeln](Gustav-Lindqvist_2023-05-14_08527-HDR.jpg){.-full}
 
-\*[MTB]: Mountainbike
+*[MTB]: Mountainbike
 
 [Friluftstyger - X-PAC220]: https://www.friluftstyger.se/sv/material/tyger/x-pac/tyg-tpac220.html
 [Friluftstyger - Kardborrband]: https://www.friluftstyger.se/sv/material/rep-och-snoren/kardborreband/kardborreband-kb-3.html

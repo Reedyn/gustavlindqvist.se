@@ -28,4 +28,4 @@ I Storbritannien har man förstått vilken viktigt kunskap detta är och [där s
 
 Vänta inte på att Sverige tar efter Storbritannien utan hjälp de i din närhet att få upp ögonen för programmering och _"hacking"_. Det finns många resurser, som till exempel [Code.org](http://code.org/learn) eller [Codecademy](http://www.codecademy.com/). Jag rekommenderar dig som har egna barn själv eller i din närhet att köpa en [Raspberry Pi](http://www.raspberrypi.org/) och [gör lite enklare övningar](http://it-ebooks.info/read/3552/), det krävs inte mycket för att det ska bli kul, programmering är juh trots allt enormt kul i sig 😀
 
-\*[CT]: Computational Thinking
+*[CT]: Computational Thinking
