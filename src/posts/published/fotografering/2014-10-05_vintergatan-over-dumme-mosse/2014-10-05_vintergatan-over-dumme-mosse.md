@@ -26,4 +26,4 @@ Det jag inte visste var att Lightroom och Adobe Camera Raw har en bugg för just
 
 Trots månens närvaro fotograferade jag lite söderut, fick en häftig reflektion i vattenpölarna på myren. Det gav dock en väldigt svårredigerad bild så det blir några dagar/veckors extra jobb på att få den bra 😄
 
-\*[ETTR]: Exposing to the right
+*[ETTR]: Exposing to the right
