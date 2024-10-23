@@ -16,7 +16,7 @@ Den gamla kartan ritades av Jönköpings orienteringsklubb, och tanken var nog a
 
 Jag har redigerat och uppdaterat kartor tidigare men aldrig ritat en från grunden. Jag tänkte att detta skulle vara ett perfekt tillfälle att träna lite på kartritningsprogrammet för orienteringskartor och samtidigt sätta mina GIS-kunskaper på prov.
 
-Ritprogram för orienteringskartor skiljer sig lite från andra kartprogram i att man inte främst jobbar i geografiska mått där allt har en exakt representation i verkligen (GIS) utan man jobbar direkt i slutmodellen som är gjord för tryck på papper och är i millimeter. När man ritar ut ett staket till exempel så mäts det i millimeter på pappret snarare än hur långt det är i verkligheten. Sen har programmet en inbyggd modell för att också mappa positioner och mått på kartan mot hur de skulle vara i verkligheten, en intressant mix!
+Ritprogram för orienteringskartor skiljer sig lite från andra kartprogram i att man inte främst jobbar i geografiska mått där allt har en exakt representation i verkligheten (GIS) utan man jobbar direkt i slutmodellen som är gjord för tryck på papper och är i millimeter. När man ritar ut ett staket till exempel så mäts det i millimeter på pappret snarare än hur långt det är i verkligheten. Sen har programmet en inbyggd modell för att också mappa positioner och mått på kartan mot hur de skulle vara i verkligheten, en intressant mix!
 
 ## Data, data, data
 
