@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* global: require, module, process */
 require('dotenv').config();
 
