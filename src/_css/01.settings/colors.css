@@ -7,11 +7,6 @@ All colors used throughout the theme
 	--color__accent: oklch(50% 0.25 270deg);
 	--color__accent-secondary: oklch(50% 0.25 310deg);
 
-	--color__lightness: 50%;
-	--color__lightness-secondary: 50%;
-	--color__chroma: 0.25;
-	--color__chroma-secondary: 0.25;
-
 	--color__background: white;
 	--color__background__alt: oklch(97% 0 0deg);
 	--color__background__widget: oklch(95% 0 0deg);

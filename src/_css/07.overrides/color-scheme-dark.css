@@ -3,11 +3,6 @@
 		--color__accent: oklch(65% 0.2 270deg);
 		--color__accent-secondary: oklch(65% 0.2 310deg);
 
-		--color__lightness: 70%;
-		--color__lightness-secondary: 70%;
-		--color__chroma: 0.2;
-		--color__chroma-secondary: 0.2;
-
 		--color__background: oklch(19% 0 0deg);
 		--color__background__alt: oklch(23% 0 0deg);
 		--color__background__widget: oklch(32% 0 0deg);

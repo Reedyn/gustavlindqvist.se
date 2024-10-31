@@ -1,8 +1,0 @@
-{% if style %}
-    style="{% if style.hue %}--color__hue: {{ style.hue }};{% endif %}
-    {% if style.hueSecondary %}--color__hue-secondary: {{ style.hueSecondary }};{% endif %}
-    {% if style.chroma %}--color__chroma: {{ style.chroma }};{% endif %}
-    {% if style.chromaSecondary %}--color__chroma-secondary: {{ style.chromaSecondary }};{% endif %}
-    {% if style.lightness %}--color__lightness: {{ style.lightness }};{% endif %}
-    {% if style.lightnessSecondary %}--color__lightness-secondary: {{ style.lightnessSecondary }};{% endif %}"
-{% endif %}
