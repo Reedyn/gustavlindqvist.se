@@ -8,3 +8,7 @@
 
 # Local Netlify folder
 .netlify
+
+# Operating system folder files
+.directory
+.DS_Store
