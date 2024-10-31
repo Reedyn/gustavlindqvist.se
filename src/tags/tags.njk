@@ -18,7 +18,7 @@ templateClass: tag-template
 {% set tagData = tagMetadata[tag] %}
 {% set style = tagData.style %}
 {% set title = tagData.title %}
-<article class="tag" {% include 'partials/override-style.njk' %}>
+<article class="tag">
     <header id="tag-header" class="tag-header{% if tagData.feature_image %} -feature-image{% endif %}" style="{% if tagData.feature_image %}background-image: url({{ tagData.feature_image }});{% endif %}">
         <div class="tag-metadata">
             <h1 class="tag-title">{{ (title or tag) | firstLetterUpper }}</h1>
