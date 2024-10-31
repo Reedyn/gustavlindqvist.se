@@ -1,6 +1,5 @@
 /* eslint-disable no-console */
 /* global: require, module, process */
-require('dotenv').config();
 
 import pluginFeed from '@11ty/eleventy-plugin-rss';
 import pluginNavigation from '@11ty/eleventy-navigation';
