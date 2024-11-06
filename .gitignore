@@ -12,3 +12,5 @@
 # Operating system folder files
 .directory
 .DS_Store
+
+lazygit*
