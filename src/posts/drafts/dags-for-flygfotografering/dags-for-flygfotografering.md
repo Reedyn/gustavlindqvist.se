@@ -15,7 +15,7 @@ tags:
     -   Långsamma process för att få bilder godkända (men vissa bilder är undantagna om de bara avbildar en liten yta, som bilder tagna uppifrån och rakt ned)
     -   Lyckligtvis gillar jag just det perspektivet, kanske för att det liknar kartperspektivet? Win win!
 
-![En flygbild tagen rakt uppifrån som visar ett sommarstugeområde. Solen står lågt på bilden och kastar långa skuggor på¨marken.](){.-full}
+![En flygbild tagen rakt uppifrån som visar ett sommarstugeområde. Solen står lågt på bilden och kastar långa skuggor på marken.](){.-full}
 
 ![En katt som ligger och vilar på en hopfällbar landningsplatta](20240621_163906.jpg)
 
