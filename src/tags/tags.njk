@@ -35,7 +35,7 @@ templateClass: tag-template
             {% for post in taglist %}
             <li class="post-list__item">
                 <h3 class="post-title" style="view-transition-name: post-title-{{ post.url | hashString}}"><a id="{{ post.url | hashString}}" class="post-link" href="{{ post.url | url}}">{{ post.data.title }}</a></h3>
-                {% if post.data.page.date %}<span class="post-date"><time datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | longISODate }}">{{ post.data.page.date | readableLongDate }}</time></span>{% endif %}
+                {% if post.data.page.date %}<span class="post-metadata">{% for tag in post.data.tags %}{% set tagLocalData = tagMetadata[tag] %}{% if tagLocalData.emoji and (tagLocalData.type == 'subject' or tagLocalData.type == 'location') %}{{ tagLocalData.emoji }} {% endif %}{% endfor %}<time datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | longISODate }}">{{ post.data.page.date | readableLongDate }}</time></span>{% endif %}
                 </li>{% endfor %}
         </ul>
         {% else %}
