@@ -1,7 +1,7 @@
 /*noinspection CssInvalidAtRule*/
 :root {
 	@custom-media --viewport__tiny (min-width: 15rem);
-	@custom-media --viewport__small (min-width: 25rem);
+	@custom-media --viewport__small (min-width: 22rem);
 	@custom-media --viewport__medium (min-width: 35rem);
 	@custom-media --viewport__large (min-width: 40rem);
 	@custom-media --viewport__huge (min-width: 56rem);
