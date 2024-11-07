@@ -5,7 +5,7 @@
 .site-header__content {
 	display: flex;
 	position: relative;
-	flex-direction: row;
+	flex-direction: column;
 	z-index: 10;
 	margin: auto;
 	padding-right: var(--padding__medium);
@@ -15,14 +15,24 @@
 	line-height: var(--header__height);
 	font-family: var(--font__meta);
 
+	/*noinspection CssInvalidMediaFeature*/
+	@media (--viewport__small) {
+		flex-direction: row;
+	}
 	.site__title {
 		margin: 0;
 		font-size: 115%;
 		line-height: inherit;
 		letter-spacing: inherit;
+		text-align: center;
 
 		a {
 			font-weight: 700;
+		}
+
+		/*noinspection CssInvalidMediaFeature*/
+		@media (--viewport__small) {
+			text-align: left;
 		}
 	}
 
