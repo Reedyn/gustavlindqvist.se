@@ -29,13 +29,12 @@
 	background-position: center;
 	background-size: cover;
 	padding: calc(var(--padding__small) * 1.5);
-	min-height: 16rem;
 	overflow: clip;
 	color: var(--color__text__contrast);
 
 	&.-align-bottom {
 		justify-content: flex-end;
-		padding-top: 8rem;
+		padding-top: 6rem;
 	}
 
 	&.-align-top {
@@ -200,13 +199,11 @@
 	&.-top-left {
 		top: calc(var(--padding__small) * 1.5);
 		left: calc(var(--padding__small) * 1.5);
-		margin-right: 8rem;
 	}
 
 	&.-top-right {
 		top: calc(var(--padding__small) * 1.5);
 		right: calc(var(--padding__small) * 1.5);
-		margin-left: 8rem;
 	}
 
 	&.-symbol {
