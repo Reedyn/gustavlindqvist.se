@@ -3,7 +3,7 @@
 	grid-auto-flow: dense;
 	padding: 0;
 	list-style: none;
-	grid-gap: var(--margin__small);
+	grid-gap: var(--margin--small);
 	grid-template-columns: 1fr 1fr;
 	max-width: 35em;
 
@@ -17,17 +17,17 @@
 		justify-content: flex-end;
 
 		.statistics__list-item__label {
-			color: var(--color__text-alt);
-			font-size: var(--font__size-base);
+			color: var(--color--body--alt);
+			font-size: var(--font--size--small);
 		}
 		.statistics__list-item__value {
-			font-size: var(--font__size__heading-4);
+			font-size: var(--font--size--heading-4);
 		}
 	}
 }
 
 /*noinspection CssInvalidMediaFeature*/
-@media (--viewport__small) {
+@media (--viewport--small) {
 	.statistics__list {
 		grid-template-columns: 1fr 1fr 1fr;
 

@@ -1,7 +1,7 @@
 .footnotes-list {
 	.footnote-item {
 		&:target {
-			background: var(--color__background__alt);
+			background: var(--color--background--alt);
 		}
 	}
 }

@@ -5,9 +5,9 @@
 	left: 3px;
 	z-index: 9999;
 	border: 1px solid white;
-	background: var(--color__background);
-	padding: var(--margin__medium);
-	color: var(--color__accent);
+	background: var(--color--background);
+	padding: var(--margin--medium);
+	color: var(--color--accent);
 	&:not(:focus) {
 		position: absolute;
 		top: -100%;

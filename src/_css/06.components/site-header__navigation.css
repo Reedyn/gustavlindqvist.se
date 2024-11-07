@@ -1,7 +1,7 @@
 .site-header__navigation {
 	display: flex;
 	flex: 1;
-	font-size: var(--font__size-base);
+	font-size: var(--font--size--small);
 
 	ul {
 		flex: 1;
@@ -10,13 +10,13 @@
 		text-align: center;
 
 		/*noinspection CssInvalidMediaFeature*/
-		@media (--viewport__small) {
+		@media (--viewport--small) {
 			text-align: right;
 		}
 
 		li {
 			display: inline-block;
-			margin-left: var(--margin__small);
+			margin-left: var(--margin--small);
 			&:first-child {
 				margin-left: 0;
 			}

@@ -1,12 +1,12 @@
 .post {
 	.separator-heading {
 		position: relative;
-		margin-top: var(--margin__large);
-		margin-bottom: var(--margin__medium);
-		color: var(--color__text-alt);
+		margin-top: var(--margin--large);
+		margin-bottom: var(--margin--medium);
+		color: var(--color--body--alt);
 		font-weight: 600;
-		font-size: var(--font__size__heading-5);
-		font-family: var(--font__meta);
+		font-size: var(--font--size--heading-4);
+		font-family: var(--font--meta);
 		text-align: center;
 		text-transform: uppercase;
 
@@ -16,7 +16,7 @@
 			top: 10px;
 			left: 0;
 			z-index: 0;
-			background: var(--color__background__widget);
+			background: var(--color--background--widget);
 			width: 100%;
 			height: 2px;
 			content: "";
@@ -26,7 +26,7 @@
 			display: inline-block;
 			position: relative;
 			z-index: 10;
-			background: var(--color__background);
+			background: var(--color--background);
 			padding: 0 1em;
 		}
 	}

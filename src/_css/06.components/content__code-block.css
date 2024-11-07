@@ -1,21 +1,21 @@
 .content {
 	pre {
 		border: 0;
-		background-color: var(--color__background__alt);
-		padding: var(--padding__small);
+		background-color: var(--color--background--alt);
+		padding: var(--padding--small);
 		width: 100vw;
 		max-width: 100%;
 		overflow-y: hidden;
 		line-height: 125%;
 		word-wrap: break-word;
-		margin: var(--margin__medium) 0 0;
+		margin: var(--margin--medium) 0 0;
 
 		code {
 			display: block;
 			background: none;
 			padding: 0;
-			color: var(--color__text);
-			font-size: var(--font__size);
+			color: var(--color--body);
+			font-size: var(--font--size--default);
 		}
 	}
 }

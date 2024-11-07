@@ -1,21 +1,21 @@
 .Cards {
-	--gutter: var(--margin__medium);
+	--gutter: var(--margin--medium);
 
 	display: grid;
 	grid-auto-flow: dense;
-	margin-top: var(--margin__medium);
-	margin-bottom: var(--margin__medium);
+	margin-top: var(--margin--medium);
+	margin-bottom: var(--margin--medium);
 	grid-gap: var(--gutter);
 	grid-template-columns: 1fr;
 
 	/*noinspection CssInvalidMediaFeature*/
-	@media (--viewport__medium) {
+	@media (--viewport--medium) {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 
 	/*noinspection CssInvalidMediaFeature*/
 	&.-max-2-columns {
-		@media (--viewport__medium) {
+		@media (--viewport--medium) {
 			grid-template-columns: 1fr 1fr;
 		}
 	}
@@ -25,12 +25,12 @@
 	display: flex;
 	position: relative;
 	flex-direction: column;
-	background: var(--color__background__contrast__widget);
+	background: var(--color--background--contrast--widget);
 	background-position: center;
 	background-size: cover;
-	padding: calc(var(--padding__small) * 1.5);
+	padding: calc(var(--padding--small) * 1.5);
 	overflow: clip;
-	color: var(--color__text__contrast);
+	color: var(--color--body--contrast);
 
 	&.-align-bottom {
 		justify-content: flex-end;
@@ -46,11 +46,11 @@
 	}
 
 	.Card__title {
-		font-size: var(--font__size__heading-3);
+		font-size: var(--font--size--heading-3);
 	}
 
 	/*noinspection CssInvalidMediaFeature*/
-	@media (--viewport__medium) {
+	@media (--viewport--medium) {
 		&.post:first-of-type {
 			grid-column-start: span 3;
 			aspect-ratio: 21/9;
@@ -105,7 +105,7 @@
 
 .Card__content {
 	z-index: 10;
-	font-size: var(--font__size-base);
+	font-size: var(--font--size--small);
 	text-shadow:
 		0 1px 1px rgba(0, 0, 0, 0.1),
 		0 2px 2px rgba(0, 0, 0, 0.2),
@@ -122,7 +122,7 @@
 		padding-inline-start: 2.5rem;
 	}
 	a {
-		color: var(--color__text__contrast);
+		color: var(--color--body--contrast);
 	}
 
 	ol.metadata-list {
@@ -132,7 +132,7 @@
 	}
 
 	.metadata-list__item {
-		margin-bottom: var(--margin__small);
+		margin-bottom: var(--margin--small);
 
 		overflow: clip;
 		list-style: none;
@@ -149,7 +149,7 @@
 
 		.metadata-title {
 			margin: 0;
-			font-size: var(--font__size__heading-4);
+			font-size: var(--font--size--heading-4);
 		}
 
 		p {
@@ -163,10 +163,10 @@
 		}
 		.metadata-list__item-title {
 			display: block;
-			color: var(--color__text__contrast);
+			color: var(--color--body--contrast);
 		}
 		.metadata-values {
-			color: var(--color__text__contrast__alt);
+			color: var(--color--body--contrast--alt);
 		}
 	}
 }
@@ -197,13 +197,13 @@
 	line-height: 1;
 
 	&.-top-left {
-		top: calc(var(--padding__small) * 1.5);
-		left: calc(var(--padding__small) * 1.5);
+		top: calc(var(--padding--small) * 1.5);
+		left: calc(var(--padding--small) * 1.5);
 	}
 
 	&.-top-right {
-		top: calc(var(--padding__small) * 1.5);
-		right: calc(var(--padding__small) * 1.5);
+		top: calc(var(--padding--small) * 1.5);
+		right: calc(var(--padding--small) * 1.5);
 	}
 
 	&.-symbol {
@@ -221,7 +221,7 @@
 			margin-bottom: 0.4em;
 			background: oklch(27% 0 0deg / 0.65);
 			padding: 0 0.5em;
-			color: var(--color__text__contrast);
+			color: var(--color--body--contrast);
 			line-height: 1.8;
 		}
 	}
@@ -232,14 +232,14 @@
 }
 
 .Card__post-list {
-	margin-top: var(--margin__small);
-	margin-bottom: var(--margin__small);
+	margin-top: var(--margin--small);
+	margin-bottom: var(--margin--small);
 	list-style: decimal-leading-zero;
 }
 
 .Card__title {
 	margin: 0;
-	color: var(--color__text__contrast);
+	color: var(--color--body--contrast);
 	font-weight: 700;
 	font-size: 2.5rem;
 	a {

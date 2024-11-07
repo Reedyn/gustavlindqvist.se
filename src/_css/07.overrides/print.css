@@ -65,14 +65,14 @@
 
 	.content {
 		padding: 0 !important;
-		padding-top: var(--margin__medium);
+		padding-top: var(--margin--medium);
 		width: 100% !important;
 		max-width: 100% !important;
 	}
 
 	.content > * {
-		margin-top: var(--margin__medium);
-		margin-bottom: var(--margin__small);
+		margin-top: var(--margin--medium);
+		margin-bottom: var(--margin--small);
 		background: white !important;
 		color: black !important;
 	}
@@ -104,7 +104,7 @@
 	}
 
 	.separator-heading {
-		font-size: var(--font__size__heading-2);
+		font-size: var(--font--size--heading-2);
 		text-align: left;
 		text-transform: initial;
 		span {

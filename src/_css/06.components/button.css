@@ -1,5 +1,5 @@
 .button-row {
 	display: flex;
-	column-gap: var(--margin__medium);
+	column-gap: var(--margin--medium);
 	flex-direction: row;
 }
