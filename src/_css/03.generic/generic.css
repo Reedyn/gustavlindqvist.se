@@ -31,31 +31,3 @@ body {
 	box-sizing: border-box;
 	min-width: 0;
 }
-
-p,
-ul,
-ol,
-blockquote,
-button,
-canvas,
-caption,
-col,
-colgroup,
-dd,
-dl,
-dt,
-embed,
-fieldset,
-figcaption,
-figure,
-img,
-form,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-}

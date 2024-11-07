@@ -1,10 +1,15 @@
 figure {
-	--_margin__top-bottom: var(--margin--top-bottom, var(--margin--small));
+	--_margin__top-bottom: var(--margin--top-bottom, var(--margin--tiny));
 	margin-top: var(--_margin__top-bottom);
 	margin-bottom: var(--_margin__top-bottom);
 
 	/*noinspection CssInvalidMediaFeature*/
 	@media (--viewport--large) {
+		--margin--top-bottom: var(--margin--small);
+	}
+
+	/*noinspection CssInvalidMediaFeature*/
+	@media (--viewport--huge) {
 		--margin--top-bottom: var(--margin--medium);
 	}
 

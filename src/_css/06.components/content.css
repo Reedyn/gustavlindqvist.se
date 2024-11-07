@@ -6,6 +6,7 @@
 		[content-start] var(--layout-content) [content-end]
 		var(--layout-wide) [wide-end]
 		var(--layout-full) [full-end];
+	row-gap: var(--margin--small);
 	padding-top: var(--padding--small);
 	padding-bottom: var(--padding--small);
 

@@ -5,7 +5,7 @@
 		margin-bottom: var(--margin--medium);
 		color: var(--color--body--alt);
 		font-weight: 600;
-		font-size: var(--font--size--heading-4);
+		font-size: var(--font--size--default);
 		font-family: var(--font--meta);
 		text-align: center;
 		text-transform: uppercase;
