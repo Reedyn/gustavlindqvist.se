@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import EleventyImage from '@11ty/eleventy-img';
 
 export default async function (src, postData) {
@@ -8,12 +9,14 @@ export default async function (src, postData) {
 	const documentPath = postData.filePathStem;
 	src = src.replace(/^\//, '');
 
-	let outputPath = '';
+	let outputPath;
 	try {
 		outputPath = postData.outputPath
 			.substring(0, postData.outputPath.lastIndexOf('/')) // Remove document from path
 			.replace(/^\//, ''); // remove first slash
+
 		// If the image is absolute path or external
+		// eslint-disable-next-line no-unused-vars
 	} catch (error) {
 		outputPath = '';
 	}
@@ -22,8 +25,7 @@ export default async function (src, postData) {
 		.substring(0, documentPath.lastIndexOf('/') + 1) // Remove document from path
 		.replace(/^\//, ''); // remove first slash
 	// If the image is absolute path or external
-	if (src.startsWith('http')) {
-	} else if (src.startsWith('assets')) {
+	if (src.startsWith('assets')) {
 		src = './src/' + src;
 	} else {
 		// Otherwise assume the file is relative to the document folder
