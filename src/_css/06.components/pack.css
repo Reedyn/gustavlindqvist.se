@@ -3,8 +3,8 @@
 	margin-bottom: 0.5em;
 	.pack__label {
 		display: block;
-		margin-block-start: var(--margin__medium);
-		margin-block-end: var(--margin__small);
+		margin-block-start: var(--margin--medium);
+		margin-block-end: var(--margin--small);
 
 		.icon {
 			margin-right: calc(0.2em + 0.5rem);
@@ -35,7 +35,7 @@
 			grid-template-areas:
 				"left middle right"
 				"bottom-left bottom bottom-right";
-			border-bottom: 1px solid var(--color__background);
+			border-bottom: 1px solid var(--color--background);
 
 			&:focus,
 			&:hover {
@@ -81,7 +81,7 @@
 			left: 0.4em;
 			border-top: 0.375rem solid transparent;
 			border-bottom: 0.375rem solid transparent;
-			border-left: 0.375rem solid var(--color__text);
+			border-left: 0.375rem solid var(--color--body);
 			width: 0.4rem;
 			content: "";
 		}
@@ -89,7 +89,7 @@
 		&[open] .pack__category-summary .pack__category-summary__left:before {
 			top: 0.7em;
 			left: 0.3em;
-			border-top: 0.375rem solid var(--color__text);
+			border-top: 0.375rem solid var(--color--body);
 			border-right: 0.375rem solid transparent;
 			border-left: 0.375rem solid transparent;
 			content: "";
@@ -99,8 +99,8 @@
 	.pack__list {
 		display: block;
 		margin: 0;
-		margin-block-end: var(--margin__small);
-		padding: var(--padding__small);
+		margin-block-end: var(--margin--small);
+		padding: var(--padding--small);
 		list-style: none;
 
 		.pack__list-item {
@@ -128,17 +128,17 @@
 
 			.pack__list-item__bottom-left {
 				grid-area: bottom-left;
-				font-size: var(--font__size-base);
+				font-size: var(--font--size--small);
 			}
 
 			.pack__list-item__bottom {
 				grid-area: bottom;
-				font-size: var(--font__size-base);
+				font-size: var(--font--size--small);
 			}
 
 			.pack__list-item__bottom-right {
 				grid-area: bottom-right;
-				font-size: var(--font__size-base);
+				font-size: var(--font--size--small);
 				text-align: right;
 			}
 
@@ -170,7 +170,7 @@
 				position: absolute;
 				top: 0;
 				left: 0;
-				background: var(--color__background__gradient);
+				background: var(--color--background--gradient);
 				width: 100%;
 				height: 100%;
 				content: "";

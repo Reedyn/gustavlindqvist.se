@@ -6,19 +6,19 @@
 	margin: 0;
 	border: 0;
 	border-radius: 50%;
-	background: var(--color__background__alt);
+	background: var(--color--background--alt);
 	width: 4em;
 	height: 4em;
-	color: var(--color__text);
+	color: var(--color--body);
 
 	&:visited {
-		color: var(--color__text);
+		color: var(--color--body);
 	}
 
 	&:hover,
 	&:focus {
-		background: var(--color__accent);
-		color: var(--color__background);
+		background: var(--color--accent);
+		color: var(--color--background);
 	}
 
 	svg {

@@ -6,7 +6,7 @@
 		background: none;
 		max-width: 100%;
 		height: auto;
-		font-family: var(--font__captions);
+		font-family: var(--font--captions);
 		text-align: center;
 
 		&:before {
@@ -26,7 +26,7 @@
 			top: 0;
 			left: 0;
 			z-index: 0;
-			background: var(--color__background__alt);
+			background: var(--color--background--alt);
 			width: 100%;
 			height: 100%;
 			content: "";

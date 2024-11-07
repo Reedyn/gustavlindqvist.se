@@ -29,11 +29,11 @@ td:nth-child(2) {
 }
 
 tbody tr:nth-child(odd) {
-    background: var(--color__background__alt);
+    background: var(--color--background--alt);
 }
 
 tbody tr:hover {
-    background: var(--color__background__widget);
+    background: var(--color--background--widget);
 }
 </style>
 

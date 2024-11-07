@@ -1,5 +1,5 @@
 a {
-	color: var(--color__accent);
+	color: var(--color--accent);
 	text-decoration: none;
 	&:hover,
 	&:focus {
@@ -7,6 +7,6 @@ a {
 	}
 
 	&:visited {
-		color: var(--color__accent-secondary);
+		color: var(--color--accent--secondary);
 	}
 }

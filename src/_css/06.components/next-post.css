@@ -7,14 +7,14 @@
 	background: black;
 	background-position: center;
 	background-size: cover;
-	padding: calc(var(--padding__medium) * 4) 0;
+	padding: calc(var(--padding--medium) * 4) 0;
 	overflow: clip;
 	color: white;
-	font-family: var(--font__meta);
+	font-family: var(--font--meta);
 	text-align: center;
 
 	.read-more-text {
-		margin-bottom: var(--margin__medium);
+		margin-bottom: var(--margin--medium);
 		font-weight: 600;
 		font-size: 90%;
 		text-transform: uppercase;
@@ -24,10 +24,10 @@
 		display: block;
 		color: white;
 		font-weight: 900;
-		font-size: var(--font__size__heading-1);
+		font-size: var(--font--size--heading-1);
 		line-height: 1.3;
-		font-family: var(--font__headings);
-		letter-spacing: -.05em;
+		font-family: var(--font--headings);
+		letter-spacing: -0.05em;
 
 		&:visited {
 			color: white;
@@ -45,17 +45,17 @@
 
 	.next-post__metadata {
 		z-index: 10;
-		padding: 0 var(--padding__medium);
+		padding: 0 var(--padding--medium);
 		width: 100%;
 		max-width: var(--max-width__content);
 	}
 
 	.next-post__date {
-		margin-top: var(--padding__small);
+		margin-top: var(--padding--small);
 	}
 
 	.next-post__date {
-		margin-top: var(--padding__small);
+		margin-top: var(--padding--small);
 	}
 
 	.next-post__image {
@@ -89,9 +89,9 @@
 			) {
 				background: linear-gradient(
 					120deg,
-					var(--color__accent) 0%,
-					var(--color__accent-secondary) 37.5%,
-					var(--color__accent) 100%
+					var(--color--accent) 0%,
+					var(--color--accent--secondary) 37.5%,
+					var(--color--accent) 100%
 				);
 				background-clip: text;
 				color: transparent;

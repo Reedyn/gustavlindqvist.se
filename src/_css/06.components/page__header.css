@@ -8,35 +8,35 @@
 	background-size: cover;
 	padding: 0;
 	overflow: clip;
-	color: var(--color__text);
+	color: var(--color--body);
 
 	a {
-		color: var(--color__text);
+		color: var(--color--body);
 	}
 
 	.page-title {
-		margin-top: var(--margin__medium);
-		margin-bottom: var(--margin__small);
+		margin-top: var(--margin--medium);
+		margin-bottom: var(--margin--small);
 		font-weight: 900;
 
 		svg {
-			padding-bottom: var(--padding__small);
+			padding-bottom: var(--padding--small);
 			width: 90%;
 			max-width: 60rem;
 		}
 	}
 
 	.page-date {
-		margin-top: var(--margin__small);
+		margin-top: var(--margin--small);
 	}
 
 	.tags {
-		margin-top: var(--margin__medium);
+		margin-top: var(--margin--medium);
 		.tag {
 			display: inline-block;
 			margin-right: 0.4em;
 			margin-bottom: 0.4em;
-			background: var(--color__background__widget);
+			background: var(--color--background--widget);
 			padding: 0 0.5em;
 			color: inherit;
 		}
@@ -47,7 +47,7 @@
 		z-index: 10;
 		margin: 0 auto;
 		width: 100%;
-		max-width: min(var(--max-width__content), calc(100% - 2 * var(--margin__medium)));
+		max-width: min(var(--max-width__content), calc(100% - 2 * var(--margin--medium)));
 
 		:last-child {
 			margin-bottom: 0;
@@ -63,9 +63,9 @@
 			) {
 				background: linear-gradient(
 					120deg,
-					var(--color__accent) 0%,
-					var(--color__accent-secondary) 37.5%,
-					var(--color__accent) 100%
+					var(--color--accent) 0%,
+					var(--color--accent--secondary) 37.5%,
+					var(--color--accent) 100%
 				);
 				background-clip: text;
 				color: transparent;
@@ -75,11 +75,11 @@
 
 	&.-feature-image {
 		.tags {
-			color: var(--color__text__contrast);
+			color: var(--color--body--contrast);
 			.tag {
 				background: rgba(255, 255, 255, 0.1);
 				a {
-					color: var(--color__text__contrast);
+					color: var(--color--body--contrast);
 				}
 			}
 		}
