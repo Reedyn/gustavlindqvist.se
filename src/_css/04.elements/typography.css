@@ -3,19 +3,19 @@ em {
 }
 
 .note {
-	background: var(--color__background__alt);
-	padding: var(--margin__medium);
-	color: var(--color__accent);
+	background: var(--color--background--alt);
+	padding: var(--padding--medium);
+	color: var(--color--accent);
 
 	&:before {
 		display: inline-block;
 		margin-right: 1em;
 		border-radius: 50%;
-		background: var(--color__accent);
+		background: var(--color--accent);
 		width: 2em;
 		height: 2em;
 		content: "!";
-		color: var(--color__background);
+		color: var(--color--background);
 		font-weight: 700;
 		line-height: 2em;
 		text-align: center;
@@ -33,12 +33,12 @@ sup {
 }
 
 blockquote {
-	border-left: 4px solid var(--color__background__alt);
-	padding-left: var(--margin__medium);
-	color: var(--color__text-alt);
-	font-family: var(--font__quotes);
+	border-left: 4px solid var(--color--background--alt);
+	padding-left: var(--padding--medium);
+	color: var(--color--body--alt);
+	font-family: var(--font--quotes);
 	img {
-		margin: var(--margin__medium) 0;
+		margin: var(--margin--medium) 0;
 		width: 100%;
 	}
 
@@ -54,16 +54,16 @@ q {
 	display: block;
 	font-style: italic;
 	font-size: 125%;
-	font-family: var(--font__quotes);
+	font-family: var(--font--quotes);
 	text-align: center;
 
 	/*noinspection CssInvalidMediaFeature*/
-	@media (--viewport__small) {
-		margin-top: var(--margin__large);
-		margin-bottom: var(--margin__medium);
-		margin-left: calc(0% - var(--margin__medium));
-		width: calc(100% + var(--margin__large));
-		max-width: calc(100% + var(--margin__large));
+	@media (--viewport--small) {
+		margin-top: var(--margin--large);
+		margin-bottom: var(--margin--medium);
+		margin-left: calc(0% - var(--margin--medium));
+		width: calc(100% + var(--margin--large));
+		max-width: calc(100% + var(--margin--large));
 	}
 	&:before,
 	&:after {
@@ -74,7 +74,7 @@ q {
 cite {
 	display: block;
 	font-style: normal;
-	font-family: var(--font__quotes);
+	font-family: var(--font--quotes);
 	a {
 		border: none;
 		color: inherit;
@@ -89,16 +89,16 @@ strong {
 }
 
 hr {
-	margin: var(--margin__medium) 0 0;
+	margin: var(--margin--medium) 0 0;
 	border: 0;
-	background: var(--color__background__alt);
+	background: var(--color--background--alt);
 	height: 0.25rem;
 }
 
 abbr {
 	border-bottom-width: 1px;
 	border-bottom-style: dotted;
-	border-bottom-color: var(--color__text);
+	border-bottom-color: var(--color--body);
 	font-variant: all-small-caps;
 	text-decoration: none;
 }
@@ -109,6 +109,6 @@ abbr {
 
 kbd {
 	border-radius: 0.3em;
-	background: var(--color__background__alt);
+	background: var(--color--background--alt);
 	padding: 0.2em 0.4em;
 }

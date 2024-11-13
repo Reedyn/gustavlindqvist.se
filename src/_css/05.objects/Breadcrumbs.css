@@ -1,10 +1,10 @@
 .Breadcrumbs a {
-	color: var(--color__text-alt);
+	color: var(--color--body--alt);
 }
 
 .Breadcrumbs a:hover,
 .Breadcrumbs a:focus {
-	color: var(--color__accent);
+	color: var(--color--accent);
 }
 
 .Breadcrumbs ol {
@@ -26,7 +26,7 @@
 
 .Breadcrumbs ol li:after {
 	content: "/";
-	color: var(--color__text-alt);
+	color: var(--color--body--alt);
 }
 
 .Breadcrumbs ol li:last-child:after {

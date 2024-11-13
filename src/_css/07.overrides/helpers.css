@@ -11,13 +11,13 @@
 .wrapper {
 	margin-right: auto;
 	margin-left: auto;
-	padding: 0 var(--padding__medium);
+	padding: 0 var(--padding--medium);
 	width: 100%;
 	max-width: var(--max-width__base);
 }
 
 .secondary {
-	color: var(--color__text-alt);
+	color: var(--color--body--alt);
 }
 
 .-column-count-2 {
@@ -76,15 +76,15 @@
 
 small,
 .small {
-	font-size: var(--font__size-base);
+	font-size: var(--font--size--small);
 }
 
 .normal {
-	font-size: var(--font__size);
+	font-size: var(--font--size--default);
 }
 
 .large {
-	font-size: var(--font__size__heading-4);
+	font-size: var(--font--size--heading-4);
 }
 
 .no-js .hidden\@no-js {

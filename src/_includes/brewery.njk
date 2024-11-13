@@ -59,7 +59,7 @@ eleventyComputed:
         <h2 id="beers" class="sr-only">Mina öl</h2>
         <div class="beers">
             {%- for beer in collections.beers | sortByOrder -%}{% if not beer.data.one_off_brew %}
-                <article class="beer" aria-labelledby="{{ beer.url | hashString}}"{% if beer.data.color %} data-order="{{ beer.data.order }}" style="--color__accent: {{ beer.data.color }}"{% endif %}>
+                <article class="beer" aria-labelledby="{{ beer.url | hashString}}"{% if beer.data.color %} data-order="{{ beer.data.order }}" style="--color--accent: {{ beer.data.color }}"{% endif %}>
                     <h3 class="beer-title"><a id="{{ beer.url | hashString}}" href="{{ beer.url }}">
                             {% if beer.data.label %}<svg class="beer-label" role="presentation" aria-label="{{ beer.data.title }}" viewBox="{{ beer.data.label_viewbox }}"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="{{ beer.data.label }}"></use></svg>
                             {% else %}{{ beer.data.title }}{% endif %}</a>
@@ -77,7 +77,7 @@ eleventyComputed:
             {%- set canonicalURL = metadata.url + post.data.page.url -%}
             {%- set optimizedFeatureImage = post.data.feature_image | featureImageFilter("50w", "Card__image", post.data.page) %}
             {%- set parsed_feature_image = post.data.feature_image | parseImagePath(post.url)-%}
-            <article aria-labelledby="{{ post.url | hashString}}" class="Card post -align-bottom{% if optimizedFeatureImage %} -feature-image{% endif %}" style="{% if optimizedFeatureImage %} background-image: url({{ optimizedFeatureImage }});{% endif %}{% if post.data.color %} --color__background__contrast__widget: {{ post.data.color }};{% endif %}">
+            <article aria-labelledby="{{ post.url | hashString}}" class="Card post -align-bottom{% if optimizedFeatureImage %} -feature-image{% endif %}" style="{% if optimizedFeatureImage %} background-image: url({{ optimizedFeatureImage }});{% endif %}{% if post.data.color %} --color--background--contrast--widget: {{ post.data.color }};{% endif %}">
                 <div class="Card__content">
                     <h3 class="Card__title"><a id="{{ post.url | hashString}}" class="Card__title-link" href="{{ post.url }}">{{ post.data.title }}</a></h3>
                     {% if post.data.page.date %}<p class="Card__metadata"><time data-firstletterupper class="timeago" datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | longISODate }}">{{ post.data.page.date | readableDate }}</time></p>{% endif %}
@@ -87,7 +87,7 @@ eleventyComputed:
                     {% if (post.data.tags) %}<span class="tags"><span class="sr-only">Taggar: </span>
                         {%- for tag in post.data.tags -%}
                             {% if (tag !== 'posts') and (tag !== 'page') %}
-                                <span class="tag">{{ tag | firstLetterUppercase }}</span><span class="sr-only">,</span>
+								{% set tagData = tagMetadata[tag] %}<span class="tag">{% if tagData.emoji %}{{ tagData.emoji }} {% endif %}{% if tagData.title %}{{ tagData.title | firstLetterUppercase }}{% else %}{{ tag | firstLetterUppercase }}{% endif %}</span><span class="sr-only">,</span>
                             {% endif %}
                         {%- endfor -%}
                         </span>{% endif %}
