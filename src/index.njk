@@ -14,7 +14,6 @@ templateClass: home-template
         {%- set optimizedFeatureImage = post.data.feature_image | featureImageFilter("400px", "Card__image", post.data.page) %}
     {% endif %}
 
-
     <article aria-labelledby="{{ post.url | hashString}}" class="Card post -align-bottom{% if optimizedFeatureImage %} -feature-image{% endif %}{% if post.data.feature_image_position %} -feature-image--{{ post.data.feature_image_position }}{% endif %}">
         <div class="Card__content">
             <h3 class="Card__title" style="view-transition-name: post-title-{{ post.url | hashString}}"><a id="{{ post.url | hashString}}" class="Card__title-link" href="{{ post.url }}">{{ post.data.title }}</a></h3>

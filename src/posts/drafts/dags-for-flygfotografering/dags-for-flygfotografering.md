@@ -31,5 +31,4 @@ tags:
 
 Det som fascinerade mig mest var krocken mellan två olika ideologier; på ena sidan kommunförvaltning och konsulter från flertalet bolag (med många förlegade tankar om hur system ska byggas kombinerat med en gnutta girighet och korruption) och på andra sidan ett gäng föräldrar beväpnade med stor teknisk kompetens och öppenhet (både i form av sitt sätt att bygga sin konkurrerande app men också sitt sätt att kommunicera öppet, då främst på Twitter).
 
-
 ## Spridningstillstånd
