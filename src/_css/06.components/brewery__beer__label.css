@@ -3,19 +3,19 @@
 		display: block;
 		width: 40rem;
 		max-width: 100%;
-		color: var(--color__text);
+		color: var(--color--body);
 	}
 }
 .beer-title {
 	a {
 		.beer-label {
 			aspect-ratio: 2/1;
-			color: var(--color__text);
+			color: var(--color--body);
 		}
 		&:hover,
 		&:visited {
 			.beer-label {
-				color: var(--color__text);
+				color: var(--color--body);
 			}
 		}
 	}

@@ -6,7 +6,7 @@
 }
 
 .Comments__list {
-	margin-top: var(--margin__medium);
+	margin-top: var(--margin--medium);
 	padding-inline-start: 0;
 	list-style: none;
 }
@@ -15,7 +15,7 @@
 }
 
 .Comments_reference {
-	font-size: calc(var(--font__size) * 0.85);
+	font-size: calc(var(--font--size--default) * 0.85);
 }
 
 .Comments__panel {
@@ -29,8 +29,8 @@
 
 	.Comments__status {
 		display: inline-block;
-		background-color: var(--color__background__alt);
-		padding: var(--padding__medium);
+		background-color: var(--color--background--alt);
+		padding: var(--padding--medium);
 	}
 
 	svg {
@@ -40,13 +40,13 @@
 }
 
 .Comments__metadata {
-	color: var(--color__text-alt);
-	font-size: var(--font__size-base);
+	color: var(--color--body--alt);
+	font-size: var(--font--size--small);
 	line-height: 1.4;
-	font-family: var(--font__meta);
+	font-family: var(--font--meta);
 
 	span.Comments__author {
-		color: var(--color__text);
+		color: var(--color--body);
 	}
 }
 
@@ -66,7 +66,7 @@
 	display: flex;
 	position: relative;
 	flex-direction: column;
-	margin-bottom: var(--margin__medium);
+	margin-bottom: var(--margin--medium);
 
 	padding: 0.625rem 0.625rem 0.625rem 4.5rem;
 	&:before {
@@ -74,7 +74,7 @@
 	}
 
 	&.-is-me {
-		background: var(--color__background__alt);
+		background: var(--color--background--alt);
 	}
 
 	&.-no-content {
@@ -90,7 +90,7 @@
 	}
 
 	&:hover {
-		background: var(--color__background__widget);
+		background: var(--color--background--widget);
 	}
 
 	&:last-child {

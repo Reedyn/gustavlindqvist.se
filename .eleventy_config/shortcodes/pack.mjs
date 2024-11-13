@@ -71,7 +71,7 @@ export default {
 		}
 
 		if (pack) {
-			let outputString = '<section class="packStatistics">';
+			let outputString = '<section class="pack">';
 			let equipmentString = '';
 			equipmentString += '<div class="pack__list-container equipment -collapsed">';
 			pack.contents.forEach((item_category) => {

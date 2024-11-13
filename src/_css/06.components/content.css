@@ -6,8 +6,15 @@
 		[content-start] var(--layout-content) [content-end]
 		var(--layout-wide) [wide-end]
 		var(--layout-full) [full-end];
-	padding-top: var(--padding__small);
-	padding-bottom: var(--padding__small);
+	row-gap: var(--margin--small);
+	padding-top: var(--padding--small);
+	padding-bottom: var(--padding--small);
+
+	/*noinspection CssInvalidMediaFeature*/
+	@media (--viewport--medium) {
+		padding-top: var(--padding--medium);
+		padding-bottom: var(--padding--medium);
+	}
 
 	.full,
 	.-full {
@@ -36,13 +43,13 @@
 
 		&:hover,
 		&:focus-visible {
-			background: var(--color__accent);
-			color: var(--color__background);
+			background: var(--color--accent);
+			color: var(--color--background);
 			text-decoration: none;
 
 			&:visited {
-				background: var(--color__accent-secondary);
-				color: var(--color__background);
+				background: var(--color--accent--secondary);
+				color: var(--color--background);
 			}
 		}
 	}

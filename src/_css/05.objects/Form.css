@@ -1,7 +1,7 @@
 .Form {
 	margin-top: 2em;
-	color: var(--color__text);
-	font-size: var(--font__size);
+	color: var(--color--body);
+	font-size: var(--font--size--default);
 
 	&.-inactive {
 		label {
@@ -22,8 +22,8 @@
 		margin: 0 0 1em 0;
 		input,
 		textarea {
-			border: 2px solid var(--color__background__widget);
-			background: var(--color__background);
+			border: 2px solid var(--color--background--widget);
+			background: var(--color--background);
 			padding: 0.5em;
 			width: 100%;
 			color: inherit;
@@ -31,9 +31,9 @@
 			font-family: inherit;
 
 			&:focus {
-				border-color: var(--color__text);
+				border-color: var(--color--body);
 				+ label {
-					color: var(--color__text);
+					color: var(--color--body);
 				}
 			}
 		}
@@ -48,10 +48,10 @@
 			position: absolute;
 			top: -7px;
 			left: 4px;
-			background: var(--color__background);
+			background: var(--color--background);
 			padding: 0 0.5em;
-			color: var(--color__text-alt);
-			font-size: var(--font__size-base);
+			color: var(--color--body--alt);
+			font-size: var(--font--size--small);
 			line-height: 1;
 			text-align: center;
 			text-transform: uppercase;

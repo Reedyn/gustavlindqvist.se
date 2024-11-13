@@ -1,6 +1,6 @@
 .tags {
-	color: var(--color__text-alt);
-	font-family: var(--font__meta);
+	color: var(--color--body--alt);
+	font-family: var(--font--meta);
 	.tag {
 		display: inline-block;
 		margin-right: 0.4em;
@@ -10,18 +10,18 @@
 		color: inherit;
 
 		a {
-			color: var(--color__text);
+			color: var(--color--body);
 			text-decoration: none;
 
 			&:hover,
 			&:focus {
 				background: none;
-				color: var(--color__accent);
+				color: var(--color--accent);
 				text-decoration: underline;
 
 				&:visited {
 					background: none;
-					color: var(--color__accent-secondary);
+					color: var(--color--accent--secondary);
 				}
 			}
 		}

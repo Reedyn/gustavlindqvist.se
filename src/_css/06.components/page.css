@@ -4,7 +4,7 @@
 }
 
 .canonical {
-	color: var(--color__text-alt);
+	color: var(--color--body--alt);
 	&:before {
 		content: "Länk: ";
 	}

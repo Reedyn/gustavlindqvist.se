@@ -5,44 +5,44 @@ Fonts
 
 :root {
 	/* Font family */
-	--font__sans-serif: "Noto Sans", system-ui, sans-serif;
-	--font__serif: "Noto Serif", Charter, Georgia, serif;
-	--font__mono: "Fira Code", ui-monospace, monospace;
+	--font--sans-serif: "Noto Sans", system-ui, sans-serif;
+	--font--serif: "Noto Serif", Charter, Georgia, serif;
+	--font--mono: "Fira Code", ui-monospace, monospace;
 
-	--font__body: var(--font__sans-serif);
-	--font__headings: var(--font__sans-serif);
-	--font__meta: var(--font__sans-serif);
-	--font__captions: var(--font__serif);
-	--font__quotes: var(--font__serif);
-	--font__code: var(--font__mono);
+	--font--body: var(--font--sans-serif);
+	--font--headings: var(--font--sans-serif);
+	--font--meta: var(--font--sans-serif);
+	--font--captions: var(--font--serif);
+	--font--quotes: var(--font--serif);
+	--font--code: var(--font--mono);
 
 	/* Font sizing */
-	--font__size: 1rem;
-	--font__size-base: 0.8rem;
+	--font--size--default: 1rem;
+	--font--size--small: 0.875rem;
 }
 
 :root {
 	/* Font scaling */
-	--font__dynamic-scaling: 0.3vw;
-	--font__ratio: 1.25;
-	--font__dynamic-ratio: 1.3;
+	--font--dynamic-scaling: 0.3vw;
+	--font--ratio: 1.25;
+	--font--dynamic-ratio: 1.3;
 }
 
 /* For browsers that support clamp  */
 @supports (font-size: clamp(1rem, 1vi, 1rem)) {
 	:root {
-		--font__size__heading-4: clamp(1.2rem, 0.3vi + 1.1rem, 1.75rem);
-		--font__size__heading-3: clamp(1.4rem, 0.8vi + 1.2rem, 2rem);
-		--font__size__heading-2: clamp(1.7rem, 1.6vi + 1.3rem, 2.3rem);
-		--font__size__heading-1: clamp(2.1rem, 3vi + 1.3rem, 3rem);
+		--font--size--heading-4: clamp(1.2rem, 0.3vi + 1.1rem, 1.75rem);
+		--font--size--heading-3: clamp(1.4rem, 0.8vi + 1.2rem, 2rem);
+		--font--size--heading-2: clamp(1.7rem, 1.6vi + 1.3rem, 2.3rem);
+		--font--size--heading-1: clamp(2.1rem, 3vi + 1.3rem, 3rem);
 	}
 }
 /* For browsers that don't support clamp */
 @supports not (font-size: clamp(1rem, 1vi, 1rem)) {
 	:root {
-		--font__size__heading-4: 1.2rem;
-		--font__size__heading-3: 1.4rem;
-		--font__size__heading-2: 1.7rem;
-		--font__size__heading-1: 2.1rem;
+		--font--size--heading-4: 1.2rem;
+		--font--size--heading-3: 1.4rem;
+		--font--size--heading-2: 1.7rem;
+		--font--size--heading-1: 2.1rem;
 	}
 }

@@ -1,25 +1,25 @@
 .beers {
 	display: grid;
 	grid-auto-flow: dense;
-	margin-top: var(--margin__medium);
-	margin-bottom: var(--margin__medium);
-	grid-gap: var(--margin__medium);
+	margin-top: var(--margin--medium);
+	margin-bottom: var(--margin--medium);
+	grid-gap: var(--margin--medium);
 	grid-template-columns: 1fr;
 
 	/*noinspection CssInvalidMediaFeature*/
-	@media (--viewport__small) {
+	@media (--viewport--small) {
 		grid-template-columns: 1fr 1fr;
 	}
 
 	/*noinspection CssInvalidMediaFeature*/
-	@media (--viewport__medium) {
+	@media (--viewport--medium) {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 }
 
 .beer {
 	margin: auto;
-	padding: var(--padding__medium);
+	padding: var(--padding--medium);
 	width: 100%;
 
 	a {
@@ -27,7 +27,7 @@
 		&:focus {
 			background: none !important;
 			.beer-label {
-				filter: drop-shadow(0 0 1rem var(--color__accent, var(--color__accent)));
+				filter: drop-shadow(0 0 1rem var(--color--accent, var(--color--accent)));
 			}
 		}
 	}
