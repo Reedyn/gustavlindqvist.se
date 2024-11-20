@@ -86,25 +86,25 @@
 			}
 		}
 
-		.-feature-image--bottom {
+		&.-feature-image--bottom {
 			.post-header__image img {
 				object-position: bottom;
 			}
 		}
 
-		.-feature-image--top {
+		&.-feature-image--top {
 			.post-header__image img {
 				object-position: top;
 			}
 		}
 
-		.-feature-image--left {
+		&.-feature-image--left {
 			.post-header__image img {
 				object-position: left;
 			}
 		}
 
-		.-feature-image--right {
+		&.-feature-image--right {
 			.post-header__image img {
 				object-position: right;
 			}
