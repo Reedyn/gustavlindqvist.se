@@ -78,7 +78,6 @@ figcaption {
 }
 
 body > :is(header, main, footer),
-section,
 article {
 	container-type: inline-size;
 }
