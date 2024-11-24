@@ -33,7 +33,7 @@ Under 10-talet ökade användningen av statiska sidgeneratorer som [Jekyll] och 
 
 ### 11ty
 
-Efter lite efterforskning landade jag i [11ty] som plattform främst för att de andra som var stora använde språk som jag inte är så förtjust i (Jekyll använder sig av Ruby och Hugo använder React.js). 11ty är också lätt att installera plugins eller skriva modifikationer själv för.
+Efter lite efterforskning landade jag i [11ty] som plattform främst för att de andra som var stora använde språk som jag inte är så förtjust i (Jekyll är skrivet i Ruby och Hugo är skrivet i Go) 11ty är också lätt att installera plugins eller skriva modifikationer själv för.
 
 Precis som de andra sid generatorerna använder 11ty [Markdown][Wikipedia - Markdown] som märkspråk men har möjlighet att på filbasis byta ut detta till nästan vad som helst. Det finns även möjlighet att utöka Markdown med egen syntax eftersom 11ty använder [`markdown-it`][markdown-it]-implementeringen.
 
