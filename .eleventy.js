@@ -7,7 +7,7 @@ import pluginSchema from '@quasibit/eleventy-plugin-schema';
 
 import markdown from './.eleventy_config/markdown.mjs';
 import filters from './.eleventy_config/filters.mjs';
-import asyncFilters from './.eleventy_config/filters.async.js';
+import asyncFilters from './.eleventy_config/filters.async.mjs';
 import shortcodes from './.eleventy_config/shortcodes.mjs';
 import collections from './.eleventy_config/collections.mjs';
 
