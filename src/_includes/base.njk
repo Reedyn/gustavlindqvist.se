@@ -53,11 +53,9 @@ eleventyComputed:
     {% include 'partials/identities.njk' %}
 
     {% include 'partials/feeds.njk' %}
-
-    {% jsonLdScript meta, type, tags %}
-
     {% if color %}<style>:root { --color__background__post: {{ color }};}</style>{% endif %}
 
+	{% jsonLdScript meta, type, tags %}
     <script>
         /* to prevent Firefox FOUC, this must be here*/
         let FF_FOUC_FIX;

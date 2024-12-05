@@ -4,7 +4,8 @@
 import pluginFeed from '@11ty/eleventy-plugin-rss';
 import pluginNavigation from '@11ty/eleventy-navigation';
 import pluginSchema from '@quasibit/eleventy-plugin-schema';
-import htmlmin from 'html-minifier-terser';
+import prettier from 'prettier';
+import path from 'path';
 
 import markdown from './.eleventy_config/markdown.mjs';
 import filters from './.eleventy_config/filters.mjs';
@@ -77,20 +78,18 @@ export default function (eleventyConfig) {
 	eleventyConfig.setDataDeepMerge(true);
 	eleventyConfig.setLibrary('md', markdown);
 
-	// Minify HTML
-	eleventyConfig.addTransform('htmlmin', function (content) {
-		if ((this.page.outputPath || '').endsWith('.html')) {
-			let minified = htmlmin.minify(content, {
-				useShortDoctype: true,
-				removeComments: true,
-				collapseWhitespace: true,
-			});
+	eleventyConfig.addTransform('prettier', function (content, outputPath) {
+		const extname = path.extname(outputPath);
+		switch (extname) {
+			case '.html':
+			case '.json':
+				// Strip leading period from extension and use as the Prettier parser.
+				const parser = extname.replace(/^./, '');
+				return prettier.format(content, { printWidth: 5000, parser: parser });
 
-			return minified;
+			default:
+				return content;
 		}
-
-		// If not an HTML output, return content as-is
-		return content;
 	});
 
 	return {
