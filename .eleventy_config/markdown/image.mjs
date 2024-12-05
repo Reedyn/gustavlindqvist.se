@@ -115,18 +115,14 @@ export default function (tokens, index, options, env) {
 			? `<figcaption>${markdown.render(caption)}</figcaption>`
 			: '';
 
-		return `<figure class="image ${style}"${inlineStyling}>
-               <picture>
-        ${Object.values(metadata)
+		return `<figure class="image ${style}"${inlineStyling}><picture>${Object.values(metadata)
 			.map((imageFormat) => {
 				return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat.map((entry) => entry.srcset).join(', ')}" sizes="${sizes}">`;
 			})
-			.join('\n')}
-          <img
+			.join('\n')}<img
             src="${lowsrc.url}"
             width="${lowsrc.width}"
             height="${lowsrc.height}"
-            ${attributesString}>
-        </picture>${captionElement}</figure>`;
+            ${attributesString}></picture>${captionElement}</figure>`;
 	}
 }
