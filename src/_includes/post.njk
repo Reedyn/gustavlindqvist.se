@@ -28,7 +28,7 @@ eleventyComputed:
         </div>
     </header>
     <section class="post-content content content-layout" id="post-content" aria-label="Inläggets innehåll">
-        {{ content | stripParagraphsFromFigures | safe }}
+        {{ content | safe }}
         {% include "partials/comments.njk" %}
     </section>
 </article>
