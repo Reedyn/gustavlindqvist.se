@@ -26,7 +26,7 @@ export default {
 		return items.sort((a, b) => Math.sign(a.data.order - b.data.order));
 	},
 	stripParagraphsFromFigures: (string) => {
-		return string.replace('<p><figure', '<figure').replace('</figure></p>', '</figure>');
+		return string.replace('<p><figure', '<figure').replaceAll('</figure></p>', '</figure>');
 	},
 	sortBySortDate: (items) => {
 		items = [...items];

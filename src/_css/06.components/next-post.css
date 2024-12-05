@@ -29,17 +29,21 @@
 		font-family: var(--font--headings);
 		letter-spacing: -0.05em;
 
-		&:visited {
-			color: white;
-		}
+		a {
+			color: inherit;
 
-		&:after {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			content: "";
+			&:visited {
+				color: white;
+			}
+
+			&:after {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				content: "";
+			}
 		}
 	}
 
