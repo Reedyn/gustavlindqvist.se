@@ -18,7 +18,7 @@ eleventyComputed:
         <div class="page-metadata">
             <h1 class="page-title">{{ title }}</h1>
             <p><svg class="icon icon--feed" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/rss.svg#rss"></use></svg> <a href="/linkblog.xml">Flöde för länkbloggen</a></p>
-            <p class="description">{{ description | renderUsingMarkdown | safe }}</p>
+            {{ description | renderUsingMarkdown | safe }}
         </div>
     </header>
     <section aria-label="Lista över innehåll" class="page-content wrapper Cards" id="page-content">
