@@ -79,17 +79,23 @@ export default function (eleventyConfig) {
 	eleventyConfig.setLibrary('md', markdown);
 
 	eleventyConfig.addTransform('prettier', function (content, outputPath) {
-		const extname = path.extname(outputPath);
-		switch (extname) {
-			case '.html':
-			case '.json':
-				// Strip leading period from extension and use as the Prettier parser.
-				const parser = extname.replace(/^./, '');
-				return prettier.format(content, { printWidth: 5000, parser: parser });
+		if (typeof outputPath === 'string' && outputPath) {
+			const extname = path.extname(outputPath);
+			switch (extname) {
+				case '.html':
+				case '.json':
+					// Strip leading period from extension and use as the Prettier parser.
+					return prettier.format(content, {
+						printWidth: 5000,
+						parser: extname.replace(/^./, ''),
+					});
 
-			default:
-				return content;
+				default:
+					return content;
+			}
 		}
+
+		return content;
 	});
 
 	return {
