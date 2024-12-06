@@ -94,8 +94,6 @@ export default function (eleventyConfig) {
 						printWidth: 5000,
 						parser: extname.replace(/^./, ''),
 						bracketSameLine: true,
-						bracketSpacing: true,
-						htmlWhitespaceSensitivity: 'ignore',
 					});
 
 				default:
