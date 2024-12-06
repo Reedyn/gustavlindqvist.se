@@ -90,10 +90,10 @@ export default function (eleventyConfig) {
 			switch (extname) {
 				case '.html':
 				case '.json':
-					// Strip leading period from extension and use as the Prettier parser.
 					return prettier.format(content, {
 						printWidth: 5000,
 						parser: extname.replace(/^./, ''),
+						bracketSameLine: true,
 					});
 
 				default:
