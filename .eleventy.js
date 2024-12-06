@@ -78,9 +78,12 @@ export default function (eleventyConfig) {
 	eleventyConfig.setDataDeepMerge(true);
 	eleventyConfig.setLibrary('md', markdown);
 
+	// Don't wrap figure elements in <p>-elements
 	eleventyConfig.addTransform('no-figure-wrapping', function (content) {
 		return content.replaceAll('</figure></p>', '</figure>').replaceAll('<p><figure', '<figure');
 	});
+
+	// Tidy up json and html output with prettier
 	eleventyConfig.addTransform('prettier', function (content, outputPath) {
 		if (typeof outputPath === 'string' && outputPath) {
 			const extname = path.extname(outputPath);
