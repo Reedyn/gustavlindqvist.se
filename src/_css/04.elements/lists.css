@@ -24,48 +24,61 @@ ol {
 	}
 }
 
-.contains-task-list {
-	list-style: none;
-}
+ul,
+ol {
+	&.contains-task-list {
+		list-style: none;
+	}
 
-.-no-style {
-	padding-inline-start: 0;
-	list-style: none;
-}
+	&.-no-style {
+		padding-inline-start: 0;
+		list-style: none;
+	}
 
-.-inline {
-	padding-inline-start: 0;
-	li,
-	a {
-		display: inline;
-		width: auto;
+	&.-inline {
+		padding-inline-start: 0;
+		li,
 		a {
 			display: inline;
-		}
+			width: auto;
+			a {
+				display: inline;
+			}
 
-		&:not(:last-child):after {
-			display: inline-block;
-			margin: 0 0.4em;
-			content: "·";
+			&:not(:last-child):after {
+				display: inline-block;
+				margin: 0 0.4em;
+				content: "·";
+			}
 		}
 	}
-}
 
-.-icons {
-	display: flex;
-	flex-direction: column;
-	padding-inline-start: 0;
-	grid-gap: 0.4em;
-
-	> li {
+	&.-icons {
 		display: flex;
+		flex-direction: column;
+		margin-inline-start: 1.75em;
+		padding-inline-start: 0;
+		grid-gap: 0.4em;
+		position: relative;
+		list-style: none;
 
-		> :first-child {
-			width: 1.5em;
-		}
+		> li {
+			> :first-child {
+				position: absolute;
+				left: -1.75em;
+				max-width: 1.5em;
+				max-height: 1.5em;
+			}
 
-		:nth-child(2) {
-			flex: 1;
+			:nth-child(2) {
+				flex: 1;
+			}
+
+			ul {
+				margin-inline-start: 2em;
+				margin-block-start: var(--margin--small);
+				list-style: none;
+			}
 		}
 	}
 }
