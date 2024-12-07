@@ -23,7 +23,7 @@ export default async () => {
 
 	const feed_id = '14070425';
 
-	const getPosts = async (shelf, feed_id) => {
+	const getItems = async (shelf, feed_id) => {
 		try {
 			let rawFeed = await fetch(
 				`https://www.goodreads.com/review/list_rss/${feed_id}?shelf=${shelf}`,
@@ -59,8 +59,8 @@ export default async () => {
 	};
 
 	return {
-		read: await getPosts('read', feed_id),
-		currently_reading: await getPosts('currently-reading', feed_id),
-		want_to_read: await getPosts('to-read', feed_id),
+		read: await getItems('read', feed_id),
+		currently_reading: await getItems('currently-reading', feed_id),
+		want_to_read: await getItems('to-read', feed_id),
 	};
 };
