@@ -13,6 +13,7 @@ export default async () => {
 				'author_name',
 				'book_large_image_url',
 				'book_medium_image_url',
+				'book_small_image_url',
 				'user_name',
 				'user_date_added',
 				'user_read_at',
@@ -27,7 +28,7 @@ export default async () => {
 			let rawFeed = await fetch(
 				`https://www.goodreads.com/review/list_rss/${feed_id}?shelf=${shelf}`,
 				{
-					duration: '1h',
+					duration: '1s',
 					type: 'text',
 					directory: '.cache',
 				},
