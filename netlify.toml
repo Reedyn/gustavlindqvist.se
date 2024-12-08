@@ -5,4 +5,4 @@ package = "netlify-plugin-cache"
   paths = [".cache", "_site"]
 
 [functions.rebuild]
- fschedule = "0 * * * *"
+schedule = "0 * * * *"
