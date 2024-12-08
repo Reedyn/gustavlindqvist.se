@@ -1,8 +1,9 @@
 [[plugins]]
 package = "netlify-plugin-cache"
 
-  [plugins.inputs]
-  paths = [".cache", "_site"]
+	[plugins.inputs]
+	paths = [".cache", "_site"]
 
-[functions.rebuild]
-schedule = "0 * * * *"
+[functions]
+	[functions.rebuild]
+	schedule = "0 * * * *"
