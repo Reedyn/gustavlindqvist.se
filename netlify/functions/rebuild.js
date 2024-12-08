@@ -1,6 +1,7 @@
 export async function handler(event, context) {
 	try {
-		const response = await fetch(process.env.DEPLOY_HOOK, {
+		// eslint-disable-next-line no-undef
+		const response = await fetch(Netlify.env.get('BUILD_HOOK'), {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',
