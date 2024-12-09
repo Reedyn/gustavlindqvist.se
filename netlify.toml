@@ -6,4 +6,4 @@ package = "netlify-plugin-cache"
 
 [functions]
 	[functions.rebuild]
-	schedule = "0 * * * *"
+	schedule = "@hourly"
