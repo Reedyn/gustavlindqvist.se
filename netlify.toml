@@ -3,7 +3,3 @@ package = "netlify-plugin-cache"
 
 	[plugins.inputs]
 	paths = [".cache", "_site"]
-
-[functions]
-	[functions.rebuild]
-	schedule = "@hourly"
