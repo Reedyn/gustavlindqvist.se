@@ -2,7 +2,7 @@
 {% if nextPost and nextPost.data.feature_image %}
     {%- set nextPostOptimizedFeatureImage = nextPost.data.feature_image | featureImageFilter("100vw", "next-post__image", nextPost.data.page) %}
 {% endif %}
-<article id="read-more" aria-labelledby="next-post__title" class="next-post{% if nextPost.data.feature_image %} -feature-image{% endif %}{% if nextPost.data.feature_image_position %} -feature-image--{{ nextPost.data.feature_image_position }}{% endif %} hidden@print" {% if nextPost.data.style %}style="{% if nextPost.data.style.hue %}--color__hue: {{ nextPost.data.style.hue }};{% endif %}{% if nextPost.data.style.hueSecondary %}--color__hue-secondary: {{ nextPost.data.style.hueSecondary }};{% endif %}{% if nextPost.data.style.chroma %}--color__chroma: {{ nextPost.data.style.chroma }};{% endif %}"{% endif %}>
+<article id="read-more" aria-labelledby="next-post__title" class="next-post{% if nextPost.data.feature_image %} -feature-image{% endif %}{% if nextPost.data.feature_image_position %} -feature-image--{{ nextPost.data.feature_image_position }}{% endif %} hidden@print">
     <div class="next-post__metadata">
         {% set seriesTitle = tagMetadata[series].title or series %}
         <p id="read-more__text" class="read-more-text">~ Läs nästa inlägg i {{ seriesTitle }} ~</p>
