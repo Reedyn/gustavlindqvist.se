@@ -41,14 +41,13 @@
 	img,
 	picture,
 	video,
-	canvas,
-	svg {
+	canvas {
 		display: block;
 		max-inline-size: 100%;
 	}
 
 	/*
-	  kvoid text overflow
+	  Avoid text overflow
 	*/
 	p,
 	h1,
