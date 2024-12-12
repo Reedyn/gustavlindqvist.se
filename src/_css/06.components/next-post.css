@@ -1,15 +1,16 @@
 .next-post {
+	--_next-post--text-color: var(--next-post-text-color, var(--color--body));
 	display: flex;
 	position: relative;
 	flex-direction: column;
 	align-items: center;
 	margin: auto;
-	background: black;
+	background: var(--color--background--alt);
 	background-position: center;
 	background-size: cover;
 	padding: calc(var(--padding--medium) * 4) 0;
 	overflow: clip;
-	color: white;
+	color: var(--_next-post--text-color);
 	font-family: var(--font--meta);
 	text-align: center;
 
@@ -33,7 +34,7 @@
 			color: inherit;
 
 			&:visited {
-				color: white;
+				color: var(--_next-post--text-color);
 			}
 
 			&:after {
@@ -104,6 +105,16 @@
 	}
 
 	&.-feature-image {
+		--next-post-text-color: white;
+		&:after {
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: oklch(0% 0 0deg / 0.5);
+			width: 100%;
+			height: 100%;
+			content: "";
+		}
 		.next-post__metadata {
 			text-shadow:
 				0 1px 1px rgba(0, 0, 0, 0.1),
@@ -136,15 +147,5 @@
 				object-position: right;
 			}
 		}
-	}
-
-	&:after {
-		position: absolute;
-		top: 0;
-		left: 0;
-		background: oklch(0% 0 0deg / 0.5);
-		width: 100%;
-		height: 100%;
-		content: "";
 	}
 }
