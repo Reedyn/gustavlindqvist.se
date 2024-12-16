@@ -1,0 +1,4 @@
+*	text=lf
+
+[core]
+	autocrlf = true
