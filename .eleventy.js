@@ -94,6 +94,11 @@ export default function (eleventyConfig) {
 						printWidth: 5000,
 						parser: extname.replace(/^./, ''),
 						bracketSameLine: true,
+						plugins: [
+							'prettier-plugin-css-order',
+							'prettier-eslint',
+							'@awmottaz/prettier-plugin-void-html',
+						],
 					});
 
 				default:
