@@ -8,5 +8,5 @@
 			}
 		}
 	],
-	"plugins": ["prettier-plugin-css-order", "prettier-eslint"]
+	"plugins": ["prettier-plugin-css-order", "prettier-eslint", "@awmottaz/prettier-plugin-void-html"]
 }
