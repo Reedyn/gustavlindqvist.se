@@ -23,6 +23,9 @@ importers:
       '@11ty/eleventy-plugin-rss':
         specifier: ^2.0.2
         version: 2.0.2
+      '@awmottaz/prettier-plugin-void-html':
+        specifier: ^1.7.0
+        version: 1.7.0(prettier@3.3.3)
       '@gerhobbelt/markdown-it-checkbox':
         specifier: ^1.2.0-3
         version: 1.2.0-3
@@ -226,6 +229,12 @@ packages:
 
   '@11ty/recursive-copy@3.0.0':
     resolution: {integrity: sha512-v1Mr7dWx5nk69/HRRtDHUYDV9N8+cE12IGiKSFOwML7HjOzUXwTP88e3cGuhqoVstkBil1ZEIaOB0KPP1zwqXA==}
+
+  '@awmottaz/prettier-plugin-void-html@1.7.0':
+    resolution: {integrity: sha512-rS1ThYI8wqhDAbyO3wx60jebaryBxSbl9aXj4YroBHSyUP0SEE3apHQaHGpqIksSDWBr9lS94j33kZS6niybQA==}
+    engines: {node: '>=22.0.0'}
+    peerDependencies:
+      prettier: 3.0.0 - 3.4.x
 
   '@csstools/cascade-layer-name-parser@2.0.4':
     resolution: {integrity: sha512-7DFHlPuIxviKYZrOiwVU/PiHLm3lLUR23OMuEEtfEOQTOp9hzQ2JjdY6X5H18RVuUPJqSCI+qNnD5iOLMVE0bA==}
@@ -3134,6 +3143,10 @@ snapshots:
       promise: 7.3.1
       rimraf: 5.0.10
       slash: 1.0.0
+
+  '@awmottaz/prettier-plugin-void-html@1.7.0(prettier@3.3.3)':
+    dependencies:
+      prettier: 3.3.3
 
   '@csstools/cascade-layer-name-parser@2.0.4(@csstools/css-parser-algorithms@3.0.4(@csstools/css-tokenizer@3.0.3))(@csstools/css-tokenizer@3.0.3)':
     dependencies:
