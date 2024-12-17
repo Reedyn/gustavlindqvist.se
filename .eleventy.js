@@ -109,6 +109,11 @@ export default function (eleventyConfig) {
 		return content;
 	});
 
+	// Remove trailing `/>`
+	eleventyConfig.addTransform('remove-trailing-void-close-tag', function (content) {
+		return content.replaceAll(/\/><\/picture>/g, '</picture>');
+	});
+
 	return {
 		dir: {
 			input: 'src',
