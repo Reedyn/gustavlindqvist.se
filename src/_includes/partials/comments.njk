@@ -39,12 +39,6 @@
     <div class="Comments__panel">
         <form class="Form -inactive" id="comment-form" name="comment" method="POST" data-netlify="true">
             <input type="hidden" name="url" value="{{ metadata.url + page.url }}">
-            <noscript>
-                <style>
-                    .Form.-inactive label, .Form.-inactive .-collapsed{ display: block !important; }
-                    .Form.-inactive textarea { height: auto !important; resize: vertical; overflow: auto;}
-                </style>
-            </noscript>
             <p class="Form__group">
                 <textarea id="content" name="content" required placeholder="Skriv en kommentar…" aria-describedby="content-description"></textarea>
                 <label for="content">Kommentar</label>
