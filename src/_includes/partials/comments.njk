@@ -1,66 +1,55 @@
 {%- set repliesForPost = mastodon_id | getRepliesForPost -%}
-<aside class="Comments hidden@print" aria-labelledby="kommentarer">
-    <h2 class="Comments__title separator-heading" id="kommentarer"><span>Kommentarer</span></h2>
-    {% if repliesForPost.length %}
-    <ol class="Comments__list">
-        {% for reply in repliesForPost %}
-        {% if reply.author.name.length %}{%- set sluggedName = reply.author.name | slug -%}{% else %}{%- set sluggedName = reply.host | slug -%}{% endif %}
-        <li class="Comments__list-item{% if reply.author['is_me'] %} -is-me{% endif %}{% if not reply.content %} -no-content{% endif %}" data-source="{{ reply.source }}">
-            <span class="Comments__metadata">
-            {% if reply.author.url %}
-            <a class="Comments__author" href="{{ reply.author.url }}" target="_blank" rel="external noopener noreferrer">
-                <img
-                        class="Comments__avatar"
-                        src="{{ reply.author.image or 'https://source.boringavatars.com/beam/45/' + sluggedName + '?colors=262AFF,4326FF,6226FF,8426FF,8727CC' }}"
-                        alt="Bild på {{ reply.author.name }}"
-                        loading="lazy"
-                        decoding="async"
-                        width="48"
-                        height="48"
-                >
-                {{ reply.author.name | safe}}</a>{% else %}
-            <span class="Comments__author">
-                {% if reply.author.image %}<img
-                        class="Comments__avatar"
-                        src="{{ reply.author.image }}"
-                        alt="Bild på {{ reply.author.name }}"
-                        loading="lazy"
-                        decoding="async"
-                        width="48"
-                        height="48"
-                >{% endif %}
-                {{ reply.author.name | safe}}</span>{% endif %}{% if reply.type === 'mention-of' %} nämnde detta inlägg{% else %} kommenterade{% endif%} {%  if reply.url %}<a href="{{ reply.url }}" target="_blank" rel="external noopener noreferrer"> <time class="timeago" prefix datetime="{{ reply.published | dateFromString | fullISODate }}" title="{{ reply.published | dateFromString | longISODate }}">{{ reply.published | dateFromString | readableLongDate }}</time></a>{% else %}<span> <time class="timeago" prefix datetime="{{ reply.published | dateFromString | fullISODate }}" title="{{ reply.published | dateFromString | longISODate }}">{{ reply.published | dateFromString | readableLongDate }}</time></span>{% endif %}
-            </span>
-            {{ reply.content | safe }}{% if reply.image %}<p><a href="{{ reply.url }}"><img class="Comments__image" src="{{ reply.image.preview_url }}" alt="{{ reply.image.description }}"></a></p>{% endif %}
-        </li>
-        {% endfor %}
-    </ol>
-    {% endif %}
-    <div class="Comments__panel">
-        <form class="Form -inactive" id="comment-form" name="comment" method="POST" data-netlify="true">
-            <input type="hidden" name="url" value="{{ metadata.url + page.url }}">
-            <p class="Form__group">
-                <textarea id="content" name="content" required placeholder="Skriv en kommentar…" aria-describedby="content-description"></textarea>
-                <label for="content">Kommentar</label>
-                <span class="secondary small -collapsed" id="content-description">Det går bra att skriva med <a href="https://www.markdownguide.org/cheat-sheet/">Markdown <svg class="icon -large icon--xml" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/markdown.svg#icon"></use></svg></a></span>
-            </p>
-            <p class="Form__group -collapsed">
-                <input type="text" id="author.name" name="author.name" required>
-                <label for="author.name">Namn</label>
-            </p>
-            <p class="Form__group -collapsed">
-                <input type="email" id="author.email" name="author.email">
-                <label for="author.email">E-postadress (frivillig)</label>
-            </p>
-            <p class="Form__group -collapsed">
-                <input type="text" id="author.url" name="author.url">
-                <label for="author.url">Webbplats (frivillig)</label>
-            </p>
-            <p class="Form__group -collapsed">
-                <button class="button" type="submit">Skicka kommentar</button>
-            </p>
-        </form>
-        <p id="form-status" class="Comments__status hidden" aria-live="polite"></p>
-        <script src="/assets/javascript/comments.js" async></script>
-    </div>
-</aside>
+{% if repliesForPost.length %}
+<section class="Comments hidden@print" aria-labelledby="kommentarer">
+	<h2 class="Comments__title separator-heading" id="kommentarer"><span>Kommentarer</span>
+	</h2>
+	<ol class="Comments__list">
+		{% for reply in repliesForPost %}
+			{% if reply.author.name.length %}{%- set sluggedName = reply.author.name | slug -%}{% else %}{%- set sluggedName = reply.host | slug -%}{% endif %}
+			<li class="Comments__list-item{% if reply.author['is_me'] %} -is-me{% endif %}{% if not reply.content %} -no-content{% endif %}"
+				data-source="{{ reply.source }}">
+	<span class="Comments__metadata">
+	{% if reply.author.url %}
+	<a class="Comments__author" href="{{ reply.author.url }}" target="_blank"
+	   rel="external noopener noreferrer">
+		<img
+			class="Comments__avatar"
+			src="{{ reply.author.image or '' }}"
+			alt="Bild på {{ reply.author.name }}"
+			loading="lazy"
+			decoding="async"
+			width="48"
+			height="48"
+		>
+		{{ reply.author.name | safe }}</a>{% else %}
+	<span class="Comments__author">
+		{% if reply.author.image %}<img
+			class="Comments__avatar"
+			src="{{ reply.author.image }}"
+			alt="Bild på {{ reply.author.name }}"
+			loading="lazy"
+			decoding="async"
+			width="48"
+			height="48"
+			>{% endif %}
+		{{ reply.author.name | safe }}</span>{% endif %}{% if reply.type === 'mention-of' %} nämnde detta inlägg{% else %} kommenterade{% endif %} {% if reply.url %}
+			<a href="{{ reply.url }}" target="_blank" rel="external noopener noreferrer">
+			<time class="timeago" prefix
+				  datetime="{{ reply.published | dateFromString | fullISODate }}"
+				  title="{{ reply.published | dateFromString | longISODate }}">{{ reply.published | dateFromString | readableLongDate }}</time>
+			</a>{% else %}<span>
+			<time class="timeago" prefix
+				  datetime="{{ reply.published | dateFromString | fullISODate }}"
+				  title="{{ reply.published | dateFromString | longISODate }}">{{ reply.published | dateFromString | readableLongDate }}</time>
+			</span>{% endif %}
+	</span>
+				{{ reply.content | safe }}{% if reply.image %}<p><a
+						href="{{ reply.url }}"><img class="Comments__image"
+													src="{{ reply.image.preview_url }}"
+													alt="{{ reply.image.description }}"></a>
+					</p>{% endif %}
+			</li>
+		{% endfor %}
+	</ol>
+</section>
+{% endif %}
