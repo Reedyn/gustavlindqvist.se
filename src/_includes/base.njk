@@ -60,6 +60,12 @@ eleventyComputed:
         /* to prevent Firefox FOUC, this must be here*/
         let FF_FOUC_FIX;
     </script>
+	<noscript>
+		<style>
+			.Form.-inactive label, .Form.-inactive .-collapsed{ display: block !important; }
+			.Form.-inactive textarea { height: auto !important; resize: vertical; overflow: auto;}
+		</style>
+	</noscript>
 </head>
 <body class="{{ templateClass }}">
     <nav>
