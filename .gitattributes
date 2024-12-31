@@ -1,5 +1,6 @@
 *	text=lf
-
 [core]
-	autocrlf = true
+autocrlf=input
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
 . !text !filter !merge !diff
