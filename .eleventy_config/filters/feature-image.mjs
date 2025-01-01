@@ -79,18 +79,19 @@ export default async function (filePath, sizes, style, postData) {
 
 	let imageSrc = metadata[format][0];
 
-	const imageProxyWidths = [480, 800, 1080, 1620, 2430, 3600]
-		.filter((width) => width < imageSrc.width)
-		.push(imageSrc.width);
+	const imgProxyWidths = [480, 800, 1080, 1620, 2430, 3600].filter(
+		(width) => width < imageSrc.width,
+	);
+	imgProxyWidths.push(imageSrc.width);
 
 	console.log(
 		'[' + '\x1b[36m%s\x1b[0m',
-		'11ty Image' + '\x1b[0m' + ']:',
+		'Feature Image' + '\x1b[0m' + ']:',
 		'Created featured image ',
 		imageSrc.url,
 	);
 
-	const srcset = imageProxyWidths
+	const srcset = imgProxyWidths
 		.map((width) => {
 			return (
 				imgProxy

@@ -1,11 +1,20 @@
 /* eslint-disable no-console */
 import EleventyImage from '@11ty/eleventy-img';
 import path from 'node:path';
+import ImgProxy from 'imgproxy';
 
 export default async function (src, postData) {
+	const host = process.env.HOST;
 	if ((typeof src === 'undefined' || !src) && postData.outputPath) {
 		return src;
 	}
+
+	const imgProxy = new ImgProxy({
+		baseUrl: process.env.IMGPROXY_HOST,
+		key: process.env.IMGPROXY_KEY,
+		salt: process.env.IMGPROXY_SALT,
+		encode: true,
+	});
 
 	const documentPath = postData.filePathStem;
 	src = src.replace(/^\//, '');
@@ -56,11 +65,16 @@ export default async function (src, postData) {
 
 	let imageSrc = metadata[format][0];
 
+	const imageURL = imgProxy
+		.builder()
+		.width(500)
+		.generateUrl(host + imageSrc.url);
+
 	console.log(
 		'[' + '\x1b[36m%s\x1b[0m',
-		'11ty Image' + '\x1b[0m' + ']:',
+		'Open-Graph Image' + '\x1b[0m' + ']:',
 		'Created open-graph image ',
-		imageSrc.url,
+		imageURL,
 	);
-	return imageSrc.url;
+	return imageURL;
 }
