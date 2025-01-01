@@ -16,27 +16,6 @@ export default function (tokens, index, options, env) {
 	const token = tokens[index];
 	const source = decodeURI(token.attrGet('src'));
 
-	const host = process.env.HOST;
-	const imgProxy = new ImgProxy({
-		baseUrl: process.env.IMGPROXY_HOST,
-		key: process.env.IMGPROXY_KEY,
-		salt: process.env.IMGPROXY_SALT,
-		encode: true,
-	});
-	const attributes = {
-		alt: token.content,
-		loading: 'lazy',
-		decoding: 'async',
-	};
-	const style = token.attrGet('class') ? token.attrGet('class') : '';
-	const classString = ` class="image ${style}"`;
-	const caption = token.attrGet('title');
-	const attributesString =
-		' ' +
-		Object.keys(attributes)
-			.map((key) => `${key}="${attributes[key]}"`)
-			.join(' ');
-
 	// Where is the source file located?
 	let sourceLocation;
 	if (source === '') {
@@ -50,6 +29,21 @@ export default function (tokens, index, options, env) {
 	} else {
 		sourceLocation = 'local';
 	}
+
+	const host = process.env.HOST;
+	const attributes = {
+		alt: token.content,
+		loading: 'lazy',
+		decoding: 'async',
+	};
+	const style = token.attrGet('class') ? token.attrGet('class') : '';
+	const classString = ` class="image ${style}"`;
+	const caption = token.attrGet('title');
+	const attributesString =
+		' ' +
+		Object.keys(attributes)
+			.map((key) => `${key}="${attributes[key]}"`)
+			.join(' ');
 
 	let urlPrefix = '';
 	switch (sourceLocation) {
@@ -73,6 +67,13 @@ export default function (tokens, index, options, env) {
 			return `<img src="${source}"${classString}${attributesString}>`;
 
 		case 'local': {
+			const imgProxy = new ImgProxy({
+				baseUrl: process.env.IMGPROXY_HOST,
+				key: process.env.IMGPROXY_KEY,
+				salt: process.env.IMGPROXY_SALT,
+				encode: true,
+			});
+
 			urlPrefix = host;
 			const documentPath = env.page.filePathStem;
 			const outputPath = env.page.outputPath
@@ -117,9 +118,9 @@ export default function (tokens, index, options, env) {
 
 			let imageSrc = metadata[format][0];
 
-			const imgProxyWidths = [480, 800, 1080, 1620, 2430, 3600].filter(
-				(width) => width < imageSrc.width,
-			);
+			const imgProxyWidths = [480, 800, 1080, 1620, 2430, 3600]
+				.filter((width) => width < imageSrc.width)
+				.push(imageSrc.width);
 
 			let inlineStyling =
 				style === '-inline' ? ` style="flex: ${imageSrc.width / imageSrc.height}"` : '';
@@ -142,14 +143,6 @@ export default function (tokens, index, options, env) {
 			const captionElement = caption
 				? `<figcaption>${markdown.render(caption)}</figcaption>`
 				: '';
-			console.log(
-				imgProxy
-					.builder()
-					.width(300)
-					.generateUrl(
-						'https://gustavlindqvist.se/2024/10/09/skolgardskarta-till-talavidskolan/3Rx9ljY8jB-1589.jpeg',
-					),
-			);
 
 			const srcset = imgProxyWidths
 				.map((width) => {

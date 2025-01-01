@@ -79,9 +79,9 @@ export default async function (filePath, sizes, style, postData) {
 
 	let imageSrc = metadata[format][0];
 
-	const imageProxyWidths = [480, 800, 1080, 1620, 2430, 3600].filter(
-		(width) => width < imageSrc.width,
-	);
+	const imageProxyWidths = [480, 800, 1080, 1620, 2430, 3600]
+		.filter((width) => width < imageSrc.width)
+		.push(imageSrc.width);
 
 	console.log(
 		'[' + '\x1b[36m%s\x1b[0m',
