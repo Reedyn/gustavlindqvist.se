@@ -31,13 +31,13 @@ eleventyComputed:
                 {% if activity.type === 'Sail' %}<li><span>⛵</span><span>Jag seglade <a href="https://www.strava.com/activities/{{ activity.id }}"><time class="timeago" datetime="{{ activity.start_date | fullISODate }}" title="{{ activity.start_date | longISODate }}">{{ activity.start_date | readableDate }}</time> ({{ activity.name }})</a></span></li>{% endif %}
             {% endif %}{% endfor %}{% endif %}
 			<li><span>🗺️</span><span>Jag ritar nya kartor för orienteringsklubben 💙</span></li>
-			{% if steam.recently_played_games.length %}<li><span>🎮</span><span>Jag spelar{% for game in steam.recently_played_games %} <img class="icon -rounded" src="https://media.steampowered.com/steamcommunity/public/images/apps/{{ game.appid }}/{{ game.img_icon_url }}.jpg" alt="Ikon för spelet {{ game.name }}"> <a id="{{ game.appid }}" href="{{ game.url }}">{{ game.name }}</a>{% if loop.index0 < steam.recently_played_games.length - 2 %}, {% endif %}{% if loop.index0 == steam.recently_played_games.length - 2 %} och {% endif %}{% endfor %}</span></li>{% endif %}
+			{% if steam.recently_played_games.length %}<li><span>🎮</span><span>Jag spelar{% for game in steam.recently_played_games %} <img class="icon -rounded" src="{{ ('https://media.steampowered.com/steamcommunity/public/images/apps/'+game.appid+'/'+game.img_icon_url+'.jpg') | proxyImage(48) }}" alt="Ikon för spelet {{ game.name }}"> <a id="{{ game.appid }}" href="{{ game.url }}">{{ game.name }}</a>{% if loop.index0 < steam.recently_played_games.length - 2 %}, {% endif %}{% if loop.index0 == steam.recently_played_games.length - 2 %} och {% endif %}{% endfor %}</span></li>{% endif %}
 			<li><span>⌨️</span><span>Jag håller på att lära mig <strong>vim motions</strong></span></li>
             {% if goodreads.currently_reading.length >= 2 %}
 					<li>
 						<span>📚</span><span>Jag läser:</span>
 						<ul class="-icons">
-							{% for book in goodreads.currently_reading %}<li><img src="{{ book.book_small_image_url }}" alt=""><a id="{{ book.book_id }}" href="{{ book.url }}"><em>{{ book.title }}</em></a> av {{ book.author }}</li>{% endfor %}
+							{% for book in goodreads.currently_reading %}<li><img src="{{ book.book_small_image_url | proxyImage(48)}}" alt=""><a id="{{ book.book_id }}" href="{{ book.url }}"><em>{{ book.title }}</em></a> av {{ book.author }}</li>{% endfor %}
 						</ul>
 					</li>
 			{% elif goodreads.currently_reading.length %}

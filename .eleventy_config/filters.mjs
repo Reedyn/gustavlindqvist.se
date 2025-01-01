@@ -6,6 +6,7 @@ import markdown from './markdown.mjs';
 import functions from './functions.mjs';
 import featureImageFilter from './filters/feature-image.mjs';
 import openGraphImageFilter from './filters/open-graph-image.mjs';
+import proxyImage from './filters/proxy-image.mjs';
 import dates from './filters/dates.mjs';
 import statistics from './filters/statistics.mjs';
 import time from './filters/time.mjs';
@@ -157,4 +158,5 @@ export default {
 	count: (arr) => arr.length,
 	featureImageFilter,
 	openGraphImageFilter,
+	proxyImage,
 };
