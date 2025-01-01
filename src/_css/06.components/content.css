@@ -8,7 +8,7 @@
 		var(--layout-full) [full-end];
 	row-gap: var(--margin--small);
 	padding-top: var(--padding--small);
-	padding-bottom: var(--padding--small);
+	padding-bottom: var(--padding--medium);
 
 	/*noinspection CssInvalidMediaFeature*/
 	@media (--viewport--medium) {
