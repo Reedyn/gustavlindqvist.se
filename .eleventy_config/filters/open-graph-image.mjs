@@ -1,5 +1,6 @@
 /* eslint-disable no-console */
 import EleventyImage from '@11ty/eleventy-img';
+import path from 'node:path';
 
 export default async function (src, postData) {
 	if ((typeof src === 'undefined' || !src) && postData.outputPath) {
@@ -33,32 +34,33 @@ export default async function (src, postData) {
 	}
 
 	const options = {
-		widths: [500],
+		widths: [null],
 		formats: [null],
+		filenameFormat: function (id, src, width, format) {
+			const extension = path.extname(src);
+			const name = path.basename(src, extension);
+
+			return `${name}.${format}`;
+		},
 		outputDir: outputPath,
 		urlPath: postData.url,
-		sharpGifOptions: {
-			animated: true,
-		},
-		sharpJpegOptions: {
-			progressive: true,
-			optimiseScans: true,
-		},
 	};
 
-	let metadata = await EleventyImage(src, options);
-
 	let format = '';
+
+	EleventyImage(src, options);
+	const metadata = EleventyImage.statsSync(src, options);
 	for (const key in metadata) {
 		format = key;
 	}
 
-	let lowsrc = metadata[format].length > 1 ? metadata[format][1] : metadata[format][0];
+	let imageSrc = metadata[format][0];
+
 	console.log(
 		'[' + '\x1b[36m%s\x1b[0m',
 		'11ty Image' + '\x1b[0m' + ']:',
 		'Created open-graph image ',
-		lowsrc.url,
+		imageSrc.url,
 	);
-	return lowsrc.url;
+	return imageSrc.url;
 }
