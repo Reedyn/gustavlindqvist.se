@@ -16,6 +16,7 @@ export default function (tokens, index, options, env) {
 	const token = tokens[index];
 	const source = decodeURI(token.attrGet('src'));
 
+	const host = process.env.HOST;
 	const imgProxy = new ImgProxy({
 		baseUrl: process.env.IMGPROXY_HOST,
 		key: process.env.IMGPROXY_KEY,
@@ -50,6 +51,7 @@ export default function (tokens, index, options, env) {
 		sourceLocation = 'local';
 	}
 
+	let urlPrefix = '';
 	switch (sourceLocation) {
 		case 'null':
 			if (caption) {
@@ -58,6 +60,7 @@ export default function (tokens, index, options, env) {
 			return `<figure${classString}><img width="800" height="300"${attributesString}></figure>`;
 
 		case 'relative-to-root':
+			urlPrefix = host;
 			if (caption) {
 				return `<figure${classString}><img src="${source}"${attributesString}><figcaption><em>${markdown.render(caption)}</em></figcaption></figure>`;
 			}
@@ -70,6 +73,7 @@ export default function (tokens, index, options, env) {
 			return `<img src="${source}"${classString}${attributesString}>`;
 
 		case 'local': {
+			urlPrefix = host;
 			const documentPath = env.page.filePathStem;
 			const outputPath = env.page.outputPath
 				.substring(0, env.page.outputPath.lastIndexOf('/')) // Remove document from path
@@ -147,7 +151,10 @@ export default function (tokens, index, options, env) {
 			const srcset = widths
 				.map((width) => {
 					return (
-						imgProxy.builder().width(width).generateUrl(imageSrc.url) +
+						imgProxy
+							.builder()
+							.width(width)
+							.generateUrl(urlPrefix + imageSrc.url) +
 						' ' +
 						width +
 						'w'
@@ -161,7 +168,7 @@ export default function (tokens, index, options, env) {
 
 			return `<figure class="image ${style}"${inlineStyling}><picture>${sourceElement}
 			<img
-            src="${imageSrc.url}"
+            src="${urlPrefix + imageSrc.url}"
             width="${imageSrc.width}"
             height="${imageSrc.height}"
             ${attributesString}></picture>${captionElement}</figure>`;
