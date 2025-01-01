@@ -106,7 +106,7 @@ export default function (tokens, index, options, env) {
 			const metadata = EleventyImage.statsSync(filePath, options);
 			console.log(
 				'[' + '\x1b[36m%s\x1b[0m',
-				'11ty Image' + '\x1b[0m' + ']:',
+				'Markdown Image' + '\x1b[0m' + ']:',
 				'Create image element for ',
 				filePath,
 			);
@@ -118,9 +118,10 @@ export default function (tokens, index, options, env) {
 
 			let imageSrc = metadata[format][0];
 
-			const imgProxyWidths = [480, 800, 1080, 1620, 2430, 3600]
-				.filter((width) => width < imageSrc.width)
-				.push(imageSrc.width);
+			const imgProxyWidths = [480, 800, 1080, 1620, 2430, 3600].filter(
+				(width) => width < imageSrc.width,
+			);
+			imgProxyWidths.push(imageSrc.width);
 
 			let inlineStyling =
 				style === '-inline' ? ` style="flex: ${imageSrc.width / imageSrc.height}"` : '';
