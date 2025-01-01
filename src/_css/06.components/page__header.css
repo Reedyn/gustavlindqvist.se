@@ -17,6 +17,7 @@
 	.page-title {
 		margin-top: var(--margin--medium);
 		margin-bottom: var(--margin--small);
+		width: fit-content;
 		font-weight: 900;
 
 		svg {
