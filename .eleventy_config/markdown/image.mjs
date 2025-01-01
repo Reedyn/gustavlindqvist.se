@@ -78,15 +78,14 @@ export default function (tokens, index, options, env) {
 			const outputPath = env.page.outputPath
 				.substring(0, env.page.outputPath.lastIndexOf('/')) // Remove document from path
 				.replace(/^\//, ''); // remove first slash
+			const queryPath = outputPath.replace('./_site', '') + '/';
 
-			// If the image is absolute path or external
 			const folderPath =
 				'./src/' +
 				documentPath
 					.substring(0, documentPath.lastIndexOf('/') + 1) // Remove document from path
 					.replace(/^\//, ''); // remove first slash
 
-			const widths = [480, 800, 1080, 1620, 2430];
 			const options = {
 				widths: [null],
 				formats: [null],
@@ -118,6 +117,10 @@ export default function (tokens, index, options, env) {
 
 			let imageSrc = metadata[format][0];
 
+			const imgProxyWidths = [480, 800, 1080, 1620, 2430, 3600].filter(
+				(width) => width < imageSrc.width,
+			);
+
 			let inlineStyling =
 				style === '-inline' ? ` style="flex: ${imageSrc.width / imageSrc.height}"` : '';
 
@@ -148,13 +151,13 @@ export default function (tokens, index, options, env) {
 					),
 			);
 
-			const srcset = widths
+			const srcset = imgProxyWidths
 				.map((width) => {
 					return (
 						imgProxy
 							.builder()
 							.width(width)
-							.generateUrl(urlPrefix + imageSrc.url) +
+							.generateUrl(urlPrefix + queryPath + imageSrc.url) +
 						' ' +
 						width +
 						'w'
@@ -168,7 +171,7 @@ export default function (tokens, index, options, env) {
 
 			return `<figure class="image ${style}"${inlineStyling}><picture>${sourceElement}
 			<img
-            src="${urlPrefix + imageSrc.url}"
+            src="${urlPrefix + queryPath + imageSrc.url}"
             width="${imageSrc.width}"
             height="${imageSrc.height}"
             ${attributesString}></picture>${captionElement}</figure>`;
