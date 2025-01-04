@@ -20,9 +20,6 @@ date: 2019-10-17
 ## Andra konton
 
 <ul class="list -no-style">
-    <li class="list-item--twitter"><a rel="me" href="https://twitter.gustavlindqvist.se">
-            <svg class="icon icon--twitter" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/twitter.svg#twitter-icon"></use></svg> Mitt Twitterarkiv
-        </a></li>
     <li class="list-item--steam"><a rel="me" href="https://steamcommunity.com/id/reedyn">
             <svg class="icon icon--steam" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/steam.svg#steam-icon"></use></svg> Steam
         </a></li>
