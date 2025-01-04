@@ -24,8 +24,7 @@ eleventyComputed:
     <section aria-label="Lista över innehåll" class="page-content content" id="page-content">
 		<ul class="post-list">
             {% for post in inoreader.linkblog %}<li class="post-list__item">
-				<h3 class="post-title"><a id="{{ post.url | hashString}}" class="post-link" href="{{ post.url }}">{{ post.title | safe }}</a></h3><span class="post-metadata">{{ post.source.name | safe }}</span>
-				</li>{% endfor %}
+				<a id="{{ post.url | hashString}}" class="post-link" href="{{ post.url }}">{{ post.title | safe }}</a> <span class="post-metadata">{{ post.source.name | safe }}</span></li>{% endfor %}
 		</ul>
     </section>
 </article>
