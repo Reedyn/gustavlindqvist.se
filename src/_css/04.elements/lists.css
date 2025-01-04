@@ -59,15 +59,21 @@ ol {
 		margin-inline-start: 1.75em;
 		padding-inline-start: 0;
 		grid-gap: 0.4em;
-		position: relative;
 		list-style: none;
 
 		> li {
+			position: relative;
 			> :first-child {
 				position: absolute;
+				top: initial;
+				bottom: initial;
 				left: -1.75em;
 				max-width: 1.5em;
 				max-height: 1.5em;
+
+				&:is(.icon) {
+					width: 1.25em;
+				}
 			}
 
 			:nth-child(2) {
