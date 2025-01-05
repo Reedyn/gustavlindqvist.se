@@ -52,7 +52,7 @@ Framme i Gränna tog vi oss upp till [ställplatsen](https://talt.visingsostallp
 
 ![Flygfoto över hamnen på Visingsö som jag inte har fått spridningstillstånd från Lantmäteriet ännu ⏳️](){.-full}
 
-<p>Jag skickade in min ansökan för spridning <time class="timeago" datetime="2024-09-17T07:57:00+0100" title="2024-09-17">17 september</time> 😕</p>
+<p>Jag skickade in min spridningstillståndsansökan <time class="timeago" datetime="2024-09-17T07:57:00+0100" title="2024-09-17">17 september</time> 😕</p>
 
 ## Visingsö runt
 
