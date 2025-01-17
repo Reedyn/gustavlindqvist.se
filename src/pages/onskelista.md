@@ -19,3 +19,4 @@ eleventyExcludeFromCollections: true
   - [ ] [Matmolekyler - kokbok för nyfikna (2013)](https://www.bokborsen.se/?qt=Matmolekyler+%3A+kokbok+f%C3%B6r+nyfikna) (~250kr)
   - [ ] [Kodak Tri-X Svartvit film](https://www.cyberphoto.se/foto-video/analog-fotografi/svart-vit-film/kodak-tri-x-400-135-36) (~170kr)
   - [ ] [Historical Brewing Techniques](https://www.adlibris.com/se/bok/historical-brewing-techniques-9781938469558) (255kr)
+  - [ ] [Home Assistant SkyConnect](https://www.kjell.com/se/produkter/smarta-hem/controllers/nabu-casa-home-assistant-skyconnect-p88431) (370kr)
