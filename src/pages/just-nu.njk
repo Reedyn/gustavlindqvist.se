@@ -30,6 +30,7 @@ eleventyComputed:
                 {% if activity.type === 'Hike' %}<li><span>‍🎒</span><span>Jag vandrade <a href="https://www.strava.com/activities/{{ activity.id }}">{% if activity.distance_km %} <span class="activity-distance">{{ activity.distance_km | dotToComma }}km</span> ({{ activity.name }}){% endif %}</a> <time class="timeago" datetime="{{ activity.start_date | fullISODate }}" title="{{ activity.start_date | longISODate }}">{{ activity.start_date | readableDate }}</time></span></li>{% endif %}
                 {% if activity.type === 'Sail' %}<li><span>⛵</span><span>Jag seglade <a href="https://www.strava.com/activities/{{ activity.id }}"><time class="timeago" datetime="{{ activity.start_date | fullISODate }}" title="{{ activity.start_date | longISODate }}">{{ activity.start_date | readableDate }}</time> ({{ activity.name }})</a></span></li>{% endif %}
             {% endif %}{% endfor %}{% endif %}
+			<li><span>🔃</span><span>Jag leker med automatiseringar med det smarta hemmet</span></li>
 			{% if steam.recently_played_games.length >= 2 %}
 			<li>
 				<span>🎮</span><span>Jag spelar:</span>
