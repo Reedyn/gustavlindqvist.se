@@ -169,6 +169,10 @@ export default async () => {
 		}
 	};
 
+	packstack.jamtlandstriangeln_2025 = await getPack(
+		'1347',
+		'7b57ce93-3c7e-4728-a2a9-e8b7f7e3237f',
+	);
 	packstack.bankerydsleden_2022 = await getPack('368', '020cc93d-2d4e-43c0-9df4-c1ccb63c90eb');
 	packstack.visingso2024 = await getPack('1054', 'fe2c7512-dbd3-4d28-83d4-d3c658767101');
 	packstack.summer_2024 = await getPack('909', '7b57ce93-3c7e-4728-a2a9-e8b7f7e3237f');
