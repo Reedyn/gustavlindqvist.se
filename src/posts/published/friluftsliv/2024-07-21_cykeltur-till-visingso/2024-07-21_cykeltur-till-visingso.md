@@ -50,9 +50,7 @@ Framme i Gränna tog vi oss upp till [ställplatsen](https://talt.visingsostallp
 
 ![Ett rött tunneltält på en klippt gräsmatta. Intill står två cyklar lutade mot varandra. Bakom tältet skymtas en tvättlina som det hänger några blåa plagg på.](Gustav-Lindqvist_2024-07-18_02701-Pano_3000w.jpg "Vårt fina nya tält ❤️"){.-full}
 
-![Flygfoto över hamnen på Visingsö som jag inte har fått spridningstillstånd från Lantmäteriet ännu ⏳️](){.-full}
-
-<p>Jag skickade in min spridningstillståndsansökan <time class="timeago" datetime="2024-09-17T07:57:00+0100" title="2024-09-17">17 september</time> 😕</p>
+![Flygfoto över hamnen på Visingsö med Vättern i bakgrunden under en blå himmel](Gustav-Lindqvist_2024-07-18_0155-HDR.jpg){.-full}
 
 ## Visingsö runt
 
