@@ -16,7 +16,7 @@ eleventyExcludeFromCollections: true
   - [x] [~~Grön Gant-tröja~~](https://www.gant.secasual-bomullstroeja-med-halv-dragkedja-tartan-green/8030170-374.html) (~1500kr)
   - [ ] [Lupp till tumkompass](https://www.olspecialisten.com/sv/kompasser/tumluppar/silva-tumlupp-arc-zoom.html) (~550kr)
   - [ ] [m.2 fodral](https://www.komplett.se/product/1301433/datorutrustning/lagring/haarddisk/externa-chassi/icy-box-enclosure-ib-1807mt-c31) (~350kr)
-  - [ ] [Matmolekyler - kokbok för nyfikna (2013)](https://www.bokborsen.se/?qt=Matmolekyler+%3A+kokbok+f%C3%B6r+nyfikna) (~250kr)
+  - [x] [~~Matmolekyler - kokbok för nyfikna (2013)~~](https://www.bokborsen.se/?qt=Matmolekyler+%3A+kokbok+f%C3%B6r+nyfikna) (~250kr)
   - [x] [~~Kodak Tri-X Svartvit film~~](https://www.cyberphoto.sefoto-video/analog-fotografi/svart-vit-film/kodak-tri-x-400-135-36) (~170kr)
   - [ ] [Historical Brewing Techniques](https://www.adlibris.com/se/bok/historical-brewing-techniques-9781938469558) (255kr)
   - [ ] [Home Assistant SkyConnect](https://www.kjell.com/se/produkter/smarta-hem/controllers/nabu-casa-home-assistant-skyconnect-p88431) (370kr)
