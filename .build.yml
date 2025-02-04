@@ -1,0 +1,11 @@
+image: alpine/edge
+secrets:
+    - 46f739e5-4538-45dd-a79f-bf173b7a2ed9
+environment:
+    REPO: gustavlindqvist.se
+    GH_USER: Reedyn
+tasks:
+    - push-to-github: |
+          cd ~/"${REPO}"
+          git config --global credential.helper store
+          git push --mirror "https://github.com/${GH_USER}/${REPO}"
