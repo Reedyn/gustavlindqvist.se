@@ -1,6 +1,6 @@
 image: alpine/edge
 secrets:
-    - 46f739e5-4538-45dd-a79f-bf173b7a2ed9
+    - 78946f06-2da2-46f0-9a98-d40bd6362f38
 environment:
     REPO: gustavlindqvist.se
     GH_USER: Reedyn
