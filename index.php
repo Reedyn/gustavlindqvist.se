@@ -1,1 +1,1 @@
-<?php echo "Hello World"; ?>
+<?php echo $_ENV['name']; ?>
