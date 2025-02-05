@@ -1,6 +1,5 @@
 <?php
-
-namespace src\Directus;
+namespace Directus;
 class Collection {
 	protected string $hostname;
 	protected string $token;

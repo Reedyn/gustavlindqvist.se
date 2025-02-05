@@ -1,6 +1,4 @@
 <?php
-
-namespace src;
 class Mastodon {
 	protected string $hostname;
 
