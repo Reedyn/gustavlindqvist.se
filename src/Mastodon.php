@@ -1,5 +1,6 @@
 <?php
 
+namespace src;
 class Mastodon {
 	protected string $hostname;
 
@@ -7,7 +8,7 @@ class Mastodon {
 		$this->hostname = $hostname;
 	}
 
-	public function getStatusContext ($mastodon_post_id) {
+	public function getStatusContext($mastodon_post_id) {
 		$ch = curl_init();
 		$url = $this->hostname . '/api/v1/statuses/' . $mastodon_post_id . '/context';
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
@@ -16,9 +17,10 @@ class Mastodon {
 		$httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 		curl_close($ch);
 
-		if ($httpcode == 200){
-			return json_decode($response, true);
+		if ($httpcode == 200) {
+			return json_decode($response, TRUE);
 		}
+
 		return null;
 	}
 }

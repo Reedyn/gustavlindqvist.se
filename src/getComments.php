@@ -1,4 +1,7 @@
 <?php
+
+use src\Mastodon;
+
 require 'Directus/Collection.php';
 require 'Mastodon.php';
 
