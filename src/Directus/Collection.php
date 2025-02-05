@@ -1,8 +1,5 @@
 <?php
-
-namespace Directus;
-
-class Directus {
+class Collection {
 	protected string $hostname;
 	protected string $token;
 
@@ -19,7 +16,7 @@ class Directus {
 	 *
 	 * @return bool|string
 	 */
-	public function getCollection(string $collection_name) {
+	public function getMetadata(string $collection_name) {
 		$ch = curl_init();
 
 		$url = $this->hostname . '/collections/' . $collection_name;
@@ -44,9 +41,13 @@ class Directus {
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 		curl_setopt($ch, CURLOPT_URL, $url);
 		$response = curl_exec($ch);
+		$httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 		curl_close($ch);
 
-		return $response;
+		if ($httpcode == 200){
+			return $response;
+		}
+		return null;
 	}
 
 	public function testAccess() {
