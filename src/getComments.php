@@ -31,15 +31,15 @@ if ($postMappingList) {
 
 		$Mastodon = new Mastodon($foundPost['mastodon_host']);
 		$postReplies = $Mastodon->getStatusContext($foundPost['mastodon_post_id']);
-		echo '<pre>';
-		var_export($postReplies['descendants']);
-		echo '</pre>';
+		foreach ($postReplies['descendants'] as $reply) {
+			echo "<p>{$reply['content']}</p>";
+		}
 	} else {
 		http_response_code(404);
+		exit();
 	}
-
 } else {
 	http_response_code(404);
+	exit();
 }
-
 ?>
