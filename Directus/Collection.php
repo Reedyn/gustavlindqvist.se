@@ -1,4 +1,6 @@
 <?php
+
+namespace Directus;
 class Collection {
 	protected string $hostname;
 	protected string $token;
@@ -44,9 +46,10 @@ class Collection {
 		$httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 		curl_close($ch);
 
-		if ($httpcode == 200){
+		if ($httpcode == 200) {
 			return $response;
 		}
+
 		return null;
 	}
 
