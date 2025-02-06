@@ -1,7 +1,6 @@
 <?php
-require 'Directus/Collection.php';
+require 'DirectusCollection.php';
 require 'Mastodon.php';
-use Directus\Collection;
 header('Content-Type: text/html');
 
 $env = getenv();
