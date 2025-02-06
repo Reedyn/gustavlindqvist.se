@@ -1,0 +1,13 @@
+{
+    "name": "reedyn/dynamic-gustavlindqvist",
+    "require": {
+        "twig/twig": "^3.19"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gustav Lindqvist",
+            "email": "gustav@gustavlindqvist.se"
+        }
+    ]
+}

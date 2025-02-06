@@ -1,6 +1,8 @@
 <?php
-require 'DirectusCollection.php';
-require 'Mastodon.php';
+require 'Directus/DirectusCollection.php';
+require 'Mastodon/Post.php';
+require 'Template/Template.php';
+
 header('Content-Type: text/html');
 
 define('DEV', (isset($_GET['dev']) || isset($_GET['DEV'])) ? TRUE : FALSE);
@@ -21,29 +23,31 @@ if (!isset($_GET['path']) || strlen($_GET['path']) == 0) {
 	exit();
 }
 
-function findMatchingPost (string $path, array $postList) {
+function findMatchingPost(string $path, array $postList) {
 	foreach ($postList as $post) {
 		if ($post['post_path'] == $path) {
 			return $post;
 		}
 	}
+
 	return null;
 }
 
 $DirectusCollection = new Collection($env['DIRECTUS_HOSTNAME'], $env['DIRECTUS_TOKEN']);
 $postMappingList = $DirectusCollection->getItems('PostMastodonMapping');
 if ($postMappingList) {
-	$postMappingListData = json_decode($postMappingList, true);
-
+	$postMappingListData = json_decode($postMappingList, TRUE);
 	$foundPost = findMatchingPost($_GET['path'], $postMappingListData['data']);
 
 	if ($foundPost) {
+		$MastodonPost = new Mastodon\Post($foundPost['mastodon_host']);
+		$postReplies = $MastodonPost->getStatusContext($foundPost['mastodon_post_id']);
 
-		$Mastodon = new Mastodon($foundPost['mastodon_host']);
-		$postReplies = $Mastodon->getStatusContext($foundPost['mastodon_post_id']);
-		foreach ($postReplies['descendants'] as $reply) {
-			echo "<p>{$reply['content']}</p>";
-		}
+		$Template = new Template();
+		echo $Template->render('comments.html.twig',['name'=>'Gustav']);
+//		foreach ($postReplies['descendants'] as $reply) {
+//			echo "<p>{$reply['content']}</p>";
+//		}
 	} else {
 		http_response_code(404);
 		exit();
@@ -52,4 +56,3 @@ if ($postMappingList) {
 	http_response_code(404);
 	exit();
 }
-?>

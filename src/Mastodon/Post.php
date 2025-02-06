@@ -1,5 +1,6 @@
 <?php
-class Mastodon {
+namespace Mastodon;
+class Post {
 	protected string $hostname;
 
 	public function __construct(string $hostname) {
