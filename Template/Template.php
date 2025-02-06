@@ -1,5 +1,7 @@
 <?php
-require '../vendor/autoload.php';
+
+namespace Template;
+require __DIR__.'/../vendor/autoload.php';
 
 define('DEV', (isset($_GET['dev']) || isset($_GET['DEV'])) ? TRUE : FALSE);
 
@@ -17,11 +19,18 @@ use Twig\Loader\FilesystemLoader;
 
 class Template {
 	protected $twig;
+
 	public function __construct() {
 		$loader = new FilesystemLoader(__DIR__ . '/templates');
 		$this->twig = new Environment($loader);
 	}
-	public function render ($templateName, $data) {
+
+	/**
+	 * @throws \Twig\Error\SyntaxError
+	 * @throws \Twig\Error\RuntimeError
+	 * @throws \Twig\Error\LoaderError
+	 */
+	public function render($templateName, $data) {
 		return $this->twig->render($templateName, $data);
 	}
 }

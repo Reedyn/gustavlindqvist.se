@@ -1,7 +1,7 @@
 <?php
-require 'Directus/DirectusCollection.php';
-require 'Mastodon/Post.php';
-require 'Template/Template.php';
+require __DIR__.'/Directus/DirectusCollection.php';
+require __DIR__.'/Mastodon/Post.php';
+require __DIR__.'/Template/Template.php';
 
 header('Content-Type: text/html');
 
@@ -33,7 +33,7 @@ function findMatchingPost(string $path, array $postList) {
 	return null;
 }
 
-$DirectusCollection = new Collection($env['DIRECTUS_HOSTNAME'], $env['DIRECTUS_TOKEN']);
+$DirectusCollection = new Directus\Collection($env['DIRECTUS_HOSTNAME'], $env['DIRECTUS_TOKEN']);
 $postMappingList = $DirectusCollection->getItems('PostMastodonMapping');
 if ($postMappingList) {
 	$postMappingListData = json_decode($postMappingList, TRUE);
@@ -43,7 +43,7 @@ if ($postMappingList) {
 		$MastodonPost = new Mastodon\Post($foundPost['mastodon_host']);
 		$postReplies = $MastodonPost->getStatusContext($foundPost['mastodon_post_id']);
 
-		$Template = new Template();
+		$Template = new Template\Template();
 		echo $Template->render('comments.html.twig',['name'=>'Gustav']);
 //		foreach ($postReplies['descendants'] as $reply) {
 //			echo "<p>{$reply['content']}</p>";
