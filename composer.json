@@ -1,6 +1,7 @@
 {
     "name": "reedyn/dynamic-gustavlindqvist",
     "require": {
+        "php": ">=8.2",
         "twig/twig": "^3.19"
     },
     "license": "MIT",
