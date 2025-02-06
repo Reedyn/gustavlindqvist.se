@@ -3,6 +3,17 @@ require 'DirectusCollection.php';
 require 'Mastodon.php';
 header('Content-Type: text/html');
 
+define('DEV', (isset($_GET['dev']) || isset($_GET['DEV'])) ? TRUE : FALSE);
+
+error_reporting(E_ALL);
+if (DEV) {
+	ini_set('display_errors', 1);
+	ini_set('display_startup_errors', 1);
+} else {
+	ini_set('log_errors', 1);
+	ini_set('error_log', $_SERVER['SERVER_ROOT'] . '/var/log/PHP.Errors.' . date("Y-m-d") . '.log');
+}
+
 $env = getenv();
 
 if (!isset($_GET['path']) || strlen($_GET['path']) == 0) {
