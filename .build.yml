@@ -1,11 +1,23 @@
 image: alpine/edge
 secrets:
     - 78946f06-2da2-46f0-9a98-d40bd6362f38
+    - 60267f19-9506-4185-96fc-8887db4d7104
 environment:
     REPO: gustavlindqvist.se
     GH_USER: Reedyn
+    COOLIFY_HOST: coolify.pokenet.cloud
+    COOLIFY_CONTAINER_ID: lk4gsg48w8c4ooo40o4ok4c0
 tasks:
     - push-to-github: |
           cd ~/"${REPO}"
           git config --global credential.helper store
           git push --mirror "https://github.com/${GH_USER}/${REPO}"
+    - deploy-coolify: |
+          cd ~/"${REPO}"
+          {
+            set +x
+            . ~/.buildsecrets
+            set -x
+          }
+          export COOLIFY_API_TOKEN
+          curl https://${COOLIFY_HOST}/api/v1/deploy?uuid=${COOLIFY_CONTAINER_ID}&force=false -H "Authorization: Bearer {token}"-H "Authorization: Bearer ${COOLIFY_API_TOKEN}"
