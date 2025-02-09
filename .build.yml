@@ -22,4 +22,4 @@ tasks:
             set -x
           }
           export COOLIFY_API_TOKEN
-          curl https://${COOLIFY_HOST}/api/v1/deploy?uuid=${COOLIFY_CONTAINER_UUID}&force=true -H "Authorization: Bearer ${COOLIFY_API_TOKEN}"
+          curl --header "Authorization: Bearer ${COOLIFY_API_TOKEN}" https://${COOLIFY_HOST}/api/v1/deploy?uuid=${COOLIFY_CONTAINER_UUID}&force=true
