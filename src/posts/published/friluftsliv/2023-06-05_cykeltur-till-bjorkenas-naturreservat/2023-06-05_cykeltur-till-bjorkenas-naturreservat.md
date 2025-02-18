@@ -72,10 +72,6 @@ Vid kommungränsen var det inte långt kvar. Framme i naturreservatet slog jag d
 
 Trots att jag nu var ganska hungrig så valde jag att ta ett dopp i sjön innan jag gjorde något annat. Det var väldigt långgrunt så jag gav upp med att hitta djupt vatten efter några meter och bara gjorde ett snabbt dopp.
 
-<figure class="embed video">
-    <iframe title="Dopp i sjön Ören" src="https://video.gustavlindqvist.se/videos/embed/b90f9ac9-af62-4aac-b001-5a54c0e1157e?title=0&amp;warningTitle=0&amp;p2p=0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560" height="315" frameborder="0"></iframe>
-</figure>
-
 Med lite mat i magen tog jag på mig lite myggskyddande kläder och gick iväg för att se om jag kunde fånga något på bild med kameran.
 
 ![Solnedgångöver sjön Ören](Gustav-Lindqvist_2023-06-04_08876-HDR.jpg){.-full}

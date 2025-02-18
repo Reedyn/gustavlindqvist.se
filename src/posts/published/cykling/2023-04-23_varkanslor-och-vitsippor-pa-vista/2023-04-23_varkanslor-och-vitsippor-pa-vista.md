@@ -17,7 +17,7 @@ När gruset sopas undan, sommardäcken åker på och vitsipporna slår ut så ve
 Jag var inte den enda som insett detta och jag mötte flera cyklister som njöt till fullo av de fantastiska torra stigarna.
 
 <figure class="embed -wide">
-<iframe title="Vitsippor på Vista" src="https://video.gustavlindqvist.se/videos/embed/43d2ef61-8716-47de-82f1-919581bb94b2?start=2m56s&amp;stop=5m30s&amp;muted=0&amp;warningTitle=0&amp;peertubeLink=0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560" height="315" frameborder="0" alt="Video filmad med en kamera monterad på bröstet på en cykel som åker nedför en slingrig stig i ett hav av vitsippor."></iframe>
+	<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zg4buCR2ji4?si=AcPeYI-r6v039zy8" title="Video filmad med en kamera monterad på bröstet på en cykel som åker nedför en slingrig stig i ett hav av vitsippor." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <figcaption><p>Varning för mitt flåsande!</p></figcaption>
 </figure>
 

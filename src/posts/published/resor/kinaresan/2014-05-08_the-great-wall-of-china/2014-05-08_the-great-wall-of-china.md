@@ -20,4 +20,4 @@ Under drygt tre timmar klättrade vi upp till tornet som syns till höger på bi
 
 När man skulle ner fick man åka med en rutschkana (och man fick inte fotografera, fast det gjorde vi ändå)
 
-<figure class="embed"><iframe title="Riding toboggan" src="https://video.gustavlindqvist.se/videos/embed/3c4c823e-3e50-4b7e-a620-99b1ae9bb359?title=0&amp;warningTitle=0&amp;peertubeLink=0&amp;p2p=0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560" height="315" frameborder="0"></iframe></figure>
+<figure class="embed"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KiydBeuMLvU?si=Hd7rnn5E7xmkVTIr" title="Riding toboggan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></figure>

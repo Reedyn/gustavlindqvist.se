@@ -62,7 +62,7 @@ Ocean Park är uppdelat i två delar, en halva som ligger i dalen, där fanns ak
 
 Ocean Park avslutades med att se på deras fontänshow med specialeffekter.
 
-<figure class="embed"><iframe title="Symbio!" src="https://video.gustavlindqvist.se/videos/embed/e91251e2-915b-43ab-a364-d7494b5d8e3a?start=5s&amp;title=0&amp;warningTitle=0&amp;peertubeLink=0&amp;p2p=0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560" height="315" frameborder="0"></iframe></figure>
+<figure class="embed"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pA9t6i9AvIg?si=fkQMopXRIO8BmWda" title="Symbio! A water and light show at Ocean Park in Hong Kong" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></figure>
 
 ## Dag 3
 

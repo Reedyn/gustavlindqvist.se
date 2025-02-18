@@ -28,7 +28,7 @@ Mårdselforsen är en liten bit av Vindelälven där de byggt broar över och la
 ::::
 
 <figure class="embed video -wide">
-    <iframe title="En film över Mårdselforsen sett från flera olika vinklar" src="https://video.gustavlindqvist.se/videos/embed/f7978313-beb3-4232-95bb-9984eed1f8e8?title=0&amp;warningTitle=0&amp;p2p=0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560" height="315" frameborder="0"></iframe>
+	<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZfeXWu4GXrs?si=YA9-5yHwdUfkluYR" title="En film över Mårdselforsen sett från flera olika vinklar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </figure>
 
 ![En person med en kamera i handen som står under en bro som går över en fors](Gustav-Lindqvist_2023-07-03_00119_3000w.jpg "Josefine fotograferar Mårdselforsen"){.-wide}
