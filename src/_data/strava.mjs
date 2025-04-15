@@ -44,7 +44,8 @@ export default async () => {
 		return undefined;
 	}
 	async function getNewAccessToken() {
-		const code = 'eb746925150defc9b08d9667cc587be78509a6b3';
+		// https://www.strava.com/oauth/authorize?client_id=80328&response_type=code&redirect_uri=http://localhost/token_exchange.php&approval_prompt=force&scope=activity:read_all
+		const code = 'c8ad6bf6d3356f6566cb9ce2df7f5c4bbcc094e6';
 
 		let response = await nodeFetch('https://www.strava.com/api/v3/oauth/token', {
 			method: 'POST',
