@@ -23,7 +23,6 @@ export default async () => {
 			return await response.text();
 		}
 		return undefined;
-
 	}
 
 	async function getValue(key) {
@@ -40,18 +39,44 @@ export default async () => {
 		let response = await nodeFetch(`https://api.thisdb.com/v1/${bucketId}/${key}`, init);
 
 		if (response.ok) {
-			return await response.text();
+			return await response.json();
 		}
 		return undefined;
 	}
+	async function getNewAccessToken() {
+		const code = 'eb746925150defc9b08d9667cc587be78509a6b3';
+
+		let response = await nodeFetch('https://www.strava.com/api/v3/oauth/token', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json',
+			},
+			body: JSON.stringify({
+				client_id: process.env.STRAVA_CLIENTID,
+				client_secret: process.env.STRAVA_SECRET,
+				grant_type: 'authorization_code',
+				code: code,
+			}),
+		});
+
+		const bearerToken = await response.json();
+
+		const thisDBResponse = await setValue('strava', bearerToken);
+		console.log(thisDBResponse);
+
+		const thisDBSavedValue = await getValue('strava');
+		console.log(thisDBSavedValue);
+	}
+
+	// await getNewAccessToken();
+	// process.exit();
 
 	async function getAccessToken() {
 		let bearerToken = await getValue('strava');
 
-		const expirationDate = (bearerToken) ? new Date(bearerToken.expires_at * 1000) : undefined;
-		if (!bearerToken || expirationDate < new Date()) {
-			// Is the token expired?
+		const expirationDate = new Date(bearerToken.expires_at * 1000);
 
+		if (typeof bearerToken.access_token === 'undefined' || expirationDate < new Date()) {
 			let response = await nodeFetch('https://www.strava.com/api/v3/oauth/token', {
 				method: 'POST',
 				headers: {
@@ -67,7 +92,7 @@ export default async () => {
 
 			bearerToken = await response.json();
 
-			setValue('strava', bearerToken);
+			await setValue('strava', bearerToken);
 
 			return bearerToken.access_token;
 		}
@@ -78,6 +103,7 @@ export default async () => {
 		function sign(value) {
 			return value && 1 ? ~(value >>> 1) : value >>> 1;
 		}
+
 		function integers(value, start, end, fn) {
 			let byte = 0;
 			let current = 0;
@@ -99,6 +125,7 @@ export default async () => {
 				}
 			}
 		}
+
 		function decode(value, { factor = 1e5, mapFn, start = 0, end = value.length } = {}) {
 			const points = [];
 			let x;
@@ -132,6 +159,7 @@ export default async () => {
 
 			return points;
 		}
+
 		let outerBounds = {
 			north: undefined,
 			south: undefined,
