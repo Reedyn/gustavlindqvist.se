@@ -49,7 +49,7 @@ export default async () => {
 		let bearerToken = await getValue('strava');
 
 		const expirationDate = (bearerToken) ? new Date(bearerToken.expires_at * 1000) : undefined;
-		if (expirationDate < new Date()) {
+		if (expirationDate && expirationDate < new Date()) {
 			// Is the token expired?
 
 			let response = await nodeFetch('https://www.strava.com/api/v3/oauth/token', {
