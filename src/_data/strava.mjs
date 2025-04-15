@@ -19,7 +19,11 @@ export default async () => {
 
 		let response = await nodeFetch(`https://api.thisdb.com/v1/${bucketId}/${key}`, init);
 
-		return await response.text();
+		if (response.ok) {
+			return await response.text();
+		}
+		return undefined;
+
 	}
 
 	async function getValue(key) {
@@ -35,15 +39,14 @@ export default async () => {
 
 		let response = await nodeFetch(`https://api.thisdb.com/v1/${bucketId}/${key}`, init);
 
-		console.log('THISDB');
-		console.log(response);
+
 		return await response.json();
 	}
 
 	async function getAccessToken() {
 		let bearerToken = await getValue('strava');
-		const expirationDate = new Date(bearerToken.expires_at * 1000);
-		if (expirationDate < new Date()) {
+		const expirationDate = (bearerToken) ? new Date(bearerToken.expires_at * 1000) : undefined;
+		if (expirationDate && expirationDate < new Date()) {
 			// Is the token expired?
 
 			let response = await nodeFetch('https://www.strava.com/api/v3/oauth/token', {
