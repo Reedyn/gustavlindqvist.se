@@ -35,6 +35,8 @@ export default async () => {
 
 		let response = await nodeFetch(`https://api.thisdb.com/v1/${bucketId}/${key}`, init);
 
+		console.log('THISDB');
+		console.log(response);
 		return await response.json();
 	}
 
