@@ -31,13 +31,13 @@ att köpa något som täcker mina behov idag och sen behöva uppgradera om någr
 
 ## En jämförelse med gamla servern
 
-|             | Garbodor (Unraid NAS)                     | Umbreon (Synology DS916+)                  |
-|-------------|-------------------------------------------|--------------------------------------------|
-| *Processor* | Intel Core i3-13100 `4x3,4 GHz (4,5 Ghz)` | Intel Pentium N3710 `4x1,6 GHz (2,56 Ghz)` |
-| *Minne*     | 32GB DDR5                                 | 8GB DDR3                                   |
-| *SSD* cache | 1TB (i RAID)                              | `null`                                     |
-| *Lagring*   | 8 diskar                                  | 4 diskar                                   |
-| *Ethernet*  | 2,5GbE                                    | 1 GbE                                      | 
+|             | Garbodor (Unraid NAS)                | Umbreon (Synology DS916+)          |
+|-------------|--------------------------------------|------------------------------------|
+| *Processor* | Intel i3-13100 `4x3,4 GHz (4,5 Ghz)` | Intel N3710 `4x1,6 GHz (2,56 Ghz)` |
+| *Minne*     | 32GB DDR5                            | 8GB DDR3                           |
+| *SSD* cache | 1TB (i RAID)                         | `null`                             |
+| *Lagring*   | 8 diskar                             | 4 diskar                           |
+| *Ethernet*  | 2,5GbE                               | 1 GbE                              | 
 
 *(Ja, jag gillar att döpa alla mina enheter efter Pokémon)*
 

@@ -78,8 +78,8 @@ export default async () => {
 			folder_name: 'Bibliotek',
 		},
 		{
-			title: 'Forskning',
-			folder_name: 'Forskning',
+			title: 'Utbildning & forskning',
+			folder_name: 'Utbildning+%26+forskning',
 		},
 		{
 			title: 'Webcomics',
