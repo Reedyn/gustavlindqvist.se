@@ -37,6 +37,8 @@ Trakterna längs gamla Riksettan (Grännavägen) är fantastiska mellan Jönköp
 
 Framme i Gränna efter ungefär 45km var cyklingen för dagen över och endast en båttur återstod till vår destination. Båten går en gång i halvtimmen ungefär och är så smidig som den kan bli.
 
+![Gränna hamn med Grännaberget i bakgrunden sett från vattnet. Solen lyser upp landskapet fläckvis genom molnen.](Gustav-Lindqvist_2024-07-18_02673.jpg){.-full}
+
 Kollektivtrafik 💚
 
 :::: gallery {.-wide}

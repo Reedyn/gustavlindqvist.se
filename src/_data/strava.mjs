@@ -20,7 +20,7 @@ export default async () => {
 		let response = await nodeFetch(`https://api.thisdb.com/v1/${bucketId}/${key}`, init);
 
 		if (response.ok) {
-			return await response.text();
+			return await response.json();
 		}
 		return undefined;
 	}
