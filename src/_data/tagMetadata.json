@@ -268,6 +268,10 @@
 		"emoji": "\uD83D\uDFE7",
 		"type": "hiking_trail"
 	},
+	"smarta-hemmet": {
+		"title": "Smarta hemmet",
+		"type": "subject"
+	},
 	"sommar": {
 		"title": "sommar",
 		"emoji": "\uD83C\uDF33",
