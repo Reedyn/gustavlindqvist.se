@@ -38,20 +38,27 @@ En framtida tanke är att ha en VM som bara är gjord för att köra [OpenDroneM
 
 <div class="fleuron">🤷</div>
 
-Det enda som har blivit en försämring är energiförbrukningen. Servern har runt 30-40W i effekt i idle. Min gamla server hade sina komponenter skräddarsydda och hade därför extremt låg energiförbrukning, oftast runt 3–6 watt. I teorin kan jag få ner energiförbrukningen betydligt mer, men eftersom jag driftar många olika applikationer så blir det inte så att processorn går ner i de djupare C-states. Oavsett så är 40W inte särskilt dåligt, bara runt 1 kWh om dagen.
+Det enda som har blivit en försämring är energiförbrukningen. Servern har runt 30-40W i effekt under baslast. Min gamla server hade sina komponenter skräddarsydda för att fungera ihop och hade därför extremt låg energiförbrukning, oftast runt 3–6 watt. I teorin kan jag få ner energiförbrukningen betydligt mer, men eftersom jag driftar många olika applikationer så blir det inte så att processorn går ner i de djupare C-states. Oavsett så är 40W inte särskilt dåligt, bara runt 1 kWh om dagen. Vissa komponenter, som till exempel mitt m.2↔6xSATA-kort drar mer energi än om det skulle varit SATA portar direkt på moderkortet.
 
 ## Applikationer
 
-|             | Umbreon (Diskstation)      | Garbodor (Unraid)                  |
-|-------------|----------------------------|------------------------------------|
-| Smart hem   | Home Assistant             | Home Assistant                     |
-| Smart hem   | Home Assistant             | Home Assistant                     |
-| Övervakning | Surveillance Station       | Frigate                            |
-| Backup      | Hyper Backup → Synology C2 | Duplicati → Backblaze B2 + Umbreon |
-| Ljudböcker  |                            | audiobookshelf                     |
+|             | Umbreon (Diskstation)          | Garbodor (Unraid)                      |
+|-------------|--------------------------------|----------------------------------------|
+| Smart hem   | [Home Assistant]               | [Home Assistant]                       |
+| Övervakning | [Surveillance Station]         | [Frigate]                              |
+| Backup      | [Hyper Backup] → [Synology C2] | [Duplicati] → [Backblaze B2] + Umbreon |
+| Ljudböcker  |                                | [audiobookshelf]                       |
 
 *[VM]: virtuell maskin
 *[ZFS]: Zettabyte File System, ett modernt filsystem med många nya funktioner
 *[RAID]: En metod för att få flera diskar att samarbeta som en enhet för att ge redundans eller för att öka prestanda
 
 [OpenDroneMap]: https://www.opendronemap.org/
+[Home Assistant]: https://www.home-assistant.io/
+[Surveillance Station]: https://www.synology.com/en-global/surveillance
+[Frigate]: https://frigate.video/
+[Hyper Backup]: https://www.synology.com/en-global/dsm/feature/hyper_backup
+[Synology C2]: https://c2.synology.com/en-global
+[Duplicati]: https://duplicati.com
+[Backblaze B2]: https://www.backblaze.com/cloud-storage
+[audiobookshelf]: https://audiobookshelf.org
