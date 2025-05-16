@@ -16,7 +16,6 @@ style:
 
 ## Specifika utflykter
 
--   [2025 – Jämtlandstriangeln](/friluftsliv/packlistor/vandring/jamtlandstriangeln-2025)
 -   [2024-07-21 – Cykeltur till Visingsö](https://gustavlindqvist.se/2024/07/21/cykeltur-till-visingso/#utrustningen)
 -   [2023-06-05 – Cykeltur till Björkenäs naturreservat](/2023/06/05/cykeltur-till-bjorkenas-naturreservat/)
 -   [2022-08-02 – Vandring på Bankerydsleden](/2022/08/02/vandring-pa-bankerydsleden/)
