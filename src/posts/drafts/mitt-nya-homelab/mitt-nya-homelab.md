@@ -22,13 +22,13 @@ På grund av det valde jag att höfta till lite grann i valet av komponenter, is
 
 ## En jämförelse med hårdvaran på den gamla servern
 
-|             | Umbreon (Synology DS916+)          | Garbodor (Unraid NAS)                |
-|-------------|------------------------------------|--------------------------------------|
-| *Processor* | Intel N3710 `4x1,6 GHz (2,56 Ghz)` | Intel i3-13100 `4x3,4 GHz (4,5 Ghz)` |
-| *Minne*     | 8GB DDR3                           | 32GB DDR5                            |
-| *SSD* cache | `null`                             | 1TB (i RAID)                         |
-| *Lagring*   | 4 diskar                           | 8 diskar                             |
-| *Ethernet*  | 1 GbE                              | 2,5GbE                               | 
+|             | Umbreon (Synology DS916+)         | Garbodor (Unraid NAS)               |
+|-------------|-----------------------------------|-------------------------------------|
+| *Processor* | Intel N3710  4x1,6 GHz (2,56 Ghz) | Intel i3-13100 4x3,4 GHz (4,5 Ghz)  |
+| *Minne*     | 8GB DDR3                          | 32GB DDR5                           |
+| *SSD* cache | `null`                            | 1TB (i RAID)                        |
+| *Lagring*   | 4 diskar                          | (Upp till) 8 diskar                 |
+| *Ethernet*  | 1 GbE                             | 2,5GbE                              | 
 
 *(Ja, jag gillar att döpa alla mina enheter efter Pokémon)*
 
@@ -40,14 +40,20 @@ En framtida tanke är att ha en VM som bara är gjord för att köra [OpenDroneM
 
 Det enda som har blivit en försämring är energiförbrukningen. Servern har runt 30-40W i effekt under baslast. Min gamla server hade sina komponenter skräddarsydda för att fungera ihop och hade därför extremt låg energiförbrukning, oftast runt 3–6 watt. I teorin kan jag få ner energiförbrukningen betydligt mer, men eftersom jag driftar många olika applikationer så blir det inte så att processorn går ner i de djupare C-states. Oavsett så är 40W inte särskilt dåligt, bara runt 1 kWh om dagen. Vissa komponenter, som till exempel mitt m.2↔6xSATA-kort drar mer energi än om det skulle varit SATA portar direkt på moderkortet.
 
+![En server byggs i det svarta chassit Jonsbo N3 som står i en vit Kallax hylla från IKEA](){.-wide}
+
 ## Applikationer
 
-|             | Umbreon (Diskstation)          | Garbodor (Unraid)                      |
-|-------------|--------------------------------|----------------------------------------|
-| Smart hem   | [Home Assistant]               | [Home Assistant]                       |
-| Övervakning | [Surveillance Station]         | [Frigate]                              |
-| Backup      | [Hyper Backup] → [Synology C2] | [Duplicati] → [Backblaze B2] + Umbreon |
-| Ljudböcker  |                                | [audiobookshelf]                       |
+| Kategori      | *Umbreon (Diskstation)*        | *Garbodor (Unraid)*                    |
+|---------------|--------------------------------|----------------------------------------|
+| Smart hem     | [Home Assistant]               | [Home Assistant]                       |
+| Smart hem     |                                | [ESPHome]                              |
+| Smart hem     |                                | [Mosquitto]                            |
+| Smart hem     |                                | [NodeRED]                              |
+| Övervakning   | [Surveillance Station]         | [Frigate]                              |
+| Backup        | [Hyper Backup] → [Synology C2] | [Duplicati] → [Backblaze B2] + Umbreon |
+| Ljudböcker    |                                | [audiobookshelf]                       |
+| Reverse Proxy | Synology Proxy                 | [Nginx Proxy Manager]                    |
 
 *[VM]: virtuell maskin
 *[ZFS]: Zettabyte File System, ett modernt filsystem med många nya funktioner
@@ -62,3 +68,7 @@ Det enda som har blivit en försämring är energiförbrukningen. Servern har ru
 [Duplicati]: https://duplicati.com
 [Backblaze B2]: https://www.backblaze.com/cloud-storage
 [audiobookshelf]: https://audiobookshelf.org
+[NodeRED]: https://audiobookshelf.org
+[ESPHome]: https://esphome.io/
+[Mosquitto]: https://mosquitto.org
+[Nginx Proxy Manager]: https://nginxproxymanager.com/
