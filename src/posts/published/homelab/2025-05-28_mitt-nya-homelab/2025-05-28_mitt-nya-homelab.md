@@ -32,6 +32,12 @@ På grund av det valde jag att höfta till lite grann i valet av komponenter, is
 
 *(Ja, jag gillar att döpa alla mina enheter efter Pokémon)*
 
+Chassit jag valde att bygga i är [Jonsbo N3](https://www.inet.se/produkt/6910255/jonsbo-n3-svart), ett kompakt NAS-chassi med plats för 8st 3,5"-diskar och några 2.5"-diskar. Enda problemet var egentligen att hitta ett moderkort med tillräckligt många SATA-portar. Jag tittade ett tag på specialbyggda NAS-moderkort som hade alla portar, men jag kände inte riktigt att jag litade på att beställa en så pass central del från Kina utan garanti, så det blev ett gejmingmoderkort som jag sedan kompletterade med en m.2—SATA-adapter.
+
+![Illustration över Jonsbo N3 med diskar i olika färger som visar var det går att montera](6910255_23.png)
+
+Chassit valde jag att fylla med tysta Noctua-fläktar, jag snålade lite på processorkylaren och körde på den medföljande, men det blir nog en uppgradering så småningom eftersom den är väldigt högljudd under belastning.
+
 Normal filåtkomst är runt 5 gånger så snabbt eftersom jag kan använda en SSD cache istället för att läsa direkt från arrayen av roterande metall. Den nya processorn har en högre basklocka än den gamla hade i boost och minnet är 4 gånger högre. Just minnet var nog det som kändes mest onödigt just nu, men om jag ska köra flera virtuella maskiner som jag funderat på så kan det snabbt behövas.
 
 En framtida tanke är att ha en VM som bara är gjord för att köra [OpenDroneMap] och då hade jag egentligen velat ha flera hundra GB i RAM. 
