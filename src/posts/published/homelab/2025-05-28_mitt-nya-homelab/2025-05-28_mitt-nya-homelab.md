@@ -46,7 +46,7 @@ Det enda som har blivit en försämring är energiförbrukningen. Servern har ru
 
 Nog sagt om hårdvaran. Det som visade sig vara kronjuvelen i projektet är operativsystemet [Unraid].
 
-Efter någon månads användning så är jag så nöjd som det går att vara. Det är otroligt stabilt och väldigt enkelt att drifta lite vad som helst. Unraid gör det möjligt att går från "jag kanske ska prova att hitta ett alternativ till Google Photos" till att ha en fullt fungerande [Immich]-server på under 5 minuter.
+Efter någon månads användning så är jag så nöjd som det går att vara. Det är otroligt stabilt och väldigt enkelt att drifta lite vad som helst. Unraid gör det möjligt att gå från "jag kanske ska prova att hitta ett alternativ till Google Photos" till att ha en fullt fungerande [Immich]-server på under 5 minuter.
 
 **Fantastiskt!**
 
