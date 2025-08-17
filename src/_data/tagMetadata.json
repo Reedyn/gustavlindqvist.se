@@ -1,5 +1,4 @@
-{
-	"11ty": {
+{ "11ty": {
 		"title": "11ty",
 		"type": "subject"
 	},
@@ -54,6 +53,11 @@
 		"emoji": "\uD83D\uDCD0",
 		"feedTitle": "Gustavs pysselverkstad",
 		"type": "subject"
+	},
+	"ellen-keys-led": {
+		"title": "Ellen Keys led",
+		"emoji": "\uD83D\uDD35",
+		"type": "hiking_trail"
 	},
 	"faboliden": {
 		"title": "Fäboliden",
@@ -215,6 +219,10 @@
 		"title": "Ningbo",
 		"type": "location"
 	},
+	"omberg": {
+		"title": "Omberg",
+		"type": "location"
+	},
 	"orientering": {
 		"title": "orientering",
 		"emoji": "\uD83E\uDDED",
@@ -305,6 +313,10 @@
 		"date": "2019",
 		"original_order": true,
 		"description": "Vår tågluff genom Europa under 2019 som gick genom länderna Tyskland, Österrike, Italien, Frankrike och Nederländerna."
+	},
+	"tiveden": {
+		"title": "Tiveden",
+		"type": "location"
 	},
 	"traning": {
 		"title": "träning",
