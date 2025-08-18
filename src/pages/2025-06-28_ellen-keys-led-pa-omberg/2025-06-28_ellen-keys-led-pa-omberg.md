@@ -4,10 +4,6 @@ description: "Tredje gången gillt?"
 feature_image: "Gustav-Lindqvist_2025-06-27_05209-2-Pano_3000w.jpg"
 permalink: "/2025-06-28/ellen-keys-led-pa-omberg/index.html"
 date: 2025-06-28T11:31:10+0200
-tags:
-  - friluftsliv
-  - omberg
-  - ellen-keys-led
 ---
 
 Tredje gången gillt?{.lead}
