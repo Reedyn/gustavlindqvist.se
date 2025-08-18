@@ -28,7 +28,7 @@ permalink: "/friluftsliv/nationalparker/index.html"
 -   [ ] Djurö
 -   [ ] Kosterhavet
 -   [ ] Tresticklan
--   [ ] Tiveden
+-   [X] **Tiveden**
 -   [ ] Garphyttan
 -   [ ] Fulufjället
 -   [ ] Töfsingdalen
