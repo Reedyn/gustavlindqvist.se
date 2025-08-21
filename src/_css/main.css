@@ -1,8 +1,6 @@
 /*noinspection CssInvalidAtRule*/
 @import-glob "01.settings/*.css";
 /*noinspection CssInvalidAtRule*/
-@import-glob "02.tools/*.css";
-/*noinspection CssInvalidAtRule*/
 @import-glob "03.generic/*.css";
 /*noinspection CssInvalidAtRule*/
 @import-glob "04.elements/*.css";
