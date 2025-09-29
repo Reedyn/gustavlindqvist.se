@@ -12,7 +12,7 @@ date: 2019-10-17
         <li class="list-item--signal"><a rel="me" href="https://signal.me/#eu/2LfOpew-FnWZz8RBIycnNMGmgmrkmiuTE1RddxFmKPsuCYm-LxNAN6-xwpGEIPd_">
             <svg class="icon icon--signal" role="presentation" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/signal.svg#signal-icon"></use></svg> Signal
         </a></li>
-    <li class="list-item--mastodon"><a rel="me" href="https://jkpg.rocks/@gustav">
+    <li class="list-item--mastodon"><a rel="me" href="https://mastodonsweden.se/@gustav">
             <svg class="icon icon--mastodon" role="presentation" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/mastodon.svg#mastodon-icon"></use></svg> Mastodon
         </a></li>
 </ul>

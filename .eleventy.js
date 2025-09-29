@@ -9,7 +9,6 @@ import path from 'path';
 
 import markdown from './.eleventy_config/markdown.mjs';
 import filters from './.eleventy_config/filters.mjs';
-import asyncFilters from './.eleventy_config/filters.async.mjs';
 import shortcodes from './.eleventy_config/shortcodes.mjs';
 import collections from './.eleventy_config/collections.mjs';
 
@@ -40,11 +39,6 @@ export default function (eleventyConfig) {
 	// Filters
 	Object.keys(filters).forEach((filterName) => {
 		eleventyConfig.addFilter(filterName, filters[filterName]);
-	});
-
-	// Async filters
-	Object.keys(asyncFilters).forEach((filterName) => {
-		eleventyConfig.addAsyncFilter(filterName, asyncFilters[filterName]);
 	});
 
 	// Shortcodes
