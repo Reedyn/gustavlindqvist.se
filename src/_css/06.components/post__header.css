@@ -33,6 +33,7 @@
 			display: inline-block;
 			margin-right: 0.4em;
 			margin-bottom: 0.4em;
+			border-radius: var(--border-radius--tag);
 			background: var(--color--background--widget);
 			padding: 0 0.5em;
 			color: inherit;

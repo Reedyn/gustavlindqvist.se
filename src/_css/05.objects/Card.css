@@ -26,6 +26,8 @@
 	display: flex;
 	position: relative;
 	flex-direction: column;
+	box-shadow: var(--color--shadow);
+	border-radius: var(--border-radius--card);
 	background: var(--color--background--contrast--widget);
 	background-position: center;
 	background-size: cover;
@@ -63,6 +65,9 @@
 	}
 
 	&.-feature-image {
+		img {
+			transition: all 500ms ease;
+		}
 		&:after {
 			position: absolute;
 			top: 0;
@@ -100,6 +105,13 @@
 			img {
 				object-position: right;
 			}
+		}
+	}
+
+	&:hover,
+	&:focus-visible {
+		&.-feature-image img {
+			transform: scale(105%);
 		}
 	}
 }
@@ -224,6 +236,7 @@
 			display: inline-block;
 			margin-right: 0.4em;
 			margin-bottom: 0.4em;
+			border-radius: var(--border-radius--tag);
 			background: oklch(from var(--color--background) l c h / 80%);
 			padding: 0 0.5em;
 			color: var(--color--body);

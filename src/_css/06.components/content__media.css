@@ -3,6 +3,8 @@
 		display: block;
 		position: relative;
 		margin: 0 auto;
+		box-shadow: var(--color--shadow);
+		border-radius: var(--border-radius--image);
 		background: none;
 		max-width: 100%;
 		height: auto;
