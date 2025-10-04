@@ -23,5 +23,5 @@ tags:
 ## Tivedstorp
 
  - Får bara sova en natt i nationalparken
- - STF Tivdedstorp
+ - STF Tivedstorp
  - Slippa köra hem samma dag
