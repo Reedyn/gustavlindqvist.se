@@ -66,7 +66,7 @@ Helt klar var jag dock inte. I vanliga fall stannar vi här eftersom våra egna 
 
 Här är det färdiga dokumentet som vi sen skickade till skolan. Jag la till lite extra information för framtida kartritare som exakt vilken standard den gällde, när den ritades och deklinationen. Den är gjord för att skrivas ut på vanliga A4-ark.
 
-![En skolgårdskartan för orientering över Talavidskolan i A4-format](Talavidskolan_OL_Hallby_2024-09.jpg)
+![En skolgårdskartan för orientering över Talavidskolan i A4-format](Talavidskolan_OL_Hallby_2024-09.jpg){.-not-rounded}
 
 *[GIS]: Geografiska informationssystem
 

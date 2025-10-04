@@ -20,6 +20,7 @@
 	.-full {
 		grid-column: full;
 		img {
+			filter: none;
 			box-shadow: none;
 			border-radius: 0;
 		}

@@ -72,6 +72,10 @@ figure {
 		}
 	}
 
+	&:not(.-not-rounded) img {
+		border-radius: var(--border-radius--image);
+	}
+
 	&.embed {
 		width: 100%;
 		iframe {
