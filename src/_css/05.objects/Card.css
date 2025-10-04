@@ -67,7 +67,9 @@
 
 	&.-feature-image {
 		img {
-			transition: all 500ms ease;
+			@media (prefers-reduced-motion: no-preference) {
+				transition: all 500ms ease;
+			}
 		}
 		&:after {
 			position: absolute;
@@ -112,7 +114,9 @@
 	&:hover,
 	&:focus-visible {
 		&.-feature-image img {
-			transform: scale(105%);
+			@media (prefers-reduced-motion: no-preference) {
+				transform: scale(105%);
+			}
 		}
 	}
 }
