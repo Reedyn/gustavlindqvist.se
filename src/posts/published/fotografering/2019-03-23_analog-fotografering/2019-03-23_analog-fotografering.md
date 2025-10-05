@@ -3,6 +3,7 @@ title: "Analog fotografering"
 feature_image: Gustav-Lindqvist.2019-03-23.-untitled-shoot-02394.jpg
 description: "Länge var jag ganska negativt inställd till analog fotografering. Det var besvärligt, bakåtsträvande och dyrt. Sida vid sida med en digital…"
 date: 2019-03-23
+id: /2019/03/23/analog-fotografering/
 tags:
     - fotografering
     - jkpg

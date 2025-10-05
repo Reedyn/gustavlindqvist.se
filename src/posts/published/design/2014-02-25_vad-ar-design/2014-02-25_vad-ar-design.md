@@ -2,6 +2,7 @@
 title: "Vad är design?"
 description: "Följande paragrafer är högst subjektiva, you have been warned :)"
 date: 2014-02-25
+id: /2014/02/25/vad-ar-design/
 tags:
     - design
     - ux

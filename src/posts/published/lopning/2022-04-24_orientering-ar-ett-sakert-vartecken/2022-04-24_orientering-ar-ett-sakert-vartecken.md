@@ -2,6 +2,7 @@
 title: "Orientering är ett säkert vårtecken"
 feature_image: "Gustav-Lindqvist_2022-04-23_144226.jpg"
 date: 2022-04-24 11:00:00 +2
+id: /2022/04/24/orientering-ar-ett-sakert-vartecken/
 description: "Ett betydligt säkrare vårtecken än vädret är när orienteringen kommer igång."
 series: lopning
 tags:

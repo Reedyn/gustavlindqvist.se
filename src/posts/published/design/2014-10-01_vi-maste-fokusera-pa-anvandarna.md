@@ -2,6 +2,7 @@
 title: "Vi måste fokusera på användarna"
 description: "Jag tror på öppen källkod och fri mjukvara. Många problem inom teknologin beror på att vi har sluten källkod i till stor del otestad…"
 date: 2014-10-01
+id: /2014/10/01/vi-maste-fokusera-pa-anvandarna/
 tags:
     - design
     - ux

@@ -4,6 +4,7 @@ description: "Processen för hur jag ritade en ny skolgårdskarta till Talavidsk
 feature_image: "Screenshot_2024-10-09_192711.jpg"
 mastodon_id: "113278692878327347"
 date: 2024-10-09T19:30:19+0200
+id: /2024/10/09/skolgardskarta-till-talavidskolan/
 tags:
     - orientering
     - kartor

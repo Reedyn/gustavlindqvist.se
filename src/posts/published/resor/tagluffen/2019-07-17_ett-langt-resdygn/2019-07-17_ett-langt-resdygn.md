@@ -3,6 +3,7 @@ title: "Ett långt resdygn"
 feature_image: Gustav-Lindqvist_2019-07-16_06511.jpg
 description: "Från Prag åkte vi vidare med tåg ner mot Österrike, denna gången med platsbokning. Vilket vi troligtvis inte hade behövt med tanke på hur…"
 date: 2019-07-17
+id: /2019/07/17/ett-langt-resdygn/
 tags:
     - resor
     - tagluffen

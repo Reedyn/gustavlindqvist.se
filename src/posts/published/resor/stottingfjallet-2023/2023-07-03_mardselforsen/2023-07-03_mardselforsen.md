@@ -4,6 +4,7 @@ description: "Om man är i närheten av Mårdselforsen så är ett besök obliga
 feature_image: "Gustav-Lindqvist_2023-07-03_09941-Pano_16-9.jpg"
 mastodon_id: "110686238189137691"
 date: 2023-07-03T18:16:04+0200
+id: /2023/07/03/mardselforsen/
 tags:
     - friluftsliv
     - stottingfjallet-2023

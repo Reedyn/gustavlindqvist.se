@@ -3,6 +3,7 @@ title: "En vinter på cykel"
 feature_image: 20210130_125120.jpg
 description: "Nu när våren äntligen är här med varma temperaturer och cykelturer i kortbyxor och t-shirt tänkte jag det kunde vara läge att dumpa alla…"
 date: 2021-05-17
+id: /2021/05/17/en-vinter-pa-cykel/
 tags:
     - cykling
     - vinter

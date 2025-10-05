@@ -2,6 +2,7 @@
 title: "Det är skönt att vara igång igen!"
 description: "Under hösten drog jag på mig en lång förkylning som avbröt min streak för det året. Jag hade sprungit ordentligt och regelbundet under hela…"
 date: 2016-06-18
+id: /2016/06/18/det-ar-skont-att-vara-igang-igen/
 tags:
     - lopning
 ---

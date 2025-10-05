@@ -4,6 +4,7 @@ description: "I onsdags var vi och vandrade en runda i Häckeberga på ~12km. Vi
 feature_image: "Gustav-Lindqvist_2022-07-27_05436.jpg"
 series: "friluftsliv"
 date: 2022-07-30 16:00:00 +2
+id: /2022/07/30/rundvandring-i-hackeberga/
 tags:
     - friluftsliv
     - skaneleden

@@ -2,8 +2,10 @@
 title: "Det här vill jag göra under 2022"
 feature_image: Gustav-Lindqvist_2020-07-13_09711-Pano.jpg
 description: "Jag är inte mycket för nyårslöften av flera anledningar men nu så här lite mer än en månad in på året inser jag att jag ändå vill skriva ner vad jag vill göra under året."
-twitterId: "1491150760083664900"
+date: 2022-02-08
+id: /2022/todo/
 permalink: "/2022/todo/index.html"
+twitterId: "1491150760083664900"
 ---
 
 Jag är inte mycket för nyårslöften av flera anledningar men nu så här lite mer än en månad in på året inser jag att jag ändå vill skriva ner vad jag vill göra under året.{.lead}

@@ -4,6 +4,7 @@ description: ""
 feature_image: "20230903_104553.jpg"
 feature_image_position: top
 date: 2023-09-20T21:57:51+0200
+id: /2023/09/20/ett-nytt-liv-i-mina-koss-porta-pro/
 tags:
     - diy
 ---

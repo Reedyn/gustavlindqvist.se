@@ -4,6 +4,7 @@ description: "När gruset sopas undan, sommardäcken åker på och vitsipporna s
 feature_image: "GOPR1260_1682251847721.jpg"
 mastodon_id: "110249028591475924"
 date: 2023-04-23T18:09:27+0200
+id: /2023/04/23/varkanslor-och-vitsippor-pa-vista/
 tags:
     - cykling
     - var

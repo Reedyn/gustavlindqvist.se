@@ -1,0 +1,33 @@
+---
+title: Alla inlägg
+layout: base.njk
+templateClass: blog-template
+permalink: "/alla-inlagg/"
+---
+<article class="page">
+	<header id="page-header" class="page-header">
+		<div class="page-metadata">
+			<h1 class="page-title">{{ title }}</h1>
+		</div>
+	</header>
+	<section class="feed content">
+		<table>
+			<thead>
+				<tr>
+					<th>Titel</th>
+					<th>URL</th>
+					<th>Id</th>
+				</tr>
+			</thead>
+			<tbody>
+			{% for post in collections.posts %}
+				<tr>
+					<td>{{ post.data.title }}</td>
+					<td>{{ post.url }}</td>
+					<td>{{ post.data.id }}</td>
+				</tr>
+			{% endfor %}
+			</tbody>
+		</table>
+	</section>
+</article>

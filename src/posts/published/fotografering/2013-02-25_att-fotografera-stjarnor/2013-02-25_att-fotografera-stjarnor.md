@@ -3,6 +3,7 @@ title: "Att fotografera stjärnor"
 feature_image: 15258885827_7a56e6f5d6_b.jpg
 description: "Vinterns kalla väder lämpar sig väldigt väldigt till natt-fotografering, i synnerhet till att fotografera stjärnor. Är man riktigt duktig kan man få till fantastiska bilder…"
 date: 2013-02-25
+id: /2013/02/25/att-fotografera-stjarnor/
 tags: ["fotografering", "jkpg"]
 ---
 

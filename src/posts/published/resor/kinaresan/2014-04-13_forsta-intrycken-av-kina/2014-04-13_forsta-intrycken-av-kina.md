@@ -3,6 +3,7 @@ title: "Första intrycken av Kina"
 feature_image: "_OLY0392-Edit.jpg"
 description: "Nu har vi spenderat första dygnet i Kina och det känns fortfarande surrealistiskt, det känns fortfarande inte som att vi är här. Vi får väl…"
 date: 2014-04-13
+id: /2014/04/13/forsta-intrycken-av-kina/
 tags:
     - resor
     - kinaresan

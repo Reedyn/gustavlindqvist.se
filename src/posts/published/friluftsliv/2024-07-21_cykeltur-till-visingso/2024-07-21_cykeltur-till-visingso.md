@@ -3,6 +3,7 @@ title: "Cykeltur till Visingsö"
 description: "I veckan kom vi äntligen iväg på en tur som vi pratat om ett tag, en cykeltur till Visingsö, på Visingsö, och hem från Visingsö. Ursprungligen planerade vi att resan skulle vara över tre dagar med två nätter på ön men andra planer gjorde att vi tryckte ihop det till två dagar."
 feature_image: "Gustav-Lindqvist_2024-07-19_02716-Pano_3000w.jpg"
 date: 2024-07-21T21:03:25+0200
+id: /2024/07/21/cykeltur-till-visingso/
 mastodon_id: 112826096975755837
 tags:
     - friluftsliv

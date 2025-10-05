@@ -2,6 +2,7 @@
 title: "Ensamhet i juletider"
 description: "För de flesta så är julen (och nyår) en tid för gemenskap, familj och vänner. Att titta på film, umgås och att bara vara tillsammans. En…"
 date: 2014-12-22
+id: /2014/12/22/ensamhet-i-juletider/
 tags: vinter
 ---
 

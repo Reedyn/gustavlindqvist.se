@@ -3,6 +3,7 @@ title: "Dunkehalla­ravinen i regn"
 description: "Idag valde jag att trotsa regnet och ge mig ut med kameran på en liten fotopromenad. Jag tycker oftast att fint väder är det tråkigaste att fotografera; regn och rusk ger oftast mycket mer dramatiska bilder"
 feature_image: Gustav-Lindqvist_2023-03-25_08161.jpg
 date: 2023-03-25T21:57:30+0100
+id: /2023/03/25/dunkehallaravinen-i-regn/
 tags:
     - fotografering
     - jkpg

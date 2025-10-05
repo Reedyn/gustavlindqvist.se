@@ -2,6 +2,7 @@
 title: "Framtidens samhälle"
 description: "Följande ordväxling har alltid varit fäst vid på något sätt, det speglar det samhället vi lever i idag och vad som skulle kunna bli."
 date: 2014-02-20
+id: /2014/02/20/framtidens-samhalle/
 ---
 
 Följande [ordväxling](http://wildabundantlife.com/2012/07/no-i-mean-what-do-you-do-for-the-world/) har jag alltid varit fäst vid på något sätt, det speglar det samhället vi lever i idag och vad som skulle kunna bli.

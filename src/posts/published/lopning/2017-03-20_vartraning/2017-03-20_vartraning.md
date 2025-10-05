@@ -2,6 +2,7 @@
 title: "Vårträning"
 description: "Det är något speciellt med sol och träningslust. Jag har inte haft lust att springa på månader i vintermörkret utan varje gång jag skulle…"
 date: 2017-03-20
+id: /2017/03/20/vartraning/
 tags:
     - lopning
     - var

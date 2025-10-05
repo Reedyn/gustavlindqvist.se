@@ -5,6 +5,7 @@ feature_image: Gustav-Lindqvist_2023-06-20_09313_16-9.jpg
 feature_image_position: right
 mastodon_id: "110593013979343646"
 date: 2023-06-23T12:00:00+0200
+id: /2023/06/23/kort-cykeltur-med-overnattning-vid-fjallstorp/
 tags:
     - friluftsliv
     - cykling

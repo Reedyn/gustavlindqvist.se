@@ -3,6 +3,7 @@ title: "Ett första test med min konverterade fullspektrum­kamera"
 description: ""
 feature_image: "Gustav-Lindqvist_2023-06-06_8633_3000w.jpg"
 date: 2023-06-06T14:32:51+0200
+id: /2023/06/06/ett-forsta-test-med-min-konverterade-fullspektrumkamera/
 tags:
     - fotografering
 ---

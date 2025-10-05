@@ -3,6 +3,7 @@ title: "Ultra Interval Challenge"
 feature_image: uic.jpg
 description: "Ultra Interval Challenge är event flera gånger per år som går över hela världen där alla springer individuellt (eller i grupp) i sin egen…"
 date: 2016-07-23
+id: /2016/07/23/ultra-interval-challenge/
 tags:
     - lopning
 ---

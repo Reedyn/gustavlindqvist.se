@@ -4,6 +4,7 @@ description: "I lördags var det vandringens dag och vi tog en tur bort till Rö
 feature_image: "Gustav-Lindqvist_2022-09-10_05952_Landscape.jpg"
 series: "friluftsliv"
 date: 2022-09-14 17:48:00 +2
+id: /2022/09/14/vandringens-dag/
 tags:
     - friluftsliv
     - rottle

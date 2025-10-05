@@ -3,6 +3,7 @@ title: "Trois jours à Nice"
 feature_image: OI000100.jpg
 description: "Vädret var fint och varmt när vi landade i Nice. Det första vi möttes av efter att vi fått tag på våra väskor var hur smidig…"
 date: 2019-07-21
+id: /2019/07/21/trois-jours-a-nice/
 tags:
     - resor
     - tagluffen

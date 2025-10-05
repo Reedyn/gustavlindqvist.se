@@ -2,6 +2,7 @@
 title: "“Den vanliga rundan”"
 description: "När jag tittar på vad jag sprungit för rundor under mitt ganska korta liv kan jag se att de flesta av mina rundor ser ungefär likadana ut. De är alla runt 5--7km och är alltid förbi något trevligt ställe."
 date: 2023-04-01T19:45:17+0200
+id: /2023/04/01/den-vanliga-rundan/
 feature_image: "Gustav-Lindqvist_2020-10-11_01000-Pano.jpg"
 mastodon_id: "110124859956494734"
 tags:

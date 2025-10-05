@@ -3,6 +3,7 @@ title: "Homelab 3.0"
 description: "2013 skaffade jag min första hemmaserver, en DS212j från Synology som jag köpte främst för att ha ett bra ställe att lagra mina bilder."
 feature_image: "20250328_165405.jpg"
 date: 2025-05-28T18:49:09+0200
+id: /2025/05/28/homelab-30/
 tags:
   - homelab
   - unraid

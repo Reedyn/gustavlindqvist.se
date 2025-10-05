@@ -3,6 +3,7 @@ title: "Vinterpromenad på Slottsberget"
 description: "Förra helgen var vi och gick en promenad i det fantastiska vädret i Slottsbergets naturreservat, eller Lyckås ekskog, som det också heter."
 feature_image: "Gustav-Lindqvist_2025-02-01_03961.jpg"
 date: 2025-02-08T13:58:22+0100
+id: /2025/02/08/vinterpromenad-pa-slottsberget/
 tags:
   - friluftsliv
   - jkpg

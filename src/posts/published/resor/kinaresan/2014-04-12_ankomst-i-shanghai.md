@@ -2,6 +2,7 @@
 title: "Ankomst i Shanghai"
 description: "Flygresan från Landvetter till London beskrivs bäst med följande citat från Olivia som ej flugit tidigare: Oh my god, fan vad häftigt…"
 date: 2014-04-12
+id: /2014/04/12/ankomst-i-shanghai/
 tags:
     - resor
     - kinaresan

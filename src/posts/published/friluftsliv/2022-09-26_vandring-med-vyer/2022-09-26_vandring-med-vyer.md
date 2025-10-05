@@ -5,6 +5,7 @@ feature_image: "Gustav-Lindqvist_2022-09-25_06715-Pano.jpg"
 feature_image_position: right
 series: "friluftsliv"
 date: 2022-09-26 10:37:00 +2
+id: /2022/09/26/vandring-med-vyer/
 tags:
     - friluftsliv
     - sodra-vatterleden

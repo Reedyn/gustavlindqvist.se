@@ -3,6 +3,7 @@ title: "Vintergatan över Dumme mosse"
 feature_image: Gustav-Lindqvist_2014-10-04_0091-2-Edit-Edit_L.jpg
 description: "Jag var ute och fotograferade vid Dumme mosse igår natt/kväll. Målet var att komma ut från ljusföroreningarna i Jönköping och få lite fina…"
 date: 2014-10-05
+id: /2014/10/05/vintergatan-over-dumme-mosse/
 tags: ["fotografering", "jkpg"]
 ---
 

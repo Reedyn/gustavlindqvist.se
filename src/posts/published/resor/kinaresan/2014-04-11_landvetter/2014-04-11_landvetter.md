@@ -3,6 +3,7 @@ title: "Landvetter"
 feature_image: DSC_0052.JPG
 description: "Nu är vi på väg!"
 date: 2014-04-11
+id: /2014/04/11/landvetter/
 tags: ["resor", "kinaresan"]
 ---
 

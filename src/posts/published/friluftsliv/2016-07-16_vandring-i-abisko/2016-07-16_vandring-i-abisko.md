@@ -4,6 +4,7 @@ description: "Det är inte varje dag som en får möjlighet att besöka en av v�
 feature_image: "Gustav-Lindqvist_2016-07-26_0300-Pano.jpg"
 date: 2016-07-28T16:32:04+0200
 sortDate: 2023-04-06T16:32:04+0200
+id: /2016/07/28/vandring-i-abisko/
 mastodon_id: "110153096619496650"
 tags:
     - friluftsliv

@@ -2,6 +2,7 @@
 title: "Är konsumtionskulturen verkligen det bästa vi kan åstadkomma?"
 description: "När vi ska bry oss om miljön köper vi ekologiskt, när vi ska bry oss om arbetsförhållanden köper vi fairtrade och snart kommer vi säkert…"
 date: 2014-10-14
+id: /2014/10/14/ar-konsumtionskulturen-verkligen-det-basta-vi-kan-astadkomma/
 tags: politik
 ---
 

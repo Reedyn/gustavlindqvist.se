@@ -24,6 +24,9 @@ export default function () {
 					return false;
 				}
 			},
+			// id: function (data) {
+			// 	return data.date;
+			// },
 		},
 	};
 }

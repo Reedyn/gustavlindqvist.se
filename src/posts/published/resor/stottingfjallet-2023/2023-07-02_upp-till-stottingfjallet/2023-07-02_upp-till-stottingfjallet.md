@@ -3,6 +3,7 @@ title: "Upp till Stöttingfjället"
 description: "Förra lördagen rullade vi iväg med vår hyrbil för att ta den långa turen upp till Stöttingfjället och Fäboliden."
 feature_image: "Gustav-Lindqvist_2023-07-02_09765-Pano_crop.jpg"
 date: 2023-07-02T18:16:04+0200
+id: /2023/07/02/upp-till-stottingfjallet/
 tags:
     - resor
     - friluftsliv

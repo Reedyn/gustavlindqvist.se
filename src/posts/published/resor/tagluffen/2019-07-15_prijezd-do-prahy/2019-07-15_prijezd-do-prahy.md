@@ -3,6 +3,7 @@ title: "Prohlídka Prahy"
 feature_image: Gustav-Lindqvist_2019-07-14_06398.jpg
 description: "Första resan som kändes som tågluff på riktigt. Under de första två timmarna på tågresan mellan Berlin och Prag fick vi sitta på golvet ute…"
 date: 2019-07-15
+id: /2019/07/15/prohlidka-prahy/
 tags:
     - resor
     - tagluffen

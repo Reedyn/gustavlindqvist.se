@@ -4,6 +4,7 @@ description: "Vi vandrade Bankerydsleden över två dagar där vi gick större d
 feature_image: "Gustav-Lindqvist_2022-08-02_05735.jpg"
 series: "friluftsliv"
 date: 2022-08-02 14:42:00 +2
+id: /2022/08/02/vandring-pa-bankerydsleden/
 tags:
     - friluftsliv
     - bankerydsleden

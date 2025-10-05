@@ -27,11 +27,12 @@ permalink: /{{ tag | slug }}/feed.xml
     </author>
     {%- for post in taglist | reverse -%}
     {%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.url ) }}{% endset %}
+	{%- set postId %}{{ post.data.id | htmlBaseUrl(metadata.url) if post.data.id else absolutePostUrl }}{% endset %}
     <entry>
         <title>{{ post.data.title }}</title>
         <link href="{{ absolutePostUrl }}"/>
         <updated>{{ post.date | dateToRfc3339 }}</updated>
-        <id>{{ absolutePostUrl }}</id>
+        <id>{{ postId }}</id>
         <content type="html">
             {{ post.templateContent | renderTransforms(post.data.page, metadata.url) }}
         </content>

@@ -3,6 +3,7 @@ title: "Segling i skärgården"
 feature_image: Gustav-Lindqvist_2018-07-20_0043.jpg
 description: "Den 19:onde startade vi den förmodligen mest vältimade semestern någonsin ner mot Blekinge skärgård under en av landets värsta värmeböljor."
 date: 2018-08-04
+id: /2018/08/04/segling-i-skargarden/
 tags:
     - segling
     - friluftsliv

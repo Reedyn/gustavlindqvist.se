@@ -2,6 +2,7 @@
 title: "Hejdå Shanghai"
 description: "Igår var sista dagen i Shanghai och det var också första dagen för praktiken. Vi fick information från Export Akademien om Kina, både lite…"
 date: 2014-04-15
+id: /2014/04/15/hejda-shanghai/
 tags:
     - resor
     - kinaresan

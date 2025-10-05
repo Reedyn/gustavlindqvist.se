@@ -2,6 +2,7 @@
 title: "Tiomila 2022 i Ånnaboda, Örebro"
 feature_image: "Gustav-Lindqvist_2022-05-07_04772-Pano.jpg"
 date: 2022-05-08 21:00:00 +2
+id: /2022/05/08/tiomila-2022-i-annaboda-orebro/
 description: "En liten löprapport från Tiomila 2022 i Ånnaboda, Örebro"
 series: lopning
 tags:

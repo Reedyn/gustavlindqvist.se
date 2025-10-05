@@ -2,6 +2,7 @@
 title: "Vår tids läskunnighet?"
 description: ""
 date: 2014-09-08
+id: /2014/09/08/var-tids-laskunnighet/
 ---
 
 Eftersom det är läskunnighetsdagen idag _(eller [läsk-unnighetsdagen som någon på twitter föreslog](https://twitter.com/PierreMathisson/status/508875082098540544))_ tänkte jag skriva lite om vad jag tror är dagens motsvarighet till läskunnighet: [Computational Thinking](http://en.wikipedia.org/wiki/Computational_thinking) (CT) eller **teknisk förståelse** _(bästa översättningen som jag klarade av)_.

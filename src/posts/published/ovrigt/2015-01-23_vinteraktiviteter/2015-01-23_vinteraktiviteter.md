@@ -2,6 +2,7 @@
 title: "Vinteraktiviteter"
 description: "Det är mycket som hänt nu under vintern. Förra veckan började jag med trail running, lite som orientering utan karta, väldigt kul! I…"
 date: 2015-01-23
+id: /2015/01/23/vinteraktiviteter/
 tags:
     - vinter
     - geocaching

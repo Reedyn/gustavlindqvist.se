@@ -3,6 +3,7 @@ title: "Jönköping i LEGO"
 feature_image: Gustav-Lindqvist_2019-10-12_07466.jpg
 description: "Min favoritserie av LEGO-sets är Architecture. En serie där varje set är ett axplock av kända byggnader och platser från en viss stad i…"
 date: 2019-10-12
+id: /2019/10/12/jonkoping-i-lego/
 tags:
     - lego
     - jkpg

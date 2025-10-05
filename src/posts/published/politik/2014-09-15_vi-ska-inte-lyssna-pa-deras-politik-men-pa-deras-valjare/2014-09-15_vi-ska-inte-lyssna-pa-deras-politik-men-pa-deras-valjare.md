@@ -2,6 +2,7 @@
 title: "Vi ska inte lyssna på deras politik, men på deras väljare"
 description: ""
 date: 2014-09-15
+id: /2014/09/15/vi-ska-inte-lyssna-pa-deras-politik-men-pa-deras-valjare/
 tags: politik
 ---
 

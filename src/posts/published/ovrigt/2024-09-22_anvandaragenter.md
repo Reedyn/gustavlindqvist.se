@@ -2,6 +2,7 @@
 title: "Användaragenter"
 description: "En av höjdpunkterna under pandemiåren var att följa den katt och råtta-lek som föräldrarna bakom Öppna skolplattformen och Stockholms kommun ägnade sig åt. Där och då var det bara halva (om ens det) historien som var offentlig och den utspelade sig i dagspressen och på Twitter."
 date: 2024-09-22T18:40:18+0200
+id: /2024/09/22/anvandaragenter/
 mastodon_id: "113182223692054214"
 tags:
     - webben

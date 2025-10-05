@@ -3,6 +3,7 @@ title: "Tiomila 2024 i Nynäshamn"
 description: "En liten löprapport från Tiomila 2024 i Nynäshamn."
 feature_image: Gustav-Lindqvist_2024-05-12_01823.jpg
 date: 2024-05-09T09:44:00+0200
+id: /2024/05/09/tiomila-2024-i-nynashamn/
 mastodon_id: 112410398806611516
 tags:
     - orientering

@@ -1,6 +1,8 @@
 ---
 title: "Ny plattform för bloggen"
 description: "Från 2013 fram till nu har jag använt plattformen Ghost för att hosta denna webbplatsen. Ghost var som en frisk fläkt på bloggmarknaden när den kom mot den då (och fortfarande) dominerande plattformen WordPress."
+date: 2021-12-07
+id: /2021/12/07/ny-plattform-for-bloggen/
 twitterId: 1468288793019101189
 tags:
     - webdev

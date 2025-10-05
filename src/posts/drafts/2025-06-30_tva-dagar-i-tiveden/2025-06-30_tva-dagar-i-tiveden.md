@@ -1,18 +1,14 @@
 ---
 title: "Två dagar i Tiveden"
 description: ""
-feature_image: ""
 date: 2025-06-30T12:00:07+0000
+id: /2025-06-30/tva-dagar-i-tiveden/
 tags:
     - friluftsliv
     - tiveden
 ---
 
-[Efter Omberg](/2025/06/28/ellen-keys-led-pa-omberg/){.lead}
-
-![](askersund_shopping.png){.-wide}
-
-![](tiveden_karta.jpeg  "ⓒ Lantmäteriet, OpenStreetMap contributors"){.-wide}
+![Topografisk karta över Tivedens nationalpark med vandringsleder och intressepunkter uppmärkta.](tiveden_karta.jpeg  "ⓒ Lantmäteriet, OpenStreetMap contributors"){.-wide}
 
 ## Tärnekullerundan
 
