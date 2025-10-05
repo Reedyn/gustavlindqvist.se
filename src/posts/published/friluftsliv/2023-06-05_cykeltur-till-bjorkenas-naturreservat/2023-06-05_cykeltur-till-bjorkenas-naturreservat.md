@@ -34,7 +34,7 @@ Därefter rundade jag Landsjön för att komma bort till Skärstad och sen börj
 
 ![Skärstad med skog i bakgrunden en solig dag](Gustav-Lindqvist_2023-06-04_08766-Pano.jpg){.-wide}
 
-[Vi har tidigare gått John Bauerleden](/2020/07/16/vandring-pa-john-bauerleden-siringe-ikhp/) från samma utgångspunkt, men då gick vi söderut mot Huskvarna. Nu var det norrut mot Bunn.
+[Vi har tidigare gått John Bauerleden](/2020-07-16/vandring-pa-john-bauerleden-siringe-ikhp/) från samma utgångspunkt, men då gick vi söderut mot Huskvarna. Nu var det norrut mot Bunn.
 
 Det var helt nya områden för mig och det visade sig att den mycket välskötta John Bauerleden kanske bara är något som går att applicera på den sydliga delen av John Bauerleden.
 

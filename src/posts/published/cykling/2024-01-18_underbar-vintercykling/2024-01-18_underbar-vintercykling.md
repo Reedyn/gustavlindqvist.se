@@ -10,7 +10,7 @@ tags:
     - jkpg
 ---
 
-Tyvärr har jag inte kommit ut med [nya cykeln](/2023/11/18/ny-cykel/) på ett tag på grund av vädret, planen är inte att sätta på vinterdäck på den utan den får vara en tresäsongscykel.
+Tyvärr har jag inte kommit ut med [nya cykeln](/2023-11-18/ny-cykel/) på ett tag på grund av vädret, planen är inte att sätta på vinterdäck på den utan den får vara en tresäsongscykel.
 
 Stigcykeln däremot fick på sig mina två och ett halv kilos dubbdäck har är fullt redo för alla äventyr. Jag har försökt undvika att cykla när det varit allt för kallt men när temperaturen närmar sig nollan så har jag passat på. Jämfört med den varma delen av året så blir turerna betydligt kortare, delvis för att jag tycker det känns lite riskabelt med längre turer ifall man skadar sig eller cykeln och sen är det mycket jobbigare att cykla både på grund av snö och is men också för att man har så mycket mer kläder på sig.
 

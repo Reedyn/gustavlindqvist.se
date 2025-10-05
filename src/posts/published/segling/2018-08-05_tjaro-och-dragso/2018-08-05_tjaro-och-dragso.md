@@ -19,7 +19,7 @@ Filmen nedan av Chani Johnsson visar hur det nya fina restaurangkomplexet ser ut
 
 Även jag saknar det gamla Tjärö så är allt bättre än vad det var åren efter 2008.
 
-På kvällen fick jag många fina möjligheter att prova [mitt nya objektiv](/2018/07/14/nytt-supervidvinkelobjektiv/) när vi gick runt och fotograferade.
+På kvällen fick jag många fina möjligheter att prova [mitt nya objektiv](/2018-07-14/nytt-supervidvinkelobjektiv/) när vi gick runt och fotograferade.
 
 ![Solnedgång över huvudbryggan på Tjärö](Gustav-Lindqvist_2018-07-20_0116.jpg "Solnedgång över huvudbryggan på Tjärö"){.-wide}
 

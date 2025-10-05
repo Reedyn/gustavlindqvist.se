@@ -30,7 +30,7 @@ Helt utan backar var det dock inte, vägen gick upp och ner.
 
 ![En cyklist som cyklar på en grusväg upp mot ett backkrön med åker på båda sidor](Gustav-Lindqvist_2023-06-19_09274-Pano.jpg){.-full}
 
-Framme vid Fjällstorp slog vi upp tältet på gräsmattan, [sedan sist vi var här](/2020/07/16/vandring-pa-john-bauerleden-siringe-ikhp/) har det rustats upp lite grann med en riktig fin övergång över staketet och lite bättre uppmärkning av leden.
+Framme vid Fjällstorp slog vi upp tältet på gräsmattan, [sedan sist vi var här](/2020-07-16/vandring-pa-john-bauerleden-siringe-ikhp/) har det rustats upp lite grann med en riktig fin övergång över staketet och lite bättre uppmärkning av leden.
 
 ![En tältplats med en välklippt gräsmatta. Till vänster står två cyklar lutade mot en övergång över ett staket och till höger syns ett uppslaget tält.](Gustav-Lindqvist_2023-06-19_09292-Pano.jpg "Tältplatsen vid Fjällstorp"){.-full}
 

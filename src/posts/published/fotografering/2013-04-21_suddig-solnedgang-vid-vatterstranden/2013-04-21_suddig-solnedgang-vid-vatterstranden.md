@@ -13,6 +13,6 @@ Resultatet i sig är inget att hurra över direkt, jag förberedde mig i timmar 
 
 <figure class="embed video"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yadmItT0EPE?si=xMt30ddDIaFSQMvL" title="Timelapse - Blurry Sunset at Vätterstranden, Jönköping" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></figure>
 
-[Jag fotograferade fullt manuellt med fast bländare och ISO och justerade (i snitt var 5:e minut) slutartiden medan intervallometern jobbade](/2016/07/04/efterbehandlingstekniker-for-timelapsefotografering/#manuell-ramping). I efterbehandlingen fixade jag sedan till övergångarna så de ändrades gradvis över tid istället för vid endast de tillfällena som jag ändrade inställningarna på kameran.
+[Jag fotograferade fullt manuellt med fast bländare och ISO och justerade (i snitt var 5:e minut) slutartiden medan intervallometern jobbade](/2016-07-04/efterbehandlingstekniker-for-timelapsefotografering/#manuell-ramping). I efterbehandlingen fixade jag sedan till övergångarna så de ändrades gradvis över tid istället för vid endast de tillfällena som jag ändrade inställningarna på kameran.
 
 Utrustning som användes var en Canon 450D med Tokina 11-16 f/2.8 vid f/11 och ett bildintervall på 5 sekunder. Bilderna är sedan renderade till video vid 24 fps.

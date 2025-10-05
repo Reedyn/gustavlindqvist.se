@@ -21,7 +21,7 @@ Jag började turen från busshållplatsen Kullen i Skärstad, därifrån gick ja
 :::
 ::::
 
-Istället för att gå hela vägen bort till Ramsjön och följa John Bauerleden den vägen ([som vi gjorde sist](/2020/07/16/vandring-pa-john-bauerleden-siringe-ikhp/)) så svängde jag av mot Råbyskogen för att se hur det ser ut där.
+Istället för att gå hela vägen bort till Ramsjön och följa John Bauerleden den vägen ([som vi gjorde sist](/2020-07-16/vandring-pa-john-bauerleden-siringe-ikhp/)) så svängde jag av mot Råbyskogen för att se hur det ser ut där.
 
 ![En sjö omgiven av skog. I förgrunden syns skuggade trädstammar som avtecknar sig som tjocka streck mot den ljusa skogen och sjön.](Gustav-Lindqvist_2023-09-17_00643+_3000w.jpg){.-full}
 

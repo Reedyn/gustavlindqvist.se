@@ -110,7 +110,7 @@ Jag traskade på i fart med regnjackan på eftersom det börjat regna så smått
 
 ![Karta över terrängen vid Hassafallsleden. En blå streckad linje är utritad för att visa en vandringsrutt.](Karta_Hassafallsleden.jpg){.-full}
 
-[Varkullen brukar bjuda på fina utsikter](/2016/06/19/hassafallsleden/), denna gången var det mest ett regnigt Jönköping.
+[Varkullen brukar bjuda på fina utsikter](/2016-06-19/hassafallsleden/), denna gången var det mest ett regnigt Jönköping.
 
 ![Jönköping sett från Varkullen, ett regnoväder täcker staden och gör att allt är i en gråskala.](Gustav-Lindqvist_2022-09-25_06891-Pano.jpg){.-wide}
 
