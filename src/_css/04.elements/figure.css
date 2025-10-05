@@ -40,6 +40,7 @@ figure {
 			position: relative;
 			margin-right: calc(50% - 50vw);
 			margin-left: calc(50% - 50vw); /* 50vw equals half the width */
+			border-radius: var(--border-radius--image);
 			width: 100vw; /* Or whatever max width is */
 			max-width: none;
 		}
