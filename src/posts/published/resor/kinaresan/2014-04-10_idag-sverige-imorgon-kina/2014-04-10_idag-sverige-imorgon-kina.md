@@ -3,7 +3,7 @@ title: "Idag Sverige, imorgon Kina*"
 description: "Imorgon är det dags! Klockan 07:05 lämnar vi Jönköping mot Landvetter för att därifrån ta flyget till London och sen vidare mot Shanghai…"
 date: 2014-04-10
 id: /2014/04/10/idag-sverige-imorgon-kina/
-tags: ["gaming", "resor", "kinaresan"]
+tags: ["spel", "resor", "kinaresan"]
 ---
 
 Imorgon är det dags! Klockan 07:05 lämnar vi Jönköping mot Landvetter för att därifrån ta flyget till London och sen vidare mot Shanghai och Kina.{.lead}
