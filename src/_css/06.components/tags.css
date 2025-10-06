@@ -5,6 +5,7 @@
 		display: inline-block;
 		margin-right: 0.4em;
 		margin-bottom: 0.4em;
+		border-radius: var(--border-radius--tag);
 		background: oklch(60% 0 0deg / 0.15);
 		padding: 0.1em 0.5em;
 		color: inherit;
