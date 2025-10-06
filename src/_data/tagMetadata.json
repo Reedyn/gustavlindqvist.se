@@ -85,8 +85,8 @@
 			"lightnessSecondary": "90%"
 		}
 	},
-	"gaming": {
-		"title": "gaming",
+	"spel": {
+		"title": "spel",
 		"emoji": "\uD83C\uDFAE",
 		"feedTitle": "Gustav spelar spel",
 		"type": "subject"
