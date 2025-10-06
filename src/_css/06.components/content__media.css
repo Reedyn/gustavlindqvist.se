@@ -2,7 +2,6 @@
 	img {
 		display: block;
 		position: relative;
-		filter: var(--color--shadow--drop);
 		margin: 0 auto;
 		background: none;
 		max-width: 100%;
@@ -32,9 +31,5 @@
 			height: 100%;
 			content: "";
 		}
-	}
-
-	iframe {
-		filter: var(--color--shadow--drop);
 	}
 }

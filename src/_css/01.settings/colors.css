@@ -15,9 +15,6 @@ All colors used throughout the theme
 	--color--background--contrast--alt: oklch(2% 0 0deg);
 	--color--background--gradient: linear-gradient(180deg, transparent 0, white 100%);
 	--color--overlay: oklch(0% 0 0deg / 0.5);
-	--color--shadow: 1px 1px 3px rgba(0, 0, 0, 0.1), 5px 5px 12px rgba(0, 0, 0, 0.2);
-	--color--shadow--drop: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.2))
-		drop-shadow(5px 5px 12px rgba(0, 0, 0, 0.3));
 
 	--color--body: black;
 	--color--body--alt: oklch(25% 0 0deg);

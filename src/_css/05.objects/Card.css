@@ -26,7 +26,6 @@
 	display: flex;
 	position: relative;
 	flex-direction: column;
-	box-shadow: var(--color--shadow);
 	border-radius: var(--border-radius--card);
 	background: var(--color--background--contrast--widget);
 	background-position: center;
