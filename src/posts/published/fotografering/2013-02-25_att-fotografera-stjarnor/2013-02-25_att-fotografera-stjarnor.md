@@ -6,7 +6,6 @@ date: 2013-02-25
 id: /2013/02/25/att-fotografera-stjarnor/
 tags: ["fotografering", "jkpg"]
 ---
-
 **Filmen nedan är en [time-lapse gjord av Alessandro Della Bella](http://helvetiabynight.com/2012/12/20/one-day-on-earth-cold-engadin-time-lapse-night/) under One Day on Earth, 2012-12-12.**
 
 <figure class="embed video -wide">
