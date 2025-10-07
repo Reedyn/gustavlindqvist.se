@@ -15,12 +15,13 @@ permalink: /{{ tag | slug }}/feed.xml
 ---{% set tagData = tagMetadata[tag] %}{% set title = tagData.title %}{% set feedTitle = tagData.feedTitle %}{% set taglist = collections[ tag ] %}<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="/assets/stylesheets/feeds.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>{% if feedTitle %}{{ feedTitle }}{% else %}{{ metadata.title }} – {{ ( title | firstLetterUpper or tag | firstLetterUpper) }}{% endif %}</title>
-    {% if subtitle %}<subtitle>{{ tagData.description }}</subtitle>{% endif %}
+    <title>{% if feedTitle %}{{ feedTitle }}{% else %}{{ metadata.title }} – {{ ( title | firstLetterUpper or tag | firstLetterUpper) }}{% endif %}</title>{% if subtitle %}
+		<subtitle>{{ tagData.description }}</subtitle>{% endif %}
     <link href="{{ metadata.url }}/{{ tag | slug }}/feed.xml" rel="self"/>
     <link href="{{ metadata.url }}/{{ tag | slug }}/"/>
     <updated>{{ taglist | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
     <id>{{ metadata.url }}/{{ tag | slug }}/</id>
+	<category term="{% if tagData.title %}{{ tagData.title | firstLetterUppercase }}{% else %}{{ tag | firstLetterUppercase }}{% endif %}"/>
     <author>
         <name>{{ metadata.author.name }} {{ metadata.author.surname }}</name>
         <email>{{ metadata.author.email }}</email>
@@ -33,9 +34,8 @@ permalink: /{{ tag | slug }}/feed.xml
         <link href="{{ absolutePostUrl }}"/>
         <updated>{{ post.date | dateToRfc3339 }}</updated>
         <id>{{ postId }}</id>
-        <content type="html">
-            {{ post.templateContent | renderTransforms(post.data.page, metadata.url) }}
-        </content>
+        <content type="html">{{ post.templateContent | renderTransforms(post.data.page, metadata.url) }}
+		</content>
     </entry>
     {%- endfor %}
 </feed>

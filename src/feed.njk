@@ -25,9 +25,9 @@
         <link href="{{ absolutePostUrl }}"/>
         <updated>{{ post.date | dateToRfc3339 }}</updated>
         <id>{{ postId }}</id>
-        <content type="html">
-            {{ post.templateContent | renderTransforms(post.data.page, metadata.url) }}
-        </content>
+        <content type="html">{{ post.templateContent | renderTransforms(post.data.page, metadata.url) }}
+		</content>{%- for tag in post.data.tags -%}{% if (tag !== 'posts') and (tag !== 'page') %}{% set tagData = tagMetadata[tag] %}
+		<category term="{% if tagData.title %}{{ tagData.title | firstLetterUppercase }}{% else %}{{ tag | firstLetterUppercase }}{% endif %}"/>{% endif %}{%- endfor %}
     </entry>
     {%- endfor %}
 </feed>
