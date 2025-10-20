@@ -45,7 +45,7 @@ templateClass: tag-template
         <ul class="post-list">
             {% for post in yearPosts | reverse %}
                 <li class="post-list__item">
-                    <h3 class="post-title"><a id="{{ hashId }}" class="post-link" href="{{ post.url | url}}">{{ post.data.title }}</h3>
+					<h3 class="post-title"><a id="{{ hashId }}" class="post-link" href="{{ post.url | url}}">{{ post.data.title }}</a></h3>
                     {% if post.data.page.date %}<span class="post-metadata">{% for tag in post.data.tags %}{% set tagLocalData = tagMetadata[tag] %}{% if tagLocalData.emoji and (tagLocalData.type == 'subject' or tagLocalData.type == 'location') %}{{ tagLocalData.emoji }} {% endif %}{% endfor %}<time datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | longISODate }}">{{ post.data.page.date  | readableDate }}</time></span>{% endif %}
                 </li>
             {% endfor %}
