@@ -7,7 +7,7 @@
         {% set seriesTitle = tagMetadata[series].title or series %}
         <p id="read-more__text" class="read-more-text">~ Läs nästa inlägg i {{ seriesTitle }} ~</p>
          <h2 id="next-post__title" class="next-post__title">
-			 <a href="{{ nextPost.url }}">{{ title | viewTransitionNamePerWord(hashId) | safe}}</a></h2>
+			 <a href="{{ nextPost.url }}">{{ nextPost.title | viewTransitionNamePerWord(hashId) | safe}}</a></h2>
         {% if nextPost.data.page.date %}<p class="next-post__date"><time datetime="{{ nextPost.data.page.date | fullISODate }}" title="{{ nextPost.data.page.date | longISODate }}">{{ nextPost.data.page.date | readableLongDate }}</time></p>{% endif %}
     </div>
     {{ nextPostOptimizedFeatureImage | safe }}

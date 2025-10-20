@@ -6,7 +6,7 @@ export default function (title, hash) {
 
 	words.forEach((word) => {
 		title_separated.push(
-			`<span style="view-transition-name: ${hash}_title_${counter};">${word}</span>`,
+			`<span style="view-transition-name: ${hash}-title-${counter};">${word}</span>`,
 		);
 		counter++;
 	});
