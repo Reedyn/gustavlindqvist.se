@@ -6,6 +6,7 @@ templateClass: home-template
 <section class="Cards posts" aria-labelledby="senaste-inlaggen">
     <h2 id="senaste-inlaggen" class="sr-only">Senaste inläggen</h2>
     {%- for post in collections.posts | sortBySortDate | reverse -%}
+	{%- set hashId =  post.url | hashString -%}
     {% if loop.index0 < 4 %}
     {%- set canonicalURL = metadata.url + post.data.page.url -%}
     {% if loop.index0 == 0 %}
@@ -16,7 +17,7 @@ templateClass: home-template
 
     <article aria-labelledby="{{ post.url | hashString}}" class="Card post -align-bottom{% if optimizedFeatureImage %} -feature-image{% endif %}{% if post.data.feature_image_position %} -feature-image--{{ post.data.feature_image_position }}{% endif %}">
         <div class="Card__content">
-            <h3 class="Card__title" style="view-transition-name: post-title-{{ post.url | hashString}}"><a id="{{ post.url | hashString}}" class="Card__title-link" href="{{ post.url }}">{{ post.data.title }}</a></h3>
+            <h3 class="Card__title"><a id="{{ hashId }}" class="Card__title-link" href="{{ post.url }}">{{ post.data.title | viewTransitionNamePerWord(hashId) | safe}}</a></h3>
             {% if post.data.page.date %}<p class="Card__metadata"><time data-firstletterupper class="timeago" datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | longISODate }}">{{ post.data.page.date | readableLongDate }}</time></p>{% endif %}
         </div>
         {% if (post.data.tags.length) %}<span class="Card__content__extra -top-left">
