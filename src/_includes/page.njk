@@ -10,6 +10,7 @@ eleventyComputed:
     modified: "{% if updateDate %}{{ updateDate | isoString }}{% endif %}"
 ---
 {%- set canonicalURL = metadata.url + page.url -%}
+{%- set hashId =  page.url | hashString -%}
 {% if feature_image %}
     {%- set optimizedFeatureImage = feature_image | featureImageFilter("100vw", "page-header__image", page) %}
 {% else %}
@@ -19,7 +20,7 @@ eleventyComputed:
     <header id="page-header" class="page-header{% if feature_image %} -feature-image{% endif %}{% if feature_image_position %} -feature-image--{{ feature_image_position }}{% endif %}">
         {{ optimizedFeatureImage | safe }}
         <div class="page-metadata">
-            <h1 class="page-title">{{ title }}</h1>
+            <h1 class="page-title">{{ title | viewTransitionNamePerWord(hashId) | safe}}</h1>
         </div>
     </header>
     <section class="page-content content content-layout" id="page-content" aria-label="Sidans innehåll">

@@ -6,6 +6,7 @@ import markdown from './markdown.mjs';
 import functions from './functions.mjs';
 import featureImageFilter from './filters/feature-image.mjs';
 import openGraphImageFilter from './filters/open-graph-image.mjs';
+import viewTransitionNamePerWord from './filters/view-transition-name-per-word.mjs';
 import proxyImage from './filters/proxy-image.mjs';
 import dates from './filters/dates.mjs';
 import statistics from './filters/statistics.mjs';
@@ -146,6 +147,7 @@ export default {
 	firstLetterUppercase: (rawString) => {
 		return rawString.charAt(0).toUpperCase() + rawString.slice(1);
 	},
+	viewTransitionNamePerWord: viewTransitionNamePerWord,
 	hashString: functions.hashString,
 	prettyDigits: (number) => {
 		try {
