@@ -25,7 +25,7 @@ eleventyNavigation:
         <h2>{{ year }}</h2>
         <ul class="post-list">
             {% for post in yearPosts | reverse %}{%- set hashId =  post.url | hashString -%}<li class="post-list__item">
-                <h3 class="post-title"><a id="{{ hashId }}" class="post-link" href="{{ post.url }}">{{ post.data.title | viewTransitionNamePerWord(hashId) | safe}}</a></h3>
+                <h3 class="post-title"><a id="{{ hashId }}" class="post-link" href="{{ post.url }}">{{ post.data.title }}</a></h3>
                 {% if post.data.page.date %}<span class="post-metadata">{% for tag in post.data.tags %}{% set tagData = tagMetadata[tag] %}{% if tagData.emoji and (tagData.type == 'subject' or tagData.type == 'location') %}{{ tagData.emoji }} {% endif %}{% endfor %}<span class="sr-only">Publicerat </span><time datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | longISODate }}">{{ post.data.page.date  | readableDate }}</time></span>{% endif %}
             </li>{% endfor %}
         </ul>
