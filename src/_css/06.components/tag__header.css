@@ -33,7 +33,7 @@
 	}
 
 	&:not(.-feature-image) {
-		.tag-title {
+		.tag-title, .tag-title span {
 			/* noinspection CssInvalidPropertyValue */
 			@supports (
 				(background-clip: text) and

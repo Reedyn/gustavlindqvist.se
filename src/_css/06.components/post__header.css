@@ -48,7 +48,7 @@
 	}
 
 	&:not(.-feature-image) {
-		.post-title {
+		.post-title, .post-title span {
 			/* noinspection CssInvalidPropertyValue */
 			@supports (
 				(background-clip: text) and
