@@ -119,9 +119,6 @@ importers:
       slugify:
         specifier: ^1.6.5
         version: 1.6.6
-      strava-v3:
-        specifier: ^2.1.0
-        version: 2.2.1
     devDependencies:
       '@eslint/eslintrc':
         specifier: ^3.1.0
@@ -606,18 +603,12 @@ packages:
   bcrypt-pbkdf@1.0.2:
     resolution: {integrity: sha512-qeFIXtP4MSoi6NLqO12WfqARWWuCKi2Rn/9hJLEmtB5yTNr9DqFWkJRCf2qShWzPeAMRnOgCrq0sg/KLv5ES9w==}
 
-  bignumber.js@9.1.2:
-    resolution: {integrity: sha512-2/mKyZH9K85bzOEfhXDBFZTGd1CTs+5IHpeFQo9luiBG7hghdC851Pj2WAhb6E3R6b9tZj/XKhbg4fum+Kepug==}
-
   binary-extensions@2.3.0:
     resolution: {integrity: sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==}
     engines: {node: '>=8'}
 
   bl@4.1.0:
     resolution: {integrity: sha512-1W07cM9gS6DcLperZfFSj+bWLtaPGSOHWhPiGzXmvVJbRLdG82sH/Kn8EtW1VqWVA54AKf2h5k5BbnIbwF3h6w==}
-
-  bluebird@3.7.2:
-    resolution: {integrity: sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==}
 
   boolbase@1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
@@ -1654,9 +1645,6 @@ packages:
       canvas:
         optional: true
 
-  json-bigint@1.0.0:
-    resolution: {integrity: sha512-SiPv/8VpZuWbvLSMtTDU8hEfrZWg/mH/nV/b4o0CYbSxu1UIQPLdwKOCIyLQX+VIPO5vrLX3i8qtqFyhdPSUSQ==}
-
   json-buffer@3.0.1:
     resolution: {integrity: sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==}
 
@@ -2456,19 +2444,6 @@ packages:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
     engines: {node: '>=8.10.0'}
 
-  request-promise-core@1.1.4:
-    resolution: {integrity: sha512-TTbAfBBRdWD7aNNOoVOBH4pN/KigV6LyapYNNlAPA8JwbovRti1E88m3sYAwsLi5ryhPKsE9APwnjFTgdUjTpw==}
-    engines: {node: '>=0.10.0'}
-    peerDependencies:
-      request: ^2.34
-
-  request-promise@4.2.6:
-    resolution: {integrity: sha512-HCHI3DJJUakkOr8fNoCc73E5nU5bqITjOYFMDrKHYOXWXrgD/SBaC7LjwuPymUprRyuF06UK7hd/lMHkmUXglQ==}
-    engines: {node: '>=0.10.0'}
-    deprecated: request-promise has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
-    peerDependencies:
-      request: ^2.34
-
   request@2.88.2:
     resolution: {integrity: sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==}
     engines: {node: '>= 6'}
@@ -2627,14 +2602,6 @@ packages:
   statuses@2.0.1:
     resolution: {integrity: sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==}
     engines: {node: '>= 0.8'}
-
-  stealthy-require@1.1.1:
-    resolution: {integrity: sha512-ZnWpYnYugiOVEY5GkcuJK1io5V8QmNYChG62gSit9pQVGErXtrKuPC55ITaVSukmMta5qpMU7vqLt2Lnni4f/g==}
-    engines: {node: '>=0.10.0'}
-
-  strava-v3@2.2.1:
-    resolution: {integrity: sha512-gIz0JIk8cAjhOvCqE6bOy+YL+jjPKtHI1iXa69sLD+JhKyVm7Nnb49MBvVC1G6gIfjM7sGZIVNOtTaCblekT7Q==}
-    engines: {node: '>=8.0.0'}
 
   stream-parser@0.3.1:
     resolution: {integrity: sha512-bJ/HgKq41nlKvlhccD5kaCr/P+Hu0wPNKPJOH7en+YrJu/9EgqUF+88w5Jb6KNcjOFMhfX4B2asfeAtIGuHObQ==}
@@ -3511,8 +3478,6 @@ snapshots:
     dependencies:
       tweetnacl: 0.14.5
 
-  bignumber.js@9.1.2: {}
-
   binary-extensions@2.3.0: {}
 
   bl@4.1.0:
@@ -3520,8 +3485,6 @@ snapshots:
       buffer: 5.7.1
       inherits: 2.0.4
       readable-stream: 3.6.2
-
-  bluebird@3.7.2: {}
 
   boolbase@1.0.0: {}
 
@@ -4698,10 +4661,6 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  json-bigint@1.0.0:
-    dependencies:
-      bignumber.js: 9.1.2
-
   json-buffer@3.0.1: {}
 
   json-schema-traverse@0.4.1: {}
@@ -5472,19 +5431,6 @@ snapshots:
     dependencies:
       picomatch: 2.3.1
 
-  request-promise-core@1.1.4(request@2.88.2):
-    dependencies:
-      lodash: 4.17.21
-      request: 2.88.2
-
-  request-promise@4.2.6(request@2.88.2):
-    dependencies:
-      bluebird: 3.7.2
-      request: 2.88.2
-      request-promise-core: 1.1.4(request@2.88.2)
-      stealthy-require: 1.1.1
-      tough-cookie: 2.5.0
-
   request@2.88.2:
     dependencies:
       aws-sign2: 0.7.0
@@ -5671,15 +5617,6 @@ snapshots:
       minipass: 7.1.2
 
   statuses@2.0.1: {}
-
-  stealthy-require@1.1.1: {}
-
-  strava-v3@2.2.1:
-    dependencies:
-      bluebird: 3.7.2
-      json-bigint: 1.0.0
-      request: 2.88.2
-      request-promise: 4.2.6(request@2.88.2)
 
   stream-parser@0.3.1:
     dependencies:
