@@ -5,17 +5,15 @@ import 'dotenv/config';
 
 export default async () => {
 	async function setToken (access_token, refresh_token, expires_at) {
-		let headers = {
-			authorization: 'Bearer ' + process.env.DIRECTUS_TOKEN,
-		};
-
-		let init = {
-			headers: headers,
+		let config = {
+			headers: {
+				authorization: 'Bearer ' + process.env.DIRECTUS_TOKEN,
+			},
 			method: 'PATCH',
 			body: JSON.stringify(),
 		};
 
-		let response = await nodeFetch(`https://cms.gustavlindqvist.se/items/Strava`, init);
+		let response = await nodeFetch(`https://cms.gustavlindqvist.se/items/Strava`, config);
 
 		if (response.ok) {
 			let jsonResponse = await response.json();
@@ -25,16 +23,14 @@ export default async () => {
 	}
 
 	async function getToken () {
-		let headers = {
-			authorization: 'Bearer ' + process.env.DIRECTUS_TOKEN,
-		};
-
-		let init = {
-			headers: headers,
+		let config = {
+			headers: {
+				authorization: 'Bearer ' + process.env.DIRECTUS_TOKEN,
+			},
 			method: 'GET',
 		};
 
-		let response = await nodeFetch(`https://cms.gustavlindqvist.se/items/Strava`, init);
+		let response = await nodeFetch(`https://cms.gustavlindqvist.se/items/Strava`, config);
 
 		if (response.ok) {
 			let jsonResponse = await response.json();
@@ -61,11 +57,12 @@ export default async () => {
 				}),
 			});
 
-			const newTokens = await response.json();
+			const newTokensData = await response.json();
+			const newTokens = newTokensData.data;
 
 			await setToken(newTokens.access_token, newTokens.refresh_token, newTokens.expires_at);
 
-			return tokens.access_token;
+			return newTokens.access_token;
 		}
 		return tokens.access_token;
 	}
