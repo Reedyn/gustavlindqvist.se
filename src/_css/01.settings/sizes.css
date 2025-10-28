@@ -4,7 +4,7 @@ Sizes, margins and paddings
 --------------- */
 :root {
 	--max-width__base: 130ch;
-	--max-width__content: 85ch;
+	--max-width__content: 70ch;
 
 	--margin--tiny: 0.375rem;
 	--margin--small: 0.75rem;
