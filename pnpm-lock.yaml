@@ -107,9 +107,6 @@ importers:
       path:
         specifier: ^0.12.7
         version: 0.12.7
-      prettier:
-        specifier: 3.3.3
-        version: 3.3.3
       probe-image-size:
         specifier: ^7.2.3
         version: 7.2.3
@@ -171,12 +168,18 @@ importers:
       postcss-nesting:
         specifier: ^13.0.0
         version: 13.0.1(postcss@8.4.49)
+      prettier:
+        specifier: 3.3.3
+        version: 3.3.3
       prettier-eslint:
         specifier: ^16.3.0
         version: 16.3.0
       prettier-plugin-css-order:
         specifier: ^2.1.2
         version: 2.1.2(postcss@8.4.49)(prettier@3.3.3)
+      prettier-plugin-space-before-function-paren:
+        specifier: ^0.0.9
+        version: 0.0.9(prettier@3.3.3)
 
 packages:
 
@@ -2357,6 +2360,11 @@ packages:
     engines: {node: '>=16'}
     peerDependencies:
       prettier: 3.x
+
+  prettier-plugin-space-before-function-paren@0.0.9:
+    resolution: {integrity: sha512-JZMlayZSrfD1/GtZgGr3IpKubQDBCEYUNi6WXvmcJ5nxQ8ySZYKgGxEaludxEtF1jBv6zC6QYmvjz+LXfp+VyA==}
+    peerDependencies:
+      prettier: '>=3.0.0'
 
   prettier@3.3.3:
     resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
@@ -5362,6 +5370,10 @@ snapshots:
       prettier: 3.3.3
     transitivePeerDependencies:
       - postcss
+
+  prettier-plugin-space-before-function-paren@0.0.9(prettier@3.3.3):
+    dependencies:
+      prettier: 3.3.3
 
   prettier@3.3.3: {}
 

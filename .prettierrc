@@ -1,12 +1,23 @@
 {
 	"singleQuote": true,
+	"spaceBeforeFunctionParen": false,
 	"overrides": [
 		{
-			"files": ["**/*.css", "**/*.scss", "**/*.html", "**/*.md"],
+			"files": [
+				"**/*.css",
+				"**/*.scss",
+				"**/*.html",
+				"**/*.md"
+			],
 			"options": {
 				"singleQuote": false
 			}
 		}
 	],
-	"plugins": ["prettier-plugin-css-order", "prettier-eslint", "@awmottaz/prettier-plugin-void-html"]
+	"plugins": [
+		"prettier-plugin-css-order",
+		"prettier-eslint",
+		"@awmottaz/prettier-plugin-void-html",
+		"prettier-plugin-space-before-function-paren"
+	]
 }

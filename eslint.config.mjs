@@ -92,15 +92,13 @@ export default [
 			semi: 2,
 			'semi-spacing': 1,
 			'space-before-blocks': 1,
-
-			'space-before-function-paren': [
+			'space-before-function-parent': [
 				1,
 				{
 					anonymous: 'always',
 					named: 'never',
 				},
 			],
-
 			'space-in-parens': 1,
 			'space-infix-ops': 1,
 			'space-unary-ops': 1,
