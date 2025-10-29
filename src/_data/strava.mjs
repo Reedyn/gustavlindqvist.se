@@ -18,7 +18,7 @@ export default async () => {
 			})
 		};
 
-		let response = await nodeFetch(`https://cms.gustavlindqvist.se/items/Strava`, config);
+		let response = await nodeFetch(`https://cms.gustavlindqvist.se/items/strava`, config);
 
 		if (response.ok) {
 			let jsonResponse = await response.json();
@@ -36,7 +36,7 @@ export default async () => {
 			method: 'GET'
 		};
 
-		let response = await nodeFetch(`https://cms.gustavlindqvist.se/items/Strava`, config);
+		let response = await nodeFetch(`https://cms.gustavlindqvist.se/items/strava`, config);
 
 		if (response.ok) {
 			let jsonResponse = await response.json();
