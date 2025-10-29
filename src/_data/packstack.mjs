@@ -61,7 +61,7 @@ export default async () => {
 		const packUrl = `https://api.packstack.io/pack/trip/${packId}`;
 		try {
 			const rawPackData = await fetch(packUrl, {
-				duration: '1h',
+				duration: '3h',
 				type: 'json',
 				directory: '.cache',
 			});
