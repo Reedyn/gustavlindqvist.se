@@ -94,7 +94,7 @@ Denna hade vi läst om och såg fram emot. Det skulle gå att se *HELA VÄGEN TI
 
 Leden upp gick först upp för några trappor, sen var det brant upp längs med en klippa.
 
-![En stig uppför vid sidan om en klippa som det växer tallar i. Ett av träden har en vit ledmarkering på.](Gustav-Lindqvist_2025-06-29_05500-2-Pano.jpg "Stigen upp till Stenhälleklack"){.-full}
+![En stig uppför vid sidan om en klippa som det växer tallar i. Ett av träden har en vit ledmarkering på.](Gustav-Lindqvist_2025-06-29_05500-2-Pano.jpg "Stigen upp till Stenhälleklack"){.-wide}
 
 Väl uppe fick vi vår belöning, utsikt hela vägen till Vättern, som utlovat. Men kanske inte riktigt vad vi förväntade oss. Särskilt inte efter att [dagen innan varit på Omberg](/2025-06-28/ellen-keys-led-pa-omberg/) med utsikt flera mil i alla riktningar.
 
