@@ -55,7 +55,9 @@ Några timmar senare dök det upp två familjer som slog upp sina tält en bit b
 
 ![En lägerplats med några spridda tallträd. I mitten av lägerplatsen står det en skylt med namnet Käringaudden på. Till höger syns ett rött tunneltält och längre bort syns ett grått och grönt tält.](Gustav-Lindqvist_2025-06-29_05393-2-Pano.jpg "Käringaudden"){.-full}
 
-Det enda som återstod var att fixa lite mat på de väldigt fina grillplatserna. De har verkligen lagt mycket resurser på att få en bra standard i nationalparken. Små detaljer som att ledmarkeringar och bänken runt grillplatsen har samma hexagonform som nationalparkslogotypen, eller att ledmarkeringarna är tillgänglighetsanpassade med både färgkodning och symboler för de utan färgseende, är väldigt trevligt. Någon har verkligen brytt sig!
+Det enda som återstod var att fixa lite mat på de väldigt fina grillplatserna. De har verkligen lagt mycket resurser på att få en bra standard i nationalparken.
+
+Små detaljer som att ledmarkeringar och bänken runt grillplatsen har samma hexagonform som nationalparkslogotypen, eller att ledmarkeringarna är tillgänglighetsanpassade med både färgkodning och symboler för de utan färgseende, är väldigt trevligt. Någon har verkligen brytt sig!
 
 :::::: gallery {.-wide}
 :::: row
