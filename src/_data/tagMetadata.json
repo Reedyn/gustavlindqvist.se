@@ -289,6 +289,11 @@
 		"title": "Stenshuvud nationalpark",
 		"type": "location"
 	},
+	"stigmansrundan": {
+		"title": "Stigmansrundan",
+		"emoji": "⚫",
+		"type": "hiking_trail"
+	},
 	"stottingfjallet": {
 		"title": "Stöttingfjället",
 		"type": "location"
@@ -330,6 +335,11 @@
 		"title": "Tyskland",
 		"emoji": "\uD83C\uDDE9\uD83C\uDDEA",
 		"type": "location"
+	},
+	"tärnekullerundan": {
+		"title": "Tärnekullerundan",
+		"emoji": "\uD83D\uDFE0",
+		"type": "hiking_trail"
 	},
 	"ux": {
 		"title": "User Experience",
