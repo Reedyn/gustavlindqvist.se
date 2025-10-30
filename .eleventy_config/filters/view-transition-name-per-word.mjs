@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 export default function (title, hash) {
 	const words = title.split(' ');
 	const title_separated = [];
