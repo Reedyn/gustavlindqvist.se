@@ -23,7 +23,6 @@ figure {
 
 	figcaption {
 		margin: 0;
-		font-style: italic;
 		font-family: var(--font--captions);
 		text-align: center;
 

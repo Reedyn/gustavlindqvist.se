@@ -7,10 +7,14 @@
 		margin-bottom: 0.4em;
 		border-radius: var(--border-radius--tag);
 		background: oklch(60% 0 0deg / 0.15);
-		padding: 0.1em 0.5em;
+
+		padding-right: 0.6em;
 		color: inherit;
 
 		a {
+			display: inline-block;
+			padding: 0.1em 0.5em;
+			padding-right: 0;
 			color: var(--color--body);
 			text-decoration: none;
 
@@ -24,6 +28,10 @@
 					background: none;
 					color: var(--color--accent--secondary);
 				}
+			}
+
+			&:not(:last-child) {
+				padding-right: 0;
 			}
 		}
 	}
