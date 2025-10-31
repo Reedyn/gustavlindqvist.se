@@ -20,7 +20,13 @@
 		}
 
 		.Hero__text {
+			display: none;
 			text-wrap: balance;
+
+			/*noinspection CssInvalidMediaFeature*/
+			@media (--viewport--smedium) {
+				display: block;
+			}
 		}
 	}
 
