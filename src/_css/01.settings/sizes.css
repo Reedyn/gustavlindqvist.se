@@ -3,8 +3,8 @@
 Sizes, margins and paddings
 --------------- */
 :root {
-	--max-width__base: 130ch;
 	--max-width__content: 70ch;
+	--max-width__base: calc(var(--max-width__content) + 40ch);
 
 	--margin--tiny: 0.375rem;
 	--margin--small: 0.75rem;

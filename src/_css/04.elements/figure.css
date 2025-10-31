@@ -32,6 +32,16 @@ figure {
 		}
 	}
 
+	&.-round {
+		> picture img,
+		> img,
+		iframe,
+		> div {
+			border-radius: 50%;
+			overflow: clip;
+		}
+	}
+
 	&.-full {
 		> picture img,
 		> img,

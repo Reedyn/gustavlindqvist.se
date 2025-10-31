@@ -1,0 +1,30 @@
+.Hero {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: end;
+
+	.Hero__text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: var(--padding--medium) 0;
+		width: fit-content;
+		height: 100%;
+
+		.Hero__heading {
+			margin-top: 0;
+		}
+	}
+
+	.Hero__image {
+		--margin--top-bottom: 0;
+
+		width: min(50vw, 30rem);
+	}
+}
+
+.sections section:has(.Hero) {
+	padding-top: 0;
+	padding-bottom: 0;
+}

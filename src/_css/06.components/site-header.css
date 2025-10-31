@@ -1,15 +1,18 @@
 .site-header {
+	display: flex;
+	justify-content: space-around;
 	background-color: var(--color--background);
 }
 
 .site-header__content {
 	display: flex;
 	position: relative;
+	flex: 1;
 	flex-direction: column;
 	z-index: 10;
 	margin: auto;
-	padding-right: var(--padding--medium);
-	padding-left: var(--padding--medium);
+	margin-right: var(--margin--medium);
+	margin-left: var(--margin--medium);
 	max-width: var(--max-width__base);
 	color: var(--color--body--alt);
 	line-height: var(--header--height);

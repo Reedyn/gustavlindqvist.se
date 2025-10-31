@@ -2,66 +2,101 @@
 layout: base.njk
 templateClass: home-template
 ---
-<div class="wrapper">
-<section class="Cards posts" aria-labelledby="senaste-inlaggen">
-    <h2 id="senaste-inlaggen" class="sr-only">Senaste inläggen</h2>
-    {%- for post in collections.posts | sortBySortDate | reverse -%}
-	{%- set hashId =  post.url | hashString -%}
-    {% if loop.index0 < 4 %}
-    {%- set canonicalURL = metadata.url + post.data.page.url -%}
-    {% if loop.index0 == 0 %}
-        {%- set optimizedFeatureImage = post.data.feature_image | featureImageFilter("(max-width: 1160px) 100vw, 1160px", "Card__image", post.data.page) %}
-    {% else %}
-        {%- set optimizedFeatureImage = post.data.feature_image | featureImageFilter("400px", "Card__image", post.data.page) %}
-    {% endif %}
-
-    <article aria-labelledby="{{ post.url | hashString}}" class="Card post -align-bottom{% if optimizedFeatureImage %} -feature-image{% endif %}{% if post.data.feature_image_position %} -feature-image--{{ post.data.feature_image_position }}{% endif %}">
-        <div class="Card__content">
-            <h3 class="Card__title"><a id="{{ hashId }}" class="Card__title-link" href="{{ post.url }}">{{ post.data.title | viewTransitionNamePerWord(hashId) | safe}}</a></h3>
-            {% if post.data.page.date %}<p class="Card__metadata"><time data-firstletterupper class="timeago" datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | longISODate }}">{{ post.data.page.date | readableLongDate }}</time></p>{% endif %}
-        </div>
-        {% if (post.data.tags.length) %}<span class="Card__content__extra -top-left">
-            {% if (post.data.tags) %}<span class="tags" aria-label="Taggar:">
-                {%- for tag in post.data.tags -%}
-                    {% if (tag !== 'posts') and (tag !== 'page') %}{% set tagData = tagMetadata[tag] %}<span class="tag">{% if tagData.emoji %}{{ tagData.emoji }} {% endif %}{% if tagData.title %}{{ tagData.title | firstLetterUppercase }}{% else %}{{ tag | firstLetterUppercase }}{% endif %}</span><span class="sr-only">,</span>
-                {% endif %}
-                {%- endfor -%}
-            </span>{% endif %}
-        </span>{% endif %}
-        {{ optimizedFeatureImage | safe }}
-    </article>
-    {% endif %}
-    {%- endfor -%}
-</section>
-    <p>Läs {{ collections.posts.length-4 }} fler inlägg i <a href="/blogg/">bloggen</a>.</p>
-<h2 id="annan-lasning">Lästips</h2>
-<section class="Cards series" aria-labelledby="annan-lasning">
-    <article aria-labelledby="{{ "/kinaresan/" | hashString }}" class="Card -align-bottom -feature-image">
-        <div class="Card__content">
-            <h3 class="Card__title"><a id="{{ "/kinaresan/" | hashString }}" class="Card__title-link" href="/kinaresan/">Kinaresan</a></h3>
-            <p><time>2014</time> · <span>{{ collections['kinaresan'].length }} inlägg</span></p>
-        </div>
-        <figure class="image Card__image">
-            <img src="/assets/images/kinaresan.jpg" loading="lazy" alt="">
-        </figure>
-    </article>
-    <article aria-labelledby="{{ "/tagluffen/" | hashString }}" class="Card -align-bottom -feature-image">
-        <div class="Card__content">
-            <h3 class="Card__title"><a id="{{ "/tagluffen/" | hashString }}" class="Card__title-link" href="/tagluffen/">Tågluffen</a></h3>
-            <p><time>2019</time> · <span>{{ collections['tågluffen'].length }} inlägg</span></p>
-        </div>
-        <figure class="image Card__image">
-            <img src="/assets/images/tagluffen.jpg" loading="lazy" alt="">
-        </figure>
-    </article>
-    <article aria-labelledby="{{ "/friluftsliv/" | hashString }}" class="Card -align-bottom -feature-image">
-        <div class="Card__content">
-            <h3 class="Card__title"><a id="{{ "/friluftsliv/" | hashString }}" class="Card__title-link" href="/friluftsliv/">Friluftsliv</a></h3>
-            <p><span>{{ collections['friluftsliv'].length }} inlägg</span></p>
-        </div>
-        <figure class="image Card__image">
-            <img src="/assets/images/friluftsliv.jpeg" loading="lazy" alt="">
-        </figure>
-    </article>
-</section>
+<div class="sections">
+	<section>
+		<div class="Hero">
+			<div class="Hero__text">
+				<h1 class="Hero__heading">Gustav Lindqvist</h1>
+				<p>Exempeltext</p>
+			</div>
+			{% image "assets/images/blog_profilepic_hero.png", "Hero__image", "Gustav som står med en kamera riktad rakt fram" %}
+		</div>
+	</section>
+	<section class="Cards posts -alt-bg" aria-labelledby="senaste-inlaggen">
+		<h2 id="senaste-inlaggen">Senaste inläggen</h2>
+		<div class="Card__list --max-2-columns">
+			{%- for post in collections.posts | sortBySortDate | reverse -%}
+				{%- set hashId =  post.url | hashString -%}
+				{% if loop.index0 < 2 %}
+					{%- set canonicalURL = metadata.url + post.data.page.url -%}
+					{%- set optimizedFeatureImage = post.data.feature_image | featureImageFilter("400px", "Card__image", post.data.page) %}
+					<article aria-labelledby="{{ post.url | hashString }}"
+							 class="Card post -align-bottom{% if optimizedFeatureImage %} -feature-image{% endif %}{% if post.data.feature_image_position %} -feature-image--{{ post.data.feature_image_position }}{% endif %}">
+						<div class="Card__content">
+							<h3 class="Card__title"><a id="{{ hashId }}" class="Card__title-link"
+													   href="{{ post.url }}">{{ post.data.title | viewTransitionNamePerWord(hashId) | safe }}</a>
+							</h3>
+							{% if post.data.page.date %}
+								<p class="Card__metadata">
+								<time data-firstletterupper class="timeago"
+									  datetime="{{ post.data.page.date | fullISODate }}"
+									  title="{{ post.data.page.date | longISODate }}">{{ post.data.page.date | readableLongDate }}</time>
+								</p>{% endif %}
+						</div>
+						{% if (post.data.tags.length) %}<span
+							class="Card__content__extra -top-left">
+							{% if (post.data.tags) %}<span class="tags" aria-label="Taggar:">
+								{%- for tag in post.data.tags -%}
+									{% if (tag !== 'posts') and (tag !== 'page') %}{% set tagData = tagMetadata[tag] %}
+										<span
+											class="tag">{% if tagData.emoji %}{{ tagData.emoji }} {% endif %}{% if tagData.title %}{{ tagData.title | firstLetterUppercase }}{% else %}{{ tag | firstLetterUppercase }}{% endif %}</span>
+										<span class="sr-only">,</span>
+									{% endif %}
+								{%- endfor -%}
+								</span>{% endif %}
+							</span>{% endif %}
+						{{ optimizedFeatureImage | safe }}
+					</article>
+				{% endif %}
+			{%- endfor -%}
+		</div>
+		<p>Läs {{ collections.posts.length-4 }} fler inlägg i <a href="/blogg/">bloggen</a>.</p>
+	</section>
+	<section class="Cards series">
+		<h2>Lästips</h2>
+		<div class="Card__list">
+			<article aria-labelledby="{{ "/kinaresan/" | hashString }}"
+					 class="Card -align-bottom -feature-image">
+				<div class="Card__content">
+					<h3 class="Card__title"><a id="{{ "/kinaresan/" | hashString }}"
+											   class="Card__title-link"
+											   href="/kinaresan/">Kinaresan</a>
+					</h3>
+					<p>
+						<time>2014</time>
+						· <span>{{ collections['kinaresan'].length }} inlägg</span></p>
+				</div>
+				<figure class="image Card__image">
+					<img src="/assets/images/kinaresan.jpg" loading="lazy" alt="">
+				</figure>
+			</article>
+			<article aria-labelledby="{{ "/tagluffen/" | hashString }}"
+					 class="Card -align-bottom -feature-image">
+				<div class="Card__content">
+					<h3 class="Card__title"><a id="{{ "/tagluffen/" | hashString }}"
+											   class="Card__title-link"
+											   href="/tagluffen/">Tågluffen</a>
+					</h3>
+					<p>
+						<time>2019</time>
+						· <span>{{ collections['tågluffen'].length }} inlägg</span></p>
+				</div>
+				<figure class="image Card__image">
+					<img src="/assets/images/tagluffen.jpg" loading="lazy" alt="">
+				</figure>
+			</article>
+			<article aria-labelledby="{{ "/friluftsliv/" | hashString }}"
+					 class="Card -align-bottom -feature-image">
+				<div class="Card__content">
+					<h3 class="Card__title"><a id="{{ "/friluftsliv/" | hashString }}"
+											   class="Card__title-link"
+											   href="/friluftsliv/">Friluftsliv</a></h3>
+					<p><span>{{ collections['friluftsliv'].length }} inlägg</span></p>
+				</div>
+				<figure class="image Card__image">
+					<img src="/assets/images/friluftsliv.jpeg" loading="lazy" alt="">
+				</figure>
+			</article>
+		</div>
+	</section>
 </div>

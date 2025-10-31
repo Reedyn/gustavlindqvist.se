@@ -1,4 +1,6 @@
 .Cards {
+}
+.Card__list {
 	--gutter: var(--margin--medium);
 
 	display: grid;
@@ -21,7 +23,6 @@
 		}
 	}
 }
-
 .Card {
 	display: flex;
 	position: relative;
@@ -52,24 +53,13 @@
 		font-size: var(--font--size--heading-3);
 	}
 
-	/*noinspection CssInvalidMediaFeature*/
-	@media (--viewport--medium) {
-		&.post:first-of-type {
-			grid-column-start: span 3;
-			aspect-ratio: 2/1;
-
-			.tags .tag {
-				display: inline-block;
-			}
-		}
-	}
-
 	&.-feature-image {
 		img {
 			@media (prefers-reduced-motion: no-preference) {
 				transition: all 500ms ease;
 			}
 		}
+
 		&:after {
 			position: absolute;
 			top: 0;
