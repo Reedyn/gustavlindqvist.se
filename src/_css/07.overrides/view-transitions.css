@@ -4,3 +4,7 @@
 		navigation: auto;
 	}
 }
+
+.name--primary-image {
+	view-transition-name: primary-image;
+}
