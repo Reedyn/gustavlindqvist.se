@@ -4,16 +4,23 @@
 	justify-content: space-between;
 	align-items: end;
 
-	.Hero__text {
+	.Hero__content {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		padding: var(--padding--medium) 0;
 		width: fit-content;
+		max-width: 40ch;
 		height: 100%;
 
 		.Hero__heading {
 			margin-top: 0;
+			font-family: var(--font--serif);
+			text-wrap: balance;
+		}
+
+		.Hero__text {
+			text-wrap: balance;
 		}
 	}
 

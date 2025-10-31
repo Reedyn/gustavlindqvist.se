@@ -5,16 +5,16 @@ templateClass: home-template
 <div class="sections">
 	<section>
 		<div class="Hero">
-			<div class="Hero__text">
-				<h1 class="Hero__heading">Gustav Lindqvist</h1>
-				<p>Exempeltext</p>
+			<div class="Hero__content">
+				<h2 class="Hero__heading">Hej, jag heter Gustav 👋🏻</h2>
+				<p class="Hero__text">Jag bygger webbplatser&nbsp;🩵, ritar&nbsp;kartor&nbsp;🗺️ och gillar att fotografera&nbsp;📸.</p>
 			</div>
-			{% image "assets/images/blog_profilepic_hero.png", "Hero__image", "Gustav som står med en kamera riktad rakt fram" %}
+			{% image "assets/images/blog_profilepic_hero.png", "Hero__image name--primary-image", "Gustav som står med en kamera riktad rakt fram" %}
 		</div>
 	</section>
 	<section class="Cards posts -alt-bg" aria-labelledby="senaste-inlaggen">
 		<h2 id="senaste-inlaggen">Senaste inläggen</h2>
-		<div class="Card__list --max-2-columns">
+		<div class="Card__list -max-2-columns">
 			{%- for post in collections.posts | sortBySortDate | reverse -%}
 				{%- set hashId =  post.url | hashString -%}
 				{% if loop.index0 < 2 %}
@@ -50,7 +50,7 @@ templateClass: home-template
 				{% endif %}
 			{%- endfor -%}
 		</div>
-		<p>Läs {{ collections.posts.length-4 }} fler inlägg i <a href="/blogg/">bloggen</a>.</p>
+		<p>Läs {{ collections.posts.length-2 }} fler inlägg i <a href="/blogg/">bloggen</a>.</p>
 	</section>
 	<section class="Cards series">
 		<h2>Lästips</h2>

@@ -10,7 +10,7 @@ Fonts
 	--font--mono: ui-monospace, monospace;
 
 	--font--body: var(--font--sans-serif);
-	--font--headings: var(--font--sans-serif);
+	--font--headings: var(--font--serif);
 	--font--meta: var(--font--sans-serif);
 	--font--captions: var(--font--serif);
 	--font--quotes: var(--font--serif);
