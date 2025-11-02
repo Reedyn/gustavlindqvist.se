@@ -49,7 +49,6 @@ figure {
 			position: relative;
 			margin-right: calc(50% - 50vw);
 			margin-left: calc(50% - 50vw); /* 50vw equals half the width */
-			border-radius: var(--border-radius--image);
 			width: 100vw; /* Or whatever max width is */
 			max-width: none;
 		}
@@ -82,12 +81,14 @@ figure {
 		}
 	}
 
-	&:not(.-not-rounded) img {
+	&:not(.-not-rounded) img,
+	&:not(.-not-rounded) iframe {
 		border-radius: var(--border-radius--image);
 	}
 
 	&.embed {
 		width: 100%;
+
 		iframe {
 			aspect-ratio: 16/9;
 			min-width: 100%;
