@@ -6,7 +6,7 @@ Fonts
 :root {
 	/* Font family */
 	--font--sans-serif: "Noto Sans", system-ui, sans-serif;
-	--font--serif: "Noto Serif", Charter, Georgia, serif;
+	--font--serif: "Noto Serif", Charter, Cambria, serif;
 	--font--mono: ui-monospace, monospace;
 
 	--font--body: var(--font--sans-serif);
