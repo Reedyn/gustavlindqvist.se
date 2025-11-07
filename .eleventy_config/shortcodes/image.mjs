@@ -65,7 +65,7 @@ export default async function (src, style, alt, caption = undefined) {
 				: '';
 
 		let inlineStyling =
-			style === '-inline' ? ` style="flex: ${highsrc.width / highsrc.height}"` : '';
+			style === '-inline' ? ` style="flex: ${(highsrc.width / highsrc.height) * 10}"` : '';
 
 		// Base sizes on the layout changes.
 		let sizes = '(max-width: 50rem) 100vw, 50rem';

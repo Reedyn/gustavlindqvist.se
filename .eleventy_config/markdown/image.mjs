@@ -124,7 +124,9 @@ export default function (tokens, index, options, env) {
 			imgProxyWidths.push(imageSrc.width);
 
 			let inlineStyling =
-				style === '-inline' ? ` style="flex: ${imageSrc.width / imageSrc.height}"` : '';
+				style === '-inline'
+					? ` style="flex: ${(imageSrc.width / imageSrc.height) * 10}"`
+					: '';
 
 			// Base sizes on the layout changes.
 			let sizes = '(max-width: 50rem) 100vw, 50rem';
