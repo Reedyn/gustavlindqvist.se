@@ -15,7 +15,7 @@
 
 		.Hero__heading {
 			margin-top: 0;
-			font-family: var(--font--serif);
+			font-weight: 900;
 			text-wrap: balance;
 		}
 
