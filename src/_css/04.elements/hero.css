@@ -15,8 +15,11 @@
 
 		.Hero__heading {
 			margin-top: 0;
-			font-weight: 900;
+			font-weight: 500;
 			text-wrap: balance;
+			strong {
+				font-weight: 900;
+			}
 		}
 
 		.Hero__text {
@@ -33,7 +36,7 @@
 	.Hero__image {
 		--margin--top-bottom: 0;
 
-		width: min(50vw, 30rem);
+		width: clamp(15rem, 50vw, 30rem);
 	}
 }
 
