@@ -1,101 +1,99 @@
-import EleventyImage from '@11ty/eleventy-img';
-import markdown from '../markdown.mjs';
+/* eslint-disable no-console */
+import markdownIt from 'markdown-it';
+import ImgProxy from 'imgproxy';
 
-export default async function (src, style, alt, caption = undefined) {
-	if (
-		typeof this.page.outputPath !== 'undefined' &&
-		typeof this.page.outputPath.lastIndexOf !== 'undefined'
-	) {
-		const documentPath = this.page.filePathStem;
-		const outputPath = this.page.outputPath
-			.substring(0, this.page.outputPath.lastIndexOf('/')) // Remove document from path
-			.replace(/^\//, ''); // remove first slash
+let markdown = markdownIt({
+	html: true,
+	breaks: true,
+	linkify: true,
+	typographer: true,
+	langPrefix: 'language-',
+});
 
-		// If the image is absolute path or external
-		const folderPath =
-			'./src/' +
-			documentPath
-				.substring(0, documentPath.lastIndexOf('/') + 1) // Remove document from path
-				.replace(/^\//, ''); // remove first slash
+export default function (src, srcType, width, height, style, alt, sizes, caption = undefined) {
 
-		// If the image is absolute path or external
-		if (src.startsWith('/assets')) {
-			src = 'src' + src;
-		} else if (src.startsWith('http')) {
-			// src = src
-		} else {
-			// Otherwise assume the file is relative to the document folder
-			src = folderPath + src;
-		}
+	// Where is the source file located?
+	let sourceLocation;
+	if (src === '') {
+		sourceLocation = 'null';
+	} else if (src.startsWith('/')) {
+		sourceLocation = 'local';
+	} else {
+		sourceLocation = 'external';
+	}
 
-		const options = {
-			widths: [480, 720, 1080, 1620, 2430, null],
-			formats: [null],
-			outputDir: outputPath,
-			urlPath: '',
-			sharpGifOptions: {
-				animated: true,
-			},
-			sharpJpegOptions: {
-				progressive: true,
-				optimiseScans: true,
-			},
-		};
+	const host = process.env.HOST;
+	const attributes = {
+		alt: alt,
+		decoding: 'async',
+	};
+	const classString = ` class="image ${style}"`;
 
-		let metadata = await EleventyImage(src, options);
+	const attributesString =
+		' ' +
+		Object.keys(attributes)
+			.map((key) => `${key}="${attributes[key]}"`)
+			.join(' ');
 
-		console.log(
-			'[' + '\x1b[36m%s\x1b[0m',
-			'11ty Image' + '\x1b[0m' + ']:',
-			'Created responsive images for',
-			src,
-		);
+	switch (sourceLocation) {
+		case 'null':
+			if (caption) {
+				return `<figure${classString}><img width="800" height="300"${attributesString}><figcaption><em>${markdown.render(caption)}</em></figcaption></figure>`;
+			}
+			return `<figure${classString}><img width="800" height="300"${attributesString}></figure>`;
 
-		let format = '';
-		for (const key in metadata) {
-			format = key;
-		}
+		case 'external':
+			if (caption) {
+				return `<figure${classString}><img src="${src}"${attributesString}><figcaption><em>${markdown.render(caption)}</em></figcaption></figure>`;
+			}
+			return `<img src="${src}"${classString}${attributesString}>`;
 
-		let lowsrc = metadata[format].length > 1 ? metadata[format][1] : metadata[format][0];
-		let highsrc = metadata[format][metadata[format].length - 1];
+		case 'local': {
+			const filePath = './src' + src;
+			const imgProxy = new ImgProxy({
+				baseUrl: process.env.IMGPROXY_HOST,
+				key: process.env.IMGPROXY_KEY,
+				salt: process.env.IMGPROXY_SALT,
+				encode: true,
+			});
 
-		let captionElement =
-			typeof caption !== 'undefined'
+			console.log(
+				'[' + '\x1b[36m%s\x1b[0m',
+				'Image Shortcode' + '\x1b[0m' + ']:',
+				'Create image element for ',
+				filePath,
+			);
+
+			const imgProxyWidths = [480, 800, 1080, 1620, 2430, 3600];
+
+			const captionElement = caption
 				? `<figcaption>${markdown.render(caption)}</figcaption>`
 				: '';
 
-		let inlineStyling =
-			style === '-inline' ? ` style="flex: ${(highsrc.width / highsrc.height) * 10}"` : '';
-
-		// Base sizes on the layout changes.
-		let sizes = '(max-width: 50rem) 100vw, 50rem';
-		switch (style) {
-			case '-full':
-				sizes = '100vw';
-				break;
-			case '-wide':
-				sizes = '(max-width: 80rem) 100vw, 80rem';
-				break;
-			case '-inline':
-				// Approximation of the size in the UI, not perfect since the siblings width isn't taken into account
-				sizes = `(max-width: 40em) 100vw, (max-width: 65em) ${(highsrc.width / highsrc.height) * 40}vw, ${(highsrc.width / highsrc.height) * 40}rem`;
-				break;
-		}
-		return `<figure class="image ${style}"${inlineStyling}>
-                   <picture>
-            ${Object.values(metadata)
-				.map((imageFormat) => {
-					return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat.map((entry) => entry.srcset).join(', ')}" sizes="${sizes}">`;
+			const srcset = imgProxyWidths
+				.map((width) => {
+					return (
+						imgProxy
+							.builder()
+							.width(width)
+							.generateUrl(host + src) +
+						' ' +
+						width +
+						'w'
+					);
 				})
-				.join('\n')}
-              <img
-                src="${lowsrc.url}"
-                width="${lowsrc.width}"
-                height="${lowsrc.height}"
-                alt="${alt}"
-                loading="lazy"
-                decoding="async">
-            </picture>${captionElement}</figure>`;
+				.join(', ');
+
+			const sourceElement = !host.includes('localhost')
+				? `<source type="${srcType}" srcset="${srcset}" sizes="${sizes}">`
+				: '';
+
+			return `<figure class="image ${style}"><picture>${sourceElement}
+			<img
+            src="${host + src}"
+            width="${width}"
+            height="${height}"
+            ${attributesString}></picture>${captionElement}</figure>`;
+		}
 	}
-	return false;
 }

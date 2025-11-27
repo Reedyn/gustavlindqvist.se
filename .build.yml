@@ -8,10 +8,6 @@ environment:
     COOLIFY_HOST: coolify.pokenet.cloud
     COOLIFY_CONTAINER_UUID: lk4gsg48w8c4ooo40o4ok4c0
 tasks:
-    - push-to-github: |
-          cd ~/"${REPO}"
-          git config --global credential.helper store
-          git push --mirror -f "https://github.com/${GH_USER}/${REPO}"
     - deploy-coolify: |
           ls
           cd ~/"${REPO}"
@@ -23,3 +19,7 @@ tasks:
           }
           export COOLIFY_API_TOKEN
           curl "https://${COOLIFY_HOST}/api/v1/deploy?uuid=${COOLIFY_CONTAINER_UUID}&force=true" --header "Authorization: Bearer${COOLIFY_API_TOKEN}"
+    - push-to-github: |
+          cd ~/"${REPO}"
+          git config --global credential.helper store
+          git push --mirror -f "https://github.com/${GH_USER}/${REPO}"
