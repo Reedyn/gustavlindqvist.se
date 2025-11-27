@@ -5,16 +5,18 @@
 
 	a {
 		border: 0;
+		color: var(--color--body);
 		text-decoration: none;
+
 		&:hover,
 		&:focus-visible {
 			background: inherit;
-			color: inherit;
+			color: var(--color--body);
 			text-decoration: underline;
 
 			&:visited {
 				background: inherit;
-				color: inherit;
+				color: var(--color--body);
 			}
 		}
 	}
