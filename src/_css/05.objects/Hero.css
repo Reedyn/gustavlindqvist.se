@@ -17,6 +17,8 @@
 			margin-top: 0;
 			font-weight: 500;
 			text-wrap: balance;
+			font-size: calc(.9 * var(--font--size--heading-1));
+
 			strong {
 				font-weight: 900;
 			}
@@ -29,7 +31,6 @@
 
 	.Hero__image {
 		--margin--top-bottom: 0;
-
 		width: clamp(15rem, 50vw, 30rem);
 	}
 }
