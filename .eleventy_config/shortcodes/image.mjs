@@ -91,6 +91,8 @@ export default function (src, srcType, width, height, style, alt, sizes, caption
 			return `<figure class="image ${style}"><picture>${sourceElement}
 			<img
             src="${host + src}"
+            width="${width}"
+            height="${height}"
             ${attributesString}></picture>${captionElement}</figure>`;
 		}
 	}
