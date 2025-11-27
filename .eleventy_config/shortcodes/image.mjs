@@ -10,7 +10,7 @@ let markdown = markdownIt({
 	langPrefix: 'language-',
 });
 
-export default function (src, srcType, style, alt, sizes, caption = undefined) {
+export default function (src, srcType, width, height, style, alt, sizes, caption = undefined) {
 
 	// Where is the source file located?
 	let sourceLocation;
@@ -25,7 +25,6 @@ export default function (src, srcType, style, alt, sizes, caption = undefined) {
 	const host = process.env.HOST;
 	const attributes = {
 		alt: alt,
-		loading: 'lazy',
 		decoding: 'async',
 	};
 	const classString = ` class="image ${style}"`;
