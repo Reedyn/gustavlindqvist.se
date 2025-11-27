@@ -52,7 +52,7 @@ export default function (src, style, alt, sizes, caption = undefined) {
 			return `<img src="${src}"${classString}${attributesString}>`;
 
 		case 'local': {
-			const filePath = './src' + src;
+			const filePath = 'src' + src;
 			const imgProxy = new ImgProxy({
 				baseUrl: process.env.IMGPROXY_HOST,
 				key: process.env.IMGPROXY_KEY,
