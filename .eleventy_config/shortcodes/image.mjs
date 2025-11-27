@@ -85,7 +85,7 @@ export default function (src, srcType, style, alt, sizes, caption = undefined) {
 				})
 				.join(', ');
 
-			const sourceElement = host.includes('localhost')
+			const sourceElement = !host.includes('localhost')
 				? `<source type="${srcType}" srcset="${srcset}" sizes="${sizes}">`
 				: '';
 
