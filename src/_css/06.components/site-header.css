@@ -2,6 +2,22 @@
 	display: flex;
 	justify-content: space-around;
 	background-color: var(--color--background);
+
+	a {
+		border: 0;
+		text-decoration: none;
+		&:hover,
+		&:focus-visible {
+			background: inherit;
+			color: inherit;
+			text-decoration: underline;
+
+			&:visited {
+				background: inherit;
+				color: inherit;
+			}
+		}
+	}
 }
 
 .site-header__content {

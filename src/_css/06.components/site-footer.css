@@ -6,6 +6,23 @@
 	align-items: center;
 	border-top: 1px solid var(--color--background--alt);
 	font-family: var(--font--meta);
+
+	a {
+		border: 0;
+		color: var(--color--body);
+		text-decoration: none;
+		&:hover,
+		&:focus-visible {
+			background: inherit;
+			color: inherit;
+			text-decoration: underline;
+
+			&:visited {
+				background: inherit;
+				color: inherit;
+			}
+		}
+	}
 }
 
 .site-footer__content {
@@ -24,13 +41,6 @@
 
 .site-footer__navigation {
 	color: var(--color--body);
-
-	a {
-		color: var(--color--body);
-		&:visited {
-			color: var(--color--body);
-		}
-	}
 }
 
 .site-footer__heading {

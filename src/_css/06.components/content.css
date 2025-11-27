@@ -19,6 +19,7 @@
 	.full,
 	.-full {
 		grid-column: full;
+
 		img {
 			border-radius: 0;
 		}
@@ -39,21 +40,5 @@
 
 	> :last-child {
 		margin-bottom: 0;
-	}
-
-	a {
-		text-decoration: underline;
-
-		&:hover,
-		&:focus-visible {
-			background: var(--color--accent);
-			color: var(--color--background);
-			text-decoration: none;
-
-			&:visited {
-				background: var(--color--accent--secondary);
-				color: var(--color--background);
-			}
-		}
 	}
 }
