@@ -1,8 +1,7 @@
 .Hero {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	align-items: end;
+	justify-content: space-between;
 
 	.Hero__content {
 		display: flex;
@@ -32,7 +31,7 @@
 
 	.Hero__image {
 		--margin--top-bottom: 0;
-		width: clamp(17rem, 50vw, 30rem);
+		width: clamp(17rem, 50vw, 35rem);
 	}
 }
 
