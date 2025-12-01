@@ -14,10 +14,8 @@
 
 		.Hero__heading {
 			margin-top: 0;
-			font-weight: 500;
 			text-wrap: balance;
 			font-size: clamp(1.8rem, 3vi + 1rem, 3rem);
-
 
 			strong {
 				font-weight: 900;
