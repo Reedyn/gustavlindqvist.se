@@ -1,5 +1,5 @@
 ---
-title: "Äventyr i det smarta hemmet"
+title: "Experiment i det smarta hemmet"
 description: ""
 feature_image: ""
 date: 2038-01-19T03:14:07+0000
