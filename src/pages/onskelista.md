@@ -12,4 +12,4 @@ eleventyExcludeFromCollections: true
 
   - [ ] [Slipsten Sharpal 156N](https://www.amazon.se/SHARPAL-156N-f%C3%B6rvaringsbas-Diamantslipsten-vinkelstyrning/dp/B07GRWVT4F) (~600kr)
   - [ ] [Lupp till tumkompass](https://www.olspecialisten.com/sv/kompasser/tumluppar/silva-tumlupp-arc-zoom.html) (~550kr)
-  - [ ] [Historical Brewing Techniques](https://www.adlibris.com/se/bok/historical-brewing-techniques-9781938469558) (255kr)
+  - [x] [Historical Brewing Techniques](https://www.adlibris.com/se/bok/historical-brewing-techniques-9781938469558) (255kr)
