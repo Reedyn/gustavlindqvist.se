@@ -39,7 +39,7 @@ eleventyComputed:
 				</ul>
 			</li>
 			{% elif steam.recently_played_games.length %}<li><span>🎮</span><span>Jag spelar{% for game in steam.recently_played_games %} <img class="icon -rounded" src="{{ ('https://media.steampowered.com/steamcommunity/public/images/apps/'+game.appid+'/'+game.img_icon_url+'.jpg') | proxyImage(48)}}" alt=""> <a lang="en" id="{{ game.appid }}" href="{{ game.url }}">{{ game.name }}</a>{% endfor %}</span></li>{% endif %}
-			<li><span>🗺️</span><span>Jag är engagerad i orienteringsklubben Hallby SOK 💙</span></li>
+			<li><span>🗺️</span><span>Jag engagerar mig i orienteringsklubben IF Hallby SOK 💙</span></li>
             {% if goodreads.currently_reading.length >= 2 %}
 					<li>
 						<span>📚</span><span>Jag läser:</span>
