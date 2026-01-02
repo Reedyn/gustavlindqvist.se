@@ -7,8 +7,7 @@
 			[content-start] var(--layout-content) [content-end]
 			var(--layout-wide) [wide-end]
 			var(--layout-full) [full-end];
-		padding-top: var(--padding--medium);
-		padding-bottom: var(--padding--medium);
+		padding-block: var(--padding--large);
 		overflow: clip;
 
 		> * {
