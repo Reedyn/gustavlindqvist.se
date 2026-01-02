@@ -68,6 +68,7 @@
 
 	&.-feature-image {
 		.post-header__image {
+			box-shadow: none;
 			margin: 0;
 			width: 100%;
 

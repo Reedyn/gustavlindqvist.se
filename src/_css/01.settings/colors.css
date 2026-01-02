@@ -7,9 +7,10 @@ All colors used throughout the theme
 	--color--accent: oklch(50% 0.25 270deg);
 	--color--accent--secondary: oklch(50% 0.25 310deg);
 
-	--color--background: white;
-	--color--background--alt: oklch(97% 0 0deg);
-	--color--background--widget: oklch(95% 0 0deg);
+	--color--white-black: white;
+	--color--background: oklch(96% 0 0deg);
+	--color--background--alt: oklch(93% 0 0deg);
+	--color--background--widget: oklch(90% 0 0deg);
 	--color--background--contrast: oklch(15% 0 0deg);
 	--color--background--contrast--widget: oklch(8% 0 0deg);
 	--color--background--contrast--alt: oklch(2% 0 0deg);
@@ -20,4 +21,29 @@ All colors used throughout the theme
 	--color--body--alt: oklch(25% 0 0deg);
 	--color--body--contrast: white;
 	--color--body--contrast--alt: oklch(73% 0 0deg);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color--accent: oklch(65% 0.2 270deg);
+		--color--accent--secondary: oklch(65% 0.2 310deg);
+
+		--color--white-black: black;
+		--color--background: oklch(19% 0 0deg);
+		--color--background--alt: oklch(23% 0 0deg);
+		--color--background--widget: oklch(32% 0 0deg);
+		--color--background--contrast: oklch(19% 0 0deg);
+		--color--background--contrast--widget: oklch(27% 0 0deg);
+		--color--background--contrast--alt: oklch(32% 0 0deg);
+		--color--background--gradient: linear-gradient(
+			180deg,
+			transparent 0,
+			oklch(19% 0 0deg) 100%
+		);
+		--color--overlay: oklch(0% 0 0deg / 0.5);
+
+		--color--body: oklch(95% 0 0deg);
+		--color--body--alt: oklch(70% 0 0deg);
+		--color--body--contrast: white;
+	}
 }

@@ -6,10 +6,9 @@
 		margin-right: 0.4em;
 		margin-bottom: 0.4em;
 		border-radius: var(--border-radius--tag);
-		background: oklch(60% 0 0deg / 0.15);
-
-		padding-right: 0.6em;
+		background: oklch(from var(--color--background) calc(l + .1) c h);
 		color: inherit;
+		padding-right: 0.6em;
 
 		a {
 			display: inline-block;
