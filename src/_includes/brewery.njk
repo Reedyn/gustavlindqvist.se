@@ -10,11 +10,6 @@ eleventyComputed:
         published: "{{ date | isoString }}"
         modified: "{% if updateDate %}{{ updateDate | isoString }}{% endif %}"
 ---
-{% if feature_image %}
-    {%- set optimizedFeatureImage = feature_image | featureImageFilter("100vw", "page-header__image", page) %}
-{% else %}
-    {%- set optimizedFeatureImage = "" %}
-{% endif %}
 <style>
     td:first-child {
         font-weight: 500;
@@ -58,7 +53,7 @@ eleventyComputed:
                 <svg viewBox="0 0 500 80"><title>{{ title }}</title><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/Gustavs-hembryggeri.svg#brewery"></use></svg>
             </h1>
         </div>
-        {{ optimizedFeatureImage | safe }}
+		{% image "/assets/images/humle.jpeg", "image/jpeg", "2500", "1875", "Hero__image", "Ett träd med många humlekottar på", "100vw"  %}
     </header>
 	<div class="sections">
 		{% if content.length %}
