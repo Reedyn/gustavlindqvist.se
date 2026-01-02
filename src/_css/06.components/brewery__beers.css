@@ -2,8 +2,8 @@
 	display: grid;
 	grid-auto-flow: dense;
 	margin-top: var(--margin--medium);
-	margin-bottom: var(--margin--medium);
-	grid-gap: var(--margin--medium);
+	margin-bottom: var(--margin--large);
+	gap: var(--margin--large);
 	grid-template-columns: 1fr;
 
 	/*noinspection CssInvalidMediaFeature*/
@@ -19,9 +19,7 @@
 
 .beer {
 	margin: auto;
-	padding: var(--padding--medium);
 	width: 100%;
-
 	a {
 		&:hover,
 		&:focus {
@@ -37,7 +35,6 @@
 	}
 
 	.beer-label {
-		transition: 0.25s all ease;
 		width: 100%;
 	}
 }

@@ -1,9 +1,4 @@
 .page-header {
-	display: flex;
-	position: relative;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items: center;
 	background-position: center;
 	background-size: cover;
 	padding: 0;
@@ -21,14 +16,15 @@
 		font-weight: 900;
 
 		svg {
-			padding-bottom: var(--padding--small);
-			width: 90%;
+			padding-bottom: var(--padding--medium);
+			width: 100%;
 			max-width: 60rem;
 		}
 	}
 
 	.page-date {
 		margin-top: var(--margin--small);
+		color: var(--color--body--alt);
 	}
 
 	.tags {
@@ -93,6 +89,7 @@
 
 			img {
 				margin: 0;
+				border-radius: 0;
 				padding: 0;
 				aspect-ratio: 16/9;
 				width: 100%;

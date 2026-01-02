@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-templateClass: post-template
+templateClass: page-template
 type: page
 eleventyComputed:
     page_title: "{{ title }}"
@@ -11,28 +11,36 @@ eleventyComputed:
         modified: "{% if updateDate %}{{ updateDate | isoString }}{% endif %}"
 ---
 {% if feature_image %}
-    {%- set optimizedFeatureImage = feature_image | featureImageFilter("100vw", "post-header__image", page) %}
+    {%- set optimizedFeatureImage = feature_image | featureImageFilter("100vw", "page-header__image", page) %}
 {% else %}
     {%- set optimizedFeatureImage = "" %}
 {% endif %}
 <style>
-
     td:first-child {
         font-weight: 500;
         width: 1%;
         padding-right: 1em;
     }
 
-    .post-header {
-        justify-content: center;
-        text-align: center;
+    .page-header {
+		position: relative;
     }
 
-    .post-header .post-metadata {
+    .page-header .page-metadata {
         position: absolute;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: var(--padding--medium);
     }
 
-    .post-header figure {
+	.page-header .page-metadata h1 {
+		width: 100%;
+		max-width: 40rem;
+	}
+    .page-header figure {
         opacity: .2;
     }
 
@@ -43,104 +51,67 @@ eleventyComputed:
         margin-left: 0;
     }
 </style>
-<article aria-labelledby="brewery" class="post brewery">
-    <header id="post-header" class="post-header{% if feature_image %} -feature-image{% endif %}">
-        <div class="post-metadata">
-            <h1 id="brewery" class="post-title">
-                <svg aria-label="{{ title }}" viewBox="0 0 500 80"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/Gustavs-hembryggeri.svg#brewery"></use></svg>
+<article aria-labelledby="brewery" class="page brewery">
+    <header id="page-header" class="page-header{% if feature_image %} -feature-image{% endif %}">
+        <div class="page-metadata">
+            <h1 id="brewery" class="page-title">
+                <svg viewBox="0 0 500 80"><title>{{ title }}</title><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/Gustavs-hembryggeri.svg#brewery"></use></svg>
             </h1>
         </div>
         {{ optimizedFeatureImage | safe }}
     </header>
-    <section class="post-content wrapper" id="post-content" aria-label="Sidans innehåll">
-        {{ content | safe }}
-    </section>
-    <section aria-labelledby="beers" class="wrapper">
-        <h2 id="beers" class="sr-only">Mina öl</h2>
-        <div class="beers">
-            {%- for beer in collections.beers | sortByOrder -%}{% if not beer.data.one_off_brew %}
-                <article class="beer" aria-labelledby="{{ beer.url | hashString}}"{% if beer.data.color %} data-order="{{ beer.data.order }}" style="--color--accent: {{ beer.data.color }}"{% endif %}>
-                    <h3 class="beer-title"><a id="{{ beer.url | hashString}}" href="{{ beer.url }}">
-                            {% if beer.data.label %}<svg class="beer-label" role="presentation" aria-label="{{ beer.data.title }}" viewBox="{{ beer.data.label_viewbox }}"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="{{ beer.data.label }}"></use></svg>
-                            {% else %}{{ beer.data.title }}{% endif %}</a>
-                    </h3>
-                </article>
-            {% endif %}{%- endfor -%}
-        </div>
-    </section>
-	{% if collections.olbryggning.length %}
-	<section aria-labelledby="olbryggning" class="wrapper">
-        <h2 id="olbryggning">Mina inlägg om ölbryggning</h2>
-        <div class="Cards posts">
-            {%- for post in collections.olbryggning | reverse -%}
-            {% if loop.index0 < 4 %}
-            {%- set canonicalURL = metadata.url + post.data.page.url -%}
-            {%- set optimizedFeatureImage = post.data.feature_image | featureImageFilter("50w", "Card__image", post.data.page) %}
-            {%- set parsed_feature_image = post.data.feature_image | parseImagePath(post.url)-%}
-            <article aria-labelledby="{{ post.url | hashString}}" class="Card post -align-bottom{% if optimizedFeatureImage %} -feature-image{% endif %}" style="{% if optimizedFeatureImage %} background-image: url({{ optimizedFeatureImage }});{% endif %}{% if post.data.color %} --color--background--contrast--widget: {{ post.data.color }};{% endif %}">
-                <div class="Card__content">
-                    <h3 class="Card__title"><a id="{{ post.url | hashString}}" class="Card__title-link" href="{{ post.url }}">{{ post.data.title }}</a></h3>
-                    {% if post.data.page.date %}<p class="Card__metadata"><time data-firstletterupper class="timeago" datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | longISODate }}">{{ post.data.page.date | readableDate }}</time></p>{% endif %}
-                </div>
-                {{ optimizedFeatureImage | safe }}
-                {% if (post.data.tags.length) %}<span class="Card__content__extra -top-left">
-                    {% if (post.data.tags) %}<span class="tags"><span class="sr-only">Taggar: </span>
-                        {%- for tag in post.data.tags -%}
-                            {% if (tag !== 'posts') and (tag !== 'page') %}
-								{% set tagData = tagMetadata[tag] %}<span class="tag">{% if tagData.emoji %}{{ tagData.emoji }} {% endif %}{% if tagData.title %}{{ tagData.title | firstLetterUppercase }}{% else %}{{ tag | firstLetterUppercase }}{% endif %}</span><span class="sr-only">,</span>
-                            {% endif %}
-                        {%- endfor -%}
-                        </span>{% endif %}
-                    </span>{% endif %}
-                {% if postInteractions.replies.length %}
-                    <span class="Card__content__extra -top-right">
-                    {% if postInteractions.replies.length %}<svg class="icon icon--comments" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/comments.svg#comments"></use></svg> {{ postInteractions.replies.length }}<span class="sr-only"> kommentarer.</span>{% endif %}
-                    </span>{% endif %}
-            </article>
-            {% endif %}
-            {%- endfor -%}
-        </div>
-    </section>
-    {% endif %}
-
-    <aside class="wrapper" aria-label="senast-i-bryggeriet">
-        <h2 id="senast-i-bryggeriet">Senaste händelserna i bryggeriet</h2>
-        <div class="Cards -max-2-columns">
-            <article aria-labelledby="batches" class="Card -align-top">
-                <div class="Card__content">
-                    <h3 class="Card__title" id="batches">Bryggningar</h3>
-                    <ol class="metadata-list">
-                        {% for batch in brewfather.batches %}
-                            {% if loop.index0 < 5 %}
-                                <li class="metadata-list__item">
-                                    <span class="metadata-list__item-title" id="{{ batch._id }}">{{ batch.recipe.name }}{% if batch.recipe.style.name %} ({{ batch.recipe.style.name }}){% endif %}</span>
-                                    <p class="metadata-values">
-                                        {% if batch.status.label %}<span>{{ batch.status.label }}</span>{% endif %} · {% if batch.brewDate %} <time datetime="{{ batch.brewDate | fullISODate }}" title="{{ batch.brewDate | longISODate }}">{{ batch.brewDate | readableLongDate }}</time>{% endif %}
-                                        {% if batch.measuredBottlingSize %} · <span>{{ batch.measuredBottlingSize }}L</span>{% elseif batch.measuredBatchSize %} · <span>{{ batch.measuredBatchSize }}L</span>{% elseif batch.recipe.batchSize %} · <span>{{ batch.recipe.batchSize }}L</span>{% endif %}
-                                    </p>
-                                </li>
-                            {% endif %}
-                        {% endfor %}
-                    </ol>
-                </div>
-                <span class="Card__content__extra -top-right -symbol"><svg class="icon" style="color: #e98c18" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/beer.svg#beer"></use></svg></span>
-            </article>
-            <article aria-labelledby="untappd" class="Card -align-top">
-                <div class="Card__content">
-                    <h3 class="Card__title" id="untappd"><a href="https://untappd.com/GustavsHembryggeri">Untappd</a></h3>
-                    <ol class="metadata-list">
-                        {% for checkin in untappd.checkins %}
-                            {% if loop.index0 < 5 %}
-                                <li class="metadata-list__item">
-                                    <a class="metadata-list__item-title" href="{{ checkin.url }}">{{ checkin.user.name }} drack {{ checkin.beer }}</a>
-                                    <p class="metadata-values">{% if checkin.review.description %} <span>{{ checkin.review.description }}</span>{% endif %}</p>
-                                </li>
-                            {% endif %}
-                        {% endfor %}
-                    </ol>
-                </div>
-                <span class="Card__content__extra -top-right -symbol"><svg class="icon" style="color: #ffc000" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/untappd.svg#untappd-icon"></use></svg></span>
-            </article>
-        </div>
-    </aside>
+	<div class="sections">
+		{% if content.length %}
+		<section class="page-content -alt-bg" id="page-content" aria-label="Sidans innehåll">
+			{{ content | safe }}
+		</section>
+		{% endif %}
+		<section aria-labelledby="beers">
+			<h2 id="beers">Mina öl</h2>
+			<div class="beers">
+				{%- for beer in collections.beers | sortByOrder -%}{% if not beer.data.one_off_brew %}
+					<article class="beer" aria-labelledby="{{ beer.url | hashString}}"{% if beer.data.color %} data-order="{{ beer.data.order }}" style="--color--accent: {{ beer.data.color }}"{% endif %}>
+						<h3 class="beer-title"><a id="{{ beer.url | hashString}}" href="{{ beer.url }}">
+								{% if beer.data.label %}<svg class="beer-label" role="presentation" aria-label="{{ beer.data.title }}" viewBox="{{ beer.data.label_viewbox }}"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="{{ beer.data.label }}"></use></svg>
+								{% else %}{{ beer.data.title }}{% endif %}</a>
+						</h3>
+					</article>
+				{% endif %}{%- endfor -%}
+			</div>
+		</section>
+		{% if collections.olbryggning.length %}
+		<section class="Cards posts -alt-bg" aria-labelledby="olbryggning">
+			<h2 id="olbryggning">Mina inlägg om ölbryggning</h2>
+			<div class="Card__list -max-2-columns">
+				{%- for post in collections.olbryggning | reverse -%}
+					{% if loop.index0 < 4 %}
+						{%- set canonicalURL = metadata.url + post.data.page.url -%}
+						{%- set optimizedFeatureImage = post.data.feature_image | featureImageFilter("50w", "Card__image", post.data.page) %}
+						{%- set parsed_feature_image = post.data.feature_image | parseImagePath(post.url)-%}
+						<article aria-labelledby="{{ post.url | hashString}}" class="Card post -align-bottom{% if optimizedFeatureImage %} -feature-image{% endif %}" style="{% if optimizedFeatureImage %} background-image: url({{ optimizedFeatureImage }});{% endif %}{% if post.data.color %} --color--background--contrast--widget: {{ post.data.color }};{% endif %}">
+							<div class="Card__content">
+								<h3 class="Card__title"><a id="{{ post.url | hashString}}" class="Card__title-link" href="{{ post.url }}">{{ post.data.title }}</a></h3>
+								{% if post.data.page.date %}<p class="Card__metadata"><time data-firstletterupper class="timeago" datetime="{{ post.data.page.date | fullISODate }}" title="{{ post.data.page.date | longISODate }}">{{ post.data.page.date | readableDate }}</time></p>{% endif %}
+							</div>
+							{{ optimizedFeatureImage | safe }}
+							{% if (post.data.tags.length) %}<span class="Card__content__extra -top-left">
+								{% if (post.data.tags) %}<span class="tags"><span class="sr-only">Taggar: </span>
+									{%- for tag in post.data.tags -%}
+										{% if (tag !== 'posts') and (tag !== 'page') %}
+											{% set tagData = tagMetadata[tag] %}<span class="tag">{% if tagData.emoji %}{{ tagData.emoji }} {% endif %}{% if tagData.title %}{{ tagData.title | firstLetterUppercase }}{% else %}{{ tag | firstLetterUppercase }}{% endif %}</span><span class="sr-only">,</span>
+										{% endif %}
+									{%- endfor -%}
+									</span>{% endif %}
+								</span>{% endif %}
+							{% if postInteractions.replies.length %}
+								<span class="Card__content__extra -top-right">
+								{% if postInteractions.replies.length %}<svg class="icon icon--comments" role="presentation" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/comments.svg#comments"></use></svg> {{ postInteractions.replies.length }}<span class="sr-only"> kommentarer.</span>{% endif %}
+								</span>{% endif %}
+						</article>
+					{% endif %}
+				{%- endfor -%}
+			</div>
+		</section>
+		{% endif %}
+	</div>
 </article>
