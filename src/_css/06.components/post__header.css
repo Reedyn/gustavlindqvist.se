@@ -29,10 +29,6 @@
 
 	.tags {
 		margin-top: var(--margin--medium);
-		.tag {
-			border-radius: var(--border-radius--tag);
-			background: var(--color--background--widget);
-		}
 	}
 
 	.post-metadata {
