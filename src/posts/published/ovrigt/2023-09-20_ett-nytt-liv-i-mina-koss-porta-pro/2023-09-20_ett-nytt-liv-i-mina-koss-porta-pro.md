@@ -25,7 +25,7 @@ Den andra uppgraderingen jag gjorde var att köpa en DAC med blåtand. Jag valde
 
 Parametrisk equalizer kombinerat med [inställningar från Oratory1990](https://old.reddit.com/r/oratory1990/comments/jx27p7/the_effect_of_yaxi_earpads_on_the_koss_porta_pro/) lyfte hörlurarna ytterligare några snäpp. Oratory1990 har gjort mätningar på hundratals hörlurar (inklusive Koss Porta Pro med just Yaxi-pads) och gjort instruktioner för hur man kan nå [Harmans målkurva](https://www.headphonesty.com/2020/04/harman-target-curves-part-1/) för varje hörlur.
 
-Blåtand gjorde också hörlurarna lite smidigare att lyssna på och gör att jag oftare sätter på mig dem istället för att bara använda [mina Samsungbönor](https://www.samsung.com/se/audio-sound/galaxy-buds/galaxy-buds-live-mystic-black-sm-r180nzkaeub/) som är smidiga men tråkiga.
+Blåtand gjorde också hörlurarna lite smidigare att lyssna på och gör att jag oftare sätter på mig dem istället för att bara använda [mina Samsungbönor](https://en.wikipedia.org/wiki/Samsung_Galaxy_Buds_Live) som är smidiga men tråkiga.
 
 Det enda som behövde förbättras var nu kabeln, som med en blåtandsdongel som enkelt kan sitta på tröjkragen var onödigt lång på 1,3m.
 
@@ -58,3 +58,5 @@ Sista steget var att fylla ut området runt MMCX-kopplingen med epoxilim för at
 Väldigt nöjd med slutresultatet. Ofta sätter jag på mig lurarna det första jag gör när jag kommer hem på dagarna.
 
 ![Ett par Koss Porta Pro med röda Yaxikuddar, en kort flätad kabel som sitter i en svart blåtandsdongel.](20230903_104553.jpg){.-full}
+
+*[DAC]: Digital Audio Converter, en enhet som konverterar en digital ljudsignal till en analog ljudsignal.
