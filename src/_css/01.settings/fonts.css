@@ -6,7 +6,7 @@ Fonts
 :root {
 	/* Font family */
 	--font--sans-serif: "Noto Sans", system-ui, sans-serif;
-	--font--serif: "Noto Serif", Charter, Georgia, serif;
+	--font--serif: "Noto Serif", ui-serif, Georgia, serif;
 	--font--mono: ui-monospace, monospace;
 
 	--font--body: var(--font--sans-serif);
@@ -37,6 +37,7 @@ Fonts
 		--font--size--heading-1: clamp(2.1rem, 3vi + 1.3rem, 3rem);
 	}
 }
+
 /* For browsers that don't support clamp */
 @supports not (font-size: clamp(1rem, 1vi, 1rem)) {
 	:root {
