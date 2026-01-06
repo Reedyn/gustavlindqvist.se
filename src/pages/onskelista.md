@@ -15,3 +15,4 @@ eleventyExcludeFromCollections: true
   - [ ] [Uppvärmd strumpa](https://www.tcmcykel.se/p/varmestrumpor-och-varmesulor/varmestrumpor-3/lenz-heat-sock-41-toe-cap-varmestrumpor-batteridrivna) (~800kr)
   - [ ] [USB-ljudadapter](https://www.inet.se/produkt/6600826/antlion-audio-usb-adapter) (~250kr)
   - [ ] [Antenn för smarta hemprodukter](https://www.inet.se/produkt/8310220/home-assistant-connect-zbt-2) (~500kr)
+  - [ ] [120mm fläkt](https://www.proshop.se/Chassi-flaekt/Noctua-NF-F12-5V-Chassi-flaekt-120mm-Brun-22-dBA/2674886) (~270kr)
