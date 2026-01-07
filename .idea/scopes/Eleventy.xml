@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Eleventy" pattern="file[Blog]:*/&amp;&amp;!file[Blog]:.cache//*&amp;&amp;!file[Blog]:.idea//*&amp;&amp;!file[Blog]:_site//*" />
+</component>

@@ -1,13 +1,8 @@
 /node_modules/
 /_site/
-/.idea/
 /.cache/
 .env
 /src/**/*.md.backup
-/**/.obsidian/
-
-# Local Netlify folder
-.netlify
 
 # Operating system folder files
 .directory
