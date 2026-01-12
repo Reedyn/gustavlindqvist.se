@@ -199,8 +199,7 @@ export default async () => {
 					typeof post.category === 'object'
 						? post.category.filter((tag) => tag !== 'Good shit')
 						: [];
-				outputPost.feature_image = `https://opengraph.gustavlindqvist.se/${encodeURIComponent(post.link)}/small/webp/`;
-				outputPost.content = `<img src="${outputPost.feature_image}" alt="Featurebild för ${outputPost.title}"><p><a href="${outputPost.url}">${outputPost.title}</a></p>`;
+				outputPost.content = `<p><a href="${outputPost.url}">${outputPost.title}</a></p>`;
 				outputPosts.push(outputPost);
 			});
 
