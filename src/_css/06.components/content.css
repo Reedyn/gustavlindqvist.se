@@ -19,10 +19,6 @@
 	.full,
 	.-full {
 		grid-column: full;
-
-		img {
-			border-radius: 0;
-		}
 	}
 
 	.wide,

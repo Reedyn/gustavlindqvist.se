@@ -51,6 +51,10 @@ figure {
 			margin-left: calc(50% - 50vw); /* 50vw equals half the width */
 			width: 100vw; /* Or whatever max width is */
 			max-width: none;
+			border-radius: 0;
+		}
+		figcaption {
+			margin-inline: var(--margin--medium);
 		}
 	}
 
