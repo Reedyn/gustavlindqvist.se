@@ -2,7 +2,6 @@
 	background-position: center;
 	background-size: cover;
 	padding: 0;
-	overflow: clip;
 	color: var(--color--body);
 
 	a {

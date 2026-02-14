@@ -1,14 +1,16 @@
 .tags {
 	color: var(--color--body--alt);
 	font-family: var(--font--meta);
+
 	.tag {
 		display: inline-block;
 		margin-right: 0.4em;
 		margin-bottom: 0.4em;
+		box-shadow: var(--color--shadow);
 		border-radius: var(--border-radius--tag);
-		background: oklch(from var(--color--background) calc(l + .1) c h);
-		color: inherit;
+		background: oklch(from var(--color--background) calc(l + 0.1) c h);
 		padding-right: 0.6em;
+		color: inherit;
 
 		a {
 			display: inline-block;

@@ -17,6 +17,26 @@ figure {
 		display: none;
 	}
 
+	&:not(.-no-shadow) picture {
+		position: relative;
+
+		img,
+		iframe {
+			z-index: 2;
+			isolation: isolate;
+		}
+
+		&:after {
+			position: absolute;
+			z-index: 1;
+			inset: 0;
+			box-shadow: var(--color--shadow);
+			border-radius: var(--border-radius--image);
+			isolation: isolate;
+			content: "";
+		}
+	}
+
 	img {
 		margin: 0;
 	}
@@ -49,10 +69,11 @@ figure {
 			position: relative;
 			margin-right: calc(50% - 50vw);
 			margin-left: calc(50% - 50vw); /* 50vw equals half the width */
+			border-radius: 0;
 			width: 100vw; /* Or whatever max width is */
 			max-width: none;
-			border-radius: 0;
 		}
+
 		figcaption {
 			margin-inline: var(--margin--medium);
 		}
