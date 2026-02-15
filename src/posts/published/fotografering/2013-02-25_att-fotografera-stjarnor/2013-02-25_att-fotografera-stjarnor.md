@@ -9,7 +9,7 @@ tags: ["fotografering", "jkpg"]
 **Filmen nedan är en [time-lapse gjord av Alessandro Della Bella](http://helvetiabynight.com/2012/12/20/one-day-on-earth-cold-engadin-time-lapse-night/) under One Day on Earth, 2012-12-12.**
 
 <figure class="embed video -wide">
-    <iframe src="https://player.vimeo.com/video/55899485?app_id=122963" width="480" height="270" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="One Day on Earth: Cold Engadin Time Lapse Night"></iframe>
+    <iframe src="https://player.vimeo.com/video/55899485?app_id=122963" width="480" height="270" allow="autoplay; fullscreen" allowfullscreen title="One Day on Earth: Cold Engadin Time Lapse Night"></iframe>
 </figure>
 
 Vinterns kalla väder lämpar sig väldigt väldigt till natt-fotografering, i synnerhet till att fotografera stjärnor. Är man riktigt duktig kan man få till fantastiska bilder, till exempel de man ser i time-lapse filmen ovan.
