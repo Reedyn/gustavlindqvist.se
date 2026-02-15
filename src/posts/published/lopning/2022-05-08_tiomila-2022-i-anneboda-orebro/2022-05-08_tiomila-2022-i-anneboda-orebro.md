@@ -28,7 +28,7 @@ Tävlingen består av 10 sträckor som sammanlagt uppgår till ungefär 10 mil, 
 
 Jag sprang sträcka 9 som är på 9,7km (fågelvägen). Sammanfattningsvis gick det oerhört bra med endast några missar. I början av banan hängde jag med i farten med de andra löparna (vi hade en masstart eftersom vi omstartade) vilket gjorde att jag inte hängde med lika bra på orienteringen, framförallt på kontroll nummer 6 gjorde jag en bom där jag sprang för långt och var nästan borta vid kontroll 7. Denna lilla extratur kostade minuter men framförallt energi som jag hade behövt på slutet.
 
-![Karta med GPS-visualisering över hur Gustav sprang mellan kontroll 5 och 6.](Livelox_Tiomila_Stracka-9_Kontroll-6.jpg)
+![Karta med GPS-visualisering över hur Gustav sprang mellan kontroll 5 och 6.](Livelox_Tiomila_Stracka-9_Kontroll-6.jpg){.-no-shadow}
 
 Efter denna miss lugnade jag ner min löpning lite och fokuserade på kartan, i slutändan gjorde detta att jag faktiskt lyckades få ett högre snittempo då jag inte stannade lika mycket. Trots att det var många andra löpare som hade samma sträcka körde jag mitt eget race (vid så mycket som tre kontroller var det jag som var först fram i gruppen).
 

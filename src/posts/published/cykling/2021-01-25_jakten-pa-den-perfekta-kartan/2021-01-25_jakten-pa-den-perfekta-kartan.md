@@ -24,7 +24,7 @@ Garmins cykeldatorer kan göra mycket och har en ganska trevlig skärm för att 
 
 Första alternativet jag testade var [OpenMTBMap](https://openmtbmap.org/) som var flera steg framåt. Kartdatan uppdateras regelbundet (veckovis om jag förstod det rätt) och kartan är också betydligt bättre
 
-![Skärmdump från Garmin Edge 530 som visar OpenMTBMap-kartan](79.jpg)
+![Skärmdump från Garmin Edge 530 som visar OpenMTBMap-kartan](79.jpg){.-no-shadow}
 
 Samtidigt var det ganska många saker jag störde mig på vid användning, framförallt att det är på tok för mycket detaljer. Jag känner inget behov av att se varenda kiosk, fotbollsplan eller livsmedelsbutik.
 
@@ -38,7 +38,7 @@ Nästa kandidat var OpenTopoMap, en rendering av OpenStreetMap gjord av en tysk 
 
 Denna kartan är betydligt bättre. Bättre ljusare färger som ger bättre kontrast mot Garmin-färgerna och kartan uppdateras regelbundet.
 
-![Skärmdump från Garmin Edge 530 som visar OpenTopoMap-kartan](photo5787262290565903566.jpg "Vattenledningsbacken på OpenTopoMap")
+![Skärmdump från Garmin Edge 530 som visar OpenTopoMap-kartan](photo5787262290565903566.jpg "Vattenledningsbacken på OpenTopoMap"){.-no-shadow}
 
 Samtidigt var det andra problem, för stigcykling är den ganska värdelös, stigar har bara en pixel i tjocklek och syns knappt. Byggnader är också lite för mörka och syns ofta mer än vad vägarna gör.
 
@@ -60,7 +60,7 @@ Första frågan är då vilket utseende jag vill ha på kartan. Jag gillar desig
 
 Verktyget som används för att skapa en rendering för Garminenheter heter [mkgmap] och man designar kartan via `typfiles`, jag använde först redigeringsprogrammet [TYPWiz 6] men gick sen över till att redigera textfilerna direkt, det var snabbare när man väl vant sig vid strukturen.
 
-![Karta över Vattenledningsparken från en Garmin Edge-enhet](121.jpg)
+![Karta över Vattenledningsparken från en Garmin Edge-enhet](121.jpg){.-no-shadow}
 
 Så blev mitt första utkast, redan en tydlig förbättring. Jag valde att göra landområden som skogar, fält, hus med mera ljusa för att ge en ordentlig kontrast till stigar och rutter på enheten. Stigar blev svarta och dedikerade cykelvägar/stigar i mörkblått. I praktiken fungerar det bra då det räcker att kasta ett öga på enheten för att orientera sig.
 

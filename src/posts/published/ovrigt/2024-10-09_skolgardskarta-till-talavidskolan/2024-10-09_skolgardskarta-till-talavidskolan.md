@@ -33,7 +33,7 @@ Med min drönare flyger jag i ett mönster från en specifik höjd med kameran i
 
 Med [OpenDroneMap] kan jag sedan använda mig av fotogrammetri[^1] för att sy ihop bilderna i en mosaik till ett ortofoto[^2] som med lite finjustering ^(georeferering)^ går att göra till ett perfekt bakgrundslager att kartlägga efter. Ofta går det bra att använda sig av Lantmäteriets flygfoton som är av samma typ. Skillnaden är att de tar sina bilder på 2 500–7 400 meters höjd och jag tog mina bilder på 40 meters höjd. Kvalitetsskillnaden på grund av det är betydande.
 
-![Ortofoto över Talavidskolan](2024-09-08_ortofoto_talavidskolan.png "Ortofotot finns publicerad i den öppna datamängden [OpenAerialMap](https://map.openaerialmap.org/#/14.15227621793747,57.78577506174773,18/square/12003212022102000121/66dec62ccd0baa0001b61ffb)")
+![Ortofoto över Talavidskolan](2024-09-08_ortofoto_talavidskolan.png "Ortofotot finns publicerad i den öppna datamängden [OpenAerialMap](https://map.openaerialmap.org/#/14.15227621793747,57.78577506174773,18/square/12003212022102000121/66dec62ccd0baa0001b61ffb)"){.-no-shadow}
 
 I vanliga fall när man fotograferar med drönare behöver man få ett [spridningstillstånd från Lantmäteriet] för att få publicera bilderna ^(i\ skrivande\ stund\ är\ det\ en\ handläggningstid\ på\ nästan\ 3\ månader!)^, men det finns vissa undantag, till exempel det för offentliga platser _(skolgårdar utanför skoltid är offentliga platser i Jönköping)_ där man inte behöver detta tillstånd.
 
@@ -61,7 +61,7 @@ OpenOrienteering Mapper finns som en app för Android som kom väl till pass. Is
 
 Sen var kartan färdigritad!
 
-![Hela den färdiga orienteringskartan](karta.png "Den färdiga kartan"){.-wide}
+![Hela den färdiga orienteringskartan](karta.png "Den färdiga kartan"){.-wide .-no-shadow}
 
 Helt klar var jag dock inte. I vanliga fall stannar vi här eftersom våra egna klubbkartor alltid öppnas i ett banläggningsprogram där vi kan lägga till teckenförklaring, rubrik m.m. Jag valde istället att göra allt detta direkt i Mapper.
 

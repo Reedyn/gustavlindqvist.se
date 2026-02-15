@@ -19,7 +19,7 @@ WordPress är (och var) en plattform som fastnat och hindras av val som gjordes 
 
 Plattformen [Ghost] var simpel i sina funktioner och hade med märkspråket [Markdown][Wikipedia - Markdown] i fokus precis lagom mycket funktioner i form av hantering av inlägg och inställningar. Fördelen plattformen hade 2013 var också den totala avsaknaden av historik som gjorde att de kunde tänka helt nytt.
 
-![Skärmdump på redigeringsgränssnittet i Ghost med redigeringsvy till vänster och visningsvy till höger](ghost_markdown-editor.png)
+![Skärmdump på redigeringsgränssnittet i Ghost med redigeringsvy till vänster och visningsvy till höger](ghost_markdown-editor.png){.-no-shadow .-not-rounded}
 
 Under åren började [Ghost] lägga ett större fokus på bilder med snygg visning för gallerier och bilder av olika storlekar, något som passade mig utmärkt eftersom det mesta innehåll jag själv lägger ut är just bilder. [Jag designade bland annat ett tema för Ghost][Saga] med fokus på bildvisning som den nuvarande designen av webbplatsen är baserad på.
 
@@ -57,7 +57,7 @@ Lyckligtvis finns det ett stort antal program för att redigera Markdown så det
 | Pop!\_OS  | [Ghostwriter] + [git]   |
 | Android   | [Markor] + [Pocket Git] |
 
-![Skärmdump på redigeringsprogrammet Ghostwriter i Windows](ghostwriter-2021-12-07_173620.png)
+![Skärmdump på redigeringsprogrammet Ghostwriter i Windows](ghostwriter-2021-12-07_173620.png){.-not-rounded}
 
 Största nackdelen som jag inte hittat en lösning på än är hanteringen av bilder, i Ghost fanns ett mycket bra flöde där jag kunde ladda upp en bild i hög upplösning som sedan Ghost automatiskt skapade olika storlekar på och komprimerade för webben. Att hitta en smidig lösning för det blir nästa problem att lösa. För tillfället är därför alla bilder i högsta upplösning.
 

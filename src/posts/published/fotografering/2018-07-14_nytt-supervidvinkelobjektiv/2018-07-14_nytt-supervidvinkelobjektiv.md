@@ -26,7 +26,7 @@ Mitt bästa alternativ då var Samyangs 8mm f/3.5 Fisheye som jag använt til
 
 En bild som den ovan fungerar den alldeles utmärkt för eftersom man inte bryr sig så mycket om förvrängningen bland träden. Men vid bilder på arkitektur och andra motiv där det är mycket raka linjer blir det direkt problem.
 
-![Ett träd i en skog. Bilden förvrängs mot kanterna](15119597789_a5a235f560_z.jpg "Bild som visarförvrängningen från Samyang 8mm f/3.5 Fisheye")
+![Ett träd i en skog. Bilden förvrängs mot kanterna](15119597789_a5a235f560_z.jpg "Bild som visarförvrängningen från Samyang 8mm f/3.5 Fisheye"){.-no-shadow}
 
 Det går att använda sig av en metod som man brukar kalla för "defish" för att ta bort förvrängningen, men då uppstår ett annat problem: Komponering i kameran blir väldigt svår eftersom det man ser där inte är det som blir slutbilden.
 

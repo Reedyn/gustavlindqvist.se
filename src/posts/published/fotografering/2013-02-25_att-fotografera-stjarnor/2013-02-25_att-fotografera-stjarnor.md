@@ -60,7 +60,7 @@ _För att veta vilken bländare och ISO man ska använda är det bra att först 
 
 Vilken slutartid man ska ha kan man räkna ut med NPF-formeln.
 
-![NPF-regeln](NPF-rule.png)
+![NPF-regeln](NPF-rule.png){.-no-shadow}
 
 Ingen rimlig person sitter och räknar med denna, istället rekommenderar jag att man använder en app. Personligen använder jag appen [PhotoPills](https://www.photopills.com).
 

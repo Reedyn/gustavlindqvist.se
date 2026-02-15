@@ -34,7 +34,7 @@ Första steget var att välja ut vilka byggnader som jag ville göra. Högskolan
 
 De jag landade i var till slut Toarullen, Högskolan (JIBS + JTH), Munksjöbron och Kulturhuset Spira. Sofiakyrkan föll bort för att den skulle bli för stor för att passa in bland de andra, och det blev ett fokus mer på byggnader kring Munksjön snarare än Jönköping i sin helhet. Det blir nog Sofiakyrkan i en egen design senare.
 
-![3D-rendering av Jönköping i LEGO.](JKPG-Skyline.Finished.Cropped-1.png "Rendering av färdig design från Stud.io"){.-wide}
+![3D-rendering av Jönköping i LEGO.](JKPG-Skyline.Finished.Cropped-1.png "Rendering av färdig design från Stud.io"){.-wide .-no-shadow}
 
 Från Stud.io är det väldigt enkelt. Företaget bakom Stud.io: Bricklink.com som är en köp-och-säljsida för begagnade och nya legobitar har gjort det möjligt att ladda upp filer direkt från Stud.io som sen genererar inköpslistor utifrån de filter som en själv sätter upp. Jag valde att endast köpa från svenska säljare. Därefter beställer en från de butiker som valts ut och till slut kommer paketet (oftast) i brev hem till brevlådan. Snabbt och smidigt!
 
@@ -76,4 +76,4 @@ Och sen en färdig modell. Storleksmässigt är den 2-3 gånger större än de f
 
 Vet inte riktigt vad nästa bygge blir, har påbörjat en design på högskoleområdet men får se om det blir nästa jag faktiskt bygger eller om det blir längre fram.
 
-![3D-rendering av en LEGO-modell över högskolans campus i Jönköping](J-nk-pingUniversity.WIP-1.png)
+![3D-rendering av en LEGO-modell över högskolans campus i Jönköping](J-nk-pingUniversity.WIP-1.png){.-no-shadow}
