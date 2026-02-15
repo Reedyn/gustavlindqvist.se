@@ -13,7 +13,7 @@ tags:
 
 Efter 9 år känner jag att jag vuxit ur den också. Delvis på grund av lagringsutrymmet på 4 diskar men kanske mest på grund av operativsystemet DiskStation som visserligen är baserat på Linux samt har ett väldigt smidigt gränssnitt och några riktigt bra applikationer men som är ett stängt system och som inte längre får mer än säkerhetsuppdateringar.
 
-![DS916+ i ett litet serverrack inbyggt i en hylla](20250301_134605.jpg "Gamla servern i mitt hemmasnickrade serverrack"){.no-shadow}
+![DS916+ i ett litet serverrack inbyggt i en hylla](20250301_134605.jpg "Gamla servern i mitt hemmasnickrade serverrack"){.-no-shadow}
 
 Nya servern är ett hemmabygge som jag själv kan uppgradera och utöka över tid. Den är byggd för operativsystemet [Unraid](https://unraid.net/) som är perfekt för att successivt kunna bygga ut lagringen över tid på ett smidigt sätt och det är väldigt enkelt att drifta egna applikationer (mest via Docker).
 
