@@ -13,7 +13,7 @@ tags:
 
 Efter 9 år känner jag att jag vuxit ur den också. Delvis på grund av lagringsutrymmet på 4 diskar men kanske mest på grund av operativsystemet DiskStation som visserligen är baserat på Linux samt har ett väldigt smidigt gränssnitt och några riktigt bra applikationer men som är ett stängt system och som inte längre får mer än säkerhetsuppdateringar.
 
-![DS916+ i ett litet serverrack inbyggt i en hylla](20250301_134605.jpg "Gamla servern i mitt hemmasnickrade serverrack"){.-no-shadow}
+![DS916+ i ett litet serverrack inbyggt i en hylla](20250301_134605.jpg "Gamla servern i mitt hemmasnickrade serverrack")
 
 Nya servern är ett hemmabygge som jag själv kan uppgradera och utöka över tid. Den är byggd för operativsystemet [Unraid](https://unraid.net/) som är perfekt för att successivt kunna bygga ut lagringen över tid på ett smidigt sätt och det är väldigt enkelt att drifta egna applikationer (mest via Docker).
 
@@ -35,7 +35,7 @@ På grund av det valde jag att höfta till lite grann i valet av komponenter, is
 
 Chassit jag valde att bygga i är [Jonsbo N3](https://www.inet.se/produkt/6910255/jonsbo-n3-svart), ett kompakt NAS-chassi med plats för 8st 3,5"-diskar och några 2.5"-diskar. Enda problemet var egentligen att hitta ett moderkort med tillräckligt många SATA-portar. Jag tittade ett tag på specialbyggda NAS-moderkort som hade alla portar, men jag kände inte riktigt att jag litade på att beställa en så pass central del från Kina utan garanti, så det blev ett gejmingmoderkort som jag sedan kompletterade med en m.2—SATA-adapter.
 
-![Illustration över Jonsbo N3 med diskar i olika färger som visar var det går att montera](6910255_23.png)
+![Illustration över Jonsbo N3 med diskar i olika färger som visar var det går att montera](6910255_23.png){.-no-shadow}
 
 Chassit valde jag att fylla med tysta Noctua-fläktar, jag snålade lite på processorkylaren och körde på den medföljande, men det blir nog en uppgradering så småningom eftersom den är väldigt högljudd under belastning.
 
