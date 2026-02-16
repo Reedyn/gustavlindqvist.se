@@ -198,7 +198,7 @@
 }
 
 .Card__image {
-	position: absolute;
+	position: absolute !important; /* TODO: Find better solution */
 	top: 0;
 	left: 0;
 	z-index: 1;
