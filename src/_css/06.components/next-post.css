@@ -93,7 +93,9 @@
 
 	&:hover .next-post__image,
 	&:focus-within .next-post__image {
-		transform: scale(105%);
+		@media (prefers-reduced-motion: no-preference) {
+			transform: scale(105%);
+		}
 	}
 
 	&:not(.-feature-image) {
