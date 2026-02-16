@@ -57,6 +57,7 @@ figure {
 	}
 
 	&.-inset-shadow:not(.-no-shadow) {
+		overflow: clip;
 		picture {
 			&:after {
 				display: none;
