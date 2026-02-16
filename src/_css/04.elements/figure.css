@@ -17,23 +17,42 @@ figure {
 		display: none;
 	}
 
-	&:not(.-no-shadow) picture {
+	&:not(.-no-shadow) {
 		position: relative;
 
-		img,
-		iframe {
-			z-index: 2;
-			isolation: isolate;
+		picture {
+			position: relative;
+			img {
+				z-index: 2;
+				isolation: isolate;
+			}
+
+			&:after {
+				position: absolute;
+				z-index: 1;
+				inset: 0;
+				box-shadow: var(--color--shadow);
+				border-radius: var(--border-radius--image);
+				isolation: isolate;
+				content: "";
+			}
 		}
 
-		&:after {
-			position: absolute;
-			z-index: 1;
-			inset: 0;
-			box-shadow: var(--color--shadow);
-			border-radius: var(--border-radius--image);
-			isolation: isolate;
-			content: "";
+		&.embed {
+			iframe {
+				z-index: 2;
+				isolation: isolate;
+			}
+
+			&:after {
+				position: absolute;
+				z-index: 1;
+				inset: 0;
+				box-shadow: var(--color--shadow);
+				border-radius: var(--border-radius--image);
+				isolation: isolate;
+				content: "";
+			}
 		}
 	}
 
@@ -115,10 +134,12 @@ figure {
 		width: 100%;
 
 		iframe {
+			display: block;
 			aspect-ratio: 16/9;
 			min-width: 100%;
 			max-width: 100%;
 			height: auto;
+			border: 0;
 
 			/*noinspection CssInvalidMediaFeature*/
 			@media (--viewport--large) {
