@@ -67,7 +67,7 @@
 		position: absolute;
 		top: 0;
 		@media (prefers-reduced-motion: no-preference) {
-			transition: scale 0.2s ease;
+			transition: all 0.2s ease;
 		}
 		margin: 0;
 		width: 100%;
