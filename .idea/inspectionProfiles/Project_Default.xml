@@ -3,6 +3,9 @@
     <option name="myName" value="Project Default" />
     <inspection_tool class="Eslint" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="JSUnresolvedFunction" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSUnresolvedReference" enabled="true" level="INFORMATION" enabled_by_default="true" editorAttributes="INFO_ATTRIBUTES">
+      <option name="myStrictlyCheckGlobalDefinitions" value="true" />
+    </inspection_tool>
     <inspection_tool class="JSUnresolvedVariable" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myStrictlyCheckGlobalDefinitions" value="true" />
     </inspection_tool>
