@@ -12,7 +12,7 @@ eleventyComputed:
 {%- set canonicalURL = metadata.url + page.url -%}
 {%- set hashId =  page.url | hashString -%}
 {% if feature_image %}
-    {%- set optimizedFeatureImage = feature_image | featureImageFilter("100vw", "post-header__image -no-shadow", page) %}
+    {%- set optimizedFeatureImage = feature_image | featureImageFilter("100vw", "post-header__image -inset-shadow", page) %}
 {% else %}
     {%- set optimizedFeatureImage = "" %}
 {% endif %}

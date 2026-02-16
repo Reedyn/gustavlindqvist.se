@@ -56,6 +56,23 @@ figure {
 		}
 	}
 
+	&.-inset-shadow:not(.-no-shadow) {
+		picture {
+			&:after {
+				display: none;
+			}
+		}
+
+		&:after {
+			position: absolute;
+			z-index: 1;
+			inset: 0 -50vw;
+			box-shadow: var(--color--shadow--inset);
+			isolation: isolate;
+			content: "";
+		}
+	}
+
 	img {
 		margin: 0;
 	}
@@ -135,11 +152,11 @@ figure {
 
 		iframe {
 			display: block;
+			border: 0;
 			aspect-ratio: 16/9;
 			min-width: 100%;
 			max-width: 100%;
 			height: auto;
-			border: 0;
 
 			/*noinspection CssInvalidMediaFeature*/
 			@media (--viewport--large) {
