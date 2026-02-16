@@ -6,7 +6,7 @@ export default async () => {
 
 	const categoryData = {
 		6: {
-			name: 'Packning',
+			name: 'Väskor',
 			icon: 'bag-personal',
 			color: 'oklch(45% 0.16 272)',
 		},
