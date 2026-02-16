@@ -34,6 +34,7 @@ figure {
 				box-shadow: var(--color--shadow);
 				border-radius: var(--border-radius--image);
 				isolation: isolate;
+				pointer-events: none;
 				content: "";
 			}
 		}
@@ -51,6 +52,7 @@ figure {
 				box-shadow: var(--color--shadow);
 				border-radius: var(--border-radius--image);
 				isolation: isolate;
+				pointer-events: none;
 				content: "";
 			}
 		}
