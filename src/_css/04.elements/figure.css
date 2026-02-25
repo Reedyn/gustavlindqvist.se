@@ -1,7 +1,5 @@
 figure {
 	--_margin__top-bottom: var(--margin--top-bottom, var(--margin--tiny));
-	display: flex;
-	justify-content: center;
 	margin-top: var(--_margin__top-bottom);
 	margin-bottom: var(--_margin__top-bottom);
 
