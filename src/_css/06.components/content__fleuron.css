@@ -1,10 +1,10 @@
 .fleuron {
+	/* Example fleuron characters: ✃⁂➤✎☘☂⛬ */
+
 	margin-block-start: var(--margin--large);
 	margin-block-end: var(--margin--large);
 	color: var(--color--accent);
-	/* Example fleuron characters: ✃⁂➤✎☘☂⛬ */
 	font-size: var(--font--size--heading-1);
 	line-height: 1;
-	user-select: none;
 	text-align: center;
 }
