@@ -1,4 +1,4 @@
-.gallery {
+.content .gallery {
 	display: flex;
 	flex-direction: column;
 	.gallery-row {
@@ -14,7 +14,7 @@
 	}
 }
 
-.gallery-row {
+.content .gallery-row {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
