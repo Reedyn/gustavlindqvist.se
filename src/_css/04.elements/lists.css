@@ -54,6 +54,7 @@ ol {
 	}
 
 	&.-icons {
+		/* TODO: Rewrite with support for list-style-image */
 		display: flex;
 		flex-direction: column;
 		margin-inline-start: 1.75em;
