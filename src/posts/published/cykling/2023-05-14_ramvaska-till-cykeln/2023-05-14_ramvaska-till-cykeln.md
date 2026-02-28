@@ -11,7 +11,7 @@ tags:
     - friluftsliv
 ---
 
-De flesta väskor för cyklarna är one-size-fits-most. Där inkluderas styrväskor, sadelväskor med mera. Det gäller dock inte för ramväskan eftersom den ska in i ramen. Många cyklar har en ganska liknande ram som racer och gruscyklar, men inte MTB.{.lead}
+De flesta väskor för cyklar är one-size-fits-most. Där inkluderas styrväskor, sadelväskor med mera. Det gäller dock inte för ramväskan eftersom den ska in i ramen. Många cyklar har en ganska liknande ram som racer och gruscyklar, men inte MTB.{.lead}
 
 jag valde därför att sy min egen. Jag har sedan tidigare sytt en mindre sådan väska som jag använt då och då när jag inte vill ha ryggsäck. Nu var det dags för en modell större.
 
