@@ -78,30 +78,30 @@ export default function (eleventyConfig) {
 	});
 
 	// Tidy up json and html output with prettier
-	eleventyConfig.addTransform('prettier', function (content, outputPath) {
-		if (typeof outputPath === 'string' && outputPath) {
-			const extname = path.extname(outputPath);
-			switch (extname) {
-				case '.html':
-				case '.json':
-					return prettier.format(content, {
-						printWidth: 5000,
-						parser: extname.replace(/^./, ''),
-						bracketSameLine: true,
-						plugins: [
-							'prettier-plugin-css-order',
-							'prettier-eslint',
-							'@awmottaz/prettier-plugin-void-html',
-						],
-					});
-
-				default:
-					return content;
-			}
-		}
-
-		return content;
-	});
+	// eleventyConfig.addTransform('prettier', function (content, outputPath) {
+	// 	if (typeof outputPath === 'string' && outputPath) {
+	// 		const extname = path.extname(outputPath);
+	// 		switch (extname) {
+	// 			case '.html':
+	// 			case '.json':
+	// 				return prettier.format(content, {
+	// 					printWidth: 5000,
+	// 					parser: extname.replace(/^./, ''),
+	// 					bracketSameLine: true,
+	// 					plugins: [
+	// 						'prettier-plugin-css-order',
+	// 						'prettier-eslint',
+	// 						'@awmottaz/prettier-plugin-void-html',
+	// 					],
+	// 				});
+	//
+	// 			default:
+	// 				return content;
+	// 		}
+	// 	}
+	//
+	// 	return content;
+	// });
 
 	// Remove trailing `/>`
 	eleventyConfig.addTransform('remove-trailing-void-close-tag', function (content) {

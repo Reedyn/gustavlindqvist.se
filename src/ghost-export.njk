@@ -1,0 +1,34 @@
+---json
+{
+  "permalink": "ghost.json",
+  "eleventyExcludeFromCollections": true
+}
+---
+{
+	"meta": {
+		"exported_on": {% epoch %},
+		"version": "6.0.0"
+	},
+	"data": {
+		"posts": [
+			{%- for post in collections.posts -%}
+			{%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.url ) }}{% endset %}
+			{%- set postId %}{{ post.data.id | htmlBaseUrl(metadata.url) if post.data.id else absolutePostUrl }}{% endset %}
+			{
+				"id":             "{{ postId | hashString }}",
+				"title":          "{{ post.data.title }}",
+				"slug":           "{{ post.url | getSlugFromURL }}",
+				"html":           {{ post.templateContent | renderTransforms(post.data.page, metadata.url) | dump | safe }},
+				"feature_image":  " {{ post.data.feature_image }}",
+				"type":           "post",
+				"status":         "published",
+				"visibility":     "public",
+				"created_at":     "{{ post.date | longISODate }}",
+				"updated_at":     "{{ post.date | longISODate }}",
+				"published_at":   "{{ post.date | longISODate }}",
+				"custom_excerpt": "{{ post.data.description }}"
+			}{% if loop.index0 < collections.posts.length %},{% endif %}
+			{%- endfor -%}
+		]
+	}
+}

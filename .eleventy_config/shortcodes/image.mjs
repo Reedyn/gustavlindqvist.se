@@ -70,25 +70,7 @@ export default function (src, srcType, width, height, style, alt, sizes, caption
 				? `<figcaption>${markdown.render(caption)}</figcaption>`
 				: '';
 
-			const srcset = imgProxyWidths
-				.map((width) => {
-					return (
-						imgProxy
-							.builder()
-							.width(width)
-							.generateUrl(host + src) +
-						' ' +
-						width +
-						'w'
-					);
-				})
-				.join(', ');
-
-			const sourceElement = !host.includes('localhost')
-				? `<source type="${srcType}" srcset="${srcset}" sizes="${sizes}">`
-				: '';
-
-			return `<figure class="image ${style}"><picture>${sourceElement}
+			return `<figure class="image ${style}"><picture>
 			<img
             src="${host + src}"
             width="${width}"

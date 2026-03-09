@@ -54,7 +54,7 @@ export default function (tokens, index, options, env) {
 			return `<figure${classString}><img width="800" height="300"${attributesString}></figure>`;
 
 		case 'relative-to-root':
-			urlPrefix = host;
+			urlPrefix = '';
 			if (caption) {
 				return `<figure${classString}><img src="${source}"${attributesString}><figcaption><em>${markdown.render(caption)}</em></figcaption></figure>`;
 			}
@@ -74,12 +74,12 @@ export default function (tokens, index, options, env) {
 				encode: true,
 			});
 
-			urlPrefix = host;
+			urlPrefix = '';
 			const documentPath = env.page.filePathStem;
 			const outputPath = env.page.outputPath
 				.substring(0, env.page.outputPath.lastIndexOf('/')) // Remove document from path
 				.replace(/^\//, ''); // remove first slash
-			const queryPath = outputPath.replace('./_site', '') + '/';
+			const queryPath = '/content/images' + outputPath.replace('./_site', '') + '/';
 
 			const folderPath =
 				'./src/' +
@@ -90,7 +90,7 @@ export default function (tokens, index, options, env) {
 			const options = {
 				widths: [null],
 				formats: [null],
-				outputDir: outputPath,
+				outputDir: '_ghost_export'+queryPath,
 				urlPath: '',
 				filenameFormat: function (id, src, width, format) {
 					const extension = path.extname(src);
@@ -165,9 +165,9 @@ export default function (tokens, index, options, env) {
 				? `<source type="${imageSrc.sourceType}" srcset="${srcset}" sizes="${sizes}">`
 				: '';
 
-			return `<figure class="image ${style}"${inlineStyling}><picture>${sourceElement}
+			return `<figure class="image ${style}"${inlineStyling}><picture>
 			<img
-            src="${urlPrefix + queryPath + imageSrc.url}"
+            src="${queryPath + imageSrc.url}"
             width="${imageSrc.width}"
             height="${imageSrc.height}"
             ${attributesString}></picture>${captionElement}</figure>`;

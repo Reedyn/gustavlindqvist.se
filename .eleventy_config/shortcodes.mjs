@@ -7,6 +7,9 @@ export default {
 	pack: pack.pack,
 	packInventory: pack.packInventory,
 	image,
+	epoch: function () {
+		return Number(new Date());
+	},
 	checksum: function (filename) {
 		const fileContent = fs.readFileSync(filename, 'utf8');
 		return functions.hashString(fileContent);

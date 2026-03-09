@@ -1,0 +1,26 @@
+---json
+{
+  "permalink": "ghost-tagsref.json",
+  "eleventyExcludeFromCollections": true
+}
+---
+{
+	"meta": {
+		"exported_on": {% epoch %},
+		"version": "6.0.0"
+	},
+	"data": {
+		"posts_tags": [
+			{%- for post in collections.posts -%}
+			{%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.url ) }}{% endset %}
+			{%- set postId %}{{ loop.index0 }}{% endset %}
+			{%- for tag in post.data.tags -%}{% if (tag !== 'posts') and (tag !== 'page') %}{% set tagData = tagMetadata[tag] %}
+			{
+				"post_id": "{{ postId | hashString }}",
+				"tag_id":  "{{ tag | hashString }}"
+			}{% if loop.index0 < collections.posts.length %},{% endif %}
+			{% endif %}{%- endfor %}
+			{%- endfor -%}
+		]
+	}
+}

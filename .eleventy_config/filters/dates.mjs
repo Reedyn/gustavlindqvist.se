@@ -8,6 +8,9 @@ export default {
 	date: (date, format) => {
 		return moment(date).format(format);
 	},
+	epoch: () => {
+		return Number(new Date());
+	},
 	dateFromString: (dateString) => {
 		return new Date(dateString);
 	},

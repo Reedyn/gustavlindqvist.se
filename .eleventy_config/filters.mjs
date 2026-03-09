@@ -40,7 +40,7 @@ export default {
 	slug: (input) => {
 		const options = {
 			replacement: '-',
-			remove: /[&,+()$~%.'":*?<>{}←→↑↓↔↕↖↗↘↙°!′]/g,
+			remove: /[&,+()$~%.'":*?<>{}←→↑↓↔↕↖↗↘↙°!′­]/g,
 			lower: true,
 		};
 		return slugify(input, options);
@@ -57,6 +57,10 @@ export default {
 		return batches.filter((batch) => {
 			return batch.recipe._id === recipeId;
 		});
+	},
+	getSlugFromURL: (url) => {
+		const match = url.match(/\/([^\/]+)\/?$/);
+		return match ? match[1] : url;
 	},
 	utf8_xml: (inputStr) => {
 		return inputStr.replace(

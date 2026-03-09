@@ -16,8 +16,7 @@ All colors used throughout the theme
 	--color--background--contrast--alt: oklch(2% 0 0deg);
 	--color--background--gradient: linear-gradient(180deg, transparent 0, white 100%);
 	--color--overlay: oklch(0% 0 0deg / 0.5);
-	--color--shadow: 1px 1px 1px oklch(0 0 0 / 0.05), 3px 3px 5px oklch(0 0 0 / 0.04),
-		7px 7px 11px oklch(0 0 0 / 0.03), 13px 13px 19px oklch(0 0 0 / 0.02),
+	--color--shadow: 1px 1px 1px oklch(0 0 0 / 0.05), 3px 3px 5px oklch(0 0 0 / 0.04), 7px 7px 11px oklch(0 0 0 / 0.03), 13px 13px 19px oklch(0 0 0 / 0.02),
 		20px 20px 30px oklch(0 0 0 / 0.01);
 	--color--shadow--inset: inset 0px 0px 1px rgba(0, 0, 0, 0.05), inset 0px 0 rgba(0, 0, 0, 0.1),
 		inset 0px 0 7px rgba(0, 0, 0, 0.15), inset 0px 0 13px rgba(0, 0, 0, 0.2),
