@@ -56,10 +56,12 @@ export default async function (filePath, sizes, style, postData) {
 			break;
 	}
 
+	const queryPath = '/content/images' + outputPath.replace('./_site', '') + '/';
+
 	const options = {
 		widths: [null],
 		formats: [null],
-		outputDir: outputPath,
+		outputDir: '_ghost_export' + queryPath,
 		filenameFormat: function (id, src, width, format) {
 			const extension = path.extname(src);
 			const name = path.basename(src, extension);

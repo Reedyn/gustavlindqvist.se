@@ -1,8 +1,9 @@
----json
-{
-  "permalink": "ghost.json",
-  "eleventyExcludeFromCollections": true
-}
+---
+eleventyExcludeFromCollections: true
+permalink: "/ghost-export/posts-{{ pagination.pageNumber }}.json"
+pagination:
+  size: 50
+  data: collections.posts
 ---
 {
 	"meta": {
@@ -11,7 +12,7 @@
 	},
 	"data": {
 		"posts": [
-			{%- for post in collections.posts -%}
+			{%- for post in pagination.items -%}
 			{%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.url ) }}{% endset %}
 			{%- set postId %}{{ post.data.id | htmlBaseUrl(metadata.url) if post.data.id else absolutePostUrl }}{% endset %}
 			{
@@ -19,7 +20,7 @@
 				"title":          "{{ post.data.title }}",
 				"slug":           "{{ post.url | getSlugFromURL }}",
 				"html":           {{ post.templateContent | renderTransforms(post.data.page, metadata.url) | dump | safe }},
-				"feature_image":  " {{ post.data.feature_image }}",
+				"feature_image":  {% if post.data.feature_image %}"/content/images{{ post.url + post.data.feature_image }}"{% else %}null{% endif %},
 				"type":           "post",
 				"status":         "published",
 				"visibility":     "public",
@@ -27,8 +28,29 @@
 				"updated_at":     "{{ post.date | longISODate }}",
 				"published_at":   "{{ post.date | longISODate }}",
 				"custom_excerpt": "{{ post.data.description }}"
-			}{% if loop.index0 < collections.posts.length %},{% endif %}
+			}{% if loop.index0 < pagination.items.length %},{% endif %}
 			{%- endfor -%}
+		],
+		"posts_tags": [
+			{%- for post in pagination.items -%}
+			{%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.url ) }}{% endset %}
+			{%- set postId %}{{ post.data.id | htmlBaseUrl(metadata.url) if post.data.id else absolutePostUrl }}{% endset %}
+			{%- for tag in post.data.tags -%}{% if (tag !== 'posts') and (tag !== 'page') %}{% set tagData = tagMetadata[tag] %}
+				{
+				"post_id": "{{ postId | hashString }}",
+				"tag_id":  "{{ tag | hashString }}"
+				}{% if loop.index0 < pagination.items.length %},{% endif %}
+			{% endif %}{%- endfor %}
+			{%- endfor -%}
+		],
+		"tags": [
+			{% for tag, count in collections.tagsBySize %} {% if (tag !== 'posts') and (tag !== 'page') %}{% set tagUrl %}/{{ tag | slug }}/{% endset %}{% set tagData = tagMetadata[tag] %}
+			{
+			"id":   "{{ tag | hashString }}",
+			"name": "{% if tagData.title %}{{ tagData.title | firstLetterUppercase }}{% else %}{{ tag | firstLetterUppercase }}{% endif %}",
+			"slug": "{{ tag }}"
+			}{% if loop.index0 < collections.tagsBySize.length %},{% endif %}
+			{% endif %} {% endfor %}
 		]
 	}
 }

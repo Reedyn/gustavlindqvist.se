@@ -37,6 +37,7 @@ export default function (tokens, index, options, env) {
 		decoding: 'async',
 	};
 	const style = token.attrGet('class') ? token.attrGet('class') : '';
+	let ghostStyle = 'kg-image'
 	const classString = ` class="image ${style}"`;
 	const caption = token.attrGet('title');
 	const attributesString =
@@ -133,9 +134,11 @@ export default function (tokens, index, options, env) {
 			switch (style) {
 				case '-full':
 					sizes = '100vw';
+					ghostStyle += ' kg-width-full';
 					break;
 				case '-wide':
 					sizes = '(max-width: 80rem) 100vw, 80rem';
+					ghostStyle += ' kg-width-wide';
 					break;
 				case '-inline':
 					// Approximation of the size in the UI, not perfect since the siblings width isn't taken into account
@@ -165,7 +168,7 @@ export default function (tokens, index, options, env) {
 				? `<source type="${imageSrc.sourceType}" srcset="${srcset}" sizes="${sizes}">`
 				: '';
 
-			return `<figure class="image ${style}"${inlineStyling}><picture>
+			return `<figure class="image ${style} ${ghostStyle}"${inlineStyling}><picture>
 			<img
             src="${queryPath + imageSrc.url}"
             width="${imageSrc.width}"
