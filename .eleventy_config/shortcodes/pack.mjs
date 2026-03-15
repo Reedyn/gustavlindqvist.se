@@ -5,7 +5,7 @@ export default {
 		}
 
 		if (pack) {
-			let outputString = '<section class="pack">';
+			let outputString = `<section class="pack" data-name="${pack.name}" data-id="${pack.packId}">`;
 			pack.contents.forEach((category) => {
 				const color =
 					typeof category.color !== 'undefined' && category.color.length
@@ -58,9 +58,7 @@ export default {
                         </li>`;
 			}
 			outputString += '</ul>';
-			outputString += `<p><a href="${pack.shareLink}">Utrustningslistan ${pack.name} på Packstack</a></p>`;
 			outputString += '</section>';
-			outputString += '<script src="/assets/javascript/pack.js" async></script>';
 			return outputString;
 		}
 		return '';
@@ -109,7 +107,6 @@ export default {
 				'<button class="button pack__list-button pack__list-button__show-inventory hidden@no-js">Visa all utrustning</button></div>';
 			outputString += equipmentString;
 			outputString += '</section>';
-			outputString += '<script src="/assets/javascript/pack.js" async></script>';
 			return outputString;
 		}
 		return '';
