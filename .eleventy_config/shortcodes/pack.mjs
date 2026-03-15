@@ -39,20 +39,20 @@ export default {
 				outputString += '</details>';
 			});
 			outputString += `<ul class="statistics-list ${pack.consumables_weight > 0 ? '-column-count-4' : ''}">
-                    <li class="statistics-list item">
-                        <span class="statistics-list item-label">Total vikt<span class="sr-only">:</span></span>
-                        <span class="statistics-list item-value">${prettyDigits(pack.total_weight)}g</span>
+                    <li class="list-item">
+                        <span class="item-label">Total vikt<span class="sr-only">:</span></span>
+                        <span class="item-value">${prettyDigits(pack.total_weight)}g</span>
                     </li>
-                    <li class="statistics-list-item">
+                    <li class="list-item">
                         <span class="item-label">Basvikt<span class="sr-only">:</span></span>
                         <span class="item-value">${prettyDigits(pack.base_weight)}g</span>
                     </li>
-                    <li class="statistics-list-item">
+                    <li class="list-item">
                         <span class="item-label">På kroppen<span class="sr-only">:</span></span>
                         <span class="item-value">${prettyDigits(pack.worn_weight)}g</span>
                     </li>`;
 			if (pack.consumables_weight > 0) {
-				outputString += `<li class="statistics-list-item">
+				outputString += `<li class="list-item">
                             <span class="item-label">Förbrukningsvaror<span class="sr-only">:</span></span>
                             <span class="item-value">${prettyDigits(pack.consumables_weight)}g</span>
                         </li>`;
