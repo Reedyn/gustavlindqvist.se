@@ -6,4 +6,5 @@ label: "/assets/icons/Gustavs-hembryggeri_Logotyp_Vatterns-enkla.svg#vatterns-en
 label_viewbox: "0 0 500 190.6"
 color: "oklch(67% 0.181 37deg)"
 thumbnail_image: "/assets/images/og_brewery_vatterns-enkla.png"
+recipeId: "UtRDDEtSXhNZeFh08cUWG3O8mON4uZ"
 ---
