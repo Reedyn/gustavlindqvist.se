@@ -51,23 +51,12 @@ export default function (eleventyConfig) {
 		eleventyConfig.addCollection(collectionName, collections[collectionName]);
 	});
 
-	eleventyConfig.addPassthroughCopy('src/assets');
 	eleventyConfig.addPassthroughCopy('src/CNAME');
 	eleventyConfig.addPassthroughCopy('src/robots.txt');
-	eleventyConfig.addPassthroughCopy('src/key_gustav-lindqvist.asc');
-	eleventyConfig.addPassthroughCopy({
-		'src/webfinger.json': '/.well-known/webfinger',
-	});
-	eleventyConfig.addPassthroughCopy({ 'src/favicon': '/' });
-	eleventyConfig.addPassthroughCopy('src/_redirects');
-	eleventyConfig.addPassthroughCopy('src/_headers');
 
 	// Layouts
-	eleventyConfig.addLayoutAlias('base', 'base.njk');
-	eleventyConfig.addLayoutAlias('page', 'page.njk');
-	eleventyConfig.addLayoutAlias('post', 'post.njk');
-	eleventyConfig.addLayoutAlias('beer', 'beer.njk');
-	eleventyConfig.addLayoutAlias('brewery', 'brewery.njk');
+	eleventyConfig.addLayoutAlias('fragment', 'fragment.njk');
+	eleventyConfig.addLayoutAlias('fragments.brewery', 'fragments.brewery.njk');
 
 	eleventyConfig.setDataDeepMerge(true);
 	eleventyConfig.setLibrary('md', markdown);

@@ -151,6 +151,7 @@ export default async () => {
 
 			pack.name = packData.title;
 			pack.id = packData.id;
+			pack.shareId = shareId;
 			pack.contents = categories;
 			pack.shareLink = `https://packstack.io/pack/${shareId}`;
 
@@ -169,20 +170,18 @@ export default async () => {
 		}
 	};
 
-	packstack.jamtlandstriangeln_2025 = await getPack(
-		'1347',
-		'7b57ce93-3c7e-4728-a2a9-e8b7f7e3237f',
-	);
-	packstack.bankerydsleden_2022 = await getPack('368', '020cc93d-2d4e-43c0-9df4-c1ccb63c90eb');
-	packstack.visingso2024 = await getPack('1054', 'fe2c7512-dbd3-4d28-83d4-d3c658767101');
-	packstack.summer_2025 = await getPack('1346', '7b57ce93-3c7e-4728-a2a9-e8b7f7e3237f');
-	packstack.summer_2024 = await getPack('909', '7b57ce93-3c7e-4728-a2a9-e8b7f7e3237f');
-	packstack.summer_2023 = await getPack('367', '5f4edc0b-ddca-4a64-a97f-ee313f66e6bd');
-	packstack.summer_2022 = await getPack('369', 'dc516757-bc41-4304-a29e-5dadc9dcf50e');
-	packstack.bikepacking_2024 = await getPack('892', '7bc1501e-e6cd-4f46-b191-8b6bd4bd9ff1');
-	packstack.bikepacking_2023 = await getPack('370', '10c47671-c9f4-414e-b07d-2d796eb1c3e0');
-	packstack.big_camera_kit = await getPack('372', '12baa3b2-8104-4c26-9532-acb721f05240');
-	packstack.small_camera_kit = await getPack('371', 'c8848465-155d-4b9e-ac99-ddf43d8cbdbb');
+	packstack.packs = [];
+
+	packstack.packs.push(await getPack('368', '020cc93d-2d4e-43c0-9df4-c1ccb63c90eb'));
+	packstack.packs.push(await getPack('909', '7b57ce93-3c7e-4728-a2a9-e8b7f7e3237f'));
+	packstack.packs.push(await getPack('367', '5f4edc0b-ddca-4a64-a97f-ee313f66e6bd'));
+	packstack.packs.push(await getPack('369', 'dc516757-bc41-4304-a29e-5dadc9dcf50e'));
+	packstack.packs.push(await getPack('892', '7bc1501e-e6cd-4f46-b191-8b6bd4bd9ff1'));
+	packstack.packs.push(await getPack('370', '10c47671-c9f4-414e-b07d-2d796eb1c3e0'));
+	packstack.packs.push(await getPack('372', '12baa3b2-8104-4c26-9532-acb721f05240'));
+	packstack.packs.push(await getPack('371', 'c8848465-155d-4b9e-ac99-ddf43d8cbdbb'));
+
+	packstack.packs.sort()
 
 	return packstack;
 };

@@ -1,6 +1,0 @@
-@media (prefers-reduced-motion: no-preference) {
-	/*noinspection CssInvalidAtRule,CssUnknownProperty*/
-	@view-transition {
-		navigation: auto;
-	}
-}

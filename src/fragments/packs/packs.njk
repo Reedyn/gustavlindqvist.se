@@ -1,0 +1,10 @@
+---
+title: "Packs"
+layout: "fragment"
+permalink: /packs/index.html
+---
+<ul>
+	{% for pack in packstack.packs %}
+		<li><a href="/packs/{{ pack.id }}">{{ pack.name }}</a></li>
+	{% endfor %}
+</ul>

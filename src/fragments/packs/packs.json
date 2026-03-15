@@ -1,0 +1,6 @@
+{
+	"tags": "packs",
+	"permalink": "/packs/{{ title | slug }}/index.html",
+	"layout": "fragment.njk",
+	"order": 99
+}

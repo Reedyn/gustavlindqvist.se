@@ -15,8 +15,8 @@ export default {
                     <span class="pack__category-summary__left"><svg class="icon -large" role="presentation" style="color: ${color}" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" href="/assets/icons/${category.icon}.svg#icon"></use></svg></span><span class="pack__category-summary__middle">${category.name}<span class="sr-only">:</span></span>
                     <span class="pack__category-summary__right" style="padding-right: 0.3rem">${prettyDigits(category.total_weight)}g</span>
                     <div class="pack__category-summary__bar" style="width: ${((category.total_weight / pack.total_weight) * 200).toFixed(3)}%; background: ${color};"></div></summary>`;
-
 				let packList = '';
+
 				packList += '<ul class="pack__list">';
 				category.items.forEach((item) => {
 					const quantity = typeof item.quantity !== 'undefined' ? item.quantity : 1;
