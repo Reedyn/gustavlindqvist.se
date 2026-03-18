@@ -51,6 +51,7 @@ export default function (eleventyConfig) {
 		eleventyConfig.addCollection(collectionName, collections[collectionName]);
 	});
 
+	eleventyConfig.addPassthroughCopy('src/feed.xsl');
 	eleventyConfig.addPassthroughCopy('src/CNAME');
 	eleventyConfig.addPassthroughCopy('src/robots.txt');
 
