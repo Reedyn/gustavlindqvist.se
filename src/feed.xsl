@@ -12,7 +12,7 @@
             <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
             <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
             <link rel="stylesheet"
-                  href="/assets/css/gustavlindqvist.css"/>
+                  href="https://gustavlindqvist.se/assets/css/gustavlindqvist.css"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
             <link rel="canonical"><xsl:attribute name="href"><xsl:value-of select="atom:link/@href"/></xsl:attribute></link>
