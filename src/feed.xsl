@@ -20,7 +20,7 @@
         <body>
         <header class="site-header hidden@print" aria-label="Sidhuvud">
             <div class="site-header__content">
-                <span class="site__title"><a href="https://gustavlindqvist.se"><img src="/assets/images/blog-profilepic.jpg"
+                <span class="site__title"><a href="https://gustavlindqvist.se"><img src="https://gustavlindqvist.se/content/images/2026/03/blog-profilepic-1.jpg"
                                                                             class="site__image"
                                                                             alt="Selfie på Gustav Lindqvist" width="30"
                                                                             height="30"/>Gustav Lindqvist</a></span>
