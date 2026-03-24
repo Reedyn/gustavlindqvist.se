@@ -36,27 +36,6 @@
                 <section class="feed content">
                     <p>Detta är ett webbflöde som du kan följa genom att klistra in <a><xsl:attribute name="href"><xsl:value-of select="atom:feed/atom:link/@href"/></xsl:attribute>länken</a> i en <a href="https://alternativeto.net/category/books--news/rss-feed-reader/">RSS-läsare</a>.</p>
                     <p><a><xsl:attribute name="href"><xsl:value-of select="atom:feed/atom:link/@href"/></xsl:attribute><xsl:value-of select="atom:feed/atom:link/@href"/></a></p>
-                    <p>Du kan även följa något av mina andra flöden om du bara är intresserad av delar av det jag skriver:</p>
-                    <ul>
-
-                            <li><a href="/friluftsliv/feed.xml">Flöde för friluftsliv</a></li>
-
-                            <li><a href="/fotografering/feed.xml">Flöde för fotografering</a></li>
-
-                            <li><a href="/cykling/feed.xml">Flöde för cykling</a></li>
-
-                            <li><a href="/lopning/feed.xml">Flöde för löpning</a></li>
-
-                            <li><a href="/olbryggning/feed.xml">Flöde för ölbryggning</a></li>
-
-                            <li><a href="/kartor/feed.xml">Flöde för kartor</a></li>
-
-                            <li><a href="/resor/feed.xml">Flöde för resor</a></li>
-                    </ul>
-                    <p>Andra flöden:</p>
-                    <ul>
-                        <li><a href="/lanktips.xml">Flöde för mina länktips</a></li>
-                    </ul>
                     <h2>Inlägg i flödet</h2>
                     <ul class="post-list">
                     <xsl:for-each select="atom:feed/atom:entry">

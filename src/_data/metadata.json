@@ -1,6 +1,6 @@
 {
 	"title": "Gustav\u00a0Lindqvist",
-	"url": "https://gustavlindqvist.se",
+	"url": "https://fragments.gustavlindqvist.se",
 	"language": "sv",
 	"locale": "sv",
 	"description": "fotografering, friluftsliv, kartor & annat",
@@ -8,7 +8,7 @@
 		"subtitle": "fotografering, friluftsliv, kartor & annat",
 		"filename": "feed.xml",
 		"path": "/feed.xml",
-		"id": "https://gustavlindqvist.se"
+		"id": "https://fragments.gustavlindqvist.se"
 	},
 	"author": {
 		"name": "Gustav",
