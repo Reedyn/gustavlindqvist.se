@@ -180,6 +180,7 @@ export default async () => {
 	packstack.packs.push(await getPack('892'));
 	packstack.packs.push(await getPack('909'));
 	packstack.packs.push(await getPack('1054'));
+	packstack.packs.push(await getPack('1347'));
 
 	packstack.packs.sort()
 
