@@ -58,7 +58,7 @@ export default async () => {
 
 	const getPack = async (packId) => {
 		let pack = {};
-		const packUrl = `https://api.packstack.io/pack/trip/${packId}`;
+		const packUrl = `https://api.packstack.io/pack/trip/${packId}/public`;
 		try {
 			const rawPackData = await fetch(packUrl, {
 				duration: '3h',
