@@ -182,6 +182,7 @@ export default async () => {
 	packstack.packs.push(await getPack('1054'));
 	packstack.packs.push(await getPack('1347'));
 	packstack.packs.push(await getPack('2123'));
+	packstack.packs.push(await getPack('2720'));
 
 	packstack.packs.sort()
 
